@@ -1,0 +1,21 @@
+@import "tailwindcss";
+:root {
+  color-scheme: light;
+}
+body {
+  margin: 0;
+  background: #faf9f6;
+  color: #242621;
+  font-family: Arial, "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    transition: none !important;
+  }
+}

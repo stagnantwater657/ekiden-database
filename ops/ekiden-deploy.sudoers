@@ -1,0 +1,5 @@
+# The script independently enforces one strictly validated version argument.
+Defaults:ekiden-deploy env_reset
+Defaults:ekiden-deploy !setenv
+Defaults:ekiden-deploy secure_path=/usr/sbin:/usr/bin:/sbin:/bin
+ekiden-deploy ALL=(root) NOPASSWD: /usr/local/sbin/ekiden-deploy *

@@ -1,0 +1,33 @@
+name: ekiden
+services:
+  web:
+    image: ${EKIDEN_IMAGE:?Set an approved immutable image reference}
+    pull_policy: never
+    restart: unless-stopped
+    init: true
+    user: "1001:1001"
+    ports:
+      - "127.0.0.1:3001:3000"
+    env_file:
+      - /etc/ekiden/runtime.env
+    environment:
+      NODE_ENV: production
+      NEXT_TELEMETRY_DISABLED: "1"
+      PORT: "3000"
+      HOSTNAME: "0.0.0.0"
+      NODE_OPTIONS: --max-old-space-size=256
+    read_only: true
+    tmpfs:
+      - /tmp:size=32m,mode=1777
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    mem_limit: 384m
+    cpus: 1.0
+    pids_limit: 100
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"

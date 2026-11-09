@@ -204,7 +204,7 @@ class LowLevelTests(unittest.TestCase):
                    "Mounts": [{"Type": "volume", "Name": source.CONTAINER+"_state", "Destination": "/var/lib/buildkit"}]}
         info = {"Name": source.BUILDER, "Driver": "docker-container", "Nodes": [{"Endpoint": "unix:///var/run/docker.sock"}]}
         def api_with(limits):
-            def engine(*args):
+            def engine(*args, **_kwargs):
                 if args[:2] == ("buildx", "ls"): return (json.dumps(info)+"\n"+json.dumps(info)).encode()
                 if args[:2] == ("container", "inspect"): return json.dumps([builder]).encode()
                 if args[0] == "exec": return limits

@@ -1,21 +1,22 @@
 name: Deploy Ekiden (manual)
 on:
   workflow_dispatch:
+    inputs:
+      upload_only:
+        description: Verify upload/import only; do not update the running website
+        type: boolean
+        default: false
 permissions:
   contents: read
 concurrency:
   group: ekiden-production
   cancel-in-progress: false
 jobs:
-  build:
+  build-and-deploy:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-22.04
-    timeout-minutes: 25
-    permissions:
-      contents: read
-      packages: write
-    outputs:
-      digest: ${{ steps.image.outputs.digest }}
+    timeout-minutes: 75
+    environment: production
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -24,30 +25,35 @@ jobs:
           cache: npm
       - run: npm ci --no-audit --no-fund
       - run: npm run typecheck && npm run lint && npm test
+      - run: python3 tests/deployment_test.py
       - uses: docker/setup-buildx-action@v3
-      - uses: docker/login-action@v3
-        with:
-          registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
-      - name: Build and push SHA image
-        id: image
+      - name: Build a single-platform image on the runner
         uses: docker/build-push-action@v6
         with:
           context: .
-          push: true
+          load: true
+          push: false
+          provenance: false
           platforms: linux/amd64
           tags: ghcr.io/stagnantwater657/ekiden-database:${{ github.sha }}
-          labels: org.opencontainers.image.source=https://github.com/stagnantwater657/ekiden-database
-  deploy:
-    needs: build
-    runs-on: ubuntu-22.04
-    timeout-minutes: 8
-    environment: production
-    permissions:
-      contents: read
-    steps:
-      - name: Invoke fixed server deployment entry point
+          labels: |
+            org.opencontainers.image.source=https://github.com/stagnantwater657/ekiden-database
+            org.opencontainers.image.revision=${{ github.sha }}
+      - name: Export and compress the local image
+        id: archive
+        timeout-minutes: 8
+        shell: bash
+        env:
+          IMAGE_SHA: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          image="ghcr.io/stagnantwater657/ekiden-database:$IMAGE_SHA"
+          mkdir -m 700 "$RUNNER_TEMP/ekiden-image"
+          docker image save "$image" | gzip -1 -n > "$RUNNER_TEMP/ekiden-image/image.tar.gz"
+          test -s "$RUNNER_TEMP/ekiden-image/image.tar.gz"
+          python3 ops/image-metadata.py "$RUNNER_TEMP/ekiden-image/image.tar.gz" "$IMAGE_SHA" >> "$GITHUB_OUTPUT"
+      - name: Upload, verify, import and activate Ekiden
+        timeout-minutes: 47
         shell: bash
         env:
           DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
@@ -56,32 +62,15 @@ jobs:
           DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
           DEPLOY_KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
           IMAGE_SHA: ${{ github.sha }}
-          IMAGE_DIGEST: ${{ needs.build.outputs.digest }}
+          CONFIG_DIGEST: ${{ steps.archive.outputs.config_digest }}
+          UPLOAD_ONLY: ${{ inputs.upload_only }}
         run: |
-          set -euo pipefail
-          for name in DEPLOY_SSH_KEY DEPLOY_HOST DEPLOY_USER DEPLOY_PORT DEPLOY_KNOWN_HOSTS; do
-            [[ -n "${!name}" ]] || { echo "::error::Missing secret: $name"; exit 1; }
-          done
-          [[ "$DEPLOY_USER" == ekiden-deploy ]]
-          [[ "$DEPLOY_PORT" =~ ^[0-9]{1,5}$ ]] && (( 10#$DEPLOY_PORT >= 1 && 10#$DEPLOY_PORT <= 65535 ))
-          [[ "$IMAGE_SHA" =~ ^[0-9a-f]{40}$ && "$IMAGE_DIGEST" =~ ^sha256:[0-9a-f]{64}$ ]]
-          umask 077
-          ssh_dir=$(mktemp -d "$RUNNER_TEMP/ekiden-deploy.XXXXXX")
-          trap 'rm -rf -- "$ssh_dir"' EXIT
-          printf '%s\n' "$DEPLOY_SSH_KEY" > "$ssh_dir/key"
-          printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > "$ssh_dir/known_hosts"
-          chmod 600 "$ssh_dir/key" "$ssh_dir/known_hosts"
-          if ! timeout 420s ssh -F /dev/null -T -n -i "$ssh_dir/key" -p "$DEPLOY_PORT" -l "$DEPLOY_USER" \
-            -o BatchMode=yes -o IdentitiesOnly=yes -o IdentityAgent=none \
-            -o PreferredAuthentications=publickey -o PasswordAuthentication=no \
-            -o KbdInteractiveAuthentication=no -o StrictHostKeyChecking=yes \
-            -o "UserKnownHostsFile=$ssh_dir/known_hosts" -o GlobalKnownHostsFile=/dev/null \
-            -o UpdateHostKeys=no -o ConnectTimeout=10 -o ConnectionAttempts=1 \
-            -o ServerAliveInterval=15 -o ServerAliveCountMax=3 \
-            -o ForwardAgent=no -o ForwardX11=no -o ClearAllForwardings=yes \
-            -- "$DEPLOY_HOST" "deploy $IMAGE_SHA@$IMAGE_DIGEST" \
-            > "$ssh_dir/output" 2> "$ssh_dir/error"; then
-            echo '::error::Deployment failed or timed out. Administrator must inspect the Ekiden deployment state and authentication configuration.'
-            exit 1
+          if [[ "$UPLOAD_ONLY" == true ]]; then
+            ops/runner-transfer.sh "$RUNNER_TEMP/ekiden-image/image.tar.gz" --upload-only
+          else
+            ops/runner-transfer.sh "$RUNNER_TEMP/ekiden-image/image.tar.gz"
           fi
-          echo 'Ekiden deployment passed health checks.'
+      - name: Remove runner archive
+        if: always()
+        shell: bash
+        run: rm -rf -- "$RUNNER_TEMP/ekiden-image"

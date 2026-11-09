@@ -1,81 +1,400 @@
-#!/bin/bash
-# Root-owned entry point. Exactly one immutable version, no shell evaluation.
-set -euo pipefail
-export PATH=/usr/sbin:/usr/bin:/sbin:/bin
-umask 077
-[[ $EUID -eq 0 && $# -eq 1 ]] || { echo 'Root and exactly one image version are required.' >&2; exit 1; }
-version=$1
-pattern='^[0-9a-f]{40}@sha256:[0-9a-f]{64}$'
-[[ $version =~ $pattern ]] || { echo 'Invalid immutable image version.' >&2; exit 1; }
-readonly repository=ghcr.io/stagnantwater657/ekiden-database
-readonly state=/var/lib/ekiden
-readonly config=/etc/ekiden/compose.yaml
-exec 9>/run/lock/ekiden-deploy.lock
-flock -n 9 || { echo 'Another Ekiden deployment is running.' >&2; exit 1; }
-# No caller-controlled Docker host, context, config, Compose path or env file.
-engine() {
-  /usr/bin/timeout 120s /usr/bin/env -i PATH=/usr/bin:/bin HOME=/root \
-    /usr/bin/docker --host unix:///var/run/docker.sock --config /etc/ekiden/docker "$@"
-}
-compose() {
-  /usr/bin/timeout 120s /usr/bin/env -i PATH=/usr/bin:/bin HOME=/root EKIDEN_IMAGE="$repository:$1" \
-    /usr/bin/docker --host unix:///var/run/docker.sock --config /etc/ekiden/docker \
-    compose --project-name ekiden --project-directory /etc/ekiden \
-    --env-file /dev/null -f "$config" "${@:2}"
-}
-healthy() {
-  local id result
-  id=$(compose "$1" ps -q web) || return 1
-  [[ -n $id ]] || return 1
-  result=$(engine inspect --format '{{.State.Health.Status}}' "$id") || return 1
-  [[ $result == healthy ]] || return 1
-  /usr/bin/curl --fail --silent --max-time 5 http://127.0.0.1:3001/api/health |
-    /usr/bin/python3 -c 'import json,sys; d=json.load(sys.stdin); sys.exit(0 if d == {"status":"ok","service":"ekiden-database"} else 1)'
-}
-previous=''
-if [[ -f $state/current ]]; then
-  previous=$(cat "$state/current")
-  [[ $previous =~ $pattern ]] || { echo 'Invalid stored version; administrator intervention required.' >&2; exit 1; }
-  healthy "$previous" || { echo 'Existing deployment is not healthy; administrator intervention required.' >&2; exit 1; }
-fi
-# Pull failure leaves the running container untouched. Never print registry errors.
-if ! engine pull "$repository:$version" > /dev/null 2>&1; then
-  echo 'Image pull failed. Administrator must check GHCR access and image availability.' >&2
-  exit 1
-fi
-changed=0
-rollback() {
-  local status=$?
-  trap - EXIT HUP INT TERM
-  if (( changed )); then
-    if [[ -n $previous ]]; then
-      if compose "$previous" up -d --no-deps --wait --wait-timeout 90 web > /dev/null 2>&1 && healthy "$previous"; then
-        printf '%s\n' "$previous" > "$state/current.tmp"
-        mv -f "$state/current.tmp" "$state/current"
-        echo 'Deployment failed; previous healthy image restored.' >&2
-      else
-        echo 'Deployment and rollback failed; administrator intervention required.' >&2
-      fi
-    else
-      compose "$version" stop web > /dev/null 2>&1 || true
-      echo 'First deployment failed; only the Ekiden web service was stopped.' >&2
-    fi
-  fi
-  exit "$status"
-}
-trap rollback EXIT
-trap 'exit 1' HUP INT TERM
-changed=1
-if ! compose "$version" up -d --no-deps --wait --wait-timeout 90 web > /dev/null 2>&1 || ! healthy "$version"; then
-  echo 'Ekiden deployment did not pass health checks.' >&2
-  exit 1
-fi
-if [[ -n $previous && $previous != "$version" ]]; then
-  printf '%s\n' "$previous" > "$state/previous.tmp"
-  mv -f "$state/previous.tmp" "$state/previous"
-fi
-printf '%s\n' "$version" > "$state/current.tmp"
-mv -f "$state/current.tmp" "$state/current"
-changed=0
-trap - EXIT HUP INT TERM
-echo 'Ekiden deployment passed health checks.'
+#!/usr/bin/python3 -I
+"""Root-only Ekiden image upload/deployment protocol. No registry network access."""
+import contextlib
+import fcntl
+import gzip
+import hashlib
+import io
+import json
+import os
+from pathlib import Path, PurePosixPath
+import re
+import select
+import shutil
+import signal
+import subprocess
+import sys
+import tarfile
+import tempfile
+import time
+import urllib.request
+
+REPOSITORY = "ghcr.io/stagnantwater657/ekiden-database"
+STATE = Path("/var/lib/ekiden")
+LOCK = Path("/run/lock/ekiden-deploy.lock")
+COMPOSE = "/etc/ekiden/compose.yaml"
+DOCKER = "/usr/bin/docker"
+MAX_UPLOAD = 512 * 1024 * 1024
+MAX_TAR = 2 * 1024 * 1024 * 1024
+MIN_FREE = 8 * 1024 * 1024 * 1024
+UPLOAD_SECONDS = 1200
+IMPORT_SECONDS = 600
+SHA = r"[0-9a-f]{40}"
+HEX = r"[0-9a-f]{64}"
+IMAGE_ID = rf"sha256:{HEX}"
+LEGACY = rf"({SHA})@sha256:{HEX}"
+
+
+class Rejected(Exception):
+    """Safe-to-log protocol failure, never subprocess output or credentials."""
+
+
+def require(condition, message):
+    if not condition:
+        raise Rejected(message)
+
+
+def parse_args(args):
+    if len(args) == 5 and args[0] == "upload":
+        _, sha, checksum, image_id, size = args
+        require(re.fullmatch(SHA, sha) and re.fullmatch(HEX, checksum)
+                and re.fullmatch(IMAGE_ID, image_id)
+                and re.fullmatch(r"[1-9][0-9]{0,9}", size), "Invalid upload parameters.")
+        require(int(size) <= MAX_UPLOAD, "Upload exceeds size limit.")
+        return ("upload", sha, checksum, image_id, int(size))
+    if (len(args) == 3 and args[0] == "deploy" and re.fullmatch(SHA, args[1])
+            and re.fullmatch(IMAGE_ID, args[2])):
+        return tuple(args)
+    if args in (["rollback"], ["migrate"]):
+        return tuple(args)
+    raise Rejected("Unsupported command or invalid parameters.")
+
+
+@contextlib.contextmanager
+def deployment_lock():
+    with LOCK.open("a") as handle:
+        try:
+            fcntl.flock(handle, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        except BlockingIOError:
+            raise Rejected("Another Ekiden upload or deployment is running.") from None
+        yield
+
+
+def engine(*args, timeout=30, env_extra=None):
+    env = {"PATH": "/usr/bin:/bin", "HOME": "/root"}
+    env.update(env_extra or {})
+    try:
+        result = subprocess.run(
+            [DOCKER, "--host", "unix:///var/run/docker.sock", "--config", "/etc/ekiden/docker", *args],
+            env=env, stdin=subprocess.DEVNULL, stdout=subprocess.PIPE,
+            stderr=subprocess.DEVNULL, timeout=timeout, check=True,
+        )
+        return result.stdout
+    except (subprocess.SubprocessError, OSError):
+        raise Rejected("Docker operation failed or timed out; inspect server locally.") from None
+
+
+def compose(record, *args):
+    return engine("compose", "--project-name", "ekiden", "--project-directory", "/etc/ekiden",
+                  "--env-file", "/dev/null", "-f", COMPOSE, *args,
+                  timeout=150 if args[0] == "up" else 30, env_extra={"EKIDEN_IMAGE": record["ref"]})
+
+
+def inspect_image(reference):
+    return json.loads(engine("image", "inspect", reference))[0]
+
+
+def image_record(sha, image_id, config_digest=None):
+    require(re.fullmatch(SHA, sha) and re.fullmatch(IMAGE_ID, image_id), "Invalid image identity.")
+    require(config_digest is None or re.fullmatch(IMAGE_ID, config_digest), "Invalid config digest.")
+    return {"sha": sha, "image_id": image_id, "config_digest": config_digest,
+            "ref": f"ekiden-local:{sha}-{image_id.removeprefix('sha256:')}"}
+
+
+def validate_record(record):
+    require(isinstance(record, dict) and set(record) == {"sha", "image_id", "config_digest", "ref"}, "Invalid stored record.")
+    expected = image_record(record["sha"], record["image_id"], record["config_digest"])
+    require(record == expected, "Invalid stored image reference.")
+    return record
+
+
+def write_record(path, record):
+    validate_record(record)
+    temporary = path.with_suffix(".tmp")
+    with temporary.open("w") as output:
+        json.dump(record, output)
+        output.flush()
+        os.fsync(output.fileno())
+    os.replace(temporary, path)
+
+
+def read_record(name):
+    path = STATE / f"{name}.json"
+    if path.exists():
+        return validate_record(json.loads(path.read_text()))
+    # Smooth upgrade: inspect the old SHA@registry-digest reference locally only.
+    # No pull, and no mutation of the old text state until an admin archives it.
+    legacy = STATE / name
+    if legacy.exists():
+        value = legacy.read_text().strip()
+        match = re.fullmatch(LEGACY, value)
+        require(match, "Invalid legacy state; administrator must reconcile it.")
+        info = inspect_image(f"{REPOSITORY}:{value}")
+        record = image_record(match[1], info["Id"])
+        engine("image", "tag", info["Id"], record["ref"])
+        return record
+    return None
+
+
+def healthy(record):
+    try:
+        container = compose(record, "ps", "-q", "web").decode().strip()
+        require(re.fullmatch(r"[0-9a-f]{12,64}", container), "Missing Ekiden container.")
+        info = json.loads(engine("container", "inspect", container))[0]
+        identity_matches = info["Image"] in {record["image_id"], record["config_digest"]}
+        if not identity_matches and record["config_digest"] is None:
+            original = info.get("Config", {}).get("Image", "")
+            identity_matches = (re.fullmatch(re.escape(REPOSITORY) + ":" + LEGACY, original) is not None
+                                and inspect_image(original)["Id"] == record["image_id"])
+        require(identity_matches
+                and info["State"]["Health"]["Status"] == "healthy", "Ekiden image is not healthy.")
+        # Never inherit HTTP proxy settings for this local-only request.
+        opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
+        with opener.open("http://127.0.0.1:3001/api/health", timeout=5) as response:
+            require(response.status == 200 and json.loads(response.read(4096)) ==
+                    {"status": "ok", "service": "ekiden-database"}, "Invalid health response.")
+        return True
+    except (Rejected, OSError, ValueError, KeyError):
+        return False
+
+
+def receive(fd, target, size, checksum):
+    deadline = time.monotonic() + UPLOAD_SECONDS
+    digest = hashlib.sha256()
+    received = 0
+    with target.open("xb") as output:
+        while True:
+            remaining = deadline - time.monotonic()
+            require(remaining > 0, "Upload timed out.")
+            require(select.select([fd], [], [], remaining)[0], "Upload timed out.")
+            chunk = os.read(fd, min(65536, size - received + 1))
+            if not chunk:
+                break
+            received += len(chunk)
+            require(received <= size, "Upload exceeds declared size.")
+            output.write(chunk)
+            digest.update(chunk)
+    require(received == size, "Upload interrupted or length mismatch.")
+    require(digest.hexdigest() == checksum, "Archive SHA-256 mismatch.")
+
+
+def bounded_copy(source, output, maximum, digest=None):
+    total = 0
+    while True:
+        chunk = source.read(min(1024 * 1024, maximum - total + 1))
+        if not chunk:
+            return total
+        total += len(chunk)
+        require(total <= maximum, "Uncompressed image exceeds size limit.")
+        output.write(chunk)
+        if digest is not None:
+            digest.update(chunk)
+
+
+def check_tar_headers(path):
+    # Bound extended headers before tarfile parses them into memory.
+    offset = 0
+    count = 0
+    length = path.stat().st_size
+    with path.open("rb") as source:
+        while offset + 512 <= length:
+            source.seek(offset)
+            header = source.read(512)
+            if header == bytes(512):
+                return
+            size_field = header[124:136].strip(b" \0")
+            require(re.fullmatch(rb"[0-7]+", size_field), "Unsupported tar size encoding.")
+            size = int(size_field, 8)
+            kind = header[156:157]
+            require(kind in (b"0", b"\0", b"5", b"x", b"g", b"L"), "Unsupported tar member type.")
+            if kind in (b"x", b"g", b"L"):
+                require(size <= 65536, "Excessive extended tar header.")
+            count += 1
+            offset += 512 + ((size + 511) // 512) * 512
+            require(count <= 4096 and offset <= length, "Excessive or truncated tar archive.")
+    raise Rejected("Missing tar end marker.")
+
+
+def canonical_archive(compressed, destination, sha, config_digest):
+    """Accept docker-save's Docker/OCI hybrid; load only a single sanitized Docker manifest.
+
+    Strip the OCI index and unrelated metadata to prevent Docker 29 containerd
+    importing unexpected tags. Verify each uncompressed layer against config diff_ids.
+    Never extract paths from the archive to the host filesystem.
+    """
+    raw = destination.parent / "received.tar"
+    with gzip.open(compressed, "rb") as source, raw.open("xb") as output:
+        bounded_copy(source, output, MAX_TAR)
+    check_tar_headers(raw)
+    with tarfile.open(raw, "r:") as archive:
+        members = {}
+        for member in archive:
+            path = PurePosixPath(member.name)
+            require(not path.is_absolute() and ".." not in path.parts
+                    and (member.isfile() or member.isdir()) and not member.issparse(), "Unsafe archive member.")
+            require(member.name not in members and len(members) < 4096, "Duplicate or excessive archive members.")
+            members[member.name] = member
+
+        def read_small(name):
+            member = members.get(name)
+            require(member is not None and member.isfile() and member.size <= 1024 * 1024,
+                    "Missing or excessive image metadata.")
+            return archive.extractfile(member).read()
+
+        manifest = json.loads(read_small("manifest.json"))
+        require(isinstance(manifest, list) and len(manifest) == 1, "Exactly one image is permitted.")
+        item = manifest[0]
+        require(item.get("RepoTags") == [f"{REPOSITORY}:{sha}"], "Unexpected image tag.")
+        config_bytes = read_small(item["Config"])
+        require("sha256:" + hashlib.sha256(config_bytes).hexdigest() == config_digest, "Image config digest mismatch.")
+        config = json.loads(config_bytes)
+        require(config.get("os") == "linux" and config.get("architecture") == "amd64"
+                and config.get("config", {}).get("Labels", {}).get("org.opencontainers.image.revision") == sha,
+                "Image platform or revision label mismatch.")
+        layers = item.get("Layers")
+        diff_ids = config.get("rootfs", {}).get("diff_ids")
+        require(isinstance(layers, list) and isinstance(diff_ids, list)
+                and 0 < len(layers) == len(diff_ids) <= 128, "Invalid image layers.")
+        names = [f"layers/{i}/layer.tar" for i in range(len(layers))]
+        config_name = config_digest.removeprefix("sha256:") + ".json"
+        sanitized = json.dumps([{"Config": config_name, "RepoTags": [f"{REPOSITORY}:{sha}"], "Layers": names}]).encode()
+        total = 0
+        with tarfile.open(destination, "w") as output:
+            def add(name, data):
+                entry = tarfile.TarInfo(name)
+                entry.size = len(data)
+                entry.mode = 0o600
+                output.addfile(entry, io.BytesIO(data))
+            add("manifest.json", sanitized)
+            add(config_name, config_bytes)
+            for name, layer, diff_id in zip(names, layers, diff_ids):
+                require(re.fullmatch(IMAGE_ID, diff_id), "Invalid layer digest.")
+                member = members.get(layer)
+                require(member is not None and member.isfile(), "Missing layer.")
+                with archive.extractfile(member) as source, tempfile.TemporaryFile(dir=destination.parent) as temporary:
+                    magic = source.read(2)
+                    source.seek(0)
+                    reader = gzip.GzipFile(fileobj=source) if magic == b"\x1f\x8b" else source
+                    digest = hashlib.sha256()
+                    length = bounded_copy(reader, temporary, MAX_TAR - total, digest)
+                    require("sha256:" + digest.hexdigest() == diff_id, "Layer integrity mismatch.")
+                    total += length
+                    temporary.seek(0)
+                    entry = tarfile.TarInfo(name)
+                    entry.mode = 0o600
+                    entry.size = length
+                    output.addfile(entry, temporary)
+    raw.unlink()
+
+
+def upload(sha, checksum, config_digest, size, fd):
+    require(not (STATE / "current").exists() or (STATE / "current.json").exists(),
+            "Administrator must migrate legacy state before uploading.")
+    uploads = STATE / "uploads"
+    require(uploads.is_dir() and shutil.disk_usage(uploads).free >= MIN_FREE, "Upload directory missing or less than 8 GiB free.")
+    with tempfile.TemporaryDirectory(prefix="image-", dir=uploads) as directory:
+        directory = Path(directory)
+        compressed = directory / "received.tar.gz"
+        receive(fd, compressed, size, checksum)
+        canonical = directory / "verified.tar"
+        canonical_archive(compressed, canonical, sha, config_digest)
+        engine("image", "load", "--input", str(canonical), timeout=IMPORT_SECONDS)
+        info = inspect_image(f"{REPOSITORY}:{sha}")
+        require(re.fullmatch(IMAGE_ID, info["Id"])
+                and info.get("Config", {}).get("Labels", {}).get("org.opencontainers.image.revision") == sha,
+                "Imported image identity mismatch.")
+        record = image_record(sha, info["Id"], config_digest)
+        engine("image", "tag", info["Id"], record["ref"])
+        write_record(STATE / "ready" / f"{sha}.json", record)
+    print("Ekiden upload verified and imported.")
+
+
+def activate(record, require_healthy_current=True):
+    validate_record(record)
+    require(inspect_image(record["ref"])["Id"] == record["image_id"], "Local deployment image mismatch.")
+    previous = read_record("current")
+    if previous is None:
+        require(not ekiden_containers(), "Unrecorded running Ekiden website; administrator must reconcile state.")
+    if previous and require_healthy_current:
+        require(healthy(previous), "Existing website is not healthy; administrator intervention required.")
+    try:
+        compose(record, "up", "-d", "--no-deps", "--pull", "never", "--wait", "--wait-timeout", "90", "web")
+        require(healthy(record), "New website failed health checks.")
+        if previous and previous != record:
+            write_record(STATE / "previous.json", previous)
+        write_record(STATE / "current.json", record)
+    except BaseException:
+        # Do not let a second disconnect interrupt recovery.
+        for sig in (signal.SIGHUP, signal.SIGTERM, signal.SIGINT):
+            signal.signal(sig, signal.SIG_IGN)
+        if previous:
+            try:
+                compose(previous, "up", "-d", "--no-deps", "--pull", "never", "--wait", "--wait-timeout", "90", "web")
+                require(healthy(previous), "Rollback health check failed.")
+                write_record(STATE / "current.json", previous)
+                print("Previous healthy Ekiden image restored.", file=sys.stderr)
+            except Exception:
+                print("Rollback failed; administrator intervention required.", file=sys.stderr)
+        else:
+            with contextlib.suppress(Exception):
+                compose(record, "stop", "web")
+        raise
+    print("Ekiden deployment passed health checks.")
+
+
+def ekiden_containers():
+    return engine("container", "ls", "-q", "--filter", "label=com.docker.compose.project=ekiden",
+                  "--filter", "label=com.docker.compose.service=web").decode().strip()
+
+
+def migrate():
+    current = read_record("current")
+    if current is None:
+        require(not ekiden_containers(), "Unrecorded running Ekiden website; administrator must reconcile state.")
+    else:
+        require(healthy(current), "Legacy/current website must be healthy before migration.")
+        write_record(STATE / "current.json", current)
+    try:
+        previous = read_record("previous")
+        if previous is not None:
+            write_record(STATE / "previous.json", previous)
+    except Rejected:
+        print("Legacy previous image unavailable locally; administrator must recover it offline.", file=sys.stderr)
+    print("Ekiden state migration completed without restarting the website.")
+
+
+def interrupted(_signum, _frame):
+    raise Rejected("Operation interrupted.")
+
+
+def main(args=None):
+    require(os.geteuid() == 0, "Root is required.")
+    os.umask(0o077)
+    command = parse_args(sys.argv[1:] if args is None else args)
+    for sig in (signal.SIGHUP, signal.SIGTERM, signal.SIGINT):
+        signal.signal(sig, interrupted)
+    with deployment_lock():
+        if command[0] == "migrate":
+            migrate()
+        elif command[0] == "upload":
+            upload(*command[1:], sys.stdin.fileno())
+        elif command[0] == "deploy":
+            path = STATE / "ready" / f"{command[1]}.json"
+            require(path.is_file(), "No verified upload for this commit.")
+            record = validate_record(json.loads(path.read_text()))
+            require(record["sha"] == command[1] and record["config_digest"] == command[2],
+                    "Ready image commit/config digest mismatch.")
+            activate(record)
+        else:
+            record = read_record("previous")
+            require(record is not None, "No previous deployment is recorded.")
+            activate(record, require_healthy_current=False)
+
+
+if __name__ == "__main__":
+    try:
+        main()
+    except Exception as error:
+        # Do not log arbitrary parser/subprocess exceptions (possibly untrusted data).
+        print(str(error) if isinstance(error, Rejected) else "Ekiden operation failed; inspect server locally.", file=sys.stderr)
+        sys.exit(1)

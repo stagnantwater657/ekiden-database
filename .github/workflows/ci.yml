@@ -20,7 +20,37 @@ jobs:
       - run: npm run build
       - name: Check deployment scripts
         run: |
-          bash -n ops/ekiden-deploy ops/ekiden-ssh-command
+          bash -n ops/ekiden-ssh-command ops/runner-transfer.sh
+          python3 -m py_compile ops/ekiden-deploy ops/image-metadata.py
+          sudo visudo -cf ops/ekiden-deploy.sudoers
           python3 tests/deployment_test.py
       - name: Verify Docker build
         run: docker build -t ekiden-ci:${{ github.sha }} .
+  docker29-containerd:
+    name: Docker 29.1.3 containerd archive compatibility
+    runs-on: ubuntu-22.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      # A separate disposable CI daemon, never the Ubuntu production daemon.
+      - name: Set up isolated Docker 29 containerd image store
+        id: docker
+        uses: docker/setup-docker-action@v4
+        with:
+          version: v29.1.3
+          daemon-config: |
+            {"features":{"containerd-snapshotter":true}}
+      - name: Check storage mode and build fixture
+        env:
+          IMAGE_SHA: ${{ github.sha }}
+        run: |
+          docker version --format '{{.Server.Version}}' | grep '^29\.1\.3$'
+          docker info --format '{{json .DriverStatus}}' | grep -F 'io.containerd.snapshotter.v1'
+          docker build --label "org.opencontainers.image.revision=$IMAGE_SHA" \
+            -t "ghcr.io/stagnantwater657/ekiden-database:$IMAGE_SHA" .
+      - name: Test archive import and loaded application
+        env:
+          EKIDEN_DOCKER_TEST: "1"
+          DOCKER_TEST_SOCKET: ${{ steps.docker.outputs.sock }}
+          IMAGE_SHA: ${{ github.sha }}
+        run: python3 tests/docker_archive_test.py "$IMAGE_SHA"

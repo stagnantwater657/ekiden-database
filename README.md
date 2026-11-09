@@ -13,4 +13,4 @@ npm run dev
 - [项目计划](docs/PROJECT_PLAN.md)
 - [原始 SSH 连通性测试](docs/SSH_TEST.md)（部署专用账户启用固定命令后，此旧测试会按设计被拒绝）
 
-PR 自动执行 CI；生产部署仅支持在 `main` 手动运行 `Deploy Ekiden (manual)`。管理员完成授权之前不要运行部署工作流。
+PR 自动执行 CI；生产部署仅支持在 `main` 手动运行 `Deploy Ekiden (manual)`。镜像在 Runner 打包，经受限 SSH stdin 上传、校验、docker load 后部署；服务器不再依赖 GHCR pull。可使用 upload_only 手动选项单独验证上传。管理员完成升级授权之前不要运行部署工作流。

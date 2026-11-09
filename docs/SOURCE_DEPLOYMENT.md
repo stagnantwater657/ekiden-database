@@ -328,7 +328,7 @@ Actions 只显示白名单固定阶段/代码，不回放 curl、API、npm 的�
 
 ## 7. 恢复旧部署程序
 
-先停止人工触发部署，持锁，从之前记录的备份**原子恢复** dispatcher、source helper；不恢复过期的 current/previous 状态覆盖已成功部署版本。专用 BuildKit 可保留，不影响旧站或机器人。新源码 helper 可保留未调用的 root-only 文件，不影响旧入口。
+先停止人工触发部署，持锁，从之前记录的备份**原子恢复** dispatcher、source helper；不恢复过期的 current/previous 状态覆盖已成功部署版本。专用 BuildKit 可保留，不影响旧站或机器人。恢复时必须同时恢复匹配的旧 source helper，避免新旧接口不一致。
 
 ```bash
 read -r -p '升级前备份目录完整路径: ' SOURCE_BACKUP

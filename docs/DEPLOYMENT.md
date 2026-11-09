@@ -36,7 +36,7 @@ deploy <40位小写提交SHA> sha256:<64位配置摘要>
 - 压缩上传最大 **512 MiB**，归档及展开层总量各最大 **2 GiB**；限制成员数量、扩展头大小，拒绝符号链接、硬链接、稀疏文件及路径穿越。上传前要求专用目录所在文件系统至少 **8 GiB** 可用空间，覆盖临时归档、层校验与规范化文件。
 - 临时目录 `/var/lib/ekiden/uploads/image-*` 为 root 创建、0700；正常失败、EOF 中断、超时、HUP/INT/TERM 均清理临时文件。ready 记录只在成功导入后生成，不保留上传归档。
 - 同一个 root 文件锁 `/run/lock/ekiden-deploy.lock` 覆盖上传、校验、导入、激活和回滚。冲突立即失败，不同时部署两个版本；Actions 也使用 `ekiden-production` 并发组，不中断正在运行的部署。
-- 接收数据最长 **1200 秒**；镜像导入最长 **600 秒**。Runner 上传/导入 SSH 总超时 **2100 秒**，激活 SSH 单独超时 **600 秒**。SSH 连接超时 10 秒、BatchMode、公钥认证和服务器保活均启用。上传没有 `ssh -n`，激活使用 `-n`。
+- 接收数据总时限 **1800 秒**，连续无新数据 **180 秒**即失败，收满后等待 EOF 最长 **15 秒**；镜像导入最长 **600 秒**。Runner 上传/导入 SSH 总超时 **2700 秒**，激活 SSH 单独超时 **600 秒**。SSH 连接超时 10 秒、BatchMode、公钥认证和服务器保活均启用。上传没有 `ssh -n`，激活使用 `-n`。
 - Compose 更新单次最长 150 秒，健康等待 90 秒；其他 Docker 查询最长 30 秒。部署仅指向固定 `/etc/ekiden/compose.yaml`、项目 `ekiden`、服务 `web`，不调用全局 prune、down、remove-orphans、其他项目或任意 Shell。
 - 运行配置仍在 `/etc/ekiden/runtime.env`；站点只绑定 `127.0.0.1:3001:3000`，非 root、只读文件系统、384 MiB 配置上限，不启动 PostgreSQL。
 
@@ -91,6 +91,7 @@ printf '备份目录：%s\n' "$BACKUP_DIR"
 python3 -m py_compile ops/ekiden-deploy
 bash -n ops/ekiden-ssh-command ops/runner-transfer.sh
 python3 tests/deployment_test.py
+python3 tests/transfer_diagnostics_test.py
 visudo -cf ops/ekiden-deploy.sudoers
 
 install -d -o root -g root -m 0700 /var/lib/ekiden /var/lib/ekiden/uploads /var/lib/ekiden/ready
@@ -208,8 +209,9 @@ npm run lint
 npm test
 npm run build
 python3 tests/deployment_test.py
+python3 tests/transfer_diagnostics_test.py
 bash -n ops/ekiden-ssh-command ops/runner-transfer.sh
-python3 -m py_compile ops/ekiden-deploy ops/image-metadata.py
+python3 -m py_compile ops/ekiden-deploy ops/image-metadata.py ops/transfer-log.py
 ```
 
 协议测试使用临时目录和模拟 Docker，不访问服务器，覆盖正常上传、SHA-256 错误、非法参数、中断、大小上限、并发、导入失败、健康失败、旧版回滚、迁移、拒绝任意 Shell、OCI 元数据隔离以及 native ID 与 config digest 不同的情况。
@@ -224,3 +226,83 @@ EKIDEN_DOCKER_TEST=1 python3 tests/docker_archive_test.py "$TEST_SHA"
 ```
 
 集成测试默认只允许本地 Unix socket，可用 `DOCKER_TEST_SOCKET=/受控测试daemon/docker.sock` 指定 CI 独立 socket；不要指向生产 Docker。它只删除自己创建的测试容器及测试本地标签。云端构建若需代理 CA，使用 Docker BuildKit 的 `--secret id=proxy_ca,src="$CODEX_PROXY_CERT"`，不禁用 TLS。
+
+## 本次上传超时专项诊断（不改变上传协议）
+
+已知 #2 在约 20 分 11 秒失败并出现 Broken pipe，时间与旧版 1200 秒绝对总时限相符；这能支持“接收端截止时间可能关闭了管道”的判断，但不能证明网络带宽、stdin 阻塞或 EOF 等待中的哪一项导致失败。日志 API 请求返回 Forbidden，未取得该次服务端隐藏输出；因此不把网络或 Docker 存储问题视为已证实根因。
+
+检查现有代码发现：
+
+- `receive()` 使用 `select` + `os.read`，不通过文本缓冲器读取二进制 stdin；pipe 的 read 可以返回部分字节，不要求填满 64 KiB。
+- 上传 SSH 使用 `-T` 且没有 `-n`；wrapper 用 exec 调用 `sudo -n`，不重定向 stdin；sudoers 保持命令级 `!use_pty` 与 NOPASSWD，避免密码提示和 PTY 转换。实际服务器策略是否与仓库一致，仍需管理员核对。
+- 旧循环即使一直有少量进展，也会在总时限结束时中止；收满字节之后仍然等待 EOF，且没有单独的短超时。现在分别限制总时长、无进展时长和 EOF 等待，并保留额外字节拒绝及完整 SHA-256 校验。
+- 旧 Runner 同时隐藏服务端 stdout/stderr，并把所有管道失败合并为一个错误，最后只剩 cat 的 Broken pipe。现在立即保存每段 PIPESTATUS，服务端错误码优先于次生的 sender 错误。
+
+### 日志内容与判读
+
+上传步骤先显示 `Compressed image: N bytes (X MB; Y MiB)`，MB 使用十进制、MiB 使用二进制。接收端立即报告 `receive_started`，随后约每 15 秒报告实际读入字节、声明总量、平均/窗口速率、已用时间及无新数据时间；结束/异常时再报告最终计数。速率来自服务器字节计数，不把 Runner 写入 SSH 缓冲区的字节当作已送达数据。
+
+示例（仅数值/固定状态，不包含主机、密钥或配置内容）：
+
+```text
+Receiver receive_progress: 52428800/104857600 bytes (50.0%), avg=170.7 KiB/s window=160.0 KiB/s idle=0s elapsed=300s
+Server stage: checksum_verified
+Server stage: archive_verify
+Server stage: archive_verified
+Server stage: load_started
+Server stage: load_complete
+Server stage: upload_complete
+```
+
+Runner 的 `transfer-log.py` 只转发严格匹配的数值帧、固定阶段和固定错误码，丢弃登录横幅、任意远程文本及原始 SSH stderr。日志实时 flush，不等待 SSH 进程退出。没有 receiver 帧不能解释为已收到零字节，只能说明尚未获得结构化接收确认。
+
+| 错误码/现象 | 含义与下一步 |
+| --- | --- |
+| `UPLOAD_STALLED` | 接收端连续 180 秒无新字节；查看是否从零开始、最后确认字节数、TTY/stdin 转发与链路，不盲目延长总时限 |
+| `UPLOAD_TOTAL_TIMEOUT` | 总时长达 1800 秒；若窗口速率持续大于零，按总大小与平均速率评估带宽是否足够 |
+| `UPLOAD_EOF_TIMEOUT` | 收满声明字节，但 15 秒没有 EOF；重点检查发送进程退出、SSH stdin 和 sudo I/O relay，不归因于镜像下载 |
+| `UPLOAD_INTERRUPTED` | 字节未满即 EOF 或读入中断；临时文件清理，不执行导入/部署 |
+| `TTY_STDIN` | 接收端检测到终端，拒绝二进制输入；核对 `-T` 与命令级 `!use_pty` |
+| `CHECKSUM_MISMATCH` / `ARCHIVE_INVALID` | 传输长度已完成，但归档哈希/镜像内容校验失败，不执行部署 |
+| `LOAD_FAILED` / `LOAD_TIMEOUT` | 已通过传输及归档验证，故障发生在 docker load，不能再当作上传慢处理 |
+| `SSH_CONNECTION_FAILED` | SSH 返回 255；可能是连接中断、握手/认证/主机校验失败，原始敏感错误不回放 |
+| `CLIENT_TIMEOUT` | Runner 的独立 2700 秒 SSH 总期限到达，参考最后的 receiver/stage 判断卡点 |
+| `ACK_MISSING` | SSH 正常退出却没有完成确认；检查服务器是否已安装新脚本，或 ForceCommand/stdin relay 是否偏离配置 |
+
+接收端 30 分钟总时限是有限的兼容余量，不替代 3 分钟停滞检测；EOF 等待不再拖到 20/30 分钟。导入仍为 600 秒，激活仍单独限 600 秒。上传+激活步骤限 57 分钟，整个手动 job 限 90 分钟，均不无限等待。
+
+### 已使用上一版上传协议的服务器：本次最小升级
+
+协议参数、ForceCommand 路径、sudoers 权限和状态 JSON 格式均未改变。**不要现在执行**；合并审核后，仅需管理员在已有 root shell 持锁备份并原子替换根脚本，不重新初始化 Docker、Compose、SSH、凭据或应用状态。Runner 日志辅助脚本由新工作流 checkout 提供，不安装到服务器。
+
+```bash
+cd /root/ekiden-bootstrap
+git fetch origin main
+read -r -p '本次审核后的完整40位Git提交SHA: ' REVIEWED_SHA
+[[ "$REVIEWED_SHA" =~ ^[0-9a-f]{40}$ ]] || exit 1
+git checkout --detach "$REVIEWED_SHA"
+python3 -m py_compile ops/ekiden-deploy
+python3 tests/deployment_test.py
+python3 tests/transfer_diagnostics_test.py
+umask 077
+install -d -o root -g root -m 0700 /var/backups/ekiden
+BACKUP_DIR=$(mktemp -d /var/backups/ekiden/upload-diagnostics.XXXXXX)
+exec 9>/run/lock/ekiden-deploy.lock
+flock -n 9 || { echo '已有上传或部署正在运行，稍后再升级'; exit 1; }
+cp -a /usr/local/sbin/ekiden-deploy "$BACKUP_DIR/ekiden-deploy"
+install -o root -g root -m 0755 ops/ekiden-deploy /usr/local/sbin/.ekiden-deploy.new
+mv -f /usr/local/sbin/.ekiden-deploy.new /usr/local/sbin/ekiden-deploy
+sudo -l -U ekiden-deploy   # 由管理员核对既有 !use_pty 和受限 upload/deploy 授权
+stat -c '%U:%G %a %n' /usr/local/sbin/ekiden-deploy
+flock -u 9
+exec 9>&-
+printf '本次根脚本备份：%s\n' "$BACKUP_DIR"
+```
+
+root:root 755 与既有固定命令保持不变。旧 workflow 不依赖结构化日志，可使用新服务器脚本；新 workflow 则要求新服务器的完成确认，避免忽略未知远程输出后误判成功。后续获得测试授权后，先选择 `upload_only` 收集进度，不激活网站。本轮未运行该测试。
+
+### 是否现在改为可续传分块上传
+
+本次先不实现分块协议。缺少旧日志中的字节进度，尚不能证明断点续传能解决当前问题：它能减少“已收到大量数据后反复断线”的重复传输，不能提高持续低带宽，也不能修复从零开始阻塞或收满后缺 EOF。
+
+下一次获授权的 upload_only 测试中，若确认接收字节持续增长、但国际链路反复在不同位置中断，且整包重传成本明显，再考虑有界续传。设计必须包括绑定提交/配置/整包哈希的会话 ID、严格顺序 offset、每块大小与哈希、总量与磁盘配额、过期清理、幂等重试、最终整包 SHA-256，以及同一 root 锁和 root-only 目录；不得开放任意路径、Shell、SFTP 或 Docker 权限。单纯因超过时限而分块，会引入新的持久未完成状态，当前证据不足以承担这项改动。

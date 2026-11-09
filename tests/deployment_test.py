@@ -194,6 +194,20 @@ class ProtocolTests(unittest.TestCase):
         self.assertEqual(list((self.root / "ready").iterdir()), [])
         self.assert_clean()
 
+    def test_import_failures_have_distinct_machine_readable_codes(self):
+        for timeout in [False, True]:
+            with self.subTest(timeout=timeout):
+                def engine(*args, **kwargs):
+                    if args[:2] == ("image", "load"):
+                        if timeout:
+                            raise deploy.DockerTimeout("deadline")
+                        raise deploy.Rejected("load failure")
+                    return self.engine(*args, **kwargs)
+                with mock.patch.object(deploy, "engine", side_effect=engine), self.assertRaises(deploy.TransferRejected) as error:
+                    self.upload()
+                self.assertEqual(error.exception.code, "LOAD_TIMEOUT" if timeout else "LOAD_FAILED")
+                self.assert_clean()
+
     def test_failed_health_restores_previous_running_image(self):
         old = self.seed_current()
         record = self.upload()
@@ -241,8 +255,9 @@ class ProtocolTests(unittest.TestCase):
         self.assertFalse((self.root / "current.json").exists())
 
     def test_rejects_other_project_tags(self):
-        with self.assertRaisesRegex(deploy.Rejected, "tag"):
+        with self.assertRaises(deploy.TransferRejected) as error:
             self.upload(archive_fixture(tags=["astrbot:latest"]))
+        self.assertEqual(error.exception.code, "ARCHIVE_INVALID")
         self.assertFalse(any(call[:2] == ("image", "load") for call in self.calls))
         self.assert_clean()
 
@@ -293,10 +308,10 @@ class ProtocolTests(unittest.TestCase):
                 self.upload()
         self.assert_clean()
 
-    def test_receive_idle_timeout(self):
+    def test_receive_total_timeout(self):
         read_fd, write_fd = os.pipe()
         try:
-            with mock.patch.object(deploy, "UPLOAD_SECONDS", 0.01), self.assertRaisesRegex(deploy.Rejected, "timed out"):
+            with mock.patch.object(deploy, "UPLOAD_SECONDS", 0.01), self.assertRaisesRegex(deploy.Rejected, "deadline"):
                 deploy.receive(read_fd, self.root / "timeout", 10, "0" * 64)
         finally:
             os.close(read_fd)
@@ -322,7 +337,12 @@ else:
 with open(os.environ['TEST_CALLS'], 'a') as log: log.write(command[0]+'\\n')
 if os.environ.get('FAIL_STAGE') == command[0]:
     print('private-key-marker secret-error-marker', file=sys.stderr)
+    print('EKIDEN error code=UPLOAD_STALLED' if command[0]=='upload' else 'EKIDEN error code=REMOTE_REJECTED', flush=True)
     sys.exit(1)
+print('private-key-marker secret-stdout-marker')
+if command[0] == 'upload':
+    print(f'EKIDEN receive_complete received={len(payload)} total={len(payload)} elapsed_s=1 idle_s=0 rate_bps={len(payload)} window_bps={len(payload)}', flush=True)
+print('EKIDEN stage name=upload_complete' if command[0]=='upload' else 'EKIDEN stage name=deploy_complete', flush=True)
 """)
         ssh.chmod(0o700)
         log = self.root / "ssh-calls"
@@ -339,7 +359,7 @@ if os.environ.get('FAIL_STAGE') == command[0]:
                                         env=env | {"FAIL_STAGE": fail}, capture_output=True, text=True)
                 self.assertEqual(result.returncode, 1 if fail else 0, result.stderr)
                 self.assertEqual(log.read_text().splitlines(), expected)
-                for secret in ["private-key-marker", "host-marker", "known-host-marker", "secret-error-marker"]:
+                for secret in ["private-key-marker", "host-marker", "known-host-marker", "secret-error-marker", "secret-stdout-marker"]:
                     self.assertNotIn(secret, result.stdout + result.stderr)
                 self.assertEqual(list(self.root.glob("ekiden-transfer.*")), [])
 

@@ -21,9 +21,10 @@ jobs:
       - name: Check deployment scripts
         run: |
           bash -n ops/ekiden-ssh-command ops/runner-transfer.sh
-          python3 -m py_compile ops/ekiden-deploy ops/image-metadata.py
+          python3 -m py_compile ops/ekiden-deploy ops/image-metadata.py ops/transfer-log.py
           sudo visudo -cf ops/ekiden-deploy.sudoers
           python3 tests/deployment_test.py
+          python3 tests/transfer_diagnostics_test.py
       - name: Verify Docker build
         run: docker build -t ekiden-ci:${{ github.sha }} .
   docker29-containerd:

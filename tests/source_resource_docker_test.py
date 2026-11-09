@@ -52,6 +52,7 @@ def main():
                 source.resource_probe(api, config, root)
             except Exception:
                 print((root/"resource-probe.log").read_text()[-12000:])
+                if (root/"resource-ancestry.json").exists(): print((root/"resource-ancestry.json").read_text())
                 raise
             print("PASS actual builder and worker memory/CPU/swap limits")
             oom = root / "oom"

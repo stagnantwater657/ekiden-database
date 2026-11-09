@@ -269,6 +269,7 @@ def resource_probe(api, config, directory):
             if match and marker in line:
                 try:
                     child = process_cgroup(match[1])
+                    (directory / "resource-ancestry.json").write_text(json.dumps({"worker_pid": match[1], "worker_cgroup": child, "expected_parent": parent}))
                     fail(child == parent or child.startswith(parent + "/"), "BUILD_LIMITS_INVALID")
                     observed[0] = True
                 except OSError:

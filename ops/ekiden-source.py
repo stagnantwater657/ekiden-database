@@ -1,6 +1,6 @@
 #!/usr/bin/python3 -I
 """Fixed repository source deployment, executed only by the root-owned dispatcher."""
-import base64
+import gzip
 import hashlib
 import contextlib
 import importlib.util
@@ -16,7 +16,11 @@ import subprocess
 import tarfile
 import tempfile
 
-REPOSITORY = "https://github.com/stagnantwater657/ekiden-database.git"
+DOWNLOAD_SECONDS = 180
+MAX_DOWNLOAD = 32 * 1024 * 1024
+MAX_TAR = 128 * 1024 * 1024
+MAX_SOURCE = 64 * 1024 * 1024
+MAX_FILES = 10000
 CONFIG = Path("/etc/ekiden/source-builder.json")
 TRUSTED_DOCKERFILE = Path("/etc/ekiden/source-Dockerfile")
 TOKEN = Path("/etc/ekiden/github-read-token")
@@ -78,65 +82,132 @@ def read_token():
     return value
 
 
-def git(args, token=None, timeout=180, output=None):
-    env = {"PATH": "/usr/bin:/bin", "HOME": "/var/empty", "GIT_CONFIG_NOSYSTEM": "1",
-           "GIT_CONFIG_GLOBAL": "/dev/null", "GIT_TERMINAL_PROMPT": "0", "GIT_ALLOW_PROTOCOL": "https"}
-    if token:
-        # Passed only to Git, never to Docker, build arguments or command line.
-        env.update(GIT_CONFIG_COUNT="1", GIT_CONFIG_KEY_0="http.https://github.com/.extraHeader",
-                   GIT_CONFIG_VALUE_0="Authorization: Basic " + base64.b64encode(("x-access-token:" + token).encode()).decode())
-    command = ["/usr/bin/git", "-c", "core.hooksPath=/dev/null", "-c", "credential.helper=", *args]
+def fetch_main(sha, token, policy):
+    """Admission uses only the fixed GitHub API, never the Git transport."""
+    fail(re.fullmatch(r"[0-9a-f]{40}", sha), "INVALID_SOURCE_SHA")
     try:
-        return subprocess.run(command, stdin=subprocess.DEVNULL, stdout=output or subprocess.PIPE,
-                              stderr=subprocess.DEVNULL, env=env, timeout=timeout, check=True).stdout
-    except subprocess.TimeoutExpired:
-        raise SourceError("SOURCE_FETCH_TIMEOUT") from None
-    except (OSError, subprocess.SubprocessError):
-        raise SourceError("SOURCE_FETCH_FAILED") from None
+        policy.approve(sha, token)
+    except policy.PolicyError as error:
+        raise SourceError(str(error)) from None
 
 
-def fetch_main(state, sha, token):
-    repo = state / "source.git"
-    if not repo.exists():
-        git(["init", "--bare", str(repo)], timeout=30)
-    git(["--git-dir", str(repo), "fetch", "--no-tags", "--no-recurse-submodules", "--depth=1",
-         REPOSITORY, "+refs/heads/main:refs/heads/approved-main"], token)
-    head = git(["--git-dir", str(repo), "rev-parse", "refs/heads/approved-main"], timeout=30).decode().strip()
-    fail(head == sha, "MAIN_SHA_MISMATCH")
-    return repo
+def download_source(sha, directory, token=None):
+    fail(re.fullmatch(r"[0-9a-f]{40}", sha), "INVALID_SOURCE_SHA")
+    part = directory / "source.tar.gz.part"
+    archive = directory / "source.tar.gz"
+    header = directory / "codeload-header"
+    deadline = time.monotonic() + DOWNLOAD_SECONDS
+    try:
+        if token:
+            fail(not any(char in token for char in "\r\n\0"), "SOURCE_CONFIG_INVALID")
+            with open(header, "x", opener=lambda path, flags: os.open(path, flags, 0o600)) as output:
+                output.write("Authorization: Bearer " + token + "\n")
+        for attempt in range(2):
+            part.unlink(missing_ok=True)
+            remaining = deadline - time.monotonic()
+            fail(remaining > 0, "SOURCE_FETCH_TIMEOUT")
+            # No redirects, curlrc, netrc or ambient credentials. Header only goes
+            # to this fixed HTTPS origin. Low-speed timer bounds stalled reads.
+            command = ["/usr/bin/curl", "--disable", "--silent", "--fail", "--proto", "=https",
+                       "--connect-timeout", "10", "--speed-limit", "1", "--speed-time", "30",
+                       "--max-time", str(remaining), "--retry", "0", "--max-filesize", str(MAX_DOWNLOAD),
+                       "--output", str(part), "--write-out", "%{http_code} %{time_connect}"]
+            if token:
+                command += ["--header", "@"+str(header)]
+            command += ["https://codeload.github.com/stagnantwater657/ekiden-database/tar.gz/" + sha]
+            try:
+                result = subprocess.run(command, stdin=subprocess.DEVNULL, stdout=subprocess.PIPE,
+                                        stderr=subprocess.DEVNULL, env={"PATH": "/usr/bin:/bin", "HOME": "/var/empty"},
+                                        timeout=remaining+1,
+                                        preexec_fn=lambda: resource.setrlimit(resource.RLIMIT_FSIZE, (MAX_DOWNLOAD, MAX_DOWNLOAD)))
+            except subprocess.TimeoutExpired:
+                raise SourceError("SOURCE_FETCH_TIMEOUT") from None
+            except OSError:
+                raise SourceError("SOURCE_FETCH_FAILED") from None
+            status, connected = (result.stdout.decode("ascii").split() + ["0", "0"])[:2]
+            fail(status != "403", "SOURCE_HTTP_FORBIDDEN")
+            fail(status != "404", "SOURCE_HTTP_NOT_FOUND")
+            size = part.stat().st_size if part.exists() else 0
+            fail(size < MAX_DOWNLOAD and result.returncode not in {63, -25}, "SOURCE_DOWNLOAD_TOO_LARGE")
+            if result.returncode == 0 and status == "200":
+                fail(size > 0, "SOURCE_FETCH_FAILED")
+                part.replace(archive)
+                return archive
+            code = ("SOURCE_CONNECT_TIMEOUT" if connected == "0.000000" else "SOURCE_FETCH_TIMEOUT") if result.returncode == 28 else "SOURCE_FETCH_FAILED"
+            retryable = result.returncode in {5, 6, 7, 18, 28, 35, 52, 55, 56} or status in {"429", "500", "502", "503", "504"}
+            if not retryable or attempt == 1:
+                raise SourceError(code)
+        raise SourceError("SOURCE_FETCH_FAILED")
+    finally:
+        part.unlink(missing_ok=True)
+        header.unlink(missing_ok=True)
 
 
-def checkout(repo, sha, directory):
-    archive_path = directory / "source.tar"
-    with archive_path.open("wb") as output:
-        git(["--git-dir", str(repo), "archive", "--format=tar", sha], timeout=30, output=output)
+def checkout(archive_path, sha, directory):
+    """Validate gzip to EOF, bound tar bytes, then extract regular files only."""
+    fail(re.fullmatch(r"[0-9a-f]{40}", sha), "INVALID_SOURCE_SHA")
+    raw = directory / "source.tar"
     context = directory / "context"
-    context.mkdir(mode=0o700)
-    total = 0
-    with tarfile.open(archive_path) as archive:
-        for count, member in enumerate(archive, 1):
-            relative = PurePosixPath(member.name)
-            fail(not relative.is_absolute() and ".." not in relative.parts and
-                 (member.isfile() or member.isdir()) and not member.issparse(), "SOURCE_ARCHIVE_INVALID")
-            total += member.size
-            fail(count <= 10000 and total <= 64 * 1024 * 1024, "SOURCE_ARCHIVE_INVALID")
-            target = context / member.name
-            if member.isdir():
-                target.mkdir(mode=0o700, parents=True, exist_ok=True)
-            else:
-                target.parent.mkdir(mode=0o700, parents=True, exist_ok=True)
-                with archive.extractfile(member) as source, target.open("xb") as output:
-                    shutil.copyfileobj(source, output)
-    archive_path.unlink()
-    fail((context / "Dockerfile").read_bytes() == TRUSTED_DOCKERFILE.read_bytes(), "DOCKERFILE_APPROVAL_REQUIRED")
-    lock = json.loads((context / "package-lock.json").read_text())
-    fail(lock.get("lockfileVersion") == 3, "LOCKFILE_SOURCE_INVALID")
-    for item in lock["packages"].values():
-        fail(not item.get("link"), "LOCKFILE_SOURCE_INVALID")
-        if "resolved" in item:
-            fail(re.fullmatch(r"https://registry\.npmjs\.org/[^?#\s]+", item["resolved"])
-                 and item.get("integrity"), "LOCKFILE_SOURCE_INVALID")
-    return context
+    prefix = "ekiden-database-" + sha
+    try:
+        # Tar readers can stop at end-of-archive before checking the gzip CRC.
+        # Fully consume gzip with a bound that includes headers, padding and PAX.
+        with gzip.open(archive_path, "rb") as compressed, raw.open("xb") as output:
+            total = 0
+            while chunk := compressed.read(64*1024):
+                total += len(chunk)
+                fail(total <= MAX_TAR, "SOURCE_ARCHIVE_INVALID")
+                output.write(chunk)
+        context.mkdir(mode=0o700)
+        seen = set()
+        total = 0
+        with tarfile.open(raw, "r:") as archive:
+            for count, member in enumerate(archive, 1):
+                relative = PurePosixPath(member.name)
+                parts = relative.parts
+                fail(count <= MAX_FILES and not relative.is_absolute() and ".." not in parts
+                     and parts and parts[0] == prefix and "\\" not in member.name
+                     and (member.isfile() or member.isdir()) and not member.issparse(), "SOURCE_ARCHIVE_INVALID")
+                key = str(PurePosixPath(*parts[1:]))
+                fail(key not in seen, "SOURCE_ARCHIVE_INVALID")
+                seen.add(key)
+                if len(parts) == 1:
+                    fail(member.isdir(), "SOURCE_ARCHIVE_INVALID")
+                    continue
+                total += member.size
+                fail(total <= MAX_SOURCE and member.size >= 0, "SOURCE_ARCHIVE_INVALID")
+                target = context.joinpath(*parts[1:])
+                if member.isdir():
+                    target.mkdir(mode=0o700, parents=True, exist_ok=True)
+                else:
+                    target.parent.mkdir(mode=0o700, parents=True, exist_ok=True)
+                    with archive.extractfile(member) as source, target.open("xb") as output:
+                        shutil.copyfileobj(source, output, 64*1024)
+    except SourceError:
+        shutil.rmtree(context, ignore_errors=True)
+        raise
+    except (OSError, EOFError, tarfile.TarError, ValueError):
+        shutil.rmtree(context, ignore_errors=True)
+        raise SourceError("SOURCE_ARCHIVE_INVALID") from None
+    except BaseException:
+        shutil.rmtree(context, ignore_errors=True)
+        raise
+    finally:
+        raw.unlink(missing_ok=True)
+        archive_path.unlink(missing_ok=True)
+    try:
+        fail((context / "Dockerfile").read_bytes() == TRUSTED_DOCKERFILE.read_bytes(), "DOCKERFILE_APPROVAL_REQUIRED")
+        lock = json.loads((context / "package-lock.json").read_text())
+        fail(lock.get("lockfileVersion") == 3, "LOCKFILE_SOURCE_INVALID")
+        for item in lock["packages"].values():
+            fail(not item.get("link"), "LOCKFILE_SOURCE_INVALID")
+            if "resolved" in item:
+                fail(re.fullmatch(r"https://registry\.npmjs\.org/[^?#\s]+", item["resolved"])
+                     and item.get("integrity"), "LOCKFILE_SOURCE_INVALID")
+        return context
+    except BaseException:
+        shutil.rmtree(context, ignore_errors=True)
+        raise
 
 
 def verify_builder(api, config):
@@ -324,18 +395,14 @@ def run(api, sha, build_only=False):
     policy = load_policy()
     token = read_token()
     def admit():
-        repo = fetch_main(api.STATE, sha, token)
-        try:
-            policy.approve(sha, token)
-        except policy.PolicyError as error:
-            raise SourceError(str(error)) from None
-        return repo
+        fetch_main(sha, token, policy)
     api.stage("source_fetch")
-    repo = admit()
+    admit()
     verify_builder(api, config)
     with tempfile.TemporaryDirectory(prefix="source-", dir=api.STATE / "source-builds") as temporary:
         directory = Path(temporary)
-        context = checkout(repo, sha, directory)
+        archive = download_source(sha, directory, token)
+        context = checkout(archive, sha, directory)
         api.stage("source_resource_probe")
         try:
             resource_probe(api, config, directory)

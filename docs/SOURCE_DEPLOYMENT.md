@@ -4,7 +4,7 @@
 
 ## 流程与准入
 
-PR → CI → 合并 main → **main push CI 全部通过** → 手动 `Deploy source on Ubuntu (manual)` → SSH 固定命令 → root Git fetch → 容器构建 → 仅更新 `ekiden/web` → 健康检查及失败回滚。
+PR → CI → 合并 main → **main push CI 全部通过** → 手动 `Deploy source on Ubuntu (manual)` → SSH 固定命令 → root Codeload 下载固定 SHA → 容器构建 → 仅更新 `ekiden/web` → 健康检查及失败回滚。
 
 新工作流仅允许 main 手动运行，默认 `build_only=true`。Runner 不构建或传输镜像，只发送：
 
@@ -17,8 +17,8 @@ wrapper 和 root dispatcher 分别严格校验，不接受额外参数、仓库�
 
 - Runner 与服务器都查询固定 GitHub 仓库的 main HEAD 和 `ci.yml` 的最新 push run，要求 SHA 完全相同、run 成功，且 `check`、`Docker 29.1.3 containerd archive compatibility`、`COS benchmark offline SDK tests`、`Source deployment policy and resource limits` 四项 job 均成功，不接受跳过或仅 PR 通过的结果。
 - 因旧 CI 只在 PR 触发，本 PR 增加 main push 的**测试/构建 CI**，不是生产自动部署。main 合并提交通过后才能手动部署。
-- root 从固定 `https://github.com/stagnantwater657/ekiden-database.git` 仅 fetch main 到 `/var/lib/ekiden/source.git`，禁用 hooks、全局 Git 配置、子模块及交互认证；检出到 root-only `/var/lib/ekiden/source-builds/source-*`，拒绝链接和路径穿越。
-- 构建结束后再 fetch/验证 main 和 CI，若 main 已前进，保留构建结果但不激活旧 SHA。
+- root 仅从 `https://codeload.github.com/stagnantwater657/ekiden-database/tar.gz/<40位SHA>` 下载；不接受任意 URL，不请求可变 main 压缩包、不跟随重定向。压缩包小于32MiB，完整展开 tar 最大128MiB，实际文件总量最大64MiB、最多10000个成员。完整读取 gzip 验证 CRC，剥离精确 `ekiden-database-<SHA>` 前缀；拒绝重复目标、路径穿越、链接、设备和稀疏文件。解压到 root-only `/var/lib/ekiden/source-builds/source-*`，退出即清理。生产不再调用 Git；遗留 `/var/lib/ekiden/source.git` 不使用、不删除。
+- 构建结束后再通过 API 验证 main 和 CI，若 main 已前进，保留构建结果但不激活旧 SHA。
 - Dockerfile 必须与 root 安装的 `/etc/ekiden/source-Dockerfile` 完全相同；以后修改 Dockerfile需管理员重新审核更新该模板。固定仓库的源代码、npm 脚本仅在隔离构建中执行，不在宿主机运行 npm。
 
 ## 资源保护：为何使用专用 BuildKit
@@ -27,7 +27,7 @@ wrapper 和 root dispatcher 分别严格校验，不接受额外参数、仓库�
 
 - 在 Docker 容器受限父 cgroup 对 daemon 与实际 worker 合计硬限制 **1536 MiB（1.5 GiB）/1.25 CPU**，禁止额外 swap。BuildKit 会把 daemon 移入 init 叶节点，不能只检查该叶节点。
 - 父级 CPU period 为 100000、quota 125000；BuildKit 最大并行 1，Next.js 生成 worker 1；Node 构建 heap 768 MiB。运行镜像仍采用原有 256 MiB heap/384 MiB Compose 限制。
-- 构建超时 20 分钟；单独资源探针最多 120 秒；Git fetch 180 秒；不足 12 GiB 空闲磁盘则拒绝。构建日志为 root-only、最多 64 MiB，不回放原始内容到 Actions。
+- 构建超时 20 分钟；单独资源探针最多 120 秒；Codeload 下载总计180秒（连接10秒、低于1字节/秒持续30秒即读停滞失败，最多2次尝试，共享总时限）；不足 12 GiB 空闲磁盘则拒绝。构建日志为 root-only、最多 64 MiB，不回放原始内容到 Actions。
 - 每次构建前验证 builder 类型、固定本地 Unix endpoint、实际 Docker HostConfig、**实际 cgroup v2 的 memory.max/cpu.max/memory.swap.max**，再用廉价 Node 探针，从宿主 /proc 核对实际 worker PID 是该容器 ID 对应受限 Docker 父 cgroup 的后代。worker 叶节点可显示 max，但不能脱离该受限父级。只配置了参数但未生效时会失败。
 - 专用 builder 只挂载自己的 BuildKit state volume，不挂 Docker socket、SSH 私钥、GitHub token、runtime.env、机器人数据或其他项目目录。拒绝 security.insecure 等授权；Buildx 默认的 network.host 仅作用于 bridge 隔离的 builder，构建客户端不传任何 --allow，因此 Dockerfile 不能使用该特权。Buildx 的 rootful docker-container driver 自身需要 privileged 来运行 OCI worker，只有管理员能配置它，部署用户不能直接控制此 daemon。
 - 构建超时或 SSH 中断时仅停止这个专用 BuildKit 容器，以终止残留构建；不停止 Docker Engine 或应用容器。管理员检查后再启动该专用 builder。
@@ -61,25 +61,115 @@ sudo -l -U ekiden-deploy
 
 ## 2. 获取代码与备份
 
-在受控的已有 `/root/ekiden-bootstrap` 获取合并后的已审核版本；本目录只用于管理员安装，实际部署使用独立 bare repo：
+无需使用 `/root/ekiden-bootstrap` 或 Git。以下在**后续已授权的 root shell**中运行；先在 GitHub 审核已合并 main 的完整 SHA，并等待其 main push CI 全部成功。使用 PR #7 已安装且 root 控制的准入程序验证 API（不执行下载包内代码）：
 
 ```bash
-cd /root/ekiden-bootstrap
-git fetch origin main
-read -r -p '已审核的完整40位提交SHA: ' REVIEWED_SHA
-[[ "$REVIEWED_SHA" =~ ^[0-9a-f]{40}$ ]] || exit 1
-git checkout --detach "$REVIEWED_SHA"
-python3 tests/source_deployment_test.py
-python3 -m py_compile ops/ekiden-deploy ops/ekiden-source.py ops/source-policy.py
-bash -n ops/ekiden-ssh-command ops/runner-source.sh
-visudo -cf ops/ekiden-deploy.sudoers
-
+set -euo pipefail
+set +x
 umask 077
+read -r -p '已审核且已合并 main 的完整40位SHA: ' REVIEWED_SHA
+[[ "$REVIEWED_SHA" =~ ^[0-9a-f]{40}$ ]] || exit 1
+export REVIEWED_SHA
+UPGRADE_DIR=$(mktemp -d /root/ekiden-codeload-upgrade.XXXXXX)
+export UPGRADE_DIR
+trap 'cd /root; rm -rf -- "$UPGRADE_DIR"' EXIT
+python3 - <<'PY'
+import importlib.util, os
+from pathlib import Path
+path = Path('/usr/local/libexec/ekiden-source-policy.py')
+assert path.stat().st_uid == 0 and not path.stat().st_mode & 0o022 and not path.is_symlink()
+spec = importlib.util.spec_from_file_location('approved_policy', path)
+policy = importlib.util.module_from_spec(spec); spec.loader.exec_module(policy)
+token_path = Path('/etc/ekiden/github-read-token')
+token = None
+if token_path.exists():
+    assert token_path.stat().st_uid == 0 and not token_path.stat().st_mode & 0o077 and not token_path.is_symlink()
+    token = token_path.read_text().strip()
+    assert token and not any(c in token for c in '\r\n\0')
+policy.approve(os.environ['REVIEWED_SHA'], token)
+header = Path(os.environ['UPGRADE_DIR'])/'header'
+header.write_text('Authorization: Bearer '+token+'\n' if token else '')
+header.chmod(0o600)
+print('Current main HEAD and all required CI jobs verified.')
+PY
+# 32MiB 文件硬上限；连接10秒、停滞30秒、单请求180秒，至多重试一次；总计200秒。
+# 无 -L、不降低 TLS；header 不进入 argv/URL/日志。只请求固定 Codeload 域名。
+HTTP_STATUS=$(timeout --kill-after=5s 200s prlimit --fsize=33554432 -- \
+  /usr/bin/curl --disable --silent --fail --proto '=https' \
+  --connect-timeout 10 --speed-limit 1 --speed-time 30 --max-time 180 \
+  --retry 1 --retry-max-time 190 --max-filesize 33554432 \
+  --header "@$UPGRADE_DIR/header" --output "$UPGRADE_DIR/source.tar.gz" \
+  --write-out '%{http_code}' \
+  "https://codeload.github.com/stagnantwater657/ekiden-database/tar.gz/$REVIEWED_SHA")
+rm -f -- "$UPGRADE_DIR/header"
+[[ "$HTTP_STATUS" == 200 ]] || { echo 'Codeload rejected; stop upgrade'; exit 1; }
+```
+
+在独立目录先完整验证 gzip，再安全剥离固定 SHA 前缀。此引导解压程序直接供管理员审阅，不依赖尚未安装的新脚本，也不执行压缩包里的程序：
+
+```bash
+python3 - <<'PY'
+import gzip, os, shutil, tarfile
+from pathlib import Path, PurePosixPath
+root = Path(os.environ['UPGRADE_DIR'])
+raw = root/'source.tar'
+prefix = 'ekiden-database-'+os.environ['REVIEWED_SHA']
+with gzip.open(root/'source.tar.gz','rb') as src, raw.open('xb') as dst:
+    total = 0
+    while chunk := src.read(65536):
+        total += len(chunk)
+        assert total <= 128*1024*1024, 'Expanded tar too large'
+        dst.write(chunk)
+context = root/'context'; context.mkdir(mode=0o700)
+seen = set(); total = 0
+with tarfile.open(raw, 'r:') as archive:
+    for count, item in enumerate(archive, 1):
+        path = PurePosixPath(item.name); parts = path.parts
+        assert count <= 10000 and not path.is_absolute() and '..' not in parts
+        assert parts and parts[0] == prefix and '\\' not in item.name
+        assert (item.isfile() or item.isdir()) and not item.issparse()
+        key = str(PurePosixPath(*parts[1:])); assert key not in seen; seen.add(key)
+        if len(parts) == 1:
+            assert item.isdir(); continue
+        total += item.size; assert 0 <= item.size and total <= 64*1024*1024
+        target = context.joinpath(*parts[1:])
+        if item.isdir(): target.mkdir(mode=0o700, parents=True, exist_ok=True)
+        else:
+            target.parent.mkdir(mode=0o700, parents=True, exist_ok=True)
+            with archive.extractfile(item) as src, target.open('xb') as dst:
+                shutil.copyfileobj(src, dst, 65536)
+raw.unlink(); (root/'source.tar.gz').unlink()
+print('Archive structure and gzip integrity verified.')
+PY
+cd "$UPGRADE_DIR/context"
+# 再用新版本相同的准入规则验证 main/CI；token 仅用于 API，不输出。
+python3 - <<'PY'
+import importlib.util, os
+from pathlib import Path
+spec = importlib.util.spec_from_file_location('policy', 'ops/source-policy.py')
+policy = importlib.util.module_from_spec(spec); spec.loader.exec_module(policy)
+p = Path('/etc/ekiden/github-read-token')
+policy.approve(os.environ['REVIEWED_SHA'], p.read_text().strip() if p.exists() else None)
+PY
+python3 tests/source_deployment_test.py
+python3 tests/source_download_test.py
+python3 tests/deployment_test.py
+python3 -m py_compile ops/ekiden-deploy ops/ekiden-source.py ops/source-policy.py
+# 引导仅运行已审核的 Python Mock 测试；不在宿主机运行 npm 脚本。
+```
+
+任何错误均停止，EXIT trap 清理下载/部分解压目录；不要继续安装。Gzip CRC 只证明传输/格式完整，提交身份和 main/CI 准入由固定 GitHub API + 精确 SHA HTTPS URL 共同约束。不要关闭 API 校验或换成分支压缩包地址。
+
+测试通过后备份旧程序及状态，持用原部署锁：
+
+```bash
 install -d -o root -g root -m 0700 /var/backups/ekiden
 SOURCE_BACKUP=$(mktemp -d /var/backups/ekiden/source-upgrade.XXXXXX)
 exec 9>/run/lock/ekiden-deploy.lock
 flock -n 9 || { echo '已有部署运行，稍后升级'; exit 1; }
 cp -a /usr/local/sbin/ekiden-deploy "$SOURCE_BACKUP/ekiden-deploy"
+cp -a /usr/local/libexec/ekiden-source.py "$SOURCE_BACKUP/ekiden-source.py"
+cp -a /usr/local/libexec/ekiden-source-policy.py "$SOURCE_BACKUP/ekiden-source-policy.py"
 cp -a /usr/local/libexec/ekiden-ssh-command "$SOURCE_BACKUP/ekiden-ssh-command"
 cp -a /etc/sudoers.d/ekiden-deploy "$SOURCE_BACKUP/ekiden-deploy.sudoers"
 cp -a /etc/ekiden/compose.yaml "$SOURCE_BACKUP/compose.yaml"
@@ -89,37 +179,30 @@ done
 printf '备份路径：%s\n' "$SOURCE_BACKUP"
 ```
 
-保留当前管理连接及备份路径。旧文本状态需要用现有 root 程序 `migrate` 迁移到 JSON（没有旧站点则不需要）；不能忽略现有网站或删除旧状态来“强制首次部署”。在持锁期间不要调用另一个需同一锁的部署/migrate 命令。
+保留当前管理连接及备份路径。已有状态不删除、不改写；本次无需迁移状态。
 
 ## 3. 原子安装受信任代码和 sudoers
 
-继续上面的持锁 root shell：
+本次增量升级仅更新两个服务器文件：source helper 和 dispatcher 的安全错误码白名单。继续上面的持锁 root shell：
 
 ```bash
-install -d -o root -g root -m 0700 /var/lib/ekiden/source-builds /var/lib/ekiden/ready /etc/ekiden/source-docker
-install -o root -g root -m 0755 ops/ekiden-deploy /usr/local/sbin/.ekiden-deploy.new
 install -o root -g root -m 0755 ops/ekiden-source.py /usr/local/libexec/.ekiden-source.py.new
-install -o root -g root -m 0755 ops/source-policy.py /usr/local/libexec/.ekiden-source-policy.py.new
-install -o root -g root -m 0755 ops/ekiden-ssh-command /usr/local/libexec/.ekiden-ssh-command.new
-install -o root -g root -m 0440 ops/ekiden-deploy.sudoers /etc/sudoers.d/.ekiden-deploy.new
-install -o root -g root -m 0600 Dockerfile /etc/ekiden/source-Dockerfile
-install -o root -g root -m 0600 ops/source-buildkitd.toml /etc/ekiden/source-buildkitd.toml
-visudo -cf /etc/sudoers.d/.ekiden-deploy.new
+install -o root -g root -m 0755 ops/ekiden-deploy /usr/local/sbin/.ekiden-deploy.new
 mv -f /usr/local/libexec/.ekiden-source.py.new /usr/local/libexec/ekiden-source.py
-mv -f /usr/local/libexec/.ekiden-source-policy.py.new /usr/local/libexec/ekiden-source-policy.py
 mv -f /usr/local/sbin/.ekiden-deploy.new /usr/local/sbin/ekiden-deploy
-mv -f /etc/sudoers.d/.ekiden-deploy.new /etc/sudoers.d/ekiden-deploy
-mv -f /usr/local/libexec/.ekiden-ssh-command.new /usr/local/libexec/ekiden-ssh-command
-visudo -c
 flock -u 9
 exec 9>&-
+cd /root
+rm -rf -- "$UPGRADE_DIR"
+trap - EXIT
+unset UPGRADE_DIR REVIEWED_SHA
 ```
 
-不改现有 sshd 配置，ForceCommand 路径不变，不需 reload SSH；不改 Compose/runtime.env。所有上述父目录必须 root 控制、不可被部署用户写入。
+无需更新 sudoers、SSH wrapper、source-policy.py、Dockerfile 模板、BuildKit 配置、Compose 或 runtime.env；不需 reload SSH、不改变资源限额。`ops/transfer-log.py` 由 Actions 从仓库读取，随合并更新，无需安装到服务器。旧脚本/状态的备份保持 root-only。
 
 ### GitHub 只读认证
 
-Runner 使用有 `contents: read` 和 `actions: read` 的自动 `GITHUB_TOKEN` 核对 CI，不将它发送到服务器。服务器需要自己的 GitHub 只读凭据；**Git fetch 已通不代表 CI API 有权限**。
+Runner 使用有 `contents: read` 和 `actions: read` 的自动 `GITHUB_TOKEN` 核对 CI，不将它发送到服务器。服务器需要自己的 GitHub 只读凭据；**Codeload 已通不代表 CI API 有权限**。
 
 私有仓库使用仅授权本仓库的 fine-grained PAT，Repository permissions 只需 **Contents: read、Actions: read**（及默认 metadata read），不要写权限、组织全局权限。公开仓库可匿名请求，但限流/请求失败同样拒绝部署。管理员将服务器自己的 token 隐藏输入到固定 root-only 文件：
 
@@ -133,7 +216,7 @@ chown root:root /etc/ekiden/github-read-token
 chmod 0600 /etc/ekiden/github-read-token
 ```
 
-不要 set -x、打印该文件或将它写入仓库。token 只供宿主 Git/API 请求使用，Git 用受限的进程环境传递 HTTPS header，不在命令行参数中，也不进入构建环境；构建没有 SSH 密钥/凭据挂载。
+不要 set -x、打印该文件或将它写入仓库。token 只供固定 GitHub API 和 Codeload HTTPS 请求使用。Codeload header 存在 root-only 临时文件，通过 curl --header @file 读取，退出清理；不在 URL、命令行参数或日志中，也不进入构建环境；构建没有 SSH 密钥/凭据挂载。
 
 ## 4. 国内镜像、Digest 和实际资源限制验证
 
@@ -229,10 +312,13 @@ ss -lnt | grep '127.0.0.1:3001'
 
 ### 错误分类
 
-Actions 只显示白名单固定阶段/代码，不回放 Git、API、npm 的原始输出或 token。源码临时目录退出时清理，构建日志限制在该 root-only 临时目录，失败退出也清理；需要深查时管理员应在授权的 build-only 调试中受控收集，勿将敏感配置贴入 PR。
+Actions 只显示白名单固定阶段/代码，不回放 curl、API、npm 的原始输出或 token。源码临时目录退出时清理，构建日志限制在该 root-only 临时目录，失败退出也清理；需要深查时管理员应在授权的 build-only 调试中受控收集，勿将敏感配置贴入 PR。
 
 - `CI_NOT_APPROVED` / `CI_CHECK_FAILED` / `MAIN_SHA_MISMATCH`：准入或 main 已变化，拒绝部署。
-- `SOURCE_FETCH_FAILED` / `SOURCE_FETCH_TIMEOUT`：源码下载失败/超时。
+- `SOURCE_FETCH_FAILED` / `SOURCE_FETCH_TIMEOUT`：Codeload 下载中断/读取停滞/整体超时。
+- `SOURCE_CONNECT_TIMEOUT`：Codeload 连接超时。
+- `SOURCE_HTTP_FORBIDDEN` / `SOURCE_HTTP_NOT_FOUND`：HTTP 403/404，检查仓库读取权限与提交存在性，不回放响应。
+- `SOURCE_DOWNLOAD_TOO_LARGE` / `SOURCE_ARCHIVE_INVALID`：下载超限或压缩包完整性/结构错误。
 - `BUILD_IMAGE_UNAVAILABLE`：国内镜像/预加载镜像不可用、专用 builder 未运行，或资源准备未完成。
 - `BUILD_LIMITS_INVALID`：实际 driver、挂载或 cgroup/worker 限制不合格。
 - `NPM_CI_FAILED`：容器内依赖安装失败；不修改 lock integrity 或禁用 TLS。
@@ -242,7 +328,7 @@ Actions 只显示白名单固定阶段/代码，不回放 Git、API、npm 的原
 
 ## 7. 恢复旧部署程序
 
-先停止人工触发部署，持锁，从之前记录的备份**原子恢复** dispatcher、wrapper、sudoers；不恢复过期的 current/previous 状态覆盖已成功部署版本。专用 BuildKit 可保留，不影响旧站或机器人。新源码 helper 可保留未调用的 root-only 文件，不影响旧入口。
+先停止人工触发部署，持锁，从之前记录的备份**原子恢复** dispatcher、source helper；不恢复过期的 current/previous 状态覆盖已成功部署版本。专用 BuildKit 可保留，不影响旧站或机器人。新源码 helper 可保留未调用的 root-only 文件，不影响旧入口。
 
 ```bash
 read -r -p '升级前备份目录完整路径: ' SOURCE_BACKUP
@@ -251,17 +337,15 @@ exec 9>/run/lock/ekiden-deploy.lock
 flock -n 9 || exit 1
 visudo -cf "$SOURCE_BACKUP/ekiden-deploy.sudoers"
 install -o root -g root -m 0755 "$SOURCE_BACKUP/ekiden-deploy" /usr/local/sbin/.ekiden-deploy.restore
-install -o root -g root -m 0755 "$SOURCE_BACKUP/ekiden-ssh-command" /usr/local/libexec/.ekiden-ssh-command.restore
-install -o root -g root -m 0440 "$SOURCE_BACKUP/ekiden-deploy.sudoers" /etc/sudoers.d/.ekiden-deploy.restore
+install -o root -g root -m 0755 "$SOURCE_BACKUP/ekiden-source.py" /usr/local/libexec/.ekiden-source.py.restore
 mv -f /usr/local/sbin/.ekiden-deploy.restore /usr/local/sbin/ekiden-deploy
-mv -f /etc/sudoers.d/.ekiden-deploy.restore /etc/sudoers.d/ekiden-deploy
-mv -f /usr/local/libexec/.ekiden-ssh-command.restore /usr/local/libexec/ekiden-ssh-command
+mv -f /usr/local/libexec/.ekiden-source.py.restore /usr/local/libexec/ekiden-source.py
 visudo -c
 flock -u 9
 exec 9>&-
 ```
 
-恢复程序不代表应重跑旧的跨境镜像上传。新流程与旧上传流程使用同一 JSON 状态格式，旧 dispatcher 的管理员 rollback 仍可使用已保存的本地引用。不要覆盖运行配置、删除 builder state volume、清空 Docker 数据或对其他项目执行 compose down。
+恢复到 PR #7 会恢复 Git 依赖；网络未恢复时只能保持现有站点及管理员应用回滚，不要反复 fetch 或部署。恢复程序不代表应重跑旧的跨境镜像上传。新流程与旧上传流程使用同一 JSON 状态格式，旧 dispatcher 的管理员 rollback 仍可使用已保存的本地引用。不要覆盖运行配置、删除 builder state volume、清空 Docker 数据或对其他项目执行 compose down。
 
 ## 8. 成功后如何启用 main 自动部署
 

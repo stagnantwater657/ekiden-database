@@ -6,6 +6,10 @@ import re
 import sys
 
 ERRORS = {
+    "SOURCE_HTTP_FORBIDDEN": "Codeload returned HTTP 403; check repository read access.",
+    "SOURCE_HTTP_NOT_FOUND": "Codeload returned HTTP 404 for the fixed repository/commit.",
+    "SOURCE_CONNECT_TIMEOUT": "Codeload connection timed out.",
+    "SOURCE_DOWNLOAD_TOO_LARGE": "Codeload source archive exceeds the compressed size limit.",
     "INVALID_SOURCE_SHA": "Invalid source commit SHA.",
     "SOURCE_CONFIG_INVALID": "Root source configuration is missing, unpinned or writable.",
     "CI_CHECK_FAILED": "GitHub CI admission query failed; no deployment permitted.",

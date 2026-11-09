@@ -68,7 +68,8 @@ class SourceTests(unittest.TestCase):
         self.patches.enter_context(mock.patch.object(source, "read_token", return_value=None))
         self.approve = mock.Mock()
         self.patches.enter_context(mock.patch.object(source, "load_policy", return_value=mock.Mock(approve=self.approve, PolicyError=policy.PolicyError)))
-        self.fetch = self.patches.enter_context(mock.patch.object(source, "fetch_main", return_value=self.state / "repo"))
+        self.fetch = self.patches.enter_context(mock.patch.object(source, "fetch_main", wraps=source.fetch_main))
+        self.download = self.patches.enter_context(mock.patch.object(source, "download_source", return_value=self.state / "source.tar.gz"))
         self.patches.enter_context(mock.patch.object(source, "checkout", return_value=self.state))
         self.verify = self.patches.enter_context(mock.patch.object(source, "verify_builder"))
         self.patches.enter_context(mock.patch.object(source, "resource_probe"))
@@ -135,10 +136,27 @@ class SourceTests(unittest.TestCase):
 
     def test_main_moving_during_build_prevents_activation(self):
         previous = self.base.seed_current()
-        self.fetch.side_effect = [self.state / "repo", source.SourceError("MAIN_SHA_MISMATCH")]
+        self.approve.side_effect = [None, policy.PolicyError("MAIN_SHA_MISMATCH")]
         with self.assertRaisesRegex(source.SourceError, "MAIN_SHA_MISMATCH"):
             source.run(self.api, SHA)
         self.assertEqual(self.api.read_record("current"), previous)
+
+    def test_download_failure_keeps_old_website_and_cleans_temporary_directory(self):
+        previous = self.base.seed_current()
+        self.download.side_effect = source.SourceError("SOURCE_FETCH_FAILED")
+        with self.assertRaises(source.SourceError):
+            source.run(self.api, SHA)
+        self.assertEqual(self.api.read_record("current"), previous)
+        self.assertEqual(self.base.running, old_tests.OLD_ID)
+        self.assertEqual(list((self.state/"source-builds").iterdir()), [])
+        self.build.assert_not_called()
+
+    def test_admission_rejects_before_downloading(self):
+        for code in ["MAIN_SHA_MISMATCH", "CI_NOT_APPROVED"]:
+            self.approve.side_effect = policy.PolicyError(code)
+            with self.assertRaisesRegex(source.SourceError, code):
+                source.run(self.api, SHA)
+        self.download.assert_not_called()
 
     def test_low_disk_and_unavailable_base_image(self):
         with mock.patch.object(source, "MIN_DISK", 10**30), self.assertRaisesRegex(source.SourceError, "SOURCE_DISK_LOW"):
@@ -174,11 +192,6 @@ class SourceTests(unittest.TestCase):
 
 
 class LowLevelTests(unittest.TestCase):
-    def test_git_fetch_timeout_is_typed_without_printing_credentials(self):
-        with mock.patch.object(source.subprocess, "run", side_effect=subprocess.TimeoutExpired("git", 180)):
-            with self.assertRaisesRegex(source.SourceError, "SOURCE_FETCH_TIMEOUT"):
-                source.git(["fetch"], token="private-token-marker")
-
     def test_docker_build_error_classification_and_timeout_stop_only_builder(self):
         with tempfile.TemporaryDirectory() as directory:
             log = Path(directory) / "build.log"

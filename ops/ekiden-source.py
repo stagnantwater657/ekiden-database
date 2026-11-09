@@ -156,7 +156,7 @@ def verify_builder(api, config):
         fail(builder["State"]["Running"] and builder["Config"]["Image"] == config["buildkit_image"], "BUILD_IMAGE_UNAVAILABLE")
         fail(host["Memory"] == MEMORY and host["MemorySwap"] == MEMORY
              and host["CpuPeriod"] == 100000 and host["CpuQuota"] == 25000
-             and host["NetworkMode"] not in {"host", "none"}, "BUILD_LIMITS_INVALID")
+             and host["NetworkMode"] in {"default", "bridge"} and host["CgroupnsMode"] == "host", "BUILD_LIMITS_INVALID")
         mounts = builder["Mounts"]
         fail(len(mounts) == 1 and mounts[0]["Type"] == "volume"
              and mounts[0]["Name"] == CONTAINER + "_state"
@@ -169,8 +169,8 @@ def verify_builder(api, config):
                 # Buildx adds network.host for the *bridge-isolated builder* by default.
                 # Client builds receive no --allow flag, so Dockerfile RUN cannot use it.
                 fail(entitlement == "network.host", "BUILD_LIMITS_INVALID")
-        limits = api.engine("exec", CONTAINER, "cat", "/sys/fs/cgroup/memory.max",
-                            "/sys/fs/cgroup/cpu.max", "/sys/fs/cgroup/memory.swap.max").decode().splitlines()
+        group = Path("/sys/fs/cgroup") / process_cgroup(builder["State"]["Pid"]).lstrip("/")
+        limits = read_limits(group)
         fail(limits == [str(MEMORY), "25000 100000", "0"], "BUILD_LIMITS_INVALID")
         verify_worker_budget()
         # These must already exist locally. No automatic image provisioning here.
@@ -234,6 +234,10 @@ def build_command(api, args, logfile, timeout, observer=None):
         if b"failed to resolve source metadata" in log or b"failed to fetch" in log:
             raise SourceError("BUILD_IMAGE_UNAVAILABLE")
         raise SourceError("SOURCE_BUILD_FAILED")
+
+
+def read_limits(group):
+    return [(group/name).read_text().strip() for name in ("memory.max", "cpu.max", "memory.swap.max")]
 
 
 def verify_worker_budget():

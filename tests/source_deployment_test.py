@@ -205,9 +205,9 @@ class LowLevelTests(unittest.TestCase):
                 source.process_cgroup(123)
 
     def test_real_builder_cgroup_limits_not_just_requested_flags(self):
-        builder = {"State": {"Running": True}, "Config": {"Image": CONFIG["buildkit_image"], "Cmd": ["--oci-worker-gc=false", "--allow-insecure-entitlement=network.host"]},
+        builder = {"State": {"Running": True, "Pid": 123}, "Config": {"Image": CONFIG["buildkit_image"], "Cmd": ["--oci-worker-gc=false", "--allow-insecure-entitlement=network.host"]},
                    "HostConfig": {"Memory": source.MEMORY, "MemorySwap": source.MEMORY, "CpuPeriod": 100000,
-                                  "CpuQuota": 25000, "NetworkMode": "default"},
+                                  "CpuQuota": 25000, "NetworkMode": "default", "CgroupnsMode": "host"},
                    "Mounts": [{"Type": "volume", "Name": source.CONTAINER+"_state", "Destination": "/var/lib/buildkit"}]}
         info = {"Name": source.BUILDER, "Driver": "docker-container", "Nodes": [{"Endpoint": "unix:///var/run/docker.sock"}]}
         def api_with(limits):
@@ -217,11 +217,14 @@ class LowLevelTests(unittest.TestCase):
                 if args[0] == "exec": return limits
                 return b"[]"
             return mock.Mock(engine=engine)
-        with mock.patch.object(source, "verify_worker_budget"):
+        with mock.patch.object(source, "verify_worker_budget"), \
+             mock.patch.object(source, "process_cgroup", return_value="/daemon"), \
+             mock.patch.object(source, "read_limits", return_value=["268435456", "25000 100000", "0"]):
             source.verify_builder(api_with(b"268435456\n25000 100000\n0\n"), CONFIG)
-        for limits in [b"max\nmax 100000\nmax\n", b"8589934592\n125000 100000\n0\n"]:
-            with self.assertRaisesRegex(source.SourceError, "BUILD_LIMITS_INVALID"):
-                source.verify_builder(api_with(limits), CONFIG)
+        for limits in [["max", "max 100000", "max"], ["8589934592", "25000 100000", "0"]]:
+            with mock.patch.object(source, "process_cgroup", return_value="/daemon"), \
+                 mock.patch.object(source, "read_limits", return_value=limits), self.assertRaisesRegex(source.SourceError, "BUILD_LIMITS_INVALID"):
+                source.verify_builder(api_with(b""), CONFIG)
         builder["Mounts"].append({"Type": "bind", "Source": "/var/run/docker.sock", "Destination": "/var/run/docker.sock"})
         with self.assertRaisesRegex(source.SourceError, "BUILD_LIMITS_INVALID"):
             source.verify_builder(api_with(b"268435456\n25000 100000\n0\n"), CONFIG)

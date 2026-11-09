@@ -36,6 +36,12 @@ def main():
         return tag + "@" + digest
     config = {"node_image": pinned("node:24-bookworm-slim"), "buildkit_image": pinned("moby/buildkit:v0.26.2")}
     subprocess.run(["sudo", "python3", str(ROOT/"ops/ekiden-build-limits")], check=True)
+    engine("container", "create", "--name", source.CONTAINER, "--privileged", "--cgroupns", "host",
+           "--memory", "256m", "--memory-swap", "256m", "--cpu-period", "100000", "--cpu-quota", "25000",
+           "--mount", "type=volume,source="+source.CONTAINER+"_state,target=/var/lib/buildkit",
+           config["buildkit_image"], "--config=/etc/buildkit/buildkitd.toml", "--oci-worker-gc=false")
+    engine("container", "cp", str(ROOT/"ops/source-buildkitd.toml"), source.CONTAINER+":/etc/buildkit/buildkitd.toml")
+    engine("container", "start", source.CONTAINER)
     engine("buildx", "create", "--name", source.BUILDER, "--driver", "docker-container",
            "--driver-opt", "image="+config["buildkit_image"],
            "--driver-opt", "memory=256m,memory-swap=256m,cpu-period=100000,cpu-quota=25000",

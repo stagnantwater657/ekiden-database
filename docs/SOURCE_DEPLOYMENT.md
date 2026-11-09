@@ -31,6 +31,7 @@ wrapper 和 root dispatcher 分别严格校验，不接受额外参数、仓库�
 - 每次构建前验证 builder 类型、固定本地 Unix endpoint、实际 Docker HostConfig、**实际 cgroup v2 的 memory.max/cpu.max/memory.swap.max**，再用廉价 Node 探针，从宿主 /proc 核对实际 worker PID 是固定 `/ekiden-build` 受限 cgroup 的后代。worker 叶节点可显示 max，但不能脱离该受限父级。只配置了参数但未生效时会失败。
 - 专用 builder 只挂载自己的 BuildKit state volume，不挂 Docker socket、SSH 私钥、GitHub token、runtime.env、机器人数据或其他项目目录。拒绝 security.insecure 等授权；Buildx 默认的 network.host 仅作用于 bridge 隔离的 builder，构建客户端不传任何 --allow，因此 Dockerfile 不能使用该特权。Buildx 的 rootful docker-container driver 自身需要 privileged 来运行 OCI worker，只有管理员能配置它，部署用户不能直接控制此 daemon。
 - 构建超时或 SSH 中断时仅停止这个专用 BuildKit 容器，以终止残留构建；不停止 Docker Engine 或应用容器。管理员检查后再启动该专用 builder。
+- 为避免私有 cgroup 命名空间把 worker 路径映射到错误预算，管理员预创建专用 daemon 容器并明确设置 `--cgroupns=host`；仍使用 bridge 网络和隔离 PID，worker 使用固定 `/ekiden-build`，不开放 host 网络、Docker socket 或其他项目数据。Buildx 只接管这个已验证的容器，意外自动重建为其他模式时检查会拒绝。
 - 输出镜像加载回宿主 Docker，仅创建绑定 SHA 和实际本地镜像 ID 的 Ekiden 标签；不清理 current/previous 的镜像。BuildKit 自动 GC 关闭，未来缓存占用增加时先告警/拒绝构建，不进行全局 prune。
 
 这些上限不能承诺机器永远不受负载影响。当前可用约 1.7 GiB，给构建 1.5 GiB 的余量较小；管理员应监测现有机器人、swap 和 load，验证通过后才进行首次构建。若资源不够，保持拒绝并调整经审核的上限/机器容量，不关闭限制。cgroup v1 或未委派资源控制的 rootless Docker 不满足本实现，不能跳过探针部署。
@@ -169,7 +170,16 @@ systemctl enable --now ekiden-build-limits.service
 systemctl status --no-pager ekiden-build-limits.service
 cat /sys/fs/cgroup/ekiden-build/memory.max /sys/fs/cgroup/ekiden-build/cpu.max /sys/fs/cgroup/ekiden-build/memory.swap.max
 # 预期：1342177280、100000 100000、0
-# 仅首次创建，若同名 builder 已存在，先 inspect 对比，禁止覆盖未知 builder：
+# 仅首次创建；同名容器/builder 已存在时先检查，禁止覆盖未知实例。
+# 不挂宿主 socket/凭据；配置通过 cp 注入自身文件系统，只有一个自身 state volume。
+/usr/bin/docker --host unix:///var/run/docker.sock --config /etc/ekiden/source-docker container create \
+  --name buildx_buildkit_ekiden-source0 --privileged --cgroupns host \
+  --memory 256m --memory-swap 256m --cpu-period 100000 --cpu-quota 25000 \
+  --mount type=volume,source=buildx_buildkit_ekiden-source0_state,target=/var/lib/buildkit \
+  --pull never "$BUILDKIT_IMAGE" --config=/etc/buildkit/buildkitd.toml --oci-worker-gc=false
+/usr/bin/docker container cp /etc/ekiden/source-buildkitd.toml buildx_buildkit_ekiden-source0:/etc/buildkit/buildkitd.toml
+/usr/bin/docker container start buildx_buildkit_ekiden-source0
+# Buildx bootstrap 发现已有容器，不能由它重建成默认的私有 cgroup namespace：
 /usr/bin/docker --host unix:///var/run/docker.sock --config /etc/ekiden/source-docker buildx create \
   --name ekiden-source --driver docker-container \
   --driver-opt "image=$BUILDKIT_IMAGE" \
@@ -180,7 +190,11 @@ cat /sys/fs/cgroup/ekiden-build/memory.max /sys/fs/cgroup/ekiden-build/cpu.max /
 
 /usr/bin/docker inspect buildx_buildkit_ekiden-source0 \
   --format 'Memory={{.HostConfig.Memory}} Swap={{.HostConfig.MemorySwap}} Quota={{.HostConfig.CpuQuota}} Period={{.HostConfig.CpuPeriod}} Mounts={{json .Mounts}}'
-/usr/bin/docker exec buildx_buildkit_ekiden-source0 cat /sys/fs/cgroup/memory.max /sys/fs/cgroup/cpu.max /sys/fs/cgroup/memory.swap.max
+# cgroupns=host，因此不能读取容器视图的根 memory.max 作为自身限制。
+BUILDER_PID=$(/usr/bin/docker inspect --format '{{.State.Pid}}' buildx_buildkit_ekiden-source0)
+BUILDER_CGROUP=$(awk -F: '$1=="0" {print $3}' "/proc/$BUILDER_PID/cgroup")
+cat "/sys/fs/cgroup$BUILDER_CGROUP/memory.max" "/sys/fs/cgroup$BUILDER_CGROUP/cpu.max" "/sys/fs/cgroup$BUILDER_CGROUP/memory.swap.max"
+unset BUILDER_PID BUILDER_CGROUP
 unset NODE_DIGEST BUILDKIT_DIGEST NODE_IMAGE BUILDKIT_IMAGE
 ```
 

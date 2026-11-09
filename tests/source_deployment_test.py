@@ -197,10 +197,17 @@ class LowLevelTests(unittest.TestCase):
                     source.build_command(api, [], log, 1200)
             api.engine.assert_any_call("container", "stop", "--time", "10", source.CONTAINER)
 
+    def test_worker_pid_must_be_inside_fixed_resource_budget(self):
+        with mock.patch.object(source.Path, "read_text", return_value="0::/ekiden-build/buildkit/abc\n"):
+            self.assertEqual(source.process_cgroup(123), "/ekiden-build/buildkit/abc")
+        for path in ["/", ""]:
+            with mock.patch.object(source.Path, "read_text", return_value="0::"+path+"\n"), self.assertRaises(source.SourceError):
+                source.process_cgroup(123)
+
     def test_real_builder_cgroup_limits_not_just_requested_flags(self):
         builder = {"State": {"Running": True}, "Config": {"Image": CONFIG["buildkit_image"], "Cmd": ["--oci-worker-gc=false", "--allow-insecure-entitlement=network.host"]},
                    "HostConfig": {"Memory": source.MEMORY, "MemorySwap": source.MEMORY, "CpuPeriod": 100000,
-                                  "CpuQuota": 125000, "NetworkMode": "default"},
+                                  "CpuQuota": 25000, "NetworkMode": "default"},
                    "Mounts": [{"Type": "volume", "Name": source.CONTAINER+"_state", "Destination": "/var/lib/buildkit"}]}
         info = {"Name": source.BUILDER, "Driver": "docker-container", "Nodes": [{"Endpoint": "unix:///var/run/docker.sock"}]}
         def api_with(limits):
@@ -210,13 +217,14 @@ class LowLevelTests(unittest.TestCase):
                 if args[0] == "exec": return limits
                 return b"[]"
             return mock.Mock(engine=engine)
-        source.verify_builder(api_with(b"1610612736\n125000 100000\n0\n"), CONFIG)
+        with mock.patch.object(source, "verify_worker_budget"):
+            source.verify_builder(api_with(b"268435456\n25000 100000\n0\n"), CONFIG)
         for limits in [b"max\nmax 100000\nmax\n", b"8589934592\n125000 100000\n0\n"]:
             with self.assertRaisesRegex(source.SourceError, "BUILD_LIMITS_INVALID"):
                 source.verify_builder(api_with(limits), CONFIG)
         builder["Mounts"].append({"Type": "bind", "Source": "/var/run/docker.sock", "Destination": "/var/run/docker.sock"})
         with self.assertRaisesRegex(source.SourceError, "BUILD_LIMITS_INVALID"):
-            source.verify_builder(api_with(b"1610612736\n125000 100000\n0\n"), CONFIG)
+            source.verify_builder(api_with(b"268435456\n25000 100000\n0\n"), CONFIG)
 
 
 if __name__ == "__main__":

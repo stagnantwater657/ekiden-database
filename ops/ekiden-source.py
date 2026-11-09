@@ -22,7 +22,11 @@ TOKEN = Path("/etc/ekiden/github-read-token")
 POLICY = Path("/usr/local/libexec/ekiden-source-policy.py")
 BUILDER = "ekiden-source"
 CONTAINER = "buildx_buildkit_ekiden-source0"
-MEMORY = 1536 * 1024 * 1024
+MEMORY = 256 * 1024 * 1024
+WORKER_GROUP = Path("/sys/fs/cgroup/ekiden-build")
+WORKER_CGROUP = "/ekiden-build"
+WORKER_VALUES = {"memory.max": "1342177280", "memory.swap.max": "0",
+                 "cpu.max": "100000 100000", "pids.max": "256"}
 MIN_DISK = 12 * 1024 * 1024 * 1024
 BUILD_SECONDS = 1200
 DOCKER_SOCKET = "unix:///var/run/docker.sock"
@@ -151,7 +155,7 @@ def verify_builder(api, config):
         host = builder["HostConfig"]
         fail(builder["State"]["Running"] and builder["Config"]["Image"] == config["buildkit_image"], "BUILD_IMAGE_UNAVAILABLE")
         fail(host["Memory"] == MEMORY and host["MemorySwap"] == MEMORY
-             and host["CpuPeriod"] == 100000 and host["CpuQuota"] == 125000
+             and host["CpuPeriod"] == 100000 and host["CpuQuota"] == 25000
              and host["NetworkMode"] not in {"host", "none"}, "BUILD_LIMITS_INVALID")
         mounts = builder["Mounts"]
         fail(len(mounts) == 1 and mounts[0]["Type"] == "volume"
@@ -167,7 +171,8 @@ def verify_builder(api, config):
                 fail(entitlement == "network.host", "BUILD_LIMITS_INVALID")
         limits = api.engine("exec", CONTAINER, "cat", "/sys/fs/cgroup/memory.max",
                             "/sys/fs/cgroup/cpu.max", "/sys/fs/cgroup/memory.swap.max").decode().splitlines()
-        fail(limits == [str(MEMORY), "125000 100000", "0"], "BUILD_LIMITS_INVALID")
+        fail(limits == [str(MEMORY), "25000 100000", "0"], "BUILD_LIMITS_INVALID")
+        verify_worker_budget()
         # These must already exist locally. No automatic image provisioning here.
         api.engine("image", "inspect", config["node_image"])
         api.engine("image", "inspect", config["buildkit_image"])
@@ -231,6 +236,17 @@ def build_command(api, args, logfile, timeout, observer=None):
         raise SourceError("SOURCE_BUILD_FAILED")
 
 
+def verify_worker_budget():
+    try:
+        protected(WORKER_GROUP)
+        fail(all((WORKER_GROUP/key).read_text().strip() == value for key,value in WORKER_VALUES.items()),
+             "BUILD_LIMITS_INVALID")
+    except SourceError:
+        raise
+    except Exception:
+        raise SourceError("BUILD_LIMITS_INVALID") from None
+
+
 def process_cgroup(pid):
     fail(re.fullmatch(r"[1-9][0-9]*", str(pid)), "BUILD_LIMITS_INVALID")
     lines = Path(f"/proc/{pid}/cgroup").read_text().splitlines()
@@ -242,8 +258,8 @@ def process_cgroup(pid):
 def resource_probe(api, config, directory):
     # A leaf may show 'max' while an ancestor enforces the real limit. Prove
     # the actual worker PID is inside the already verified builder cgroup.
-    builder = json.loads(api.engine("container", "inspect", CONTAINER))[0]
-    parent = process_cgroup(builder["State"]["Pid"])
+    verify_worker_budget()
+    parent = WORKER_CGROUP
     marker = "EKIDEN_PROBE_" + secrets.token_hex(8)
     observed = [False]
     def observe():

@@ -35,9 +35,10 @@ def main():
         digest = json.loads(engine("image", "inspect", tag))[0]["RepoDigests"][0].split("@", 1)[1]
         return tag + "@" + digest
     config = {"node_image": pinned("node:24-bookworm-slim"), "buildkit_image": pinned("moby/buildkit:v0.26.2")}
+    subprocess.run(["sudo", "python3", str(ROOT/"ops/ekiden-build-limits")], check=True)
     engine("buildx", "create", "--name", source.BUILDER, "--driver", "docker-container",
            "--driver-opt", "image="+config["buildkit_image"],
-           "--driver-opt", "memory=1536m,memory-swap=1536m,cpu-period=100000,cpu-quota=125000",
+           "--driver-opt", "memory=256m,memory-swap=256m,cpu-period=100000,cpu-quota=25000",
            "--buildkitd-flags", "--oci-worker-gc=false", "--buildkitd-config", str(ROOT/"ops/source-buildkitd.toml"),
            "--bootstrap", source.DOCKER_SOCKET)
     try:

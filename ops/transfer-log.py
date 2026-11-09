@@ -6,6 +6,26 @@ import re
 import sys
 
 ERRORS = {
+    "INVALID_SOURCE_SHA": "Invalid source commit SHA.",
+    "SOURCE_CONFIG_INVALID": "Root source configuration is missing, unpinned or writable.",
+    "CI_CHECK_FAILED": "GitHub CI admission query failed; no deployment permitted.",
+    "CI_NOT_APPROVED": "Current main commit has not passed every required CI job.",
+    "MAIN_SHA_MISMATCH": "Requested SHA is no longer the current main HEAD.",
+    "SOURCE_FETCH_FAILED": "Fixed GitHub source fetch failed.",
+    "SOURCE_FETCH_TIMEOUT": "Fixed GitHub source fetch exceeded its deadline.",
+    "SOURCE_ARCHIVE_INVALID": "Source checkout is unsafe or excessive.",
+    "DOCKERFILE_APPROVAL_REQUIRED": "Dockerfile differs from the root-approved template.",
+    "LOCKFILE_SOURCE_INVALID": "Lockfile contains unapproved dependency sources/integrity.",
+    "BUILD_LIMITS_INVALID": "Actual builder/worker cgroup limits were not verified; refusing build.",
+    "BUILD_IMAGE_UNAVAILABLE": "Pinned domestic builder/base image is unavailable or builder is stopped.",
+    "SOURCE_BUILD_TIMEOUT": "Local containerized build exceeded deadline; dedicated builder stopped.",
+    "SOURCE_BUILD_OOM": "Local build hit container or Node heap memory limit; old website retained.",
+    "NPM_CI_FAILED": "Containerized npm ci failed; old website retained.",
+    "SOURCE_BUILD_FAILED": "Containerized image build failed; old website retained.",
+    "SOURCE_IMAGE_IDENTITY_FAILED": "Built image revision does not match requested main SHA.",
+    "SOURCE_MIGRATION_REQUIRED": "Administrator must migrate legacy deployment state first.",
+    "SOURCE_DISK_LOW": "Less than 12 GiB free; refusing local build.",
+    "SOURCE_HEALTH_FAILED": "Activation health check failed; verify application rollback.",
     "UPLOAD_TOTAL_TIMEOUT": "Receiver total upload deadline exceeded; inspect received bytes and average rate.",
     "UPLOAD_STALLED": "Receiver saw no new bytes for 180 seconds; inspect network/stdin relay.",
     "UPLOAD_EOF_TIMEOUT": "All bytes arrived but stdin EOF was missing for 15 seconds; inspect SSH/sudo stdin forwarding.",
@@ -22,7 +42,8 @@ ERRORS = {
     "REMOTE_REJECTED": "Server rejected the operation; administrator must check root script/configuration.",
     "INTERNAL_ERROR": "Unexpected server error; administrator must inspect locally.",
 }
-STAGES = {"checksum_verified", "archive_verify", "archive_verified", "load_started",
+STAGES = {"source_fetch", "source_resource_probe", "source_image_build", "source_build_complete",
+          "source_health_check", "source_complete","checksum_verified", "archive_verify", "archive_verified", "load_started",
           "load_complete", "upload_complete", "deploy_complete"}
 PROGRESS = re.compile(
     r"EKIDEN (receive_started|receive_progress|receive_complete) received=([0-9]{1,10}) "
@@ -33,7 +54,7 @@ PROGRESS = re.compile(
 
 def consume(stream, destination, expected_size, phase):
     result = {"received": 0, "total": expected_size, "elapsed_s": 0, "idle_s": 0,
-              "error": None, "complete": False, "telemetry": False}
+              "error": None, "complete": False, "telemetry": False, "phase": phase}
     while True:
         raw = stream.readline(513)
         if not raw:
@@ -61,7 +82,8 @@ def consume(stream, destination, expected_size, phase):
         if match and match[1] in STAGES:
             name = match[1]
             result["telemetry"] = True
-            if name == ("upload_complete" if phase == "upload" else "deploy_complete"):
+            if name == {"upload": "upload_complete", "deploy": "deploy_complete", "source": "source_complete",
+                        "build-source": "source_build_complete"}[phase]:
                 result["complete"] = True
             print("Server stage: " + name, flush=True)
             continue
@@ -97,13 +119,14 @@ def check_result(destination, ssh_status, sender_status, logger_status):
         return 0
     received = report.get("received", 0)
     total = report.get("total", 0)
-    print(f"::error::[{code}] {explanation} Receiver last confirmed {received}/{total} bytes. "
+    detail = f"Receiver last confirmed {received}/{total} bytes. " if report.get("phase", "upload") == "upload" else ""
+    print(f"::error::[{code}] {explanation} {detail}"
           f"ssh_exit={ssh_status} sender_exit={sender_status} logger_exit={logger_status}", flush=True)
     return 1
 
 
 if __name__ == "__main__":
-    if len(sys.argv) == 5 and sys.argv[1] == "stream" and sys.argv[4] in {"upload", "deploy"}:
+    if len(sys.argv) == 5 and sys.argv[1] == "stream" and sys.argv[4] in {"upload", "deploy", "source", "build-source"}:
         size = int(sys.argv[3])
         if not 0 < size <= 536870912:
             sys.exit(1)

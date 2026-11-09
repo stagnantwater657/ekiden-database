@@ -369,11 +369,12 @@ print('EKIDEN stage name=upload_complete' if command[0]=='upload' else 'EKIDEN s
         sudo.chmod(0o700)
         wrapper = self.root / "wrapper"
         wrapper.write_text((ROOT / "ops/ekiden-ssh-command").read_text().replace("/usr/bin/sudo", str(sudo)))
-        for command in ["whoami", "deploy latest", "deploy " + SHA + "; id", "deploy " + SHA + "\nid", "$(id)",
+        for command in ["whoami", "deploy latest", "deploy " + SHA + "; id", "deploy " + SHA + "\nid", "$(id)", "deploy " + SHA + " " + OLD_ID,
+                        "upload " + SHA + " " + "0" * 64 + " " + OLD_ID + " 10",
                         "upload " + SHA + " 0 " + OLD_ID + " 10", "deploy " + SHA + " extra"]:
             result = subprocess.run(["bash", str(wrapper)], env={"SSH_ORIGINAL_COMMAND": command}, capture_output=True)
             self.assertNotEqual(result.returncode, 0, command)
-        for command in ["deploy " + SHA + " " + OLD_ID, "upload " + SHA + " " + "0" * 64 + " " + OLD_ID + " 10"]:
+        for command in ["deploy-source " + SHA, "build-source " + SHA]:
             result = subprocess.run(["bash", str(wrapper)], env={"SSH_ORIGINAL_COMMAND": command}, capture_output=True)
             self.assertEqual(result.returncode, 0, result.stderr)
             self.assertIn(b"/usr/local/sbin/ekiden-deploy", result.stdout)

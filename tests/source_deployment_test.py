@@ -198,7 +198,7 @@ class LowLevelTests(unittest.TestCase):
             api.engine.assert_any_call("container", "stop", "--time", "10", source.CONTAINER)
 
     def test_real_builder_cgroup_limits_not_just_requested_flags(self):
-        builder = {"State": {"Running": True}, "Config": {"Image": CONFIG["buildkit_image"], "Cmd": ["--oci-worker-gc=false"]},
+        builder = {"State": {"Running": True}, "Config": {"Image": CONFIG["buildkit_image"], "Cmd": ["--oci-worker-gc=false", "--allow-insecure-entitlement=network.host"]},
                    "HostConfig": {"Memory": source.MEMORY, "MemorySwap": source.MEMORY, "CpuPeriod": 100000,
                                   "CpuQuota": 125000, "NetworkMode": "default"},
                    "Mounts": [{"Type": "volume", "Name": source.CONTAINER+"_state", "Destination": "/var/lib/buildkit"}]}

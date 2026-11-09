@@ -119,12 +119,12 @@ def deployment_lock():
         yield
 
 
-def engine(*args, timeout=30, env_extra=None):
+def engine(*args, timeout=30, env_extra=None, docker_config="/etc/ekiden/docker"):
     env = {"PATH": "/usr/bin:/bin", "HOME": "/root"}
     env.update(env_extra or {})
     try:
         result = subprocess.run(
-            [DOCKER, "--host", "unix:///var/run/docker.sock", "--config", "/etc/ekiden/docker", *args],
+            [DOCKER, "--host", "unix:///var/run/docker.sock", "--config", docker_config, *args],
             env=env, stdin=subprocess.DEVNULL, stdout=subprocess.PIPE,
             stderr=subprocess.DEVNULL, timeout=timeout, check=True,
         )

@@ -13,7 +13,7 @@ build-source <完整40位小写SHA>
 deploy-source <完整40位小写SHA>
 ```
 
-wrapper 和 root dispatcher 分别严格校验，不接受额外参数、仓库、路径、Dockerfile、构建参数或任意 Shell。sudoers 只委派这两个固定入口；停用旧 upload/deploy 的 SSH 授权，避免绕过源码 CI 准入。旧工作流文件不自动执行，升级后若手动运行旧上传流程会被拒绝。管理员回滚代码仍可直接使用。不给部署用户直接 Git/Docker/Bash 权限，不加入 docker 组，也不修改生产 SSH 配置或取消 ForceCommand。
+wrapper 和 root dispatcher 分别严格校验，不接受额外参数、仓库、路径、Dockerfile、构建参数或任意 Shell。构建使用单独的 `/etc/ekiden/source-docker` 配置目录，不读取旧 GHCR 认证配置。sudoers 只委派这两个固定入口；停用旧 upload/deploy 的 SSH 授权，避免绕过源码 CI 准入。旧工作流文件不自动执行，升级后若手动运行旧上传流程会被拒绝。管理员回滚代码仍可直接使用。不给部署用户直接 Git/Docker/Bash 权限，不加入 docker 组，也不修改生产 SSH 配置或取消 ForceCommand。
 
 - Runner 与服务器都查询固定 GitHub 仓库的 main HEAD 和 `ci.yml` 的最新 push run，要求 SHA 完全相同、run 成功，且 `check`、`Docker 29.1.3 containerd archive compatibility`、`COS benchmark offline SDK tests`、`Source deployment policy and resource limits` 四项 job 均成功，不接受跳过或仅 PR 通过的结果。
 - 因旧 CI 只在 PR 触发，本 PR 增加 main push 的**测试/构建 CI**，不是生产自动部署。main 合并提交通过后才能手动部署。
@@ -29,7 +29,7 @@ wrapper 和 root dispatcher 分别严格校验，不接受额外参数、仓库�
 - CPU period 100000、quota 125000，即 **1.25 核**；BuildKit 最大并行 1，Next.js 生成 worker 1；Node 构建 heap 768 MiB。运行镜像仍采用原有 256 MiB heap/384 MiB Compose 限制。
 - 构建超时 20 分钟；单独资源探针最多 120 秒；Git fetch 180 秒；不足 12 GiB 空闲磁盘则拒绝。构建日志为 root-only、最多 64 MiB，不回放原始内容到 Actions。
 - 每次构建前验证 builder 类型、固定本地 Unix endpoint、实际 Docker HostConfig、**实际 cgroup v2 的 memory.max/cpu.max/memory.swap.max**，再用受限 worker 执行廉价 Node 探针。只配置了参数但未生效时会失败。
-- 专用 builder 只挂载自己的 BuildKit state volume，不挂 Docker socket、SSH 私钥、GitHub token、runtime.env、机器人数据或其他项目目录。禁用不安全 entitlement；Buildx 的 rootful docker-container driver 自身需要 privileged 来运行 OCI worker，只有管理员能配置它，部署用户不能直接控制此 daemon。
+- 专用 builder 只挂载自己的 BuildKit state volume，不挂 Docker socket、SSH 私钥、GitHub token、runtime.env、机器人数据或其他项目目录。拒绝 security.insecure 等授权；Buildx 默认的 network.host 仅作用于 bridge 隔离的 builder，构建客户端不传任何 --allow，因此 Dockerfile 不能使用该特权。Buildx 的 rootful docker-container driver 自身需要 privileged 来运行 OCI worker，只有管理员能配置它，部署用户不能直接控制此 daemon。
 - 构建超时或 SSH 中断时仅停止这个专用 BuildKit 容器，以终止残留构建；不停止 Docker Engine 或应用容器。管理员检查后再启动该专用 builder。
 - 输出镜像加载回宿主 Docker，仅创建绑定 SHA 和实际本地镜像 ID 的 Ekiden 标签；不清理 current/previous 的镜像。BuildKit 自动 GC 关闭，未来缓存占用增加时先告警/拒绝构建，不进行全局 prune。
 
@@ -48,7 +48,7 @@ df -h /var/lib/docker /var/lib/ekiden
 stat -fc %T /sys/fs/cgroup
 /usr/bin/docker version
 /usr/bin/docker compose version
-/usr/bin/docker --config /etc/ekiden/docker buildx version
+/usr/bin/docker buildx version
 /usr/bin/docker ps --format 'table {{.Names}}\t{{.ID}}\t{{.Status}}\t{{.Ports}}'
 /usr/bin/docker image inspect m.daocloud.io/docker.io/library/node:24-bookworm-slim \
   --format '{{json .RepoDigests}}'
@@ -95,7 +95,7 @@ printf '备份路径：%s\n' "$SOURCE_BACKUP"
 继续上面的持锁 root shell：
 
 ```bash
-install -d -o root -g root -m 0700 /var/lib/ekiden/source-builds /var/lib/ekiden/ready
+install -d -o root -g root -m 0700 /var/lib/ekiden/source-builds /var/lib/ekiden/ready /etc/ekiden/source-docker
 install -o root -g root -m 0755 ops/ekiden-deploy /usr/local/sbin/.ekiden-deploy.new
 install -o root -g root -m 0755 ops/ekiden-source.py /usr/local/libexec/.ekiden-source.py.new
 install -o root -g root -m 0755 ops/source-policy.py /usr/local/libexec/.ekiden-source-policy.py.new
@@ -161,7 +161,7 @@ chmod 0600 /etc/ekiden/source-builder.json
 /usr/bin/docker run --rm --network none "$NODE_IMAGE" node --version
 
 # 仅首次创建，若同名 builder 已存在，先 inspect 对比，禁止覆盖未知 builder：
-/usr/bin/docker --host unix:///var/run/docker.sock --config /etc/ekiden/docker buildx create \
+/usr/bin/docker --host unix:///var/run/docker.sock --config /etc/ekiden/source-docker buildx create \
   --name ekiden-source --driver docker-container \
   --driver-opt "image=$BUILDKIT_IMAGE" \
   --driver-opt memory=1536m,memory-swap=1536m,cpu-period=100000,cpu-quota=125000 \

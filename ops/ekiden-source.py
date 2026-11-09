@@ -24,7 +24,7 @@ MEMORY = 1536 * 1024 * 1024
 MIN_DISK = 12 * 1024 * 1024 * 1024
 BUILD_SECONDS = 1200
 DOCKER_SOCKET = "unix:///var/run/docker.sock"
-DOCKER_CONFIG = "/etc/ekiden/docker"
+DOCKER_CONFIG = "/etc/ekiden/source-docker"
 PROBE_JS = """const fs=require('fs');
 const mem=fs.readFileSync('/sys/fs/cgroup/memory.max','utf8').trim();
 const cpu=fs.readFileSync('/sys/fs/cgroup/cpu.max','utf8').trim().split(/\\s+/).map(Number);
@@ -140,7 +140,7 @@ def checkout(repo, sha, directory):
 
 def verify_builder(api, config):
     try:
-        builders = [json.loads(line) for line in api.engine("buildx", "ls", "--format", "{{json .}}").decode().splitlines()]
+        builders = [json.loads(line) for line in api.engine("buildx", "ls", "--format", "{{json .}}", docker_config=DOCKER_CONFIG).decode().splitlines()]
         matches = [item for item in builders if item.get("Name") == BUILDER]
         # Buildx can list the same stored builder twice (current context + --host).
         # Accept duplicate identities only when every record names the fixed local driver/endpoint.
@@ -157,8 +157,14 @@ def verify_builder(api, config):
         fail(len(mounts) == 1 and mounts[0]["Type"] == "volume"
              and mounts[0]["Name"] == CONTAINER + "_state"
              and mounts[0]["Destination"] == "/var/lib/buildkit", "BUILD_LIMITS_INVALID")
-        fail(not any("allow-insecure-entitlement" in value or "no-process-sandbox" in value
-                     for value in builder["Config"]["Cmd"]), "BUILD_LIMITS_INVALID")
+        flags = builder["Config"]["Cmd"]
+        for index, value in enumerate(flags):
+            fail("no-process-sandbox" not in value, "BUILD_LIMITS_INVALID")
+            if value.startswith("--allow-insecure-entitlement"):
+                entitlement = value.split("=", 1)[1] if "=" in value else flags[index+1]
+                # Buildx adds network.host for the *bridge-isolated builder* by default.
+                # Client builds receive no --allow flag, so Dockerfile RUN cannot use it.
+                fail(entitlement == "network.host", "BUILD_LIMITS_INVALID")
         limits = api.engine("exec", CONTAINER, "cat", "/sys/fs/cgroup/memory.max",
                             "/sys/fs/cgroup/cpu.max", "/sys/fs/cgroup/memory.swap.max").decode().splitlines()
         fail(limits == [str(MEMORY), "125000 100000", "0"], "BUILD_LIMITS_INVALID")

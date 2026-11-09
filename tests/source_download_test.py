@@ -146,11 +146,12 @@ class ArchiveTests(unittest.TestCase):
         import os
         import re
         doc=(ROOT/"docs/SOURCE_DEPLOYMENT.md").read_text()
-        blocks=re.findall(r"python3 - <<'PY'\n(.*?)\nPY",doc,re.S)
+        blocks=re.findall(r"python3(?: -I)? - <<'PY'\n(.*?)\nPY",doc,re.S)
         for block in blocks: compile(block,"SOURCE_DEPLOYMENT.md","exec")
         block=next(block for block in blocks if "import gzip, os, shutil, tarfile" in block)
         self.make()
-        with mock.patch.dict(os.environ,UPGRADE_DIR=str(self.root),REVIEWED_SHA=SHA):
+        with mock.patch.dict(os.environ,UPGRADE_DIR=str(self.root),REVIEWED_SHA=SHA,
+                             EXPECTED_ARCHIVE_SHA256=__import__("hashlib").sha256(self.archive.read_bytes()).hexdigest()):
             exec(compile(block,"bootstrap-extract","exec"), {})
         self.assertTrue((self.root/"context/Dockerfile").exists())
 

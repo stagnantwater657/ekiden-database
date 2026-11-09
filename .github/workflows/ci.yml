@@ -86,6 +86,7 @@ jobs:
         run: |
           python3 tests/source_deployment_test.py
           python3 tests/source_download_test.py
+          python3 tests/bootstrap_docs_test.py
           node --test tests/npm_lock.test.mjs
           python3 -m py_compile ops/source-policy.py ops/ekiden-source.py
           bash -n ops/runner-source.sh

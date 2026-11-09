@@ -1,6 +1,7 @@
 #!/usr/bin/python3 -I
 """Fixed repository source deployment, executed only by the root-owned dispatcher."""
 import base64
+import hashlib
 import contextlib
 import importlib.util
 import json
@@ -286,6 +287,35 @@ def resource_probe(api, config, directory):
     fail(observed[0] and b"EKIDEN_LIMITS_OK" in (directory / "resource-probe.log").read_bytes(), "BUILD_LIMITS_INVALID")
 
 
+def image_config_digest(api, tag, sha, directory):
+    # Docker's load exporter may omit config.digest; Docker 29 native Id may
+    # instead identify a manifest. Read the actual config from a local save.
+    archive = directory / "identity.tar"
+    command = [api.DOCKER, "--host", DOCKER_SOCKET, "--config", DOCKER_CONFIG, "image", "save", tag]
+    try:
+        with archive.open("wb") as output:
+            subprocess.run(command, stdin=subprocess.DEVNULL, stdout=output, stderr=subprocess.DEVNULL,
+                           env={"PATH": "/usr/bin:/bin", "HOME": "/root"}, check=True, timeout=180,
+                           preexec_fn=lambda: resource.setrlimit(resource.RLIMIT_FSIZE, (2*1024**3, 2*1024**3)))
+        with tarfile.open(archive) as saved:
+            def small(name):
+                member = saved.getmember(name)
+                fail(member.isfile() and member.size <= 1024*1024, "SOURCE_IMAGE_IDENTITY_FAILED")
+                return saved.extractfile(member).read()
+            manifests = json.loads(small("manifest.json"))
+            fail(len(manifests) == 1 and manifests[0]["RepoTags"] == [tag], "SOURCE_IMAGE_IDENTITY_FAILED")
+            config = small(manifests[0]["Config"])
+            fail(json.loads(config)["config"]["Labels"]["org.opencontainers.image.revision"] == sha,
+                 "SOURCE_IMAGE_IDENTITY_FAILED")
+            return "sha256:" + hashlib.sha256(config).hexdigest()
+    except SourceError:
+        raise
+    except Exception:
+        raise SourceError("SOURCE_IMAGE_IDENTITY_FAILED") from None
+    finally:
+        archive.unlink(missing_ok=True)
+
+
 def run(api, sha, build_only=False):
     fail(re.fullmatch(r"[0-9a-f]{40}", sha), "INVALID_SOURCE_SHA")
     fail(not (api.STATE / "current").exists() or (api.STATE / "current.json").exists(), "SOURCE_MIGRATION_REQUIRED")
@@ -326,7 +356,7 @@ def run(api, sha, build_only=False):
         info = api.inspect_image(tag)
         fail(info["Config"].get("Labels", {}).get("org.opencontainers.image.revision") == sha,
              "SOURCE_IMAGE_IDENTITY_FAILED")
-        digest = json.loads(metadata.read_text())["containerimage.config.digest"]
+        digest = image_config_digest(api, tag, sha, directory)
         record = api.image_record(sha, info["Id"], digest)
         api.engine("image", "tag", info["Id"], record["ref"])
         api.write_record(api.STATE / "ready" / (sha + ".json"), record)

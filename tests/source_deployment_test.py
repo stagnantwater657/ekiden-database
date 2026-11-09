@@ -72,6 +72,7 @@ class SourceTests(unittest.TestCase):
         self.patches.enter_context(mock.patch.object(source, "checkout", return_value=self.state))
         self.verify = self.patches.enter_context(mock.patch.object(source, "verify_builder"))
         self.patches.enter_context(mock.patch.object(source, "resource_probe"))
+        self.patches.enter_context(mock.patch.object(source, "image_config_digest", return_value=ID))
         self.build = self.patches.enter_context(mock.patch.object(source, "build_command", side_effect=self.successful_build))
 
     def successful_build(self, api, args, logfile, timeout):

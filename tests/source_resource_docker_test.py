@@ -81,11 +81,17 @@ def main():
             except Exception:
                 print((root/"app.log").read_text()[-12000:])
                 raise
-            metadata = json.loads((root/"app-metadata.json").read_text())
+            digest = source.image_config_digest(api, "ekiden-source-ci:checked", os.environ["GITHUB_SHA"], root)
             import re
-            assert re.fullmatch(r"sha256:[0-9a-f]{64}", metadata["containerimage.config.digest"])
+            assert re.fullmatch(r"sha256:[0-9a-f]{64}", digest)
             image = json.loads(engine("image", "inspect", "ekiden-source-ci:checked"))[0]
             assert image["Config"]["Labels"]["org.opencontainers.image.revision"] == os.environ["GITHUB_SHA"]
+            try:
+                engine("run", "-d", "--name", "ekiden-source-identity", "--network", "none", "ekiden-source-ci:checked")
+                runtime = json.loads(engine("container", "inspect", "ekiden-source-identity"))[0]
+                assert runtime["Image"] in {image["Id"], digest}
+            finally:
+                engine("container", "rm", "-f", "ekiden-source-identity")
             print("PASS application Docker build under 1536 MiB / 1.25 CPU limits")
     except Exception:
         # CI has no production credentials; logs are confined to these disposable builds.

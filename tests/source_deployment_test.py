@@ -231,6 +231,34 @@ class LowLevelTests(unittest.TestCase):
             source.verify_builder(api_with(b"268435456\n25000 100000\n0\n"), CONFIG)
 
 
+class LocalIdentityTests(unittest.TestCase):
+    def test_local_archive_identity_and_cleanup_on_rejection_or_timeout(self):
+        import io
+        import hashlib
+        import tarfile
+        tag = "ekiden-source:"+SHA
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            api = mock.Mock(DOCKER="/usr/bin/docker")
+            for revision in [SHA, "b"*40]:
+                config = json.dumps({"config": {"Labels": {"org.opencontainers.image.revision": revision}}}).encode()
+                def save(_command, **kwargs):
+                    with tarfile.open(fileobj=kwargs["stdout"], mode="w") as archive:
+                        for name, data in [("manifest.json", json.dumps([{"RepoTags": [tag], "Config": "config.json"}]).encode()), ("config.json", config)]:
+                            member = tarfile.TarInfo(name); member.size = len(data)
+                            archive.addfile(member, io.BytesIO(data))
+                with mock.patch.object(source.subprocess, "run", side_effect=save):
+                    if revision == SHA:
+                        self.assertEqual(source.image_config_digest(api, tag, SHA, root), "sha256:"+hashlib.sha256(config).hexdigest())
+                    else:
+                        with self.assertRaisesRegex(source.SourceError, "SOURCE_IMAGE_IDENTITY_FAILED"):
+                            source.image_config_digest(api, tag, SHA, root)
+                self.assertFalse((root/"identity.tar").exists())
+            with mock.patch.object(source.subprocess, "run", side_effect=subprocess.TimeoutExpired("save", 180)), self.assertRaises(source.SourceError):
+                source.image_config_digest(api, tag, SHA, root)
+            self.assertFalse((root/"identity.tar").exists())
+
+
 class AncestorTests(unittest.TestCase):
     def test_daemon_init_leaf_resolves_to_fixed_docker_ancestor(self):
         identity = "a"*64

@@ -35,16 +35,9 @@ def main():
         digest = json.loads(engine("image", "inspect", tag))[0]["RepoDigests"][0].split("@", 1)[1]
         return tag + "@" + digest
     config = {"node_image": pinned("node:24-bookworm-slim"), "buildkit_image": pinned("moby/buildkit:v0.26.2")}
-    subprocess.run(["sudo", "python3", str(ROOT/"ops/ekiden-build-limits")], check=True)
-    engine("container", "create", "--name", source.CONTAINER, "--privileged", "--cgroupns", "host",
-           "--memory", "256m", "--memory-swap", "256m", "--cpu-period", "100000", "--cpu-quota", "25000",
-           "--mount", "type=volume,source="+source.CONTAINER+"_state,target=/var/lib/buildkit",
-           config["buildkit_image"], "--config=/etc/buildkit/buildkitd.toml", "--oci-worker-gc=false")
-    engine("container", "cp", str(ROOT/"ops/source-buildkitd.toml"), source.CONTAINER+":/etc/buildkit/buildkitd.toml")
-    engine("container", "start", source.CONTAINER)
     engine("buildx", "create", "--name", source.BUILDER, "--driver", "docker-container",
            "--driver-opt", "image="+config["buildkit_image"],
-           "--driver-opt", "memory=256m,memory-swap=256m,cpu-period=100000,cpu-quota=25000",
+           "--driver-opt", "memory=1536m,memory-swap=1536m,cpu-period=100000,cpu-quota=125000",
            "--buildkitd-flags", "--oci-worker-gc=false", "--buildkitd-config", str(ROOT/"ops/source-buildkitd.toml"),
            "--bootstrap", source.DOCKER_SOCKET)
     try:
@@ -52,7 +45,7 @@ def main():
         print("CI builder identities:", [(item.get("Name"), item.get("Driver"),
                                           [node.get("Endpoint") for node in item.get("Nodes", [])]) for item in records], flush=True)
         daemon = json.loads(engine("container", "inspect", source.CONTAINER))[0]
-        daemon_group = Path("/sys/fs/cgroup") / source.process_cgroup(daemon["State"]["Pid"]).lstrip("/")
+        daemon_group = source.builder_group(daemon)
         print("CI daemon actual limits:", str(daemon_group), source.read_limits(daemon_group), flush=True)
         source.verify_builder(api, config)
         with tempfile.TemporaryDirectory(dir=os.environ.get("RUNNER_TEMP")) as directory:
@@ -68,7 +61,7 @@ def main():
             oom.mkdir()
             # Commit physical pages beyond the hard cgroup cap; heap flags cannot bypass it.
             (oom/"Dockerfile").write_text("ARG NODE_IMAGE\nFROM ${NODE_IMAGE}\nRUN node -e 'const a=[];for(let i=0;i<1800;i++)a.push(Buffer.alloc(1048576,1));console.log(\"UNBOUNDED\")'\n")
-            before_oom = int(dict(line.split() for line in (source.WORKER_GROUP/"memory.events").read_text().splitlines())["oom_kill"])
+            before_oom = int(dict(line.split() for line in (daemon_group/"memory.events").read_text().splitlines())["oom_kill"])
             try:
                 source.build_command(api, ["--build-arg", "NODE_IMAGE="+config["node_image"], str(oom)], root/"oom.log", 120)
                 raise AssertionError("OOM probe unexpectedly succeeded")
@@ -76,7 +69,7 @@ def main():
                 if error.code != "SOURCE_BUILD_OOM":
                     print((root/"oom.log").read_text()[-8000:])
                     raise
-            after_oom = int(dict(line.split() for line in (source.WORKER_GROUP/"memory.events").read_text().splitlines())["oom_kill"])
+            after_oom = int(dict(line.split() for line in (daemon_group/"memory.events").read_text().splitlines())["oom_kill"])
             assert after_oom > before_oom, "No kernel cgroup OOM event observed"
             print("PASS actual cgroup OOM rejection and kernel oom_kill counter")
             # Official registry/base in CI; the same 768 MiB heap and one worker as production.

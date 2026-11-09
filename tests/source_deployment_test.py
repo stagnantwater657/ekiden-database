@@ -205,9 +205,9 @@ class LowLevelTests(unittest.TestCase):
                 source.process_cgroup(123)
 
     def test_real_builder_cgroup_limits_not_just_requested_flags(self):
-        builder = {"State": {"Running": True, "Pid": 123}, "Config": {"Image": CONFIG["buildkit_image"], "Cmd": ["--oci-worker-gc=false", "--allow-insecure-entitlement=network.host"]},
+        builder = {"Id": "a"*64, "State": {"Running": True, "Pid": 123}, "Config": {"Image": CONFIG["buildkit_image"], "Cmd": ["--oci-worker-gc=false", "--allow-insecure-entitlement=network.host"]},
                    "HostConfig": {"Memory": source.MEMORY, "MemorySwap": source.MEMORY, "CpuPeriod": 100000,
-                                  "CpuQuota": 25000, "NetworkMode": "default", "CgroupnsMode": "host"},
+                                  "CpuQuota": 125000, "NetworkMode": "default", "CgroupnsMode": "private"},
                    "Mounts": [{"Type": "volume", "Name": source.CONTAINER+"_state", "Destination": "/var/lib/buildkit"}]}
         info = {"Name": source.BUILDER, "Driver": "docker-container", "Nodes": [{"Endpoint": "unix:///var/run/docker.sock"}]}
         def api_with(limits):
@@ -217,11 +217,11 @@ class LowLevelTests(unittest.TestCase):
                 if args[0] == "exec": return limits
                 return b"[]"
             return mock.Mock(engine=engine)
-        with mock.patch.object(source, "verify_worker_budget"), \
+        with mock.patch.object(source, "builder_group", return_value=Path("/sys/fs/cgroup/daemon")), \
              mock.patch.object(source, "process_cgroup", return_value="/daemon"), \
-             mock.patch.object(source, "read_limits", return_value=["268435456", "25000 100000", "0"]):
+             mock.patch.object(source, "read_limits", return_value=["1610612736", "125000 100000", "0"]):
             source.verify_builder(api_with(b"268435456\n25000 100000\n0\n"), CONFIG)
-        for limits in [["max", "max 100000", "max"], ["8589934592", "25000 100000", "0"]]:
+        for limits in [["max", "max 100000", "max"], ["8589934592", "125000 100000", "0"]]:
             with mock.patch.object(source, "process_cgroup", return_value="/daemon"), \
                  mock.patch.object(source, "read_limits", return_value=limits), self.assertRaisesRegex(source.SourceError, "BUILD_LIMITS_INVALID"):
                 source.verify_builder(api_with(b""), CONFIG)
@@ -230,25 +230,15 @@ class LowLevelTests(unittest.TestCase):
             source.verify_builder(api_with(b"268435456\n25000 100000\n0\n"), CONFIG)
 
 
-class WorkerBudgetTests(unittest.TestCase):
-    def test_fixed_budget_is_idempotent_and_never_changes_host_controllers(self):
-        import importlib.machinery
-        loader = importlib.machinery.SourceFileLoader("budget", str(ROOT/"ops/ekiden-build-limits"))
-        module = importlib.util.module_from_spec(importlib.util.spec_from_loader(loader.name, loader))
-        loader.exec_module(module)
-        with tempfile.TemporaryDirectory() as directory:
-            root = Path(directory)
-            (root/"cgroup.controllers").write_text("cpu memory pids")
-            (root/"cgroup.subtree_control").write_text("cpu memory pids")
-            module.configure(root)
-            module.configure(root)
-            for key,value in module.VALUES.items():
-                self.assertEqual((root/module.NAME/key).read_text().strip(), value)
-            self.assertEqual((root/"cgroup.subtree_control").read_text(), "cpu memory pids")
-            (root/module.NAME/"cgroup.events").write_text("populated 1")
-            (root/module.NAME/"memory.max").write_text("max")
-            with self.assertRaises(RuntimeError):
-                module.configure(root)
+class AncestorTests(unittest.TestCase):
+    def test_daemon_init_leaf_resolves_to_fixed_docker_ancestor(self):
+        identity = "a"*64
+        builder = {"Id": identity, "State": {"Pid": 123}}
+        for prefix in ["/system.slice/docker-"+identity+".scope", "/docker/"+identity]:
+            with mock.patch.object(source, "process_cgroup", return_value=prefix+"/init"):
+                self.assertEqual(source.builder_group(builder), Path("/sys/fs/cgroup"+prefix))
+        with mock.patch.object(source, "process_cgroup", return_value="/init"), self.assertRaises(source.SourceError):
+            source.builder_group(builder)
 
 
 if __name__ == "__main__":

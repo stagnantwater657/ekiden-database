@@ -22,11 +22,7 @@ TOKEN = Path("/etc/ekiden/github-read-token")
 POLICY = Path("/usr/local/libexec/ekiden-source-policy.py")
 BUILDER = "ekiden-source"
 CONTAINER = "buildx_buildkit_ekiden-source0"
-MEMORY = 256 * 1024 * 1024
-WORKER_GROUP = Path("/sys/fs/cgroup/ekiden-build")
-WORKER_CGROUP = "/ekiden-build"
-WORKER_VALUES = {"memory.max": "1342177280", "memory.swap.max": "0",
-                 "cpu.max": "100000 100000", "pids.max": "256"}
+MEMORY = 1536 * 1024 * 1024
 MIN_DISK = 12 * 1024 * 1024 * 1024
 BUILD_SECONDS = 1200
 DOCKER_SOCKET = "unix:///var/run/docker.sock"
@@ -155,8 +151,8 @@ def verify_builder(api, config):
         host = builder["HostConfig"]
         fail(builder["State"]["Running"] and builder["Config"]["Image"] == config["buildkit_image"], "BUILD_IMAGE_UNAVAILABLE")
         fail(host["Memory"] == MEMORY and host["MemorySwap"] == MEMORY
-             and host["CpuPeriod"] == 100000 and host["CpuQuota"] == 25000
-             and host["NetworkMode"] in {"default", "bridge"} and host["CgroupnsMode"] == "host", "BUILD_LIMITS_INVALID")
+             and host["CpuPeriod"] == 100000 and host["CpuQuota"] == 125000
+             and host["NetworkMode"] in {"default", "bridge"} and host["CgroupnsMode"] == "private", "BUILD_LIMITS_INVALID")
         mounts = builder["Mounts"]
         fail(len(mounts) == 1 and mounts[0]["Type"] == "volume"
              and mounts[0]["Name"] == CONTAINER + "_state"
@@ -169,10 +165,8 @@ def verify_builder(api, config):
                 # Buildx adds network.host for the *bridge-isolated builder* by default.
                 # Client builds receive no --allow flag, so Dockerfile RUN cannot use it.
                 fail(entitlement == "network.host", "BUILD_LIMITS_INVALID")
-        group = Path("/sys/fs/cgroup") / process_cgroup(builder["State"]["Pid"]).lstrip("/")
-        limits = read_limits(group)
-        fail(limits == [str(MEMORY), "25000 100000", "0"], "BUILD_LIMITS_INVALID")
-        verify_worker_budget()
+        group = builder_group(builder)
+        fail(read_limits(group) == [str(MEMORY), "125000 100000", "0"], "BUILD_LIMITS_INVALID")
         # These must already exist locally. No automatic image provisioning here.
         api.engine("image", "inspect", config["node_image"])
         api.engine("image", "inspect", config["buildkit_image"])
@@ -240,15 +234,18 @@ def read_limits(group):
     return [(group/name).read_text().strip() for name in ("memory.max", "cpu.max", "memory.swap.max")]
 
 
-def verify_worker_budget():
-    try:
-        protected(WORKER_GROUP)
-        fail(all((WORKER_GROUP/key).read_text().strip() == value for key,value in WORKER_VALUES.items()),
-             "BUILD_LIMITS_INVALID")
-    except SourceError:
-        raise
-    except Exception:
-        raise SourceError("BUILD_LIMITS_INVALID") from None
+def builder_group(builder):
+    # BuildKit relocates its daemon to an init leaf. Check the Docker-owned
+    # ancestor, whose limits cover both daemon and OCI worker siblings.
+    path = process_cgroup(builder["State"]["Pid"])
+    parts = Path(path).parts
+    identity = builder["Id"]
+    fail(re.fullmatch(r"[0-9a-f]{64}", identity), "BUILD_LIMITS_INVALID")
+    candidates = [index for index, part in enumerate(parts)
+                  if part == "docker-"+identity+".scope" or
+                  (part == identity and index > 0 and parts[index-1] == "docker")]
+    fail(len(candidates) == 1, "BUILD_LIMITS_INVALID")
+    return Path("/sys/fs/cgroup") / str(Path(*parts[:candidates[0]+1])).lstrip("/")
 
 
 def process_cgroup(pid):
@@ -262,8 +259,10 @@ def process_cgroup(pid):
 def resource_probe(api, config, directory):
     # A leaf may show 'max' while an ancestor enforces the real limit. Prove
     # the actual worker PID is inside the already verified builder cgroup.
-    verify_worker_budget()
-    parent = WORKER_CGROUP
+    builder = json.loads(api.engine("container", "inspect", CONTAINER))[0]
+    group = builder_group(builder)
+    fail(read_limits(group) == [str(MEMORY), "125000 100000", "0"], "BUILD_LIMITS_INVALID")
+    parent = "/" + str(group.relative_to("/sys/fs/cgroup"))
     marker = "EKIDEN_PROBE_" + secrets.token_hex(8)
     observed = [False]
     def observe():

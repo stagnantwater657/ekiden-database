@@ -51,6 +51,9 @@ def main():
         records = [json.loads(line) for line in engine("buildx", "ls", "--format", "{{json .}}").decode().splitlines()]
         print("CI builder identities:", [(item.get("Name"), item.get("Driver"),
                                           [node.get("Endpoint") for node in item.get("Nodes", [])]) for item in records], flush=True)
+        daemon = json.loads(engine("container", "inspect", source.CONTAINER))[0]
+        daemon_group = Path("/sys/fs/cgroup") / source.process_cgroup(daemon["State"]["Pid"]).lstrip("/")
+        print("CI daemon actual limits:", str(daemon_group), source.read_limits(daemon_group), flush=True)
         source.verify_builder(api, config)
         with tempfile.TemporaryDirectory(dir=os.environ.get("RUNNER_TEMP")) as directory:
             root = Path(directory)

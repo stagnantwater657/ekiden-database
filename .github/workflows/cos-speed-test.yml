@@ -1,0 +1,37 @@
+name: COS upload speed test
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  benchmark:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: ops/requirements-cos-benchmark.txt
+      - name: Install official Tencent COS SDK
+        timeout-minutes: 3
+        run: python -m pip install --disable-pip-version-check --timeout 15 --retries 1 -r ops/requirements-cos-benchmark.txt
+      - name: Run network-free benchmark tests
+        run: python tests/cos_benchmark_test.py
+      - name: Upload a private 10 MiB random object
+        timeout-minutes: 11
+        env:
+          COS_SECRET_ID: ${{ secrets.COS_SECRET_ID }}
+          COS_SECRET_KEY: ${{ secrets.COS_SECRET_KEY }}
+          COS_BUCKET: ${{ secrets.COS_BUCKET }}
+          COS_BENCHMARK_RESULT: ${{ runner.temp }}/cos-benchmark-result.json
+        run: python ops/cos-speed-test.py
+      - name: Preserve safe benchmark metrics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cos-benchmark-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/cos-benchmark-result.json
+          if-no-files-found: ignore
+          retention-days: 7

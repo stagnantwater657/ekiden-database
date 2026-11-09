@@ -55,3 +55,19 @@ jobs:
           DOCKER_TEST_SOCKET: ${{ steps.docker.outputs.sock }}
           IMAGE_SHA: ${{ github.sha }}
         run: python3 tests/docker_archive_test.py "$IMAGE_SHA"
+  cos-benchmark-tests:
+    name: COS benchmark offline SDK tests
+    runs-on: ubuntu-22.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: ops/requirements-cos-benchmark.txt
+      - run: python -m pip install --disable-pip-version-check --timeout 15 --retries 1 -r ops/requirements-cos-benchmark.txt
+      - run: python -m py_compile ops/cos-speed-test.py
+      # All HTTP responses are synthetic, with socket connections forbidden.
+      # No COS Secrets are provided to PR tests.
+      - run: python tests/cos_benchmark_test.py

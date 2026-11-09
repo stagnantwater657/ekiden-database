@@ -1,0 +1,87 @@
+name: Deploy Ekiden (manual)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: ekiden-production
+  cancel-in-progress: false
+jobs:
+  build:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-22.04
+    timeout-minutes: 25
+    permissions:
+      contents: read
+      packages: write
+    outputs:
+      digest: ${{ steps.image.outputs.digest }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - run: npm run typecheck && npm run lint && npm test
+      - uses: docker/setup-buildx-action@v3
+      - uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build and push SHA image
+        id: image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: true
+          platforms: linux/amd64
+          tags: ghcr.io/stagnantwater657/ekiden-database:${{ github.sha }}
+          labels: org.opencontainers.image.source=https://github.com/stagnantwater657/ekiden-database
+  deploy:
+    needs: build
+    runs-on: ubuntu-22.04
+    timeout-minutes: 8
+    environment: production
+    permissions:
+      contents: read
+    steps:
+      - name: Invoke fixed server deployment entry point
+        shell: bash
+        env:
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+          DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
+          DEPLOY_KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+          IMAGE_SHA: ${{ github.sha }}
+          IMAGE_DIGEST: ${{ needs.build.outputs.digest }}
+        run: |
+          set -euo pipefail
+          for name in DEPLOY_SSH_KEY DEPLOY_HOST DEPLOY_USER DEPLOY_PORT DEPLOY_KNOWN_HOSTS; do
+            [[ -n "${!name}" ]] || { echo "::error::Missing secret: $name"; exit 1; }
+          done
+          [[ "$DEPLOY_USER" == ekiden-deploy ]]
+          [[ "$DEPLOY_PORT" =~ ^[0-9]{1,5}$ ]] && (( 10#$DEPLOY_PORT >= 1 && 10#$DEPLOY_PORT <= 65535 ))
+          [[ "$IMAGE_SHA" =~ ^[0-9a-f]{40}$ && "$IMAGE_DIGEST" =~ ^sha256:[0-9a-f]{64}$ ]]
+          umask 077
+          ssh_dir=$(mktemp -d "$RUNNER_TEMP/ekiden-deploy.XXXXXX")
+          trap 'rm -rf -- "$ssh_dir"' EXIT
+          printf '%s\n' "$DEPLOY_SSH_KEY" > "$ssh_dir/key"
+          printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > "$ssh_dir/known_hosts"
+          chmod 600 "$ssh_dir/key" "$ssh_dir/known_hosts"
+          if ! timeout 420s ssh -F /dev/null -T -n -i "$ssh_dir/key" -p "$DEPLOY_PORT" -l "$DEPLOY_USER" \
+            -o BatchMode=yes -o IdentitiesOnly=yes -o IdentityAgent=none \
+            -o PreferredAuthentications=publickey -o PasswordAuthentication=no \
+            -o KbdInteractiveAuthentication=no -o StrictHostKeyChecking=yes \
+            -o "UserKnownHostsFile=$ssh_dir/known_hosts" -o GlobalKnownHostsFile=/dev/null \
+            -o UpdateHostKeys=no -o ConnectTimeout=10 -o ConnectionAttempts=1 \
+            -o ServerAliveInterval=15 -o ServerAliveCountMax=3 \
+            -o ForwardAgent=no -o ForwardX11=no -o ClearAllForwardings=yes \
+            -- "$DEPLOY_HOST" "deploy $IMAGE_SHA@$IMAGE_DIGEST" \
+            > "$ssh_dir/output" 2> "$ssh_dir/error"; then
+            echo '::error::Deployment failed or timed out. Administrator must inspect the Ekiden deployment state and authentication configuration.'
+            exit 1
+          fi
+          echo 'Ekiden deployment passed health checks.'

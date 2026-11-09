@@ -41,6 +41,9 @@ def main():
            "--buildkitd-flags", "--oci-worker-gc=false", "--buildkitd-config", str(ROOT/"ops/source-buildkitd.toml"),
            "--bootstrap", source.DOCKER_SOCKET)
     try:
+        records = [json.loads(line) for line in engine("buildx", "ls", "--format", "{{json .}}").decode().splitlines()]
+        print("CI builder identities:", [(item.get("Name"), item.get("Driver"),
+                                          [node.get("Endpoint") for node in item.get("Nodes", [])]) for item in records], flush=True)
         source.verify_builder(api, config)
         with tempfile.TemporaryDirectory(dir=os.environ.get("RUNNER_TEMP")) as directory:
             root = Path(directory)

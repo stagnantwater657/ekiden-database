@@ -1,0 +1,91 @@
+name: SSH connectivity test
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  ssh-test:
+    name: Verify ekiden-deploy SSH access
+    runs-on: ubuntu-22.04
+    timeout-minutes: 3
+    steps:
+      - name: Read server identity over SSH
+        shell: bash
+        env:
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+          DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
+          DEPLOY_KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+        run: |
+          set -euo pipefail
+          # Never enable shell tracing: environment variables contain secrets.
+          for secret_name in DEPLOY_SSH_KEY DEPLOY_HOST DEPLOY_USER DEPLOY_PORT DEPLOY_KNOWN_HOSTS; do
+            if [[ -z "${!secret_name}" ]]; then
+              echo "::error::Required secret ${secret_name} is missing."
+              exit 1
+            fi
+          done
+          if [[ "$DEPLOY_USER" != "ekiden-deploy" ]]; then
+            echo "::error::DEPLOY_USER must be ekiden-deploy."
+            exit 1
+          fi
+          if [[ ! "$DEPLOY_PORT" =~ ^[0-9]{1,5}$ ]] ||
+             (( 10#$DEPLOY_PORT < 1 || 10#$DEPLOY_PORT > 65535 )); then
+            echo "::error::DEPLOY_PORT must be a valid TCP port."
+            exit 1
+          fi
+
+          umask 077
+          ssh_dir="$(mktemp -d "$RUNNER_TEMP/ssh-test.XXXXXX")"
+          trap 'rm -rf -- "$ssh_dir"' EXIT
+          printf '%s\n' "$DEPLOY_SSH_KEY" > "$ssh_dir/key"
+          printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > "$ssh_dir/known_hosts"
+          chmod 600 "$ssh_dir/key" "$ssh_dir/known_hosts"
+
+          # -F /dev/null avoids runner SSH configuration and extra identities.
+          # Only these three read-only commands are sent to the server.
+          if ! timeout 45s ssh -F /dev/null -T -n \
+            -i "$ssh_dir/key" \
+            -p "$DEPLOY_PORT" \
+            -l "$DEPLOY_USER" \
+            -o BatchMode=yes \
+            -o IdentitiesOnly=yes \
+            -o IdentityAgent=none \
+            -o PreferredAuthentications=publickey \
+            -o PasswordAuthentication=no \
+            -o KbdInteractiveAuthentication=no \
+            -o StrictHostKeyChecking=yes \
+            -o "UserKnownHostsFile=$ssh_dir/known_hosts" \
+            -o GlobalKnownHostsFile=/dev/null \
+            -o UpdateHostKeys=no \
+            -o ConnectTimeout=10 \
+            -o ConnectionAttempts=1 \
+            -o ServerAliveInterval=10 \
+            -o ServerAliveCountMax=2 \
+            -o ForwardAgent=no \
+            -o ForwardX11=no \
+            -o ClearAllForwardings=yes \
+            -- "$DEPLOY_HOST" 'whoami && hostname && uname -s' \
+            > "$ssh_dir/result" 2> "$ssh_dir/error"; then
+            # Raw SSH errors can include sensitive connection metadata.
+            echo "::error::SSH test failed or timed out. Check the configured secrets, trusted host key, network access, and server authorization."
+            exit 1
+          fi
+
+          mapfile -t identity < "$ssh_dir/result"
+          if [[ "${#identity[@]}" -ne 3 || "${identity[0]}" != "ekiden-deploy" ]]; then
+            echo "::error::Unexpected server response or remote login user is not ekiden-deploy."
+            exit 1
+          fi
+          if [[ "${identity[2]}" != "Linux" ]]; then
+            echo "::error::Expected a Linux server."
+            exit 1
+          fi
+          echo "SSH connectivity test passed."
+          echo "Remote login user verified: ekiden-deploy"
+          echo "Remote hostname received and verified as a single output line (not logged)."
+          echo "Remote kernel: Linux"

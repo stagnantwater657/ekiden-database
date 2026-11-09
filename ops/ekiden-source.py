@@ -29,6 +29,7 @@ PROBE_JS = """const fs=require('fs');
 const mem=fs.readFileSync('/sys/fs/cgroup/memory.max','utf8').trim();
 const cpu=fs.readFileSync('/sys/fs/cgroup/cpu.max','utf8').trim().split(/\\s+/).map(Number);
 const swap=fs.readFileSync('/sys/fs/cgroup/memory.swap.max','utf8').trim();
+console.log(JSON.stringify({mem,cpu,swap,node:process.version}));
 if(mem!=='1610612736'||cpu[0]!==125000||cpu[1]!==100000||swap!=='0'||!process.version.startsWith('v24.'))process.exit(71);
 console.log('EKIDEN_LIMITS_OK');"""
 
@@ -218,7 +219,7 @@ def build_command(api, args, logfile, timeout):
 def resource_probe(api, config, directory):
     probe = directory / "probe"
     probe.mkdir()
-    (probe / "Dockerfile").write_text("ARG NODE_IMAGE\nFROM ${NODE_IMAGE}\nRUN node -e " + json.dumps(PROBE_JS.replace("\n", " ")) + "\n")
+    (probe / "Dockerfile").write_text("ARG NODE_IMAGE=node:24-bookworm-slim\nFROM ${NODE_IMAGE}\nRUN " + json.dumps(["node", "-e", PROBE_JS]) + "\n")
     build_command(api, ["--build-arg", "NODE_IMAGE=" + config["node_image"], str(probe)],
                   directory / "resource-probe.log", 120)
     fail(b"EKIDEN_LIMITS_OK" in (directory / "resource-probe.log").read_bytes(), "BUILD_LIMITS_INVALID")

@@ -1,6 +1,8 @@
 name: CI
 on:
   pull_request:
+  push:
+    branches: [main]
 permissions:
   contents: read
 jobs:
@@ -71,3 +73,30 @@ jobs:
       # All HTTP responses are synthetic, with socket connections forbidden.
       # No COS Secrets are provided to PR tests.
       - run: python tests/cos_benchmark_test.py
+  source-deployment:
+    name: Source deployment policy and resource limits
+    runs-on: ubuntu-22.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+      - name: Offline source deployment tests
+        run: |
+          python3 tests/source_deployment_test.py
+          node --test tests/npm_lock.test.mjs
+          python3 -m py_compile ops/source-policy.py ops/ekiden-source.py
+          bash -n ops/runner-source.sh
+      - name: Set up disposable Docker 29 daemon
+        id: docker
+        uses: docker/setup-docker-action@v4
+        with:
+          version: v29.1.3
+          daemon-config: |
+            {"features":{"containerd-snapshotter":true}}
+      - name: Verify actual limits, OOM protection and application build
+        env:
+          EKIDEN_DOCKER_TEST: "1"
+          DOCKER_TEST_SOCKET: ${{ steps.docker.outputs.sock }}
+        run: python3 tests/source_resource_docker_test.py

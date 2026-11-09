@@ -5,6 +5,7 @@ import fcntl
 import gzip
 import hashlib
 import io
+import importlib.util
 import json
 import os
 from pathlib import Path, PurePosixPath
@@ -43,12 +44,19 @@ class Rejected(Exception):
 
 
 TRANSFER_ERRORS = {
+    "INVALID_SOURCE_SHA", "SOURCE_CONFIG_INVALID", "CI_CHECK_FAILED", "CI_NOT_APPROVED",
+    "MAIN_SHA_MISMATCH", "SOURCE_FETCH_FAILED", "SOURCE_FETCH_TIMEOUT", "SOURCE_ARCHIVE_INVALID",
+    "DOCKERFILE_APPROVAL_REQUIRED", "LOCKFILE_SOURCE_INVALID", "BUILD_LIMITS_INVALID",
+    "BUILD_IMAGE_UNAVAILABLE", "SOURCE_BUILD_TIMEOUT", "SOURCE_BUILD_OOM", "NPM_CI_FAILED",
+    "SOURCE_BUILD_FAILED", "SOURCE_IMAGE_IDENTITY_FAILED", "SOURCE_MIGRATION_REQUIRED",
+    "SOURCE_DISK_LOW", "SOURCE_HEALTH_FAILED",
     "UPLOAD_TOTAL_TIMEOUT", "UPLOAD_STALLED", "UPLOAD_EOF_TIMEOUT",
     "UPLOAD_INTERRUPTED", "UPLOAD_TOO_LARGE", "SERVER_IO_FAILED", "TTY_STDIN",
     "CHECKSUM_MISMATCH", "ARCHIVE_INVALID", "LOAD_FAILED", "LOAD_TIMEOUT",
     "IMPORT_IDENTITY_FAILED", "OPERATION_INTERRUPTED", "REMOTE_REJECTED", "INTERNAL_ERROR",
 }
-STAGES = {"checksum_verified", "archive_verify", "archive_verified", "load_started",
+STAGES = {"source_fetch", "source_resource_probe", "source_image_build", "source_build_complete",
+          "source_health_check", "source_complete","checksum_verified", "archive_verify", "archive_verified", "load_started",
           "load_complete", "upload_complete", "deploy_complete"}
 
 
@@ -84,6 +92,8 @@ def require(condition, message):
 
 
 def parse_args(args):
+    if len(args) == 2 and args[0] in {"deploy-source", "build-source"} and re.fullmatch(SHA, args[1]):
+        return tuple(args)
     if len(args) == 5 and args[0] == "upload":
         _, sha, checksum, image_id, size = args
         require(re.fullmatch(SHA, sha) and re.fullmatch(HEX, checksum)
@@ -109,12 +119,12 @@ def deployment_lock():
         yield
 
 
-def engine(*args, timeout=30, env_extra=None):
+def engine(*args, timeout=30, env_extra=None, docker_config="/etc/ekiden/docker"):
     env = {"PATH": "/usr/bin:/bin", "HOME": "/root"}
     env.update(env_extra or {})
     try:
         result = subprocess.run(
-            [DOCKER, "--host", "unix:///var/run/docker.sock", "--config", "/etc/ekiden/docker", *args],
+            [DOCKER, "--host", "unix:///var/run/docker.sock", "--config", docker_config, *args],
             env=env, stdin=subprocess.DEVNULL, stdout=subprocess.PIPE,
             stderr=subprocess.DEVNULL, timeout=timeout, check=True,
         )
@@ -462,7 +472,18 @@ def main(args=None):
     for sig in (signal.SIGHUP, signal.SIGTERM, signal.SIGINT):
         signal.signal(sig, interrupted)
     with deployment_lock():
-        if command[0] == "migrate":
+        if command[0] in {"deploy-source", "build-source"}:
+            path = Path("/usr/local/libexec/ekiden-source.py")
+            info = path.stat()
+            require(info.st_uid == 0 and not info.st_mode & 0o022 and not path.is_symlink(), "Untrusted source helper.")
+            spec = importlib.util.spec_from_file_location("ekiden_source", path)
+            helper = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(helper)
+            try:
+                helper.run(sys.modules[__name__], command[1], command[0] == "build-source")
+            except helper.SourceError as error:
+                raise TransferRejected(error.code, "Source deployment rejected: " + error.code) from None
+        elif command[0] == "migrate":
             migrate()
         elif command[0] == "upload":
             upload(*command[1:], sys.stdin.fileno())

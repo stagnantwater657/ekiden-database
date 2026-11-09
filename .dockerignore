@@ -6,6 +6,7 @@ node_modules
 !.env.example
 npm-debug.log*
 docs
-ops
+ops/*
+!ops/npm-lock-registry.mjs
 tests
 work

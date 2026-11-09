@@ -1,0 +1,4 @@
+[worker.oci]
+  max-parallelism = 1
+  gc = false
+  defaultCgroupParent = "/ekiden-build"

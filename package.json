@@ -11,7 +11,7 @@
     "start": "next start",
     "typecheck": "next typegen && tsc --noEmit",
     "lint": "eslint .",
-    "test": "node --experimental-strip-types --test tests/*.test.ts"
+    "test": "node --experimental-strip-types --test tests/*.test.ts tests/*.test.mjs"
   },
   "dependencies": {
     "next": "16.4.5",

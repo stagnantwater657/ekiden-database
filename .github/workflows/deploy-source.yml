@@ -1,0 +1,44 @@
+name: Deploy source on Ubuntu (manual)
+on:
+  workflow_dispatch:
+    inputs:
+      build_only:
+        description: Build and verify limits only; do not activate the website
+        type: boolean
+        default: true
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: ekiden-production
+  cancel-in-progress: false
+jobs:
+  deploy-source:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-22.04
+    timeout-minutes: 45
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Require current main HEAD and successful main CI
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          IMAGE_SHA: ${{ github.sha }}
+        run: python3 ops/source-policy.py "$IMAGE_SHA"
+      - name: Request fixed server-side source build
+        env:
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+          DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
+          DEPLOY_KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+          IMAGE_SHA: ${{ github.sha }}
+          BUILD_ONLY: ${{ inputs.build_only }}
+        run: |
+          if [[ "$BUILD_ONLY" == true ]]; then
+            ops/runner-source.sh build-source
+          else
+            ops/runner-source.sh deploy-source
+          fi

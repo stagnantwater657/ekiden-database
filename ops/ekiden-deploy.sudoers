@@ -1,6 +1,6 @@
-# Root script revalidates exact argument count, grammar, archive and local image.
+# Source-only delegation prevents old archive activation from bypassing CI policy.
 Defaults:ekiden-deploy env_reset
 Defaults:ekiden-deploy !setenv
 Defaults!/usr/local/sbin/ekiden-deploy !use_pty
 Defaults:ekiden-deploy secure_path=/usr/sbin:/usr/bin:/sbin:/bin
-ekiden-deploy ALL=(root) NOPASSWD: /usr/local/sbin/ekiden-deploy upload *, /usr/local/sbin/ekiden-deploy deploy *
+ekiden-deploy ALL=(root) NOPASSWD: /usr/local/sbin/ekiden-deploy deploy-source *, /usr/local/sbin/ekiden-deploy build-source *

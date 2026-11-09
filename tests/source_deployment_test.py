@@ -230,5 +230,26 @@ class LowLevelTests(unittest.TestCase):
             source.verify_builder(api_with(b"268435456\n25000 100000\n0\n"), CONFIG)
 
 
+class WorkerBudgetTests(unittest.TestCase):
+    def test_fixed_budget_is_idempotent_and_never_changes_host_controllers(self):
+        import importlib.machinery
+        loader = importlib.machinery.SourceFileLoader("budget", str(ROOT/"ops/ekiden-build-limits"))
+        module = importlib.util.module_from_spec(importlib.util.spec_from_loader(loader.name, loader))
+        loader.exec_module(module)
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root/"cgroup.controllers").write_text("cpu memory pids")
+            (root/"cgroup.subtree_control").write_text("cpu memory pids")
+            module.configure(root)
+            module.configure(root)
+            for key,value in module.VALUES.items():
+                self.assertEqual((root/module.NAME/key).read_text().strip(), value)
+            self.assertEqual((root/"cgroup.subtree_control").read_text(), "cpu memory pids")
+            (root/module.NAME/"cgroup.events").write_text("populated 1")
+            (root/module.NAME/"memory.max").write_text("max")
+            with self.assertRaises(RuntimeError):
+                module.configure(root)
+
+
 if __name__ == "__main__":
     unittest.main()

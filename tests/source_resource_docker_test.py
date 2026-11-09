@@ -65,6 +65,7 @@ def main():
             oom.mkdir()
             # Commit physical pages beyond the hard cgroup cap; heap flags cannot bypass it.
             (oom/"Dockerfile").write_text("ARG NODE_IMAGE\nFROM ${NODE_IMAGE}\nRUN node -e 'const a=[];for(let i=0;i<1800;i++)a.push(Buffer.alloc(1048576,1));console.log(\"UNBOUNDED\")'\n")
+            before_oom = int(dict(line.split() for line in (source.WORKER_GROUP/"memory.events").read_text().splitlines())["oom_kill"])
             try:
                 source.build_command(api, ["--build-arg", "NODE_IMAGE="+config["node_image"], str(oom)], root/"oom.log", 120)
                 raise AssertionError("OOM probe unexpectedly succeeded")
@@ -72,11 +73,23 @@ def main():
                 if error.code != "SOURCE_BUILD_OOM":
                     print((root/"oom.log").read_text()[-8000:])
                     raise
-            print("PASS actual cgroup OOM rejection")
+            after_oom = int(dict(line.split() for line in (source.WORKER_GROUP/"memory.events").read_text().splitlines())["oom_kill"])
+            assert after_oom > before_oom, "No kernel cgroup OOM event observed"
+            print("PASS actual cgroup OOM rejection and kernel oom_kill counter")
             # Official registry/base in CI; the same 768 MiB heap and one worker as production.
-            source.build_command(api, ["--load", "--build-arg", "NODE_IMAGE="+config["node_image"],
-                                      "--build-arg", "BUILD_NODE_OPTIONS=--max-old-space-size=768",
-                                      "--build-arg", "BUILD_CPUS=1", "--tag", "ekiden-source-ci:checked", str(ROOT)], root/"app.log", 1200)
+            try:
+                source.build_command(api, ["--load", "--metadata-file", str(root/"app-metadata.json"),
+                                          "--label", "org.opencontainers.image.revision="+os.environ["GITHUB_SHA"], "--build-arg", "NODE_IMAGE="+config["node_image"],
+                                          "--build-arg", "BUILD_NODE_OPTIONS=--max-old-space-size=768",
+                                          "--build-arg", "BUILD_CPUS=1", "--tag", "ekiden-source-ci:checked", str(ROOT)], root/"app.log", 1200)
+            except Exception:
+                print((root/"app.log").read_text()[-12000:])
+                raise
+            metadata = json.loads((root/"app-metadata.json").read_text())
+            import re
+            assert re.fullmatch(r"sha256:[0-9a-f]{64}", metadata["containerimage.config.digest"])
+            image = json.loads(engine("image", "inspect", "ekiden-source-ci:checked"))[0]
+            assert image["Config"]["Labels"]["org.opencontainers.image.revision"] == os.environ["GITHUB_SHA"]
             print("PASS application Docker build under 1536 MiB / 1.25 CPU limits")
     except Exception:
         # CI has no production credentials; logs are confined to these disposable builds.

@@ -142,10 +142,11 @@ def verify_builder(api, config):
     try:
         builders = [json.loads(line) for line in api.engine("buildx", "ls", "--format", "{{json .}}").decode().splitlines()]
         matches = [item for item in builders if item.get("Name") == BUILDER]
-        fail(len(matches) == 1, "BUILD_LIMITS_INVALID")
-        info = matches[0]
-        fail(info["Driver"] == "docker-container" and len(info["Nodes"]) == 1
-             and info["Nodes"][0]["Endpoint"] == DOCKER_SOCKET, "BUILD_LIMITS_INVALID")
+        # Buildx can list the same stored builder twice (current context + --host).
+        # Accept duplicate identities only when every record names the fixed local driver/endpoint.
+        fail(matches and all(item["Driver"] == "docker-container" and len(item["Nodes"]) == 1
+                            and item["Nodes"][0]["Endpoint"] == DOCKER_SOCKET for item in matches),
+             "BUILD_LIMITS_INVALID")
         builder = json.loads(api.engine("container", "inspect", CONTAINER))[0]
         host = builder["HostConfig"]
         fail(builder["State"]["Running"] and builder["Config"]["Image"] == config["buildkit_image"], "BUILD_IMAGE_UNAVAILABLE")

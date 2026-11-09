@@ -9,6 +9,8 @@ from pathlib import Path, PurePosixPath
 import re
 import resource
 import shutil
+import secrets
+import time
 import subprocess
 import tarfile
 import tempfile
@@ -26,12 +28,9 @@ BUILD_SECONDS = 1200
 DOCKER_SOCKET = "unix:///var/run/docker.sock"
 DOCKER_CONFIG = "/etc/ekiden/source-docker"
 PROBE_JS = """const fs=require('fs');
-const mem=fs.readFileSync('/sys/fs/cgroup/memory.max','utf8').trim();
-const cpu=fs.readFileSync('/sys/fs/cgroup/cpu.max','utf8').trim().split(/\\s+/).map(Number);
-const swap=fs.readFileSync('/sys/fs/cgroup/memory.swap.max','utf8').trim();
-console.log(JSON.stringify({mem,cpu,swap,node:process.version}));
-if(mem!=='1610612736'||cpu[0]!==125000||cpu[1]!==100000||swap!=='0'||!process.version.startsWith('v24.'))process.exit(71);
-console.log('EKIDEN_LIMITS_OK');"""
+if(!process.version.startsWith('v24.'))process.exit(71);
+console.log('EKIDEN_LIMITS_OK');
+setTimeout(()=>{},5000);"""
 
 
 class SourceError(Exception):
@@ -178,15 +177,31 @@ def verify_builder(api, config):
         raise SourceError("BUILD_IMAGE_UNAVAILABLE") from None
 
 
-def build_command(api, args, logfile, timeout):
+def build_command(api, args, logfile, timeout, observer=None):
     env = {"PATH": "/usr/bin:/bin", "HOME": "/root"}
     command = [api.DOCKER, "--host", DOCKER_SOCKET, "--config", DOCKER_CONFIG,
                "buildx", "build", "--builder", BUILDER, "--progress=plain", *args]
     try:
         with logfile.open("wb") as output:
-            result = subprocess.run(command, env=env, stdin=subprocess.DEVNULL, stdout=output,
-                                    stderr=subprocess.STDOUT, timeout=timeout,
-                                    preexec_fn=lambda: resource.setrlimit(resource.RLIMIT_FSIZE, (64*1024*1024, 64*1024*1024)))
+            limit_log = lambda: resource.setrlimit(resource.RLIMIT_FSIZE, (64*1024*1024, 64*1024*1024))
+            if observer is None:
+                result = subprocess.run(command, env=env, stdin=subprocess.DEVNULL, stdout=output,
+                                        stderr=subprocess.STDOUT, timeout=timeout, preexec_fn=limit_log)
+            else:
+                with subprocess.Popen(command, env=env, stdin=subprocess.DEVNULL, stdout=output,
+                                      stderr=subprocess.STDOUT, preexec_fn=limit_log) as process:
+                    deadline = time.monotonic() + timeout
+                    try:
+                        while process.poll() is None:
+                            if time.monotonic() >= deadline:
+                                raise subprocess.TimeoutExpired(command, timeout)
+                            observer()
+                            time.sleep(.25)
+                        result = subprocess.CompletedProcess(command, process.returncode)
+                    except BaseException:
+                        process.kill()
+                        process.wait()
+                        raise
     except subprocess.TimeoutExpired:
         # Cancel only this dedicated builder, not Docker Engine or applications.
         with contextlib.suppress(Exception):
@@ -216,13 +231,39 @@ def build_command(api, args, logfile, timeout):
         raise SourceError("SOURCE_BUILD_FAILED")
 
 
+def process_cgroup(pid):
+    fail(re.fullmatch(r"[1-9][0-9]*", str(pid)), "BUILD_LIMITS_INVALID")
+    lines = Path(f"/proc/{pid}/cgroup").read_text().splitlines()
+    paths = [line[3:] for line in lines if line.startswith("0::")]
+    fail(len(paths) == 1 and paths[0].startswith("/") and paths[0] != "/", "BUILD_LIMITS_INVALID")
+    return paths[0].rstrip("/")
+
+
 def resource_probe(api, config, directory):
+    # A leaf may show 'max' while an ancestor enforces the real limit. Prove
+    # the actual worker PID is inside the already verified builder cgroup.
+    builder = json.loads(api.engine("container", "inspect", CONTAINER))[0]
+    parent = process_cgroup(builder["State"]["Pid"])
+    marker = "EKIDEN_PROBE_" + secrets.token_hex(8)
+    observed = [False]
+    def observe():
+        listing = api.engine("top", CONTAINER, "-eo", "pid,args").decode()
+        for line in listing.splitlines():
+            match = re.match(r"\s*([0-9]+)\s+", line)
+            if match and marker in line:
+                try:
+                    child = process_cgroup(match[1])
+                    fail(child == parent or child.startswith(parent + "/"), "BUILD_LIMITS_INVALID")
+                    observed[0] = True
+                except OSError:
+                    continue  # Process exited between ps and proc read; require another observation.
     probe = directory / "probe"
     probe.mkdir()
-    (probe / "Dockerfile").write_text("ARG NODE_IMAGE=node:24-bookworm-slim\nFROM ${NODE_IMAGE}\nRUN " + json.dumps(["node", "-e", PROBE_JS]) + "\n")
+    js = "process.title=" + json.dumps(marker) + ";" + PROBE_JS.replace("\n", " ")
+    (probe / "Dockerfile").write_text("ARG NODE_IMAGE=node:24-bookworm-slim\nFROM ${NODE_IMAGE}\nRUN " + json.dumps(["node", "-e", js]) + "\n")
     build_command(api, ["--build-arg", "NODE_IMAGE=" + config["node_image"], str(probe)],
-                  directory / "resource-probe.log", 120)
-    fail(b"EKIDEN_LIMITS_OK" in (directory / "resource-probe.log").read_bytes(), "BUILD_LIMITS_INVALID")
+                  directory / "resource-probe.log", 120, observer=observe)
+    fail(observed[0] and b"EKIDEN_LIMITS_OK" in (directory / "resource-probe.log").read_bytes(), "BUILD_LIMITS_INVALID")
 
 
 def run(api, sha, build_only=False):

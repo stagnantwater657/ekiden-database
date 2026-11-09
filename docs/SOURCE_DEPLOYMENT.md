@@ -28,7 +28,7 @@ wrapper 和 root dispatcher 分别严格校验，不接受额外参数、仓库�
 - 整个 BuildKit/其构建工作负载硬内存上限 **1536 MiB（1.5 GiB）**，`memory-swap` 同为 1536 MiB，即不让该 builder 使用额外 swap。
 - CPU period 100000、quota 125000，即 **1.25 核**；BuildKit 最大并行 1，Next.js 生成 worker 1；Node 构建 heap 768 MiB。运行镜像仍采用原有 256 MiB heap/384 MiB Compose 限制。
 - 构建超时 20 分钟；单独资源探针最多 120 秒；Git fetch 180 秒；不足 12 GiB 空闲磁盘则拒绝。构建日志为 root-only、最多 64 MiB，不回放原始内容到 Actions。
-- 每次构建前验证 builder 类型、固定本地 Unix endpoint、实际 Docker HostConfig、**实际 cgroup v2 的 memory.max/cpu.max/memory.swap.max**，再用受限 worker 执行廉价 Node 探针。只配置了参数但未生效时会失败。
+- 每次构建前验证 builder 类型、固定本地 Unix endpoint、实际 Docker HostConfig、**实际 cgroup v2 的 memory.max/cpu.max/memory.swap.max**，再用廉价 Node 探针，从宿主 /proc 核对实际 worker PID 是该受限父 cgroup 的后代。worker 叶节点可显示 max，但不能脱离受限父级。只配置了参数但未生效时会失败。
 - 专用 builder 只挂载自己的 BuildKit state volume，不挂 Docker socket、SSH 私钥、GitHub token、runtime.env、机器人数据或其他项目目录。拒绝 security.insecure 等授权；Buildx 默认的 network.host 仅作用于 bridge 隔离的 builder，构建客户端不传任何 --allow，因此 Dockerfile 不能使用该特权。Buildx 的 rootful docker-container driver 自身需要 privileged 来运行 OCI worker，只有管理员能配置它，部署用户不能直接控制此 daemon。
 - 构建超时或 SSH 中断时仅停止这个专用 BuildKit 容器，以终止残留构建；不停止 Docker Engine 或应用容器。管理员检查后再启动该专用 builder。
 - 输出镜像加载回宿主 Docker，仅创建绑定 SHA 和实际本地镜像 ID 的 Ekiden 标签；不清理 current/previous 的镜像。BuildKit 自动 GC 关闭，未来缓存占用增加时先告警/拒绝构建，不进行全局 prune。
@@ -175,7 +175,7 @@ chmod 0600 /etc/ekiden/source-builder.json
 unset NODE_DIGEST BUILDKIT_DIGEST NODE_IMAGE BUILDKIT_IMAGE
 ```
 
-预期实际 cgroup 为 `1610612736`、`125000 100000`、`0`；挂载只有自身 `buildx_buildkit_ekiden-source0_state` 到 `/var/lib/buildkit`。部署程序还会验证 worker 的相同限制，不能只凭 HostConfig 判定。若出现 `max`、宿主总量或检查失败，禁止部署，不要删除/跳过保护。
+预期实际 cgroup 为 `1610612736`、`125000 100000`、`0`；挂载只有自身 `buildx_buildkit_ekiden-source0_state` 到 `/var/lib/buildkit`。部署程序还会验证 worker 的实际 cgroup 祖先关系，不能只凭 HostConfig 判定。上面的父 builder 若出现 `max`、宿主总量，或 worker 不属于该父级，必须禁止部署；不要求 worker 叶节点重复父级数值，也不能删除/跳过保护。
 
 Docker Engine 中已缓存 Node 镜像**不代表专用 BuildKit 内容缓存已预热**。首次 worker 探针可能仍从同一国内镜像源拉取一次 Node；同时 Buildx bootstrap 也可能向配置的国内 BuildKit 源核验镜像。Dockerfile 不再请求额外的国外 Dockerfile frontend 镜像，不能将 frontend/BuildKit 的国外下载隐藏在初始化过程中。
 

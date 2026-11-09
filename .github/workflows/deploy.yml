@@ -15,7 +15,7 @@ jobs:
   build-and-deploy:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-22.04
-    timeout-minutes: 75
+    timeout-minutes: 90
     environment: production
     steps:
       - uses: actions/checkout@v4
@@ -25,7 +25,7 @@ jobs:
           cache: npm
       - run: npm ci --no-audit --no-fund
       - run: npm run typecheck && npm run lint && npm test
-      - run: python3 tests/deployment_test.py
+      - run: python3 tests/deployment_test.py && python3 tests/transfer_diagnostics_test.py
       - uses: docker/setup-buildx-action@v3
       - name: Build a single-platform image on the runner
         uses: docker/build-push-action@v6
@@ -53,7 +53,7 @@ jobs:
           test -s "$RUNNER_TEMP/ekiden-image/image.tar.gz"
           python3 ops/image-metadata.py "$RUNNER_TEMP/ekiden-image/image.tar.gz" "$IMAGE_SHA" >> "$GITHUB_OUTPUT"
       - name: Upload, verify, import and activate Ekiden
-        timeout-minutes: 47
+        timeout-minutes: 57
         shell: bash
         env:
           DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}

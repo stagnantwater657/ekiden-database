@@ -27,7 +27,10 @@ DOCKER = "/usr/bin/docker"
 MAX_UPLOAD = 512 * 1024 * 1024
 MAX_TAR = 2 * 1024 * 1024 * 1024
 MIN_FREE = 8 * 1024 * 1024 * 1024
-UPLOAD_SECONDS = 1200
+UPLOAD_SECONDS = 1800
+UPLOAD_IDLE_SECONDS = 180
+UPLOAD_EOF_SECONDS = 15
+PROGRESS_SECONDS = 15
 IMPORT_SECONDS = 600
 SHA = r"[0-9a-f]{40}"
 HEX = r"[0-9a-f]{64}"
@@ -37,6 +40,42 @@ LEGACY = rf"({SHA})@sha256:{HEX}"
 
 class Rejected(Exception):
     """Safe-to-log protocol failure, never subprocess output or credentials."""
+
+
+TRANSFER_ERRORS = {
+    "UPLOAD_TOTAL_TIMEOUT", "UPLOAD_STALLED", "UPLOAD_EOF_TIMEOUT",
+    "UPLOAD_INTERRUPTED", "UPLOAD_TOO_LARGE", "SERVER_IO_FAILED", "TTY_STDIN",
+    "CHECKSUM_MISMATCH", "ARCHIVE_INVALID", "LOAD_FAILED", "LOAD_TIMEOUT",
+    "IMPORT_IDENTITY_FAILED", "OPERATION_INTERRUPTED", "REMOTE_REJECTED", "INTERNAL_ERROR",
+}
+STAGES = {"checksum_verified", "archive_verify", "archive_verified", "load_started",
+          "load_complete", "upload_complete", "deploy_complete"}
+
+
+class TransferRejected(Rejected):
+    def __init__(self, code, message):
+        assert code in TRANSFER_ERRORS
+        super().__init__(message)
+        self.code = code
+
+
+class DockerTimeout(Rejected):
+    pass
+
+
+def stage(name):
+    assert name in STAGES
+    print("EKIDEN stage name=" + name, flush=True)
+
+
+def progress(event, received, total, started, last_data, now, last_report, last_bytes):
+    assert event in {"receive_started", "receive_progress", "receive_complete"}
+    elapsed = max(0, now - started)
+    window = max(0, now - last_report)
+    print(f"EKIDEN {event} received={received} total={total} elapsed_s={int(elapsed)} "
+          f"idle_s={int(max(0, now-last_data))} "
+          f"rate_bps={int(received/elapsed) if elapsed else 0} "
+          f"window_bps={int((received-last_bytes)/window) if window else 0}", flush=True)
 
 
 def require(condition, message):
@@ -80,6 +119,8 @@ def engine(*args, timeout=30, env_extra=None):
             stderr=subprocess.DEVNULL, timeout=timeout, check=True,
         )
         return result.stdout
+    except subprocess.TimeoutExpired:
+        raise DockerTimeout("Docker operation timed out; inspect server locally.") from None
     except (subprocess.SubprocessError, OSError):
         raise Rejected("Docker operation failed or timed out; inspect server locally.") from None
 
@@ -159,23 +200,54 @@ def healthy(record):
 
 
 def receive(fd, target, size, checksum):
-    deadline = time.monotonic() + UPLOAD_SECONDS
+    if os.isatty(fd):
+        raise TransferRejected("TTY_STDIN", "Binary upload requires non-PTY stdin; verify sudo !use_pty.")
+    started = last_data = last_report = time.monotonic()
+    last_bytes = received = 0
+    eof_deadline = None
     digest = hashlib.sha256()
-    received = 0
-    with target.open("xb") as output:
-        while True:
-            remaining = deadline - time.monotonic()
-            require(remaining > 0, "Upload timed out.")
-            require(select.select([fd], [], [], remaining)[0], "Upload timed out.")
-            chunk = os.read(fd, min(65536, size - received + 1))
-            if not chunk:
-                break
-            received += len(chunk)
-            require(received <= size, "Upload exceeds declared size.")
-            output.write(chunk)
-            digest.update(chunk)
-    require(received == size, "Upload interrupted or length mismatch.")
-    require(digest.hexdigest() == checksum, "Archive SHA-256 mismatch.")
+    progress("receive_started", 0, size, started, last_data, started, started, 0)
+    try:
+        with target.open("xb") as output:
+            while True:
+                now = time.monotonic()
+                if now - started >= UPLOAD_SECONDS:
+                    raise TransferRejected("UPLOAD_TOTAL_TIMEOUT", "Upload total deadline exceeded.")
+                if eof_deadline is not None and now >= eof_deadline:
+                    raise TransferRejected("UPLOAD_EOF_TIMEOUT", "All declared bytes received but SSH stdin did not close.")
+                if received < size and now - last_data >= UPLOAD_IDLE_SECONDS:
+                    raise TransferRejected("UPLOAD_STALLED", "Upload stalled: no new bytes within idle limit.")
+                if now - last_report >= PROGRESS_SECONDS:
+                    progress("receive_progress", received, size, started, last_data, now, last_report, last_bytes)
+                    last_report, last_bytes = now, received
+                deadlines = [started + UPLOAD_SECONDS, last_report + PROGRESS_SECONDS]
+                deadlines.append(eof_deadline if eof_deadline is not None else last_data + UPLOAD_IDLE_SECONDS)
+                try:
+                    readable = select.select([fd], [], [], max(0, min(deadlines) - now))[0]
+                    if not readable:
+                        continue
+                    chunk = os.read(fd, min(65536, size - received + 1))
+                except OSError:
+                    raise TransferRejected("UPLOAD_INTERRUPTED", "Upload input connection interrupted.") from None
+                if not chunk:
+                    if received != size:
+                        raise TransferRejected("UPLOAD_INTERRUPTED", "Upload interrupted before declared byte count.")
+                    break
+                received += len(chunk)
+                if received > size:
+                    raise TransferRejected("UPLOAD_TOO_LARGE", "Upload exceeds declared size.")
+                output.write(chunk)
+                digest.update(chunk)
+                last_data = time.monotonic()
+                if received == size:
+                    eof_deadline = last_data + UPLOAD_EOF_SECONDS
+            progress("receive_complete", received, size, started, last_data, time.monotonic(), last_report, last_bytes)
+        if digest.hexdigest() != checksum:
+            raise TransferRejected("CHECKSUM_MISMATCH", "Archive SHA-256 mismatch.")
+        stage("checksum_verified")
+    except BaseException:
+        progress("receive_progress", received, size, started, last_data, time.monotonic(), last_report, last_bytes)
+        raise
 
 
 def bounded_copy(source, output, maximum, digest=None):
@@ -297,16 +369,31 @@ def upload(sha, checksum, config_digest, size, fd):
         compressed = directory / "received.tar.gz"
         receive(fd, compressed, size, checksum)
         canonical = directory / "verified.tar"
-        canonical_archive(compressed, canonical, sha, config_digest)
-        engine("image", "load", "--input", str(canonical), timeout=IMPORT_SECONDS)
+        stage("archive_verify")
+        try:
+            canonical_archive(compressed, canonical, sha, config_digest)
+        except TransferRejected:
+            raise
+        except Exception:
+            raise TransferRejected("ARCHIVE_INVALID", "Image archive validation failed.") from None
+        stage("archive_verified")
+        stage("load_started")
+        try:
+            engine("image", "load", "--input", str(canonical), timeout=IMPORT_SECONDS)
+        except DockerTimeout:
+            raise TransferRejected("LOAD_TIMEOUT", "Docker load exceeded import deadline.") from None
+        except Rejected:
+            raise TransferRejected("LOAD_FAILED", "Docker load failed; inspect server locally.") from None
+        stage("load_complete")
         info = inspect_image(f"{REPOSITORY}:{sha}")
-        require(re.fullmatch(IMAGE_ID, info["Id"])
-                and info.get("Config", {}).get("Labels", {}).get("org.opencontainers.image.revision") == sha,
-                "Imported image identity mismatch.")
+        if not (re.fullmatch(IMAGE_ID, info["Id"]) and
+                info.get("Config", {}).get("Labels", {}).get("org.opencontainers.image.revision") == sha):
+            raise TransferRejected("IMPORT_IDENTITY_FAILED", "Imported image identity mismatch.")
         record = image_record(sha, info["Id"], config_digest)
         engine("image", "tag", info["Id"], record["ref"])
         write_record(STATE / "ready" / f"{sha}.json", record)
-    print("Ekiden upload verified and imported.")
+    stage("upload_complete")
+    print("Ekiden upload verified and imported.", flush=True)
 
 
 def activate(record, require_healthy_current=True):
@@ -339,7 +426,8 @@ def activate(record, require_healthy_current=True):
             with contextlib.suppress(Exception):
                 compose(record, "stop", "web")
         raise
-    print("Ekiden deployment passed health checks.")
+    stage("deploy_complete")
+    print("Ekiden deployment passed health checks.", flush=True)
 
 
 def ekiden_containers():
@@ -364,7 +452,7 @@ def migrate():
 
 
 def interrupted(_signum, _frame):
-    raise Rejected("Operation interrupted.")
+    raise TransferRejected("OPERATION_INTERRUPTED", "Operation interrupted.")
 
 
 def main(args=None):
@@ -395,6 +483,10 @@ if __name__ == "__main__":
     try:
         main()
     except Exception as error:
+        code = error.code if isinstance(error, TransferRejected) else (
+            "SERVER_IO_FAILED" if isinstance(error, OSError) else
+            "REMOTE_REJECTED" if isinstance(error, Rejected) else "INTERNAL_ERROR")
+        print("EKIDEN error code=" + code, flush=True)
         # Do not log arbitrary parser/subprocess exceptions (possibly untrusted data).
         print(str(error) if isinstance(error, Rejected) else "Ekiden operation failed; inspect server locally.", file=sys.stderr)
         sys.exit(1)

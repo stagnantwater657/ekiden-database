@@ -6,14 +6,18 @@ import re
 import sys
 
 ERRORS = {
+    "SOURCE_HTTP_FORBIDDEN": "Codeload returned HTTP 403; check repository read access.",
+    "SOURCE_HTTP_NOT_FOUND": "Codeload returned HTTP 404 for the fixed repository/commit.",
+    "SOURCE_CONNECT_TIMEOUT": "Codeload connection timed out.",
+    "SOURCE_DOWNLOAD_TOO_LARGE": "Codeload source archive exceeds the compressed size limit.",
     "INVALID_SOURCE_SHA": "Invalid source commit SHA.",
     "SOURCE_CONFIG_INVALID": "Root source configuration is missing, unpinned or writable.",
     "CI_CHECK_FAILED": "GitHub CI admission query failed; no deployment permitted.",
     "CI_NOT_APPROVED": "Current main commit has not passed every required CI job.",
     "MAIN_SHA_MISMATCH": "Requested SHA is no longer the current main HEAD.",
-    "SOURCE_FETCH_FAILED": "Fixed GitHub source fetch failed.",
-    "SOURCE_FETCH_TIMEOUT": "Fixed GitHub source fetch exceeded its deadline.",
-    "SOURCE_ARCHIVE_INVALID": "Source checkout is unsafe or excessive.",
+    "SOURCE_FETCH_FAILED": "Fixed-SHA Codeload source download failed.",
+    "SOURCE_FETCH_TIMEOUT": "Codeload source download stalled or exceeded its deadline.",
+    "SOURCE_ARCHIVE_INVALID": "Codeload archive integrity or structure is invalid or excessive.",
     "DOCKERFILE_APPROVAL_REQUIRED": "Dockerfile differs from the root-approved template.",
     "LOCKFILE_SOURCE_INVALID": "Lockfile contains unapproved dependency sources/integrity.",
     "BUILD_LIMITS_INVALID": "Actual builder/worker cgroup limits were not verified; refusing build.",

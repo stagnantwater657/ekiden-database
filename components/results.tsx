@@ -4,6 +4,7 @@ import {
   formatTime,
   parseFilters,
   queryHref,
+  switchView,
   type QueryParams,
   type Filters,
   type SortKey,
@@ -25,14 +26,40 @@ export async function Results({
     repository.search(filters),
   ]);
   const labels: [SortKey, string][] = [
-    ["race", "赛事"],
-    ["year", "年份"],
-    ["university", "大学"],
     ["section", "区间"],
+    ["rank", "区间顺位"],
+    ["university", "大学名称"],
     ["athlete", "选手"],
     ["time", "成绩"],
-    ["rank", "区间顺位"],
   ];
+  const sortOptions: [SortKey, string][] = [
+    ["default", "视图默认排序"],
+    ...labels,
+    ["finalRank", "大学综合排名"],
+    ["race", "赛事"],
+    ["year", "年份"],
+  ];
+  const pageGroups = [
+    ...new Map(
+      result.rows.map((row) => [row.edition.id, row.edition]),
+    ).values(),
+  ].map((edition) => ({
+    edition,
+    rows: result.rows.filter((row) => row.edition.id === edition.id),
+  }));
+  const conditions = [
+    filters.race &&
+      `赛事：${catalog.races.find((r) => r.id === filters.race)?.name ?? filters.race}`,
+    filters.year && `年份：${filters.year}`,
+    filters.edition &&
+      `届次：${catalog.editions.find((e) => e.id === filters.edition)?.number ?? filters.edition}`,
+    filters.university &&
+      `大学：${catalog.universities.find((u) => u.id === filters.university)?.name ?? filters.university}`,
+    filters.section && `区间：${filters.section}区`,
+    filters.athlete &&
+      `选手：${catalog.athletes.find((a) => a.id === filters.athlete)?.name ?? filters.athlete}`,
+    filters.q && `姓名包含：${filters.q}`,
+  ].filter(Boolean);
   const select = (
     name: keyof Filters,
     label: string,
@@ -63,12 +90,30 @@ export async function Results({
     );
   return (
     <section className="mt-8" aria-label="区间成绩查询">
+      <nav aria-label="成绩视图" className="mb-5 flex gap-3">
+        {(
+          [
+            ["section", "区间视图"],
+            ["university", "大学视图"],
+          ] as const
+        ).map(([view, label]) => (
+          <Link
+            key={view}
+            aria-current={filters.view === view ? "page" : undefined}
+            className={`border px-4 py-2 text-sm ${filters.view === view ? "border-red-900 bg-red-900 text-white" : "border-stone-300 bg-white"}`}
+            href={queryHref(path, switchView(filters, view))}
+          >
+            {label}
+          </Link>
+        ))}
+      </nav>
       <form
         key={JSON.stringify(filters)}
         action={path}
         method="get"
         className="grid gap-4 border border-stone-200 bg-stone-100 p-5 sm:grid-cols-3 lg:grid-cols-4"
       >
+        <input type="hidden" name="view" value={filters.view} />
         {Object.entries(scope).map(([key, value]) => (
           <input key={key} type="hidden" name={key} value={String(value)} />
         ))}
@@ -112,7 +157,7 @@ export async function Results({
             defaultValue={filters.sort}
             className="border border-stone-300 bg-white p-2"
           >
-            {labels.map(([key, label]) => (
+            {sortOptions.map(([key, label]) => (
               <option key={key} value={key}>
                 {label}
               </option>
@@ -120,7 +165,7 @@ export async function Results({
           </select>
         </label>
         <label className="grid gap-2 text-sm">
-          方向
+          方向（仅手动排序）
           <select
             name="direction"
             defaultValue={filters.direction}
@@ -153,20 +198,54 @@ export async function Results({
           </Link>
         </div>
       </form>
-      {(filters.edition || filters.athlete) && (
-        <p className="mt-4 text-sm text-stone-600">
-          当前限定：
-          {catalog.editions.find((e) => e.id === filters.edition)?.year}
-          {filters.edition ? " 届次 " : ""}
-          {catalog.athletes.find((a) => a.id === filters.athlete)?.name} ·{" "}
-          <Link className="underline" href="/results">
+      <aside
+        aria-label="查询上下文"
+        className="my-5 space-y-2 border-l-2 border-red-800 pl-4 text-sm leading-6 text-stone-600"
+      >
+        <p>
+          {conditions.length
+            ? conditions.join(" · ")
+            : "筛选范围：全部已收录赛事及年份"}
+        </p>
+        <p>
+          {filters.sort === "default"
+            ? filters.view === "section"
+              ? "区间视图：届次 → 区间 → 官方区间顺位"
+              : "大学视图：届次 → 官方最终综合排名 → 各校区间"
+            : `手动排序：每届内按${sortOptions.find(([key]) => key === filters.sort)?.[1]}${filters.direction === "asc" ? "升序" : "降序"}；点击视图可恢复默认排序。`}
+        </p>
+        <p>
+          结果范围：{result.editions.length} 届比赛
+          {result.editions.length > 1
+            ? "（跨赛事或届次，按届次分组展示，不合并排名）"
+            : ""}
+        </p>
+        <ul className="flex flex-wrap gap-x-5 gap-y-1">
+          {result.editions.map((edition) => (
+            <li key={edition.id}>
+              <Link
+                className="text-red-800 underline"
+                href={`/editions/${edition.id}`}
+              >
+                {edition.race.name} · {edition.year} · 第 {edition.number} 届
+              </Link>{" "}
+              · {edition.date}
+            </li>
+          ))}
+        </ul>
+        {(filters.edition || filters.athlete) && (
+          <Link className="inline-block underline" href="/results">
             查询全部成绩
           </Link>
-        </p>
-      )}
+        )}
+      </aside>
       <div className="my-5 flex flex-wrap justify-between gap-2 text-sm text-stone-600">
         <p role="status">共 {result.total} 条成绩</p>
-        <p>区间距离不同，请结合区间筛选比较成绩。</p>
+        <p>
+          {filters.sort === "time" && !filters.section
+            ? "正在跨区间按用时排序：不同区间距离不可直接比较。"
+            : "区间距离不同，请结合区间筛选比较成绩。"}
+        </p>
       </div>
       {result.total === 0 ? (
         <Empty>
@@ -175,16 +254,16 @@ export async function Results({
             : "暂无区间成绩，待核验后收录。"}
         </Empty>
       ) : (
-        <div className="overflow-x-auto border border-stone-200 bg-white">
+        <div className="max-w-4xl overflow-x-auto border border-stone-200 bg-white">
           <table className="w-full whitespace-nowrap text-left text-sm">
             <caption className="sr-only">
-              区间成绩，点击列名排序；点击赛事、大学或选手继续查询。
+              区间成绩，点击列名手动排序；点击区间、大学或选手继续查询。
             </caption>
             <thead className="bg-stone-100">
               <tr>
                 {labels.map(([key, label]) => (
                   <th
-                    className="p-4"
+                    className="px-4 py-3"
                     key={key}
                     aria-sort={
                       filters.sort === key
@@ -214,64 +293,72 @@ export async function Results({
                     </Link>
                   </th>
                 ))}
-                <th className="p-4">来源</th>
               </tr>
             </thead>
-            <tbody>
-              {result.rows.map((row) => (
-                <tr
-                  key={row.id}
-                  className="border-t border-stone-100 hover:bg-stone-50"
-                >
-                  <td className="p-4">
-                    <Link
-                      className="text-red-800 underline"
-                      href={`/editions/${row.edition.id}`}
-                    >
-                      {row.race.name}
-                    </Link>
-                  </td>
-                  <td className="p-4">{row.edition.year}</td>
-                  <td className="p-4">
-                    <Link
-                      className="text-red-800 underline"
-                      href={`/universities/${row.university.id}`}
-                    >
-                      {row.university.name}
-                    </Link>
-                  </td>
-                  <td className="p-4">
-                    <Link
-                      className="underline"
-                      href={queryHref("/results", {
-                        edition: row.edition.id,
-                        section: String(row.section.number),
-                      })}
-                    >
-                      {row.section.number}区 · {row.section.distanceKm ?? "—"}{" "}
-                      km
-                    </Link>
-                  </td>
-                  <td className="p-4">
-                    <Link
-                      className="text-red-800 underline"
-                      href={`/athletes/${row.athlete.id}`}
-                    >
-                      {row.athlete.name}
-                    </Link>
-                  </td>
-                  <td className="p-4 font-mono tabular-nums">
-                    {formatTime(row.timeSeconds)}
-                  </td>
-                  <td className="p-4 tabular-nums">{row.rank ?? "—"}</td>
-                  <td className="p-4">
-                    <a className="underline" href={row.source.url}>
-                      官方 ↗
-                    </a>
-                  </td>
-                </tr>
-              ))}
-            </tbody>
+            {pageGroups.map((group) => (
+              <tbody key={group.edition.id}>
+                {result.editions.length > 1 && (
+                  <tr className="border-t border-stone-300 bg-stone-50">
+                    <th colSpan={5} scope="rowgroup" className="px-4 py-3">
+                      <Link
+                        className="text-red-800 underline"
+                        href={`/editions/${group.edition.id}`}
+                      >
+                        {group.rows[0].race.name} · {group.edition.year} · 第{" "}
+                        {group.edition.number} 届 · {group.edition.date}
+                      </Link>
+                    </th>
+                  </tr>
+                )}
+                {group.rows.map((row) => (
+                  <tr
+                    key={row.id}
+                    data-result-id={row.id}
+                    className="border-t border-stone-100 hover:bg-stone-50"
+                  >
+                    <td className="w-40 px-4 py-3">
+                      <Link
+                        className="underline"
+                        href={queryHref("/results", {
+                          edition: row.edition.id,
+                          section: String(row.section.number),
+                        })}
+                      >
+                        {row.section.number}区 · {row.section.distanceKm ?? "—"}{" "}
+                        km
+                      </Link>
+                    </td>
+                    <td className="w-28 px-4 py-3 font-mono tabular-nums">
+                      {row.rank ?? "—"}
+                    </td>
+                    <td className="px-4 py-3">
+                      <Link
+                        className="text-red-800 underline"
+                        href={`/universities/${row.university.id}`}
+                      >
+                        {row.university.name}
+                      </Link>
+                      {filters.view === "university" && (
+                        <span className="ml-2 text-xs text-stone-500">
+                          综合 {row.entry.finalRank ?? "—"}
+                        </span>
+                      )}
+                    </td>
+                    <td className="px-4 py-3">
+                      <Link
+                        className="text-red-800 underline"
+                        href={`/athletes/${row.athlete.id}`}
+                      >
+                        {row.athlete.name}
+                      </Link>
+                    </td>
+                    <td className="w-28 px-4 py-3 font-mono tabular-nums">
+                      {formatTime(row.timeSeconds)}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            ))}
           </table>
         </div>
       )}
@@ -293,7 +380,7 @@ export async function Results({
           </Link>
         )}
       </nav>
-      <Sources sources={catalog.sources} />
+      <Sources sources={result.sources} />
     </section>
   );
 }

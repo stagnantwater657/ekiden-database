@@ -40,6 +40,20 @@ export function validateDatabase(db: Database): void {
       !has(db.universities, entry.universityId)
     )
       throw new Error("Invalid entry");
+  for (const entry of db.entries) {
+    if (
+      entry.finalRank !== null &&
+      (!Number.isSafeInteger(entry.finalRank) ||
+        entry.finalRank <= 0 ||
+        !entry.finalRankSourceId)
+    )
+      throw new Error("Invalid final rank");
+    if (
+      entry.finalRankSourceId !== null &&
+      !has(db.sources, entry.finalRankSourceId)
+    )
+      throw new Error("Missing final rank source");
+  }
   const slots = new Set<string>();
   const runners = new Set<string>();
   for (const result of db.results) {
@@ -70,6 +84,7 @@ export function createFileRepository(db: Database) {
     const edition = db.editions.find((x) => x.id === entry.editionId)!;
     return {
       ...result,
+      entry,
       edition,
       race: db.races.find((x) => x.id === edition.raceId)!,
       section: db.sections.find((x) => x.id === result.sectionId)!,
@@ -97,31 +112,21 @@ export function createFileRepository(db: Database) {
           (!filters.q ||
             normalize(row.athlete.name).includes(normalize(filters.q))),
       );
-      const value = (row: ResultRow) =>
-        ({
-          race: row.race.name,
-          year: row.edition.year,
-          university: row.university.name,
-          section: row.section.number,
-          athlete: row.athlete.name,
-          time: row.timeSeconds,
-          rank: row.rank,
-        })[filters.sort];
-      matched.sort((a, b) => {
-        const av = value(a),
-          bv = value(b);
-        // Unknown results remain last in either direction. IDs guarantee stable pages.
-        if (av === null || bv === null)
-          return av === bv ? a.id.localeCompare(b.id) : av === null ? 1 : -1;
-        const comparison =
-          typeof av === "number" && typeof bv === "number"
-            ? av - bv
-            : String(av).localeCompare(String(bv), "ja");
-        return (
-          comparison * (filters.direction === "desc" ? -1 : 1) ||
-          a.id.localeCompare(b.id)
-        );
-      });
+      matched.sort(compareResults(filters));
+      // Summaries describe the entire filtered result, not only this page.
+      const sourceIds = new Set(
+        matched
+          .flatMap((row) => [row.sourceId, row.entry.finalRankSourceId])
+          .filter((id): id is string => id !== null),
+      );
+      const editions = [
+        ...new Map(
+          matched.map((row) => [
+            row.edition.id,
+            { ...row.edition, race: row.race },
+          ]),
+        ).values(),
+      ];
       const pageCount = Math.max(
         1,
         Math.ceil(matched.length / filters.pageSize),
@@ -133,6 +138,8 @@ export function createFileRepository(db: Database) {
           page * filters.pageSize,
         ),
         total: matched.length,
+        editions,
+        sources: db.sources.filter((source) => sourceIds.has(source.id)),
         page,
         pageCount,
       };
@@ -144,4 +151,64 @@ export type EkidenRepository = ReturnType<typeof createFileRepository>;
 let repository: EkidenRepository | undefined;
 export function getRepository(): EkidenRepository {
   return (repository ??= createFileRepository(dataset));
+}
+
+function compareNullable(
+  a: number | null,
+  b: number | null,
+  direction = 1,
+): number {
+  if (a === null || b === null) return a === b ? 0 : a === null ? 1 : -1;
+  return (a - b) * direction;
+}
+// Always isolate editions, even for manual sorting. All ties end in a stable ID.
+export function compareResults(
+  filters: Filters,
+): (a: ResultRow, b: ResultRow) => number {
+  const editionOrder = (a: ResultRow, b: ResultRow) =>
+    a.race.id.localeCompare(b.race.id) ||
+    a.edition.year - b.edition.year ||
+    a.edition.number - b.edition.number ||
+    a.edition.id.localeCompare(b.edition.id);
+  const sectionOrder = (a: ResultRow, b: ResultRow) =>
+    a.section.number - b.section.number ||
+    compareNullable(a.rank, b.rank) ||
+    compareNullable(a.timeSeconds, b.timeSeconds) ||
+    a.id.localeCompare(b.id);
+  const universityOrder = (a: ResultRow, b: ResultRow) =>
+    compareNullable(a.entry.finalRank, b.entry.finalRank) ||
+    a.entry.id.localeCompare(b.entry.id) ||
+    sectionOrder(a, b);
+  const defaultOrder =
+    filters.view === "university" ? universityOrder : sectionOrder;
+  const value = (row: ResultRow) =>
+    ({
+      default: 0,
+      race: row.race.name,
+      year: row.edition.year,
+      university: row.university.name,
+      finalRank: row.entry.finalRank,
+      section: row.section.number,
+      athlete: row.athlete.name,
+      time: row.timeSeconds,
+      rank: row.rank,
+    })[filters.sort];
+  return (a, b) => {
+    const edition = editionOrder(a, b);
+    if (edition) return edition;
+    if (filters.sort === "default") return defaultOrder(a, b);
+    const av = value(a),
+      bv = value(b),
+      direction = filters.direction === "desc" ? -1 : 1;
+    const manual =
+      typeof av === "string" && typeof bv === "string"
+        ? av.localeCompare(bv, "ja") * direction
+        : compareNullable(av as number | null, bv as number | null, direction);
+    return (
+      manual ||
+      (filters.sort === "finalRank"
+        ? universityOrder(a, b)
+        : defaultOrder(a, b))
+    );
+  };
 }

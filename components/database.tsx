@@ -38,8 +38,12 @@ export function Empty({
 }
 export function Sources({ sources }: { sources: Source[] }) {
   return (
-    <aside className="mt-10 border-l-2 border-red-800 bg-stone-100 p-5 text-sm leading-7">
+    <aside
+      aria-label="数据范围与来源"
+      className="mt-10 border-l-2 border-red-800 bg-stone-100 p-5 text-sm leading-7"
+    >
       <h2 className="font-bold">数据范围与来源</h2>
+      {!sources.length && <p>当前查询无成绩，暂无对应来源。</p>}
       {sources.map((source) => (
         <div key={source.id} className="mt-3">
           <a className="text-red-800 underline" href={source.url}>

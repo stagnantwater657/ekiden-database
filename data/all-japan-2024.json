@@ -8,6 +8,14 @@
       "collectedAt": "2026-11-11T02:57:06.807607+00:00",
       "locator": "PDF p.2 下段：区間記録（角括弧内は区間順位）",
       "coverage": "25所正式参赛大学 × 8区间；不含两支公开选拔队，区间顺位保留官方含选拔队口径。"
+    },
+    {
+      "id": "official-2024-final-ranks",
+      "title": "第56回全日本大学駅伝 公式最终综合成绩",
+      "url": "https://daigaku-ekiden.com/result/files/result_241103.pdf",
+      "collectedAt": "2026-11-11T05:39:44.871052+00:00",
+      "locator": "PDF p.1 総合成績：順位（非区間順位）",
+      "coverage": "25所正式参赛大学的官方最终综合排名；日本学连选拔、东海学连选拔两支公开队尚未纳入数据库，官方综合排名为「--」。"
     }
   ],
   "races": [
@@ -1419,151 +1427,201 @@
       "id": "aj24-kokugakuin",
       "editionId": "all-japan-2024",
       "universityId": "kokugakuin",
-      "sourceId": "official-2024"
+      "sourceId": "official-2024",
+      "finalRank": 1,
+      "finalRankSourceId": "official-2024-final-ranks"
     },
     {
       "id": "aj24-komazawa",
       "editionId": "all-japan-2024",
       "universityId": "komazawa",
-      "sourceId": "official-2024"
+      "sourceId": "official-2024",
+      "finalRank": 2,
+      "finalRankSourceId": "official-2024-final-ranks"
     },
     {
       "id": "aj24-aoyama-gakuin",
       "editionId": "all-japan-2024",
       "universityId": "aoyama-gakuin",
-      "sourceId": "official-2024"
+      "sourceId": "official-2024",
+      "finalRank": 3,
+      "finalRankSourceId": "official-2024-final-ranks"
     },
     {
       "id": "aj24-soka",
       "editionId": "all-japan-2024",
       "universityId": "soka",
-      "sourceId": "official-2024"
+      "sourceId": "official-2024",
+      "finalRank": 4,
+      "finalRankSourceId": "official-2024-final-ranks"
     },
     {
       "id": "aj24-waseda",
       "editionId": "all-japan-2024",
       "universityId": "waseda",
-      "sourceId": "official-2024"
+      "sourceId": "official-2024",
+      "finalRank": 5,
+      "finalRankSourceId": "official-2024-final-ranks"
     },
     {
       "id": "aj24-josai",
       "editionId": "all-japan-2024",
       "universityId": "josai",
-      "sourceId": "official-2024"
+      "sourceId": "official-2024",
+      "finalRank": 6,
+      "finalRankSourceId": "official-2024-final-ranks"
     },
     {
       "id": "aj24-rikkyo",
       "editionId": "all-japan-2024",
       "universityId": "rikkyo",
-      "sourceId": "official-2024"
+      "sourceId": "official-2024",
+      "finalRank": 7,
+      "finalRankSourceId": "official-2024-final-ranks"
     },
     {
       "id": "aj24-teikyo",
       "editionId": "all-japan-2024",
       "universityId": "teikyo",
-      "sourceId": "official-2024"
+      "sourceId": "official-2024",
+      "finalRank": 8,
+      "finalRankSourceId": "official-2024-final-ranks"
     },
     {
       "id": "aj24-tokyo-international",
       "editionId": "all-japan-2024",
       "universityId": "tokyo-international",
-      "sourceId": "official-2024"
+      "sourceId": "official-2024",
+      "finalRank": 9,
+      "finalRankSourceId": "official-2024-final-ranks"
     },
     {
       "id": "aj24-nippon-sport-science",
       "editionId": "all-japan-2024",
       "universityId": "nippon-sport-science",
-      "sourceId": "official-2024"
+      "sourceId": "official-2024",
+      "finalRank": 10,
+      "finalRankSourceId": "official-2024-final-ranks"
     },
     {
       "id": "aj24-daito-bunka",
       "editionId": "all-japan-2024",
       "universityId": "daito-bunka",
-      "sourceId": "official-2024"
+      "sourceId": "official-2024",
+      "finalRank": 11,
+      "finalRankSourceId": "official-2024-final-ranks"
     },
     {
       "id": "aj24-chuo",
       "editionId": "all-japan-2024",
       "universityId": "chuo",
-      "sourceId": "official-2024"
+      "sourceId": "official-2024",
+      "finalRank": 12,
+      "finalRankSourceId": "official-2024-final-ranks"
     },
     {
       "id": "aj24-toyo",
       "editionId": "all-japan-2024",
       "universityId": "toyo",
-      "sourceId": "official-2024"
+      "sourceId": "official-2024",
+      "finalRank": 13,
+      "finalRankSourceId": "official-2024-final-ranks"
     },
     {
       "id": "aj24-kanagawa",
       "editionId": "all-japan-2024",
       "universityId": "kanagawa",
-      "sourceId": "official-2024"
+      "sourceId": "official-2024",
+      "finalRank": 14,
+      "finalRankSourceId": "official-2024-final-ranks"
     },
     {
       "id": "aj24-tokai",
       "editionId": "all-japan-2024",
       "universityId": "tokai",
-      "sourceId": "official-2024"
+      "sourceId": "official-2024",
+      "finalRank": 15,
+      "finalRankSourceId": "official-2024-final-ranks"
     },
     {
       "id": "aj24-kyoto-sangyo",
       "editionId": "all-japan-2024",
       "universityId": "kyoto-sangyo",
-      "sourceId": "official-2024"
+      "sourceId": "official-2024",
+      "finalRank": 16,
+      "finalRankSourceId": "official-2024-final-ranks"
     },
     {
       "id": "aj24-kogakkan",
       "editionId": "all-japan-2024",
       "universityId": "kogakkan",
-      "sourceId": "official-2024"
+      "sourceId": "official-2024",
+      "finalRank": 17,
+      "finalRankSourceId": "official-2024-final-ranks"
     },
     {
       "id": "aj24-osaka-keizai",
       "editionId": "all-japan-2024",
       "universityId": "osaka-keizai",
-      "sourceId": "official-2024"
+      "sourceId": "official-2024",
+      "finalRank": 18,
+      "finalRankSourceId": "official-2024-final-ranks"
     },
     {
       "id": "aj24-kansai",
       "editionId": "all-japan-2024",
       "universityId": "kansai",
-      "sourceId": "official-2024"
+      "sourceId": "official-2024",
+      "finalRank": 19,
+      "finalRankSourceId": "official-2024-final-ranks"
     },
     {
       "id": "aj24-sapporo-gakuin",
       "editionId": "all-japan-2024",
       "universityId": "sapporo-gakuin",
-      "sourceId": "official-2024"
+      "sourceId": "official-2024",
+      "finalRank": 20,
+      "finalRankSourceId": "official-2024-final-ranks"
     },
     {
       "id": "aj24-kagoshima",
       "editionId": "all-japan-2024",
       "universityId": "kagoshima",
-      "sourceId": "official-2024"
+      "sourceId": "official-2024",
+      "finalRank": 21,
+      "finalRankSourceId": "official-2024-final-ranks"
     },
     {
       "id": "aj24-ritsumeikan",
       "editionId": "all-japan-2024",
       "universityId": "ritsumeikan",
-      "sourceId": "official-2024"
+      "sourceId": "official-2024",
+      "finalRank": 22,
+      "finalRankSourceId": "official-2024-final-ranks"
     },
     {
       "id": "aj24-okayama",
       "editionId": "all-japan-2024",
       "universityId": "okayama",
-      "sourceId": "official-2024"
+      "sourceId": "official-2024",
+      "finalRank": 23,
+      "finalRankSourceId": "official-2024-final-ranks"
     },
     {
       "id": "aj24-niigata",
       "editionId": "all-japan-2024",
       "universityId": "niigata",
-      "sourceId": "official-2024"
+      "sourceId": "official-2024",
+      "finalRank": 24,
+      "finalRankSourceId": "official-2024-final-ranks"
     },
     {
       "id": "aj24-tohoku",
       "editionId": "all-japan-2024",
       "universityId": "tohoku",
-      "sourceId": "official-2024"
+      "sourceId": "official-2024",
+      "finalRank": 25,
+      "finalRankSourceId": "official-2024-final-ranks"
     }
   ],
   "results": [

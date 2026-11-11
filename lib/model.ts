@@ -33,6 +33,9 @@ export interface Athlete extends Sourced {
 }
 // University affiliation belongs to the entry, never to the athlete's identity.
 export interface Entry extends Sourced {
+  // Official final team placing, independent of an individual section rank.
+  finalRank: number | null;
+  finalRankSourceId: string | null;
   editionId: string;
   universityId: string;
 }
@@ -55,6 +58,7 @@ export interface Database {
   results: SectionResult[];
 }
 export interface ResultRow extends SectionResult {
+  entry: Entry;
   race: Race;
   edition: Edition;
   section: Section;

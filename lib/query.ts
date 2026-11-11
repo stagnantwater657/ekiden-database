@@ -1,15 +1,19 @@
 export type QueryParams = Record<string, string | string[] | undefined>;
 export const sortKeys = [
+  "default",
   "race",
   "year",
   "university",
+  "finalRank",
   "section",
   "athlete",
   "time",
   "rank",
 ] as const;
 export type SortKey = (typeof sortKeys)[number];
+export type ResultView = "section" | "university";
 export interface Filters {
+  view: ResultView;
   race: string;
   edition: string;
   year: string;
@@ -29,6 +33,7 @@ export function parseFilters(params: QueryParams): Filters {
   const sort = read("sort");
   const page = Number(read("page"));
   return {
+    view: read("view") === "university" ? "university" : "section",
     race: read("race"),
     edition: read("edition"),
     year: read("year"),
@@ -36,7 +41,7 @@ export function parseFilters(params: QueryParams): Filters {
     section: read("section"),
     athlete: read("athlete"),
     q: read("q").slice(0, 100),
-    sort: sortKeys.includes(sort as SortKey) ? (sort as SortKey) : "section",
+    sort: sortKeys.includes(sort as SortKey) ? (sort as SortKey) : "default",
     direction: read("direction") === "desc" ? "desc" : "asc",
     page: Number.isSafeInteger(page) && page > 0 ? page : 1,
     pageSize: [10, 25, 50].includes(Number(read("pageSize")))
@@ -56,4 +61,8 @@ export function formatTime(seconds: number | null): string {
   return seconds >= 3600
     ? `${Math.floor(seconds / 3600)}:${String(Math.floor(seconds / 60) % 60).padStart(2, "0")}:${s}`
     : `${Math.floor(seconds / 60)}:${s}`;
+}
+
+export function switchView(filters: Filters, view: ResultView): Filters {
+  return { ...filters, view, sort: "default", direction: "asc", page: 1 };
 }

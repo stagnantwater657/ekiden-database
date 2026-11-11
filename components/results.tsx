@@ -253,7 +253,7 @@ export async function Results({
             : "暂无区间成绩，待核验后收录。"}
         </Empty>
       ) : (
-        <div className="overflow-x-auto border border-stone-200 bg-white">
+        <div className="max-w-4xl overflow-x-auto border border-stone-200 bg-white">
           <table className="w-full whitespace-nowrap text-left text-sm">
             <caption className="sr-only">
               区间成绩，点击列名手动排序；点击区间、大学或选手继续查询。

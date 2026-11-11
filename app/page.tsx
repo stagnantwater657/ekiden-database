@@ -1,5 +1,10 @@
 import Link from "next/link";
-const navigation = ["选手", "大学", "比赛", "阵容预测", "News"];
+const navigation = [
+  { name: "选手", href: "/athletes" },
+  { name: "大学", href: "/universities" },
+  { name: "赛事", href: "/races" },
+  { name: "区间成绩", href: "/results" },
+];
 const races = [
   {
     name: "出云",
@@ -40,11 +45,11 @@ export default function Home() {
           >
             {navigation.map((item) => (
               <a
-                key={item}
-                href="#coming-soon"
+                key={item.name}
+                href={item.href}
                 className="hover:text-red-800 focus-visible:outline-2 focus-visible:outline-red-800"
               >
-                {item}
+                {item.name}
               </a>
             ))}
           </nav>
@@ -83,9 +88,11 @@ export default function Home() {
           <div className="grid gap-5 md:grid-cols-3">
             {races.map((race) => (
               <a
-                href="#coming-soon"
+                href={
+                  race.name === "全日本" ? "/races/all-japan" : "#coming-soon"
+                }
                 key={race.name}
-                aria-label={`${race.name}赛事入口（筹备中）`}
+                aria-label={`${race.name}赛事入口${race.name === "全日本" ? "" : "（筹备中）"}`}
                 className="group overflow-hidden border border-stone-200 bg-white transition hover:-translate-y-1 hover:shadow-md"
               >
                 <div
@@ -102,7 +109,7 @@ export default function Home() {
                   <p className="mt-8 text-sm font-semibold">
                     赛事档案 <span aria-hidden="true">↗</span>
                     <span className="float-right font-normal text-stone-400">
-                      筹备中
+                      {race.name === "全日本" ? "2024 已收录" : "筹备中"}
                     </span>
                   </p>
                 </div>
@@ -114,10 +121,13 @@ export default function Home() {
           id="coming-soon"
           className="mt-12 border-l-2 border-red-800 bg-stone-100 p-6 scroll-mt-8"
         >
-          <h2 className="font-semibold">下一程，正在准备</h2>
+          <h2 className="font-semibold">从一场比赛，连接每一位选手</h2>
           <p className="mt-2 text-sm leading-7 text-stone-600">
-            选手、大学、比赛、阵容预测与 News
-            功能正在筹备。本阶段为基础工程预览，尚未接入正式数据。
+            已接入 2024 年全日本大学驿传 25 所大学的 200
+            条区间成绩。出云、箱根数据尚待收录。
+            <Link href="/results" className="ml-2 text-red-800 underline">
+              开始交叉检索 ↗
+            </Link>
           </p>
         </aside>
       </main>

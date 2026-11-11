@@ -150,3 +150,6 @@ vite.config.ts.timestamp-*
 
 # Local Python checks
 __pycache__/
+
+/playwright-report/
+/test-results/

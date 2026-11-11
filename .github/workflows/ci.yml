@@ -20,6 +20,9 @@ jobs:
       - run: npm run lint
       - run: npm test
       - run: npm run build
+      - name: Install browser for navigation tests
+        run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e
       - name: Check deployment scripts
         run: |
           bash -n ops/ekiden-ssh-command ops/runner-transfer.sh

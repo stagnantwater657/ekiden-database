@@ -11,7 +11,8 @@
     "start": "next start",
     "typecheck": "next typegen && tsc --noEmit",
     "lint": "eslint .",
-    "test": "node --experimental-strip-types --test tests/*.test.ts tests/*.test.mjs"
+    "test": "node --experimental-strip-types --test tests/*.test.ts tests/*.test.mjs",
+    "test:e2e": "playwright test"
   },
   "dependencies": {
     "next": "16.4.5",
@@ -19,13 +20,14 @@
     "react-dom": "19.3.1"
   },
   "devDependencies": {
+    "@playwright/test": "^1.65.0",
     "@tailwindcss/postcss": "^4.1.0",
-    "tailwindcss": "^4.1.0",
-    "typescript": "^5.9.0",
     "@types/node": "^24.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "eslint": "^9.0.0",
-    "eslint-config-next": "16.4.5"
+    "eslint-config-next": "16.4.5",
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5.9.0"
   }
 }

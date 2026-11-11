@@ -17,7 +17,10 @@ test("home → race → edition → athlete → university → results", async (
   await expect(page.getByRole("status")).toHaveText("共 25 条成绩");
   await expect(page).toHaveURL(/section=6/);
   await page
-    .getByRole("link", { name: "全日本大学駅伝", exact: true })
+    .getByRole("link", {
+      name: "全日本大学駅伝 · 2024 · 第 56 届",
+      exact: true,
+    })
     .first()
     .click();
   await expect(page.getByRole("heading", { level: 1 })).toContainText(
@@ -84,4 +87,83 @@ test("empty filters, invalid IDs and mobile table", async ({ page }) => {
       () => document.documentElement.scrollWidth <= window.innerWidth,
     ),
   ).toBe(true);
+});
+
+test("five columns, query context, view switch resets page and sort, sources follow results", async ({
+  page,
+}) => {
+  await page.goto("/results?pageSize=10&page=2&sort=time&direction=desc");
+  await expect(
+    page.getByText("正在跨区间按用时排序：不同区间距离不可直接比较。"),
+  ).toBeVisible();
+  await expect(page.locator("thead th")).toHaveText([
+    "区间 ↕",
+    "区间顺位 ↕",
+    "大学 ↕",
+    "选手 ↕",
+    "成绩 ↓",
+  ]);
+  await expect(page.locator("table")).not.toContainText("官方 ↗");
+  await expect(
+    page.getByRole("complementary", { name: "查询上下文" }),
+  ).toContainText("全日本大学駅伝 · 2024 · 第 56 届");
+  await expect(
+    page.getByRole("complementary", { name: "查询上下文" }),
+  ).toContainText("2024-11-03");
+  await page.getByRole("link", { name: "大学视图", exact: true }).click();
+  await expect(page).toHaveURL(/view=university/);
+  await expect(page).toHaveURL(/sort=default/);
+  await expect(page).toHaveURL(/page=1/);
+  const rows = page.locator("tr[data-result-id]");
+  await expect(rows.first()).toContainText("國學院大");
+  await expect(rows.first()).toContainText("综合 1");
+  await expect(rows.nth(7)).toContainText("8区");
+  await expect(rows.nth(8)).toContainText("駒澤大");
+  await page.reload();
+  await expect(
+    page.getByRole("link", { name: "大学视图", exact: true }),
+  ).toHaveAttribute("aria-current", "page");
+  await page.getByRole("link", { name: "下一页", exact: true }).click();
+  await page.getByRole("link", { name: "区间视图", exact: true }).click();
+  await expect(page).toHaveURL(/page=1/);
+  await expect(rows.first()).toContainText("平島 龍斗");
+  await expect(rows.first().locator("td").nth(1)).toHaveText("1");
+  await page.goBack();
+  await expect(page).toHaveURL(/view=university/);
+  await expect(page).toHaveURL(/page=2/);
+  await page.goForward();
+  await expect(page).toHaveURL(/view=section/);
+  const source = page.getByRole("complementary", { name: "数据范围与来源" });
+  await expect(source.getByRole("link")).toHaveCount(2);
+  await expect(source).toContainText("采集时间");
+  await expect(source).toContainText("两支公开");
+  await page.goto("/results?year=2023");
+  await expect(source.getByRole("link")).toHaveCount(0);
+  await expect(source).toContainText("当前查询无成绩");
+});
+
+test("manual ordering and filtering reset page while retaining view and entity scope", async ({
+  page,
+}) => {
+  await page.goto("/universities/kokugakuin?view=university&page=9");
+  await page
+    .getByRole("columnheader", { name: /成绩/ })
+    .getByRole("link")
+    .click();
+  await expect(page).toHaveURL(/page=1/);
+  await expect(page).toHaveURL(/view=university/);
+  await expect(page.getByRole("status")).toHaveText("共 8 条成绩");
+  await page
+    .getByRole("combobox", { name: "区间", exact: true })
+    .selectOption("6");
+  await page.getByRole("button", { name: "应用筛选" }).click();
+  await expect(page).toHaveURL(/view=university/);
+  expect(new URL(page.url()).searchParams.get("page")).toBeNull();
+  await expect(page.getByRole("status")).toHaveText("共 1 条成绩");
+  await expect(
+    page.getByRole("complementary", { name: "查询上下文" }),
+  ).toContainText("区间：6区");
+  await expect(
+    page.getByRole("complementary", { name: "查询上下文" }),
+  ).toContainText("大学：國學院大");
 });

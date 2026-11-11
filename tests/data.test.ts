@@ -145,7 +145,7 @@ test("URL codec validates input and round trips Unicode filters", () => {
   });
   assert.equal(f.page, 1);
   assert.equal(f.pageSize, 25);
-  assert.equal(f.sort, "section");
+  assert.equal(f.sort, "default");
   assert.equal(f.direction, "asc");
   const url = new URL(queryHref("/results", f), "http://localhost");
   assert.deepEqual(parseFilters(Object.fromEntries(url.searchParams)), f);

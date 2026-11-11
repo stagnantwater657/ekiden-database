@@ -99,7 +99,7 @@ test("five columns, query context, view switch resets page and sort, sources fol
   await expect(page.locator("thead th")).toHaveText([
     "区间 ↕",
     "区间顺位 ↕",
-    "大学 ↕",
+    "大学名称 ↕",
     "选手 ↕",
     "成绩 ↓",
   ]);
@@ -166,4 +166,45 @@ test("manual ordering and filtering reset page while retaining view and entity s
   await expect(
     page.getByRole("complementary", { name: "查询上下文" }),
   ).toContainText("大学：國學院大");
+});
+
+test("university header clearly sorts names; official standing is a separate control", async ({
+  page,
+}) => {
+  await page.goto("/results?view=university&pageSize=10&page=2");
+  await page
+    .getByRole("columnheader", { name: /大学名称/ })
+    .getByRole("link")
+    .click();
+  await expect(page).toHaveURL(/sort=university/);
+  await expect(page).toHaveURL(/page=1/);
+  await expect(
+    page.getByRole("complementary", { name: "查询上下文" }),
+  ).toContainText("大学名称升序");
+  await expect(
+    page.getByRole("columnheader", { name: /大学名称/ }),
+  ).toHaveAttribute("aria-sort", "ascending");
+  await page
+    .getByRole("combobox", { name: "排序", exact: true })
+    .selectOption("finalRank");
+  await page.getByRole("button", { name: "应用筛选" }).click();
+  await expect(page).toHaveURL(/sort=finalRank/);
+  await expect(
+    page.getByRole("complementary", { name: "查询上下文" }),
+  ).toContainText("大学综合排名升序");
+  await expect(
+    page.getByRole("columnheader", { name: /大学名称/ }),
+  ).toHaveAttribute("aria-sort", "none");
+  await expect(page.locator("tr[data-result-id]").first()).toContainText(
+    "國學院大",
+  );
+  await page.reload();
+  await expect(
+    page.getByRole("combobox", { name: "排序", exact: true }),
+  ).toHaveValue("finalRank");
+  await page.getByRole("link", { name: "大学视图", exact: true }).click();
+  await expect(page).toHaveURL(/sort=default/);
+  await expect(page.locator("tr[data-result-id]").first()).toContainText(
+    "综合 1",
+  );
 });

@@ -28,13 +28,14 @@ export async function Results({
   const labels: [SortKey, string][] = [
     ["section", "区间"],
     ["rank", "区间顺位"],
-    ["university", "大学"],
+    ["university", "大学名称"],
     ["athlete", "选手"],
     ["time", "成绩"],
   ];
   const sortOptions: [SortKey, string][] = [
     ["default", "视图默认排序"],
     ...labels,
+    ["finalRank", "大学综合排名"],
     ["race", "赛事"],
     ["year", "年份"],
   ];

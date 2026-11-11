@@ -187,6 +187,7 @@ export function compareResults(
       race: row.race.name,
       year: row.edition.year,
       university: row.university.name,
+      finalRank: row.entry.finalRank,
       section: row.section.number,
       athlete: row.athlete.name,
       time: row.timeSeconds,
@@ -203,6 +204,11 @@ export function compareResults(
       typeof av === "string" && typeof bv === "string"
         ? av.localeCompare(bv, "ja") * direction
         : compareNullable(av as number | null, bv as number | null, direction);
-    return manual || defaultOrder(a, b);
+    return (
+      manual ||
+      (filters.sort === "finalRank"
+        ? universityOrder(a, b)
+        : defaultOrder(a, b))
+    );
   };
 }

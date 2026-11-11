@@ -4,6 +4,7 @@ export const sortKeys = [
   "race",
   "year",
   "university",
+  "finalRank",
   "section",
   "athlete",
   "time",

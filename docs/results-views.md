@@ -23,7 +23,8 @@
 
 - `view=section`（默认）或 `view=university`。
 - `sort=default`（默认）表示使用视图定义的复合顺序，方向始终升序。
-- 指定 `sort=section|rank|university|athlete|time` 进入手动排序，`direction=asc|desc` 生效；旧 `sort=race|year` 链接仍可解析，但赛事/届次分组优先。
+- 大学列头标为「大学名称」，`sort=university` 仅按名称（日文 locale 字符串顺序）排序；独立控件「大学综合排名」对应 `sort=finalRank`，仅使用 Entry.finalRank。大学视图的默认顺序仍按官方综合排名。
+- 指定 `sort=section|rank|university|finalRank|athlete|time` 进入手动排序，`direction=asc|desc` 生效；旧 `sort=race|year` 链接仍可解析，但赛事/届次分组优先。
 - 切换视图通过 `switchView` 保留筛选和每页数量，设置 `sort=default&direction=asc&page=1`。点击表头重置 page=1。GET 筛选表单不提交 page，默认回到第一页。
 - 原有实体、姓名、年份、页码、每页条数参数继续支持分享、刷新及前进后退。
 
@@ -31,7 +32,7 @@
 
 1. 区间默认顺序：区间序号 → 官方区间顺位（null 最后）→ 用时（null 最后）→ 成绩稳定 ID。
 2. 大学默认顺序：官方最终排名（null 最后）→ 参赛记录稳定 ID（保证并列/无排名队伍仍连续）→ 各校区间序号 → 区间顺位/用时/成绩 ID。
-3. 手动排序：届次内指定字段及方向 → 当前视图的默认顺序，空值在两个方向均排最后。默认顺序最终以 ID 消除并列造成的不确定性。
+3. 手动排序：届次内指定字段及方向 → 当前视图的默认顺序，空值在两个方向均排最后。最终综合排名手动排序的同名次记录使用参赛记录 ID、区间顺序作次级排序，保持同队连续。默认顺序最终以 ID 消除并列造成的不确定性。
 
 `Repository.search()` 还返回整个筛选结果的 `editions` 和 `sources`，在分页之前生成，供查询范围和底部溯源使用。空结果返回空汇总，不把全库来源误标为当前查询来源。未来 SQL 适配器应沿用相同 ORDER BY、NULLS LAST、去重来源/届次查询语义。
 

@@ -270,3 +270,77 @@ test("distinct races retain deterministic groups even with identical years and e
   assert.ok(rows.slice(0, 200).every((r) => r.race.id === "all-japan"));
   assert.ok(rows.slice(200).every((r) => r.race.id === "another-race"));
 });
+
+test("university-name sorting is independent of official final standing in both directions", async () => {
+  const copy = structuredClone(db);
+  // Test-only names deliberately oppose the first two official placements.
+  copy.universities.find((u) => u.id === "kokugakuin")!.name = "Z test";
+  copy.universities.find((u) => u.id === "komazawa")!.name = "A test";
+  copy.results = copy.results.filter(
+    (r) => r.entryId === "aj24-kokugakuin" || r.entryId === "aj24-komazawa",
+  );
+  for (const view of ["section", "university"]) {
+    const named = await all(copy, { view, sort: "university" });
+    const ranked = await all(copy, { view, sort: "finalRank" });
+    assert.ok(named.slice(0, 8).every((r) => r.university.id === "komazawa"));
+    assert.ok(
+      ranked.slice(0, 8).every((r) => r.university.id === "kokugakuin"),
+    );
+    assert.deepEqual(
+      named.slice(0, 8).map((r) => r.section.number),
+      [1, 2, 3, 4, 5, 6, 7, 8],
+    );
+    assert.deepEqual(
+      ranked.slice(0, 8).map((r) => r.section.number),
+      [1, 2, 3, 4, 5, 6, 7, 8],
+    );
+    assert.equal(
+      (await all(copy, { view, sort: "university", direction: "desc" }))[0]
+        .university.id,
+      "kokugakuin",
+    );
+    assert.equal(
+      (await all(copy, { view, sort: "finalRank", direction: "desc" }))[0]
+        .university.id,
+      "komazawa",
+    );
+  }
+});
+
+test("manual official standings sort numerically, keeps null teams last and does not use individual rank", async () => {
+  const copy = structuredClone(db);
+  copy.entries[0].finalRank = null;
+  copy.entries[1].finalRank = null;
+  for (const direction of ["asc", "desc"]) {
+    const rows = await all(copy, { sort: "finalRank", direction });
+    assert.equal(rows[0].entry.finalRank, direction === "asc" ? 3 : 25);
+    assert.ok(rows.slice(-16).every((r) => r.entry.finalRank === null));
+    assert.equal(new Set(rows.slice(-8).map((r) => r.entry.id)).size, 1);
+    assert.deepEqual(
+      rows.slice(-8).map((r) => r.section.number),
+      [1, 2, 3, 4, 5, 6, 7, 8],
+    );
+  }
+  const rows = await all(db, { sort: "finalRank", section: "1" });
+  assert.equal(rows[0].university.id, "kokugakuin");
+  assert.equal(rows[0].rank, 2); // Individual winner is a different university.
+  assert.equal(rows[9].entry.finalRank, 10);
+});
+
+test("official and name sort keys retain distinct URL semantics", () => {
+  for (const sort of ["university", "finalRank"]) {
+    const filters = parseFilters({
+      view: "university",
+      sort,
+      direction: "desc",
+      page: "3",
+    });
+    assert.equal(filters.sort, sort);
+    const url = new URL(queryHref("/results", filters), "https://example.org");
+    assert.deepEqual(
+      parseFilters(Object.fromEntries(url.searchParams)),
+      filters,
+    );
+    assert.equal(switchView(filters, "university").sort, "default");
+  }
+});

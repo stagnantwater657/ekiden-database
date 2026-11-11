@@ -21,7 +21,9 @@ jobs:
       - run: npm test
       - run: npm run build
       - name: Install browser for navigation tests
-        run: npx playwright install --with-deps chromium
+        # Use the lockfile-selected browser; avoid apt/font downloads on hosted runners.
+        # The following E2E step still verifies that Chromium can actually launch.
+        run: npx playwright install chromium
       - run: npm run test:e2e
       - name: Check deployment scripts
         run: |

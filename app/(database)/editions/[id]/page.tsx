@@ -20,7 +20,7 @@ export default async function Page({
     <>
       <Heading
         eyebrow="EDITION RESULTS"
-        description={`${edition.date} · 已收录 ${db.entries.filter((e) => e.editionId === id).length} 所大学。点击区间可比较同区间选手。`}
+        description={`${edition.date} · ${edition.seasonYear} 赛季 · 已收录 ${db.entries.filter((e) => e.editionId === id).length} 支参赛队。点击区间可比较同区间选手。`}
       >
         {edition.year} {race.name} · 第 {edition.number} 届
       </Heading>

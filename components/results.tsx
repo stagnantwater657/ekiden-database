@@ -48,6 +48,9 @@ export async function Results({
     rows: result.rows.filter((row) => row.edition.id === edition.id),
   }));
   const conditions = [
+    filters.season && `赛季：${filters.season}`,
+    filters.team &&
+      `队伍：${catalog.teams.find((t) => t.id === filters.team)?.name ?? filters.team}`,
     filters.race &&
       `赛事：${catalog.races.find((r) => r.id === filters.race)?.name ?? filters.race}`,
     filters.year && `年份：${filters.year}`,
@@ -124,6 +127,14 @@ export async function Results({
           <input type="hidden" name="athlete" value={filters.athlete} />
         )}
         {select("race", "赛事", catalog.races)}
+        {select(
+          "season",
+          "赛季",
+          [...new Set(catalog.editions.map((e) => e.seasonYear))].map(
+            (year) => ({ id: String(year), name: String(year) }),
+          ),
+        )}
+        {select("team", "队伍（含选拔队）", catalog.teams)}
         {select(
           "year",
           "年份",
@@ -334,10 +345,22 @@ export async function Results({
                     <td className="px-4 py-3">
                       <Link
                         className="text-red-800 underline"
-                        href={`/universities/${row.university.id}`}
+                        href={
+                          row.university
+                            ? `/universities/${row.university.id}`
+                            : `/teams/${row.team.id}`
+                        }
                       >
-                        {row.university.name}
+                        {row.team.name}
                       </Link>
+                      {row.team.kind !== "university" && (
+                        <span className="ml-2 text-xs text-stone-500">
+                          选拔队 ·{" "}
+                          {row.entry.status === "reference"
+                            ? "参考成绩"
+                            : "无正式综合排名"}
+                        </span>
+                      )}
                       {filters.view === "university" && (
                         <span className="ml-2 text-xs text-stone-500">
                           综合 {row.entry.finalRank ?? "—"}
@@ -354,6 +377,19 @@ export async function Results({
                     </td>
                     <td className="w-28 px-4 py-3 font-mono tabular-nums">
                       {formatTime(row.timeSeconds)}
+                      {row.status && row.status !== "finished" && (
+                        <span className="ml-2 text-xs">
+                          {row.status === "reference"
+                            ? "参考成绩"
+                            : row.status === "disqualified"
+                              ? "失格"
+                              : row.status === "did-not-finish"
+                                ? "退赛"
+                                : row.status === "did-not-start"
+                                  ? "未出场"
+                                  : "无排名 / 待核验"}
+                        </span>
+                      )}
                     </td>
                   </tr>
                 ))}

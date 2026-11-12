@@ -109,7 +109,7 @@ export default function Home() {
                   <p className="mt-8 text-sm font-semibold">
                     赛事档案 <span aria-hidden="true">↗</span>
                     <span className="float-right font-normal text-stone-400">
-                      {race.name === "全日本" ? "2024 已收录" : "筹备中"}
+                      {race.name === "全日本" ? "2024–2025 已收录" : "筹备中"}
                     </span>
                   </p>
                 </div>
@@ -123,7 +123,7 @@ export default function Home() {
         >
           <h2 className="font-semibold">从一场比赛，连接每一位选手</h2>
           <p className="mt-2 text-sm leading-7 text-stone-600">
-            已接入 2024 年全日本大学驿传 25 所大学的 200
+            已接入 2024、2025 年全日本大学驿传共 416
             条区间成绩。出云、箱根数据尚待收录。
             <Link href="/results" className="ml-2 text-red-800 underline">
               开始交叉检索 ↗

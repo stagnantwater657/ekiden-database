@@ -15,6 +15,8 @@ export type ResultView = "section" | "university";
 export interface Filters {
   view: ResultView;
   race: string;
+  season: string;
+  team: string;
   edition: string;
   year: string;
   university: string;
@@ -35,6 +37,8 @@ export function parseFilters(params: QueryParams): Filters {
   return {
     view: read("view") === "university" ? "university" : "section",
     race: read("race"),
+    season: read("season"),
+    team: read("team"),
     edition: read("edition"),
     year: read("year"),
     university: read("university"),

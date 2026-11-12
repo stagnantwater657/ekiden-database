@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import dataset from "../data/all-japan-2024.json" with { type: "json" };
+import { dataset } from "./fixtures/legacy.ts";
 import { createFileRepository, validateDatabase } from "../lib/repository.ts";
 import { parseFilters, queryHref, formatTime } from "../lib/query.ts";
 import type { Database } from "../lib/model.ts";
@@ -57,7 +57,7 @@ test("each university section sum matches independently transcribed official tot
           .reduce((sum, r) => sum + (r.timeSeconds ?? 0), 0),
       ),
       totals[i],
-      entry.universityId,
+      entry.universityId ?? entry.teamId,
     ),
   );
 });
@@ -130,6 +130,7 @@ test("empty datasets and unknown values remain usable; nulls sort last", async (
     assert.equal(result.rows.at(-1)?.timeSeconds, null);
   }
   copy.results = [];
+  copy.identities = [];
   assert.equal(
     (await createFileRepository(copy).search(parseFilters({}))).total,
     0,

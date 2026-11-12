@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
-import dataset from "../data/all-japan-2024.json" with { type: "json" };
+import { dataset } from "./fixtures/legacy.ts";
 import type { Database } from "../lib/model.ts";
 import { createFileRepository, validateDatabase } from "../lib/repository.ts";
 import { parseFilters, queryHref, switchView } from "../lib/query.ts";
@@ -101,7 +101,7 @@ test("university view uses official final rank, then each university sections 1 
   copy.results.reverse();
   copy.entries.reverse();
   const rows = await all(copy, { view: "university" });
-  assert.equal(rows[0].university.id, "kokugakuin");
+  assert.equal(rows[0].university!.id, "kokugakuin");
   for (let i = 0; i < 25; i++) {
     const group = rows.slice(i * 8, i * 8 + 8);
     assert.ok(group.every((r) => r.entry.finalRank === i + 1));
@@ -141,6 +141,8 @@ function crossEditionFixture(): Database {
     ...copy.editions[0],
     id: "test-edition",
     year: 2023,
+    seasonYear: 2023,
+    date: "2023-11-05",
     number: 55,
   });
   copy.sections.push(
@@ -166,6 +168,9 @@ function crossEditionFixture(): Database {
       sectionId: `test-${r.sectionId}`,
       sourceId: "test-only-source",
     })),
+  );
+  copy.identities.push(
+    ...db.identities.map((i) => ({ ...i, recordId: `test-${i.recordId}` })),
   );
   copy.results.reverse();
   return copy;
@@ -265,6 +270,7 @@ test("distinct races retain deterministic groups even with identical years and e
   const edition = copy.editions.find((e) => e.id === "test-edition")!;
   edition.raceId = "another-race";
   edition.year = 2024;
+  edition.date = "2024-11-03";
   edition.number = 56;
   const rows = await all(copy);
   assert.ok(rows.slice(0, 200).every((r) => r.race.id === "all-japan"));
@@ -279,12 +285,15 @@ test("university-name sorting is independent of official final standing in both 
   copy.results = copy.results.filter(
     (r) => r.entryId === "aj24-kokugakuin" || r.entryId === "aj24-komazawa",
   );
+  copy.identities = copy.identities.filter((i) =>
+    copy.results.some((r) => r.id === i.recordId),
+  );
   for (const view of ["section", "university"]) {
     const named = await all(copy, { view, sort: "university" });
     const ranked = await all(copy, { view, sort: "finalRank" });
-    assert.ok(named.slice(0, 8).every((r) => r.university.id === "komazawa"));
+    assert.ok(named.slice(0, 8).every((r) => r.university!.id === "komazawa"));
     assert.ok(
-      ranked.slice(0, 8).every((r) => r.university.id === "kokugakuin"),
+      ranked.slice(0, 8).every((r) => r.university!.id === "kokugakuin"),
     );
     assert.deepEqual(
       named.slice(0, 8).map((r) => r.section.number),
@@ -296,12 +305,12 @@ test("university-name sorting is independent of official final standing in both 
     );
     assert.equal(
       (await all(copy, { view, sort: "university", direction: "desc" }))[0]
-        .university.id,
+        .university!.id,
       "kokugakuin",
     );
     assert.equal(
       (await all(copy, { view, sort: "finalRank", direction: "desc" }))[0]
-        .university.id,
+        .university!.id,
       "komazawa",
     );
   }
@@ -322,7 +331,7 @@ test("manual official standings sort numerically, keeps null teams last and does
     );
   }
   const rows = await all(db, { sort: "finalRank", section: "1" });
-  assert.equal(rows[0].university.id, "kokugakuin");
+  assert.equal(rows[0].university!.id, "kokugakuin");
   assert.equal(rows[0].rank, 2); // Individual winner is a different university.
   assert.equal(rows[9].entry.finalRank, 10);
 });

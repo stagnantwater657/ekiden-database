@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { getRepository } from "../lib/repository";
 const navigation = [
   { name: "选手", href: "/athletes" },
   { name: "大学", href: "/universities" },
@@ -7,6 +8,7 @@ const navigation = [
 ];
 const races = [
   {
+    id: "izumo",
     name: "出云",
     japanese: "出雲駅伝",
     number: "01",
@@ -15,6 +17,7 @@ const races = [
     color: "bg-emerald-800",
   },
   {
+    id: "all-japan",
     name: "全日本",
     japanese: "全日本大学駅伝",
     number: "02",
@@ -23,6 +26,7 @@ const races = [
     color: "bg-amber-800",
   },
   {
+    id: "hakone",
     name: "箱根",
     japanese: "箱根駅伝",
     number: "03",
@@ -31,7 +35,8 @@ const races = [
     color: "bg-red-900",
   },
 ];
-export default function Home() {
+export default async function Home() {
+  const db = await getRepository().catalog();
   return (
     <>
       <header className="border-b border-stone-200">
@@ -88,11 +93,9 @@ export default function Home() {
           <div className="grid gap-5 md:grid-cols-3">
             {races.map((race) => (
               <a
-                href={
-                  race.name === "全日本" ? "/races/all-japan" : "#coming-soon"
-                }
+                href={`/races/${race.id}`}
                 key={race.name}
-                aria-label={`${race.name}赛事入口${race.name === "全日本" ? "" : "（筹备中）"}`}
+                aria-label={`${race.name}赛事入口`}
                 className="group overflow-hidden border border-stone-200 bg-white transition hover:-translate-y-1 hover:shadow-md"
               >
                 <div
@@ -109,7 +112,7 @@ export default function Home() {
                   <p className="mt-8 text-sm font-semibold">
                     赛事档案 <span aria-hidden="true">↗</span>
                     <span className="float-right font-normal text-stone-400">
-                      {race.name === "全日本" ? "2024–2025 已收录" : "筹备中"}
+                      已收录 {db.editions.filter((edition) => edition.raceId === race.id).length} 届
                     </span>
                   </p>
                 </div>
@@ -118,13 +121,13 @@ export default function Home() {
           </div>
         </section>
         <aside
-          id="coming-soon"
+          id="data-coverage"
           className="mt-12 border-l-2 border-red-800 bg-stone-100 p-6 scroll-mt-8"
         >
           <h2 className="font-semibold">从一场比赛，连接每一位选手</h2>
           <p className="mt-2 text-sm leading-7 text-stone-600">
-            已接入 2024、2025 年全日本大学驿传共 416
-            条区间成绩。出云、箱根数据尚待收录。
+            已接入 {db.editions.length} 届赛事，共 {db.results.length} 条区间成绩。
+            按赛事、年份、大学和选手交叉检索历史记录。
             <Link href="/results" className="ml-2 text-red-800 underline">
               开始交叉检索 ↗
             </Link>

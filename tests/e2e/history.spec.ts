@@ -94,3 +94,21 @@ test("new race cards → editions → one athlete across all three races on mobi
   await expect(page).toHaveURL(/editions\/hakone-2026/);
   await expect(page.getByRole("status")).toHaveText("共 210 条成绩");
 });
+
+test('2024 completion → reference selection team → shared athlete → same-season Hakone', async ({page}) => {
+  await page.setViewportSize({width:390,height:844});
+  await page.goto('/editions/all-japan-2024?team=team-japan-selection');
+  await expect(page.getByRole('status')).toHaveText('共 8 条成绩');
+  await expect(page.locator('tbody')).toContainText('片川 祐大');
+  await expect(page.locator('tbody')).not.toContainText('综合 26');
+  await page.getByRole('link',{name:'日本学連選抜',exact:true}).first().click();
+  await expect(page).toHaveURL(/teams\/team-japan-selection/);
+  await page.getByLabel('选手姓名').fill('片川');
+  await page.getByRole('button',{name:'应用筛选'}).click();
+  await page.getByRole('link',{name:'片川 祐大',exact:true}).click();
+  await expect(page).toHaveURL(/athletes\/athlete-hk25-21-1/);
+  await expect(page.getByRole('status')).toHaveText('共 2 条成绩');
+  const context=page.getByRole('complementary',{name:'查询上下文'});
+  await expect(context).toContainText('第 56 届');await expect(context).toContainText('第 101 届');
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
+});

@@ -19,7 +19,7 @@ test("home → race → edition → athlete → university → results", async (
   await page.getByRole("combobox", { name: "年份", exact: true }).selectOption("2024");
   await page.getByRole("button", { name: "应用筛选" }).click();
   await page.getByRole("link", { name: "6区 · 12.8 km" }).first().click();
-  await expect(page.getByRole("status")).toHaveText("共 25 条成绩");
+  await expect(page.getByRole("status")).toHaveText("共 27 条成绩");
   await expect(page).toHaveURL(/section=6/);
   await page
     .getByRole("link", {
@@ -46,7 +46,7 @@ test("GET filters, sort, pagination, reload, sharing and back/forward", async ({
   await page.reload();
   await expect(
     page.getByRole("navigation", { name: "成绩分页" }),
-  ).toContainText("第 2 / 20 页");
+  ).toContainText("第 2 / 22 页");
   await page
     .getByRole("columnheader", { name: /成绩/ })
     .getByRole("link")
@@ -132,7 +132,7 @@ test("five columns, query context, view switch resets page and sort, sources fol
   ).toHaveAttribute("aria-current", "page");
   await page.getByRole("link", { name: "下一页", exact: true }).click();
   await expect(page).toHaveURL(/page=2/);
-  await expect(page.getByRole("navigation", { name: "成绩分页" })).toContainText("第 2 / 20 页");
+  await expect(page.getByRole("navigation", { name: "成绩分页" })).toContainText("第 2 / 22 页");
   await page.getByRole("link", { name: "区间视图", exact: true }).click();
   await expect(page).toHaveURL(/page=1/);
   await expect(rows.first()).toContainText("平島 龍斗");
@@ -143,9 +143,9 @@ test("five columns, query context, view switch resets page and sort, sources fol
   await page.goForward();
   await expect(page).toHaveURL(/view=section/);
   const source = page.getByRole("complementary", { name: "数据范围与来源" });
-  await expect(source.getByRole("link")).toHaveCount(2);
+  await expect(source.getByRole("link")).toHaveCount(4);
   await expect(source).toContainText("采集时间");
-  await expect(source).toContainText("两支公开");
+  await expect(source).toContainText("现共27队216条");
   await page.goto("/results?year=2022");
   await expect(source.getByRole("link")).toHaveCount(0);
   await expect(source).toContainText("当前查询无成绩");

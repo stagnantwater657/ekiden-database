@@ -1,0 +1,309 @@
+{
+  "checkedAt": "2026-11-13",
+  "scope": "16 added actual starts; candidate search across all ten other editions; no previous identity decision replaced",
+  "athletes": [
+    {
+      "recordId": "aj24-japan-selection-s1",
+      "bib": 26,
+      "section": 1,
+      "name": "山下 慶馬",
+      "universityId": "kwansei-gakuin",
+      "grade": "2",
+      "athleteId": "athlete-aj25-23-1",
+      "reused": true,
+      "candidateIds": [
+        "athlete-aj25-23-1"
+      ],
+      "reason": "2023最终名单关西学院1年与2024会报关西学院2年，完整姓名一致；2025/2026已关联同ID。",
+      "evidenceSourceIds": [
+        "iuau-aj2024-completion-affiliations",
+        "iuau-aj2024-completion-roster",
+        "iuau-aj23-roster"
+      ]
+    },
+    {
+      "recordId": "aj24-japan-selection-s2",
+      "bib": 26,
+      "section": 2,
+      "name": "片川 祐大",
+      "universityId": "university-a3923202960f",
+      "grade": "4",
+      "athleteId": "athlete-hk25-21-1",
+      "reused": true,
+      "candidateIds": [
+        "athlete-hk25-21-1"
+      ],
+      "reason": "2024全日本与2025箱根同属2024赛季；IUAU会报与日本电视101回实际1区卡均为亜細亜大学4年、片川祐大。",
+      "evidenceSourceIds": [
+        "iuau-aj2024-completion-affiliations",
+        "iuau-aj2024-completion-roster",
+        "ntv-hk25-21"
+      ]
+    },
+    {
+      "recordId": "aj24-japan-selection-s3",
+      "bib": 26,
+      "section": 3,
+      "name": "金子 佑太朗",
+      "universityId": "university-5fce171fb5bb",
+      "grade": "4",
+      "athleteId": "athlete-aj24-26-3",
+      "reused": false,
+      "candidateIds": [],
+      "reason": "完整姓名、筑波大学4年由官方会报及最终名单确认；其他十届无姓名/别名候选，新增稳定身份。",
+      "evidenceSourceIds": [
+        "iuau-aj2024-completion-affiliations",
+        "iuau-aj2024-completion-roster"
+      ]
+    },
+    {
+      "recordId": "aj24-japan-selection-s4",
+      "bib": 26,
+      "section": 4,
+      "name": "中尾 心哉",
+      "universityId": "kwansei-gakuin",
+      "grade": "4",
+      "athleteId": "athlete-aj23-23-7",
+      "reused": true,
+      "candidateIds": [
+        "athlete-aj23-23-7"
+      ],
+      "reason": "2023最终名单关西学院3年与2024会报关西学院4年，中尾心哉完整姓名一致。",
+      "evidenceSourceIds": [
+        "iuau-aj2024-completion-affiliations",
+        "iuau-aj2024-completion-roster",
+        "iuau-aj23-roster"
+      ]
+    },
+    {
+      "recordId": "aj24-japan-selection-s5",
+      "bib": 26,
+      "section": 5,
+      "name": "中村 晃斗",
+      "universityId": "shigakukan",
+      "grade": "2",
+      "athleteId": "athlete-aj25-25-1",
+      "reused": true,
+      "candidateIds": [
+        "athlete-aj25-25-1"
+      ],
+      "reason": "2024会报志學館2年与已核验2025出云最终名单志學館3年一致；采用官方中村晃斗，不采用文化放送其他栏晃人误写。",
+      "evidenceSourceIds": [
+        "iuau-aj2024-completion-affiliations",
+        "iuau-aj2024-completion-roster",
+        "iuau-iz25-roster"
+      ]
+    },
+    {
+      "recordId": "aj24-japan-selection-s6",
+      "bib": 26,
+      "section": 6,
+      "name": "山本 涼介",
+      "universityId": "university-a26b3cd4582e",
+      "grade": "3",
+      "athleteId": "athlete-aj25-26-3",
+      "reused": true,
+      "candidateIds": [
+        "athlete-aj25-26-3",
+        "athlete-iz25-19-1"
+      ],
+      "reason": "2024会报环境太平洋3年与2025文化放送最终名单日本学连3区环境太平洋4年一致；复用原2025全日本ID，其他出云候选及旧needs-review决定不修改。",
+      "evidenceSourceIds": [
+        "iuau-aj2024-completion-affiliations",
+        "iuau-aj2024-completion-roster",
+        "joqr-aj2025-identity-completion"
+      ]
+    },
+    {
+      "recordId": "aj24-japan-selection-s7",
+      "bib": 26,
+      "section": 7,
+      "name": "南部 悠陽",
+      "universityId": "doshisha",
+      "grade": "2",
+      "athleteId": "athlete-aj25-26-7",
+      "reused": true,
+      "candidateIds": [
+        "athlete-aj25-26-7",
+        "athlete-aj26-26-2"
+      ],
+      "reason": "2024会报同志社2年与2025文化放送最终名单日本学连7区同志社3年一致；原2026独立候选及旧needs-review决定不修改。",
+      "evidenceSourceIds": [
+        "iuau-aj2024-completion-affiliations",
+        "iuau-aj2024-completion-roster",
+        "joqr-aj2025-identity-completion"
+      ]
+    },
+    {
+      "recordId": "aj24-japan-selection-s8",
+      "bib": 26,
+      "section": 8,
+      "name": "松林 直亮",
+      "universityId": "shinshu",
+      "grade": "M1",
+      "athleteId": "athlete-aj25-18-8",
+      "reused": true,
+      "candidateIds": [
+        "athlete-aj23-26-8",
+        "athlete-aj25-18-8",
+        "athlete-iz23-13-3",
+        "athlete-iz24-13-3",
+        "athlete-iz25-14-3"
+      ],
+      "reason": "2024会报信州M1与已核验2025全日本最终名单信州M2一致，完整姓名松林直亮；既有其他4个候选保持独立及原审核状态。",
+      "evidenceSourceIds": [
+        "iuau-aj2024-completion-affiliations",
+        "iuau-aj2024-completion-roster",
+        "iuau-aj2025-roster"
+      ]
+    },
+    {
+      "recordId": "aj24-tokai-selection-s1",
+      "bib": 27,
+      "section": 1,
+      "name": "岩田 玄弥",
+      "universityId": "university-96e731540e16",
+      "grade": "2",
+      "athleteId": "athlete-aj25-27-3",
+      "reused": true,
+      "candidateIds": [
+        "athlete-aj25-27-3",
+        "athlete-aj26-19-2"
+      ],
+      "reason": "2024会报爱知工业2年与2025文化放送最终名单东海学连3区爱知工业3年一致；既有2026独立候选与决定不修改。",
+      "evidenceSourceIds": [
+        "iuau-aj2024-completion-affiliations",
+        "iuau-aj2024-completion-roster",
+        "joqr-aj2025-identity-completion"
+      ]
+    },
+    {
+      "recordId": "aj24-tokai-selection-s2",
+      "bib": 27,
+      "section": 2,
+      "name": "中嶋 希",
+      "universityId": "gifu-kyoritsu",
+      "grade": "2",
+      "athleteId": "athlete-aj25-20-8",
+      "reused": true,
+      "candidateIds": [
+        "athlete-aj23-27-2",
+        "athlete-aj25-20-8",
+        "athlete-aj26-27-7"
+      ],
+      "reason": "2024会报岐阜协立2年与已核验2025全日本最终名单该校3年一致；既有2023/2026独立候选与审核决定不修改。",
+      "evidenceSourceIds": [
+        "iuau-aj2024-completion-affiliations",
+        "iuau-aj2024-completion-roster",
+        "iuau-aj2025-roster"
+      ]
+    },
+    {
+      "recordId": "aj24-tokai-selection-s3",
+      "bib": 27,
+      "section": 3,
+      "name": "天野 佑哉",
+      "universityId": "gifu-kyoritsu",
+      "grade": "4",
+      "athleteId": "athlete-aj23-27-5",
+      "reused": true,
+      "candidateIds": [
+        "athlete-aj23-27-5"
+      ],
+      "reason": "2023文化放送最终名单及IUAU名单为天野佑哉、岐阜协立3年；2024官方会报同校4年，完整姓名一致。",
+      "evidenceSourceIds": [
+        "iuau-aj2024-completion-affiliations",
+        "iuau-aj2024-completion-roster",
+        "joqr-aj2023-identity-completion"
+      ]
+    },
+    {
+      "recordId": "aj24-tokai-selection-s4",
+      "bib": 27,
+      "section": 4,
+      "name": "浅井 駿良",
+      "universityId": "chubu",
+      "grade": "4",
+      "athleteId": "athlete-aj24-27-4",
+      "reused": false,
+      "candidateIds": [],
+      "reason": "完整姓名、中部大学4年由官方会报及最终名单确认；其他十届无姓名/别名候选，新增稳定身份。",
+      "evidenceSourceIds": [
+        "iuau-aj2024-completion-affiliations",
+        "iuau-aj2024-completion-roster"
+      ]
+    },
+    {
+      "recordId": "aj24-tokai-selection-s5",
+      "bib": 27,
+      "section": 5,
+      "name": "日比 健仁",
+      "universityId": "gifu-kyoritsu",
+      "grade": "2",
+      "athleteId": "athlete-aj25-20-2",
+      "reused": true,
+      "candidateIds": [
+        "athlete-aj25-20-2"
+      ],
+      "reason": "2024会报岐阜协立2年与已核验2025全日本最终名单该校3年一致，完整姓名日比健仁。",
+      "evidenceSourceIds": [
+        "iuau-aj2024-completion-affiliations",
+        "iuau-aj2024-completion-roster",
+        "iuau-aj2025-roster"
+      ]
+    },
+    {
+      "recordId": "aj24-tokai-selection-s6",
+      "bib": 27,
+      "section": 6,
+      "name": "河﨑 憲祐",
+      "universityId": "nagoya",
+      "grade": "M1",
+      "athleteId": "athlete-aj25-19-8",
+      "reused": true,
+      "candidateIds": [
+        "athlete-aj23-19-2",
+        "athlete-aj25-19-8",
+        "athlete-iz24-14-1"
+      ],
+      "reason": "2024会报名古屋M1与已核验2025全日本最终名单该校M2一致，河﨑憲祐字形一致；其他既有候选及原审核决定保留。",
+      "evidenceSourceIds": [
+        "iuau-aj2024-completion-affiliations",
+        "iuau-aj2024-completion-roster",
+        "iuau-aj2025-roster"
+      ]
+    },
+    {
+      "recordId": "aj24-tokai-selection-s7",
+      "bib": 27,
+      "section": 7,
+      "name": "田中 海吏",
+      "universityId": "chukyo",
+      "grade": "4",
+      "athleteId": "athlete-aj24-27-7",
+      "reused": false,
+      "candidateIds": [],
+      "reason": "完整姓名、中京大学4年由官方会报及最终名单确认；其他十届无姓名/别名候选，新增稳定身份。",
+      "evidenceSourceIds": [
+        "iuau-aj2024-completion-affiliations",
+        "iuau-aj2024-completion-roster"
+      ]
+    },
+    {
+      "recordId": "aj24-tokai-selection-s8",
+      "bib": 27,
+      "section": 8,
+      "name": "木山 敬士郎",
+      "universityId": "chukyo",
+      "grade": "3",
+      "athleteId": "athlete-aj24-27-8",
+      "reused": false,
+      "candidateIds": [],
+      "reason": "完整姓名、中京大学3年由官方会报及最终名单确认；其他十届无姓名/别名候选，新增稳定身份。",
+      "evidenceSourceIds": [
+        "iuau-aj2024-completion-affiliations",
+        "iuau-aj2024-completion-roster"
+      ]
+    }
+  ]
+}

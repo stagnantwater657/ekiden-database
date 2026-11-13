@@ -1,0 +1,357 @@
+{
+  "revisionId": "all-japan-2024-completeness",
+  "editionId": "all-japan-2024",
+  "direction": "apply",
+  "changed": false,
+  "beforeSha256": "1b62c6ad2ed927b0100a1515a8dc70644af7b6cc84759ceb7bb2ded1932b751a",
+  "afterSha256": "18a91c1d9ac02256a791c8dec21eeb6742ed3a132f1768d1a75b9dc658f8f842",
+  "beforeRegistrySha256": "e8a4dd0b684aaa1ddbd674c22f5582dcb391ed6eba3589c41a65f681aa850409",
+  "afterRegistrySha256": "06a033544f622e110bfe9d12e75d5bcf09d1dd2eb1edd4d2ca7c0211ae6ee288",
+  "originalResults": {
+    "count": 200,
+    "beforeSha256": "3ffb35885a6bbba18c5ce5577b99bda5bb70ef2bfb92ce29e8b88300f657ca92",
+    "afterSha256": "3ffb35885a6bbba18c5ce5577b99bda5bb70ef2bfb92ce29e8b88300f657ca92"
+  },
+  "entryTotals": [
+    {
+      "entryId": "aj24-kokugakuin",
+      "before": {
+        "totalTimeSeconds": null,
+        "totalTimeSourceId": null
+      },
+      "after": {
+        "totalTimeSeconds": 18596,
+        "totalTimeSourceId": "iuau-aj2024-completion-results"
+      }
+    },
+    {
+      "entryId": "aj24-komazawa",
+      "before": {
+        "totalTimeSeconds": null,
+        "totalTimeSourceId": null
+      },
+      "after": {
+        "totalTimeSeconds": 18624,
+        "totalTimeSourceId": "iuau-aj2024-completion-results"
+      }
+    },
+    {
+      "entryId": "aj24-aoyama-gakuin",
+      "before": {
+        "totalTimeSeconds": null,
+        "totalTimeSourceId": null
+      },
+      "after": {
+        "totalTimeSeconds": 18641,
+        "totalTimeSourceId": "iuau-aj2024-completion-results"
+      }
+    },
+    {
+      "entryId": "aj24-soka",
+      "before": {
+        "totalTimeSeconds": null,
+        "totalTimeSourceId": null
+      },
+      "after": {
+        "totalTimeSeconds": 18797,
+        "totalTimeSourceId": "iuau-aj2024-completion-results"
+      }
+    },
+    {
+      "entryId": "aj24-waseda",
+      "before": {
+        "totalTimeSeconds": null,
+        "totalTimeSourceId": null
+      },
+      "after": {
+        "totalTimeSeconds": 18864,
+        "totalTimeSourceId": "iuau-aj2024-completion-results"
+      }
+    },
+    {
+      "entryId": "aj24-josai",
+      "before": {
+        "totalTimeSeconds": null,
+        "totalTimeSourceId": null
+      },
+      "after": {
+        "totalTimeSeconds": 18897,
+        "totalTimeSourceId": "iuau-aj2024-completion-results"
+      }
+    },
+    {
+      "entryId": "aj24-rikkyo",
+      "before": {
+        "totalTimeSeconds": null,
+        "totalTimeSourceId": null
+      },
+      "after": {
+        "totalTimeSeconds": 18981,
+        "totalTimeSourceId": "iuau-aj2024-completion-results"
+      }
+    },
+    {
+      "entryId": "aj24-teikyo",
+      "before": {
+        "totalTimeSeconds": null,
+        "totalTimeSourceId": null
+      },
+      "after": {
+        "totalTimeSeconds": 18984,
+        "totalTimeSourceId": "iuau-aj2024-completion-results"
+      }
+    },
+    {
+      "entryId": "aj24-tokyo-international",
+      "before": {
+        "totalTimeSeconds": null,
+        "totalTimeSourceId": null
+      },
+      "after": {
+        "totalTimeSeconds": 19066,
+        "totalTimeSourceId": "iuau-aj2024-completion-results"
+      }
+    },
+    {
+      "entryId": "aj24-nippon-sport-science",
+      "before": {
+        "totalTimeSeconds": null,
+        "totalTimeSourceId": null
+      },
+      "after": {
+        "totalTimeSeconds": 19072,
+        "totalTimeSourceId": "iuau-aj2024-completion-results"
+      }
+    },
+    {
+      "entryId": "aj24-daito-bunka",
+      "before": {
+        "totalTimeSeconds": null,
+        "totalTimeSourceId": null
+      },
+      "after": {
+        "totalTimeSeconds": 19088,
+        "totalTimeSourceId": "iuau-aj2024-completion-results"
+      }
+    },
+    {
+      "entryId": "aj24-chuo",
+      "before": {
+        "totalTimeSeconds": null,
+        "totalTimeSourceId": null
+      },
+      "after": {
+        "totalTimeSeconds": 19189,
+        "totalTimeSourceId": "iuau-aj2024-completion-results"
+      }
+    },
+    {
+      "entryId": "aj24-toyo",
+      "before": {
+        "totalTimeSeconds": null,
+        "totalTimeSourceId": null
+      },
+      "after": {
+        "totalTimeSeconds": 19208,
+        "totalTimeSourceId": "iuau-aj2024-completion-results"
+      }
+    },
+    {
+      "entryId": "aj24-kanagawa",
+      "before": {
+        "totalTimeSeconds": null,
+        "totalTimeSourceId": null
+      },
+      "after": {
+        "totalTimeSeconds": 19362,
+        "totalTimeSourceId": "iuau-aj2024-completion-results"
+      }
+    },
+    {
+      "entryId": "aj24-tokai",
+      "before": {
+        "totalTimeSeconds": null,
+        "totalTimeSourceId": null
+      },
+      "after": {
+        "totalTimeSeconds": 19423,
+        "totalTimeSourceId": "iuau-aj2024-completion-results"
+      }
+    },
+    {
+      "entryId": "aj24-kyoto-sangyo",
+      "before": {
+        "totalTimeSeconds": null,
+        "totalTimeSourceId": null
+      },
+      "after": {
+        "totalTimeSeconds": 19738,
+        "totalTimeSourceId": "iuau-aj2024-completion-results"
+      }
+    },
+    {
+      "entryId": "aj24-kogakkan",
+      "before": {
+        "totalTimeSeconds": null,
+        "totalTimeSourceId": null
+      },
+      "after": {
+        "totalTimeSeconds": 19896,
+        "totalTimeSourceId": "iuau-aj2024-completion-results"
+      }
+    },
+    {
+      "entryId": "aj24-osaka-keizai",
+      "before": {
+        "totalTimeSeconds": null,
+        "totalTimeSourceId": null
+      },
+      "after": {
+        "totalTimeSeconds": 19973,
+        "totalTimeSourceId": "iuau-aj2024-completion-results"
+      }
+    },
+    {
+      "entryId": "aj24-kansai",
+      "before": {
+        "totalTimeSeconds": null,
+        "totalTimeSourceId": null
+      },
+      "after": {
+        "totalTimeSeconds": 20032,
+        "totalTimeSourceId": "iuau-aj2024-completion-results"
+      }
+    },
+    {
+      "entryId": "aj24-sapporo-gakuin",
+      "before": {
+        "totalTimeSeconds": null,
+        "totalTimeSourceId": null
+      },
+      "after": {
+        "totalTimeSeconds": 20150,
+        "totalTimeSourceId": "iuau-aj2024-completion-results"
+      }
+    },
+    {
+      "entryId": "aj24-kagoshima",
+      "before": {
+        "totalTimeSeconds": null,
+        "totalTimeSourceId": null
+      },
+      "after": {
+        "totalTimeSeconds": 20244,
+        "totalTimeSourceId": "iuau-aj2024-completion-results"
+      }
+    },
+    {
+      "entryId": "aj24-ritsumeikan",
+      "before": {
+        "totalTimeSeconds": null,
+        "totalTimeSourceId": null
+      },
+      "after": {
+        "totalTimeSeconds": 20298,
+        "totalTimeSourceId": "iuau-aj2024-completion-results"
+      }
+    },
+    {
+      "entryId": "aj24-okayama",
+      "before": {
+        "totalTimeSeconds": null,
+        "totalTimeSourceId": null
+      },
+      "after": {
+        "totalTimeSeconds": 20411,
+        "totalTimeSourceId": "iuau-aj2024-completion-results"
+      }
+    },
+    {
+      "entryId": "aj24-niigata",
+      "before": {
+        "totalTimeSeconds": null,
+        "totalTimeSourceId": null
+      },
+      "after": {
+        "totalTimeSeconds": 20428,
+        "totalTimeSourceId": "iuau-aj2024-completion-results"
+      }
+    },
+    {
+      "entryId": "aj24-tohoku",
+      "before": {
+        "totalTimeSeconds": null,
+        "totalTimeSourceId": null
+      },
+      "after": {
+        "totalTimeSeconds": 21432,
+        "totalTimeSourceId": "iuau-aj2024-completion-results"
+      }
+    }
+  ],
+  "added": {
+    "sources": [
+      "iuau-aj2024-completion-results",
+      "iuau-aj2024-completion-roster",
+      "iuau-aj2024-completion-affiliations",
+      "joqr-aj2023-identity-completion",
+      "joqr-aj2025-identity-completion"
+    ],
+    "entries": [
+      "aj24-japan-selection",
+      "aj24-tokai-selection"
+    ],
+    "results": [
+      "aj24-japan-selection-s1",
+      "aj24-japan-selection-s2",
+      "aj24-japan-selection-s3",
+      "aj24-japan-selection-s4",
+      "aj24-japan-selection-s5",
+      "aj24-japan-selection-s6",
+      "aj24-japan-selection-s7",
+      "aj24-japan-selection-s8",
+      "aj24-tokai-selection-s1",
+      "aj24-tokai-selection-s2",
+      "aj24-tokai-selection-s3",
+      "aj24-tokai-selection-s4",
+      "aj24-tokai-selection-s5",
+      "aj24-tokai-selection-s6",
+      "aj24-tokai-selection-s7",
+      "aj24-tokai-selection-s8"
+    ],
+    "identities": [
+      "aj24-japan-selection-s1",
+      "aj24-japan-selection-s2",
+      "aj24-japan-selection-s3",
+      "aj24-japan-selection-s4",
+      "aj24-japan-selection-s5",
+      "aj24-japan-selection-s6",
+      "aj24-japan-selection-s7",
+      "aj24-japan-selection-s8",
+      "aj24-tokai-selection-s1",
+      "aj24-tokai-selection-s2",
+      "aj24-tokai-selection-s3",
+      "aj24-tokai-selection-s4",
+      "aj24-tokai-selection-s5",
+      "aj24-tokai-selection-s6",
+      "aj24-tokai-selection-s7",
+      "aj24-tokai-selection-s8"
+    ]
+  },
+  "addedRegistry": {
+    "sources": [],
+    "races": [],
+    "universities": [
+      "doshisha",
+      "chubu",
+      "chukyo"
+    ],
+    "athletes": [
+      "athlete-aj24-26-3",
+      "athlete-aj24-27-4",
+      "athlete-aj24-27-7",
+      "athlete-aj24-27-8"
+    ],
+    "teams": []
+  }
+}

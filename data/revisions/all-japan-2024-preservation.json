@@ -1,0 +1,15 @@
+{
+  "baseCommit": "f016bcab41206f70e2bc7cd1e1e13bc7c7248784",
+  "untouchedFiles": {
+    "data/editions/all-japan-2023.json": "c01212433ca00e74390672be94732c469788d33a3a5a52f5bcdd46a1341a7dea",
+    "data/editions/all-japan-2025.json": "cf53e492fa27a3e279ed8b7066f2c17aa61bad2b39ad203ddd8f4788c4601062",
+    "data/editions/all-japan-2026.json": "eb3a0d2a043c2a90c8f42f153c8671a00786ed7fad685ba1ca004b829a5a504b",
+    "data/editions/hakone-2024.json": "e5b325546c042b267657d139a6cc0fad80db59bd04f4eb8df59b1a83d954a76b",
+    "data/editions/hakone-2025.json": "564de369e2bce15afa4f6a8f12a147736a43ac2acd0667d8d6b1c3b95b33591e",
+    "data/editions/hakone-2026.json": "cbe3898330df4c6868f766630021d2385cfd69f1910882dca548521f27128c3d",
+    "data/editions/izumo-2023.json": "46a8dfd649b1b76bba84c22b724a6713ed00fd4433e0b0e80b6ec333742761fd",
+    "data/editions/izumo-2024.json": "207195f36f780e27ce98d9e96487d43b913fd5d8c79b4effc0c40f2f2aa2e600",
+    "data/editions/izumo-2025.json": "499ab2ff6a40981306f1937b5a0710a5f8d8606c2041153b5fd948378a2bed0a",
+    "data/editions/izumo-2026.json": "f97ca97042b3d0d2ce9a94a757bacb321716182a7ba20715ff3d10fae204889c"
+  }
+}

@@ -316,6 +316,21 @@
       "id": "university-edcffdb6c28e",
       "name": "日本薬科大",
       "sourceId": "ntv-hk26-21"
+    },
+    {
+      "id": "doshisha",
+      "name": "同志社大",
+      "sourceId": "iuau-aj2024-completion-affiliations"
+    },
+    {
+      "id": "chubu",
+      "name": "中部大",
+      "sourceId": "iuau-aj2024-completion-affiliations"
+    },
+    {
+      "id": "chukyo",
+      "name": "中京大",
+      "sourceId": "iuau-aj2024-completion-affiliations"
     }
   ],
   "athletes": [
@@ -6234,6 +6249,30 @@
       "name": "佐野 颯人",
       "birthDate": null,
       "sourceId": "ntv-hk26-21"
+    },
+    {
+      "id": "athlete-aj24-26-3",
+      "name": "金子 佑太朗",
+      "birthDate": null,
+      "sourceId": "iuau-aj2024-completion-results"
+    },
+    {
+      "id": "athlete-aj24-27-4",
+      "name": "浅井 駿良",
+      "birthDate": null,
+      "sourceId": "iuau-aj2024-completion-results"
+    },
+    {
+      "id": "athlete-aj24-27-7",
+      "name": "田中 海吏",
+      "birthDate": null,
+      "sourceId": "iuau-aj2024-completion-results"
+    },
+    {
+      "id": "athlete-aj24-27-8",
+      "name": "木山 敬士郎",
+      "birthDate": null,
+      "sourceId": "iuau-aj2024-completion-results"
     }
   ],
   "sources": [

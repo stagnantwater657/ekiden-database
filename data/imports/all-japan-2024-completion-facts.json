@@ -1,0 +1,384 @@
+{
+  "sourceUrl": "https://www.iuau.jp/sp1/ev2024/56meki/56meki_result.pdf",
+  "collectedAt": "2026-11-13",
+  "adoptedVersion": "Footer 2024/11/5 19:45 (p.1), 19:47 (pp.2–6), 19:48 (pp.7–10); document output times, not a claimed revision announcement",
+  "verification": "27 totals transcribed from p.1 and compared with p.2 cumulative finish; 16 selection results independently compared p.2 lower section rows against pp.3–10 section-ranking tables; all 27 totals equal sum of official section times.",
+  "totals": [
+    {
+      "bib": 3,
+      "rank": 1,
+      "name": "國學院大",
+      "time": "5:09:56",
+      "totalTimeSeconds": 18596,
+      "summaryLocator": "PDF p.1 overall results, bib 3"
+    },
+    {
+      "bib": 1,
+      "rank": 2,
+      "name": "駒澤大",
+      "time": "5:10:24",
+      "totalTimeSeconds": 18624,
+      "summaryLocator": "PDF p.1 overall results, bib 1"
+    },
+    {
+      "bib": 2,
+      "rank": 3,
+      "name": "青山学院大",
+      "time": "5:10:41",
+      "totalTimeSeconds": 18641,
+      "summaryLocator": "PDF p.1 overall results, bib 2"
+    },
+    {
+      "bib": 6,
+      "rank": 4,
+      "name": "創価大",
+      "time": "5:13:17",
+      "totalTimeSeconds": 18797,
+      "summaryLocator": "PDF p.1 overall results, bib 6"
+    },
+    {
+      "bib": 13,
+      "rank": 5,
+      "name": "早稲田大",
+      "time": "5:14:24",
+      "totalTimeSeconds": 18864,
+      "summaryLocator": "PDF p.1 overall results, bib 13"
+    },
+    {
+      "bib": 5,
+      "rank": 6,
+      "name": "城西大",
+      "time": "5:14:57",
+      "totalTimeSeconds": 18897,
+      "summaryLocator": "PDF p.1 overall results, bib 5"
+    },
+    {
+      "bib": 15,
+      "rank": 7,
+      "name": "立教大",
+      "time": "5:16:21",
+      "totalTimeSeconds": 18981,
+      "summaryLocator": "PDF p.1 overall results, bib 15"
+    },
+    {
+      "bib": 16,
+      "rank": 8,
+      "name": "帝京大",
+      "time": "5:16:24",
+      "totalTimeSeconds": 18984,
+      "summaryLocator": "PDF p.1 overall results, bib 16"
+    },
+    {
+      "bib": 8,
+      "rank": 9,
+      "name": "東京国際大",
+      "time": "5:17:46",
+      "totalTimeSeconds": 19066,
+      "summaryLocator": "PDF p.1 overall results, bib 8"
+    },
+    {
+      "bib": 14,
+      "rank": 10,
+      "name": "日本体育大",
+      "time": "5:17:52",
+      "totalTimeSeconds": 19072,
+      "summaryLocator": "PDF p.1 overall results, bib 14"
+    },
+    {
+      "bib": 7,
+      "rank": 11,
+      "name": "大東文化大",
+      "time": "5:18:08",
+      "totalTimeSeconds": 19088,
+      "summaryLocator": "PDF p.1 overall results, bib 7"
+    },
+    {
+      "bib": 4,
+      "rank": 12,
+      "name": "中央大",
+      "time": "5:19:49",
+      "totalTimeSeconds": 19189,
+      "summaryLocator": "PDF p.1 overall results, bib 4"
+    },
+    {
+      "bib": 12,
+      "rank": 13,
+      "name": "東洋大",
+      "time": "5:20:08",
+      "totalTimeSeconds": 19208,
+      "summaryLocator": "PDF p.1 overall results, bib 12"
+    },
+    {
+      "bib": 17,
+      "rank": 14,
+      "name": "神奈川大",
+      "time": "5:22:42",
+      "totalTimeSeconds": 19362,
+      "summaryLocator": "PDF p.1 overall results, bib 17"
+    },
+    {
+      "bib": 11,
+      "rank": 15,
+      "name": "東海大",
+      "time": "5:23:43",
+      "totalTimeSeconds": 19423,
+      "summaryLocator": "PDF p.1 overall results, bib 11"
+    },
+    {
+      "bib": 21,
+      "rank": 16,
+      "name": "京都産業大",
+      "time": "5:28:58",
+      "totalTimeSeconds": 19738,
+      "summaryLocator": "PDF p.1 overall results, bib 21"
+    },
+    {
+      "bib": 19,
+      "rank": 17,
+      "name": "皇學館大",
+      "time": "5:31:36",
+      "totalTimeSeconds": 19896,
+      "summaryLocator": "PDF p.1 overall results, bib 19"
+    },
+    {
+      "bib": 22,
+      "rank": 18,
+      "name": "大阪経済大",
+      "time": "5:32:53",
+      "totalTimeSeconds": 19973,
+      "summaryLocator": "PDF p.1 overall results, bib 22"
+    },
+    {
+      "bib": 20,
+      "rank": 19,
+      "name": "関西大",
+      "time": "5:33:52",
+      "totalTimeSeconds": 20032,
+      "summaryLocator": "PDF p.1 overall results, bib 20"
+    },
+    {
+      "bib": 9,
+      "rank": 20,
+      "name": "札幌学院大",
+      "time": "5:35:50",
+      "totalTimeSeconds": 20150,
+      "summaryLocator": "PDF p.1 overall results, bib 9"
+    },
+    {
+      "bib": 25,
+      "rank": 21,
+      "name": "鹿児島大",
+      "time": "5:37:24",
+      "totalTimeSeconds": 20244,
+      "summaryLocator": "PDF p.1 overall results, bib 25"
+    },
+    {
+      "bib": 23,
+      "rank": 22,
+      "name": "立命館大",
+      "time": "5:38:18",
+      "totalTimeSeconds": 20298,
+      "summaryLocator": "PDF p.1 overall results, bib 23"
+    },
+    {
+      "bib": 24,
+      "rank": 23,
+      "name": "岡山大",
+      "time": "5:40:11",
+      "totalTimeSeconds": 20411,
+      "summaryLocator": "PDF p.1 overall results, bib 24"
+    },
+    {
+      "bib": 18,
+      "rank": 24,
+      "name": "新潟大",
+      "time": "5:40:28",
+      "totalTimeSeconds": 20428,
+      "summaryLocator": "PDF p.1 overall results, bib 18"
+    },
+    {
+      "bib": 10,
+      "rank": 25,
+      "name": "東北大",
+      "time": "5:57:12",
+      "totalTimeSeconds": 21432,
+      "summaryLocator": "PDF p.1 overall results, bib 10"
+    },
+    {
+      "bib": 26,
+      "rank": null,
+      "name": "日本学連選抜",
+      "time": "5:21:31",
+      "totalTimeSeconds": 19291,
+      "summaryLocator": "PDF p.1 overall results, bib 26"
+    },
+    {
+      "bib": 27,
+      "rank": null,
+      "name": "東海学連選抜",
+      "time": "5:32:20",
+      "totalTimeSeconds": 19940,
+      "summaryLocator": "PDF p.1 overall results, bib 27"
+    }
+  ],
+  "selections": [
+    {
+      "bib": 26,
+      "team": "日本学連選抜",
+      "totalTimeSeconds": 19291,
+      "results": [
+        {
+          "section": 1,
+          "name": "山下 慶馬",
+          "time": "28:25",
+          "rank": 12,
+          "timeSeconds": 1705,
+          "summaryLocator": "PDF p.2 bib 26, section 1; lower section-time row",
+          "detailLocator": "PDF p.3, section ranking table, bib 26"
+        },
+        {
+          "section": 2,
+          "name": "片川 祐大",
+          "time": "32:25",
+          "rank": 9,
+          "timeSeconds": 1945,
+          "summaryLocator": "PDF p.2 bib 26, section 2; lower section-time row",
+          "detailLocator": "PDF p.4, section ranking table, bib 26"
+        },
+        {
+          "section": 3,
+          "name": "金子 佑太朗",
+          "time": "34:46",
+          "rank": 8,
+          "timeSeconds": 2086,
+          "summaryLocator": "PDF p.2 bib 26, section 3; lower section-time row",
+          "detailLocator": "PDF p.5, section ranking table, bib 26"
+        },
+        {
+          "section": 4,
+          "name": "中尾 心哉",
+          "time": "36:07",
+          "rank": 19,
+          "timeSeconds": 2167,
+          "summaryLocator": "PDF p.2 bib 26, section 4; lower section-time row",
+          "detailLocator": "PDF p.6, section ranking table, bib 26"
+        },
+        {
+          "section": 5,
+          "name": "中村 晃斗",
+          "time": "37:37",
+          "rank": 12,
+          "timeSeconds": 2257,
+          "summaryLocator": "PDF p.2 bib 26, section 5; lower section-time row",
+          "detailLocator": "PDF p.7, section ranking table, bib 26"
+        },
+        {
+          "section": 6,
+          "name": "山本 涼介",
+          "time": "38:31",
+          "rank": 12,
+          "timeSeconds": 2311,
+          "summaryLocator": "PDF p.2 bib 26, section 6; lower section-time row",
+          "detailLocator": "PDF p.8, section ranking table, bib 26"
+        },
+        {
+          "section": 7,
+          "name": "南部 悠陽",
+          "time": "53:56",
+          "rank": 17,
+          "timeSeconds": 3236,
+          "summaryLocator": "PDF p.2 bib 26, section 7; lower section-time row",
+          "detailLocator": "PDF p.9, section ranking table, bib 26"
+        },
+        {
+          "section": 8,
+          "name": "松林 直亮",
+          "time": "59:44",
+          "rank": 11,
+          "timeSeconds": 3584,
+          "summaryLocator": "PDF p.2 bib 26, section 8; lower section-time row",
+          "detailLocator": "PDF p.10, section ranking table, bib 26"
+        }
+      ]
+    },
+    {
+      "bib": 27,
+      "team": "東海学連選抜",
+      "totalTimeSeconds": 19940,
+      "results": [
+        {
+          "section": 1,
+          "name": "岩田 玄弥",
+          "time": "28:43",
+          "rank": 22,
+          "timeSeconds": 1723,
+          "summaryLocator": "PDF p.2 bib 27, section 1; lower section-time row",
+          "detailLocator": "PDF p.3, section ranking table, bib 27"
+        },
+        {
+          "section": 2,
+          "name": "中嶋 希",
+          "time": "33:40",
+          "rank": 18,
+          "timeSeconds": 2020,
+          "summaryLocator": "PDF p.2 bib 27, section 2; lower section-time row",
+          "detailLocator": "PDF p.4, section ranking table, bib 27"
+        },
+        {
+          "section": 3,
+          "name": "天野 佑哉",
+          "time": "36:45",
+          "rank": 21,
+          "timeSeconds": 2205,
+          "summaryLocator": "PDF p.2 bib 27, section 3; lower section-time row",
+          "detailLocator": "PDF p.5, section ranking table, bib 27"
+        },
+        {
+          "section": 4,
+          "name": "浅井 駿良",
+          "time": "37:06",
+          "rank": 23,
+          "timeSeconds": 2226,
+          "summaryLocator": "PDF p.2 bib 27, section 4; lower section-time row",
+          "detailLocator": "PDF p.6, section ranking table, bib 27"
+        },
+        {
+          "section": 5,
+          "name": "日比 健仁",
+          "time": "39:43",
+          "rank": 23,
+          "timeSeconds": 2383,
+          "summaryLocator": "PDF p.2 bib 27, section 5; lower section-time row",
+          "detailLocator": "PDF p.7, section ranking table, bib 27"
+        },
+        {
+          "section": 6,
+          "name": "河﨑 憲祐",
+          "time": "38:39",
+          "rank": 13,
+          "timeSeconds": 2319,
+          "summaryLocator": "PDF p.2 bib 27, section 6; lower section-time row",
+          "detailLocator": "PDF p.8, section ranking table, bib 27"
+        },
+        {
+          "section": 7,
+          "name": "田中 海吏",
+          "time": "56:22",
+          "rank": 26,
+          "timeSeconds": 3382,
+          "summaryLocator": "PDF p.2 bib 27, section 7; lower section-time row",
+          "detailLocator": "PDF p.9, section ranking table, bib 27"
+        },
+        {
+          "section": 8,
+          "name": "木山 敬士郎",
+          "time": "1:01:22",
+          "rank": 19,
+          "timeSeconds": 3682,
+          "summaryLocator": "PDF p.2 bib 27, section 8; lower section-time row",
+          "detailLocator": "PDF p.10, section ranking table, bib 27"
+        }
+      ]
+    }
+  ]
+}

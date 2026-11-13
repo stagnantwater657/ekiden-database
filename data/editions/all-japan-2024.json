@@ -11,7 +11,83 @@
     "officialName": "秩父宮賜杯第56回全日本大学駅伝対校選手権大会",
     "distanceKm": 106.8
   },
-  "sources": [],
+  "sources": [
+    {
+      "id": "iuau-aj2024-completion-results",
+      "title": "日本学生陸上競技連合 第56回全日本 補録・公式総時間／選抜区間成績",
+      "url": "https://www.iuau.jp/sp1/ev2024/56meki/56meki_result.pdf",
+      "collectedAt": "2026-11-13",
+      "locator": "PDF p.1 overall results; p.2 bibs26/27 and finish column; pp.3–10 section-ranking tables",
+      "coverage": "补齐2024两支选拔队16条区间成绩及27队官方总用时；现共27队216条，25队正式综合排名保持原样。",
+      "revision": "Footer 2024/11/5 19:45 (p.1), 19:47 (pp.2–6), 19:48 (pp.7–10); document output times, not a claimed revision announcement",
+      "usage": {
+        "policyUrl": "https://iuau.jp/taikaijoho2024.html",
+        "reviewedAt": "2026-11-13",
+        "basis": "Limited independent compilation of objective race facts. Reviewed IUAU 2024 event page, homepage and bulletin index; copyright notice retained, no explicit applicable factual-extraction restriction identified. No PDF, article prose, image or layout redistribution; not an open-license or permission claim.",
+        "permissionReference": null
+      }
+    },
+    {
+      "id": "iuau-aj2024-completion-roster",
+      "title": "日本学生陸上競技連合 第56回全日本 確定出場名簿（補録核査）",
+      "url": "https://iuau.jp/ev2024/56meki/startlist1103.pdf",
+      "collectedAt": "2026-11-13",
+      "locator": "PDF p.1, bibs26/27, section1–8 columns; excludes reserves",
+      "coverage": "16名选拔队实际出场选手、当届年级；不覆盖既有身份决策。",
+      "revision": "2024-11-03 06:30 definitive lineup",
+      "usage": {
+        "policyUrl": "https://iuau.jp/taikaijoho2024.html",
+        "reviewedAt": "2026-11-13",
+        "basis": "Limited independent compilation of objective race facts. Reviewed IUAU 2024 event page, homepage and bulletin index; copyright notice retained, no explicit applicable factual-extraction restriction identified. No PDF, article prose, image or layout redistribution; not an open-license or permission claim.",
+        "permissionReference": null
+      }
+    },
+    {
+      "id": "iuau-aj2024-completion-affiliations",
+      "title": "日本学生陸上競技連合 会報172・第56回全日本 選抜所属大学",
+      "url": "https://iuau.jp/kaiho/kaiho172.pdf",
+      "collectedAt": "2026-11-13",
+      "locator": "PDF p.11, 日本学連選抜 / 東海学連選抜 rows, section1–8",
+      "coverage": "16名选拔队成员原属大学与年级；区间用时、顺位与比赛结果PDF交叉核对。",
+      "revision": "Bulletin172 published2025-01-20; p.11 print footer2025/01/09 13:13",
+      "usage": {
+        "policyUrl": "https://iuau.jp/kaiho.html",
+        "reviewedAt": "2026-11-13",
+        "basis": "Limited independent compilation of objective race facts. Reviewed IUAU 2024 event page, homepage and bulletin index; copyright notice retained, no explicit applicable factual-extraction restriction identified. No PDF, article prose, image or layout redistribution; not an open-license or permission claim.",
+        "permissionReference": null
+      }
+    },
+    {
+      "id": "joqr-aj2023-identity-completion",
+      "title": "文化放送 第55回全日本 確定区間名簿（身份補証）",
+      "url": "https://www.joqr.co.jp/qr/article/103575/",
+      "collectedAt": "2026-11-13",
+      "locator": "東海学連選抜チーム, section5 天野佑哉",
+      "coverage": "仅核对天野佑哉2023岐阜协立大学3年身份，不导入本文、PB或改写2023成绩。",
+      "revision": "Final-lineup article dated2023-10-17, includes race-day changes; retrieved2026-11-13",
+      "usage": {
+        "policyUrl": "https://www.joqr.co.jp/qr/article/93105/",
+        "reviewedAt": "2026-11-13",
+        "basis": "Reviewed broadcaster result/entry pages, copyright footer and linked contact information. Limited factual identity corroboration only, no article prose, images, audio or layout reproduction. No explicit applicable automated factual-extraction restriction identified; no permission or open license inferred.",
+        "permissionReference": null
+      }
+    },
+    {
+      "id": "joqr-aj2025-identity-completion",
+      "title": "文化放送 第57回全日本 確定区間名簿（身份補証）",
+      "url": "https://www.joqr.co.jp/qr/article/161910/",
+      "collectedAt": "2026-11-13",
+      "locator": "日本学連選抜 section3 山本涼介 / section7 南部悠陽; 東海学連選抜 section3 岩田玄弥",
+      "coverage": "仅核对3名既有2025选拔队选手原属大学及年级，不改写旧成绩或旧身份决定。",
+      "revision": "Final-lineup article dated2025-10-21, includes race-day changes; retrieved2026-11-13",
+      "usage": {
+        "policyUrl": "https://www.joqr.co.jp/qr/article/93105/",
+        "reviewedAt": "2026-11-13",
+        "basis": "Reviewed broadcaster result/entry pages, copyright footer and linked contact information. Limited factual identity corroboration only, no article prose, images, audio or layout reproduction. No explicit applicable automated factual-extraction restriction identified; no permission or open license inferred.",
+        "permissionReference": null
+      }
+    }
+  ],
   "sections": [
     {
       "id": "aj24-s1",
@@ -79,8 +155,8 @@
       "finalRank": 1,
       "finalRankSourceId": "official-2024-final-ranks",
       "teamId": "team-kokugakuin",
-      "totalTimeSeconds": null,
-      "totalTimeSourceId": null,
+      "totalTimeSeconds": 18596,
+      "totalTimeSourceId": "iuau-aj2024-completion-results",
       "status": "finished"
     },
     {
@@ -91,8 +167,8 @@
       "finalRank": 2,
       "finalRankSourceId": "official-2024-final-ranks",
       "teamId": "team-komazawa",
-      "totalTimeSeconds": null,
-      "totalTimeSourceId": null,
+      "totalTimeSeconds": 18624,
+      "totalTimeSourceId": "iuau-aj2024-completion-results",
       "status": "finished"
     },
     {
@@ -103,8 +179,8 @@
       "finalRank": 3,
       "finalRankSourceId": "official-2024-final-ranks",
       "teamId": "team-aoyama-gakuin",
-      "totalTimeSeconds": null,
-      "totalTimeSourceId": null,
+      "totalTimeSeconds": 18641,
+      "totalTimeSourceId": "iuau-aj2024-completion-results",
       "status": "finished"
     },
     {
@@ -115,8 +191,8 @@
       "finalRank": 4,
       "finalRankSourceId": "official-2024-final-ranks",
       "teamId": "team-soka",
-      "totalTimeSeconds": null,
-      "totalTimeSourceId": null,
+      "totalTimeSeconds": 18797,
+      "totalTimeSourceId": "iuau-aj2024-completion-results",
       "status": "finished"
     },
     {
@@ -127,8 +203,8 @@
       "finalRank": 5,
       "finalRankSourceId": "official-2024-final-ranks",
       "teamId": "team-waseda",
-      "totalTimeSeconds": null,
-      "totalTimeSourceId": null,
+      "totalTimeSeconds": 18864,
+      "totalTimeSourceId": "iuau-aj2024-completion-results",
       "status": "finished"
     },
     {
@@ -139,8 +215,8 @@
       "finalRank": 6,
       "finalRankSourceId": "official-2024-final-ranks",
       "teamId": "team-josai",
-      "totalTimeSeconds": null,
-      "totalTimeSourceId": null,
+      "totalTimeSeconds": 18897,
+      "totalTimeSourceId": "iuau-aj2024-completion-results",
       "status": "finished"
     },
     {
@@ -151,8 +227,8 @@
       "finalRank": 7,
       "finalRankSourceId": "official-2024-final-ranks",
       "teamId": "team-rikkyo",
-      "totalTimeSeconds": null,
-      "totalTimeSourceId": null,
+      "totalTimeSeconds": 18981,
+      "totalTimeSourceId": "iuau-aj2024-completion-results",
       "status": "finished"
     },
     {
@@ -163,8 +239,8 @@
       "finalRank": 8,
       "finalRankSourceId": "official-2024-final-ranks",
       "teamId": "team-teikyo",
-      "totalTimeSeconds": null,
-      "totalTimeSourceId": null,
+      "totalTimeSeconds": 18984,
+      "totalTimeSourceId": "iuau-aj2024-completion-results",
       "status": "finished"
     },
     {
@@ -175,8 +251,8 @@
       "finalRank": 9,
       "finalRankSourceId": "official-2024-final-ranks",
       "teamId": "team-tokyo-international",
-      "totalTimeSeconds": null,
-      "totalTimeSourceId": null,
+      "totalTimeSeconds": 19066,
+      "totalTimeSourceId": "iuau-aj2024-completion-results",
       "status": "finished"
     },
     {
@@ -187,8 +263,8 @@
       "finalRank": 10,
       "finalRankSourceId": "official-2024-final-ranks",
       "teamId": "team-nippon-sport-science",
-      "totalTimeSeconds": null,
-      "totalTimeSourceId": null,
+      "totalTimeSeconds": 19072,
+      "totalTimeSourceId": "iuau-aj2024-completion-results",
       "status": "finished"
     },
     {
@@ -199,8 +275,8 @@
       "finalRank": 11,
       "finalRankSourceId": "official-2024-final-ranks",
       "teamId": "team-daito-bunka",
-      "totalTimeSeconds": null,
-      "totalTimeSourceId": null,
+      "totalTimeSeconds": 19088,
+      "totalTimeSourceId": "iuau-aj2024-completion-results",
       "status": "finished"
     },
     {
@@ -211,8 +287,8 @@
       "finalRank": 12,
       "finalRankSourceId": "official-2024-final-ranks",
       "teamId": "team-chuo",
-      "totalTimeSeconds": null,
-      "totalTimeSourceId": null,
+      "totalTimeSeconds": 19189,
+      "totalTimeSourceId": "iuau-aj2024-completion-results",
       "status": "finished"
     },
     {
@@ -223,8 +299,8 @@
       "finalRank": 13,
       "finalRankSourceId": "official-2024-final-ranks",
       "teamId": "team-toyo",
-      "totalTimeSeconds": null,
-      "totalTimeSourceId": null,
+      "totalTimeSeconds": 19208,
+      "totalTimeSourceId": "iuau-aj2024-completion-results",
       "status": "finished"
     },
     {
@@ -235,8 +311,8 @@
       "finalRank": 14,
       "finalRankSourceId": "official-2024-final-ranks",
       "teamId": "team-kanagawa",
-      "totalTimeSeconds": null,
-      "totalTimeSourceId": null,
+      "totalTimeSeconds": 19362,
+      "totalTimeSourceId": "iuau-aj2024-completion-results",
       "status": "finished"
     },
     {
@@ -247,8 +323,8 @@
       "finalRank": 15,
       "finalRankSourceId": "official-2024-final-ranks",
       "teamId": "team-tokai",
-      "totalTimeSeconds": null,
-      "totalTimeSourceId": null,
+      "totalTimeSeconds": 19423,
+      "totalTimeSourceId": "iuau-aj2024-completion-results",
       "status": "finished"
     },
     {
@@ -259,8 +335,8 @@
       "finalRank": 16,
       "finalRankSourceId": "official-2024-final-ranks",
       "teamId": "team-kyoto-sangyo",
-      "totalTimeSeconds": null,
-      "totalTimeSourceId": null,
+      "totalTimeSeconds": 19738,
+      "totalTimeSourceId": "iuau-aj2024-completion-results",
       "status": "finished"
     },
     {
@@ -271,8 +347,8 @@
       "finalRank": 17,
       "finalRankSourceId": "official-2024-final-ranks",
       "teamId": "team-kogakkan",
-      "totalTimeSeconds": null,
-      "totalTimeSourceId": null,
+      "totalTimeSeconds": 19896,
+      "totalTimeSourceId": "iuau-aj2024-completion-results",
       "status": "finished"
     },
     {
@@ -283,8 +359,8 @@
       "finalRank": 18,
       "finalRankSourceId": "official-2024-final-ranks",
       "teamId": "team-osaka-keizai",
-      "totalTimeSeconds": null,
-      "totalTimeSourceId": null,
+      "totalTimeSeconds": 19973,
+      "totalTimeSourceId": "iuau-aj2024-completion-results",
       "status": "finished"
     },
     {
@@ -295,8 +371,8 @@
       "finalRank": 19,
       "finalRankSourceId": "official-2024-final-ranks",
       "teamId": "team-kansai",
-      "totalTimeSeconds": null,
-      "totalTimeSourceId": null,
+      "totalTimeSeconds": 20032,
+      "totalTimeSourceId": "iuau-aj2024-completion-results",
       "status": "finished"
     },
     {
@@ -307,8 +383,8 @@
       "finalRank": 20,
       "finalRankSourceId": "official-2024-final-ranks",
       "teamId": "team-sapporo-gakuin",
-      "totalTimeSeconds": null,
-      "totalTimeSourceId": null,
+      "totalTimeSeconds": 20150,
+      "totalTimeSourceId": "iuau-aj2024-completion-results",
       "status": "finished"
     },
     {
@@ -319,8 +395,8 @@
       "finalRank": 21,
       "finalRankSourceId": "official-2024-final-ranks",
       "teamId": "team-kagoshima",
-      "totalTimeSeconds": null,
-      "totalTimeSourceId": null,
+      "totalTimeSeconds": 20244,
+      "totalTimeSourceId": "iuau-aj2024-completion-results",
       "status": "finished"
     },
     {
@@ -331,8 +407,8 @@
       "finalRank": 22,
       "finalRankSourceId": "official-2024-final-ranks",
       "teamId": "team-ritsumeikan",
-      "totalTimeSeconds": null,
-      "totalTimeSourceId": null,
+      "totalTimeSeconds": 20298,
+      "totalTimeSourceId": "iuau-aj2024-completion-results",
       "status": "finished"
     },
     {
@@ -343,8 +419,8 @@
       "finalRank": 23,
       "finalRankSourceId": "official-2024-final-ranks",
       "teamId": "team-okayama",
-      "totalTimeSeconds": null,
-      "totalTimeSourceId": null,
+      "totalTimeSeconds": 20411,
+      "totalTimeSourceId": "iuau-aj2024-completion-results",
       "status": "finished"
     },
     {
@@ -355,8 +431,8 @@
       "finalRank": 24,
       "finalRankSourceId": "official-2024-final-ranks",
       "teamId": "team-niigata",
-      "totalTimeSeconds": null,
-      "totalTimeSourceId": null,
+      "totalTimeSeconds": 20428,
+      "totalTimeSourceId": "iuau-aj2024-completion-results",
       "status": "finished"
     },
     {
@@ -367,9 +443,35 @@
       "finalRank": 25,
       "finalRankSourceId": "official-2024-final-ranks",
       "teamId": "team-tohoku",
-      "totalTimeSeconds": null,
-      "totalTimeSourceId": null,
+      "totalTimeSeconds": 21432,
+      "totalTimeSourceId": "iuau-aj2024-completion-results",
       "status": "finished"
+    },
+    {
+      "id": "aj24-japan-selection",
+      "editionId": "all-japan-2024",
+      "teamId": "team-japan-selection",
+      "universityId": null,
+      "finalRank": null,
+      "finalRankSourceId": null,
+      "totalTimeSeconds": 19291,
+      "totalTimeSourceId": "iuau-aj2024-completion-results",
+      "status": "reference",
+      "rankingEligibility": "reference",
+      "sourceId": "iuau-aj2024-completion-results"
+    },
+    {
+      "id": "aj24-tokai-selection",
+      "editionId": "all-japan-2024",
+      "teamId": "team-tokai-selection",
+      "universityId": null,
+      "finalRank": null,
+      "finalRankSourceId": null,
+      "totalTimeSeconds": 19940,
+      "totalTimeSourceId": "iuau-aj2024-completion-results",
+      "status": "reference",
+      "rankingEligibility": "reference",
+      "sourceId": "iuau-aj2024-completion-results"
     }
   ],
   "results": [
@@ -2172,6 +2274,230 @@
       "timeSeconds": 3807,
       "rank": 21,
       "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-japan-selection-s1",
+      "entryId": "aj24-japan-selection",
+      "sectionId": "aj24-s1",
+      "athleteId": "athlete-aj25-23-1",
+      "timeSeconds": 1705,
+      "rank": 12,
+      "status": "reference",
+      "grade": "2",
+      "representingUniversityId": "kwansei-gakuin",
+      "participationSourceId": "iuau-aj2024-completion-affiliations",
+      "sourceId": "iuau-aj2024-completion-results",
+      "locator": "PDF p.2 bib 26, section 1; lower section-time row; PDF p.3, section ranking table, bib 26; affiliation/grade: kaiho172 p.11, same section; final roster p.1 bib26"
+    },
+    {
+      "id": "aj24-japan-selection-s2",
+      "entryId": "aj24-japan-selection",
+      "sectionId": "aj24-s2",
+      "athleteId": "athlete-hk25-21-1",
+      "timeSeconds": 1945,
+      "rank": 9,
+      "status": "reference",
+      "grade": "4",
+      "representingUniversityId": "university-a3923202960f",
+      "participationSourceId": "iuau-aj2024-completion-affiliations",
+      "sourceId": "iuau-aj2024-completion-results",
+      "locator": "PDF p.2 bib 26, section 2; lower section-time row; PDF p.4, section ranking table, bib 26; affiliation/grade: kaiho172 p.11, same section; final roster p.1 bib26"
+    },
+    {
+      "id": "aj24-japan-selection-s3",
+      "entryId": "aj24-japan-selection",
+      "sectionId": "aj24-s3",
+      "athleteId": "athlete-aj24-26-3",
+      "timeSeconds": 2086,
+      "rank": 8,
+      "status": "reference",
+      "grade": "4",
+      "representingUniversityId": "university-5fce171fb5bb",
+      "participationSourceId": "iuau-aj2024-completion-affiliations",
+      "sourceId": "iuau-aj2024-completion-results",
+      "locator": "PDF p.2 bib 26, section 3; lower section-time row; PDF p.5, section ranking table, bib 26; affiliation/grade: kaiho172 p.11, same section; final roster p.1 bib26"
+    },
+    {
+      "id": "aj24-japan-selection-s4",
+      "entryId": "aj24-japan-selection",
+      "sectionId": "aj24-s4",
+      "athleteId": "athlete-aj23-23-7",
+      "timeSeconds": 2167,
+      "rank": 19,
+      "status": "reference",
+      "grade": "4",
+      "representingUniversityId": "kwansei-gakuin",
+      "participationSourceId": "iuau-aj2024-completion-affiliations",
+      "sourceId": "iuau-aj2024-completion-results",
+      "locator": "PDF p.2 bib 26, section 4; lower section-time row; PDF p.6, section ranking table, bib 26; affiliation/grade: kaiho172 p.11, same section; final roster p.1 bib26"
+    },
+    {
+      "id": "aj24-japan-selection-s5",
+      "entryId": "aj24-japan-selection",
+      "sectionId": "aj24-s5",
+      "athleteId": "athlete-aj25-25-1",
+      "timeSeconds": 2257,
+      "rank": 12,
+      "status": "reference",
+      "grade": "2",
+      "representingUniversityId": "shigakukan",
+      "participationSourceId": "iuau-aj2024-completion-affiliations",
+      "sourceId": "iuau-aj2024-completion-results",
+      "locator": "PDF p.2 bib 26, section 5; lower section-time row; PDF p.7, section ranking table, bib 26; affiliation/grade: kaiho172 p.11, same section; final roster p.1 bib26"
+    },
+    {
+      "id": "aj24-japan-selection-s6",
+      "entryId": "aj24-japan-selection",
+      "sectionId": "aj24-s6",
+      "athleteId": "athlete-aj25-26-3",
+      "timeSeconds": 2311,
+      "rank": 12,
+      "status": "reference",
+      "grade": "3",
+      "representingUniversityId": "university-a26b3cd4582e",
+      "participationSourceId": "iuau-aj2024-completion-affiliations",
+      "sourceId": "iuau-aj2024-completion-results",
+      "locator": "PDF p.2 bib 26, section 6; lower section-time row; PDF p.8, section ranking table, bib 26; affiliation/grade: kaiho172 p.11, same section; final roster p.1 bib26"
+    },
+    {
+      "id": "aj24-japan-selection-s7",
+      "entryId": "aj24-japan-selection",
+      "sectionId": "aj24-s7",
+      "athleteId": "athlete-aj25-26-7",
+      "timeSeconds": 3236,
+      "rank": 17,
+      "status": "reference",
+      "grade": "2",
+      "representingUniversityId": "doshisha",
+      "participationSourceId": "iuau-aj2024-completion-affiliations",
+      "sourceId": "iuau-aj2024-completion-results",
+      "locator": "PDF p.2 bib 26, section 7; lower section-time row; PDF p.9, section ranking table, bib 26; affiliation/grade: kaiho172 p.11, same section; final roster p.1 bib26"
+    },
+    {
+      "id": "aj24-japan-selection-s8",
+      "entryId": "aj24-japan-selection",
+      "sectionId": "aj24-s8",
+      "athleteId": "athlete-aj25-18-8",
+      "timeSeconds": 3584,
+      "rank": 11,
+      "status": "reference",
+      "grade": "M1",
+      "representingUniversityId": "shinshu",
+      "participationSourceId": "iuau-aj2024-completion-affiliations",
+      "sourceId": "iuau-aj2024-completion-results",
+      "locator": "PDF p.2 bib 26, section 8; lower section-time row; PDF p.10, section ranking table, bib 26; affiliation/grade: kaiho172 p.11, same section; final roster p.1 bib26"
+    },
+    {
+      "id": "aj24-tokai-selection-s1",
+      "entryId": "aj24-tokai-selection",
+      "sectionId": "aj24-s1",
+      "athleteId": "athlete-aj25-27-3",
+      "timeSeconds": 1723,
+      "rank": 22,
+      "status": "reference",
+      "grade": "2",
+      "representingUniversityId": "university-96e731540e16",
+      "participationSourceId": "iuau-aj2024-completion-affiliations",
+      "sourceId": "iuau-aj2024-completion-results",
+      "locator": "PDF p.2 bib 27, section 1; lower section-time row; PDF p.3, section ranking table, bib 27; affiliation/grade: kaiho172 p.11, same section; final roster p.1 bib27"
+    },
+    {
+      "id": "aj24-tokai-selection-s2",
+      "entryId": "aj24-tokai-selection",
+      "sectionId": "aj24-s2",
+      "athleteId": "athlete-aj25-20-8",
+      "timeSeconds": 2020,
+      "rank": 18,
+      "status": "reference",
+      "grade": "2",
+      "representingUniversityId": "gifu-kyoritsu",
+      "participationSourceId": "iuau-aj2024-completion-affiliations",
+      "sourceId": "iuau-aj2024-completion-results",
+      "locator": "PDF p.2 bib 27, section 2; lower section-time row; PDF p.4, section ranking table, bib 27; affiliation/grade: kaiho172 p.11, same section; final roster p.1 bib27"
+    },
+    {
+      "id": "aj24-tokai-selection-s3",
+      "entryId": "aj24-tokai-selection",
+      "sectionId": "aj24-s3",
+      "athleteId": "athlete-aj23-27-5",
+      "timeSeconds": 2205,
+      "rank": 21,
+      "status": "reference",
+      "grade": "4",
+      "representingUniversityId": "gifu-kyoritsu",
+      "participationSourceId": "iuau-aj2024-completion-affiliations",
+      "sourceId": "iuau-aj2024-completion-results",
+      "locator": "PDF p.2 bib 27, section 3; lower section-time row; PDF p.5, section ranking table, bib 27; affiliation/grade: kaiho172 p.11, same section; final roster p.1 bib27"
+    },
+    {
+      "id": "aj24-tokai-selection-s4",
+      "entryId": "aj24-tokai-selection",
+      "sectionId": "aj24-s4",
+      "athleteId": "athlete-aj24-27-4",
+      "timeSeconds": 2226,
+      "rank": 23,
+      "status": "reference",
+      "grade": "4",
+      "representingUniversityId": "chubu",
+      "participationSourceId": "iuau-aj2024-completion-affiliations",
+      "sourceId": "iuau-aj2024-completion-results",
+      "locator": "PDF p.2 bib 27, section 4; lower section-time row; PDF p.6, section ranking table, bib 27; affiliation/grade: kaiho172 p.11, same section; final roster p.1 bib27"
+    },
+    {
+      "id": "aj24-tokai-selection-s5",
+      "entryId": "aj24-tokai-selection",
+      "sectionId": "aj24-s5",
+      "athleteId": "athlete-aj25-20-2",
+      "timeSeconds": 2383,
+      "rank": 23,
+      "status": "reference",
+      "grade": "2",
+      "representingUniversityId": "gifu-kyoritsu",
+      "participationSourceId": "iuau-aj2024-completion-affiliations",
+      "sourceId": "iuau-aj2024-completion-results",
+      "locator": "PDF p.2 bib 27, section 5; lower section-time row; PDF p.7, section ranking table, bib 27; affiliation/grade: kaiho172 p.11, same section; final roster p.1 bib27"
+    },
+    {
+      "id": "aj24-tokai-selection-s6",
+      "entryId": "aj24-tokai-selection",
+      "sectionId": "aj24-s6",
+      "athleteId": "athlete-aj25-19-8",
+      "timeSeconds": 2319,
+      "rank": 13,
+      "status": "reference",
+      "grade": "M1",
+      "representingUniversityId": "nagoya",
+      "participationSourceId": "iuau-aj2024-completion-affiliations",
+      "sourceId": "iuau-aj2024-completion-results",
+      "locator": "PDF p.2 bib 27, section 6; lower section-time row; PDF p.8, section ranking table, bib 27; affiliation/grade: kaiho172 p.11, same section; final roster p.1 bib27"
+    },
+    {
+      "id": "aj24-tokai-selection-s7",
+      "entryId": "aj24-tokai-selection",
+      "sectionId": "aj24-s7",
+      "athleteId": "athlete-aj24-27-7",
+      "timeSeconds": 3382,
+      "rank": 26,
+      "status": "reference",
+      "grade": "4",
+      "representingUniversityId": "chukyo",
+      "participationSourceId": "iuau-aj2024-completion-affiliations",
+      "sourceId": "iuau-aj2024-completion-results",
+      "locator": "PDF p.2 bib 27, section 7; lower section-time row; PDF p.9, section ranking table, bib 27; affiliation/grade: kaiho172 p.11, same section; final roster p.1 bib27"
+    },
+    {
+      "id": "aj24-tokai-selection-s8",
+      "entryId": "aj24-tokai-selection",
+      "sectionId": "aj24-s8",
+      "athleteId": "athlete-aj24-27-8",
+      "timeSeconds": 3682,
+      "rank": 19,
+      "status": "reference",
+      "grade": "3",
+      "representingUniversityId": "chukyo",
+      "participationSourceId": "iuau-aj2024-completion-affiliations",
+      "sourceId": "iuau-aj2024-completion-results",
+      "locator": "PDF p.2 bib 27, section 8; lower section-time row; PDF p.10, section ranking table, bib 27; affiliation/grade: kaiho172 p.11, same section; final roster p.1 bib27"
     }
   ],
   "identities": [
@@ -4374,6 +4700,245 @@
         "official-2024"
       ],
       "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-japan-selection-s1",
+      "athleteId": "athlete-aj25-23-1",
+      "observedName": "山下 慶馬",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-23-1"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj2024-completion-affiliations",
+        "iuau-aj2024-completion-roster",
+        "iuau-aj23-roster"
+      ],
+      "reason": "2023最终名单关西学院1年与2024会报关西学院2年，完整姓名一致；2025/2026已关联同ID。"
+    },
+    {
+      "recordId": "aj24-japan-selection-s2",
+      "athleteId": "athlete-hk25-21-1",
+      "observedName": "片川 祐大",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-hk25-21-1"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj2024-completion-affiliations",
+        "iuau-aj2024-completion-roster",
+        "ntv-hk25-21"
+      ],
+      "reason": "2024全日本与2025箱根同属2024赛季；IUAU会报与日本电视101回实际1区卡均为亜細亜大学4年、片川祐大。"
+    },
+    {
+      "recordId": "aj24-japan-selection-s3",
+      "athleteId": "athlete-aj24-26-3",
+      "observedName": "金子 佑太朗",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj2024-completion-affiliations",
+        "iuau-aj2024-completion-roster"
+      ],
+      "reason": "完整姓名、筑波大学4年由官方会报及最终名单确认；其他十届无姓名/别名候选，新增稳定身份。"
+    },
+    {
+      "recordId": "aj24-japan-selection-s4",
+      "athleteId": "athlete-aj23-23-7",
+      "observedName": "中尾 心哉",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj23-23-7"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj2024-completion-affiliations",
+        "iuau-aj2024-completion-roster",
+        "iuau-aj23-roster"
+      ],
+      "reason": "2023最终名单关西学院3年与2024会报关西学院4年，中尾心哉完整姓名一致。"
+    },
+    {
+      "recordId": "aj24-japan-selection-s5",
+      "athleteId": "athlete-aj25-25-1",
+      "observedName": "中村 晃斗",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-25-1"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj2024-completion-affiliations",
+        "iuau-aj2024-completion-roster",
+        "iuau-iz25-roster"
+      ],
+      "reason": "2024会报志學館2年与已核验2025出云最终名单志學館3年一致；采用官方中村晃斗，不采用文化放送其他栏晃人误写。"
+    },
+    {
+      "recordId": "aj24-japan-selection-s6",
+      "athleteId": "athlete-aj25-26-3",
+      "observedName": "山本 涼介",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-26-3",
+        "athlete-iz25-19-1"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj2024-completion-affiliations",
+        "iuau-aj2024-completion-roster",
+        "joqr-aj2025-identity-completion"
+      ],
+      "reason": "2024会报环境太平洋3年与2025文化放送最终名单日本学连3区环境太平洋4年一致；复用原2025全日本ID，其他出云候选及旧needs-review决定不修改。"
+    },
+    {
+      "recordId": "aj24-japan-selection-s7",
+      "athleteId": "athlete-aj25-26-7",
+      "observedName": "南部 悠陽",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-26-7",
+        "athlete-aj26-26-2"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj2024-completion-affiliations",
+        "iuau-aj2024-completion-roster",
+        "joqr-aj2025-identity-completion"
+      ],
+      "reason": "2024会报同志社2年与2025文化放送最终名单日本学连7区同志社3年一致；原2026独立候选及旧needs-review决定不修改。"
+    },
+    {
+      "recordId": "aj24-japan-selection-s8",
+      "athleteId": "athlete-aj25-18-8",
+      "observedName": "松林 直亮",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj23-26-8",
+        "athlete-aj25-18-8",
+        "athlete-iz23-13-3",
+        "athlete-iz24-13-3",
+        "athlete-iz25-14-3"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj2024-completion-affiliations",
+        "iuau-aj2024-completion-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "2024会报信州M1与已核验2025全日本最终名单信州M2一致，完整姓名松林直亮；既有其他4个候选保持独立及原审核状态。"
+    },
+    {
+      "recordId": "aj24-tokai-selection-s1",
+      "athleteId": "athlete-aj25-27-3",
+      "observedName": "岩田 玄弥",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-27-3",
+        "athlete-aj26-19-2"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj2024-completion-affiliations",
+        "iuau-aj2024-completion-roster",
+        "joqr-aj2025-identity-completion"
+      ],
+      "reason": "2024会报爱知工业2年与2025文化放送最终名单东海学连3区爱知工业3年一致；既有2026独立候选与决定不修改。"
+    },
+    {
+      "recordId": "aj24-tokai-selection-s2",
+      "athleteId": "athlete-aj25-20-8",
+      "observedName": "中嶋 希",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj23-27-2",
+        "athlete-aj25-20-8",
+        "athlete-aj26-27-7"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj2024-completion-affiliations",
+        "iuau-aj2024-completion-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "2024会报岐阜协立2年与已核验2025全日本最终名单该校3年一致；既有2023/2026独立候选与审核决定不修改。"
+    },
+    {
+      "recordId": "aj24-tokai-selection-s3",
+      "athleteId": "athlete-aj23-27-5",
+      "observedName": "天野 佑哉",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj23-27-5"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj2024-completion-affiliations",
+        "iuau-aj2024-completion-roster",
+        "joqr-aj2023-identity-completion"
+      ],
+      "reason": "2023文化放送最终名单及IUAU名单为天野佑哉、岐阜协立3年；2024官方会报同校4年，完整姓名一致。"
+    },
+    {
+      "recordId": "aj24-tokai-selection-s4",
+      "athleteId": "athlete-aj24-27-4",
+      "observedName": "浅井 駿良",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj2024-completion-affiliations",
+        "iuau-aj2024-completion-roster"
+      ],
+      "reason": "完整姓名、中部大学4年由官方会报及最终名单确认；其他十届无姓名/别名候选，新增稳定身份。"
+    },
+    {
+      "recordId": "aj24-tokai-selection-s5",
+      "athleteId": "athlete-aj25-20-2",
+      "observedName": "日比 健仁",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-20-2"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj2024-completion-affiliations",
+        "iuau-aj2024-completion-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "2024会报岐阜协立2年与已核验2025全日本最终名单该校3年一致，完整姓名日比健仁。"
+    },
+    {
+      "recordId": "aj24-tokai-selection-s6",
+      "athleteId": "athlete-aj25-19-8",
+      "observedName": "河﨑 憲祐",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj23-19-2",
+        "athlete-aj25-19-8",
+        "athlete-iz24-14-1"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj2024-completion-affiliations",
+        "iuau-aj2024-completion-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "2024会报名古屋M1与已核验2025全日本最终名单该校M2一致，河﨑憲祐字形一致；其他既有候选及原审核决定保留。"
+    },
+    {
+      "recordId": "aj24-tokai-selection-s7",
+      "athleteId": "athlete-aj24-27-7",
+      "observedName": "田中 海吏",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj2024-completion-affiliations",
+        "iuau-aj2024-completion-roster"
+      ],
+      "reason": "完整姓名、中京大学4年由官方会报及最终名单确认；其他十届无姓名/别名候选，新增稳定身份。"
+    },
+    {
+      "recordId": "aj24-tokai-selection-s8",
+      "athleteId": "athlete-aj24-27-8",
+      "observedName": "木山 敬士郎",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj2024-completion-affiliations",
+        "iuau-aj2024-completion-roster"
+      ],
+      "reason": "完整姓名、中京大学3年由官方会报及最终名单确认；其他十届无姓名/别名候选，新增稳定身份。"
     }
   ]
 }

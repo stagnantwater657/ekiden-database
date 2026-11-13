@@ -13,7 +13,7 @@
         "team-tokai-selection",
         "team-tohoku-gakuin"
       ],
-      "crossEditionAthletes": 152,
+      "crossEditionAthletes": 154,
       "reusedFromEarlierEditions": 65,
       "resultsSha256": "3f2c42d1936a6856834878d97bc299e8478e5f0783dd29ac9471f6adf376435b",
       "review": [
@@ -234,43 +234,20 @@
     },
     {
       "editionId": "all-japan-2024",
-      "teams": 25,
+      "teams": 27,
       "universityTeams": 25,
-      "starts": 200,
-      "athletes": 200,
+      "starts": 216,
+      "athletes": 216,
       "officialFinalRanks": 25,
-      "unrankedTeams": [],
-      "crossEditionAthletes": 171,
-      "reusedFromEarlierEditions": 137,
-      "resultsSha256": "3ffb35885a6bbba18c5ce5577b99bda5bb70ef2bfb92ce29e8b88300f657ca92",
+      "unrankedTeams": [
+        "team-japan-selection",
+        "team-tokai-selection"
+      ],
+      "crossEditionAthletes": 183,
+      "reusedFromEarlierEditions": 140,
+      "resultsSha256": "2aaf91d9e220fccc862b75a99f3286c324a6fb8c931caf7643fe79c4ef26ed84",
       "review": [],
-      "missingTeamTotals": [
-        "aj24-kokugakuin",
-        "aj24-komazawa",
-        "aj24-aoyama-gakuin",
-        "aj24-soka",
-        "aj24-waseda",
-        "aj24-josai",
-        "aj24-rikkyo",
-        "aj24-teikyo",
-        "aj24-tokyo-international",
-        "aj24-nippon-sport-science",
-        "aj24-daito-bunka",
-        "aj24-chuo",
-        "aj24-toyo",
-        "aj24-kanagawa",
-        "aj24-tokai",
-        "aj24-kyoto-sangyo",
-        "aj24-kogakkan",
-        "aj24-osaka-keizai",
-        "aj24-kansai",
-        "aj24-sapporo-gakuin",
-        "aj24-kagoshima",
-        "aj24-ritsumeikan",
-        "aj24-okayama",
-        "aj24-niigata",
-        "aj24-tohoku"
-      ]
+      "missingTeamTotals": []
     },
     {
       "editionId": "all-japan-2025",
@@ -283,8 +260,8 @@
         "team-japan-selection",
         "team-tokai-selection"
       ],
-      "crossEditionAthletes": 167,
-      "reusedFromEarlierEditions": 130,
+      "crossEditionAthletes": 174,
+      "reusedFromEarlierEditions": 137,
       "resultsSha256": "548d35ecbbe42017d16dc973b62498ffc67d6e8d799f1a3020e049eb061e3c83",
       "review": [
         {
@@ -771,8 +748,8 @@
       "unrankedTeams": [
         "team-kanto-selection"
       ],
-      "crossEditionAthletes": 169,
-      "reusedFromEarlierEditions": 143,
+      "crossEditionAthletes": 170,
+      "reusedFromEarlierEditions": 144,
       "resultsSha256": "e1df980a9e7cc5befd13a96a16620d1ff7675744a1f5e58e69608b6290b62dc4",
       "review": [
         {
@@ -1355,7 +1332,7 @@
         "team-c40dbde785ee"
       ],
       "crossEditionAthletes": 92,
-      "reusedFromEarlierEditions": 60,
+      "reusedFromEarlierEditions": 61,
       "resultsSha256": "a0dae7bd0e1a753a363dc60c567d19fa8dbbfbfac2c9a76578694415f1c06842",
       "review": [
         {

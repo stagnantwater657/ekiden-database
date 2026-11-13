@@ -15166,5 +15166,133 @@
     "season": 2026,
     "grade": "D2",
     "sourceId": "iuau-iz26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-23-1",
+    "name": "山下 慶馬",
+    "universityId": "kwansei-gakuin",
+    "season": 2024,
+    "grade": "2",
+    "sourceId": "iuau-aj2024-completion-affiliations"
+  },
+  {
+    "athleteId": "athlete-hk25-21-1",
+    "name": "片川 祐大",
+    "universityId": "university-a3923202960f",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-aj2024-completion-affiliations"
+  },
+  {
+    "athleteId": "athlete-aj24-26-3",
+    "name": "金子 佑太朗",
+    "universityId": "university-5fce171fb5bb",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-aj2024-completion-affiliations"
+  },
+  {
+    "athleteId": "athlete-aj23-23-7",
+    "name": "中尾 心哉",
+    "universityId": "kwansei-gakuin",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-aj2024-completion-affiliations"
+  },
+  {
+    "athleteId": "athlete-aj25-25-1",
+    "name": "中村 晃斗",
+    "universityId": "shigakukan",
+    "season": 2024,
+    "grade": "2",
+    "sourceId": "iuau-aj2024-completion-affiliations"
+  },
+  {
+    "athleteId": "athlete-aj25-26-3",
+    "name": "山本 涼介",
+    "universityId": "university-a26b3cd4582e",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-aj2024-completion-affiliations"
+  },
+  {
+    "athleteId": "athlete-aj25-26-7",
+    "name": "南部 悠陽",
+    "universityId": "doshisha",
+    "season": 2024,
+    "grade": "2",
+    "sourceId": "iuau-aj2024-completion-affiliations"
+  },
+  {
+    "athleteId": "athlete-aj25-18-8",
+    "name": "松林 直亮",
+    "universityId": "shinshu",
+    "season": 2024,
+    "grade": "M1",
+    "sourceId": "iuau-aj2024-completion-affiliations"
+  },
+  {
+    "athleteId": "athlete-aj25-27-3",
+    "name": "岩田 玄弥",
+    "universityId": "university-96e731540e16",
+    "season": 2024,
+    "grade": "2",
+    "sourceId": "iuau-aj2024-completion-affiliations"
+  },
+  {
+    "athleteId": "athlete-aj25-20-8",
+    "name": "中嶋 希",
+    "universityId": "gifu-kyoritsu",
+    "season": 2024,
+    "grade": "2",
+    "sourceId": "iuau-aj2024-completion-affiliations"
+  },
+  {
+    "athleteId": "athlete-aj23-27-5",
+    "name": "天野 佑哉",
+    "universityId": "gifu-kyoritsu",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-aj2024-completion-affiliations"
+  },
+  {
+    "athleteId": "athlete-aj24-27-4",
+    "name": "浅井 駿良",
+    "universityId": "chubu",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-aj2024-completion-affiliations"
+  },
+  {
+    "athleteId": "athlete-aj25-20-2",
+    "name": "日比 健仁",
+    "universityId": "gifu-kyoritsu",
+    "season": 2024,
+    "grade": "2",
+    "sourceId": "iuau-aj2024-completion-affiliations"
+  },
+  {
+    "athleteId": "athlete-aj25-19-8",
+    "name": "河﨑 憲祐",
+    "universityId": "nagoya",
+    "season": 2024,
+    "grade": "M1",
+    "sourceId": "iuau-aj2024-completion-affiliations"
+  },
+  {
+    "athleteId": "athlete-aj24-27-7",
+    "name": "田中 海吏",
+    "universityId": "chukyo",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-aj2024-completion-affiliations"
+  },
+  {
+    "athleteId": "athlete-aj24-27-8",
+    "name": "木山 敬士郎",
+    "universityId": "chukyo",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-aj2024-completion-affiliations"
   }
 ]

@@ -1,0 +1,6330 @@
+{
+  "schemaVersion": 2,
+  "edition": {
+    "id": "all-japan-2026",
+    "raceId": "all-japan",
+    "year": 2026,
+    "seasonYear": 2026,
+    "number": 58,
+    "date": "2026-11-01",
+    "officialName": "秩父宮賜杯第58回全日本大学駅伝対校選手権大会",
+    "distanceKm": 106.8,
+    "sourceId": "iuau-aj26-results"
+  },
+  "sources": [
+    {
+      "id": "iuau-aj26-results",
+      "title": "日本学生陸上競技連合 第58回全日本 公式結果",
+      "url": "https://iuau.jp/ev2026/58meki/58meki_result.pdf",
+      "collectedAt": "2026-11-13",
+      "locator": "PDF p.1 totals; p.2 lineup; pp.3–10 section results",
+      "coverage": "2026 全27队、216名实际出场；25大学及2支参考选拔队。",
+      "revision": "2026/11/1 14:46",
+      "usage": {
+        "policyUrl": "https://iuau.jp/taikaijoho2026.html",
+        "reviewedAt": "2026-11-13",
+        "basis": "Independent factual compilation from IUAU event/result publication. Copyright notice retained; no applicable automated fact-extraction ban found in reviewed event/office pages. No redistribution of PDF, images, prose or layout; no permission inferred.",
+        "permissionReference": null
+      }
+    },
+    {
+      "id": "iuau-aj26-roster",
+      "title": "日本学生陸上競技連合 2026 最終出場一覧",
+      "url": "https://iuau.jp/ev2026/58meki/startlist1101.pdf",
+      "collectedAt": "2026-11-13",
+      "locator": "PDF p.1 first eight section columns; reserves excluded",
+      "coverage": "2026 实际出场名单及年级",
+      "revision": "2026-11-01 definitive lineup",
+      "usage": {
+        "policyUrl": "https://iuau.jp/taikaijoho2026.html",
+        "reviewedAt": "2026-11-13",
+        "basis": "Independent factual compilation from IUAU event/result publication. Copyright notice retained; no applicable automated fact-extraction ban found in reviewed event/office pages. No redistribution of PDF, images, prose or layout; no permission inferred.",
+        "permissionReference": null
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "aj26-s1",
+      "editionId": "all-japan-2026",
+      "number": 1,
+      "distanceKm": 9.5,
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-s2",
+      "editionId": "all-japan-2026",
+      "number": 2,
+      "distanceKm": 11.1,
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-s3",
+      "editionId": "all-japan-2026",
+      "number": 3,
+      "distanceKm": 11.9,
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-s4",
+      "editionId": "all-japan-2026",
+      "number": 4,
+      "distanceKm": 11.8,
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-s5",
+      "editionId": "all-japan-2026",
+      "number": 5,
+      "distanceKm": 12.4,
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-s6",
+      "editionId": "all-japan-2026",
+      "number": 6,
+      "distanceKm": 12.8,
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-s7",
+      "editionId": "all-japan-2026",
+      "number": 7,
+      "distanceKm": 17.6,
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-s8",
+      "editionId": "all-japan-2026",
+      "number": 8,
+      "distanceKm": 19.7,
+      "sourceId": "iuau-aj26-results"
+    }
+  ],
+  "entries": [
+    {
+      "id": "aj26-entry-05",
+      "editionId": "all-japan-2026",
+      "teamId": "team-waseda",
+      "universityId": "waseda",
+      "finalRank": 1,
+      "finalRankSourceId": "iuau-aj26-results",
+      "totalTimeSeconds": 18211,
+      "totalTimeSourceId": "iuau-aj26-results",
+      "status": "finished",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-entry-04",
+      "editionId": "all-japan-2026",
+      "teamId": "team-kokugakuin",
+      "universityId": "kokugakuin",
+      "finalRank": 2,
+      "finalRankSourceId": "iuau-aj26-results",
+      "totalTimeSeconds": 18425,
+      "totalTimeSourceId": "iuau-aj26-results",
+      "status": "finished",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-entry-07",
+      "editionId": "all-japan-2026",
+      "teamId": "team-soka",
+      "universityId": "soka",
+      "finalRank": 3,
+      "finalRankSourceId": "iuau-aj26-results",
+      "totalTimeSeconds": 18568,
+      "totalTimeSourceId": "iuau-aj26-results",
+      "status": "finished",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-entry-03",
+      "editionId": "all-japan-2026",
+      "teamId": "team-aoyama-gakuin",
+      "universityId": "aoyama-gakuin",
+      "finalRank": 4,
+      "finalRankSourceId": "iuau-aj26-results",
+      "totalTimeSeconds": 18616,
+      "totalTimeSourceId": "iuau-aj26-results",
+      "status": "finished",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-entry-02",
+      "editionId": "all-japan-2026",
+      "teamId": "team-chuo",
+      "universityId": "chuo",
+      "finalRank": 5,
+      "finalRankSourceId": "iuau-aj26-results",
+      "totalTimeSeconds": 18689,
+      "totalTimeSourceId": "iuau-aj26-results",
+      "status": "finished",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-entry-01",
+      "editionId": "all-japan-2026",
+      "teamId": "team-komazawa",
+      "universityId": "komazawa",
+      "finalRank": 6,
+      "finalRankSourceId": "iuau-aj26-results",
+      "totalTimeSeconds": 18689,
+      "totalTimeSourceId": "iuau-aj26-results",
+      "status": "finished",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-entry-13",
+      "editionId": "all-japan-2026",
+      "teamId": "team-daito-bunka",
+      "universityId": "daito-bunka",
+      "finalRank": 7,
+      "finalRankSourceId": "iuau-aj26-results",
+      "totalTimeSeconds": 18692,
+      "totalTimeSourceId": "iuau-aj26-results",
+      "status": "finished",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-entry-06",
+      "editionId": "all-japan-2026",
+      "teamId": "team-teikyo",
+      "universityId": "teikyo",
+      "finalRank": 8,
+      "finalRankSourceId": "iuau-aj26-results",
+      "totalTimeSeconds": 18722,
+      "totalTimeSourceId": "iuau-aj26-results",
+      "status": "finished",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-entry-08",
+      "editionId": "all-japan-2026",
+      "teamId": "team-juntendo",
+      "universityId": "juntendo",
+      "finalRank": 9,
+      "finalRankSourceId": "iuau-aj26-results",
+      "totalTimeSeconds": 18740,
+      "totalTimeSourceId": "iuau-aj26-results",
+      "status": "finished",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-entry-11",
+      "editionId": "all-japan-2026",
+      "teamId": "team-nihon",
+      "universityId": "nihon",
+      "finalRank": 10,
+      "finalRankSourceId": "iuau-aj26-results",
+      "totalTimeSeconds": 18843,
+      "totalTimeSourceId": "iuau-aj26-results",
+      "status": "finished",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-entry-12",
+      "editionId": "all-japan-2026",
+      "teamId": "team-tokai",
+      "universityId": "tokai",
+      "finalRank": 11,
+      "finalRankSourceId": "iuau-aj26-results",
+      "totalTimeSeconds": 18934,
+      "totalTimeSourceId": "iuau-aj26-results",
+      "status": "finished",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-entry-14",
+      "editionId": "all-japan-2026",
+      "teamId": "team-kanagawa",
+      "universityId": "kanagawa",
+      "finalRank": 12,
+      "finalRankSourceId": "iuau-aj26-results",
+      "totalTimeSeconds": 18949,
+      "totalTimeSourceId": "iuau-aj26-results",
+      "status": "finished",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-entry-16",
+      "editionId": "all-japan-2026",
+      "teamId": "team-chuo-gakuin",
+      "universityId": "chuo-gakuin",
+      "finalRank": 13,
+      "finalRankSourceId": "iuau-aj26-results",
+      "totalTimeSeconds": 18985,
+      "totalTimeSourceId": "iuau-aj26-results",
+      "status": "finished",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-entry-17",
+      "editionId": "all-japan-2026",
+      "teamId": "team-university-ae98ed970e35",
+      "universityId": "university-ae98ed970e35",
+      "finalRank": 14,
+      "finalRankSourceId": "iuau-aj26-results",
+      "totalTimeSeconds": 19000,
+      "totalTimeSourceId": "iuau-aj26-results",
+      "status": "finished",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-entry-15",
+      "editionId": "all-japan-2026",
+      "teamId": "team-toyo",
+      "universityId": "toyo",
+      "finalRank": 15,
+      "finalRankSourceId": "iuau-aj26-results",
+      "totalTimeSeconds": 19191,
+      "totalTimeSourceId": "iuau-aj26-results",
+      "status": "finished",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-entry-22",
+      "editionId": "all-japan-2026",
+      "teamId": "team-kwansei-gakuin",
+      "universityId": "kwansei-gakuin",
+      "finalRank": 16,
+      "finalRankSourceId": "iuau-aj26-results",
+      "totalTimeSeconds": 19602,
+      "totalTimeSourceId": "iuau-aj26-results",
+      "status": "finished",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-entry-21",
+      "editionId": "all-japan-2026",
+      "teamId": "team-osaka-keizai",
+      "universityId": "osaka-keizai",
+      "finalRank": 17,
+      "finalRankSourceId": "iuau-aj26-results",
+      "totalTimeSeconds": 19691,
+      "totalTimeSourceId": "iuau-aj26-results",
+      "status": "finished",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-entry-23",
+      "editionId": "all-japan-2026",
+      "teamId": "team-ritsumeikan",
+      "universityId": "ritsumeikan",
+      "finalRank": 18,
+      "finalRankSourceId": "iuau-aj26-results",
+      "totalTimeSeconds": 19724,
+      "totalTimeSourceId": "iuau-aj26-results",
+      "status": "finished",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-entry-09",
+      "editionId": "all-japan-2026",
+      "teamId": "team-sapporo-gakuin",
+      "universityId": "sapporo-gakuin",
+      "finalRank": 19,
+      "finalRankSourceId": "iuau-aj26-results",
+      "totalTimeSeconds": 19726,
+      "totalTimeSourceId": "iuau-aj26-results",
+      "status": "finished",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-entry-20",
+      "editionId": "all-japan-2026",
+      "teamId": "team-kyoto-sangyo",
+      "universityId": "kyoto-sangyo",
+      "finalRank": 20,
+      "finalRankSourceId": "iuau-aj26-results",
+      "totalTimeSeconds": 19790,
+      "totalTimeSourceId": "iuau-aj26-results",
+      "status": "finished",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-entry-19",
+      "editionId": "all-japan-2026",
+      "teamId": "team-university-96e731540e16",
+      "universityId": "university-96e731540e16",
+      "finalRank": 21,
+      "finalRankSourceId": "iuau-aj26-results",
+      "totalTimeSeconds": 19912,
+      "totalTimeSourceId": "iuau-aj26-results",
+      "status": "finished",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-entry-24",
+      "editionId": "all-japan-2026",
+      "teamId": "team-hiroshima-economics",
+      "universityId": "hiroshima-economics",
+      "finalRank": 22,
+      "finalRankSourceId": "iuau-aj26-results",
+      "totalTimeSeconds": 19931,
+      "totalTimeSourceId": "iuau-aj26-results",
+      "status": "finished",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-entry-18",
+      "editionId": "all-japan-2026",
+      "teamId": "team-shinshu",
+      "universityId": "shinshu",
+      "finalRank": 23,
+      "finalRankSourceId": "iuau-aj26-results",
+      "totalTimeSeconds": 20121,
+      "totalTimeSourceId": "iuau-aj26-results",
+      "status": "finished",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-entry-25",
+      "editionId": "all-japan-2026",
+      "teamId": "team-shigakukan",
+      "universityId": "shigakukan",
+      "finalRank": 24,
+      "finalRankSourceId": "iuau-aj26-results",
+      "totalTimeSeconds": 20232,
+      "totalTimeSourceId": "iuau-aj26-results",
+      "status": "finished",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-entry-10",
+      "editionId": "all-japan-2026",
+      "teamId": "team-tohoku",
+      "universityId": "tohoku",
+      "finalRank": 25,
+      "finalRankSourceId": "iuau-aj26-results",
+      "totalTimeSeconds": 20581,
+      "totalTimeSourceId": "iuau-aj26-results",
+      "status": "finished",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-entry-26",
+      "editionId": "all-japan-2026",
+      "teamId": "team-japan-selection",
+      "universityId": null,
+      "finalRank": null,
+      "finalRankSourceId": null,
+      "totalTimeSeconds": 19421,
+      "totalTimeSourceId": "iuau-aj26-results",
+      "status": "reference",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-entry-27",
+      "editionId": "all-japan-2026",
+      "teamId": "team-tokai-selection",
+      "universityId": null,
+      "finalRank": null,
+      "finalRankSourceId": null,
+      "totalTimeSeconds": 19676,
+      "totalTimeSourceId": "iuau-aj26-results",
+      "status": "reference",
+      "sourceId": "iuau-aj26-results"
+    }
+  ],
+  "results": [
+    {
+      "id": "aj26-result-05-1",
+      "entryId": "aj26-entry-05",
+      "sectionId": "aj26-s1",
+      "athleteId": "athlete-aj26-05-1",
+      "timeSeconds": 1667,
+      "rank": 2,
+      "status": "finished",
+      "grade": "1",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "waseda",
+      "locator": "PDF p.2 team no.5, section 1; section detail p.3",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-05-2",
+      "entryId": "aj26-entry-05",
+      "sectionId": "aj26-s2",
+      "athleteId": "athlete-aj26-05-2",
+      "timeSeconds": 1851,
+      "rank": 1,
+      "status": "finished",
+      "grade": "1",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "waseda",
+      "locator": "PDF p.2 team no.5, section 2; section detail p.4",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-05-3",
+      "entryId": "aj26-entry-05",
+      "sectionId": "aj26-s3",
+      "athleteId": "athlete-aj26-05-3",
+      "timeSeconds": 1965,
+      "rank": 1,
+      "status": "finished",
+      "grade": "1",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "waseda",
+      "locator": "PDF p.2 team no.5, section 3; section detail p.5",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-05-4",
+      "entryId": "aj26-entry-05",
+      "sectionId": "aj26-s4",
+      "athleteId": "athlete-aj25-05-5",
+      "timeSeconds": 2004,
+      "rank": 4,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "waseda",
+      "locator": "PDF p.2 team no.5, section 4; section detail p.6",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-05-5",
+      "entryId": "aj26-entry-05",
+      "sectionId": "aj26-s5",
+      "athleteId": "athlete-aj25-05-2",
+      "timeSeconds": 2071,
+      "rank": 1,
+      "status": "finished",
+      "grade": "2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "waseda",
+      "locator": "PDF p.2 team no.5, section 5; section detail p.7",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-05-6",
+      "entryId": "aj26-entry-05",
+      "sectionId": "aj26-s6",
+      "athleteId": "athlete-aj25-05-3",
+      "timeSeconds": 2215,
+      "rank": 3,
+      "status": "finished",
+      "grade": "2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "waseda",
+      "locator": "PDF p.2 team no.5, section 6; section detail p.8",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-05-7",
+      "entryId": "aj26-entry-05",
+      "sectionId": "aj26-s7",
+      "athleteId": "athlete-aj24-05-5",
+      "timeSeconds": 3058,
+      "rank": 3,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "waseda",
+      "locator": "PDF p.2 team no.5, section 7; section detail p.9",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-05-8",
+      "entryId": "aj26-entry-05",
+      "sectionId": "aj26-s8",
+      "athleteId": "athlete-aj24-05-8",
+      "timeSeconds": 3380,
+      "rank": 1,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "waseda",
+      "locator": "PDF p.2 team no.5, section 8; section detail p.10",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-04-1",
+      "entryId": "aj26-entry-04",
+      "sectionId": "aj26-s1",
+      "athleteId": "athlete-aj25-01-1",
+      "timeSeconds": 1675,
+      "rank": 13,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "kokugakuin",
+      "locator": "PDF p.2 team no.4, section 1; section detail p.3",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-04-2",
+      "entryId": "aj26-entry-04",
+      "sectionId": "aj26-s2",
+      "athleteId": "athlete-aj25-01-6",
+      "timeSeconds": 1881,
+      "rank": 5,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "kokugakuin",
+      "locator": "PDF p.2 team no.4, section 2; section detail p.4",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-04-3",
+      "entryId": "aj26-entry-04",
+      "sectionId": "aj26-s3",
+      "athleteId": "athlete-aj24-01-3",
+      "timeSeconds": 2032,
+      "rank": 6,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "kokugakuin",
+      "locator": "PDF p.2 team no.4, section 3; section detail p.5",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-04-4",
+      "entryId": "aj26-entry-04",
+      "sectionId": "aj26-s4",
+      "athleteId": "athlete-aj25-01-5",
+      "timeSeconds": 1995,
+      "rank": 1,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "kokugakuin",
+      "locator": "PDF p.2 team no.4, section 4; section detail p.6",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-04-5",
+      "entryId": "aj26-entry-04",
+      "sectionId": "aj26-s5",
+      "athleteId": "athlete-aj26-04-5",
+      "timeSeconds": 2134,
+      "rank": 2,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "kokugakuin",
+      "locator": "PDF p.2 team no.4, section 5; section detail p.7",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-04-6",
+      "entryId": "aj26-entry-04",
+      "sectionId": "aj26-s6",
+      "athleteId": "athlete-aj26-04-6",
+      "timeSeconds": 2201,
+      "rank": 1,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "kokugakuin",
+      "locator": "PDF p.2 team no.4, section 6; section detail p.8",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-04-7",
+      "entryId": "aj26-entry-04",
+      "sectionId": "aj26-s7",
+      "athleteId": "athlete-aj24-01-5",
+      "timeSeconds": 3067,
+      "rank": 4,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "kokugakuin",
+      "locator": "PDF p.2 team no.4, section 7; section detail p.9",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-04-8",
+      "entryId": "aj26-entry-04",
+      "sectionId": "aj26-s8",
+      "athleteId": "athlete-aj26-04-8",
+      "timeSeconds": 3440,
+      "rank": 3,
+      "status": "finished",
+      "grade": "2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "kokugakuin",
+      "locator": "PDF p.2 team no.4, section 8; section detail p.10",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-07-1",
+      "entryId": "aj26-entry-07",
+      "sectionId": "aj26-s1",
+      "athleteId": "athlete-aj26-07-1",
+      "timeSeconds": 1674,
+      "rank": 11,
+      "status": "finished",
+      "grade": "1",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "soka",
+      "locator": "PDF p.2 team no.7, section 1; section detail p.3",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-07-2",
+      "entryId": "aj26-entry-07",
+      "sectionId": "aj26-s2",
+      "athleteId": "athlete-aj25-04-4",
+      "timeSeconds": 1917,
+      "rank": 9,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "soka",
+      "locator": "PDF p.2 team no.7, section 2; section detail p.4",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-07-3",
+      "entryId": "aj26-entry-07",
+      "sectionId": "aj26-s3",
+      "athleteId": "athlete-aj26-07-3",
+      "timeSeconds": 2077,
+      "rank": 12,
+      "status": "finished",
+      "grade": "1",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "soka",
+      "locator": "PDF p.2 team no.7, section 3; section detail p.5",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-07-4",
+      "entryId": "aj26-entry-07",
+      "sectionId": "aj26-s4",
+      "athleteId": "athlete-aj25-04-2",
+      "timeSeconds": 1998,
+      "rank": 2,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "soka",
+      "locator": "PDF p.2 team no.7, section 4; section detail p.6",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-07-5",
+      "entryId": "aj26-entry-07",
+      "sectionId": "aj26-s5",
+      "athleteId": "athlete-aj26-07-5",
+      "timeSeconds": 2176,
+      "rank": 8,
+      "status": "finished",
+      "grade": "1",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "soka",
+      "locator": "PDF p.2 team no.7, section 5; section detail p.7",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-07-6",
+      "entryId": "aj26-entry-07",
+      "sectionId": "aj26-s6",
+      "athleteId": "athlete-aj25-04-6",
+      "timeSeconds": 2238,
+      "rank": 6,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "soka",
+      "locator": "PDF p.2 team no.7, section 6; section detail p.8",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-07-7",
+      "entryId": "aj26-entry-07",
+      "sectionId": "aj26-s7",
+      "athleteId": "athlete-aj24-04-5",
+      "timeSeconds": 3048,
+      "rank": 2,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "soka",
+      "locator": "PDF p.2 team no.7, section 7; section detail p.9",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-07-8",
+      "entryId": "aj26-entry-07",
+      "sectionId": "aj26-s8",
+      "athleteId": "athlete-aj24-04-4",
+      "timeSeconds": 3440,
+      "rank": 3,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "soka",
+      "locator": "PDF p.2 team no.7, section 8; section detail p.10",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-03-1",
+      "entryId": "aj26-entry-03",
+      "sectionId": "aj26-s1",
+      "athleteId": "athlete-aj26-03-1",
+      "timeSeconds": 1665,
+      "rank": 1,
+      "status": "finished",
+      "grade": "2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "aoyama-gakuin",
+      "locator": "PDF p.2 team no.3, section 1; section detail p.3",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-03-2",
+      "entryId": "aj26-entry-03",
+      "sectionId": "aj26-s2",
+      "athleteId": "athlete-aj26-03-2",
+      "timeSeconds": 1918,
+      "rank": 10,
+      "status": "finished",
+      "grade": "2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "aoyama-gakuin",
+      "locator": "PDF p.2 team no.3, section 2; section detail p.4",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-03-3",
+      "entryId": "aj26-entry-03",
+      "sectionId": "aj26-s3",
+      "athleteId": "athlete-aj26-03-3",
+      "timeSeconds": 2030,
+      "rank": 5,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "aoyama-gakuin",
+      "locator": "PDF p.2 team no.3, section 3; section detail p.5",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-03-4",
+      "entryId": "aj26-entry-03",
+      "sectionId": "aj26-s4",
+      "athleteId": "athlete-aj26-03-4",
+      "timeSeconds": 2007,
+      "rank": 5,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "aoyama-gakuin",
+      "locator": "PDF p.2 team no.3, section 4; section detail p.6",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-03-5",
+      "entryId": "aj26-entry-03",
+      "sectionId": "aj26-s5",
+      "athleteId": "athlete-aj25-03-8",
+      "timeSeconds": 2136,
+      "rank": 3,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "aoyama-gakuin",
+      "locator": "PDF p.2 team no.3, section 5; section detail p.7",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-03-6",
+      "entryId": "aj26-entry-03",
+      "sectionId": "aj26-s6",
+      "athleteId": "athlete-aj25-03-6",
+      "timeSeconds": 2218,
+      "rank": 4,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "aoyama-gakuin",
+      "locator": "PDF p.2 team no.3, section 6; section detail p.8",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-03-7",
+      "entryId": "aj26-entry-03",
+      "sectionId": "aj26-s7",
+      "athleteId": "athlete-aj26-03-7",
+      "timeSeconds": 3119,
+      "rank": 7,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "aoyama-gakuin",
+      "locator": "PDF p.2 team no.3, section 7; section detail p.9",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-03-8",
+      "entryId": "aj26-entry-03",
+      "sectionId": "aj26-s8",
+      "athleteId": "athlete-aj26-03-8",
+      "timeSeconds": 3523,
+      "rank": 10,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "aoyama-gakuin",
+      "locator": "PDF p.2 team no.3, section 8; section detail p.10",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-02-1",
+      "entryId": "aj26-entry-02",
+      "sectionId": "aj26-s1",
+      "athleteId": "athlete-aj26-02-1",
+      "timeSeconds": 1669,
+      "rank": 4,
+      "status": "finished",
+      "grade": "1",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "chuo",
+      "locator": "PDF p.2 team no.2, section 1; section detail p.3",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-02-2",
+      "entryId": "aj26-entry-02",
+      "sectionId": "aj26-s2",
+      "athleteId": "athlete-aj26-02-2",
+      "timeSeconds": 1962,
+      "rank": 13,
+      "status": "finished",
+      "grade": "1",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "chuo",
+      "locator": "PDF p.2 team no.2, section 2; section detail p.4",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-02-3",
+      "entryId": "aj26-entry-02",
+      "sectionId": "aj26-s3",
+      "athleteId": "athlete-aj24-12-6",
+      "timeSeconds": 2025,
+      "rank": 3,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "chuo",
+      "locator": "PDF p.2 team no.2, section 3; section detail p.5",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-02-4",
+      "entryId": "aj26-entry-02",
+      "sectionId": "aj26-s4",
+      "athleteId": "athlete-aj25-11-4",
+      "timeSeconds": 2052,
+      "rank": 9,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "chuo",
+      "locator": "PDF p.2 team no.2, section 4; section detail p.6",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-02-5",
+      "entryId": "aj26-entry-02",
+      "sectionId": "aj26-s5",
+      "athleteId": "athlete-aj25-11-5",
+      "timeSeconds": 2141,
+      "rank": 5,
+      "status": "finished",
+      "grade": "2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "chuo",
+      "locator": "PDF p.2 team no.2, section 5; section detail p.7",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-02-6",
+      "entryId": "aj26-entry-02",
+      "sectionId": "aj26-s6",
+      "athleteId": "athlete-aj26-02-6",
+      "timeSeconds": 2214,
+      "rank": 2,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "chuo",
+      "locator": "PDF p.2 team no.2, section 6; section detail p.8",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-02-7",
+      "entryId": "aj26-entry-02",
+      "sectionId": "aj26-s7",
+      "athleteId": "athlete-aj24-12-2",
+      "timeSeconds": 3104,
+      "rank": 5,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "chuo",
+      "locator": "PDF p.2 team no.2, section 7; section detail p.9",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-02-8",
+      "entryId": "aj26-entry-02",
+      "sectionId": "aj26-s8",
+      "athleteId": "athlete-aj25-11-3",
+      "timeSeconds": 3522,
+      "rank": 9,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "chuo",
+      "locator": "PDF p.2 team no.2, section 8; section detail p.10",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-01-1",
+      "entryId": "aj26-entry-01",
+      "sectionId": "aj26-s1",
+      "athleteId": "athlete-aj26-01-1",
+      "timeSeconds": 1668,
+      "rank": 3,
+      "status": "finished",
+      "grade": "2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "komazawa",
+      "locator": "PDF p.2 team no.1, section 1; section detail p.3",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-01-2",
+      "entryId": "aj26-entry-01",
+      "sectionId": "aj26-s2",
+      "athleteId": "athlete-aj26-01-2",
+      "timeSeconds": 1857,
+      "rank": 3,
+      "status": "finished",
+      "grade": "1",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "komazawa",
+      "locator": "PDF p.2 team no.1, section 2; section detail p.4",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-01-3",
+      "entryId": "aj26-entry-01",
+      "sectionId": "aj26-s3",
+      "athleteId": "athlete-aj26-01-3",
+      "timeSeconds": 2032,
+      "rank": 6,
+      "status": "finished",
+      "grade": "2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "komazawa",
+      "locator": "PDF p.2 team no.1, section 3; section detail p.5",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-01-4",
+      "entryId": "aj26-entry-01",
+      "sectionId": "aj26-s4",
+      "athleteId": "athlete-aj26-01-4",
+      "timeSeconds": 2054,
+      "rank": 10,
+      "status": "finished",
+      "grade": "1",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "komazawa",
+      "locator": "PDF p.2 team no.1, section 4; section detail p.6",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-01-5",
+      "entryId": "aj26-entry-01",
+      "sectionId": "aj26-s5",
+      "athleteId": "athlete-aj26-01-5",
+      "timeSeconds": 2138,
+      "rank": 4,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "komazawa",
+      "locator": "PDF p.2 team no.1, section 5; section detail p.7",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-01-6",
+      "entryId": "aj26-entry-01",
+      "sectionId": "aj26-s6",
+      "athleteId": "athlete-aj26-01-6",
+      "timeSeconds": 2245,
+      "rank": 8,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "komazawa",
+      "locator": "PDF p.2 team no.1, section 6; section detail p.8",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-01-7",
+      "entryId": "aj26-entry-01",
+      "sectionId": "aj26-s7",
+      "athleteId": "athlete-aj24-02-2",
+      "timeSeconds": 3107,
+      "rank": 6,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "komazawa",
+      "locator": "PDF p.2 team no.1, section 7; section detail p.9",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-01-8",
+      "entryId": "aj26-entry-01",
+      "sectionId": "aj26-s8",
+      "athleteId": "athlete-aj26-01-8",
+      "timeSeconds": 3588,
+      "rank": 13,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "komazawa",
+      "locator": "PDF p.2 team no.1, section 8; section detail p.10",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-13-1",
+      "entryId": "aj26-entry-13",
+      "sectionId": "aj26-s1",
+      "athleteId": "athlete-aj26-13-1",
+      "timeSeconds": 1674,
+      "rank": 9,
+      "status": "finished",
+      "grade": "1",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "daito-bunka",
+      "locator": "PDF p.2 team no.13, section 1; section detail p.3",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-13-2",
+      "entryId": "aj26-entry-13",
+      "sectionId": "aj26-s2",
+      "athleteId": "athlete-aj24-11-1",
+      "timeSeconds": 1903,
+      "rank": 8,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "daito-bunka",
+      "locator": "PDF p.2 team no.13, section 2; section detail p.4",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-13-3",
+      "entryId": "aj26-entry-13",
+      "sectionId": "aj26-s3",
+      "athleteId": "athlete-aj25-12-6",
+      "timeSeconds": 2024,
+      "rank": 2,
+      "status": "finished",
+      "grade": "2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "daito-bunka",
+      "locator": "PDF p.2 team no.13, section 3; section detail p.5",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-13-4",
+      "entryId": "aj26-entry-13",
+      "sectionId": "aj26-s4",
+      "athleteId": "athlete-aj25-12-1",
+      "timeSeconds": 2032,
+      "rank": 6,
+      "status": "finished",
+      "grade": "2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "daito-bunka",
+      "locator": "PDF p.2 team no.13, section 4; section detail p.6",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-13-5",
+      "entryId": "aj26-entry-13",
+      "sectionId": "aj26-s5",
+      "athleteId": "athlete-aj24-11-5",
+      "timeSeconds": 2161,
+      "rank": 7,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "daito-bunka",
+      "locator": "PDF p.2 team no.13, section 5; section detail p.7",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-13-6",
+      "entryId": "aj26-entry-13",
+      "sectionId": "aj26-s6",
+      "athleteId": "athlete-aj26-13-6",
+      "timeSeconds": 2271,
+      "rank": 9,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "daito-bunka",
+      "locator": "PDF p.2 team no.13, section 6; section detail p.8",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-13-7",
+      "entryId": "aj26-entry-13",
+      "sectionId": "aj26-s7",
+      "athleteId": "athlete-aj26-13-7",
+      "timeSeconds": 3141,
+      "rank": 10,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "daito-bunka",
+      "locator": "PDF p.2 team no.13, section 7; section detail p.9",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-13-8",
+      "entryId": "aj26-entry-13",
+      "sectionId": "aj26-s8",
+      "athleteId": "athlete-aj25-12-8",
+      "timeSeconds": 3486,
+      "rank": 5,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "daito-bunka",
+      "locator": "PDF p.2 team no.13, section 8; section detail p.10",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-06-1",
+      "entryId": "aj26-entry-06",
+      "sectionId": "aj26-s1",
+      "athleteId": "athlete-aj26-06-1",
+      "timeSeconds": 1669,
+      "rank": 5,
+      "status": "finished",
+      "grade": "1",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "teikyo",
+      "locator": "PDF p.2 team no.6, section 1; section detail p.3",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-06-2",
+      "entryId": "aj26-entry-06",
+      "sectionId": "aj26-s2",
+      "athleteId": "athlete-aj24-08-6",
+      "timeSeconds": 1851,
+      "rank": 1,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "teikyo",
+      "locator": "PDF p.2 team no.6, section 2; section detail p.4",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-06-3",
+      "entryId": "aj26-entry-06",
+      "sectionId": "aj26-s3",
+      "athleteId": "athlete-aj26-06-3",
+      "timeSeconds": 2068,
+      "rank": 10,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "teikyo",
+      "locator": "PDF p.2 team no.6, section 3; section detail p.5",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-06-4",
+      "entryId": "aj26-entry-06",
+      "sectionId": "aj26-s4",
+      "athleteId": "athlete-aj24-08-4",
+      "timeSeconds": 2055,
+      "rank": 11,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "teikyo",
+      "locator": "PDF p.2 team no.6, section 4; section detail p.6",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-06-5",
+      "entryId": "aj26-entry-06",
+      "sectionId": "aj26-s5",
+      "athleteId": "athlete-aj26-06-5",
+      "timeSeconds": 2178,
+      "rank": 9,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "teikyo",
+      "locator": "PDF p.2 team no.6, section 5; section detail p.7",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-06-6",
+      "entryId": "aj26-entry-06",
+      "sectionId": "aj26-s6",
+      "athleteId": "athlete-aj25-08-3",
+      "timeSeconds": 2235,
+      "rank": 5,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "teikyo",
+      "locator": "PDF p.2 team no.6, section 6; section detail p.8",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-06-7",
+      "entryId": "aj26-entry-06",
+      "sectionId": "aj26-s7",
+      "athleteId": "athlete-aj25-08-4",
+      "timeSeconds": 3135,
+      "rank": 9,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "teikyo",
+      "locator": "PDF p.2 team no.6, section 7; section detail p.9",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-06-8",
+      "entryId": "aj26-entry-06",
+      "sectionId": "aj26-s8",
+      "athleteId": "athlete-aj25-08-8",
+      "timeSeconds": 3531,
+      "rank": 11,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "teikyo",
+      "locator": "PDF p.2 team no.6, section 8; section detail p.10",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-08-1",
+      "entryId": "aj26-entry-08",
+      "sectionId": "aj26-s1",
+      "athleteId": "athlete-aj26-08-1",
+      "timeSeconds": 1670,
+      "rank": 7,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "juntendo",
+      "locator": "PDF p.2 team no.8, section 1; section detail p.3",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-08-2",
+      "entryId": "aj26-entry-08",
+      "sectionId": "aj26-s2",
+      "athleteId": "athlete-aj25-13-1",
+      "timeSeconds": 1899,
+      "rank": 7,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "juntendo",
+      "locator": "PDF p.2 team no.8, section 2; section detail p.4",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-08-3",
+      "entryId": "aj26-entry-08",
+      "sectionId": "aj26-s3",
+      "athleteId": "athlete-aj26-08-3",
+      "timeSeconds": 2027,
+      "rank": 4,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "juntendo",
+      "locator": "PDF p.2 team no.8, section 3; section detail p.5",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-08-4",
+      "entryId": "aj26-entry-08",
+      "sectionId": "aj26-s4",
+      "athleteId": "athlete-aj26-08-4",
+      "timeSeconds": 2050,
+      "rank": 8,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "juntendo",
+      "locator": "PDF p.2 team no.8, section 4; section detail p.6",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-08-5",
+      "entryId": "aj26-entry-08",
+      "sectionId": "aj26-s5",
+      "athleteId": "athlete-aj25-13-3",
+      "timeSeconds": 2149,
+      "rank": 6,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "juntendo",
+      "locator": "PDF p.2 team no.8, section 5; section detail p.7",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-08-6",
+      "entryId": "aj26-entry-08",
+      "sectionId": "aj26-s6",
+      "athleteId": "athlete-aj25-13-4",
+      "timeSeconds": 2298,
+      "rank": 14,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "juntendo",
+      "locator": "PDF p.2 team no.8, section 6; section detail p.8",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-08-7",
+      "entryId": "aj26-entry-08",
+      "sectionId": "aj26-s7",
+      "athleteId": "athlete-aj26-08-7",
+      "timeSeconds": 3129,
+      "rank": 8,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "juntendo",
+      "locator": "PDF p.2 team no.8, section 7; section detail p.9",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-08-8",
+      "entryId": "aj26-entry-08",
+      "sectionId": "aj26-s8",
+      "athleteId": "athlete-aj25-13-8",
+      "timeSeconds": 3518,
+      "rank": 8,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "juntendo",
+      "locator": "PDF p.2 team no.8, section 8; section detail p.10",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-11-1",
+      "entryId": "aj26-entry-11",
+      "sectionId": "aj26-s1",
+      "athleteId": "athlete-aj26-11-1",
+      "timeSeconds": 1669,
+      "rank": 6,
+      "status": "finished",
+      "grade": "1",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "nihon",
+      "locator": "PDF p.2 team no.11, section 1; section detail p.3",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-11-2",
+      "entryId": "aj26-entry-11",
+      "sectionId": "aj26-s2",
+      "athleteId": "athlete-aj25-14-3",
+      "timeSeconds": 1964,
+      "rank": 15,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "nihon",
+      "locator": "PDF p.2 team no.11, section 2; section detail p.4",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-11-3",
+      "entryId": "aj26-entry-11",
+      "sectionId": "aj26-s3",
+      "athleteId": "athlete-aj26-11-3",
+      "timeSeconds": 2088,
+      "rank": 13,
+      "status": "finished",
+      "grade": "2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "nihon",
+      "locator": "PDF p.2 team no.11, section 3; section detail p.5",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-11-4",
+      "entryId": "aj26-entry-11",
+      "sectionId": "aj26-s4",
+      "athleteId": "athlete-aj25-14-2",
+      "timeSeconds": 2080,
+      "rank": 13,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "nihon",
+      "locator": "PDF p.2 team no.11, section 4; section detail p.6",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-11-5",
+      "entryId": "aj26-entry-11",
+      "sectionId": "aj26-s5",
+      "athleteId": "athlete-aj26-11-5",
+      "timeSeconds": 2202,
+      "rank": 14,
+      "status": "finished",
+      "grade": null,
+      "participationSourceId": null,
+      "representingUniversityId": "nihon",
+      "locator": "PDF p.2 team no.11, section 5; section detail p.7",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-11-6",
+      "entryId": "aj26-entry-11",
+      "sectionId": "aj26-s6",
+      "athleteId": "athlete-aj26-11-6",
+      "timeSeconds": 2297,
+      "rank": 13,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "nihon",
+      "locator": "PDF p.2 team no.11, section 6; section detail p.8",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-11-7",
+      "entryId": "aj26-entry-11",
+      "sectionId": "aj26-s7",
+      "athleteId": "athlete-aj25-14-7",
+      "timeSeconds": 2985,
+      "rank": 1,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "nihon",
+      "locator": "PDF p.2 team no.11, section 7; section detail p.9",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-11-8",
+      "entryId": "aj26-entry-11",
+      "sectionId": "aj26-s8",
+      "athleteId": "athlete-aj25-14-5",
+      "timeSeconds": 3558,
+      "rank": 12,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "nihon",
+      "locator": "PDF p.2 team no.11, section 8; section detail p.10",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-12-1",
+      "entryId": "aj26-entry-12",
+      "sectionId": "aj26-s1",
+      "athleteId": "athlete-aj26-12-1",
+      "timeSeconds": 1674,
+      "rank": 12,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "tokai",
+      "locator": "PDF p.2 team no.12, section 1; section detail p.3",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-12-2",
+      "entryId": "aj26-entry-12",
+      "sectionId": "aj26-s2",
+      "athleteId": "athlete-aj25-15-2",
+      "timeSeconds": 1872,
+      "rank": 4,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "tokai",
+      "locator": "PDF p.2 team no.12, section 2; section detail p.4",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-12-3",
+      "entryId": "aj26-entry-12",
+      "sectionId": "aj26-s3",
+      "athleteId": "athlete-aj25-15-6",
+      "timeSeconds": 2091,
+      "rank": 14,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "tokai",
+      "locator": "PDF p.2 team no.12, section 3; section detail p.5",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-12-4",
+      "entryId": "aj26-entry-12",
+      "sectionId": "aj26-s4",
+      "athleteId": "athlete-aj25-15-5",
+      "timeSeconds": 2062,
+      "rank": 12,
+      "status": "finished",
+      "grade": "2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "tokai",
+      "locator": "PDF p.2 team no.12, section 4; section detail p.6",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-12-5",
+      "entryId": "aj26-entry-12",
+      "sectionId": "aj26-s5",
+      "athleteId": "athlete-aj26-12-5",
+      "timeSeconds": 2200,
+      "rank": 12,
+      "status": "finished",
+      "grade": "2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "tokai",
+      "locator": "PDF p.2 team no.12, section 5; section detail p.7",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-12-6",
+      "entryId": "aj26-entry-12",
+      "sectionId": "aj26-s6",
+      "athleteId": "athlete-aj26-12-6",
+      "timeSeconds": 2284,
+      "rank": 10,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "tokai",
+      "locator": "PDF p.2 team no.12, section 6; section detail p.8",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-12-7",
+      "entryId": "aj26-entry-12",
+      "sectionId": "aj26-s7",
+      "athleteId": "athlete-aj25-15-4",
+      "timeSeconds": 3256,
+      "rank": 16,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "tokai",
+      "locator": "PDF p.2 team no.12, section 7; section detail p.9",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-12-8",
+      "entryId": "aj26-entry-12",
+      "sectionId": "aj26-s8",
+      "athleteId": "athlete-aj24-15-7",
+      "timeSeconds": 3495,
+      "rank": 6,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "tokai",
+      "locator": "PDF p.2 team no.12, section 8; section detail p.10",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-14-1",
+      "entryId": "aj26-entry-14",
+      "sectionId": "aj26-s1",
+      "athleteId": "athlete-aj26-14-1",
+      "timeSeconds": 1674,
+      "rank": 10,
+      "status": "finished",
+      "grade": "1",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "kanagawa",
+      "locator": "PDF p.2 team no.14, section 1; section detail p.3",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-14-2",
+      "entryId": "aj26-entry-14",
+      "sectionId": "aj26-s2",
+      "athleteId": "athlete-aj26-14-2",
+      "timeSeconds": 1890,
+      "rank": 6,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "kanagawa",
+      "locator": "PDF p.2 team no.14, section 2; section detail p.4",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-14-3",
+      "entryId": "aj26-entry-14",
+      "sectionId": "aj26-s3",
+      "athleteId": "athlete-aj26-14-3",
+      "timeSeconds": 2039,
+      "rank": 8,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "kanagawa",
+      "locator": "PDF p.2 team no.14, section 3; section detail p.5",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-14-4",
+      "entryId": "aj26-entry-14",
+      "sectionId": "aj26-s4",
+      "athleteId": "athlete-aj26-14-4",
+      "timeSeconds": 2040,
+      "rank": 7,
+      "status": "finished",
+      "grade": "1",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "kanagawa",
+      "locator": "PDF p.2 team no.14, section 4; section detail p.6",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-14-5",
+      "entryId": "aj26-entry-14",
+      "sectionId": "aj26-s5",
+      "athleteId": "athlete-aj26-14-5",
+      "timeSeconds": 2200,
+      "rank": 12,
+      "status": "finished",
+      "grade": "1",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "kanagawa",
+      "locator": "PDF p.2 team no.14, section 5; section detail p.7",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-14-6",
+      "entryId": "aj26-entry-14",
+      "sectionId": "aj26-s6",
+      "athleteId": "athlete-aj26-14-6",
+      "timeSeconds": 2243,
+      "rank": 7,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "kanagawa",
+      "locator": "PDF p.2 team no.14, section 6; section detail p.8",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-14-7",
+      "entryId": "aj26-entry-14",
+      "sectionId": "aj26-s7",
+      "athleteId": "athlete-aj24-14-1",
+      "timeSeconds": 3224,
+      "rank": 12,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "kanagawa",
+      "locator": "PDF p.2 team no.14, section 7; section detail p.9",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-14-8",
+      "entryId": "aj26-entry-14",
+      "sectionId": "aj26-s8",
+      "athleteId": "athlete-aj26-14-8",
+      "timeSeconds": 3639,
+      "rank": 14,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "kanagawa",
+      "locator": "PDF p.2 team no.14, section 8; section detail p.10",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-16-1",
+      "entryId": "aj26-entry-16",
+      "sectionId": "aj26-s1",
+      "athleteId": "athlete-aj26-16-1",
+      "timeSeconds": 1672,
+      "rank": 8,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "chuo-gakuin",
+      "locator": "PDF p.2 team no.16, section 1; section detail p.3",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-16-2",
+      "entryId": "aj26-entry-16",
+      "sectionId": "aj26-s2",
+      "athleteId": "athlete-aj25-16-3",
+      "timeSeconds": 1923,
+      "rank": 11,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "chuo-gakuin",
+      "locator": "PDF p.2 team no.16, section 2; section detail p.4",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-16-3",
+      "entryId": "aj26-entry-16",
+      "sectionId": "aj26-s3",
+      "athleteId": "athlete-aj25-16-7",
+      "timeSeconds": 2076,
+      "rank": 11,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "chuo-gakuin",
+      "locator": "PDF p.2 team no.16, section 3; section detail p.5",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-16-4",
+      "entryId": "aj26-entry-16",
+      "sectionId": "aj26-s4",
+      "athleteId": "athlete-aj26-16-4",
+      "timeSeconds": 2090,
+      "rank": 15,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "chuo-gakuin",
+      "locator": "PDF p.2 team no.16, section 4; section detail p.6",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-16-5",
+      "entryId": "aj26-entry-16",
+      "sectionId": "aj26-s5",
+      "athleteId": "athlete-aj26-16-5",
+      "timeSeconds": 2198,
+      "rank": 11,
+      "status": "finished",
+      "grade": "2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "chuo-gakuin",
+      "locator": "PDF p.2 team no.16, section 5; section detail p.7",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-16-6",
+      "entryId": "aj26-entry-16",
+      "sectionId": "aj26-s6",
+      "athleteId": "athlete-aj26-16-6",
+      "timeSeconds": 2321,
+      "rank": 15,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "chuo-gakuin",
+      "locator": "PDF p.2 team no.16, section 6; section detail p.8",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-16-7",
+      "entryId": "aj26-entry-16",
+      "sectionId": "aj26-s7",
+      "athleteId": "athlete-aj25-16-8",
+      "timeSeconds": 3199,
+      "rank": 11,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "chuo-gakuin",
+      "locator": "PDF p.2 team no.16, section 7; section detail p.9",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-16-8",
+      "entryId": "aj26-entry-16",
+      "sectionId": "aj26-s8",
+      "athleteId": "athlete-aj26-16-8",
+      "timeSeconds": 3506,
+      "rank": 7,
+      "status": "finished",
+      "grade": "2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "chuo-gakuin",
+      "locator": "PDF p.2 team no.16, section 8; section detail p.10",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-17-1",
+      "entryId": "aj26-entry-17",
+      "sectionId": "aj26-s1",
+      "athleteId": "athlete-aj26-17-1",
+      "timeSeconds": 1681,
+      "rank": 16,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "university-ae98ed970e35",
+      "locator": "PDF p.2 team no.17, section 1; section detail p.3",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-17-2",
+      "entryId": "aj26-entry-17",
+      "sectionId": "aj26-s2",
+      "athleteId": "athlete-aj26-17-2",
+      "timeSeconds": 1974,
+      "rank": 16,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "university-ae98ed970e35",
+      "locator": "PDF p.2 team no.17, section 2; section detail p.4",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-17-3",
+      "entryId": "aj26-entry-17",
+      "sectionId": "aj26-s3",
+      "athleteId": "athlete-aj26-17-3",
+      "timeSeconds": 2098,
+      "rank": 15,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "university-ae98ed970e35",
+      "locator": "PDF p.2 team no.17, section 3; section detail p.5",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-17-4",
+      "entryId": "aj26-entry-17",
+      "sectionId": "aj26-s4",
+      "athleteId": "athlete-aj26-17-4",
+      "timeSeconds": 2112,
+      "rank": 17,
+      "status": "finished",
+      "grade": null,
+      "participationSourceId": null,
+      "representingUniversityId": "university-ae98ed970e35",
+      "locator": "PDF p.2 team no.17, section 4; section detail p.6",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-17-5",
+      "entryId": "aj26-entry-17",
+      "sectionId": "aj26-s5",
+      "athleteId": "athlete-aj26-17-5",
+      "timeSeconds": 2209,
+      "rank": 15,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "university-ae98ed970e35",
+      "locator": "PDF p.2 team no.17, section 5; section detail p.7",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-17-6",
+      "entryId": "aj26-entry-17",
+      "sectionId": "aj26-s6",
+      "athleteId": "athlete-aj26-17-6",
+      "timeSeconds": 2294,
+      "rank": 11,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "university-ae98ed970e35",
+      "locator": "PDF p.2 team no.17, section 6; section detail p.8",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-17-7",
+      "entryId": "aj26-entry-17",
+      "sectionId": "aj26-s7",
+      "athleteId": "athlete-aj26-17-7",
+      "timeSeconds": 3243,
+      "rank": 14,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "university-ae98ed970e35",
+      "locator": "PDF p.2 team no.17, section 7; section detail p.9",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-17-8",
+      "entryId": "aj26-entry-17",
+      "sectionId": "aj26-s8",
+      "athleteId": "athlete-aj26-17-8",
+      "timeSeconds": 3389,
+      "rank": 2,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "university-ae98ed970e35",
+      "locator": "PDF p.2 team no.17, section 8; section detail p.10",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-15-1",
+      "entryId": "aj26-entry-15",
+      "sectionId": "aj26-s1",
+      "athleteId": "athlete-aj26-15-1",
+      "timeSeconds": 1681,
+      "rank": 17,
+      "status": "finished",
+      "grade": "1",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "toyo",
+      "locator": "PDF p.2 team no.15, section 1; section detail p.3",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-15-2",
+      "entryId": "aj26-entry-15",
+      "sectionId": "aj26-s2",
+      "athleteId": "athlete-aj26-15-2",
+      "timeSeconds": 2000,
+      "rank": 21,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "toyo",
+      "locator": "PDF p.2 team no.15, section 2; section detail p.4",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-15-3",
+      "entryId": "aj26-entry-15",
+      "sectionId": "aj26-s3",
+      "athleteId": "athlete-aj26-15-3",
+      "timeSeconds": 2067,
+      "rank": 9,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "toyo",
+      "locator": "PDF p.2 team no.15, section 3; section detail p.5",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-15-4",
+      "entryId": "aj26-entry-15",
+      "sectionId": "aj26-s4",
+      "athleteId": "athlete-aj26-15-4",
+      "timeSeconds": 2000,
+      "rank": 3,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "toyo",
+      "locator": "PDF p.2 team no.15, section 4; section detail p.6",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-15-5",
+      "entryId": "aj26-entry-15",
+      "sectionId": "aj26-s5",
+      "athleteId": "athlete-aj26-15-5",
+      "timeSeconds": 2196,
+      "rank": 10,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "toyo",
+      "locator": "PDF p.2 team no.15, section 5; section detail p.7",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-15-6",
+      "entryId": "aj26-entry-15",
+      "sectionId": "aj26-s6",
+      "athleteId": "athlete-aj26-15-6",
+      "timeSeconds": 2294,
+      "rank": 11,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "toyo",
+      "locator": "PDF p.2 team no.15, section 6; section detail p.8",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-15-7",
+      "entryId": "aj26-entry-15",
+      "sectionId": "aj26-s7",
+      "athleteId": "athlete-aj26-15-7",
+      "timeSeconds": 3244,
+      "rank": 15,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "toyo",
+      "locator": "PDF p.2 team no.15, section 7; section detail p.9",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-15-8",
+      "entryId": "aj26-entry-15",
+      "sectionId": "aj26-s8",
+      "athleteId": "athlete-aj23-08-5",
+      "timeSeconds": 3709,
+      "rank": 23,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "toyo",
+      "locator": "PDF p.2 team no.15, section 8; section detail p.10",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-22-1",
+      "entryId": "aj26-entry-22",
+      "sectionId": "aj26-s1",
+      "athleteId": "athlete-aj25-23-1",
+      "timeSeconds": 1679,
+      "rank": 14,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "kwansei-gakuin",
+      "locator": "PDF p.2 team no.22, section 1; section detail p.3",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-22-2",
+      "entryId": "aj26-entry-22",
+      "sectionId": "aj26-s2",
+      "athleteId": "athlete-aj25-23-2",
+      "timeSeconds": 1979,
+      "rank": 18,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "kwansei-gakuin",
+      "locator": "PDF p.2 team no.22, section 2; section detail p.4",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-22-3",
+      "entryId": "aj26-entry-22",
+      "sectionId": "aj26-s3",
+      "athleteId": "athlete-aj25-23-3",
+      "timeSeconds": 2163,
+      "rank": 21,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "kwansei-gakuin",
+      "locator": "PDF p.2 team no.22, section 3; section detail p.5",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-22-4",
+      "entryId": "aj26-entry-22",
+      "sectionId": "aj26-s4",
+      "athleteId": "athlete-aj26-22-4",
+      "timeSeconds": 2128,
+      "rank": 18,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "kwansei-gakuin",
+      "locator": "PDF p.2 team no.22, section 4; section detail p.6",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-22-5",
+      "entryId": "aj26-entry-22",
+      "sectionId": "aj26-s5",
+      "athleteId": "athlete-aj25-23-5",
+      "timeSeconds": 2313,
+      "rank": 21,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "kwansei-gakuin",
+      "locator": "PDF p.2 team no.22, section 5; section detail p.7",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-22-6",
+      "entryId": "aj26-entry-22",
+      "sectionId": "aj26-s6",
+      "athleteId": "athlete-aj25-23-6",
+      "timeSeconds": 2337,
+      "rank": 17,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "kwansei-gakuin",
+      "locator": "PDF p.2 team no.22, section 6; section detail p.8",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-22-7",
+      "entryId": "aj26-entry-22",
+      "sectionId": "aj26-s7",
+      "athleteId": "athlete-aj25-23-7",
+      "timeSeconds": 3356,
+      "rank": 21,
+      "status": "finished",
+      "grade": "2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "kwansei-gakuin",
+      "locator": "PDF p.2 team no.22, section 7; section detail p.9",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-22-8",
+      "entryId": "aj26-entry-22",
+      "sectionId": "aj26-s8",
+      "athleteId": "athlete-aj25-23-8",
+      "timeSeconds": 3647,
+      "rank": 16,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "kwansei-gakuin",
+      "locator": "PDF p.2 team no.22, section 8; section detail p.10",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-21-1",
+      "entryId": "aj26-entry-21",
+      "sectionId": "aj26-s1",
+      "athleteId": "athlete-aj26-21-1",
+      "timeSeconds": 1706,
+      "rank": 24,
+      "status": "finished",
+      "grade": "1",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "osaka-keizai",
+      "locator": "PDF p.2 team no.21, section 1; section detail p.3",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-21-2",
+      "entryId": "aj26-entry-21",
+      "sectionId": "aj26-s2",
+      "athleteId": "athlete-aj24-18-1",
+      "timeSeconds": 1962,
+      "rank": 13,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "osaka-keizai",
+      "locator": "PDF p.2 team no.21, section 2; section detail p.4",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-21-3",
+      "entryId": "aj26-entry-21",
+      "sectionId": "aj26-s3",
+      "athleteId": "athlete-aj26-21-3",
+      "timeSeconds": 2167,
+      "rank": 23,
+      "status": "finished",
+      "grade": "1",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "osaka-keizai",
+      "locator": "PDF p.2 team no.21, section 3; section detail p.5",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-21-4",
+      "entryId": "aj26-entry-21",
+      "sectionId": "aj26-s4",
+      "athleteId": "athlete-aj24-18-6",
+      "timeSeconds": 2087,
+      "rank": 14,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "osaka-keizai",
+      "locator": "PDF p.2 team no.21, section 4; section detail p.6",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-21-5",
+      "entryId": "aj26-entry-21",
+      "sectionId": "aj26-s5",
+      "athleteId": "athlete-aj26-21-5",
+      "timeSeconds": 2284,
+      "rank": 16,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "osaka-keizai",
+      "locator": "PDF p.2 team no.21, section 5; section detail p.7",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-21-6",
+      "entryId": "aj26-entry-21",
+      "sectionId": "aj26-s6",
+      "athleteId": "athlete-aj26-21-6",
+      "timeSeconds": 2414,
+      "rank": 22,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "osaka-keizai",
+      "locator": "PDF p.2 team no.21, section 6; section detail p.8",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-21-7",
+      "entryId": "aj26-entry-21",
+      "sectionId": "aj26-s7",
+      "athleteId": "athlete-aj24-18-5",
+      "timeSeconds": 3378,
+      "rank": 23,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "osaka-keizai",
+      "locator": "PDF p.2 team no.21, section 7; section detail p.9",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-21-8",
+      "entryId": "aj26-entry-21",
+      "sectionId": "aj26-s8",
+      "athleteId": "athlete-aj25-22-8",
+      "timeSeconds": 3693,
+      "rank": 21,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "osaka-keizai",
+      "locator": "PDF p.2 team no.21, section 8; section detail p.10",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-23-1",
+      "entryId": "aj26-entry-23",
+      "sectionId": "aj26-s1",
+      "athleteId": "athlete-aj26-23-1",
+      "timeSeconds": 1691,
+      "rank": 19,
+      "status": "finished",
+      "grade": "2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "ritsumeikan",
+      "locator": "PDF p.2 team no.23, section 1; section detail p.3",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-23-2",
+      "entryId": "aj26-entry-23",
+      "sectionId": "aj26-s2",
+      "athleteId": "athlete-aj24-22-1",
+      "timeSeconds": 2020,
+      "rank": 24,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "ritsumeikan",
+      "locator": "PDF p.2 team no.23, section 2; section detail p.4",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-23-3",
+      "entryId": "aj26-entry-23",
+      "sectionId": "aj26-s3",
+      "athleteId": "athlete-aj24-22-4",
+      "timeSeconds": 2144,
+      "rank": 19,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "ritsumeikan",
+      "locator": "PDF p.2 team no.23, section 3; section detail p.5",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-23-4",
+      "entryId": "aj26-entry-23",
+      "sectionId": "aj26-s4",
+      "athleteId": "athlete-aj26-23-4",
+      "timeSeconds": 2144,
+      "rank": 21,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "ritsumeikan",
+      "locator": "PDF p.2 team no.23, section 4; section detail p.6",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-23-5",
+      "entryId": "aj26-entry-23",
+      "sectionId": "aj26-s5",
+      "athleteId": "athlete-aj26-23-5",
+      "timeSeconds": 2306,
+      "rank": 19,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "ritsumeikan",
+      "locator": "PDF p.2 team no.23, section 5; section detail p.7",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-23-6",
+      "entryId": "aj26-entry-23",
+      "sectionId": "aj26-s6",
+      "athleteId": "athlete-aj26-23-6",
+      "timeSeconds": 2407,
+      "rank": 21,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "ritsumeikan",
+      "locator": "PDF p.2 team no.23, section 6; section detail p.8",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-23-7",
+      "entryId": "aj26-entry-23",
+      "sectionId": "aj26-s7",
+      "athleteId": "athlete-aj24-22-6",
+      "timeSeconds": 3289,
+      "rank": 18,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "ritsumeikan",
+      "locator": "PDF p.2 team no.23, section 7; section detail p.9",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-23-8",
+      "entryId": "aj26-entry-23",
+      "sectionId": "aj26-s8",
+      "athleteId": "athlete-aj26-23-8",
+      "timeSeconds": 3723,
+      "rank": 24,
+      "status": "finished",
+      "grade": "2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "ritsumeikan",
+      "locator": "PDF p.2 team no.23, section 8; section detail p.10",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-09-1",
+      "entryId": "aj26-entry-09",
+      "sectionId": "aj26-s1",
+      "athleteId": "athlete-aj24-20-6",
+      "timeSeconds": 1705,
+      "rank": 23,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "sapporo-gakuin",
+      "locator": "PDF p.2 team no.9, section 1; section detail p.3",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-09-2",
+      "entryId": "aj26-entry-09",
+      "sectionId": "aj26-s2",
+      "athleteId": "athlete-aj25-09-1",
+      "timeSeconds": 1982,
+      "rank": 19,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "sapporo-gakuin",
+      "locator": "PDF p.2 team no.9, section 2; section detail p.4",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-09-3",
+      "entryId": "aj26-entry-09",
+      "sectionId": "aj26-s3",
+      "athleteId": "athlete-aj26-09-3",
+      "timeSeconds": 2147,
+      "rank": 20,
+      "status": "finished",
+      "grade": "2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "sapporo-gakuin",
+      "locator": "PDF p.2 team no.9, section 3; section detail p.5",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-09-4",
+      "entryId": "aj26-entry-09",
+      "sectionId": "aj26-s4",
+      "athleteId": "athlete-aj26-09-4",
+      "timeSeconds": 2185,
+      "rank": 23,
+      "status": "finished",
+      "grade": "1",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "sapporo-gakuin",
+      "locator": "PDF p.2 team no.9, section 4; section detail p.6",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-09-5",
+      "entryId": "aj26-entry-09",
+      "sectionId": "aj26-s5",
+      "athleteId": "athlete-aj26-09-5",
+      "timeSeconds": 2337,
+      "rank": 22,
+      "status": "finished",
+      "grade": "2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "sapporo-gakuin",
+      "locator": "PDF p.2 team no.9, section 5; section detail p.7",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-09-6",
+      "entryId": "aj26-entry-09",
+      "sectionId": "aj26-s6",
+      "athleteId": "athlete-aj26-09-6",
+      "timeSeconds": 2393,
+      "rank": 20,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "sapporo-gakuin",
+      "locator": "PDF p.2 team no.9, section 6; section detail p.8",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-09-7",
+      "entryId": "aj26-entry-09",
+      "sectionId": "aj26-s7",
+      "athleteId": "athlete-aj24-20-8",
+      "timeSeconds": 3316,
+      "rank": 19,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "sapporo-gakuin",
+      "locator": "PDF p.2 team no.9, section 7; section detail p.9",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-09-8",
+      "entryId": "aj26-entry-09",
+      "sectionId": "aj26-s8",
+      "athleteId": "athlete-aj25-09-8",
+      "timeSeconds": 3661,
+      "rank": 19,
+      "status": "finished",
+      "grade": "2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "sapporo-gakuin",
+      "locator": "PDF p.2 team no.9, section 8; section detail p.10",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-20-1",
+      "entryId": "aj26-entry-20",
+      "sectionId": "aj26-s1",
+      "athleteId": "athlete-aj26-20-1",
+      "timeSeconds": 1680,
+      "rank": 15,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "kyoto-sangyo",
+      "locator": "PDF p.2 team no.20, section 1; section detail p.3",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-20-2",
+      "entryId": "aj26-entry-20",
+      "sectionId": "aj26-s2",
+      "athleteId": "athlete-aj26-20-2",
+      "timeSeconds": 1984,
+      "rank": 20,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "kyoto-sangyo",
+      "locator": "PDF p.2 team no.20, section 2; section detail p.4",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-20-3",
+      "entryId": "aj26-entry-20",
+      "sectionId": "aj26-s3",
+      "athleteId": "athlete-aj26-20-3",
+      "timeSeconds": 2165,
+      "rank": 22,
+      "status": "finished",
+      "grade": "2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "kyoto-sangyo",
+      "locator": "PDF p.2 team no.20, section 3; section detail p.5",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-20-4",
+      "entryId": "aj26-entry-20",
+      "sectionId": "aj26-s4",
+      "athleteId": "athlete-aj26-20-4",
+      "timeSeconds": 2129,
+      "rank": 19,
+      "status": "finished",
+      "grade": "2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "kyoto-sangyo",
+      "locator": "PDF p.2 team no.20, section 4; section detail p.6",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-20-5",
+      "entryId": "aj26-entry-20",
+      "sectionId": "aj26-s5",
+      "athleteId": "athlete-aj24-16-3",
+      "timeSeconds": 2294,
+      "rank": 17,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "kyoto-sangyo",
+      "locator": "PDF p.2 team no.20, section 5; section detail p.7",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-20-6",
+      "entryId": "aj26-entry-20",
+      "sectionId": "aj26-s6",
+      "athleteId": "athlete-aj26-20-6",
+      "timeSeconds": 2388,
+      "rank": 19,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "kyoto-sangyo",
+      "locator": "PDF p.2 team no.20, section 6; section detail p.8",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-20-7",
+      "entryId": "aj26-entry-20",
+      "sectionId": "aj26-s7",
+      "athleteId": "athlete-aj26-20-7",
+      "timeSeconds": 3450,
+      "rank": 26,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "kyoto-sangyo",
+      "locator": "PDF p.2 team no.20, section 7; section detail p.9",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-20-8",
+      "entryId": "aj26-entry-20",
+      "sectionId": "aj26-s8",
+      "athleteId": "athlete-aj26-20-8",
+      "timeSeconds": 3700,
+      "rank": 22,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "kyoto-sangyo",
+      "locator": "PDF p.2 team no.20, section 8; section detail p.10",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-19-1",
+      "entryId": "aj26-entry-19",
+      "sectionId": "aj26-s1",
+      "athleteId": "athlete-aj26-19-1",
+      "timeSeconds": 1728,
+      "rank": 25,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "university-96e731540e16",
+      "locator": "PDF p.2 team no.19, section 1; section detail p.3",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-19-2",
+      "entryId": "aj26-entry-19",
+      "sectionId": "aj26-s2",
+      "athleteId": "athlete-aj26-19-2",
+      "timeSeconds": 1959,
+      "rank": 12,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "university-96e731540e16",
+      "locator": "PDF p.2 team no.19, section 2; section detail p.4",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-19-3",
+      "entryId": "aj26-entry-19",
+      "sectionId": "aj26-s3",
+      "athleteId": "athlete-aj26-19-3",
+      "timeSeconds": 2177,
+      "rank": 24,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "university-96e731540e16",
+      "locator": "PDF p.2 team no.19, section 3; section detail p.5",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-19-4",
+      "entryId": "aj26-entry-19",
+      "sectionId": "aj26-s4",
+      "athleteId": "athlete-aj26-19-4",
+      "timeSeconds": 2131,
+      "rank": 20,
+      "status": "finished",
+      "grade": "2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "university-96e731540e16",
+      "locator": "PDF p.2 team no.19, section 4; section detail p.6",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-19-5",
+      "entryId": "aj26-entry-19",
+      "sectionId": "aj26-s5",
+      "athleteId": "athlete-aj26-19-5",
+      "timeSeconds": 2356,
+      "rank": 24,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "university-96e731540e16",
+      "locator": "PDF p.2 team no.19, section 5; section detail p.7",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-19-6",
+      "entryId": "aj26-entry-19",
+      "sectionId": "aj26-s6",
+      "athleteId": "athlete-aj26-19-6",
+      "timeSeconds": 2429,
+      "rank": 23,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "university-96e731540e16",
+      "locator": "PDF p.2 team no.19, section 6; section detail p.8",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-19-7",
+      "entryId": "aj26-entry-19",
+      "sectionId": "aj26-s7",
+      "athleteId": "athlete-aj26-19-7",
+      "timeSeconds": 3371,
+      "rank": 22,
+      "status": "finished",
+      "grade": "1",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "university-96e731540e16",
+      "locator": "PDF p.2 team no.19, section 7; section detail p.9",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-19-8",
+      "entryId": "aj26-entry-19",
+      "sectionId": "aj26-s8",
+      "athleteId": "athlete-aj26-19-8",
+      "timeSeconds": 3761,
+      "rank": 25,
+      "status": "finished",
+      "grade": "2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "university-96e731540e16",
+      "locator": "PDF p.2 team no.19, section 8; section detail p.10",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-24-1",
+      "entryId": "aj26-entry-24",
+      "sectionId": "aj26-s1",
+      "athleteId": "athlete-aj25-24-4",
+      "timeSeconds": 1694,
+      "rank": 20,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "hiroshima-economics",
+      "locator": "PDF p.2 team no.24, section 1; section detail p.3",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-24-2",
+      "entryId": "aj26-entry-24",
+      "sectionId": "aj26-s2",
+      "athleteId": "athlete-aj26-24-2",
+      "timeSeconds": 2026,
+      "rank": 26,
+      "status": "finished",
+      "grade": "M1",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "hiroshima-economics",
+      "locator": "PDF p.2 team no.24, section 2; section detail p.4",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-24-3",
+      "entryId": "aj26-entry-24",
+      "sectionId": "aj26-s3",
+      "athleteId": "athlete-aj26-24-3",
+      "timeSeconds": 2129,
+      "rank": 18,
+      "status": "finished",
+      "grade": "2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "hiroshima-economics",
+      "locator": "PDF p.2 team no.24, section 3; section detail p.5",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-24-4",
+      "entryId": "aj26-entry-24",
+      "sectionId": "aj26-s4",
+      "athleteId": "athlete-aj26-24-4",
+      "timeSeconds": 2218,
+      "rank": 25,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "hiroshima-economics",
+      "locator": "PDF p.2 team no.24, section 4; section detail p.6",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-24-5",
+      "entryId": "aj26-entry-24",
+      "sectionId": "aj26-s5",
+      "athleteId": "athlete-aj26-24-5",
+      "timeSeconds": 2350,
+      "rank": 23,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "hiroshima-economics",
+      "locator": "PDF p.2 team no.24, section 5; section detail p.7",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-24-6",
+      "entryId": "aj26-entry-24",
+      "sectionId": "aj26-s6",
+      "athleteId": "athlete-aj26-24-6",
+      "timeSeconds": 2473,
+      "rank": 25,
+      "status": "finished",
+      "grade": "2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "hiroshima-economics",
+      "locator": "PDF p.2 team no.24, section 6; section detail p.8",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-24-7",
+      "entryId": "aj26-entry-24",
+      "sectionId": "aj26-s7",
+      "athleteId": "athlete-aj26-24-7",
+      "timeSeconds": 3391,
+      "rank": 24,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "hiroshima-economics",
+      "locator": "PDF p.2 team no.24, section 7; section detail p.9",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-24-8",
+      "entryId": "aj26-entry-24",
+      "sectionId": "aj26-s8",
+      "athleteId": "athlete-aj25-24-8",
+      "timeSeconds": 3650,
+      "rank": 17,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "hiroshima-economics",
+      "locator": "PDF p.2 team no.24, section 8; section detail p.10",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-18-1",
+      "entryId": "aj26-entry-18",
+      "sectionId": "aj26-s1",
+      "athleteId": "athlete-aj25-18-1",
+      "timeSeconds": 1690,
+      "rank": 18,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "shinshu",
+      "locator": "PDF p.2 team no.18, section 1; section detail p.3",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-18-2",
+      "entryId": "aj26-entry-18",
+      "sectionId": "aj26-s2",
+      "athleteId": "athlete-aj26-18-2",
+      "timeSeconds": 2002,
+      "rank": 22,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "shinshu",
+      "locator": "PDF p.2 team no.18, section 2; section detail p.4",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-18-3",
+      "entryId": "aj26-entry-18",
+      "sectionId": "aj26-s3",
+      "athleteId": "athlete-aj26-18-3",
+      "timeSeconds": 2179,
+      "rank": 25,
+      "status": "finished",
+      "grade": "M2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "shinshu",
+      "locator": "PDF p.2 team no.18, section 3; section detail p.5",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-18-4",
+      "entryId": "aj26-entry-18",
+      "sectionId": "aj26-s4",
+      "athleteId": "athlete-aj26-18-4",
+      "timeSeconds": 2205,
+      "rank": 24,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "shinshu",
+      "locator": "PDF p.2 team no.18, section 4; section detail p.6",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-18-5",
+      "entryId": "aj26-entry-18",
+      "sectionId": "aj26-s5",
+      "athleteId": "athlete-aj26-18-5",
+      "timeSeconds": 2369,
+      "rank": 25,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "shinshu",
+      "locator": "PDF p.2 team no.18, section 5; section detail p.7",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-18-6",
+      "entryId": "aj26-entry-18",
+      "sectionId": "aj26-s6",
+      "athleteId": "athlete-aj26-18-6",
+      "timeSeconds": 2486,
+      "rank": 26,
+      "status": "finished",
+      "grade": "M2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "shinshu",
+      "locator": "PDF p.2 team no.18, section 6; section detail p.8",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-18-7",
+      "entryId": "aj26-entry-18",
+      "sectionId": "aj26-s7",
+      "athleteId": "athlete-aj26-18-7",
+      "timeSeconds": 3500,
+      "rank": 27,
+      "status": "finished",
+      "grade": "M2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "shinshu",
+      "locator": "PDF p.2 team no.18, section 7; section detail p.9",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-18-8",
+      "entryId": "aj26-entry-18",
+      "sectionId": "aj26-s8",
+      "athleteId": "athlete-aj25-18-6",
+      "timeSeconds": 3690,
+      "rank": 20,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "shinshu",
+      "locator": "PDF p.2 team no.18, section 8; section detail p.10",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-25-1",
+      "entryId": "aj26-entry-25",
+      "sectionId": "aj26-s1",
+      "athleteId": "athlete-aj25-25-1",
+      "timeSeconds": 1740,
+      "rank": 26,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "shigakukan",
+      "locator": "PDF p.2 team no.25, section 1; section detail p.3",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-25-2",
+      "entryId": "aj26-entry-25",
+      "sectionId": "aj26-s2",
+      "athleteId": "athlete-aj25-25-3",
+      "timeSeconds": 2024,
+      "rank": 25,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "shigakukan",
+      "locator": "PDF p.2 team no.25, section 2; section detail p.4",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-25-3",
+      "entryId": "aj26-entry-25",
+      "sectionId": "aj26-s3",
+      "athleteId": "athlete-aj26-25-3",
+      "timeSeconds": 2230,
+      "rank": 26,
+      "status": "finished",
+      "grade": "1",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "shigakukan",
+      "locator": "PDF p.2 team no.25, section 3; section detail p.5",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-25-4",
+      "entryId": "aj26-entry-25",
+      "sectionId": "aj26-s4",
+      "athleteId": "athlete-aj26-25-4",
+      "timeSeconds": 2333,
+      "rank": 27,
+      "status": "finished",
+      "grade": "1",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "shigakukan",
+      "locator": "PDF p.2 team no.25, section 4; section detail p.6",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-25-5",
+      "entryId": "aj26-entry-25",
+      "sectionId": "aj26-s5",
+      "athleteId": "athlete-aj25-25-5",
+      "timeSeconds": 2489,
+      "rank": 27,
+      "status": "finished",
+      "grade": "2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "shigakukan",
+      "locator": "PDF p.2 team no.25, section 5; section detail p.7",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-25-6",
+      "entryId": "aj26-entry-25",
+      "sectionId": "aj26-s6",
+      "athleteId": "athlete-aj26-25-6",
+      "timeSeconds": 2450,
+      "rank": 24,
+      "status": "finished",
+      "grade": "1",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "shigakukan",
+      "locator": "PDF p.2 team no.25, section 6; section detail p.8",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-25-7",
+      "entryId": "aj26-entry-25",
+      "sectionId": "aj26-s7",
+      "athleteId": "athlete-aj25-25-8",
+      "timeSeconds": 3326,
+      "rank": 20,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "shigakukan",
+      "locator": "PDF p.2 team no.25, section 7; section detail p.9",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-25-8",
+      "entryId": "aj26-entry-25",
+      "sectionId": "aj26-s8",
+      "athleteId": "athlete-aj25-25-7",
+      "timeSeconds": 3640,
+      "rank": 15,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "shigakukan",
+      "locator": "PDF p.2 team no.25, section 8; section detail p.10",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-10-1",
+      "entryId": "aj26-entry-10",
+      "sectionId": "aj26-s1",
+      "athleteId": "athlete-aj26-10-1",
+      "timeSeconds": 1744,
+      "rank": 27,
+      "status": "finished",
+      "grade": "2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "tohoku",
+      "locator": "PDF p.2 team no.10, section 1; section detail p.3",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-10-2",
+      "entryId": "aj26-entry-10",
+      "sectionId": "aj26-s2",
+      "athleteId": "athlete-aj26-10-2",
+      "timeSeconds": 2170,
+      "rank": 27,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "tohoku",
+      "locator": "PDF p.2 team no.10, section 2; section detail p.4",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-10-3",
+      "entryId": "aj26-entry-10",
+      "sectionId": "aj26-s3",
+      "athleteId": "athlete-aj24-25-3",
+      "timeSeconds": 2230,
+      "rank": 26,
+      "status": "finished",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "tohoku",
+      "locator": "PDF p.2 team no.10, section 3; section detail p.5",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-10-4",
+      "entryId": "aj26-entry-10",
+      "sectionId": "aj26-s4",
+      "athleteId": "athlete-aj26-10-4",
+      "timeSeconds": 2230,
+      "rank": 26,
+      "status": "finished",
+      "grade": "M2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "tohoku",
+      "locator": "PDF p.2 team no.10, section 4; section detail p.6",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-10-5",
+      "entryId": "aj26-entry-10",
+      "sectionId": "aj26-s5",
+      "athleteId": "athlete-aj26-10-5",
+      "timeSeconds": 2382,
+      "rank": 26,
+      "status": "finished",
+      "grade": "2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "tohoku",
+      "locator": "PDF p.2 team no.10, section 5; section detail p.7",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-10-6",
+      "entryId": "aj26-entry-10",
+      "sectionId": "aj26-s6",
+      "athleteId": "athlete-aj26-10-6",
+      "timeSeconds": 2512,
+      "rank": 27,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "tohoku",
+      "locator": "PDF p.2 team no.10, section 6; section detail p.8",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-10-7",
+      "entryId": "aj26-entry-10",
+      "sectionId": "aj26-s7",
+      "athleteId": "athlete-aj24-25-7",
+      "timeSeconds": 3432,
+      "rank": 25,
+      "status": "finished",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "tohoku",
+      "locator": "PDF p.2 team no.10, section 7; section detail p.9",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-10-8",
+      "entryId": "aj26-entry-10",
+      "sectionId": "aj26-s8",
+      "athleteId": "athlete-aj26-10-8",
+      "timeSeconds": 3881,
+      "rank": 27,
+      "status": "finished",
+      "grade": "M2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": "tohoku",
+      "locator": "PDF p.2 team no.10, section 8; section detail p.10",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-26-1",
+      "entryId": "aj26-entry-26",
+      "sectionId": "aj26-s1",
+      "athleteId": "athlete-aj26-26-1",
+      "timeSeconds": 1695,
+      "rank": 22,
+      "status": "reference",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": null,
+      "locator": "PDF p.2 team no.26, section 1; section detail p.3",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-26-2",
+      "entryId": "aj26-entry-26",
+      "sectionId": "aj26-s2",
+      "athleteId": "athlete-aj26-26-2",
+      "timeSeconds": 1976,
+      "rank": 17,
+      "status": "reference",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": null,
+      "locator": "PDF p.2 team no.26, section 2; section detail p.4",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-26-3",
+      "entryId": "aj26-entry-26",
+      "sectionId": "aj26-s3",
+      "athleteId": "athlete-aj26-26-3",
+      "timeSeconds": 2114,
+      "rank": 17,
+      "status": "reference",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": null,
+      "locator": "PDF p.2 team no.26, section 3; section detail p.5",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-26-4",
+      "entryId": "aj26-entry-26",
+      "sectionId": "aj26-s4",
+      "athleteId": "athlete-aj26-26-4",
+      "timeSeconds": 2094,
+      "rank": 16,
+      "status": "reference",
+      "grade": "M2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": null,
+      "locator": "PDF p.2 team no.26, section 4; section detail p.6",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-26-5",
+      "entryId": "aj26-entry-26",
+      "sectionId": "aj26-s5",
+      "athleteId": "athlete-aj26-26-5",
+      "timeSeconds": 2295,
+      "rank": 18,
+      "status": "reference",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": null,
+      "locator": "PDF p.2 team no.26, section 5; section detail p.7",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-26-6",
+      "entryId": "aj26-entry-26",
+      "sectionId": "aj26-s6",
+      "athleteId": "athlete-aj26-26-6",
+      "timeSeconds": 2357,
+      "rank": 18,
+      "status": "reference",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": null,
+      "locator": "PDF p.2 team no.26, section 6; section detail p.8",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-26-7",
+      "entryId": "aj26-entry-26",
+      "sectionId": "aj26-s7",
+      "athleteId": "athlete-aj26-26-7",
+      "timeSeconds": 3235,
+      "rank": 13,
+      "status": "reference",
+      "grade": "M2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": null,
+      "locator": "PDF p.2 team no.26, section 7; section detail p.9",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-26-8",
+      "entryId": "aj26-entry-26",
+      "sectionId": "aj26-s8",
+      "athleteId": "athlete-aj26-26-8",
+      "timeSeconds": 3655,
+      "rank": 18,
+      "status": "reference",
+      "grade": "5",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": null,
+      "locator": "PDF p.2 team no.26, section 8; section detail p.10",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-27-1",
+      "entryId": "aj26-entry-27",
+      "sectionId": "aj26-s1",
+      "athleteId": "athlete-aj26-27-1",
+      "timeSeconds": 1695,
+      "rank": 21,
+      "status": "reference",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": null,
+      "locator": "PDF p.2 team no.27, section 1; section detail p.3",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-27-2",
+      "entryId": "aj26-entry-27",
+      "sectionId": "aj26-s2",
+      "athleteId": "athlete-aj26-27-2",
+      "timeSeconds": 2013,
+      "rank": 23,
+      "status": "reference",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": null,
+      "locator": "PDF p.2 team no.27, section 2; section detail p.4",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-27-3",
+      "entryId": "aj26-entry-27",
+      "sectionId": "aj26-s3",
+      "athleteId": "athlete-aj26-27-3",
+      "timeSeconds": 2112,
+      "rank": 16,
+      "status": "reference",
+      "grade": "3",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": null,
+      "locator": "PDF p.2 team no.27, section 3; section detail p.5",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-27-4",
+      "entryId": "aj26-entry-27",
+      "sectionId": "aj26-s4",
+      "athleteId": "athlete-aj26-27-4",
+      "timeSeconds": 2169,
+      "rank": 22,
+      "status": "reference",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": null,
+      "locator": "PDF p.2 team no.27, section 4; section detail p.6",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-27-5",
+      "entryId": "aj26-entry-27",
+      "sectionId": "aj26-s5",
+      "athleteId": "athlete-aj26-27-5",
+      "timeSeconds": 2306,
+      "rank": 19,
+      "status": "reference",
+      "grade": "M2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": null,
+      "locator": "PDF p.2 team no.27, section 5; section detail p.7",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-27-6",
+      "entryId": "aj26-entry-27",
+      "sectionId": "aj26-s6",
+      "athleteId": "athlete-aj26-27-6",
+      "timeSeconds": 2322,
+      "rank": 16,
+      "status": "reference",
+      "grade": "M2",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": null,
+      "locator": "PDF p.2 team no.27, section 6; section detail p.8",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-27-7",
+      "entryId": "aj26-entry-27",
+      "sectionId": "aj26-s7",
+      "athleteId": "athlete-aj26-27-7",
+      "timeSeconds": 3261,
+      "rank": 17,
+      "status": "reference",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": null,
+      "locator": "PDF p.2 team no.27, section 7; section detail p.9",
+      "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "aj26-result-27-8",
+      "entryId": "aj26-entry-27",
+      "sectionId": "aj26-s8",
+      "athleteId": "athlete-aj26-27-8",
+      "timeSeconds": 3798,
+      "rank": 26,
+      "status": "reference",
+      "grade": "4",
+      "participationSourceId": "iuau-aj26-roster",
+      "representingUniversityId": null,
+      "locator": "PDF p.2 team no.27, section 8; section detail p.10",
+      "sourceId": "iuau-aj26-results"
+    }
+  ],
+  "identities": [
+    {
+      "recordId": "aj26-result-05-1",
+      "athleteId": "athlete-aj26-05-1",
+      "observedName": "本田 桜二郎",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-05-2",
+      "athleteId": "athlete-aj26-05-2",
+      "observedName": "増子 陽太",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-05-3",
+      "athleteId": "athlete-aj26-05-3",
+      "observedName": "新妻 遼己",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-05-4",
+      "athleteId": "athlete-aj25-05-5",
+      "observedName": "小平 敦之",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-05-5"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 3 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-05-5",
+      "athleteId": "athlete-aj25-05-2",
+      "observedName": "鈴木 琉胤",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-05-2"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 1 → 2026 2；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-05-6",
+      "athleteId": "athlete-aj25-05-3",
+      "observedName": "堀野 正太",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-05-3"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 1 → 2026 2；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-05-7",
+      "athleteId": "athlete-aj24-05-5",
+      "observedName": "山口 竣平",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj24-05-5"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2024-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2024 1 → 2026 3；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-05-8",
+      "athleteId": "athlete-aj24-05-8",
+      "observedName": "工藤 慎作",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj24-05-8"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj23-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2023 1 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-04-1",
+      "athleteId": "athlete-aj25-01-1",
+      "observedName": "尾熊 迅斗",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-01-1"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 2 → 2026 3；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-04-2",
+      "athleteId": "athlete-aj25-01-6",
+      "observedName": "浅野 結太",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-01-6"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 2 → 2026 3；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-04-3",
+      "athleteId": "athlete-aj24-01-3",
+      "observedName": "辻原 輝",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj24-01-3"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2024-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2024 2 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-04-4",
+      "athleteId": "athlete-aj25-01-5",
+      "observedName": "飯國 新太",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-01-5"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 2 → 2026 3；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-04-5",
+      "athleteId": "athlete-aj26-04-5",
+      "observedName": "鼻野木 悠翔",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-04-6",
+      "athleteId": "athlete-aj26-04-6",
+      "observedName": "吉田 蔵之介",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-04-7",
+      "athleteId": "athlete-aj24-01-5",
+      "observedName": "野中 恒亨",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj24-01-5"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2024-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2024 2 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-04-8",
+      "athleteId": "athlete-aj26-04-8",
+      "observedName": "髙石 樹",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-07-1",
+      "athleteId": "athlete-aj26-07-1",
+      "observedName": "田村 幸太",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-07-2",
+      "athleteId": "athlete-aj25-04-4",
+      "observedName": "織橋 巧",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-04-4"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj23-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2023 1 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-07-3",
+      "athleteId": "athlete-aj26-07-3",
+      "observedName": "菅野 元太",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-07-4",
+      "athleteId": "athlete-aj25-04-2",
+      "observedName": "小池 莉希",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-04-2"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj23-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2023 1 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-07-5",
+      "athleteId": "athlete-aj26-07-5",
+      "observedName": "村上 遵世",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-07-6",
+      "athleteId": "athlete-aj25-04-6",
+      "observedName": "榎木 凜太朗",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-04-6"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 2 → 2026 3；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-07-7",
+      "athleteId": "athlete-aj24-04-5",
+      "observedName": "スティーブン ムチーニ",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj24-04-5"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj23-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2023 1 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-07-8",
+      "athleteId": "athlete-aj24-04-4",
+      "observedName": "山口 翔輝",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj24-04-4"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2024-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2024 1 → 2026 3；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-03-1",
+      "athleteId": "athlete-aj26-03-1",
+      "observedName": "榅山 一颯",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-03-2",
+      "athleteId": "athlete-aj26-03-2",
+      "observedName": "石川 浩輝",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-03-3",
+      "athleteId": "athlete-aj26-03-3",
+      "observedName": "松田 煌希",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-03-4",
+      "athleteId": "athlete-aj26-03-4",
+      "observedName": "黒田 然",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-03-5",
+      "athleteId": "athlete-aj25-03-8",
+      "observedName": "小河原 陽琉",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-03-8"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 2 → 2026 3；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-03-6",
+      "athleteId": "athlete-aj25-03-6",
+      "observedName": "飯田 翔大",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-03-6"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 2 → 2026 3；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-03-7",
+      "athleteId": "athlete-aj26-03-7",
+      "observedName": "平松 享祐",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-03-8",
+      "athleteId": "athlete-aj26-03-8",
+      "observedName": "鳥井 健太",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-02-1",
+      "athleteId": "athlete-aj26-02-1",
+      "observedName": "簡 子傑",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-02-2",
+      "athleteId": "athlete-aj26-02-2",
+      "observedName": "栗村 凌",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-02-3",
+      "athleteId": "athlete-aj24-12-6",
+      "observedName": "佐藤 大介",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj24-12-6"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2024-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2024 1 → 2026 3；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-02-4",
+      "athleteId": "athlete-aj25-11-4",
+      "observedName": "柴田 大地",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-11-4"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 3 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-02-5",
+      "athleteId": "athlete-aj25-11-5",
+      "observedName": "三宅 悠斗",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-11-5"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 1 → 2026 2；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-02-6",
+      "athleteId": "athlete-aj26-02-6",
+      "observedName": "並川 颯太",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-02-7",
+      "athleteId": "athlete-aj24-12-2",
+      "observedName": "岡田 開成",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj24-12-2"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2024-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2024 1 → 2026 3；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-02-8",
+      "athleteId": "athlete-aj25-11-3",
+      "observedName": "藤田 大智",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-11-3"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 3 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-01-1",
+      "athleteId": "athlete-aj26-01-1",
+      "observedName": "上岡 煌",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-01-2",
+      "athleteId": "athlete-aj26-01-2",
+      "observedName": "鈴木 大翔",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-01-3",
+      "athleteId": "athlete-aj26-01-3",
+      "observedName": "牟田 凜太",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-01-4",
+      "athleteId": "athlete-aj26-01-4",
+      "observedName": "池谷 陸斗",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-01-5",
+      "athleteId": "athlete-aj26-01-5",
+      "observedName": "植阪 嶺児",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-01-6",
+      "athleteId": "athlete-aj26-01-6",
+      "observedName": "菅谷 希弥",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-01-7",
+      "athleteId": "athlete-aj24-02-2",
+      "observedName": "桑田 駿介",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj24-02-2"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2024-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2024 1 → 2026 3；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-01-8",
+      "athleteId": "athlete-aj26-01-8",
+      "observedName": "新谷 倖生",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-13-1",
+      "athleteId": "athlete-aj26-13-1",
+      "observedName": "近江 亮",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-13-2",
+      "athleteId": "athlete-aj24-11-1",
+      "observedName": "大濱 逞真",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj24-11-1"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2024-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2024 1 → 2026 3；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-13-3",
+      "athleteId": "athlete-aj25-12-6",
+      "observedName": "上田 翔大",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-12-6"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 1 → 2026 2；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-13-4",
+      "athleteId": "athlete-aj25-12-1",
+      "observedName": "菅﨑 大翔",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-12-1"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 1 → 2026 2；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-13-5",
+      "athleteId": "athlete-aj24-11-5",
+      "observedName": "棟方 一楽",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj24-11-5"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2024-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2024 2 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-13-6",
+      "athleteId": "athlete-aj26-13-6",
+      "observedName": "エヴァンス キプロップ",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-13-7",
+      "athleteId": "athlete-aj26-13-7",
+      "observedName": "藤原 幹大",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-13-8",
+      "athleteId": "athlete-aj25-12-8",
+      "observedName": "松浦 輝仁",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-12-8"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 2 → 2026 3；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-06-1",
+      "athleteId": "athlete-aj26-06-1",
+      "observedName": "松尾 航希",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-06-2",
+      "athleteId": "athlete-aj24-08-6",
+      "observedName": "楠岡 由浩",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj24-08-6"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2024-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2024 2 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-06-3",
+      "athleteId": "athlete-aj26-06-3",
+      "observedName": "松井 一",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-06-4",
+      "athleteId": "athlete-aj24-08-4",
+      "observedName": "廣田 陸",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj24-08-4"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2024-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2024 2 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-06-5",
+      "athleteId": "athlete-aj26-06-5",
+      "observedName": "浅野 智仁",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-06-6",
+      "athleteId": "athlete-aj25-08-3",
+      "observedName": "原 悠太",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-08-3"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 3 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-06-7",
+      "athleteId": "athlete-aj25-08-4",
+      "observedName": "谷口 颯太",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-08-4"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 3 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-06-8",
+      "athleteId": "athlete-aj25-08-8",
+      "observedName": "浅川 侑大",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-08-8"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 3 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-08-1",
+      "athleteId": "athlete-aj26-08-1",
+      "observedName": "大野 聖登",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-08-2",
+      "athleteId": "athlete-aj25-13-1",
+      "observedName": "吉岡 大翔",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-13-1"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj23-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2023 1 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-08-3",
+      "athleteId": "athlete-aj26-08-3",
+      "observedName": "池間 凛斗",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-08-4",
+      "athleteId": "athlete-aj26-08-4",
+      "observedName": "今井 悠貴",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-08-5",
+      "athleteId": "athlete-aj25-13-3",
+      "observedName": "山本 悠",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-13-3"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 2 → 2026 3；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-08-6",
+      "athleteId": "athlete-aj25-13-4",
+      "observedName": "永原 颯磨",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-13-4"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 2 → 2026 3；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-08-7",
+      "athleteId": "athlete-aj26-08-7",
+      "observedName": "玉目 陸",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-08-8",
+      "athleteId": "athlete-aj25-13-8",
+      "observedName": "小林 侑世",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-13-8"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 3 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-11-1",
+      "athleteId": "athlete-aj26-11-1",
+      "observedName": "首藤 海翔",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-11-2",
+      "athleteId": "athlete-aj25-14-3",
+      "observedName": "天野 啓太",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-14-3"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 3 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-11-3",
+      "athleteId": "athlete-aj26-11-3",
+      "observedName": "後藤 玄樹",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-11-4",
+      "athleteId": "athlete-aj25-14-2",
+      "observedName": "山口 聡太",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-14-2"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 3 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-11-5",
+      "athleteId": "athlete-aj26-11-5",
+      "observedName": "橋本 櫂知",
+      "status": "needs-review",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。 最终名单字形与成绩表不同，年级留空待核验：𣘺本 櫂知"
+    },
+    {
+      "recordId": "aj26-result-11-6",
+      "athleteId": "athlete-aj26-11-6",
+      "observedName": "石川 悠斗",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-11-7",
+      "athleteId": "athlete-aj25-14-7",
+      "observedName": "シャドラック キップケメイ",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-14-7"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 3 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-11-8",
+      "athleteId": "athlete-aj25-14-5",
+      "observedName": "長澤 辰朗",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-14-5"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 2 → 2026 3；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-12-1",
+      "athleteId": "athlete-aj26-12-1",
+      "observedName": "矢口 陽太",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-12-2",
+      "athleteId": "athlete-aj25-15-2",
+      "observedName": "永本 脩",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-15-2"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 3 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-12-3",
+      "athleteId": "athlete-aj25-15-6",
+      "observedName": "平井 璃空",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-15-6"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 2 → 2026 3；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-12-4",
+      "athleteId": "athlete-aj25-15-5",
+      "observedName": "松山 優太",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-15-5"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 1 → 2026 2；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-12-5",
+      "athleteId": "athlete-aj26-12-5",
+      "observedName": "松山 唯人",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-12-6",
+      "athleteId": "athlete-aj26-12-6",
+      "observedName": "佐野 鈴太",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-12-7",
+      "athleteId": "athlete-aj25-15-4",
+      "observedName": "中野 純平",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-15-4"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 2 → 2026 3；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-12-8",
+      "athleteId": "athlete-aj24-15-7",
+      "observedName": "南坂 柚汰",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj24-15-7"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj23-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2023 1 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-14-1",
+      "athleteId": "athlete-aj26-14-1",
+      "observedName": "北村 海智",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-14-2",
+      "athleteId": "athlete-aj26-14-2",
+      "observedName": "上田 航大",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-14-3",
+      "athleteId": "athlete-aj26-14-3",
+      "observedName": "平川 瑠星",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-14-4",
+      "athleteId": "athlete-aj26-14-4",
+      "observedName": "山崎 碧葉",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-14-5",
+      "athleteId": "athlete-aj26-14-5",
+      "observedName": "新妻 昂己",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-14-6",
+      "athleteId": "athlete-aj26-14-6",
+      "observedName": "新妻 玲旺",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-14-7",
+      "athleteId": "athlete-aj24-14-1",
+      "observedName": "大岩 蓮",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj24-14-1"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2024-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2024 2 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-14-8",
+      "athleteId": "athlete-aj26-14-8",
+      "observedName": "花井 創",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-16-1",
+      "athleteId": "athlete-aj26-16-1",
+      "observedName": "米田 昂太",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-16-2",
+      "athleteId": "athlete-aj25-16-3",
+      "observedName": "市川 大世",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-16-3"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 3 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-16-3",
+      "athleteId": "athlete-aj25-16-7",
+      "observedName": "長部 虎太郎",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-16-7"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 2 → 2026 3；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-16-4",
+      "athleteId": "athlete-aj26-16-4",
+      "observedName": "長友 英吾",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-16-5",
+      "athleteId": "athlete-aj26-16-5",
+      "observedName": "一ノ瀬 慎太",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-16-6",
+      "athleteId": "athlete-aj26-16-6",
+      "observedName": "徳善 龍",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-16-7",
+      "athleteId": "athlete-aj25-16-8",
+      "observedName": "林 愛斗",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-16-8"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 3 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-16-8",
+      "athleteId": "athlete-aj26-16-8",
+      "observedName": "小川 優晴",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-17-1",
+      "athleteId": "athlete-aj26-17-1",
+      "observedName": "和田 瑛登",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-17-2",
+      "athleteId": "athlete-aj26-17-2",
+      "observedName": "占部 大和",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-17-3",
+      "athleteId": "athlete-aj26-17-3",
+      "observedName": "松岡 一星",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-17-4",
+      "athleteId": "athlete-aj26-17-4",
+      "observedName": "傅法谷 元",
+      "status": "needs-review",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。 最终名单字形与成绩表不同，年级留空待核验：傳法谷 元"
+    },
+    {
+      "recordId": "aj26-result-17-5",
+      "athleteId": "athlete-aj26-17-5",
+      "observedName": "高橋 楓河",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-17-6",
+      "athleteId": "athlete-aj26-17-6",
+      "observedName": "綱本 幸栄",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-17-7",
+      "athleteId": "athlete-aj26-17-7",
+      "observedName": "平井 翼",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-17-8",
+      "athleteId": "athlete-aj26-17-8",
+      "observedName": "ブライアン キピエゴ",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-15-1",
+      "athleteId": "athlete-aj26-15-1",
+      "observedName": "林 柚杏",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-15-2",
+      "athleteId": "athlete-aj26-15-2",
+      "observedName": "内堀 勇",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-15-3",
+      "athleteId": "athlete-aj26-15-3",
+      "observedName": "松井 海斗",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-15-4",
+      "athleteId": "athlete-aj26-15-4",
+      "observedName": "宮崎 優",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-15-5",
+      "athleteId": "athlete-aj26-15-5",
+      "observedName": "迎 暖人",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-15-6",
+      "athleteId": "athlete-aj26-15-6",
+      "observedName": "倉本 晃羽",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-15-7",
+      "athleteId": "athlete-aj26-15-7",
+      "observedName": "馬場 大翔",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-15-8",
+      "athleteId": "athlete-aj23-08-5",
+      "observedName": "薄根 大河",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj23-08-5"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj23-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2023 1 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-22-1",
+      "athleteId": "athlete-aj25-23-1",
+      "observedName": "山下 慶馬",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-23-1"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj23-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2023 1 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-22-2",
+      "athleteId": "athlete-aj25-23-2",
+      "observedName": "寺川 直央",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-23-2",
+        "athlete-aj23-23-4"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 3 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-22-3",
+      "athleteId": "athlete-aj25-23-3",
+      "observedName": "久山 大祐",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-23-3"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 3 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-22-4",
+      "athleteId": "athlete-aj26-22-4",
+      "observedName": "上井 卓巳",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-22-5",
+      "athleteId": "athlete-aj25-23-5",
+      "observedName": "冨永 己太朗",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-23-5"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 3 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-22-6",
+      "athleteId": "athlete-aj25-23-6",
+      "observedName": "片山 堅友",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-23-6"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 2 → 2026 3；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-22-7",
+      "athleteId": "athlete-aj25-23-7",
+      "observedName": "尼子 和磨",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-23-7"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 1 → 2026 2；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-22-8",
+      "athleteId": "athlete-aj25-23-8",
+      "observedName": "嘉味本 謙信",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-23-8"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 3 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-21-1",
+      "athleteId": "athlete-aj26-21-1",
+      "observedName": "桂 一太",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-21-2",
+      "athleteId": "athlete-aj24-18-1",
+      "observedName": "岩坂 蓮太",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj24-18-1"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2024-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2024 1 → 2026 3；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-21-3",
+      "athleteId": "athlete-aj26-21-3",
+      "observedName": "三浦 璃空",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-21-4",
+      "athleteId": "athlete-aj24-18-6",
+      "observedName": "内尾 射光矢",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj24-18-6"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2024-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2024 1 → 2026 3；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-21-5",
+      "athleteId": "athlete-aj26-21-5",
+      "observedName": "橋本 友樹",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-21-6",
+      "athleteId": "athlete-aj26-21-6",
+      "observedName": "卯野 大樹",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-21-7",
+      "athleteId": "athlete-aj24-18-5",
+      "observedName": "京川 大真",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj24-18-5"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj23-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2023 1 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-21-8",
+      "athleteId": "athlete-aj25-22-8",
+      "observedName": "野島 清盟",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-22-8"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 2 → 2026 3；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-23-1",
+      "athleteId": "athlete-aj26-23-1",
+      "observedName": "水野 颯也",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-23-2",
+      "athleteId": "athlete-aj24-22-1",
+      "observedName": "柏木 優希",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj24-22-1"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2024-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2024 1 → 2026 3；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-23-3",
+      "athleteId": "athlete-aj24-22-4",
+      "observedName": "児玉 航洋",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj24-22-4"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj23-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2023 1 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-23-4",
+      "athleteId": "athlete-aj26-23-4",
+      "observedName": "藪田 虎志朗",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-23-5",
+      "athleteId": "athlete-aj26-23-5",
+      "observedName": "髙橋 早大",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-23-6",
+      "athleteId": "athlete-aj26-23-6",
+      "observedName": "橋本 和希",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-23-7",
+      "athleteId": "athlete-aj24-22-6",
+      "observedName": "髙田 智生",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj24-22-6"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2024-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2024 1 → 2026 3；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-23-8",
+      "athleteId": "athlete-aj26-23-8",
+      "observedName": "矢谷 隆斗",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-09-1",
+      "athleteId": "athlete-aj24-20-6",
+      "observedName": "浦田 陽聖",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj24-20-6"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2024-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2024 1 → 2026 3；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-09-2",
+      "athleteId": "athlete-aj25-09-1",
+      "observedName": "高坂 光希",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-09-1"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 3 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-09-3",
+      "athleteId": "athlete-aj26-09-3",
+      "observedName": "大橋 史空",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-09-4",
+      "athleteId": "athlete-aj26-09-4",
+      "observedName": "大宮 千來",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-09-5",
+      "athleteId": "athlete-aj26-09-5",
+      "observedName": "小林 歩夢",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-09-6",
+      "athleteId": "athlete-aj26-09-6",
+      "observedName": "田野 朝陽",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-09-7",
+      "athleteId": "athlete-aj24-20-8",
+      "observedName": "栗田 紳冴",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj24-20-8"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2024-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2024 2 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-09-8",
+      "athleteId": "athlete-aj25-09-8",
+      "observedName": "キプゲノ ケネス",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-09-8"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 1 → 2026 2；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-20-1",
+      "athleteId": "athlete-aj26-20-1",
+      "observedName": "松原 幸之助",
+      "status": "needs-review",
+      "candidateIds": [
+        "athlete-aj25-26-6"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保留独立ID。"
+    },
+    {
+      "recordId": "aj26-result-20-2",
+      "athleteId": "athlete-aj26-20-2",
+      "observedName": "竹村 明人",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-20-3",
+      "athleteId": "athlete-aj26-20-3",
+      "observedName": "西川 天馬",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-20-4",
+      "athleteId": "athlete-aj26-20-4",
+      "observedName": "南 月人",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-20-5",
+      "athleteId": "athlete-aj24-16-3",
+      "observedName": "藤田 大輝",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj24-16-3"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2024-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2024 2 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-20-6",
+      "athleteId": "athlete-aj26-20-6",
+      "observedName": "髙倉 侃斗",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-20-7",
+      "athleteId": "athlete-aj26-20-7",
+      "observedName": "吉村 陸翔",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-20-8",
+      "athleteId": "athlete-aj26-20-8",
+      "observedName": "古田 瑞樹",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-19-1",
+      "athleteId": "athlete-aj26-19-1",
+      "observedName": "坂井田 翔太",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-19-2",
+      "athleteId": "athlete-aj26-19-2",
+      "observedName": "岩田 玄弥",
+      "status": "needs-review",
+      "candidateIds": [
+        "athlete-aj25-27-3"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保留独立ID。"
+    },
+    {
+      "recordId": "aj26-result-19-3",
+      "athleteId": "athlete-aj26-19-3",
+      "observedName": "大迫 汰希",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-19-4",
+      "athleteId": "athlete-aj26-19-4",
+      "observedName": "豊田 雄大",
+      "status": "needs-review",
+      "candidateIds": [
+        "athlete-aj25-27-1"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保留独立ID。"
+    },
+    {
+      "recordId": "aj26-result-19-5",
+      "athleteId": "athlete-aj26-19-5",
+      "observedName": "加藤 晨",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-19-6",
+      "athleteId": "athlete-aj26-19-6",
+      "observedName": "横田 弥海",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-19-7",
+      "athleteId": "athlete-aj26-19-7",
+      "observedName": "中村 太一",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-19-8",
+      "athleteId": "athlete-aj26-19-8",
+      "observedName": "渥美 希良",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-24-1",
+      "athleteId": "athlete-aj25-24-4",
+      "observedName": "瀬尾 大和",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-24-4"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 2 → 2026 3；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-24-2",
+      "athleteId": "athlete-aj26-24-2",
+      "observedName": "小川 晴也",
+      "status": "needs-review",
+      "candidateIds": [
+        "athlete-aj25-24-3"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保留独立ID。"
+    },
+    {
+      "recordId": "aj26-result-24-3",
+      "athleteId": "athlete-aj26-24-3",
+      "observedName": "伊藤 大弥",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-24-4",
+      "athleteId": "athlete-aj26-24-4",
+      "observedName": "田中 陸",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-24-5",
+      "athleteId": "athlete-aj26-24-5",
+      "observedName": "日隈 敦士",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-24-6",
+      "athleteId": "athlete-aj26-24-6",
+      "observedName": "井﨑 尋斗",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-24-7",
+      "athleteId": "athlete-aj26-24-7",
+      "observedName": "中垣 颯太",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-24-8",
+      "athleteId": "athlete-aj25-24-8",
+      "observedName": "佐々木 昴",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-24-8"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 3 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-18-1",
+      "athleteId": "athlete-aj25-18-1",
+      "observedName": "片岡 晴哉",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-18-1"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 2 → 2026 3；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-18-2",
+      "athleteId": "athlete-aj26-18-2",
+      "observedName": "嶋津 明良",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-18-3",
+      "athleteId": "athlete-aj26-18-3",
+      "observedName": "福嶋 明大",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-18-4",
+      "athleteId": "athlete-aj26-18-4",
+      "observedName": "漆原 幹人",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-18-5",
+      "athleteId": "athlete-aj26-18-5",
+      "observedName": "村上 尚希",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-18-6",
+      "athleteId": "athlete-aj26-18-6",
+      "observedName": "有元 裕人",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-18-7",
+      "athleteId": "athlete-aj26-18-7",
+      "observedName": "川上 玄",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-18-8",
+      "athleteId": "athlete-aj25-18-6",
+      "observedName": "内田 善登",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-18-6"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 3 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-25-1",
+      "athleteId": "athlete-aj25-25-1",
+      "observedName": "中村 晃斗",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-25-1"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 3 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-25-2",
+      "athleteId": "athlete-aj25-25-3",
+      "observedName": "小田 夕琥",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-25-3"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 2 → 2026 3；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-25-3",
+      "athleteId": "athlete-aj26-25-3",
+      "observedName": "福田 陽仁",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-25-4",
+      "athleteId": "athlete-aj26-25-4",
+      "observedName": "黒葛 琉碧",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-25-5",
+      "athleteId": "athlete-aj25-25-5",
+      "observedName": "大平 倫嗣",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-25-5"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 1 → 2026 2；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-25-6",
+      "athleteId": "athlete-aj26-25-6",
+      "observedName": "倉元 大智",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-25-7",
+      "athleteId": "athlete-aj25-25-8",
+      "observedName": "辻田 鉄人",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-25-8"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 2 → 2026 3；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-25-8",
+      "athleteId": "athlete-aj25-25-7",
+      "observedName": "日野 拓夢",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj25-25-7"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2025-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2025 2 → 2026 3；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-10-1",
+      "athleteId": "athlete-aj26-10-1",
+      "observedName": "松本 諒哉",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-10-2",
+      "athleteId": "athlete-aj26-10-2",
+      "observedName": "渡邉 優典",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-10-3",
+      "athleteId": "athlete-aj24-25-3",
+      "observedName": "照内 優允",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj24-25-3"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2024-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2024 2 → 2026 4；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-10-4",
+      "athleteId": "athlete-aj26-10-4",
+      "observedName": "小林 由輝",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-10-5",
+      "athleteId": "athlete-aj26-10-5",
+      "observedName": "新美 友哉",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-10-6",
+      "athleteId": "athlete-aj26-10-6",
+      "observedName": "山内 滉介",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-10-7",
+      "athleteId": "athlete-aj24-25-7",
+      "observedName": "出田 義貴",
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj24-25-7"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster",
+        "iuau-aj2024-roster"
+      ],
+      "reason": "核对完整姓名、同大学及最终名单年级：2024 1 → 2026 3；来源支持同一身份。"
+    },
+    {
+      "recordId": "aj26-result-10-8",
+      "athleteId": "athlete-aj26-10-8",
+      "observedName": "向田 祐翔",
+      "status": "needs-review",
+      "candidateIds": [
+        "athlete-aj24-25-8"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保留独立ID。"
+    },
+    {
+      "recordId": "aj26-result-26-1",
+      "athleteId": "athlete-aj26-26-1",
+      "observedName": "小柴 裕士郎",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-26-2",
+      "athleteId": "athlete-aj26-26-2",
+      "observedName": "南部 悠陽",
+      "status": "needs-review",
+      "candidateIds": [
+        "athlete-aj25-26-7"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保留独立ID。"
+    },
+    {
+      "recordId": "aj26-result-26-3",
+      "athleteId": "athlete-aj26-26-3",
+      "observedName": "佐藤 我駆人",
+      "status": "needs-review",
+      "candidateIds": [
+        "athlete-aj25-26-5"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保留独立ID。"
+    },
+    {
+      "recordId": "aj26-result-26-4",
+      "athleteId": "athlete-aj26-26-4",
+      "observedName": "坂本 亘生",
+      "status": "needs-review",
+      "candidateIds": [
+        "athlete-aj24-19-4",
+        "athlete-aj25-21-6"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保留独立ID。"
+    },
+    {
+      "recordId": "aj26-result-26-5",
+      "athleteId": "athlete-aj26-26-5",
+      "observedName": "岡村 和真",
+      "status": "needs-review",
+      "candidateIds": [
+        "athlete-aj25-21-5"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保留独立ID。"
+    },
+    {
+      "recordId": "aj26-result-26-6",
+      "athleteId": "athlete-aj26-26-6",
+      "observedName": "兵藤 颯太",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-26-7",
+      "athleteId": "athlete-aj26-26-7",
+      "observedName": "鶴田 寛武",
+      "status": "needs-review",
+      "candidateIds": [
+        "athlete-aj24-21-2",
+        "athlete-aj25-26-4"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保留独立ID。"
+    },
+    {
+      "recordId": "aj26-result-26-8",
+      "athleteId": "athlete-aj26-26-8",
+      "observedName": "藤本 悠太郎",
+      "status": "needs-review",
+      "candidateIds": [
+        "athlete-aj24-21-1",
+        "athlete-aj23-25-1"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保留独立ID。"
+    },
+    {
+      "recordId": "aj26-result-27-1",
+      "athleteId": "athlete-aj26-27-1",
+      "observedName": "清水 大斗",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-27-2",
+      "athleteId": "athlete-aj26-27-2",
+      "observedName": "前野 皓士",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-27-3",
+      "athleteId": "athlete-aj26-27-3",
+      "observedName": "田畑 来成",
+      "status": "needs-review",
+      "candidateIds": [
+        "athlete-aj25-20-3"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保留独立ID。"
+    },
+    {
+      "recordId": "aj26-result-27-4",
+      "athleteId": "athlete-aj26-27-4",
+      "observedName": "杉本 光琉",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    },
+    {
+      "recordId": "aj26-result-27-5",
+      "athleteId": "athlete-aj26-27-5",
+      "observedName": "阿部 祥典",
+      "status": "needs-review",
+      "candidateIds": [
+        "athlete-aj25-19-4",
+        "athlete-aj23-19-3"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保留独立ID。"
+    },
+    {
+      "recordId": "aj26-result-27-6",
+      "athleteId": "athlete-aj26-27-6",
+      "observedName": "吉原 諒",
+      "status": "needs-review",
+      "candidateIds": [
+        "athlete-aj25-19-1",
+        "athlete-aj23-19-4"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保留独立ID。"
+    },
+    {
+      "recordId": "aj26-result-27-7",
+      "athleteId": "athlete-aj26-27-7",
+      "observedName": "中嶋 希",
+      "status": "needs-review",
+      "candidateIds": [
+        "athlete-aj25-20-8",
+        "athlete-aj23-27-2"
+      ],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保留独立ID。"
+    },
+    {
+      "recordId": "aj26-result-27-8",
+      "athleteId": "athlete-aj26-27-8",
+      "observedName": "田中 瑞輝",
+      "status": "new",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "iuau-aj26-results",
+        "iuau-aj26-roster"
+      ],
+      "reason": "首次收录，未发现注册姓名候选。"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { execFileSync } from "node:child_process";
-import { database, registry, batches } from "../data/index.ts";
+import { database, registry, batches } from "./fixtures/phase-one.ts";
 import legacy from "../data/all-japan-2024.json" with { type: "json" };
 import facts from "../data/imports/all-japan-2025-facts.json" with { type: "json" };
 import { assembleDatabase } from "../lib/data-assembly.ts";
@@ -94,7 +94,7 @@ test("repeated import is idempotent; conflicts cannot overwrite published identi
       { encoding: "utf8" },
     ),
   );
-  assert.equal(output.reports[1].starts, 216);
+  assert.equal(output.reports.find((r: {editionId: string}) => r.editionId === "all-japan-2025").starts, 216);
 });
 test("season year is independent of calendar year and URLs retain season/team/view/sort/page", () => {
   for (const y of [2023, 2024, 2025]) {

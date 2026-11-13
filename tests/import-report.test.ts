@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { database, registry, batches } from "../data/index.ts";
+import { database, registry, batches } from "./fixtures/phase-one.ts";
 import { assembleDatabase } from "../lib/data-assembly.ts";
 import { importReport } from "../lib/importer.ts";
 import type { Database } from "../lib/model.ts";

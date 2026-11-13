@@ -51,7 +51,7 @@
       "coverage": "仅用于2024→2025身份核验，不增加2024区间成绩。",
       "locator": "PDF p.1, team row / section column",
       "usage": {
-        "policyUrl": "https://iuau.jp/taikaijoho2025.html",
+        "policyUrl": "https://iuau.jp/taikaijoho2024.html",
         "reviewedAt": "2026-11-12",
         "basis": "Independent compilation of objective race facts only. Reviewed IUAU event pages and office information; copyright notice retained, no applicable extraction ban identified. No PDF, image, prose or layout redistribution; not a claim of an open license. See docs/data-sources.md.",
         "permissionReference": null

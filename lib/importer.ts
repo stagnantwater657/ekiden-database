@@ -98,6 +98,23 @@ export function importReport(db: Database, editionId: string) {
   const decisions = db.identities.filter((i) =>
     rows.some((r) => r.id === i.recordId),
   );
+  const edition = db.editions.find((e) => e.id === editionId);
+  if (!edition) throw new Error(`Unknown report edition: ${editionId}`);
+  // Actual race dates, never import order, season/year labels or array positions.
+  // Same-day editions are not earlier; unknown identities have independent IDs.
+  const earlierEditions = new Set(
+    db.editions
+      .filter((e) => Date.parse(e.date) < Date.parse(edition.date))
+      .map((e) => e.id),
+  );
+  const earlierEntries = new Set(
+    db.entries.filter((e) => earlierEditions.has(e.editionId)).map((e) => e.id),
+  );
+  const earlierAthletes = new Set(
+    db.results
+      .filter((r) => earlierEntries.has(r.entryId))
+      .map((r) => r.athleteId),
+  );
   const otherAthletes = new Set(
     db.results.filter((r) => !ids.has(r.entryId)).map((r) => r.athleteId),
   );
@@ -113,9 +130,14 @@ export function importReport(db: Database, editionId: string) {
     unrankedTeams: entries
       .filter((e) => e.finalRank === null)
       .map((e) => e.teamId),
-    reusedAthletes: new Set(
+    crossEditionAthletes: new Set(
       rows
         .filter((r) => otherAthletes.has(r.athleteId))
+        .map((r) => r.athleteId),
+    ).size,
+    reusedFromEarlierEditions: new Set(
+      rows
+        .filter((r) => earlierAthletes.has(r.athleteId))
         .map((r) => r.athleteId),
     ).size,
     resultsSha256: createHash("sha256")

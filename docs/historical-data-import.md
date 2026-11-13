@@ -46,3 +46,12 @@
 ## 后续 PostgreSQL 迁移
 
 各JSON实体对应独立表，现有字符串ID直接作主键，保留所有外键；Source及使用/版本信息独立保存，identity decisions与候选/证据可拆为关系表。为 `(edition_id,team_id)`、`(entry_id,section_id)`、`(edition_id,athlete_id)` 建唯一约束；排名nullable、状态独立。导入事务先暂存及核验再提交，revision审计单独保存，不重新编号旧ID。实现同一异步catalog/search接口和URL编解码，复用现有筛选/排序契约及回归测试；本阶段没有引入数据库服务。
+
+## 身份统计口径
+
+报告用两个去重人数替代含义模糊的旧字段：
+
+- `crossEditionAthletes`：本届选手中，与其他已收录届次共享稳定 athleteId 的人数；不区分先后。
+- `reusedFromEarlierEditions`：本届选手中，在实际比赛日期严格早于本届的赛事已出现的稳定 athleteId 人数。同日比赛不算更早；不使用赛季、文件顺序或导入时间。
+
+当前2024分别为60/0，2025分别为60/60，由实际数据计算。以后补录更早届次会正常改变后一个指标；同一选手出现多届仍只计一人。待审核候选没有合并ID，不作为共享或复用身份统计。

@@ -9,7 +9,8 @@
       "athletes": 200,
       "officialFinalRanks": 25,
       "unrankedTeams": [],
-      "reusedAthletes": 60,
+      "crossEditionAthletes": 60,
+      "reusedFromEarlierEditions": 0,
       "resultsSha256": "3ffb35885a6bbba18c5ce5577b99bda5bb70ef2bfb92ce29e8b88300f657ca92",
       "review": [],
       "missingTeamTotals": [
@@ -51,7 +52,8 @@
         "team-japan-selection",
         "team-tokai-selection"
       ],
-      "reusedAthletes": 60,
+      "crossEditionAthletes": 60,
+      "reusedFromEarlierEditions": 60,
       "resultsSha256": "548d35ecbbe42017d16dc973b62498ffc67d6e8d799f1a3020e049eb061e3c83",
       "review": [
         {

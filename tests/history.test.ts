@@ -67,7 +67,8 @@ test("2025 complete actual lineup, official ranks and times match independently 
   );
   assert.doesNotThrow(() => validateImport(registry, batches, edition));
   const report = importReport(database, edition.edition.id);
-  assert.equal(report.reusedAthletes, 60);
+  assert.equal(report.crossEditionAthletes, 60);
+  assert.equal(report.reusedFromEarlierEditions, 60);
   assert.equal(report.officialFinalRanks, 25);
   assert.equal(report.review.length, 5);
 });

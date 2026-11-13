@@ -356,7 +356,9 @@ export async function Results({
                       {row.team.kind !== "university" && (
                         <span className="ml-2 text-xs text-stone-500">
                           选拔队 ·{" "}
-                          {row.entry.status === "reference"
+                          {row.entry.finalRank !== null
+                            ? `官方综合第 ${row.entry.finalRank}`
+                            : row.entry.status === "reference"
                             ? "参考成绩"
                             : "无正式综合排名"}
                         </span>

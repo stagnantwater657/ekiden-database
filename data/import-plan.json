@@ -1,13 +1,80 @@
 [
-  {"raceId":"izumo","number":35,"year":2023,"seasonYear":2023,"status":"not-imported","revisionRequirement":"Use official February 2024 revised results; pre-revision data must not be published."},
-  {"raceId":"all-japan","number":55,"year":2023,"seasonYear":2023,"status":"not-imported"},
-  {"raceId":"hakone","number":100,"year":2024,"seasonYear":2023,"status":"not-imported"},
-  {"raceId":"izumo","number":36,"year":2024,"seasonYear":2024,"status":"not-imported"},
-  {"raceId":"all-japan","number":56,"year":2024,"seasonYear":2024,"status":"imported"},
-  {"raceId":"hakone","number":101,"year":2025,"seasonYear":2024,"status":"not-imported"},
-  {"raceId":"izumo","number":37,"year":2025,"seasonYear":2025,"status":"not-imported"},
-  {"raceId":"all-japan","number":57,"year":2025,"seasonYear":2025,"status":"imported"},
-  {"raceId":"hakone","number":102,"year":2026,"seasonYear":2025,"status":"not-imported"},
-  {"raceId":"izumo","number":38,"year":2026,"seasonYear":2026,"status":"not-imported"},
-  {"raceId":"all-japan","number":58,"year":2026,"seasonYear":2026,"status":"not-imported"}
+  {
+    "raceId": "izumo",
+    "number": 35,
+    "year": 2023,
+    "seasonYear": 2023,
+    "status": "imported",
+    "revisionRequirement": "Use official February 2024 revised results; pre-revision data must not be published."
+  },
+  {
+    "raceId": "all-japan",
+    "number": 55,
+    "year": 2023,
+    "seasonYear": 2023,
+    "status": "imported"
+  },
+  {
+    "raceId": "hakone",
+    "number": 100,
+    "year": 2024,
+    "seasonYear": 2023,
+    "status": "imported"
+  },
+  {
+    "raceId": "izumo",
+    "number": 36,
+    "year": 2024,
+    "seasonYear": 2024,
+    "status": "imported"
+  },
+  {
+    "raceId": "all-japan",
+    "number": 56,
+    "year": 2024,
+    "seasonYear": 2024,
+    "status": "imported"
+  },
+  {
+    "raceId": "hakone",
+    "number": 101,
+    "year": 2025,
+    "seasonYear": 2024,
+    "status": "imported"
+  },
+  {
+    "raceId": "izumo",
+    "number": 37,
+    "year": 2025,
+    "seasonYear": 2025,
+    "status": "imported"
+  },
+  {
+    "raceId": "all-japan",
+    "number": 57,
+    "year": 2025,
+    "seasonYear": 2025,
+    "status": "imported"
+  },
+  {
+    "raceId": "hakone",
+    "number": 102,
+    "year": 2026,
+    "seasonYear": 2025,
+    "status": "imported"
+  },
+  {
+    "raceId": "izumo",
+    "number": 38,
+    "year": 2026,
+    "seasonYear": 2026,
+    "status": "imported"
+  },
+  {
+    "raceId": "all-japan",
+    "number": 58,
+    "year": 2026,
+    "seasonYear": 2026,
+    "status": "imported"
+  }
 ]

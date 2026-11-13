@@ -76,6 +76,26 @@ export function validateImport(
   validateDatabase(db);
   for (const entry of candidate.entries) {
     const rows = candidate.results.filter((r) => r.entryId === entry.id);
+    const stageKinds = new Set<string>();
+    for (const stage of entry.stages ?? []) {
+      const sections = candidate.sections.filter(
+        (s) => s.number >= stage.firstSection && s.number <= stage.lastSection,
+      );
+      const stageRows = rows.filter((r) => sections.some((s) => s.id === r.sectionId));
+      if (!["outbound", "return"].includes(stage.kind) || stageKinds.has(stage.kind) ||
+        !Number.isSafeInteger(stage.firstSection) || !Number.isSafeInteger(stage.lastSection) ||
+        stage.firstSection < 1 || stage.lastSection < stage.firstSection ||
+        sections.length !== stage.lastSection - stage.firstSection + 1 ||
+        stageRows.length !== sections.length || !stage.locator ||
+        !db.sources.some((s) => s.id === stage.sourceId) ||
+        !Number.isSafeInteger(stage.timeSeconds) || stage.timeSeconds <= 0 ||
+        (stage.rank !== null && (!Number.isSafeInteger(stage.rank) || stage.rank <= 0 || entry.status !== "finished")))
+        throw new Error("Invalid official stage result");
+      stageKinds.add(stage.kind);
+      if (stageRows.some((r) => r.timeSeconds === null) ||
+        stageRows.reduce((sum, r) => sum + r.timeSeconds!, 0) !== stage.timeSeconds)
+        throw new Error("Official stage time mismatch");
+    }
     if (
       ["finished", "reference"].includes(entry.status) &&
       rows.length !== candidate.sections.length

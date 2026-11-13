@@ -1,0 +1,361 @@
+[
+  {
+    "team": "城西大学",
+    "section": 2,
+    "archive": {
+      "section": 2,
+      "name": "キムタイ",
+      "grade": "3",
+      "time": "1:06:55",
+      "rank": 10,
+      "status": "finished"
+    },
+    "adopted": {
+      "section": 2,
+      "name": "Ｖ.キムタイ",
+      "grade": "3",
+      "time": "1:06:55",
+      "rank": 10,
+      "status": "finished",
+      "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/101/team/josai.html"
+    }
+  },
+  {
+    "team": "東洋大学",
+    "section": 7,
+    "archive": {
+      "section": 7,
+      "name": "内堀 勇",
+      "grade": "1",
+      "time": "1:04:16",
+      "rank": 11,
+      "status": "finished"
+    },
+    "adopted": {
+      "section": 7,
+      "name": "内堀 勇",
+      "grade": "1",
+      "time": "1:04:16",
+      "rank": 12,
+      "status": "finished",
+      "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/101/team/toyo.html"
+    }
+  },
+  {
+    "team": "法政大学",
+    "section": 5,
+    "archive": {
+      "section": 5,
+      "name": "野田 晶斗",
+      "grade": "2",
+      "time": "1:12:19",
+      "rank": 12,
+      "status": "finished"
+    },
+    "adopted": {
+      "section": 5,
+      "name": "野田 晶斗",
+      "grade": "2",
+      "time": "1:12:43",
+      "rank": 12,
+      "status": "finished",
+      "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/101/team/hosei.html"
+    }
+  },
+  {
+    "team": "創価大学",
+    "section": 1,
+    "archive": {
+      "section": 1,
+      "name": "斉藤 大空",
+      "grade": "2",
+      "time": "1:03:02",
+      "rank": 17,
+      "status": "finished"
+    },
+    "adopted": {
+      "section": 1,
+      "name": "齊藤 大空",
+      "grade": "2",
+      "time": "1:03:02",
+      "rank": 17,
+      "status": "finished",
+      "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/101/team/soka.html"
+    }
+  },
+  {
+    "team": "創価大学",
+    "section": 3,
+    "archive": {
+      "section": 3,
+      "name": "ムチーニ",
+      "grade": "2",
+      "time": "1:00:51",
+      "rank": 2,
+      "status": "finished"
+    },
+    "adopted": {
+      "section": 3,
+      "name": "Ｓ.ムチーニ",
+      "grade": "2",
+      "time": "1:00:51",
+      "rank": 2,
+      "status": "finished",
+      "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/101/team/soka.html"
+    }
+  },
+  {
+    "team": "創価大学",
+    "section": 8,
+    "archive": null,
+    "adopted": {
+      "section": 8,
+      "name": "石丸 修那",
+      "grade": "1",
+      "time": "1:05:54",
+      "rank": 11,
+      "status": "finished",
+      "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/101/team/soka.html"
+    }
+  },
+  {
+    "team": "帝京大学",
+    "section": 6,
+    "archive": {
+      "section": 6,
+      "name": "広田 陸",
+      "grade": "2",
+      "time": "58:13",
+      "rank": 4,
+      "status": "finished"
+    },
+    "adopted": {
+      "section": 6,
+      "name": "廣田 陸",
+      "grade": "2",
+      "time": "58:13",
+      "rank": 4,
+      "status": "finished",
+      "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/101/team/teikyo.html"
+    }
+  },
+  {
+    "team": "大東文化大学",
+    "section": 1,
+    "archive": {
+      "section": 1,
+      "name": "大浜 逞真",
+      "grade": "1",
+      "time": "1:02:49",
+      "rank": 8,
+      "status": "finished"
+    },
+    "adopted": {
+      "section": 1,
+      "name": "大濱 逞真",
+      "grade": "1",
+      "time": "1:02:49",
+      "rank": 8,
+      "status": "finished",
+      "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/101/team/daito.html"
+    }
+  },
+  {
+    "team": "大東文化大学",
+    "section": 2,
+    "archive": {
+      "section": 2,
+      "name": "棟方 一楽",
+      "grade": "2",
+      "time": "1:08:29",
+      "rank": 16,
+      "status": "finished"
+    },
+    "adopted": {
+      "section": 2,
+      "name": "棟方 一楽",
+      "grade": "2",
+      "time": "1:08:29",
+      "rank": 17,
+      "status": "finished",
+      "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/101/team/daito.html"
+    }
+  },
+  {
+    "team": "大東文化大学",
+    "section": 3,
+    "archive": {
+      "section": 3,
+      "name": "入浜 輝大",
+      "grade": "3",
+      "time": "1:03:06",
+      "rank": 11,
+      "status": "finished"
+    },
+    "adopted": {
+      "section": 3,
+      "name": "入濵 輝大",
+      "grade": "3",
+      "time": "1:03:06",
+      "rank": 11,
+      "status": "finished",
+      "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/101/team/daito.html"
+    }
+  },
+  {
+    "team": "専修大学",
+    "section": 2,
+    "archive": {
+      "section": 2,
+      "name": "マイナ",
+      "grade": "1",
+      "time": "1:07:29",
+      "rank": 13,
+      "status": "finished"
+    },
+    "adopted": {
+      "section": 2,
+      "name": "Ｄ.マイナ",
+      "grade": "1",
+      "time": "1:07:29",
+      "rank": 13,
+      "status": "finished",
+      "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/101/team/senshu.html"
+    }
+  },
+  {
+    "team": "山梨学院大学",
+    "section": 2,
+    "archive": {
+      "section": 2,
+      "name": "ムトゥク",
+      "grade": "3",
+      "time": "1:06:55",
+      "rank": 10,
+      "status": "finished"
+    },
+    "adopted": {
+      "section": 2,
+      "name": "Ｊ.ムトゥク",
+      "grade": "3",
+      "time": "1:06:55",
+      "rank": 10,
+      "status": "finished",
+      "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/101/team/ygu.html"
+    }
+  },
+  {
+    "team": "山梨学院大学",
+    "section": 4,
+    "archive": null,
+    "adopted": {
+      "section": 4,
+      "name": "和田 瑛登",
+      "grade": "2",
+      "time": "1:04:57",
+      "rank": 20,
+      "status": "finished",
+      "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/101/team/ygu.html"
+    }
+  },
+  {
+    "team": "日本大学",
+    "section": 2,
+    "archive": {
+      "section": 2,
+      "name": "キップケメイ",
+      "grade": "2",
+      "time": "1:07:31",
+      "rank": 14,
+      "status": "finished"
+    },
+    "adopted": {
+      "section": 2,
+      "name": "Ｓ.キップケメイ",
+      "grade": "2",
+      "time": "1:07:31",
+      "rank": 14,
+      "status": "finished",
+      "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/101/team/nihon.html"
+    }
+  },
+  {
+    "team": "東京国際大学",
+    "section": 2,
+    "archive": {
+      "section": 2,
+      "name": "エティーリ",
+      "grade": "2",
+      "time": "1:05:31",
+      "rank": 1,
+      "status": "finished"
+    },
+    "adopted": {
+      "section": 2,
+      "name": "Ｒ.エティーリ",
+      "grade": "2",
+      "time": "1:05:31",
+      "rank": 1,
+      "status": "finished",
+      "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/101/team/tokoku.html"
+    }
+  },
+  {
+    "team": "順天堂大学",
+    "section": 2,
+    "archive": {
+      "section": 2,
+      "name": "玉目 陸",
+      "grade": "1",
+      "time": "1:08:22",
+      "rank": 15,
+      "status": "finished"
+    },
+    "adopted": {
+      "section": 2,
+      "name": "玉目 陸",
+      "grade": "1",
+      "time": "1:08:22",
+      "rank": 16,
+      "status": "finished",
+      "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/101/team/juntendo.html"
+    }
+  },
+  {
+    "team": "関東学生連合",
+    "section": 8,
+    "archive": null,
+    "adopted": {
+      "section": 8,
+      "name": "秋吉 拓真",
+      "grade": "3",
+      "time": "1:04:45",
+      "rank": null,
+      "status": "reference",
+      "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/101/team/gakuren.html",
+      "university": "東京大"
+    }
+  },
+  {
+    "team": "関東学生連合",
+    "section": 9,
+    "archive": {
+      "section": 9,
+      "name": "古川 大晃",
+      "grade": null,
+      "time": "1:11:52",
+      "rank": null,
+      "status": "reference"
+    },
+    "adopted": {
+      "section": 9,
+      "name": "古川 大晃",
+      "grade": "D4",
+      "time": "1:11:52",
+      "rank": null,
+      "status": "reference",
+      "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/101/team/gakuren.html",
+      "university": "東京大学"
+    }
+  }
+]

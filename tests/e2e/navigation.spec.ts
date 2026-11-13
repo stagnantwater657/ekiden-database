@@ -1,4 +1,5 @@
 import { test, expect } from "@playwright/test";
+import { database } from "../../data/index";
 test("home → race → edition → athlete → university → results", async ({
   page,
 }) => {
@@ -11,8 +12,12 @@ test("home → race → edition → athlete → university → results", async (
   await expect(page.getByRole("status")).toHaveText("共 1 条成绩");
   await page.getByRole("link", { name: "嘉数 純平", exact: true }).click();
   await expect(page.getByRole("heading", { level: 1 })).toHaveText("嘉数 純平");
-  await page.getByRole("link", { name: "國學院大", exact: true }).click();
-  await expect(page.getByRole("status")).toHaveText("共 16 条成绩");
+  await page.getByRole("link", { name: "國學院大", exact: true }).first().click();
+  const entries = new Set(database.entries.filter((entry) => entry.universityId === "kokugakuin").map((entry) => entry.id));
+  await expect(page.getByRole("status")).toHaveText(`共 ${database.results.filter((row) => entries.has(row.entryId)).length} 条成绩`);
+  await page.getByRole("combobox", { name: "赛事", exact: true }).selectOption("all-japan");
+  await page.getByRole("combobox", { name: "年份", exact: true }).selectOption("2024");
+  await page.getByRole("button", { name: "应用筛选" }).click();
   await page.getByRole("link", { name: "6区 · 12.8 km" }).first().click();
   await expect(page.getByRole("status")).toHaveText("共 25 条成绩");
   await expect(page).toHaveURL(/section=6/);
@@ -30,7 +35,7 @@ test("home → race → edition → athlete → university → results", async (
 test("GET filters, sort, pagination, reload, sharing and back/forward", async ({
   page,
 }) => {
-  await page.goto("/results?year=2024");
+  await page.goto("/results?race=all-japan&year=2024");
   await page
     .getByRole("combobox", { name: "每页", exact: true })
     .selectOption("10");
@@ -93,7 +98,7 @@ test("five columns, query context, view switch resets page and sort, sources fol
   page,
 }) => {
   await page.goto(
-    "/results?year=2024&pageSize=10&page=2&sort=time&direction=desc",
+    "/results?race=all-japan&year=2024&pageSize=10&page=2&sort=time&direction=desc",
   );
   await expect(
     page.getByText("正在跨区间按用时排序：不同区间距离不可直接比较。"),
@@ -126,6 +131,8 @@ test("five columns, query context, view switch resets page and sort, sources fol
     page.getByRole("link", { name: "大学视图", exact: true }),
   ).toHaveAttribute("aria-current", "page");
   await page.getByRole("link", { name: "下一页", exact: true }).click();
+  await expect(page).toHaveURL(/page=2/);
+  await expect(page.getByRole("navigation", { name: "成绩分页" })).toContainText("第 2 / 20 页");
   await page.getByRole("link", { name: "区间视图", exact: true }).click();
   await expect(page).toHaveURL(/page=1/);
   await expect(rows.first()).toContainText("平島 龍斗");
@@ -139,7 +146,7 @@ test("five columns, query context, view switch resets page and sort, sources fol
   await expect(source.getByRole("link")).toHaveCount(2);
   await expect(source).toContainText("采集时间");
   await expect(source).toContainText("两支公开");
-  await page.goto("/results?year=2023");
+  await page.goto("/results?year=2022");
   await expect(source.getByRole("link")).toHaveCount(0);
   await expect(source).toContainText("当前查询无成绩");
 });
@@ -147,7 +154,7 @@ test("five columns, query context, view switch resets page and sort, sources fol
 test("manual ordering and filtering reset page while retaining view and entity scope", async ({
   page,
 }) => {
-  await page.goto("/universities/kokugakuin?year=2024&view=university&page=9");
+  await page.goto("/universities/kokugakuin?race=all-japan&year=2024&view=university&page=9");
   await page
     .getByRole("columnheader", { name: /成绩/ })
     .getByRole("link")
@@ -173,7 +180,7 @@ test("manual ordering and filtering reset page while retaining view and entity s
 test("university header clearly sorts names; official standing is a separate control", async ({
   page,
 }) => {
-  await page.goto("/results?view=university&pageSize=10&page=2");
+  await page.goto("/results?race=all-japan&year=2024&view=university&pageSize=10&page=2");
   await page
     .getByRole("columnheader", { name: /大学名称/ })
     .getByRole("link")

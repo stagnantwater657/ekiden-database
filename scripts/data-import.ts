@@ -52,6 +52,7 @@ if (args[0] === "--input") {
     throw new Error("Invalid edition ID");
   registry = mergeRegistry(registry, input.registry);
   database = validateImport(registry, batches, input.batch);
+  if (!batches.some((batch) => batch.edition.id === input.batch.edition.id)) batches.push(input.batch);
   if (args.includes("--write")) {
     const id = input.batch.edition.id;
     if (!manifest.includes(id)) manifest.push(id);

@@ -1,0 +1,1764 @@
+[
+  {
+    "bib": 1,
+    "team": "駒澤大",
+    "rank": 1,
+    "total": "5:09:00",
+    "status": "finished",
+    "results": [
+      {
+        "section": 1,
+        "name": "赤津 勇進",
+        "time": "27:19",
+        "rank": 1,
+        "status": "finished"
+      },
+      {
+        "section": 2,
+        "name": "佐藤 圭汰",
+        "time": "31:01",
+        "rank": 1,
+        "status": "finished"
+      },
+      {
+        "section": 3,
+        "name": "篠原 倖太朗",
+        "time": "33:39",
+        "rank": 2,
+        "status": "finished"
+      },
+      {
+        "section": 4,
+        "name": "赤星 雄斗",
+        "time": "34:26",
+        "rank": 2,
+        "status": "finished"
+      },
+      {
+        "section": 5,
+        "name": "伊藤 蒼唯",
+        "time": "35:56",
+        "rank": 2,
+        "status": "finished"
+      },
+      {
+        "section": 6,
+        "name": "安原 太陽",
+        "time": "37:16",
+        "rank": 1,
+        "status": "finished"
+      },
+      {
+        "section": 7,
+        "name": "鈴木 芽吹",
+        "time": "51:13",
+        "rank": 3,
+        "status": "finished"
+      },
+      {
+        "section": 8,
+        "name": "山川 拓馬",
+        "time": "58:10",
+        "rank": 1,
+        "status": "finished"
+      }
+    ]
+  },
+  {
+    "bib": 3,
+    "team": "青山学院大",
+    "rank": 2,
+    "total": "5:12:34",
+    "status": "finished",
+    "results": [
+      {
+        "section": 1,
+        "name": "若林 宏樹",
+        "time": "27:27",
+        "rank": 8,
+        "status": "finished"
+      },
+      {
+        "section": 2,
+        "name": "黒田 朝日",
+        "time": "31:09",
+        "rank": 2,
+        "status": "finished"
+      },
+      {
+        "section": 3,
+        "name": "佐藤 一世",
+        "time": "34:23",
+        "rank": 8,
+        "status": "finished"
+      },
+      {
+        "section": 4,
+        "name": "小原 響",
+        "time": "35:05",
+        "rank": 7,
+        "status": "finished"
+      },
+      {
+        "section": 5,
+        "name": "山内 健登",
+        "time": "36:12",
+        "rank": 4,
+        "status": "finished"
+      },
+      {
+        "section": 6,
+        "name": "荒巻 朋熙",
+        "time": "37:42",
+        "rank": 3,
+        "status": "finished"
+      },
+      {
+        "section": 7,
+        "name": "太田 蒼生",
+        "time": "51:41",
+        "rank": 5,
+        "status": "finished"
+      },
+      {
+        "section": 8,
+        "name": "田中 悠登",
+        "time": "58:55",
+        "rank": 3,
+        "status": "finished"
+      }
+    ]
+  },
+  {
+    "bib": 2,
+    "team": "國學院大",
+    "rank": 3,
+    "total": "5:12:39",
+    "status": "finished",
+    "results": [
+      {
+        "section": 1,
+        "name": "後村 光星",
+        "time": "27:26",
+        "rank": 6,
+        "status": "finished"
+      },
+      {
+        "section": 2,
+        "name": "山本 歩夢",
+        "time": "32:22",
+        "rank": 11,
+        "status": "finished"
+      },
+      {
+        "section": 3,
+        "name": "上原 琉翔",
+        "time": "34:01",
+        "rank": 3,
+        "status": "finished"
+      },
+      {
+        "section": 4,
+        "name": "高山 豪起",
+        "time": "34:33",
+        "rank": 4,
+        "status": "finished"
+      },
+      {
+        "section": 5,
+        "name": "青木 瑠郁",
+        "time": "36:08",
+        "rank": 3,
+        "status": "finished"
+      },
+      {
+        "section": 6,
+        "name": "嘉数 純平",
+        "time": "38:11",
+        "rank": 5,
+        "status": "finished"
+      },
+      {
+        "section": 7,
+        "name": "平林 清澄",
+        "time": "51:07",
+        "rank": 1,
+        "status": "finished"
+      },
+      {
+        "section": 8,
+        "name": "伊地知 賢造",
+        "time": "58:51",
+        "rank": 2,
+        "status": "finished"
+      }
+    ]
+  },
+  {
+    "bib": 7,
+    "team": "中央大",
+    "rank": 4,
+    "total": "5:12:49",
+    "status": "finished",
+    "results": [
+      {
+        "section": 1,
+        "name": "吉居 駿恭",
+        "time": "27:22",
+        "rank": 3,
+        "status": "finished"
+      },
+      {
+        "section": 2,
+        "name": "中野 翔太",
+        "time": "31:32",
+        "rank": 6,
+        "status": "finished"
+      },
+      {
+        "section": 3,
+        "name": "吉居 大和",
+        "time": "34:33",
+        "rank": 11,
+        "status": "finished"
+      },
+      {
+        "section": 4,
+        "name": "溜池 一太",
+        "time": "34:32",
+        "rank": 3,
+        "status": "finished"
+      },
+      {
+        "section": 5,
+        "name": "本間 颯",
+        "time": "36:38",
+        "rank": 5,
+        "status": "finished"
+      },
+      {
+        "section": 6,
+        "name": "吉中 祐太",
+        "time": "37:58",
+        "rank": 4,
+        "status": "finished"
+      },
+      {
+        "section": 7,
+        "name": "湯浅 仁",
+        "time": "51:12",
+        "rank": 2,
+        "status": "finished"
+      },
+      {
+        "section": 8,
+        "name": "阿部 陽樹",
+        "time": "59:02",
+        "rank": 4,
+        "status": "finished"
+      }
+    ]
+  },
+  {
+    "bib": 11,
+    "team": "城西大",
+    "rank": 5,
+    "total": "5:17:23",
+    "status": "finished",
+    "results": [
+      {
+        "section": 1,
+        "name": "林 晃耀",
+        "time": "28:09",
+        "rank": 18,
+        "status": "finished"
+      },
+      {
+        "section": 2,
+        "name": "山中 秀真",
+        "time": "32:18",
+        "rank": 10,
+        "status": "finished"
+      },
+      {
+        "section": 3,
+        "name": "ヴィクター キムタイ",
+        "time": "33:20",
+        "rank": 1,
+        "status": "finished"
+      },
+      {
+        "section": 4,
+        "name": "斎藤 将也",
+        "time": "34:00",
+        "rank": 1,
+        "status": "finished"
+      },
+      {
+        "section": 5,
+        "name": "野村 颯斗",
+        "time": "37:07",
+        "rank": 8,
+        "status": "finished"
+      },
+      {
+        "section": 6,
+        "name": "桜井 優我",
+        "time": "38:45",
+        "rank": 10,
+        "status": "finished"
+      },
+      {
+        "section": 7,
+        "name": "平林 樹",
+        "time": "53:53",
+        "rank": 10,
+        "status": "finished"
+      },
+      {
+        "section": 8,
+        "name": "山本 唯翔",
+        "time": "59:51",
+        "rank": 5,
+        "status": "finished"
+      }
+    ]
+  },
+  {
+    "bib": 5,
+    "team": "創価大",
+    "rank": 6,
+    "total": "5:18:21",
+    "status": "finished",
+    "results": [
+      {
+        "section": 1,
+        "name": "織橋 巧",
+        "time": "27:25",
+        "rank": 4,
+        "status": "finished"
+      },
+      {
+        "section": 2,
+        "name": "山森 龍暁",
+        "time": "32:39",
+        "rank": 13,
+        "status": "finished"
+      },
+      {
+        "section": 3,
+        "name": "石丸 惇那",
+        "time": "34:47",
+        "rank": 13,
+        "status": "finished"
+      },
+      {
+        "section": 4,
+        "name": "小池 莉希",
+        "time": "36:19",
+        "rank": 16,
+        "status": "finished"
+      },
+      {
+        "section": 5,
+        "name": "吉田 響",
+        "time": "35:18",
+        "rank": 1,
+        "status": "finished"
+      },
+      {
+        "section": 6,
+        "name": "山下 蓮",
+        "time": "39:57",
+        "rank": 16,
+        "status": "finished"
+      },
+      {
+        "section": 7,
+        "name": "スティーブン ムチーニ",
+        "time": "51:34",
+        "rank": 4,
+        "status": "finished"
+      },
+      {
+        "section": 8,
+        "name": "吉田 凌",
+        "time": "1:00:22",
+        "rank": 7,
+        "status": "finished"
+      }
+    ]
+  },
+  {
+    "bib": 12,
+    "team": "大東文化大",
+    "rank": 7,
+    "total": "5:19:21",
+    "status": "finished",
+    "results": [
+      {
+        "section": 1,
+        "name": "佐竹 勇樹",
+        "time": "27:26",
+        "rank": 5,
+        "status": "finished"
+      },
+      {
+        "section": 2,
+        "name": "西川 千青",
+        "time": "32:22",
+        "rank": 11,
+        "status": "finished"
+      },
+      {
+        "section": 3,
+        "name": "久保田 徹",
+        "time": "34:29",
+        "rank": 9,
+        "status": "finished"
+      },
+      {
+        "section": 4,
+        "name": "入濵 輝大",
+        "time": "35:15",
+        "rank": 8,
+        "status": "finished"
+      },
+      {
+        "section": 5,
+        "name": "西代 雄豪",
+        "time": "36:55",
+        "rank": 6,
+        "status": "finished"
+      },
+      {
+        "section": 6,
+        "name": "ピーター ワンジル",
+        "time": "37:39",
+        "rank": 2,
+        "status": "finished"
+      },
+      {
+        "section": 7,
+        "name": "大谷 章紘",
+        "time": "53:21",
+        "rank": 8,
+        "status": "finished"
+      },
+      {
+        "section": 8,
+        "name": "菊地 駿介",
+        "time": "1:01:54",
+        "rank": 9,
+        "status": "finished"
+      }
+    ]
+  },
+  {
+    "bib": 14,
+    "team": "東京国際大",
+    "rank": 8,
+    "total": "5:20:05",
+    "status": "finished",
+    "results": [
+      {
+        "section": 1,
+        "name": "木村 海斗",
+        "time": "27:27",
+        "rank": 7,
+        "status": "finished"
+      },
+      {
+        "section": 2,
+        "name": "アモス ベット",
+        "time": "31:27",
+        "rank": 5,
+        "status": "finished"
+      },
+      {
+        "section": 3,
+        "name": "佐藤 榛紀",
+        "time": "34:15",
+        "rank": 5,
+        "status": "finished"
+      },
+      {
+        "section": 4,
+        "name": "益田 郁也",
+        "time": "35:22",
+        "rank": 10,
+        "status": "finished"
+      },
+      {
+        "section": 5,
+        "name": "菅野 裕二郎",
+        "time": "37:15",
+        "rank": 9,
+        "status": "finished"
+      },
+      {
+        "section": 6,
+        "name": "生田 琉海",
+        "time": "38:22",
+        "rank": 6,
+        "status": "finished"
+      },
+      {
+        "section": 7,
+        "name": "村松 敬哲",
+        "time": "53:47",
+        "rank": 9,
+        "status": "finished"
+      },
+      {
+        "section": 8,
+        "name": "川内 琉生",
+        "time": "1:02:10",
+        "rank": 10,
+        "status": "finished"
+      }
+    ]
+  },
+  {
+    "bib": 13,
+    "team": "東海大",
+    "rank": 9,
+    "total": "5:21:54",
+    "status": "finished",
+    "results": [
+      {
+        "section": 1,
+        "name": "佐伯 陽生",
+        "time": "27:54",
+        "rank": 16,
+        "status": "finished"
+      },
+      {
+        "section": 2,
+        "name": "兵藤 ジュダ",
+        "time": "32:16",
+        "rank": 9,
+        "status": "finished"
+      },
+      {
+        "section": 3,
+        "name": "野島 健太",
+        "time": "34:33",
+        "rank": 11,
+        "status": "finished"
+      },
+      {
+        "section": 4,
+        "name": "南坂 柚汰",
+        "time": "35:21",
+        "rank": 9,
+        "status": "finished"
+      },
+      {
+        "section": 5,
+        "name": "湯野川 創",
+        "time": "37:43",
+        "rank": 11,
+        "status": "finished"
+      },
+      {
+        "section": 6,
+        "name": "折口 雄紀",
+        "time": "38:34",
+        "rank": 9,
+        "status": "finished"
+      },
+      {
+        "section": 7,
+        "name": "花岡 寿哉",
+        "time": "53:11",
+        "rank": 7,
+        "status": "finished"
+      },
+      {
+        "section": 8,
+        "name": "竹割 真",
+        "time": "1:02:22",
+        "rank": 13,
+        "status": "finished"
+      }
+    ]
+  },
+  {
+    "bib": 6,
+    "team": "早稲田大",
+    "rank": 10,
+    "total": "5:22:36",
+    "status": "finished",
+    "results": [
+      {
+        "section": 1,
+        "name": "間瀬田 純平",
+        "time": "27:20",
+        "rank": 2,
+        "status": "finished"
+      },
+      {
+        "section": 2,
+        "name": "山口 智規",
+        "time": "31:20",
+        "rank": 4,
+        "status": "finished"
+      },
+      {
+        "section": 3,
+        "name": "石塚 陽士",
+        "time": "34:20",
+        "rank": 7,
+        "status": "finished"
+      },
+      {
+        "section": 4,
+        "name": "工藤 慎作",
+        "time": "35:36",
+        "rank": 13,
+        "status": "finished"
+      },
+      {
+        "section": 5,
+        "name": "菖蒲 敦司",
+        "time": "37:49",
+        "rank": 12,
+        "status": "finished"
+      },
+      {
+        "section": 6,
+        "name": "菅野 雄太",
+        "time": "38:53",
+        "rank": 11,
+        "status": "finished"
+      },
+      {
+        "section": 7,
+        "name": "伊藤 大志",
+        "time": "52:37",
+        "rank": 6,
+        "status": "finished"
+      },
+      {
+        "section": 8,
+        "name": "伊福 陽太",
+        "time": "1:04:41",
+        "rank": 19,
+        "status": "finished"
+      }
+    ]
+  },
+  {
+    "bib": 4,
+    "team": "順天堂大",
+    "rank": 11,
+    "total": "5:22:50",
+    "status": "finished",
+    "results": [
+      {
+        "section": 1,
+        "name": "服部 壮馬",
+        "time": "27:42",
+        "rank": 13,
+        "status": "finished"
+      },
+      {
+        "section": 2,
+        "name": "三浦 龍司",
+        "time": "32:04",
+        "rank": 8,
+        "status": "finished"
+      },
+      {
+        "section": 3,
+        "name": "吉岡 大翔",
+        "time": "34:52",
+        "rank": 14,
+        "status": "finished"
+      },
+      {
+        "section": 4,
+        "name": "村尾 雄己",
+        "time": "35:26",
+        "rank": 11,
+        "status": "finished"
+      },
+      {
+        "section": 5,
+        "name": "堀越 翔人",
+        "time": "38:47",
+        "rank": 16,
+        "status": "finished"
+      },
+      {
+        "section": 6,
+        "name": "油谷 航亮",
+        "time": "39:23",
+        "rank": 12,
+        "status": "finished"
+      },
+      {
+        "section": 7,
+        "name": "石井 一希",
+        "time": "54:29",
+        "rank": 12,
+        "status": "finished"
+      },
+      {
+        "section": 8,
+        "name": "浅井 皓貴",
+        "time": "1:00:07",
+        "rank": 6,
+        "status": "finished"
+      }
+    ]
+  },
+  {
+    "bib": 16,
+    "team": "帝京大",
+    "rank": 12,
+    "total": "5:24:07",
+    "status": "finished",
+    "results": [
+      {
+        "section": 1,
+        "name": "福田 翔",
+        "time": "27:30",
+        "rank": 9,
+        "status": "finished"
+      },
+      {
+        "section": 2,
+        "name": "山中 博生",
+        "time": "31:32",
+        "rank": 6,
+        "status": "finished"
+      },
+      {
+        "section": 3,
+        "name": "柴戸 遼太",
+        "time": "34:16",
+        "rank": 6,
+        "status": "finished"
+      },
+      {
+        "section": 4,
+        "name": "西脇 翔太",
+        "time": "37:14",
+        "rank": 22,
+        "status": "finished"
+      },
+      {
+        "section": 5,
+        "name": "末次 海斗",
+        "time": "37:01",
+        "rank": 7,
+        "status": "finished"
+      },
+      {
+        "section": 6,
+        "name": "島田 晃希",
+        "time": "38:29",
+        "rank": 8,
+        "status": "finished"
+      },
+      {
+        "section": 7,
+        "name": "日高 拓夢",
+        "time": "55:41",
+        "rank": 16,
+        "status": "finished"
+      },
+      {
+        "section": 8,
+        "name": "小林 大晟",
+        "time": "1:02:24",
+        "rank": 14,
+        "status": "finished"
+      }
+    ]
+  },
+  {
+    "bib": 15,
+    "team": "東京農業大",
+    "rank": 13,
+    "total": "5:25:22",
+    "status": "finished",
+    "results": [
+      {
+        "section": 1,
+        "name": "圓谷 吏生",
+        "time": "27:39",
+        "rank": 10,
+        "status": "finished"
+      },
+      {
+        "section": 2,
+        "name": "前田 和摩",
+        "time": "31:11",
+        "rank": 3,
+        "status": "finished"
+      },
+      {
+        "section": 3,
+        "name": "原田 洋輔",
+        "time": "34:32",
+        "rank": 10,
+        "status": "finished"
+      },
+      {
+        "section": 4,
+        "name": "並木 寧音",
+        "time": "34:59",
+        "rank": 5,
+        "status": "finished"
+      },
+      {
+        "section": 5,
+        "name": "実井 智哉",
+        "time": "38:20",
+        "rank": 13,
+        "status": "finished"
+      },
+      {
+        "section": 6,
+        "name": "浅海 崇志",
+        "time": "39:47",
+        "rank": 15,
+        "status": "finished"
+      },
+      {
+        "section": 7,
+        "name": "高槻 芳照",
+        "time": "54:04",
+        "rank": 11,
+        "status": "finished"
+      },
+      {
+        "section": 8,
+        "name": "田岡 航一",
+        "time": "1:04:50",
+        "rank": 20,
+        "status": "finished"
+      }
+    ]
+  },
+  {
+    "bib": 8,
+    "team": "東洋大",
+    "rank": 14,
+    "total": "5:26:33",
+    "status": "finished",
+    "results": [
+      {
+        "section": 1,
+        "name": "熊﨑 貴哉",
+        "time": "27:39",
+        "rank": 11,
+        "status": "finished"
+      },
+      {
+        "section": 2,
+        "name": "小林 亮太",
+        "time": "33:02",
+        "rank": 16,
+        "status": "finished"
+      },
+      {
+        "section": 3,
+        "name": "奥山 輝",
+        "time": "35:30",
+        "rank": 16,
+        "status": "finished"
+      },
+      {
+        "section": 4,
+        "name": "緒方 澪那斗",
+        "time": "35:41",
+        "rank": 14,
+        "status": "finished"
+      },
+      {
+        "section": 5,
+        "name": "薄根 大河",
+        "time": "37:39",
+        "rank": 10,
+        "status": "finished"
+      },
+      {
+        "section": 6,
+        "name": "村上 太一",
+        "time": "38:22",
+        "rank": 6,
+        "status": "finished"
+      },
+      {
+        "section": 7,
+        "name": "西村 真周",
+        "time": "56:26",
+        "rank": 18,
+        "status": "finished"
+      },
+      {
+        "section": 8,
+        "name": "梅崎 蓮",
+        "time": "1:02:14",
+        "rank": 12,
+        "status": "finished"
+      }
+    ]
+  },
+  {
+    "bib": 17,
+    "team": "国士舘大",
+    "rank": 15,
+    "total": "5:31:32",
+    "status": "finished",
+    "results": [
+      {
+        "section": 1,
+        "name": "山本 龍神",
+        "time": "27:58",
+        "rank": 17,
+        "status": "finished"
+      },
+      {
+        "section": 2,
+        "name": "ピーター カマウ",
+        "time": "32:47",
+        "rank": 14,
+        "status": "finished"
+      },
+      {
+        "section": 3,
+        "name": "生駒 直幸",
+        "time": "35:12",
+        "rank": 15,
+        "status": "finished"
+      },
+      {
+        "section": 4,
+        "name": "西田 大智",
+        "time": "35:35",
+        "rank": 12,
+        "status": "finished"
+      },
+      {
+        "section": 5,
+        "name": "岩下 翔哉",
+        "time": "40:00",
+        "rank": 24,
+        "status": "finished"
+      },
+      {
+        "section": 6,
+        "name": "小林 瑠偉",
+        "time": "39:57",
+        "rank": 16,
+        "status": "finished"
+      },
+      {
+        "section": 7,
+        "name": "中島 弘太",
+        "time": "56:26",
+        "rank": 18,
+        "status": "finished"
+      },
+      {
+        "section": 8,
+        "name": "横田 星那",
+        "time": "1:03:37",
+        "rank": 17,
+        "status": "finished"
+      }
+    ]
+  },
+  {
+    "bib": 20,
+    "team": "大阪経済大",
+    "rank": 16,
+    "total": "5:32:03",
+    "status": "finished",
+    "results": [
+      {
+        "section": 1,
+        "name": "坂本 智基",
+        "time": "27:42",
+        "rank": 12,
+        "status": "finished"
+      },
+      {
+        "section": 2,
+        "name": "新 博貴",
+        "time": "34:12",
+        "rank": 20,
+        "status": "finished"
+      },
+      {
+        "section": 3,
+        "name": "婦木 拓実",
+        "time": "36:05",
+        "rank": 18,
+        "status": "finished"
+      },
+      {
+        "section": 4,
+        "name": "島野 和志",
+        "time": "36:10",
+        "rank": 15,
+        "status": "finished"
+      },
+      {
+        "section": 5,
+        "name": "杉本 平汰",
+        "time": "38:48",
+        "rank": 17,
+        "status": "finished"
+      },
+      {
+        "section": 6,
+        "name": "京川 大真",
+        "time": "40:27",
+        "rank": 19,
+        "status": "finished"
+      },
+      {
+        "section": 7,
+        "name": "宮﨑 源喜",
+        "time": "55:33",
+        "rank": 14,
+        "status": "finished"
+      },
+      {
+        "section": 8,
+        "name": "中角 航大",
+        "time": "1:03:06",
+        "rank": 15,
+        "status": "finished"
+      }
+    ]
+  },
+  {
+    "bib": 23,
+    "team": "関西学院大",
+    "rank": 17,
+    "total": "5:34:01",
+    "status": "finished",
+    "results": [
+      {
+        "section": 1,
+        "name": "山下 慶馬",
+        "time": "28:19",
+        "rank": 19,
+        "status": "finished"
+      },
+      {
+        "section": 2,
+        "name": "佐藤 良祐",
+        "time": "34:29",
+        "rank": 22,
+        "status": "finished",
+        "grade": "4"
+      },
+      {
+        "section": 3,
+        "name": "岡 寛大",
+        "time": "36:13",
+        "rank": 19,
+        "status": "finished",
+        "grade": "3"
+      },
+      {
+        "section": 4,
+        "name": "寺川 直央",
+        "time": "37:23",
+        "rank": 23,
+        "status": "finished",
+        "grade": "1"
+      },
+      {
+        "section": 5,
+        "name": "齋藤 翔也",
+        "time": "38:58",
+        "rank": 18,
+        "status": "finished",
+        "grade": "4"
+      },
+      {
+        "section": 6,
+        "name": "太田 駿",
+        "time": "41:37",
+        "rank": 23,
+        "status": "finished",
+        "grade": "2"
+      },
+      {
+        "section": 7,
+        "name": "中尾 心哉",
+        "time": "56:37",
+        "rank": 21,
+        "status": "finished",
+        "grade": "3"
+      },
+      {
+        "section": 8,
+        "name": "守屋 和希",
+        "time": "1:00:25",
+        "rank": 8,
+        "status": "finished",
+        "grade": "4"
+      }
+    ]
+  },
+  {
+    "bib": 22,
+    "team": "関西大",
+    "rank": 18,
+    "total": "5:34:38",
+    "status": "finished",
+    "results": [
+      {
+        "section": 1,
+        "name": "谷村 恒晟",
+        "time": "28:31",
+        "rank": 21,
+        "status": "finished"
+      },
+      {
+        "section": 2,
+        "name": "亀田 仁一路",
+        "time": "32:47",
+        "rank": 14,
+        "status": "finished"
+      },
+      {
+        "section": 3,
+        "name": "伊藤 仁",
+        "time": "36:21",
+        "rank": 20,
+        "status": "finished"
+      },
+      {
+        "section": 4,
+        "name": "秋山 翔太朗",
+        "time": "36:42",
+        "rank": 18,
+        "status": "finished"
+      },
+      {
+        "section": 5,
+        "name": "大槻 涼人",
+        "time": "39:34",
+        "rank": 23,
+        "status": "finished"
+      },
+      {
+        "section": 6,
+        "name": "市川 侑生",
+        "time": "40:12",
+        "rank": 18,
+        "status": "finished"
+      },
+      {
+        "section": 7,
+        "name": "坂本 亘生",
+        "time": "57:21",
+        "rank": 22,
+        "status": "finished"
+      },
+      {
+        "section": 8,
+        "name": "坂東 壮琉",
+        "time": "1:03:10",
+        "rank": 16,
+        "status": "finished"
+      }
+    ]
+  },
+  {
+    "bib": 19,
+    "team": "名古屋大",
+    "rank": 19,
+    "total": "5:36:54",
+    "status": "finished",
+    "results": [
+      {
+        "section": 1,
+        "name": "小川 海里",
+        "time": "29:28",
+        "rank": 26,
+        "status": "finished"
+      },
+      {
+        "section": 2,
+        "name": "河﨑 憲祐",
+        "time": "34:19",
+        "rank": 21,
+        "status": "finished"
+      },
+      {
+        "section": 3,
+        "name": "阿部 祥典",
+        "time": "36:45",
+        "rank": 23,
+        "status": "finished"
+      },
+      {
+        "section": 4,
+        "name": "吉原 諒",
+        "time": "36:37",
+        "rank": 17,
+        "status": "finished"
+      },
+      {
+        "section": 5,
+        "name": "加藤 太一",
+        "time": "38:43",
+        "rank": 15,
+        "status": "finished"
+      },
+      {
+        "section": 6,
+        "name": "重田 直賢",
+        "time": "39:41",
+        "rank": 14,
+        "status": "finished"
+      },
+      {
+        "section": 7,
+        "name": "森川 陽之",
+        "time": "54:41",
+        "rank": 13,
+        "status": "finished"
+      },
+      {
+        "section": 8,
+        "name": "村瀬 稜治",
+        "time": "1:06:40",
+        "rank": 24,
+        "status": "finished"
+      }
+    ]
+  },
+  {
+    "bib": 21,
+    "team": "立命館大",
+    "rank": 20,
+    "total": "5:37:54",
+    "status": "finished",
+    "results": [
+      {
+        "section": 1,
+        "name": "大森 駿斗",
+        "time": "27:48",
+        "rank": 15,
+        "status": "finished"
+      },
+      {
+        "section": 2,
+        "name": "山﨑 皓太",
+        "time": "33:13",
+        "rank": 18,
+        "status": "finished"
+      },
+      {
+        "section": 3,
+        "name": "茶木 涼介",
+        "time": "36:37",
+        "rank": 21,
+        "status": "finished"
+      },
+      {
+        "section": 4,
+        "name": "清水 隼人",
+        "time": "36:46",
+        "rank": 20,
+        "status": "finished"
+      },
+      {
+        "section": 5,
+        "name": "児玉 航洋",
+        "time": "39:08",
+        "rank": 19,
+        "status": "finished"
+      },
+      {
+        "section": 6,
+        "name": "田部 央",
+        "time": "41:29",
+        "rank": 22,
+        "status": "finished"
+      },
+      {
+        "section": 7,
+        "name": "尾上 陽人",
+        "time": "55:35",
+        "rank": 15,
+        "status": "finished"
+      },
+      {
+        "section": 8,
+        "name": "倉橋 慶",
+        "time": "1:07:18",
+        "rank": 25,
+        "status": "finished"
+      }
+    ]
+  },
+  {
+    "bib": 25,
+    "team": "鹿児島大",
+    "rank": 21,
+    "total": "5:40:25",
+    "status": "finished",
+    "results": [
+      {
+        "section": 1,
+        "name": "藤本 悠太郎",
+        "time": "29:15",
+        "rank": 25,
+        "status": "finished"
+      },
+      {
+        "section": 2,
+        "name": "弓削 佑太",
+        "time": "35:07",
+        "rank": 25,
+        "status": "finished"
+      },
+      {
+        "section": 3,
+        "name": "鶴田 寛武",
+        "time": "36:04",
+        "rank": 17,
+        "status": "finished"
+      },
+      {
+        "section": 4,
+        "name": "茅野 智裕",
+        "time": "36:48",
+        "rank": 21,
+        "status": "finished"
+      },
+      {
+        "section": 5,
+        "name": "清藤 悠里",
+        "time": "39:14",
+        "rank": 20,
+        "status": "finished"
+      },
+      {
+        "section": 6,
+        "name": "平野 皓大",
+        "time": "42:07",
+        "rank": 24,
+        "status": "finished"
+      },
+      {
+        "section": 7,
+        "name": "田代 敬之",
+        "time": "57:42",
+        "rank": 23,
+        "status": "finished"
+      },
+      {
+        "section": 8,
+        "name": "別府 明稔",
+        "time": "1:04:08",
+        "rank": 18,
+        "status": "finished"
+      }
+    ]
+  },
+  {
+    "bib": 9,
+    "team": "札幌学院大",
+    "rank": 22,
+    "total": "5:41:13",
+    "status": "finished",
+    "results": [
+      {
+        "section": 1,
+        "name": "山崎 樹羅",
+        "time": "28:20",
+        "rank": 20,
+        "status": "finished"
+      },
+      {
+        "section": 2,
+        "name": "ワング イブラヒム",
+        "time": "34:40",
+        "rank": 24,
+        "status": "finished"
+      },
+      {
+        "section": 3,
+        "name": "渡邊 隼翼",
+        "time": "36:37",
+        "rank": 21,
+        "status": "finished"
+      },
+      {
+        "section": 4,
+        "name": "大栁 達哉",
+        "time": "38:11",
+        "rank": 25,
+        "status": "finished"
+      },
+      {
+        "section": 5,
+        "name": "佐藤 匠",
+        "time": "39:17",
+        "rank": 21,
+        "status": "finished"
+      },
+      {
+        "section": 6,
+        "name": "宮野 勇太",
+        "time": "42:35",
+        "rank": 26,
+        "status": "finished"
+      },
+      {
+        "section": 7,
+        "name": "佐藤 魁良寸",
+        "time": "56:31",
+        "rank": 20,
+        "status": "finished"
+      },
+      {
+        "section": 8,
+        "name": "村上 一大",
+        "time": "1:05:02",
+        "rank": 22,
+        "status": "finished"
+      }
+    ]
+  },
+  {
+    "bib": 24,
+    "team": "環太平洋大",
+    "rank": 23,
+    "total": "5:48:21",
+    "status": "finished",
+    "results": [
+      {
+        "section": 1,
+        "name": "谷末 智哉",
+        "time": "28:50",
+        "rank": 23,
+        "status": "finished"
+      },
+      {
+        "section": 2,
+        "name": "髙嶋 荘太",
+        "time": "35:15",
+        "rank": 26,
+        "status": "finished"
+      },
+      {
+        "section": 3,
+        "name": "松崎 寧生",
+        "time": "37:13",
+        "rank": 24,
+        "status": "finished"
+      },
+      {
+        "section": 4,
+        "name": "佐野 泰斗",
+        "time": "37:38",
+        "rank": 24,
+        "status": "finished"
+      },
+      {
+        "section": 5,
+        "name": "中川 大智",
+        "time": "40:12",
+        "rank": 25,
+        "status": "finished"
+      },
+      {
+        "section": 6,
+        "name": "林本 涼",
+        "time": "40:43",
+        "rank": 21,
+        "status": "finished"
+      },
+      {
+        "section": 7,
+        "name": "勝部 遼",
+        "time": "1:02:39",
+        "rank": 26,
+        "status": "finished"
+      },
+      {
+        "section": 8,
+        "name": "脇 健斗",
+        "time": "1:05:51",
+        "rank": 23,
+        "status": "finished"
+      }
+    ]
+  },
+  {
+    "bib": 18,
+    "team": "新潟大",
+    "rank": 24,
+    "total": "5:48:52",
+    "status": "finished",
+    "results": [
+      {
+        "section": 1,
+        "name": "中戸 元貴",
+        "time": "28:57",
+        "rank": 24,
+        "status": "finished"
+      },
+      {
+        "section": 2,
+        "name": "渡邊 真大",
+        "time": "34:35",
+        "rank": 23,
+        "status": "finished"
+      },
+      {
+        "section": 3,
+        "name": "舟山 俊希",
+        "time": "38:57",
+        "rank": 27,
+        "status": "finished"
+      },
+      {
+        "section": 4,
+        "name": "金子 敦哉",
+        "time": "38:59",
+        "rank": 26,
+        "status": "finished"
+      },
+      {
+        "section": 5,
+        "name": "新奥 佑太",
+        "time": "40:56",
+        "rank": 26,
+        "status": "finished"
+      },
+      {
+        "section": 6,
+        "name": "髙橋 惇央",
+        "time": "42:12",
+        "rank": 25,
+        "status": "finished"
+      },
+      {
+        "section": 7,
+        "name": "谷端 良鷹",
+        "time": "59:16",
+        "rank": 25,
+        "status": "finished"
+      },
+      {
+        "section": 8,
+        "name": "横山 昇太郎",
+        "time": "1:05:00",
+        "rank": 21,
+        "status": "finished"
+      }
+    ]
+  },
+  {
+    "bib": 26,
+    "team": "日本学連選抜",
+    "rank": null,
+    "total": "5:26:44",
+    "status": "reference",
+    "results": [
+      {
+        "section": 1,
+        "name": "橋本 章央",
+        "time": "27:46",
+        "rank": 14,
+        "status": "reference"
+      },
+      {
+        "section": 2,
+        "name": "森下 翔太",
+        "time": "33:12",
+        "rank": 17,
+        "status": "reference"
+      },
+      {
+        "section": 3,
+        "name": "小林 篤貴",
+        "time": "34:01",
+        "rank": 3,
+        "status": "reference"
+      },
+      {
+        "section": 4,
+        "name": "小嶋 郁依斗",
+        "time": "35:00",
+        "rank": 6,
+        "status": "reference"
+      },
+      {
+        "section": 5,
+        "name": "中村 光稀",
+        "time": "38:41",
+        "rank": 14,
+        "status": "reference"
+      },
+      {
+        "section": 6,
+        "name": "大園 倫太郎",
+        "time": "39:33",
+        "rank": 13,
+        "status": "reference"
+      },
+      {
+        "section": 7,
+        "name": "石鍋 颯一",
+        "time": "56:18",
+        "rank": 17,
+        "status": "reference"
+      },
+      {
+        "section": 8,
+        "name": "松林 直亮",
+        "time": "1:02:13",
+        "rank": 11,
+        "status": "reference"
+      }
+    ]
+  },
+  {
+    "bib": 27,
+    "team": "東海学連選抜",
+    "rank": null,
+    "total": "5:47:31",
+    "status": "reference",
+    "results": [
+      {
+        "section": 1,
+        "name": "小渕 稜央",
+        "time": "28:46",
+        "rank": 22,
+        "status": "reference"
+      },
+      {
+        "section": 2,
+        "name": "中嶋 希",
+        "time": "33:42",
+        "rank": 19,
+        "status": "reference"
+      },
+      {
+        "section": 3,
+        "name": "吉田 椋哉",
+        "time": "38:00",
+        "rank": 25,
+        "status": "reference"
+      },
+      {
+        "section": 4,
+        "name": "橋本 平良",
+        "time": "36:43",
+        "rank": 19,
+        "status": "reference"
+      },
+      {
+        "section": 5,
+        "name": "天野 佑哉",
+        "time": "39:23",
+        "rank": 22,
+        "status": "reference"
+      },
+      {
+        "section": 6,
+        "name": "曽越 大成",
+        "time": "40:38",
+        "rank": 20,
+        "status": "reference"
+      },
+      {
+        "section": 7,
+        "name": "岩島 昇汰",
+        "time": "58:44",
+        "rank": 24,
+        "status": "reference"
+      },
+      {
+        "section": 8,
+        "name": "畠山 大輔",
+        "time": "1:11:35",
+        "rank": 26,
+        "status": "reference"
+      }
+    ]
+  },
+  {
+    "bib": 10,
+    "team": "東北学院大",
+    "rank": null,
+    "total": null,
+    "status": "did-not-finish",
+    "results": [
+      {
+        "section": 1,
+        "name": "吉田 奏斗",
+        "time": "30:17",
+        "rank": 27,
+        "status": "reference"
+      },
+      {
+        "section": 2,
+        "name": "齋藤 颯希",
+        "time": "35:47",
+        "rank": 27,
+        "status": "reference"
+      },
+      {
+        "section": 3,
+        "name": "畠山 大輝",
+        "time": "38:51",
+        "rank": 26,
+        "status": "reference"
+      },
+      {
+        "section": 4,
+        "name": "斉本 岳",
+        "time": "40:08",
+        "rank": 27,
+        "status": "reference"
+      },
+      {
+        "section": 5,
+        "name": "阿部 輝翔",
+        "time": null,
+        "rank": null,
+        "status": "did-not-finish"
+      },
+      {
+        "section": 6,
+        "name": "中野 朝斗",
+        "time": "45:11",
+        "rank": null,
+        "status": "reference"
+      },
+      {
+        "section": 7,
+        "name": "新美 和哉",
+        "time": "1:00:28",
+        "rank": null,
+        "status": "reference"
+      },
+      {
+        "section": 8,
+        "name": "関 尚輝",
+        "time": "1:09:27",
+        "rank": null,
+        "status": "reference"
+      }
+    ]
+  }
+]

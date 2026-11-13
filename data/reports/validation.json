@@ -13,96 +13,10 @@
         "team-tokai-selection",
         "team-tohoku-gakuin"
       ],
-      "crossEditionAthletes": 125,
-      "reusedFromEarlierEditions": 64,
-      "resultsSha256": "a768a6b5216f354c014ae8702f4b9507fe5d111f6a2a77d8a6ebb26e4f2c26ee",
+      "crossEditionAthletes": 152,
+      "reusedFromEarlierEditions": 65,
+      "resultsSha256": "3f2c42d1936a6856834878d97bc299e8478e5f0783dd29ac9471f6adf376435b",
       "review": [
-        {
-          "recordId": "aj23-result-23-2",
-          "athleteId": "athlete-aj23-23-2",
-          "observedName": "佐藤 良祐",
-          "status": "needs-review",
-          "candidateIds": [],
-          "evidenceSourceIds": [
-            "iuau-aj23-results",
-            "iuau-aj23-roster"
-          ],
-          "reason": "首次收录，未发现注册姓名候选。 最终名单字形与成绩表不同，年级留空待核验：岡 寛大"
-        },
-        {
-          "recordId": "aj23-result-23-3",
-          "athleteId": "athlete-aj23-23-3",
-          "observedName": "岡 寛大",
-          "status": "needs-review",
-          "candidateIds": [],
-          "evidenceSourceIds": [
-            "iuau-aj23-results",
-            "iuau-aj23-roster"
-          ],
-          "reason": "首次收录，未发现注册姓名候选。 最终名单字形与成绩表不同，年级留空待核验：寺川 直央"
-        },
-        {
-          "recordId": "aj23-result-23-4",
-          "athleteId": "athlete-aj23-23-4",
-          "observedName": "寺川 直央",
-          "status": "needs-review",
-          "candidateIds": [
-            "athlete-aj25-23-2"
-          ],
-          "evidenceSourceIds": [
-            "iuau-aj23-results",
-            "iuau-aj23-roster"
-          ],
-          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保留独立ID。 最终名单字形与成绩表不同，年级留空待核验：齋藤 翔也"
-        },
-        {
-          "recordId": "aj23-result-23-5",
-          "athleteId": "athlete-aj23-23-5",
-          "observedName": "齋藤 翔也",
-          "status": "needs-review",
-          "candidateIds": [],
-          "evidenceSourceIds": [
-            "iuau-aj23-results",
-            "iuau-aj23-roster"
-          ],
-          "reason": "首次收录，未发现注册姓名候选。 最终名单字形与成绩表不同，年级留空待核验：太田 駿"
-        },
-        {
-          "recordId": "aj23-result-23-6",
-          "athleteId": "athlete-aj23-23-6",
-          "observedName": "太田 駿",
-          "status": "needs-review",
-          "candidateIds": [],
-          "evidenceSourceIds": [
-            "iuau-aj23-results",
-            "iuau-aj23-roster"
-          ],
-          "reason": "首次收录，未发现注册姓名候选。 最终名单字形与成绩表不同，年级留空待核验：中尾 心哉"
-        },
-        {
-          "recordId": "aj23-result-23-7",
-          "athleteId": "athlete-aj23-23-7",
-          "observedName": "中尾 心哉",
-          "status": "needs-review",
-          "candidateIds": [],
-          "evidenceSourceIds": [
-            "iuau-aj23-results",
-            "iuau-aj23-roster"
-          ],
-          "reason": "首次收录，未发现注册姓名候选。 最终名单字形与成绩表不同，年级留空待核验：守屋 和希"
-        },
-        {
-          "recordId": "aj23-result-23-8",
-          "athleteId": "athlete-aj23-23-8",
-          "observedName": "守屋 和希",
-          "status": "needs-review",
-          "candidateIds": [],
-          "evidenceSourceIds": [
-            "iuau-aj23-results",
-            "iuau-aj23-roster"
-          ],
-          "reason": "首次收录，未发现注册姓名候选。 最终名单字形与成绩表不同，年级留空待核验：日隈 達也"
-        },
         {
           "recordId": "aj23-result-19-1",
           "athleteId": "athlete-aj23-19-1",
@@ -326,8 +240,8 @@
       "athletes": 200,
       "officialFinalRanks": 25,
       "unrankedTeams": [],
-      "crossEditionAthletes": 148,
-      "reusedFromEarlierEditions": 119,
+      "crossEditionAthletes": 171,
+      "reusedFromEarlierEditions": 137,
       "resultsSha256": "3ffb35885a6bbba18c5ce5577b99bda5bb70ef2bfb92ce29e8b88300f657ca92",
       "review": [],
       "missingTeamTotals": [
@@ -369,8 +283,8 @@
         "team-japan-selection",
         "team-tokai-selection"
       ],
-      "crossEditionAthletes": 148,
-      "reusedFromEarlierEditions": 110,
+      "crossEditionAthletes": 167,
+      "reusedFromEarlierEditions": 130,
       "resultsSha256": "548d35ecbbe42017d16dc973b62498ffc67d6e8d799f1a3020e049eb061e3c83",
       "review": [
         {
@@ -456,8 +370,8 @@
         "team-japan-selection",
         "team-tokai-selection"
       ],
-      "crossEditionAthletes": 114,
-      "reusedFromEarlierEditions": 114,
+      "crossEditionAthletes": 129,
+      "reusedFromEarlierEditions": 129,
       "resultsSha256": "96185167d300ddf5f5e484ba7d41d50c0d044cdf0425bd15ee2612390c9b67e2",
       "review": [
         {
@@ -465,12 +379,15 @@
           "athleteId": "athlete-aj26-11-5",
           "observedName": "橋本 櫂知",
           "status": "needs-review",
-          "candidateIds": [],
+          "candidateIds": [
+            "athlete-iz26-13-6"
+          ],
           "evidenceSourceIds": [
             "iuau-aj26-results",
-            "iuau-aj26-roster"
+            "iuau-aj26-roster",
+            "iuau-iz26-roster"
           ],
-          "reason": "首次收录，未发现注册姓名候选。 最终名单字形与成绩表不同，年级留空待核验：𣘺本 櫂知"
+          "reason": "成绩表橋本 櫂知与最终名单𣘺本 櫂知字形不同；出云2026同大学名单存在𣘺本 櫂知，列为跨赛事候选但不猜测合并，年级留空待原件核验。"
         },
         {
           "recordId": "aj26-result-17-4",
@@ -704,6 +621,260 @@
       "missingTeamTotals": []
     },
     {
+      "editionId": "hakone-2024",
+      "teams": 23,
+      "universityTeams": 23,
+      "starts": 230,
+      "athletes": 230,
+      "officialFinalRanks": 23,
+      "unrankedTeams": [],
+      "crossEditionAthletes": 150,
+      "reusedFromEarlierEditions": 87,
+      "resultsSha256": "67c55d17a4a695195b1656e0962b1d592ac507ebab8d9ad1a1bb1a8b72c566c6",
+      "review": [
+        {
+          "recordId": "hk24-result-03-3",
+          "athleteId": "athlete-hk24-03-3",
+          "observedName": "Ｖ.キムタイ",
+          "status": "needs-review",
+          "candidateIds": [],
+          "evidenceSourceIds": [
+            "ntv-hk24-03",
+            "hakone-24-archive"
+          ],
+          "reason": "姓名候选存在或官方缩写无法确认，同大学/年级证据不足或歧义，保持独立ID。"
+        },
+        {
+          "recordId": "hk24-result-08-2",
+          "athleteId": "athlete-hk24-08-2",
+          "observedName": "Ｓ.ムチーニ",
+          "status": "needs-review",
+          "candidateIds": [],
+          "evidenceSourceIds": [
+            "ntv-hk24-08",
+            "hakone-24-archive"
+          ],
+          "reason": "姓名候选存在或官方缩写无法确认，同大学/年级证据不足或歧义，保持独立ID。"
+        },
+        {
+          "recordId": "hk24-result-10-8",
+          "athleteId": "athlete-hk24-10-8",
+          "observedName": "Ｐ.ワンジル",
+          "status": "needs-review",
+          "candidateIds": [],
+          "evidenceSourceIds": [
+            "ntv-hk24-10",
+            "hakone-24-archive"
+          ],
+          "reason": "姓名候选存在或官方缩写无法确认，同大学/年级证据不足或歧义，保持独立ID。"
+        },
+        {
+          "recordId": "hk24-result-12-2",
+          "athleteId": "athlete-hk24-12-2",
+          "observedName": "Ｐ.カマウ",
+          "status": "needs-review",
+          "candidateIds": [],
+          "evidenceSourceIds": [
+            "ntv-hk24-12",
+            "hakone-24-archive"
+          ],
+          "reason": "姓名候选存在或官方缩写无法确认，同大学/年级证据不足或歧义，保持独立ID。"
+        },
+        {
+          "recordId": "hk24-result-15-2",
+          "athleteId": "athlete-hk24-15-2",
+          "observedName": "Ｓ.キップケメイ",
+          "status": "needs-review",
+          "candidateIds": [],
+          "evidenceSourceIds": [
+            "ntv-hk24-15",
+            "hakone-24-archive"
+          ],
+          "reason": "姓名候选存在或官方缩写无法确认，同大学/年级证据不足或歧义，保持独立ID。"
+        },
+        {
+          "recordId": "hk24-result-18-1",
+          "athleteId": "athlete-hk24-18-1",
+          "observedName": "Ｓ.レマイヤン",
+          "status": "needs-review",
+          "candidateIds": [],
+          "evidenceSourceIds": [
+            "ntv-hk24-18",
+            "hakone-24-archive"
+          ],
+          "reason": "姓名候选存在或官方缩写无法确认，同大学/年级证据不足或歧义，保持独立ID。"
+        },
+        {
+          "recordId": "hk24-result-18-3",
+          "athleteId": "athlete-hk24-18-3",
+          "observedName": "古橋 希翁",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj25-26-1"
+          ],
+          "evidenceSourceIds": [
+            "ntv-hk24-18",
+            "hakone-24-archive"
+          ],
+          "reason": "姓名候选存在或官方缩写无法确认，同大学/年级证据不足或歧义，保持独立ID。"
+        },
+        {
+          "recordId": "hk24-result-20-4",
+          "athleteId": "athlete-hk24-20-4",
+          "observedName": "森下 翔太",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj23-26-2"
+          ],
+          "evidenceSourceIds": [
+            "ntv-hk24-20",
+            "hakone-24-archive"
+          ],
+          "reason": "姓名候选存在或官方缩写无法确认，同大学/年级证据不足或歧义，保持独立ID。"
+        },
+        {
+          "recordId": "hk24-result-21-2",
+          "athleteId": "athlete-hk24-21-2",
+          "observedName": "小林 篤貴",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj23-26-3"
+          ],
+          "evidenceSourceIds": [
+            "ntv-hk24-21",
+            "hakone-24-archive"
+          ],
+          "reason": "姓名候选存在或官方缩写无法确认，同大学/年级证据不足或歧义，保持独立ID。"
+        },
+        {
+          "recordId": "hk24-result-23-2",
+          "athleteId": "athlete-hk24-23-2",
+          "observedName": "Ｂ.キピエゴ",
+          "status": "needs-review",
+          "candidateIds": [],
+          "evidenceSourceIds": [
+            "ntv-hk24-23",
+            "hakone-24-archive"
+          ],
+          "reason": "姓名候选存在或官方缩写无法确认，同大学/年级证据不足或歧义，保持独立ID。"
+        }
+      ],
+      "missingTeamTotals": []
+    },
+    {
+      "editionId": "hakone-2025",
+      "teams": 21,
+      "universityTeams": 20,
+      "starts": 210,
+      "athletes": 210,
+      "officialFinalRanks": 20,
+      "unrankedTeams": [
+        "team-kanto-selection"
+      ],
+      "crossEditionAthletes": 169,
+      "reusedFromEarlierEditions": 143,
+      "resultsSha256": "e1df980a9e7cc5befd13a96a16620d1ff7675744a1f5e58e69608b6290b62dc4",
+      "review": [
+        {
+          "recordId": "hk25-result-08-2",
+          "athleteId": "athlete-hk25-08-2",
+          "observedName": "Ｒ.エティーリ",
+          "status": "needs-review",
+          "candidateIds": [],
+          "evidenceSourceIds": [
+            "ntv-hk25-08",
+            "hakone-25-archive"
+          ],
+          "reason": "姓名候选存在或官方缩写无法确认，同大学/年级证据不足或歧义，保持独立ID。"
+        },
+        {
+          "recordId": "hk25-result-17-2",
+          "athleteId": "athlete-hk25-17-2",
+          "observedName": "Ｄ.マイナ",
+          "status": "needs-review",
+          "candidateIds": [],
+          "evidenceSourceIds": [
+            "ntv-hk25-17",
+            "hakone-25-archive"
+          ],
+          "reason": "姓名候选存在或官方缩写无法确认，同大学/年级证据不足或歧义，保持独立ID。"
+        },
+        {
+          "recordId": "hk25-result-18-2",
+          "athleteId": "athlete-hk25-18-2",
+          "observedName": "Ｊ.ムトゥク",
+          "status": "needs-review",
+          "candidateIds": [],
+          "evidenceSourceIds": [
+            "ntv-hk25-18",
+            "hakone-25-archive"
+          ],
+          "reason": "姓名候选存在或官方缩写无法确认，同大学/年级证据不足或歧义，保持独立ID。"
+        },
+        {
+          "recordId": "hk25-result-21-5",
+          "athleteId": "athlete-hk25-21-5",
+          "observedName": "佐藤 我駆人",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj25-26-5",
+            "athlete-aj26-26-3"
+          ],
+          "evidenceSourceIds": [
+            "ntv-hk25-21",
+            "hakone-25-archive"
+          ],
+          "reason": "姓名候选存在或官方缩写无法确认，同大学/年级证据不足或歧义，保持独立ID。"
+        }
+      ],
+      "missingTeamTotals": []
+    },
+    {
+      "editionId": "hakone-2026",
+      "teams": 21,
+      "universityTeams": 20,
+      "starts": 210,
+      "athletes": 210,
+      "officialFinalRanks": 20,
+      "unrankedTeams": [
+        "team-kanto-selection"
+      ],
+      "crossEditionAthletes": 174,
+      "reusedFromEarlierEditions": 163,
+      "resultsSha256": "bbe37119e89d1b49da10ff1ab7e147041d491b1999467c678f8679730b02e1c3",
+      "review": [
+        {
+          "recordId": "hk26-result-15-8",
+          "athleteId": "athlete-hk26-15-8",
+          "observedName": "吉田 黎大",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj25-17-5"
+          ],
+          "evidenceSourceIds": [
+            "ntv-hk26-15",
+            "hakone-26-archive"
+          ],
+          "reason": "姓名候选存在或官方缩写无法确认，同大学/年级证据不足或歧义，保持独立ID。"
+        },
+        {
+          "recordId": "hk26-result-21-9",
+          "athleteId": "athlete-hk26-21-9",
+          "observedName": "染谷 雄輝",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj25-26-2"
+          ],
+          "evidenceSourceIds": [
+            "ntv-hk26-21",
+            "hakone-26-archive"
+          ],
+          "reason": "姓名候选存在或官方缩写无法确认，同大学/年级证据不足或歧义，保持独立ID。"
+        }
+      ],
+      "missingTeamTotals": []
+    },
+    {
       "editionId": "izumo-2023",
       "teams": 21,
       "universityTeams": 17,
@@ -714,9 +885,9 @@
         "team-osaka-keizai",
         "team-soka"
       ],
-      "crossEditionAthletes": 79,
+      "crossEditionAthletes": 86,
       "reusedFromEarlierEditions": 0,
-      "resultsSha256": "b0309f5e10afa248e1dfcb7ff5404f4e3dcfc13e673a4ea759699a884c9e9dd7",
+      "resultsSha256": "f3dbc016680eec086a3b653fa6cd056f9d7355f4cae9a1218e76efc9ff795fb7",
       "review": [
         {
           "recordId": "iz23-result-21-1",
@@ -974,8 +1145,8 @@
       "athletes": 126,
       "officialFinalRanks": 21,
       "unrankedTeams": [],
-      "crossEditionAthletes": 91,
-      "reusedFromEarlierEditions": 45,
+      "crossEditionAthletes": 98,
+      "reusedFromEarlierEditions": 55,
       "resultsSha256": "5ad2c8a10c7f7e3e91ea92b169f04ca97283e2646f705b6e11324027a317e238",
       "review": [
         {
@@ -1183,8 +1354,8 @@
       "unrankedTeams": [
         "team-c40dbde785ee"
       ],
-      "crossEditionAthletes": 90,
-      "reusedFromEarlierEditions": 55,
+      "crossEditionAthletes": 92,
+      "reusedFromEarlierEditions": 60,
       "resultsSha256": "a0dae7bd0e1a753a363dc60c567d19fa8dbbfbfac2c9a76578694415f1c06842",
       "review": [
         {
@@ -1522,7 +1693,7 @@
         "team-c40dbde785ee"
       ],
       "crossEditionAthletes": 82,
-      "reusedFromEarlierEditions": 57,
+      "reusedFromEarlierEditions": 59,
       "resultsSha256": "bcd632ecba6fbdbcb0009877b88b66e8f2ee057322e159f164c1498a9cffd20e",
       "review": [
         {
@@ -1606,6 +1777,21 @@
             "iuau-iz26-roster"
           ],
           "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。 未公布或未确认年级，留空。"
+        },
+        {
+          "recordId": "iz26-result-13-6",
+          "athleteId": "athlete-iz26-13-6",
+          "observedName": "𣘺本 櫂知",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj26-11-5"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz26-results",
+            "iuau-iz26-roster",
+            "iuau-aj26-roster"
+          ],
+          "reason": "2026全日本同大学日本大学存在橋本 櫂知，最终名单为𣘺本 櫂知；本届结果文字层损坏，采用最终名单原字。列出跨赛事候选，未核实原件字形前保持独立ID。"
         },
         {
           "recordId": "iz26-result-17-3",
@@ -1784,6 +1970,21 @@
             "iuau-iz26-roster"
           ],
           "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz26-result-20-1",
+          "athleteId": "athlete-iz26-20-1",
+          "observedName": "チェボティビン サイラスキプラガット",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-iz23-20-1"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz26-results",
+            "iuau-iz26-roster",
+            "iuau-iz23-roster"
+          ],
+          "reason": "与2023第一工科大学的チェボティビン サイラス キプラガト有姓名近似、同大学、1年→4年证据，但キプラガト/キプラガット拼写未确认。列为候选、保持独立ID待人工核验。"
         },
         {
           "recordId": "iz26-result-02-1",

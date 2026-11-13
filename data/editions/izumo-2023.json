@@ -479,7 +479,7 @@
       "id": "iz23-result-11-3",
       "entryId": "iz23-entry-11",
       "sectionId": "iz23-s3",
-      "athleteId": "athlete-iz23-11-3",
+      "athleteId": "athlete-aj24-06-3",
       "timeSeconds": 1446,
       "rank": 1,
       "status": "finished",
@@ -2251,15 +2251,18 @@
     },
     {
       "recordId": "iz23-result-11-3",
-      "athleteId": "athlete-iz23-11-3",
+      "athleteId": "athlete-aj24-06-3",
       "observedName": "ウ゛ィクター キムタイ",
-      "status": "new",
-      "candidateIds": [],
+      "status": "confirmed",
+      "candidateIds": [
+        "athlete-aj24-06-3"
+      ],
       "evidenceSourceIds": [
         "iuau-iz23-results",
-        "iuau-iz23-roster"
+        "iuau-iz23-roster",
+        "iuau-aj23-roster"
       ],
-      "reason": "首次收录，未发现注册姓名候选。"
+      "reason": "官方写法ウ゛ィクター与ヴィクター为分离浊音形式；复核完整姓名、同为城西大学、2023出云与全日本最终名单均2年，复用稳定ID；保留本届观察写法。"
     },
     {
       "recordId": "iz23-result-11-4",

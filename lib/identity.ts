@@ -9,7 +9,8 @@ export function normalizeName(name: string): string {
     .replaceAll("澤", "沢")
     .replaceAll("邊", "辺")
     .replaceAll("邉", "辺")
-    .toLocaleLowerCase("ja");
+    .toLocaleLowerCase("ja")
+    .normalize("NFC");
 }
 export function identityCandidates(
   name: string,

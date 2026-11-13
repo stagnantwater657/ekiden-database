@@ -19,7 +19,7 @@
     "number": 100,
     "year": 2024,
     "seasonYear": 2023,
-    "status": "not-imported"
+    "status": "imported"
   },
   {
     "raceId": "izumo",
@@ -40,7 +40,7 @@
     "number": 101,
     "year": 2025,
     "seasonYear": 2024,
-    "status": "not-imported"
+    "status": "imported"
   },
   {
     "raceId": "izumo",
@@ -61,7 +61,7 @@
     "number": 102,
     "year": 2026,
     "seasonYear": 2025,
-    "status": "not-imported"
+    "status": "imported"
   },
   {
     "raceId": "izumo",

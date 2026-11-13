@@ -2924,13 +2924,16 @@
       "recordId": "iz26-result-13-6",
       "athleteId": "athlete-iz26-13-6",
       "observedName": "𣘺本 櫂知",
-      "status": "new",
-      "candidateIds": [],
+      "status": "needs-review",
+      "candidateIds": [
+        "athlete-aj26-11-5"
+      ],
       "evidenceSourceIds": [
         "iuau-iz26-results",
-        "iuau-iz26-roster"
+        "iuau-iz26-roster",
+        "iuau-aj26-roster"
       ],
-      "reason": "首次收录，未发现注册姓名候选。"
+      "reason": "2026全日本同大学日本大学存在橋本 櫂知，最终名单为𣘺本 櫂知；本届结果文字层损坏，采用最终名单原字。列出跨赛事候选，未核实原件字形前保持独立ID。"
     },
     {
       "recordId": "iz26-result-11-1",
@@ -3891,13 +3894,16 @@
       "recordId": "iz26-result-20-1",
       "athleteId": "athlete-iz26-20-1",
       "observedName": "チェボティビン サイラスキプラガット",
-      "status": "new",
-      "candidateIds": [],
+      "status": "needs-review",
+      "candidateIds": [
+        "athlete-iz23-20-1"
+      ],
       "evidenceSourceIds": [
         "iuau-iz26-results",
-        "iuau-iz26-roster"
+        "iuau-iz26-roster",
+        "iuau-iz23-roster"
       ],
-      "reason": "首次收录，未发现注册姓名候选。"
+      "reason": "与2023第一工科大学的チェボティビン サイラス キプラガト有姓名近似、同大学、1年→4年证据，但キプラガト/キプラガット拼写未确认。列为候选、保持独立ID待人工核验。"
     },
     {
       "recordId": "iz26-result-20-2",

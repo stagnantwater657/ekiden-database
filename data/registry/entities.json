@@ -9,6 +9,11 @@
       "id": "izumo",
       "name": "出雲全日本大学選抜駅伝",
       "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "hakone",
+      "name": "箱根駅伝",
+      "sourceId": "hakone-24-archive"
     }
   ],
   "universities": [
@@ -256,6 +261,61 @@
       "id": "university-cd0e5b208f0c",
       "name": "金沢学院大学",
       "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "university-622dc50c7aeb",
+      "name": "駿河台大学",
+      "sourceId": "hakone-24-archive"
+    },
+    {
+      "id": "university-07830b68b074",
+      "name": "明治大学",
+      "sourceId": "hakone-24-archive"
+    },
+    {
+      "id": "university-3e43790d0363",
+      "name": "専修大学",
+      "sourceId": "hakone-25-archive"
+    },
+    {
+      "id": "university-a3923202960f",
+      "name": "亜細亜大",
+      "sourceId": "ntv-hk25-21"
+    },
+    {
+      "id": "university-f95b7ec36d5f",
+      "name": "流通経済大",
+      "sourceId": "ntv-hk25-21"
+    },
+    {
+      "id": "university-5fce171fb5bb",
+      "name": "筑波大",
+      "sourceId": "ntv-hk25-21"
+    },
+    {
+      "id": "university-2c4bae91e088",
+      "name": "明治学院大",
+      "sourceId": "ntv-hk25-21"
+    },
+    {
+      "id": "university-130016b2599b",
+      "name": "東京大",
+      "sourceId": "ntv-hk25-21"
+    },
+    {
+      "id": "university-f24e9a41eb0a",
+      "name": "武蔵野学院大学",
+      "sourceId": "ntv-hk25-21"
+    },
+    {
+      "id": "university-b2d5153c27ef",
+      "name": "芝浦工業大学",
+      "sourceId": "ntv-hk26-21"
+    },
+    {
+      "id": "university-edcffdb6c28e",
+      "name": "日本薬科大",
+      "sourceId": "ntv-hk26-21"
     }
   ],
   "athletes": [
@@ -2816,12 +2876,6 @@
       "sourceId": "iuau-aj23-results"
     },
     {
-      "id": "athlete-aj23-23-4",
-      "name": "寺川 直央",
-      "birthDate": null,
-      "sourceId": "iuau-aj23-results"
-    },
-    {
       "id": "athlete-aj23-23-5",
       "name": "齋藤 翔也",
       "birthDate": null,
@@ -3968,12 +4022,6 @@
       "sourceId": "iuau-aj26-results"
     },
     {
-      "id": "athlete-iz23-11-3",
-      "name": "ウ゛ィクター キムタイ",
-      "birthDate": null,
-      "sourceId": "iuau-iz23-results"
-    },
-    {
       "id": "athlete-iz23-12-4",
       "name": "松山 和希",
       "birthDate": null,
@@ -5058,6 +5106,1134 @@
       "name": "秋野 僚太",
       "birthDate": null,
       "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-hk24-01-9",
+      "name": "倉本 玄太",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-01"
+    },
+    {
+      "id": "athlete-hk24-02-5",
+      "name": "金子 伊吹",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-02"
+    },
+    {
+      "id": "athlete-hk24-02-9",
+      "name": "花尾 恭輔",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-02"
+    },
+    {
+      "id": "athlete-hk24-02-10",
+      "name": "庭瀬 俊輝",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-02"
+    },
+    {
+      "id": "athlete-hk24-03-3",
+      "name": "Ｖ.キムタイ",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-03"
+    },
+    {
+      "id": "athlete-hk24-03-10",
+      "name": "中田 侑希",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-03"
+    },
+    {
+      "id": "athlete-hk24-04-1",
+      "name": "九嶋 恵舜",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-04"
+    },
+    {
+      "id": "athlete-hk24-05-7",
+      "name": "田中 愛睦",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-05"
+    },
+    {
+      "id": "athlete-hk24-05-8",
+      "name": "鎌田 匠馬",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-05"
+    },
+    {
+      "id": "athlete-hk24-06-5",
+      "name": "細迫 海気",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-06"
+    },
+    {
+      "id": "athlete-hk24-06-8",
+      "name": "清水 郁杜",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-06"
+    },
+    {
+      "id": "athlete-hk24-06-10",
+      "name": "宗像 直輝",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-06"
+    },
+    {
+      "id": "athlete-hk24-07-3",
+      "name": "辻 文哉",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-07"
+    },
+    {
+      "id": "athlete-hk24-07-6",
+      "name": "栁本 匡哉",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-07"
+    },
+    {
+      "id": "athlete-hk24-07-7",
+      "name": "諸冨 湧",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-07"
+    },
+    {
+      "id": "athlete-hk24-08-1",
+      "name": "桑田 大輔",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-08"
+    },
+    {
+      "id": "athlete-hk24-08-2",
+      "name": "Ｓ.ムチーニ",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-08"
+    },
+    {
+      "id": "athlete-hk24-08-6",
+      "name": "川上 翔太",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-08"
+    },
+    {
+      "id": "athlete-hk24-08-10",
+      "name": "上杉 祥大",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-08"
+    },
+    {
+      "id": "athlete-hk24-09-6",
+      "name": "大吉 優亮",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-09"
+    },
+    {
+      "id": "athlete-hk24-09-7",
+      "name": "小野 隆一朗",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-09"
+    },
+    {
+      "id": "athlete-hk24-10-8",
+      "name": "Ｐ.ワンジル",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-10"
+    },
+    {
+      "id": "athlete-hk24-10-10",
+      "name": "佐々木 真人",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-10"
+    },
+    {
+      "id": "athlete-hk24-11-3",
+      "name": "鈴木 天智",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-11"
+    },
+    {
+      "id": "athlete-hk24-11-5",
+      "name": "喜早 駿介",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-11"
+    },
+    {
+      "id": "athlete-hk24-11-7",
+      "name": "石原 翔太郎",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-11"
+    },
+    {
+      "id": "athlete-hk24-11-10",
+      "name": "ロホマン シュモン",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-11"
+    },
+    {
+      "id": "athlete-hk24-12-2",
+      "name": "Ｐ.カマウ",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-12"
+    },
+    {
+      "id": "athlete-hk24-12-5",
+      "name": "山本 雷我",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-12"
+    },
+    {
+      "id": "athlete-hk24-12-6",
+      "name": "勝部 愛大",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-12"
+    },
+    {
+      "id": "athlete-hk24-12-7",
+      "name": "瀬川 翔誠",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-12"
+    },
+    {
+      "id": "athlete-hk24-12-8",
+      "name": "生田目 惇",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-12"
+    },
+    {
+      "id": "athlete-hk24-12-9",
+      "name": "川勝 悠雅",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-12"
+    },
+    {
+      "id": "athlete-hk24-12-10",
+      "name": "鈴木 伸弥",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-12"
+    },
+    {
+      "id": "athlete-hk24-13-5",
+      "name": "山﨑 草太",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-13"
+    },
+    {
+      "id": "athlete-hk24-13-9",
+      "name": "白川 陽大",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-13"
+    },
+    {
+      "id": "athlete-hk24-14-4",
+      "name": "中山 凜斗",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-14"
+    },
+    {
+      "id": "athlete-hk24-14-5",
+      "name": "山本 羅生",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-14"
+    },
+    {
+      "id": "athlete-hk24-14-10",
+      "name": "関口 絢太",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-14"
+    },
+    {
+      "id": "athlete-hk24-15-1",
+      "name": "西村 翔太",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-15"
+    },
+    {
+      "id": "athlete-hk24-15-2",
+      "name": "Ｓ.キップケメイ",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-15"
+    },
+    {
+      "id": "athlete-hk24-15-3",
+      "name": "安藤 風羽",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-15"
+    },
+    {
+      "id": "athlete-hk24-15-4",
+      "name": "久保 昇陽",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-15"
+    },
+    {
+      "id": "athlete-hk24-15-5",
+      "name": "大橋 優",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-15"
+    },
+    {
+      "id": "athlete-hk24-15-6",
+      "name": "山口 月暉",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-15"
+    },
+    {
+      "id": "athlete-hk24-15-7",
+      "name": "下尾 悠真",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-15"
+    },
+    {
+      "id": "athlete-hk24-16-3",
+      "name": "漆畑 徳輝",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-16"
+    },
+    {
+      "id": "athlete-hk24-16-4",
+      "name": "大森 椋太",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-16"
+    },
+    {
+      "id": "athlete-hk24-16-5",
+      "name": "三好 紘生",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-16"
+    },
+    {
+      "id": "athlete-hk24-16-9",
+      "name": "田中 慎梧",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-16"
+    },
+    {
+      "id": "athlete-hk24-16-10",
+      "name": "住原 聡太",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-16"
+    },
+    {
+      "id": "athlete-hk24-17-6",
+      "name": "氷見 哲太",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-17"
+    },
+    {
+      "id": "athlete-hk24-17-7",
+      "name": "内田 征冶",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-17"
+    },
+    {
+      "id": "athlete-hk24-17-9",
+      "name": "藤原 優希",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-17"
+    },
+    {
+      "id": "athlete-hk24-17-10",
+      "name": "斎藤 舜太",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-17"
+    },
+    {
+      "id": "athlete-hk24-18-1",
+      "name": "Ｓ.レマイヤン",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-18"
+    },
+    {
+      "id": "athlete-hk24-18-2",
+      "name": "新山 舜心",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-18"
+    },
+    {
+      "id": "athlete-hk24-18-3",
+      "name": "古橋 希翁",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-18"
+    },
+    {
+      "id": "athlete-hk24-18-4",
+      "name": "東泉 大河",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-18"
+    },
+    {
+      "id": "athlete-hk24-18-5",
+      "name": "倉島 啓人",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-18"
+    },
+    {
+      "id": "athlete-hk24-18-6",
+      "name": "塩路 悠耀",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-18"
+    },
+    {
+      "id": "athlete-hk24-18-7",
+      "name": "藤井 空大",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-18"
+    },
+    {
+      "id": "athlete-hk24-18-8",
+      "name": "岡﨑 樹",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-18"
+    },
+    {
+      "id": "athlete-hk24-18-9",
+      "name": "長田 拓巳",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-18"
+    },
+    {
+      "id": "athlete-hk24-18-10",
+      "name": "久保 俊翔",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-18"
+    },
+    {
+      "id": "athlete-hk24-19-1",
+      "name": "稲見 峻",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-19"
+    },
+    {
+      "id": "athlete-hk24-19-2",
+      "name": "吉田 礼志",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-19"
+    },
+    {
+      "id": "athlete-hk24-19-3",
+      "name": "伊藤 秀虎",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-19"
+    },
+    {
+      "id": "athlete-hk24-19-4",
+      "name": "黒岩 勇禅",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-19"
+    },
+    {
+      "id": "athlete-hk24-19-5",
+      "name": "柴田 大輝",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-19"
+    },
+    {
+      "id": "athlete-hk24-19-6",
+      "name": "小松 裕大朗",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-19"
+    },
+    {
+      "id": "athlete-hk24-19-7",
+      "name": "工藤 巧夢",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-19"
+    },
+    {
+      "id": "athlete-hk24-19-10",
+      "name": "飯塚 達也",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-19"
+    },
+    {
+      "id": "athlete-hk24-20-1",
+      "name": "大湊 柊翔",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-20"
+    },
+    {
+      "id": "athlete-hk24-20-2",
+      "name": "児玉 真輝",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-20"
+    },
+    {
+      "id": "athlete-hk24-20-3",
+      "name": "杉 彩文海",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-20"
+    },
+    {
+      "id": "athlete-hk24-20-4",
+      "name": "森下 翔太",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-20"
+    },
+    {
+      "id": "athlete-hk24-20-5",
+      "name": "吉川 響",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-20"
+    },
+    {
+      "id": "athlete-hk24-20-6",
+      "name": "堀 颯介",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-20"
+    },
+    {
+      "id": "athlete-hk24-20-7",
+      "name": "尾﨑 健斗",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-20"
+    },
+    {
+      "id": "athlete-hk24-20-8",
+      "name": "綾 一輝",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-20"
+    },
+    {
+      "id": "athlete-hk24-20-9",
+      "name": "鈴木 祐太",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-20"
+    },
+    {
+      "id": "athlete-hk24-20-10",
+      "name": "古井 康介",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-20"
+    },
+    {
+      "id": "athlete-hk24-21-1",
+      "name": "巻田 理空",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-21"
+    },
+    {
+      "id": "athlete-hk24-21-2",
+      "name": "小林 篤貴",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-21"
+    },
+    {
+      "id": "athlete-hk24-21-3",
+      "name": "宇津野 篤",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-21"
+    },
+    {
+      "id": "athlete-hk24-21-5",
+      "name": "大泉 真尋",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-21"
+    },
+    {
+      "id": "athlete-hk24-21-6",
+      "name": "大岩 歩夢",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-21"
+    },
+    {
+      "id": "athlete-hk24-21-8",
+      "name": "高橋 銀河",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-21"
+    },
+    {
+      "id": "athlete-hk24-21-9",
+      "name": "佐々木 亮輔",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-21"
+    },
+    {
+      "id": "athlete-hk24-22-3",
+      "name": "長谷部 慎",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-22"
+    },
+    {
+      "id": "athlete-hk24-22-5",
+      "name": "吉村 颯斗",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-22"
+    },
+    {
+      "id": "athlete-hk24-22-6",
+      "name": "植月 俊太",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-22"
+    },
+    {
+      "id": "athlete-hk24-22-9",
+      "name": "深堀 優",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-22"
+    },
+    {
+      "id": "athlete-hk24-22-10",
+      "name": "栗本 航希",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-22"
+    },
+    {
+      "id": "athlete-hk24-23-1",
+      "name": "北村 惇生",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-23"
+    },
+    {
+      "id": "athlete-hk24-23-2",
+      "name": "Ｂ.キピエゴ",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-23"
+    },
+    {
+      "id": "athlete-hk24-23-3",
+      "name": "髙木 翔瑛",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-23"
+    },
+    {
+      "id": "athlete-hk24-23-5",
+      "name": "弓削 征慶",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-23"
+    },
+    {
+      "id": "athlete-hk24-23-6",
+      "name": "髙田 尚暉",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-23"
+    },
+    {
+      "id": "athlete-hk24-23-7",
+      "name": "徳田 秋斗",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-23"
+    },
+    {
+      "id": "athlete-hk24-23-8",
+      "name": "新本 駿",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-23"
+    },
+    {
+      "id": "athlete-hk24-23-9",
+      "name": "平八重 充希",
+      "birthDate": null,
+      "sourceId": "ntv-hk24-23"
+    },
+    {
+      "id": "athlete-hk25-03-8",
+      "name": "佐藤 快成",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-03"
+    },
+    {
+      "id": "athlete-hk25-04-6",
+      "name": "山﨑 一吹",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-04"
+    },
+    {
+      "id": "athlete-hk25-05-5",
+      "name": "園木 大斗",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-05"
+    },
+    {
+      "id": "athlete-hk25-06-7",
+      "name": "三宅 駿",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-06"
+    },
+    {
+      "id": "athlete-hk25-07-1",
+      "name": "齊藤 大空",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-07"
+    },
+    {
+      "id": "athlete-hk25-07-8",
+      "name": "石丸 修那",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-07"
+    },
+    {
+      "id": "athlete-hk25-08-2",
+      "name": "Ｒ.エティーリ",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-08"
+    },
+    {
+      "id": "athlete-hk25-08-5",
+      "name": "楠木 悠人",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-08"
+    },
+    {
+      "id": "athlete-hk25-08-7",
+      "name": "冨永 昌輝",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-08"
+    },
+    {
+      "id": "athlete-hk25-10-8",
+      "name": "高島 大空",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-10"
+    },
+    {
+      "id": "athlete-hk25-11-6",
+      "name": "林 龍正",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-11"
+    },
+    {
+      "id": "athlete-hk25-11-8",
+      "name": "荒牧 琢登",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-11"
+    },
+    {
+      "id": "athlete-hk25-12-6",
+      "name": "石川 龍芽",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-12"
+    },
+    {
+      "id": "athlete-hk25-14-1",
+      "name": "堀田 晟礼",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-14"
+    },
+    {
+      "id": "athlete-hk25-14-4",
+      "name": "太田 翔",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-14"
+    },
+    {
+      "id": "athlete-hk25-15-4",
+      "name": "花岡 慶次",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-15"
+    },
+    {
+      "id": "athlete-hk25-15-6",
+      "name": "湯田 陽平兵",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-15"
+    },
+    {
+      "id": "athlete-hk25-15-10",
+      "name": "行天 陽虹",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-15"
+    },
+    {
+      "id": "athlete-hk25-16-5",
+      "name": "三原 涼雅",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-16"
+    },
+    {
+      "id": "athlete-hk25-17-1",
+      "name": "新井 友裕",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-17"
+    },
+    {
+      "id": "athlete-hk25-17-2",
+      "name": "Ｄ.マイナ",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-17"
+    },
+    {
+      "id": "athlete-hk25-17-3",
+      "name": "上山 詩樹",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-17"
+    },
+    {
+      "id": "athlete-hk25-17-4",
+      "name": "手塚 太一",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-17"
+    },
+    {
+      "id": "athlete-hk25-17-5",
+      "name": "田口 萩太",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-17"
+    },
+    {
+      "id": "athlete-hk25-17-6",
+      "name": "丹 柊太郎",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-17"
+    },
+    {
+      "id": "athlete-hk25-17-7",
+      "name": "具志堅 一斗",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-17"
+    },
+    {
+      "id": "athlete-hk25-17-8",
+      "name": "犬塚 知宏",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-17"
+    },
+    {
+      "id": "athlete-hk25-17-9",
+      "name": "大田和 一斗",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-17"
+    },
+    {
+      "id": "athlete-hk25-17-10",
+      "name": "藁科 健斗",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-17"
+    },
+    {
+      "id": "athlete-hk25-18-2",
+      "name": "Ｊ.ムトゥク",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-18"
+    },
+    {
+      "id": "athlete-hk25-18-3",
+      "name": "村上 大樹",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-18"
+    },
+    {
+      "id": "athlete-hk25-18-6",
+      "name": "大西 陸",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-18"
+    },
+    {
+      "id": "athlete-hk25-18-7",
+      "name": "大杉 亮太朗",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-18"
+    },
+    {
+      "id": "athlete-hk25-18-8",
+      "name": "阿部 紘也",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-18"
+    },
+    {
+      "id": "athlete-hk25-18-10",
+      "name": "土器屋 快都",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-18"
+    },
+    {
+      "id": "athlete-hk25-19-7",
+      "name": "宮倉 騎士",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-19"
+    },
+    {
+      "id": "athlete-hk25-19-10",
+      "name": "庄司 瑞輝",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-19"
+    },
+    {
+      "id": "athlete-hk25-20-3",
+      "name": "冨田 悠晟",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-20"
+    },
+    {
+      "id": "athlete-hk25-20-7",
+      "name": "長谷川 豊樹",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-20"
+    },
+    {
+      "id": "athlete-hk25-20-9",
+      "name": "小路 翔琉",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-20"
+    },
+    {
+      "id": "athlete-hk25-21-1",
+      "name": "片川 祐大",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-21"
+    },
+    {
+      "id": "athlete-hk25-21-2",
+      "name": "森川 蒼太",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-21"
+    },
+    {
+      "id": "athlete-hk25-21-3",
+      "name": "小山 洋生",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-21"
+    },
+    {
+      "id": "athlete-hk25-21-4",
+      "name": "溝上 稜斗",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-21"
+    },
+    {
+      "id": "athlete-hk25-21-5",
+      "name": "佐藤 我駆人",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-21"
+    },
+    {
+      "id": "athlete-hk25-21-7",
+      "name": "栗原 舜",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-21"
+    },
+    {
+      "id": "athlete-hk25-21-8",
+      "name": "秋吉 拓真",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-21"
+    },
+    {
+      "id": "athlete-hk25-21-9",
+      "name": "古川 大晃",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-21"
+    },
+    {
+      "id": "athlete-hk25-21-10",
+      "name": "福本 陽樹",
+      "birthDate": null,
+      "sourceId": "ntv-hk25-21"
+    },
+    {
+      "id": "athlete-hk26-01-7",
+      "name": "佐藤 愛斗",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-01"
+    },
+    {
+      "id": "athlete-hk26-02-9",
+      "name": "野田 顕臣",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-02"
+    },
+    {
+      "id": "athlete-hk26-03-6",
+      "name": "谷本 昂士郎",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-03"
+    },
+    {
+      "id": "athlete-hk26-04-10",
+      "name": "瀬間 元輔",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-04"
+    },
+    {
+      "id": "athlete-hk26-05-7",
+      "name": "七枝 直",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-05"
+    },
+    {
+      "id": "athlete-hk26-10-4",
+      "name": "片桐 禅太",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-10"
+    },
+    {
+      "id": "athlete-hk26-11-9",
+      "name": "山中 航太",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-11"
+    },
+    {
+      "id": "athlete-hk26-11-10",
+      "name": "成川 翔太",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-11"
+    },
+    {
+      "id": "athlete-hk26-12-6",
+      "name": "水野 夢大",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-12"
+    },
+    {
+      "id": "athlete-hk26-13-8",
+      "name": "遠藤 優裕",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-13"
+    },
+    {
+      "id": "athlete-hk26-15-6",
+      "name": "山上 勇希",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-15"
+    },
+    {
+      "id": "athlete-hk26-15-8",
+      "name": "吉田 黎大",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-15"
+    },
+    {
+      "id": "athlete-hk26-15-10",
+      "name": "夏見 虹郎",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-15"
+    },
+    {
+      "id": "athlete-hk26-16-5",
+      "name": "荒谷 俊輔",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-16"
+    },
+    {
+      "id": "athlete-hk26-16-8",
+      "name": "前田 寛明",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-16"
+    },
+    {
+      "id": "athlete-hk26-16-10",
+      "name": "久保 茉潤",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-16"
+    },
+    {
+      "id": "athlete-hk26-17-6",
+      "name": "南葉 聖琥",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-17"
+    },
+    {
+      "id": "athlete-hk26-17-10",
+      "name": "田原 匠真",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-17"
+    },
+    {
+      "id": "athlete-hk26-18-5",
+      "name": "小島 岳斗",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-18"
+    },
+    {
+      "id": "athlete-hk26-18-6",
+      "name": "梅原 悠良",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-18"
+    },
+    {
+      "id": "athlete-hk26-18-7",
+      "name": "内田 温規",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-18"
+    },
+    {
+      "id": "athlete-hk26-18-8",
+      "name": "菅原 匠人",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-18"
+    },
+    {
+      "id": "athlete-hk26-18-9",
+      "name": "菅野 優空",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-18"
+    },
+    {
+      "id": "athlete-hk26-18-10",
+      "name": "井坂 光",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-18"
+    },
+    {
+      "id": "athlete-hk26-19-6",
+      "name": "戸田 優真",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-19"
+    },
+    {
+      "id": "athlete-hk26-19-8",
+      "name": "照井 海翔",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-19"
+    },
+    {
+      "id": "athlete-hk26-19-10",
+      "name": "赤星 龍舞",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-19"
+    },
+    {
+      "id": "athlete-hk26-20-5",
+      "name": "木島 陸",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-20"
+    },
+    {
+      "id": "athlete-hk26-20-8",
+      "name": "山下 翔吾",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-20"
+    },
+    {
+      "id": "athlete-hk26-21-1",
+      "name": "川﨑 颯",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-21"
+    },
+    {
+      "id": "athlete-hk26-21-4",
+      "name": "本多 健亮",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-21"
+    },
+    {
+      "id": "athlete-hk26-21-5",
+      "name": "髙橋 歩夢",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-21"
+    },
+    {
+      "id": "athlete-hk26-21-6",
+      "name": "山中 寿世夢",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-21"
+    },
+    {
+      "id": "athlete-hk26-21-8",
+      "name": "横尾 皓",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-21"
+    },
+    {
+      "id": "athlete-hk26-21-9",
+      "name": "染谷 雄輝",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-21"
+    },
+    {
+      "id": "athlete-hk26-21-10",
+      "name": "佐野 颯人",
+      "birthDate": null,
+      "sourceId": "ntv-hk26-21"
     }
   ],
   "sources": [
@@ -5449,6 +6625,34 @@
       "kind": "university",
       "universityId": "university-cd0e5b208f0c",
       "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "team-university-622dc50c7aeb",
+      "name": "駿河台大学",
+      "kind": "university",
+      "universityId": "university-622dc50c7aeb",
+      "sourceId": "hakone-24-archive"
+    },
+    {
+      "id": "team-university-07830b68b074",
+      "name": "明治大学",
+      "kind": "university",
+      "universityId": "university-07830b68b074",
+      "sourceId": "hakone-24-archive"
+    },
+    {
+      "id": "team-university-3e43790d0363",
+      "name": "専修大学",
+      "kind": "university",
+      "universityId": "university-3e43790d0363",
+      "sourceId": "hakone-25-archive"
+    },
+    {
+      "id": "team-kanto-selection",
+      "name": "関東学生連合",
+      "kind": "association-selection",
+      "universityId": null,
+      "sourceId": "hakone-25-archive"
     }
   ]
 }

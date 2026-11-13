@@ -2242,8 +2242,8 @@
       "timeSeconds": 2069,
       "rank": 22,
       "status": "finished",
-      "grade": null,
-      "participationSourceId": null,
+      "grade": "4",
+      "participationSourceId": "iuau-aj23-roster",
       "representingUniversityId": "kwansei-gakuin",
       "locator": "PDF p.2 team no.23, section 2; section detail p.4",
       "sourceId": "iuau-aj23-results"
@@ -2256,8 +2256,8 @@
       "timeSeconds": 2173,
       "rank": 19,
       "status": "finished",
-      "grade": null,
-      "participationSourceId": null,
+      "grade": "3",
+      "participationSourceId": "iuau-aj23-roster",
       "representingUniversityId": "kwansei-gakuin",
       "locator": "PDF p.2 team no.23, section 3; section detail p.5",
       "sourceId": "iuau-aj23-results"
@@ -2266,12 +2266,12 @@
       "id": "aj23-result-23-4",
       "entryId": "aj23-entry-23",
       "sectionId": "aj23-s4",
-      "athleteId": "athlete-aj23-23-4",
+      "athleteId": "athlete-aj25-23-2",
       "timeSeconds": 2243,
       "rank": 23,
       "status": "finished",
-      "grade": null,
-      "participationSourceId": null,
+      "grade": "1",
+      "participationSourceId": "iuau-aj23-roster",
       "representingUniversityId": "kwansei-gakuin",
       "locator": "PDF p.2 team no.23, section 4; section detail p.6",
       "sourceId": "iuau-aj23-results"
@@ -2284,8 +2284,8 @@
       "timeSeconds": 2338,
       "rank": 18,
       "status": "finished",
-      "grade": null,
-      "participationSourceId": null,
+      "grade": "4",
+      "participationSourceId": "iuau-aj23-roster",
       "representingUniversityId": "kwansei-gakuin",
       "locator": "PDF p.2 team no.23, section 5; section detail p.7",
       "sourceId": "iuau-aj23-results"
@@ -2298,8 +2298,8 @@
       "timeSeconds": 2497,
       "rank": 23,
       "status": "finished",
-      "grade": null,
-      "participationSourceId": null,
+      "grade": "2",
+      "participationSourceId": "iuau-aj23-roster",
       "representingUniversityId": "kwansei-gakuin",
       "locator": "PDF p.2 team no.23, section 6; section detail p.8",
       "sourceId": "iuau-aj23-results"
@@ -2312,8 +2312,8 @@
       "timeSeconds": 3397,
       "rank": 21,
       "status": "finished",
-      "grade": null,
-      "participationSourceId": null,
+      "grade": "3",
+      "participationSourceId": "iuau-aj23-roster",
       "representingUniversityId": "kwansei-gakuin",
       "locator": "PDF p.2 team no.23, section 7; section detail p.9",
       "sourceId": "iuau-aj23-results"
@@ -2326,8 +2326,8 @@
       "timeSeconds": 3625,
       "rank": 8,
       "status": "finished",
-      "grade": null,
-      "participationSourceId": null,
+      "grade": "4",
+      "participationSourceId": "iuau-aj23-roster",
       "representingUniversityId": "kwansei-gakuin",
       "locator": "PDF p.2 team no.23, section 8; section detail p.10",
       "sourceId": "iuau-aj23-results"
@@ -5189,87 +5189,88 @@
       "recordId": "aj23-result-23-2",
       "athleteId": "athlete-aj23-23-2",
       "observedName": "佐藤 良祐",
-      "status": "needs-review",
+      "status": "new",
       "candidateIds": [],
       "evidenceSourceIds": [
         "iuau-aj23-results",
         "iuau-aj23-roster"
       ],
-      "reason": "首次收录，未发现注册姓名候选。 最终名单字形与成绩表不同，年级留空待核验：岡 寛大"
+      "reason": "逐列复核最终名单p.1关西学院大学，去除姓名末尾额外全角空格；完整姓名与成绩表一致，确认当届年级4。首次收录，未发现其他注册身份候选。"
     },
     {
       "recordId": "aj23-result-23-3",
       "athleteId": "athlete-aj23-23-3",
       "observedName": "岡 寛大",
-      "status": "needs-review",
+      "status": "new",
       "candidateIds": [],
       "evidenceSourceIds": [
         "iuau-aj23-results",
         "iuau-aj23-roster"
       ],
-      "reason": "首次收录，未发现注册姓名候选。 最终名单字形与成绩表不同，年级留空待核验：寺川 直央"
+      "reason": "逐列复核最终名单p.1关西学院大学，去除姓名末尾额外全角空格；完整姓名与成绩表一致，确认当届年级3。首次收录，未发现其他注册身份候选。"
     },
     {
       "recordId": "aj23-result-23-4",
-      "athleteId": "athlete-aj23-23-4",
+      "athleteId": "athlete-aj25-23-2",
       "observedName": "寺川 直央",
-      "status": "needs-review",
+      "status": "confirmed",
       "candidateIds": [
         "athlete-aj25-23-2"
       ],
       "evidenceSourceIds": [
         "iuau-aj23-results",
-        "iuau-aj23-roster"
+        "iuau-aj23-roster",
+        "iuau-aj2025-roster"
       ],
-      "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保留独立ID。 最终名单字形与成绩表不同，年级留空待核验：齋藤 翔也"
+      "reason": "逐列复核完整姓名寺川直央及同大学关西学院大学；2023最终名单1年、2025最终名单3年，连续年级证据一致，复用已有ID。修正先前年级解析因前一姓名末尾全角空格发生的错位。"
     },
     {
       "recordId": "aj23-result-23-5",
       "athleteId": "athlete-aj23-23-5",
       "observedName": "齋藤 翔也",
-      "status": "needs-review",
+      "status": "new",
       "candidateIds": [],
       "evidenceSourceIds": [
         "iuau-aj23-results",
         "iuau-aj23-roster"
       ],
-      "reason": "首次收录，未发现注册姓名候选。 最终名单字形与成绩表不同，年级留空待核验：太田 駿"
+      "reason": "逐列复核最终名单p.1关西学院大学，去除姓名末尾额外全角空格；完整姓名与成绩表一致，确认当届年级4。首次收录，未发现其他注册身份候选。"
     },
     {
       "recordId": "aj23-result-23-6",
       "athleteId": "athlete-aj23-23-6",
       "observedName": "太田 駿",
-      "status": "needs-review",
+      "status": "new",
       "candidateIds": [],
       "evidenceSourceIds": [
         "iuau-aj23-results",
         "iuau-aj23-roster"
       ],
-      "reason": "首次收录，未发现注册姓名候选。 最终名单字形与成绩表不同，年级留空待核验：中尾 心哉"
+      "reason": "逐列复核最终名单p.1关西学院大学，去除姓名末尾额外全角空格；完整姓名与成绩表一致，确认当届年级2。首次收录，未发现其他注册身份候选。"
     },
     {
       "recordId": "aj23-result-23-7",
       "athleteId": "athlete-aj23-23-7",
       "observedName": "中尾 心哉",
-      "status": "needs-review",
+      "status": "new",
       "candidateIds": [],
       "evidenceSourceIds": [
         "iuau-aj23-results",
         "iuau-aj23-roster"
       ],
-      "reason": "首次收录，未发现注册姓名候选。 最终名单字形与成绩表不同，年级留空待核验：守屋 和希"
+      "reason": "逐列复核最终名单p.1关西学院大学，去除姓名末尾额外全角空格；完整姓名与成绩表一致，确认当届年级3。首次收录，未发现其他注册身份候选。"
     },
     {
       "recordId": "aj23-result-23-8",
       "athleteId": "athlete-aj23-23-8",
       "observedName": "守屋 和希",
-      "status": "needs-review",
+      "status": "new",
       "candidateIds": [],
       "evidenceSourceIds": [
         "iuau-aj23-results",
         "iuau-aj23-roster"
       ],
-      "reason": "首次收录，未发现注册姓名候选。 最终名单字形与成绩表不同，年级留空待核验：日隈 達也"
+      "reason": "逐列复核最终名单p.1关西学院大学，去除姓名末尾额外全角空格；完整姓名与成绩表一致，确认当届年级4。首次收录，未发现其他注册身份候选。"
     },
     {
       "recordId": "aj23-result-22-1",

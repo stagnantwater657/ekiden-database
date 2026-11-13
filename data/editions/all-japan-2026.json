@@ -4488,12 +4488,15 @@
       "athleteId": "athlete-aj26-11-5",
       "observedName": "橋本 櫂知",
       "status": "needs-review",
-      "candidateIds": [],
+      "candidateIds": [
+        "athlete-iz26-13-6"
+      ],
       "evidenceSourceIds": [
         "iuau-aj26-results",
-        "iuau-aj26-roster"
+        "iuau-aj26-roster",
+        "iuau-iz26-roster"
       ],
-      "reason": "首次收录，未发现注册姓名候选。 最终名单字形与成绩表不同，年级留空待核验：𣘺本 櫂知"
+      "reason": "成绩表橋本 櫂知与最终名单𣘺本 櫂知字形不同；出云2026同大学名单存在𣘺本 櫂知，列为跨赛事候选但不猜测合并，年级留空待原件核验。"
     },
     {
       "recordId": "aj26-result-11-6",
@@ -5068,8 +5071,7 @@
       "observedName": "寺川 直央",
       "status": "confirmed",
       "candidateIds": [
-        "athlete-aj25-23-2",
-        "athlete-aj23-23-4"
+        "athlete-aj25-23-2"
       ],
       "evidenceSourceIds": [
         "iuau-aj26-results",

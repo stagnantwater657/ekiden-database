@@ -26,6 +26,7 @@ export interface Edition extends Sourced {
   seasonYear: number;
   number: number;
   date: string;
+  endDate?: string;
   officialName: string;
   distanceKm: number;
 }
@@ -69,6 +70,15 @@ export interface Entry extends Sourced {
   totalTimeSeconds: number | null;
   totalTimeSourceId: string | null;
   status: ResultStatus;
+  stages?: {
+    kind: "outbound" | "return";
+    firstSection: number;
+    lastSection: number;
+    timeSeconds: number;
+    rank: number | null;
+    sourceId: string;
+    locator: string;
+  }[];
 }
 // Legacy section rows remain unchanged; optional per-start metadata is unknown when absent.
 export interface SectionResult extends Sourced {

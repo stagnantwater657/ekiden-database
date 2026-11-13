@@ -1,0 +1,2348 @@
+[
+  {
+    "bib": 1,
+    "team": "青山学院大学",
+    "rank": 1,
+    "total": "10:41:25",
+    "outbound": "5:18:13",
+    "returnTime": "5:23:12",
+    "status": "finished",
+    "sourceUrl": "https://www.hakone-ekiden.jp/record/tournament-university.php?tn=103&university_id=11",
+    "results": [
+      {
+        "section": 1,
+        "name": "荒巻 朋熙",
+        "grade": "2",
+        "time": "1:01:37",
+        "rank": 9,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/aogaku.html"
+      },
+      {
+        "section": 2,
+        "name": "黒田 朝日",
+        "grade": "2",
+        "time": "1:06:07",
+        "rank": 1,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/aogaku.html"
+      },
+      {
+        "section": 3,
+        "name": "太田 蒼生",
+        "grade": "3",
+        "time": "59:47",
+        "rank": 1,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/aogaku.html"
+      },
+      {
+        "section": 4,
+        "name": "佐藤 一世",
+        "grade": "4",
+        "time": "1:01:10",
+        "rank": 1,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/aogaku.html"
+      },
+      {
+        "section": 5,
+        "name": "若林 宏樹",
+        "grade": "3",
+        "time": "1:09:32",
+        "rank": 2,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/aogaku.html"
+      },
+      {
+        "section": 6,
+        "name": "野村 昭夢",
+        "grade": "3",
+        "time": "58:14",
+        "rank": 2,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/aogaku.html"
+      },
+      {
+        "section": 7,
+        "name": "山内 健登",
+        "grade": "4",
+        "time": "1:02:46",
+        "rank": 3,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/aogaku.html"
+      },
+      {
+        "section": 8,
+        "name": "塩出 翔太",
+        "grade": "2",
+        "time": "1:04:00",
+        "rank": 1,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/aogaku.html"
+      },
+      {
+        "section": 9,
+        "name": "倉本 玄太",
+        "grade": "4",
+        "time": "1:08:51",
+        "rank": 1,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/aogaku.html"
+      },
+      {
+        "section": 10,
+        "name": "宇田川 瞬矢",
+        "grade": "2",
+        "time": "1:09:21",
+        "rank": 2,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/aogaku.html"
+      }
+    ]
+  },
+  {
+    "bib": 2,
+    "team": "駒澤大学",
+    "rank": 2,
+    "total": "10:48:00",
+    "outbound": "5:20:51",
+    "returnTime": "5:27:09",
+    "status": "finished",
+    "sourceUrl": "https://www.hakone-ekiden.jp/record/tournament-university.php?tn=103&university_id=19",
+    "results": [
+      {
+        "section": 1,
+        "name": "篠原 倖太朗",
+        "grade": "3",
+        "time": "1:01:02",
+        "rank": 1,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/komazawa.html"
+      },
+      {
+        "section": 2,
+        "name": "鈴木 芽吹",
+        "grade": "4",
+        "time": "1:06:20",
+        "rank": 2,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/komazawa.html"
+      },
+      {
+        "section": 3,
+        "name": "佐藤 圭汰",
+        "grade": "2",
+        "time": "1:00:13",
+        "rank": 2,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/komazawa.html"
+      },
+      {
+        "section": 4,
+        "name": "山川 拓馬",
+        "grade": "2",
+        "time": "1:02:32",
+        "rank": 6,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/komazawa.html"
+      },
+      {
+        "section": 5,
+        "name": "金子 伊吹",
+        "grade": "4",
+        "time": "1:10:44",
+        "rank": 3,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/komazawa.html"
+      },
+      {
+        "section": 6,
+        "name": "帰山 侑大",
+        "grade": "2",
+        "time": "59:53",
+        "rank": 12,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/komazawa.html"
+      },
+      {
+        "section": 7,
+        "name": "安原 太陽",
+        "grade": "4",
+        "time": "1:03:13",
+        "rank": 4,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/komazawa.html"
+      },
+      {
+        "section": 8,
+        "name": "赤星 雄斗",
+        "grade": "4",
+        "time": "1:04:49",
+        "rank": 4,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/komazawa.html"
+      },
+      {
+        "section": 9,
+        "name": "花尾 恭輔",
+        "grade": "4",
+        "time": "1:09:41",
+        "rank": 5,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/komazawa.html"
+      },
+      {
+        "section": 10,
+        "name": "庭瀬 俊輝",
+        "grade": "3",
+        "time": "1:09:33",
+        "rank": 4,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/komazawa.html"
+      }
+    ]
+  },
+  {
+    "bib": 3,
+    "team": "城西大学",
+    "rank": 3,
+    "total": "10:52:26",
+    "outbound": "5:21:30",
+    "returnTime": "5:30:56",
+    "status": "finished",
+    "sourceUrl": "https://www.hakone-ekiden.jp/record/tournament-university.php?tn=103&university_id=22",
+    "results": [
+      {
+        "section": 1,
+        "name": "野村 颯斗",
+        "grade": "4",
+        "time": "1:01:26",
+        "rank": 3,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/josai.html"
+      },
+      {
+        "section": 2,
+        "name": "斎藤 将也",
+        "grade": "2",
+        "time": "1:07:15",
+        "rank": 8,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/josai.html"
+      },
+      {
+        "section": 3,
+        "name": "Ｖ.キムタイ",
+        "grade": "2",
+        "time": "1:01:29",
+        "rank": 3,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/josai.html"
+      },
+      {
+        "section": 4,
+        "name": "山中 秀真",
+        "grade": "4",
+        "time": "1:02:06",
+        "rank": 5,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/josai.html"
+      },
+      {
+        "section": 5,
+        "name": "山本 唯翔",
+        "grade": "4",
+        "time": "1:09:14",
+        "rank": 1,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/josai.html"
+      },
+      {
+        "section": 6,
+        "name": "久保出 雄太",
+        "grade": "3",
+        "time": "59:55",
+        "rank": 13,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/josai.html"
+      },
+      {
+        "section": 7,
+        "name": "林 晃耀",
+        "grade": "3",
+        "time": "1:03:24",
+        "rank": 5,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/josai.html"
+      },
+      {
+        "section": 8,
+        "name": "小田 伊織",
+        "grade": "1",
+        "time": "1:06:25",
+        "rank": 17,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/josai.html"
+      },
+      {
+        "section": 9,
+        "name": "平林 樹",
+        "grade": "3",
+        "time": "1:10:20",
+        "rank": 10,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/josai.html"
+      },
+      {
+        "section": 10,
+        "name": "中田 侑希",
+        "grade": "4",
+        "time": "1:10:52",
+        "rank": 16,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/josai.html"
+      }
+    ]
+  },
+  {
+    "bib": 4,
+    "team": "東洋大学",
+    "rank": 4,
+    "total": "10:52:47",
+    "outbound": "5:25:19",
+    "returnTime": "5:27:28",
+    "status": "finished",
+    "sourceUrl": "https://www.hakone-ekiden.jp/record/tournament-university.php?tn=103&university_id=36",
+    "results": [
+      {
+        "section": 1,
+        "name": "九嶋 恵舜",
+        "grade": "4",
+        "time": "1:02:08",
+        "rank": 15,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/toyo.html"
+      },
+      {
+        "section": 2,
+        "name": "梅崎 蓮",
+        "grade": "3",
+        "time": "1:06:45",
+        "rank": 6,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/toyo.html"
+      },
+      {
+        "section": 3,
+        "name": "小林 亮太",
+        "grade": "3",
+        "time": "1:02:03",
+        "rank": 6,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/toyo.html"
+      },
+      {
+        "section": 4,
+        "name": "松山 和希",
+        "grade": "4",
+        "time": "1:01:37",
+        "rank": 2,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/toyo.html"
+      },
+      {
+        "section": 5,
+        "name": "緒方 澪那斗",
+        "grade": "2",
+        "time": "1:12:46",
+        "rank": 10,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/toyo.html"
+      },
+      {
+        "section": 6,
+        "name": "西村 真周",
+        "grade": "2",
+        "time": "58:58",
+        "rank": 8,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/toyo.html"
+      },
+      {
+        "section": 7,
+        "name": "熊﨑 貴哉",
+        "grade": "4",
+        "time": "1:05:03",
+        "rank": 19,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/toyo.html"
+      },
+      {
+        "section": 8,
+        "name": "村上 太一",
+        "grade": "4",
+        "time": "1:05:24",
+        "rank": 10,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/toyo.html"
+      },
+      {
+        "section": 9,
+        "name": "吉田 周",
+        "grade": "3",
+        "time": "1:09:12",
+        "rank": 2,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/toyo.html"
+      },
+      {
+        "section": 10,
+        "name": "岸本 遼太郎",
+        "grade": "2",
+        "time": "1:08:51",
+        "rank": 1,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/toyo.html"
+      }
+    ]
+  },
+  {
+    "bib": 5,
+    "team": "國學院大學",
+    "rank": 5,
+    "total": "10:55:27",
+    "outbound": "5:27:07",
+    "returnTime": "5:28:20",
+    "status": "finished",
+    "sourceUrl": "https://www.hakone-ekiden.jp/record/tournament-university.php?tn=103&university_id=98",
+    "results": [
+      {
+        "section": 1,
+        "name": "伊地知 賢造",
+        "grade": "4",
+        "time": "1:02:35",
+        "rank": 17,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/kokugakuin.html"
+      },
+      {
+        "section": 2,
+        "name": "平林 清澄",
+        "grade": "3",
+        "time": "1:06:26",
+        "rank": 3,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/kokugakuin.html"
+      },
+      {
+        "section": 3,
+        "name": "青木 瑠郁",
+        "grade": "2",
+        "time": "1:01:56",
+        "rank": 4,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/kokugakuin.html"
+      },
+      {
+        "section": 4,
+        "name": "辻原 輝",
+        "grade": "1",
+        "time": "1:01:59",
+        "rank": 4,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/kokugakuin.html"
+      },
+      {
+        "section": 5,
+        "name": "上原 琉翔",
+        "grade": "2",
+        "time": "1:14:11",
+        "rank": 17,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/kokugakuin.html"
+      },
+      {
+        "section": 6,
+        "name": "後村 光星",
+        "grade": "1",
+        "time": "59:37",
+        "rank": 10,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/kokugakuin.html"
+      },
+      {
+        "section": 7,
+        "name": "田中 愛睦",
+        "grade": "1",
+        "time": "1:03:29",
+        "rank": 7,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/kokugakuin.html"
+      },
+      {
+        "section": 8,
+        "name": "鎌田 匠馬",
+        "grade": "2",
+        "time": "1:04:58",
+        "rank": 6,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/kokugakuin.html"
+      },
+      {
+        "section": 9,
+        "name": "吉田 蔵之介",
+        "grade": "1",
+        "time": "1:10:01",
+        "rank": 7,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/kokugakuin.html"
+      },
+      {
+        "section": 10,
+        "name": "高山 豪起",
+        "grade": "2",
+        "time": "1:10:15",
+        "rank": 10,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/kokugakuin.html"
+      }
+    ]
+  },
+  {
+    "bib": 6,
+    "team": "法政大学",
+    "rank": 6,
+    "total": "10:56:35",
+    "outbound": "5:29:03",
+    "returnTime": "5:27:32",
+    "status": "finished",
+    "sourceUrl": "https://www.hakone-ekiden.jp/record/tournament-university.php?tn=103&university_id=43",
+    "results": [
+      {
+        "section": 1,
+        "name": "宮岡 幸大",
+        "grade": "3",
+        "time": "1:02:03",
+        "rank": 14,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/hosei.html"
+      },
+      {
+        "section": 2,
+        "name": "松永 伶",
+        "grade": "4",
+        "time": "1:07:33",
+        "rank": 11,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/hosei.html"
+      },
+      {
+        "section": 3,
+        "name": "野田 晶斗",
+        "grade": "1",
+        "time": "1:04:07",
+        "rank": 17,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/hosei.html"
+      },
+      {
+        "section": 4,
+        "name": "小泉 樹",
+        "grade": "3",
+        "time": "1:02:48",
+        "rank": 12,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/hosei.html"
+      },
+      {
+        "section": 5,
+        "name": "細迫 海気",
+        "grade": "4",
+        "time": "1:12:32",
+        "rank": 8,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/hosei.html"
+      },
+      {
+        "section": 6,
+        "name": "武田 和馬",
+        "grade": "3",
+        "time": "58:02",
+        "rank": 1,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/hosei.html"
+      },
+      {
+        "section": 7,
+        "name": "矢原 倖瑛",
+        "grade": "2",
+        "time": "1:03:44",
+        "rank": 9,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/hosei.html"
+      },
+      {
+        "section": 8,
+        "name": "清水 郁杜",
+        "grade": "2",
+        "time": "1:05:21",
+        "rank": 9,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/hosei.html"
+      },
+      {
+        "section": 9,
+        "name": "稲毛 崇斗",
+        "grade": "4",
+        "time": "1:09:51",
+        "rank": 6,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/hosei.html"
+      },
+      {
+        "section": 10,
+        "name": "宗像 直輝",
+        "grade": "4",
+        "time": "1:10:34",
+        "rank": 14,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/hosei.html"
+      }
+    ]
+  },
+  {
+    "bib": 7,
+    "team": "早稲田大学",
+    "rank": 7,
+    "total": "10:56:40",
+    "outbound": "5:26:05",
+    "returnTime": "5:30:35",
+    "status": "finished",
+    "sourceUrl": "https://www.hakone-ekiden.jp/record/tournament-university.php?tn=103&university_id=50",
+    "results": [
+      {
+        "section": 1,
+        "name": "間瀬田 純平",
+        "grade": "2",
+        "time": "1:01:53",
+        "rank": 12,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/waseda.html"
+      },
+      {
+        "section": 2,
+        "name": "山口 智規",
+        "grade": "2",
+        "time": "1:06:31",
+        "rank": 4,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/waseda.html"
+      },
+      {
+        "section": 3,
+        "name": "辻 文哉",
+        "grade": "4",
+        "time": "1:02:39",
+        "rank": 7,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/waseda.html"
+      },
+      {
+        "section": 4,
+        "name": "石塚 陽士",
+        "grade": "3",
+        "time": "1:02:50",
+        "rank": 13,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/waseda.html"
+      },
+      {
+        "section": 5,
+        "name": "工藤 慎作",
+        "grade": "1",
+        "time": "1:12:12",
+        "rank": 6,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/waseda.html"
+      },
+      {
+        "section": 6,
+        "name": "栁本 匡哉",
+        "grade": "4",
+        "time": "1:01:02",
+        "rank": 20,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/waseda.html"
+      },
+      {
+        "section": 7,
+        "name": "諸冨 湧",
+        "grade": "3",
+        "time": "1:04:30",
+        "rank": 14,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/waseda.html"
+      },
+      {
+        "section": 8,
+        "name": "伊福 陽太",
+        "grade": "3",
+        "time": "1:04:56",
+        "rank": 5,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/waseda.html"
+      },
+      {
+        "section": 9,
+        "name": "菖蒲 敦司",
+        "grade": "4",
+        "time": "1:10:22",
+        "rank": 11,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/waseda.html"
+      },
+      {
+        "section": 10,
+        "name": "菅野 雄太",
+        "grade": "3",
+        "time": "1:09:45",
+        "rank": 5,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/waseda.html"
+      }
+    ]
+  },
+  {
+    "bib": 8,
+    "team": "創価大学",
+    "rank": 8,
+    "total": "10:57:21",
+    "outbound": "5:28:08",
+    "returnTime": "5:29:13",
+    "status": "finished",
+    "sourceUrl": "https://www.hakone-ekiden.jp/record/tournament-university.php?tn=103&university_id=92",
+    "results": [
+      {
+        "section": 1,
+        "name": "桑田 大輔",
+        "grade": "4",
+        "time": "1:01:25",
+        "rank": 2,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/soka.html"
+      },
+      {
+        "section": 2,
+        "name": "Ｓ.ムチーニ",
+        "grade": "1",
+        "time": "1:06:43",
+        "rank": 5,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/soka.html"
+      },
+      {
+        "section": 3,
+        "name": "山森 龍暁",
+        "grade": "4",
+        "time": "1:04:19",
+        "rank": 19,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/soka.html"
+      },
+      {
+        "section": 4,
+        "name": "野沢 悠真",
+        "grade": "2",
+        "time": "1:03:03",
+        "rank": 15,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/soka.html"
+      },
+      {
+        "section": 5,
+        "name": "吉田 響",
+        "grade": "3",
+        "time": "1:12:38",
+        "rank": 9,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/soka.html"
+      },
+      {
+        "section": 6,
+        "name": "川上 翔太",
+        "grade": "1",
+        "time": "58:15",
+        "rank": 3,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/soka.html"
+      },
+      {
+        "section": 7,
+        "name": "石丸 惇那",
+        "grade": "2",
+        "time": "1:03:42",
+        "rank": 8,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/soka.html"
+      },
+      {
+        "section": 8,
+        "name": "小池 莉希",
+        "grade": "1",
+        "time": "1:06:16",
+        "rank": 15,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/soka.html"
+      },
+      {
+        "section": 9,
+        "name": "吉田 凌",
+        "grade": "3",
+        "time": "1:10:44",
+        "rank": 15,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/soka.html"
+      },
+      {
+        "section": 10,
+        "name": "上杉 祥大",
+        "grade": "4",
+        "time": "1:10:16",
+        "rank": 11,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/soka.html"
+      }
+    ]
+  },
+  {
+    "bib": 9,
+    "team": "帝京大学",
+    "rank": 9,
+    "total": "10:59:22",
+    "outbound": "5:30:23",
+    "returnTime": "5:28:59",
+    "status": "finished",
+    "sourceUrl": "https://www.hakone-ekiden.jp/record/tournament-university.php?tn=103&university_id=30",
+    "results": [
+      {
+        "section": 1,
+        "name": "西脇 翔太",
+        "grade": "4",
+        "time": "1:01:36",
+        "rank": 7,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/teikyo.html"
+      },
+      {
+        "section": 2,
+        "name": "山中 博生",
+        "grade": "3",
+        "time": "1:08:10",
+        "rank": 16,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/teikyo.html"
+      },
+      {
+        "section": 3,
+        "name": "柴戸 遼太",
+        "grade": "2",
+        "time": "1:02:57",
+        "rank": 9,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/teikyo.html"
+      },
+      {
+        "section": 4,
+        "name": "末次 海斗",
+        "grade": "4",
+        "time": "1:02:35",
+        "rank": 9,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/teikyo.html"
+      },
+      {
+        "section": 5,
+        "name": "尾崎 仁哉",
+        "grade": "2",
+        "time": "1:15:05",
+        "rank": 20,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/teikyo.html"
+      },
+      {
+        "section": 6,
+        "name": "大吉 優亮",
+        "grade": "4",
+        "time": "1:00:34",
+        "rank": 15,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/teikyo.html"
+      },
+      {
+        "section": 7,
+        "name": "小野 隆一朗",
+        "grade": "4",
+        "time": "1:02:44",
+        "rank": 2,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/teikyo.html"
+      },
+      {
+        "section": 8,
+        "name": "島田 晃希",
+        "grade": "2",
+        "time": "1:05:13",
+        "rank": 8,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/teikyo.html"
+      },
+      {
+        "section": 9,
+        "name": "小林 大晟",
+        "grade": "3",
+        "time": "1:09:30",
+        "rank": 3,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/teikyo.html"
+      },
+      {
+        "section": 10,
+        "name": "日高 拓夢",
+        "grade": "4",
+        "time": "1:10:58",
+        "rank": 18,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/teikyo.html"
+      }
+    ]
+  },
+  {
+    "bib": 10,
+    "team": "大東文化大学",
+    "rank": 10,
+    "total": "11:00:42",
+    "outbound": "5:28:54",
+    "returnTime": "5:31:48",
+    "status": "finished",
+    "sourceUrl": "https://www.hakone-ekiden.jp/record/tournament-university.php?tn=103&university_id=25",
+    "results": [
+      {
+        "section": 1,
+        "name": "西川 千青",
+        "grade": "3",
+        "time": "1:01:57",
+        "rank": 13,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/daito.html"
+      },
+      {
+        "section": 2,
+        "name": "久保田 徹",
+        "grade": "4",
+        "time": "1:07:35",
+        "rank": 12,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/daito.html"
+      },
+      {
+        "section": 3,
+        "name": "入濵 輝大",
+        "grade": "2",
+        "time": "1:04:02",
+        "rank": 16,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/daito.html"
+      },
+      {
+        "section": 4,
+        "name": "西代 雄豪",
+        "grade": "3",
+        "time": "1:03:39",
+        "rank": 18,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/daito.html"
+      },
+      {
+        "section": 5,
+        "name": "菊地 駿介",
+        "grade": "4",
+        "time": "1:11:41",
+        "rank": 4,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/daito.html"
+      },
+      {
+        "section": 6,
+        "name": "佐竹 勇樹",
+        "grade": "4",
+        "time": "58:24",
+        "rank": 4,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/daito.html"
+      },
+      {
+        "section": 7,
+        "name": "小田 恭平",
+        "grade": "3",
+        "time": "1:03:27",
+        "rank": 6,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/daito.html"
+      },
+      {
+        "section": 8,
+        "name": "Ｐ.ワンジル",
+        "grade": "3",
+        "time": "1:09:40",
+        "rank": 23,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/daito.html"
+      },
+      {
+        "section": 9,
+        "name": "大谷 章紘",
+        "grade": "3",
+        "time": "1:10:17",
+        "rank": 9,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/daito.html"
+      },
+      {
+        "section": 10,
+        "name": "佐々木 真人",
+        "grade": "3",
+        "time": "1:10:00",
+        "rank": 7,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/daito.html"
+      }
+    ]
+  },
+  {
+    "bib": 11,
+    "team": "東海大学",
+    "rank": 11,
+    "total": "11:01:52",
+    "outbound": "5:31:33",
+    "returnTime": "5:30:19",
+    "status": "finished",
+    "sourceUrl": "https://www.hakone-ekiden.jp/record/tournament-university.php?tn=103&university_id=31",
+    "results": [
+      {
+        "section": 1,
+        "name": "兵藤 ジュダ",
+        "grade": "2",
+        "time": "1:01:33",
+        "rank": 5,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/tokai.html"
+      },
+      {
+        "section": 2,
+        "name": "花岡 寿哉",
+        "grade": "2",
+        "time": "1:07:37",
+        "rank": 13,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/tokai.html"
+      },
+      {
+        "section": 3,
+        "name": "鈴木 天智",
+        "grade": "2",
+        "time": "1:03:59",
+        "rank": 15,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/tokai.html"
+      },
+      {
+        "section": 4,
+        "name": "野島 健太",
+        "grade": "3",
+        "time": "1:03:04",
+        "rank": 16,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/tokai.html"
+      },
+      {
+        "section": 5,
+        "name": "喜早 駿介",
+        "grade": "4",
+        "time": "1:15:20",
+        "rank": 22,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/tokai.html"
+      },
+      {
+        "section": 6,
+        "name": "梶谷 優斗",
+        "grade": "3",
+        "time": "59:06",
+        "rank": 9,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/tokai.html"
+      },
+      {
+        "section": 7,
+        "name": "石原 翔太郎",
+        "grade": "4",
+        "time": "1:04:36",
+        "rank": 15,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/tokai.html"
+      },
+      {
+        "section": 8,
+        "name": "南坂 柚汰",
+        "grade": "1",
+        "time": "1:05:01",
+        "rank": 7,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/tokai.html"
+      },
+      {
+        "section": 9,
+        "name": "竹割 真",
+        "grade": "2",
+        "time": "1:10:22",
+        "rank": 11,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/tokai.html"
+      },
+      {
+        "section": 10,
+        "name": "ロホマン シュモン",
+        "grade": "2",
+        "time": "1:11:14",
+        "rank": 20,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/tokai.html"
+      }
+    ]
+  },
+  {
+    "bib": 12,
+    "team": "国士舘大学",
+    "rank": 12,
+    "total": "11:01:52",
+    "outbound": "5:30:20",
+    "returnTime": "5:31:32",
+    "status": "finished",
+    "sourceUrl": "https://www.hakone-ekiden.jp/record/tournament-university.php?tn=103&university_id=18",
+    "results": [
+      {
+        "section": 1,
+        "name": "山本 龍神",
+        "grade": "4",
+        "time": "1:03:10",
+        "rank": 22,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/kokushikan.html"
+      },
+      {
+        "section": 2,
+        "name": "Ｐ.カマウ",
+        "grade": "3",
+        "time": "1:08:22",
+        "rank": 17,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/kokushikan.html"
+      },
+      {
+        "section": 3,
+        "name": "生駒 直幸",
+        "grade": "2",
+        "time": "1:03:45",
+        "rank": 12,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/kokushikan.html"
+      },
+      {
+        "section": 4,
+        "name": "西田 大智",
+        "grade": "3",
+        "time": "1:02:45",
+        "rank": 10,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/kokushikan.html"
+      },
+      {
+        "section": 5,
+        "name": "山本 雷我",
+        "grade": "4",
+        "time": "1:12:18",
+        "rank": 7,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/kokushikan.html"
+      },
+      {
+        "section": 6,
+        "name": "勝部 愛大",
+        "grade": "2",
+        "time": "1:00:47",
+        "rank": 18,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/kokushikan.html"
+      },
+      {
+        "section": 7,
+        "name": "瀬川 翔誠",
+        "grade": "2",
+        "time": "1:03:51",
+        "rank": 11,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/kokushikan.html"
+      },
+      {
+        "section": 8,
+        "name": "生田目 惇",
+        "grade": "3",
+        "time": "1:05:48",
+        "rank": 13,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/kokushikan.html"
+      },
+      {
+        "section": 9,
+        "name": "川勝 悠雅",
+        "grade": "2",
+        "time": "1:10:26",
+        "rank": 13,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/kokushikan.html"
+      },
+      {
+        "section": 10,
+        "name": "鈴木 伸弥",
+        "grade": "3",
+        "time": "1:10:40",
+        "rank": 15,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/kokushikan.html"
+      }
+    ]
+  },
+  {
+    "bib": 13,
+    "team": "中央大学",
+    "rank": 13,
+    "total": "11:01:58",
+    "outbound": "5:30:35",
+    "returnTime": "5:31:23",
+    "status": "finished",
+    "sourceUrl": "https://www.hakone-ekiden.jp/record/tournament-university.php?tn=103&university_id=28",
+    "results": [
+      {
+        "section": 1,
+        "name": "溜池 一太",
+        "grade": "2",
+        "time": "1:02:51",
+        "rank": 19,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/chuo.html"
+      },
+      {
+        "section": 2,
+        "name": "吉居 大和",
+        "grade": "4",
+        "time": "1:08:04",
+        "rank": 15,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/chuo.html"
+      },
+      {
+        "section": 3,
+        "name": "中野 翔太",
+        "grade": "4",
+        "time": "1:04:33",
+        "rank": 20,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/chuo.html"
+      },
+      {
+        "section": 4,
+        "name": "湯浅 仁",
+        "grade": "4",
+        "time": "1:01:44",
+        "rank": 3,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/chuo.html"
+      },
+      {
+        "section": 5,
+        "name": "山﨑 草太",
+        "grade": "1",
+        "time": "1:13:23",
+        "rank": 14,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/chuo.html"
+      },
+      {
+        "section": 6,
+        "name": "浦田 優斗",
+        "grade": "3",
+        "time": "58:37",
+        "rank": 5,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/chuo.html"
+      },
+      {
+        "section": 7,
+        "name": "吉居 駿恭",
+        "grade": "2",
+        "time": "1:02:27",
+        "rank": 1,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/chuo.html"
+      },
+      {
+        "section": 8,
+        "name": "阿部 陽樹",
+        "grade": "3",
+        "time": "1:08:54",
+        "rank": 22,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/chuo.html"
+      },
+      {
+        "section": 9,
+        "name": "白川 陽大",
+        "grade": "2",
+        "time": "1:11:14",
+        "rank": 16,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/chuo.html"
+      },
+      {
+        "section": 10,
+        "name": "柴田 大地",
+        "grade": "1",
+        "time": "1:10:11",
+        "rank": 9,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/chuo.html"
+      }
+    ]
+  },
+  {
+    "bib": 14,
+    "team": "立教大学",
+    "rank": 14,
+    "total": "11:03:04",
+    "outbound": "5:31:37",
+    "returnTime": "5:31:27",
+    "status": "finished",
+    "sourceUrl": "https://www.hakone-ekiden.jp/record/tournament-university.php?tn=103&university_id=48",
+    "results": [
+      {
+        "section": 1,
+        "name": "林 虎大朗",
+        "grade": "3",
+        "time": "1:02:47",
+        "rank": 18,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/rikkyo.html"
+      },
+      {
+        "section": 2,
+        "name": "國安 広人",
+        "grade": "2",
+        "time": "1:09:54",
+        "rank": 20,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/rikkyo.html"
+      },
+      {
+        "section": 3,
+        "name": "馬場 賢人",
+        "grade": "2",
+        "time": "1:02:48",
+        "rank": 8,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/rikkyo.html"
+      },
+      {
+        "section": 4,
+        "name": "中山 凜斗",
+        "grade": "4",
+        "time": "1:02:45",
+        "rank": 10,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/rikkyo.html"
+      },
+      {
+        "section": 5,
+        "name": "山本 羅生",
+        "grade": "3",
+        "time": "1:13:23",
+        "rank": 14,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/rikkyo.html"
+      },
+      {
+        "section": 6,
+        "name": "原田 颯大",
+        "grade": "1",
+        "time": "59:48",
+        "rank": 11,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/rikkyo.html"
+      },
+      {
+        "section": 7,
+        "name": "吉屋 佑晟",
+        "grade": "2",
+        "time": "1:05:03",
+        "rank": 19,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/rikkyo.html"
+      },
+      {
+        "section": 8,
+        "name": "稲塚 大祐",
+        "grade": "3",
+        "time": "1:05:33",
+        "rank": 11,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/rikkyo.html"
+      },
+      {
+        "section": 9,
+        "name": "安藤 圭佑",
+        "grade": "3",
+        "time": "1:11:34",
+        "rank": 18,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/rikkyo.html"
+      },
+      {
+        "section": 10,
+        "name": "関口 絢太",
+        "grade": "4",
+        "time": "1:09:29",
+        "rank": 3,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/rikkyo.html"
+      }
+    ]
+  },
+  {
+    "bib": 15,
+    "team": "日本大学",
+    "rank": 15,
+    "total": "11:06:06",
+    "outbound": "5:31:51",
+    "returnTime": "5:34:15",
+    "status": "finished",
+    "sourceUrl": "https://www.hakone-ekiden.jp/record/tournament-university.php?tn=103&university_id=38",
+    "results": [
+      {
+        "section": 1,
+        "name": "西村 翔太",
+        "grade": "4",
+        "time": "1:01:28",
+        "rank": 4,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/nihon.html"
+      },
+      {
+        "section": 2,
+        "name": "Ｓ.キップケメイ",
+        "grade": "1",
+        "time": "1:07:31",
+        "rank": 10,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/nihon.html"
+      },
+      {
+        "section": 3,
+        "name": "安藤 風羽",
+        "grade": "3",
+        "time": "1:01:56",
+        "rank": 4,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/nihon.html"
+      },
+      {
+        "section": 4,
+        "name": "久保 昇陽",
+        "grade": "4",
+        "time": "1:06:16",
+        "rank": 23,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/nihon.html"
+      },
+      {
+        "section": 5,
+        "name": "大橋 優",
+        "grade": "3",
+        "time": "1:14:40",
+        "rank": 19,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/nihon.html"
+      },
+      {
+        "section": 6,
+        "name": "山口 月暉",
+        "grade": "2",
+        "time": "1:00:54",
+        "rank": 19,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/nihon.html"
+      },
+      {
+        "section": 7,
+        "name": "下尾 悠真",
+        "grade": "4",
+        "time": "1:04:42",
+        "rank": 17,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/nihon.html"
+      },
+      {
+        "section": 8,
+        "name": "鈴木 孔士",
+        "grade": "2",
+        "time": "1:06:00",
+        "rank": 14,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/nihon.html"
+      },
+      {
+        "section": 9,
+        "name": "中澤 星音",
+        "grade": "2",
+        "time": "1:11:43",
+        "rank": 19,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/nihon.html"
+      },
+      {
+        "section": 10,
+        "name": "大仲 竜平",
+        "grade": "2",
+        "time": "1:10:56",
+        "rank": 17,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/nihon.html"
+      }
+    ]
+  },
+  {
+    "bib": 16,
+    "team": "日本体育大学",
+    "rank": 16,
+    "total": "11:06:30",
+    "outbound": "5:35:35",
+    "returnTime": "5:30:55",
+    "status": "finished",
+    "sourceUrl": "https://www.hakone-ekiden.jp/record/tournament-university.php?tn=103&university_id=39",
+    "results": [
+      {
+        "section": 1,
+        "name": "平島 龍斗",
+        "grade": "2",
+        "time": "1:03:36",
+        "rank": 23,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/nittai.html"
+      },
+      {
+        "section": 2,
+        "name": "山口 廉",
+        "grade": "3",
+        "time": "1:10:54",
+        "rank": 22,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/nittai.html"
+      },
+      {
+        "section": 3,
+        "name": "漆畑 徳輝",
+        "grade": "4",
+        "time": "1:03:45",
+        "rank": 12,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/nittai.html"
+      },
+      {
+        "section": 4,
+        "name": "大森 椋太",
+        "grade": "4",
+        "time": "1:04:20",
+        "rank": 20,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/nittai.html"
+      },
+      {
+        "section": 5,
+        "name": "三好 紘生",
+        "grade": "4",
+        "time": "1:13:00",
+        "rank": 12,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/nittai.html"
+      },
+      {
+        "section": 6,
+        "name": "富永 椋太",
+        "grade": "3",
+        "time": "1:00:30",
+        "rank": 14,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/nittai.html"
+      },
+      {
+        "section": 7,
+        "name": "田島 駿介",
+        "grade": "2",
+        "time": "1:03:44",
+        "rank": 9,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/nittai.html"
+      },
+      {
+        "section": 8,
+        "name": "分須 尊紀",
+        "grade": "3",
+        "time": "1:04:40",
+        "rank": 2,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/nittai.html"
+      },
+      {
+        "section": 9,
+        "name": "田中 慎梧",
+        "grade": "4",
+        "time": "1:12:04",
+        "rank": 20,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/nittai.html"
+      },
+      {
+        "section": 10,
+        "name": "住原 聡太",
+        "grade": "3",
+        "time": "1:09:57",
+        "rank": 6,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/nittai.html"
+      }
+    ]
+  },
+  {
+    "bib": 17,
+    "team": "順天堂大学",
+    "rank": 17,
+    "total": "11:06:42",
+    "outbound": "5:30:17",
+    "returnTime": "5:36:25",
+    "status": "finished",
+    "sourceUrl": "https://www.hakone-ekiden.jp/record/tournament-university.php?tn=103&university_id=21",
+    "results": [
+      {
+        "section": 1,
+        "name": "三浦 龍司",
+        "grade": "4",
+        "time": "1:01:38",
+        "rank": 10,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/juntendo.html"
+      },
+      {
+        "section": 2,
+        "name": "浅井 皓貴",
+        "grade": "3",
+        "time": "1:09:03",
+        "rank": 19,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/juntendo.html"
+      },
+      {
+        "section": 3,
+        "name": "海老澤 憲伸",
+        "grade": "3",
+        "time": "1:03:57",
+        "rank": 14,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/juntendo.html"
+      },
+      {
+        "section": 4,
+        "name": "吉岡 大翔",
+        "grade": "1",
+        "time": "1:02:33",
+        "rank": 8,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/juntendo.html"
+      },
+      {
+        "section": 5,
+        "name": "石井 一希",
+        "grade": "4",
+        "time": "1:13:06",
+        "rank": 13,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/juntendo.html"
+      },
+      {
+        "section": 6,
+        "name": "氷見 哲太",
+        "grade": "2",
+        "time": "1:00:46",
+        "rank": 17,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/juntendo.html"
+      },
+      {
+        "section": 7,
+        "name": "内田 征冶",
+        "grade": "4",
+        "time": "1:05:56",
+        "rank": 22,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/juntendo.html"
+      },
+      {
+        "section": 8,
+        "name": "森本 喜道",
+        "grade": "2",
+        "time": "1:07:07",
+        "rank": 18,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/juntendo.html"
+      },
+      {
+        "section": 9,
+        "name": "藤原 優希",
+        "grade": "4",
+        "time": "1:11:20",
+        "rank": 17,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/juntendo.html"
+      },
+      {
+        "section": 10,
+        "name": "斎藤 舜太",
+        "grade": "4",
+        "time": "1:11:16",
+        "rank": 21,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/juntendo.html"
+      }
+    ]
+  },
+  {
+    "bib": 18,
+    "team": "駿河台大学",
+    "rank": 18,
+    "total": "11:06:58",
+    "outbound": "5:30:51",
+    "returnTime": "5:36:07",
+    "status": "finished",
+    "sourceUrl": "https://www.hakone-ekiden.jp/record/tournament-university.php?tn=103&university_id=95",
+    "results": [
+      {
+        "section": 1,
+        "name": "Ｓ.レマイヤン",
+        "grade": "1",
+        "time": "1:01:34",
+        "rank": 6,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/suruga.html"
+      },
+      {
+        "section": 2,
+        "name": "新山 舜心",
+        "grade": "4",
+        "time": "1:10:13",
+        "rank": 21,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/suruga.html"
+      },
+      {
+        "section": 3,
+        "name": "古橋 希翁",
+        "grade": "1",
+        "time": "1:04:11",
+        "rank": 18,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/suruga.html"
+      },
+      {
+        "section": 4,
+        "name": "東泉 大河",
+        "grade": "2",
+        "time": "1:02:52",
+        "rank": 14,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/suruga.html"
+      },
+      {
+        "section": 5,
+        "name": "倉島 啓人",
+        "grade": "2",
+        "time": "1:12:01",
+        "rank": 5,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/suruga.html"
+      },
+      {
+        "section": 6,
+        "name": "塩路 悠耀",
+        "grade": "2",
+        "time": "1:01:44",
+        "rank": 23,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/suruga.html"
+      },
+      {
+        "section": 7,
+        "name": "藤井 空大",
+        "grade": "2",
+        "time": "1:05:39",
+        "rank": 21,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/suruga.html"
+      },
+      {
+        "section": 8,
+        "name": "岡﨑 樹",
+        "grade": "2",
+        "time": "1:05:37",
+        "rank": 12,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/suruga.html"
+      },
+      {
+        "section": 9,
+        "name": "長田 拓巳",
+        "grade": "2",
+        "time": "1:12:40",
+        "rank": 21,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/suruga.html"
+      },
+      {
+        "section": 10,
+        "name": "久保 俊翔",
+        "grade": "1",
+        "time": "1:10:27",
+        "rank": 13,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/suruga.html"
+      }
+    ]
+  },
+  {
+    "bib": 19,
+    "team": "中央学院大学",
+    "rank": 19,
+    "total": "11:07:26",
+    "outbound": "5:31:42",
+    "returnTime": "5:35:44",
+    "status": "finished",
+    "sourceUrl": "https://www.hakone-ekiden.jp/record/tournament-university.php?tn=103&university_id=27",
+    "results": [
+      {
+        "section": 1,
+        "name": "稲見 峻",
+        "grade": "1",
+        "time": "1:02:53",
+        "rank": 20,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/cgu.html"
+      },
+      {
+        "section": 2,
+        "name": "吉田 礼志",
+        "grade": "3",
+        "time": "1:07:59",
+        "rank": 14,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/cgu.html"
+      },
+      {
+        "section": 3,
+        "name": "伊藤 秀虎",
+        "grade": "4",
+        "time": "1:04:42",
+        "rank": 21,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/cgu.html"
+      },
+      {
+        "section": 4,
+        "name": "黒岩 勇禅",
+        "grade": "2",
+        "time": "1:02:32",
+        "rank": 6,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/cgu.html"
+      },
+      {
+        "section": 5,
+        "name": "柴田 大輝",
+        "grade": "3",
+        "time": "1:13:36",
+        "rank": 16,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/cgu.html"
+      },
+      {
+        "section": 6,
+        "name": "小松 裕大朗",
+        "grade": "2",
+        "time": "1:00:41",
+        "rank": 16,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/cgu.html"
+      },
+      {
+        "section": 7,
+        "name": "工藤 巧夢",
+        "grade": "3",
+        "time": "1:04:00",
+        "rank": 12,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/cgu.html"
+      },
+      {
+        "section": 8,
+        "name": "黒谷 優",
+        "grade": "2",
+        "time": "1:06:19",
+        "rank": 16,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/cgu.html"
+      },
+      {
+        "section": 9,
+        "name": "近田 陽路",
+        "grade": "2",
+        "time": "1:14:24",
+        "rank": 23,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/cgu.html"
+      },
+      {
+        "section": 10,
+        "name": "飯塚 達也",
+        "grade": "4",
+        "time": "1:10:20",
+        "rank": 12,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/cgu.html"
+      }
+    ]
+  },
+  {
+    "bib": 20,
+    "team": "明治大学",
+    "rank": 20,
+    "total": "11:07:28",
+    "outbound": "5:37:21",
+    "returnTime": "5:30:07",
+    "status": "finished",
+    "sourceUrl": "https://www.hakone-ekiden.jp/record/tournament-university.php?tn=103&university_id=44",
+    "results": [
+      {
+        "section": 1,
+        "name": "大湊 柊翔",
+        "grade": "1",
+        "time": "1:01:37",
+        "rank": 8,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/meiji.html"
+      },
+      {
+        "section": 2,
+        "name": "児玉 真輝",
+        "grade": "4",
+        "time": "1:11:15",
+        "rank": 23,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/meiji.html"
+      },
+      {
+        "section": 3,
+        "name": "杉 彩文海",
+        "grade": "4",
+        "time": "1:03:30",
+        "rank": 11,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/meiji.html"
+      },
+      {
+        "section": 4,
+        "name": "森下 翔太",
+        "grade": "2",
+        "time": "1:05:46",
+        "rank": 22,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/meiji.html"
+      },
+      {
+        "section": 5,
+        "name": "吉川 響",
+        "grade": "2",
+        "time": "1:15:13",
+        "rank": 21,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/meiji.html"
+      },
+      {
+        "section": 6,
+        "name": "堀 颯介",
+        "grade": "2",
+        "time": "58:52",
+        "rank": 7,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/meiji.html"
+      },
+      {
+        "section": 7,
+        "name": "尾﨑 健斗",
+        "grade": "3",
+        "time": "1:04:38",
+        "rank": 16,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/meiji.html"
+      },
+      {
+        "section": 8,
+        "name": "綾 一輝",
+        "grade": "1",
+        "time": "1:04:42",
+        "rank": 3,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/meiji.html"
+      },
+      {
+        "section": 9,
+        "name": "鈴木 祐太",
+        "grade": "3",
+        "time": "1:10:13",
+        "rank": 8,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/meiji.html"
+      },
+      {
+        "section": 10,
+        "name": "古井 康介",
+        "grade": "2",
+        "time": "1:11:42",
+        "rank": 22,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/meiji.html"
+      }
+    ]
+  },
+  {
+    "bib": 21,
+    "team": "神奈川大学",
+    "rank": 21,
+    "total": "11:07:37",
+    "outbound": "5:35:50",
+    "returnTime": "5:31:47",
+    "status": "finished",
+    "sourceUrl": "https://www.hakone-ekiden.jp/record/tournament-university.php?tn=103&university_id=13",
+    "results": [
+      {
+        "section": 1,
+        "name": "巻田 理空",
+        "grade": "4",
+        "time": "1:02:59",
+        "rank": 21,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/kanagawa.html"
+      },
+      {
+        "section": 2,
+        "name": "小林 篤貴",
+        "grade": "4",
+        "time": "1:08:58",
+        "rank": 18,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/kanagawa.html"
+      },
+      {
+        "section": 3,
+        "name": "宇津野 篤",
+        "grade": "4",
+        "time": "1:03:26",
+        "rank": 10,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/kanagawa.html"
+      },
+      {
+        "section": 4,
+        "name": "宮本 陽叶",
+        "grade": "2",
+        "time": "1:04:54",
+        "rank": 21,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/kanagawa.html"
+      },
+      {
+        "section": 5,
+        "name": "大泉 真尋",
+        "grade": "4",
+        "time": "1:15:33",
+        "rank": 23,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/kanagawa.html"
+      },
+      {
+        "section": 6,
+        "name": "大岩 歩夢",
+        "grade": "4",
+        "time": "58:40",
+        "rank": 6,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/kanagawa.html"
+      },
+      {
+        "section": 7,
+        "name": "新妻 玲旺",
+        "grade": "1",
+        "time": "1:04:57",
+        "rank": 18,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/kanagawa.html"
+      },
+      {
+        "section": 8,
+        "name": "高橋 銀河",
+        "grade": "4",
+        "time": "1:07:25",
+        "rank": 21,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/kanagawa.html"
+      },
+      {
+        "section": 9,
+        "name": "佐々木 亮輔",
+        "grade": "4",
+        "time": "1:10:35",
+        "rank": 14,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/kanagawa.html"
+      },
+      {
+        "section": 10,
+        "name": "酒井 健成",
+        "grade": "2",
+        "time": "1:10:10",
+        "rank": 8,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/kanagawa.html"
+      }
+    ]
+  },
+  {
+    "bib": 22,
+    "team": "東京農業大学",
+    "rank": 22,
+    "total": "11:09:16",
+    "outbound": "5:33:33",
+    "returnTime": "5:35:43",
+    "status": "finished",
+    "sourceUrl": "https://www.hakone-ekiden.jp/record/tournament-university.php?tn=103&university_id=34",
+    "results": [
+      {
+        "section": 1,
+        "name": "高槻 芳照",
+        "grade": "4",
+        "time": "1:01:45",
+        "rank": 11,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/nodai.html"
+      },
+      {
+        "section": 2,
+        "name": "並木 寧音",
+        "grade": "4",
+        "time": "1:07:03",
+        "rank": 7,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/nodai.html"
+      },
+      {
+        "section": 3,
+        "name": "長谷部 慎",
+        "grade": "4",
+        "time": "1:06:40",
+        "rank": 23,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/nodai.html"
+      },
+      {
+        "section": 4,
+        "name": "原田 洋輔",
+        "grade": "2",
+        "time": "1:03:54",
+        "rank": 19,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/nodai.html"
+      },
+      {
+        "section": 5,
+        "name": "吉村 颯斗",
+        "grade": "4",
+        "time": "1:14:11",
+        "rank": 17,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/nodai.html"
+      },
+      {
+        "section": 6,
+        "name": "植月 俊太",
+        "grade": "1",
+        "time": "1:01:30",
+        "rank": 22,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/nodai.html"
+      },
+      {
+        "section": 7,
+        "name": "前田 和摩",
+        "grade": "1",
+        "time": "1:04:13",
+        "rank": 13,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/nodai.html"
+      },
+      {
+        "section": 8,
+        "name": "圓谷 吏生",
+        "grade": "2",
+        "time": "1:07:17",
+        "rank": 19,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/nodai.html"
+      },
+      {
+        "section": 9,
+        "name": "深堀 優",
+        "grade": "2",
+        "time": "1:09:40",
+        "rank": 4,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/nodai.html"
+      },
+      {
+        "section": 10,
+        "name": "栗本 航希",
+        "grade": "1",
+        "time": "1:13:03",
+        "rank": 23,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/nodai.html"
+      }
+    ]
+  },
+  {
+    "bib": 23,
+    "team": "山梨学院大学",
+    "rank": 23,
+    "total": "11:11:11",
+    "outbound": "5:31:05",
+    "returnTime": "5:40:06",
+    "status": "finished",
+    "sourceUrl": "https://www.hakone-ekiden.jp/record/tournament-university.php?tn=103&university_id=45",
+    "results": [
+      {
+        "section": 1,
+        "name": "北村 惇生",
+        "grade": "4",
+        "time": "1:02:13",
+        "rank": 16,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/ygu.html"
+      },
+      {
+        "section": 2,
+        "name": "Ｂ.キピエゴ",
+        "grade": "1",
+        "time": "1:07:22",
+        "rank": 9,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/ygu.html"
+      },
+      {
+        "section": 3,
+        "name": "髙木 翔瑛",
+        "grade": "4",
+        "time": "1:05:24",
+        "rank": 22,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/ygu.html"
+      },
+      {
+        "section": 4,
+        "name": "和田 瑛登",
+        "grade": "1",
+        "time": "1:03:07",
+        "rank": 17,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/ygu.html"
+      },
+      {
+        "section": 5,
+        "name": "弓削 征慶",
+        "grade": "2",
+        "time": "1:12:59",
+        "rank": 11,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/ygu.html"
+      },
+      {
+        "section": 6,
+        "name": "髙田 尚暉",
+        "grade": "3",
+        "time": "1:01:20",
+        "rank": 21,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/ygu.html"
+      },
+      {
+        "section": 7,
+        "name": "徳田 秋斗",
+        "grade": "3",
+        "time": "1:06:32",
+        "rank": 23,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/ygu.html"
+      },
+      {
+        "section": 8,
+        "name": "新本 駿",
+        "grade": "3",
+        "time": "1:07:17",
+        "rank": 19,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/ygu.html"
+      },
+      {
+        "section": 9,
+        "name": "平八重 充希",
+        "grade": "2",
+        "time": "1:13:54",
+        "rank": 22,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/ygu.html"
+      },
+      {
+        "section": 10,
+        "name": "占部 大和",
+        "grade": "1",
+        "time": "1:11:03",
+        "rank": 19,
+        "status": "finished",
+        "sourceUrl": "https://www.ntv.co.jp/hakone/backnumber/100/team/ygu.html"
+      }
+    ]
+  }
+]

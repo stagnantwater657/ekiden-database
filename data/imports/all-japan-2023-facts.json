@@ -1058,49 +1058,56 @@
         "name": "佐藤 良祐",
         "time": "34:29",
         "rank": 22,
-        "status": "finished"
+        "status": "finished",
+        "grade": "4"
       },
       {
         "section": 3,
         "name": "岡 寛大",
         "time": "36:13",
         "rank": 19,
-        "status": "finished"
+        "status": "finished",
+        "grade": "3"
       },
       {
         "section": 4,
         "name": "寺川 直央",
         "time": "37:23",
         "rank": 23,
-        "status": "finished"
+        "status": "finished",
+        "grade": "1"
       },
       {
         "section": 5,
         "name": "齋藤 翔也",
         "time": "38:58",
         "rank": 18,
-        "status": "finished"
+        "status": "finished",
+        "grade": "4"
       },
       {
         "section": 6,
         "name": "太田 駿",
         "time": "41:37",
         "rank": 23,
-        "status": "finished"
+        "status": "finished",
+        "grade": "2"
       },
       {
         "section": 7,
         "name": "中尾 心哉",
         "time": "56:37",
         "rank": 21,
-        "status": "finished"
+        "status": "finished",
+        "grade": "3"
       },
       {
         "section": 8,
         "name": "守屋 和希",
         "time": "1:00:25",
         "rank": 8,
-        "status": "finished"
+        "status": "finished",
+        "grade": "4"
       }
     ]
   },

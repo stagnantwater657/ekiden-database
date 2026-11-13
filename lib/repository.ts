@@ -1,9 +1,11 @@
-import dataset from "../data/all-japan-2024.json" with { type: "json" };
+import { database as dataset } from "../data/index.ts";
+import { seasonYearFor } from "./seasons.ts";
+import { validateIdentity, normalizeName } from "./identity.ts";
 import type { Database, ResultRow } from "./model.ts";
 import type { Filters } from "./query.ts";
 
 export function validateDatabase(db: Database): void {
-  if (db.schemaVersion !== 1) throw new Error("Unsupported data version");
+  if (db.schemaVersion !== 2) throw new Error("Unsupported data version");
   const groups = [
     db.sources,
     db.races,
@@ -11,12 +13,13 @@ export function validateDatabase(db: Database): void {
     db.sections,
     db.universities,
     db.athletes,
+    db.teams,
     db.entries,
     db.results,
   ];
-  for (const group of groups)
-    if (new Set(group.map((x) => x.id)).size !== group.length)
-      throw new Error("Duplicate entity ID");
+  const allIds = groups.flat().map((x) => x.id);
+  if (new Set(allIds).size !== allIds.length)
+    throw new Error("Duplicate global entity ID");
   const has = (group: { id: string }[], id: string) =>
     group.some((x) => x.id === id);
   for (const group of groups.slice(1))
@@ -37,7 +40,8 @@ export function validateDatabase(db: Database): void {
   for (const entry of db.entries)
     if (
       !has(db.editions, entry.editionId) ||
-      !has(db.universities, entry.universityId)
+      !has(db.teams, entry.teamId) ||
+      (entry.universityId !== null && !has(db.universities, entry.universityId))
     )
       throw new Error("Invalid entry");
   for (const entry of db.entries) {
@@ -54,6 +58,101 @@ export function validateDatabase(db: Database): void {
     )
       throw new Error("Missing final rank source");
   }
+  const statuses = new Set([
+    "finished",
+    "reference",
+    "unranked",
+    "disqualified",
+    "did-not-finish",
+    "did-not-start",
+    "unknown",
+  ]);
+  for (const edition of db.editions) {
+    if (
+      !Number.isInteger(edition.seasonYear) ||
+      !Number.isInteger(edition.number) ||
+      edition.number < 1 ||
+      !Number.isFinite(Date.parse(edition.date)) ||
+      !Number.isFinite(edition.distanceKm) ||
+      edition.distanceKm <= 0 ||
+      edition.year !== Number(edition.date.slice(0, 4))
+    )
+      throw new Error("Invalid season/date");
+    if (
+      ["hakone", "all-japan", "izumo"].includes(edition.raceId) &&
+      edition.seasonYear !== seasonYearFor(edition.raceId, edition.year)
+    )
+      throw new Error("Wrong season assignment");
+    const sections = db.sections.filter((s) => s.editionId === edition.id);
+    if (
+      new Set(sections.map((s) => s.number)).size !== sections.length ||
+      sections.some(
+        (s) =>
+          !Number.isInteger(s.number) ||
+          s.number < 1 ||
+          s.distanceKm === null ||
+          !Number.isFinite(s.distanceKm) ||
+          s.distanceKm <= 0,
+      )
+    )
+      throw new Error("Invalid sections");
+    if (
+      Math.abs(
+        sections.reduce((sum, s) => sum + s.distanceKm!, 0) -
+          edition.distanceKm,
+      ) > 0.001
+    )
+      throw new Error("Distance mismatch");
+  }
+  for (const team of db.teams) {
+    if (
+      !["university", "association-selection", "overseas-selection"].includes(
+        team.kind,
+      )
+    )
+      throw new Error("Unknown team kind");
+    if (
+      team.kind === "university"
+        ? !team.universityId || !has(db.universities, team.universityId)
+        : team.universityId !== null
+    )
+      throw new Error("Invalid team type");
+  }
+  const teamSlots = new Set<string>();
+  for (const entry of db.entries) {
+    if (!statuses.has(entry.status)) throw new Error("Unknown entry status");
+    const team = db.teams.find((t) => t.id === entry.teamId)!;
+    if (entry.universityId !== team.universityId)
+      throw new Error("Entry/team affiliation mismatch");
+    if (
+      (team.kind !== "university" || entry.status !== "finished") &&
+      entry.finalRank !== null
+    )
+      throw new Error("Non-official entry cannot have final rank");
+    const slot = entry.editionId + "/" + entry.teamId;
+    if (teamSlots.has(slot)) throw new Error("Duplicate team entry");
+    teamSlots.add(slot);
+    if (
+      entry.totalTimeSeconds !== null &&
+      (!Number.isSafeInteger(entry.totalTimeSeconds) ||
+        entry.totalTimeSeconds <= 0 ||
+        !entry.totalTimeSourceId ||
+        !has(db.sources, entry.totalTimeSourceId))
+    )
+      throw new Error("Invalid official team time");
+  }
+  const decisions = new Map(db.identities.map((i) => [i.recordId, i]));
+  if (decisions.size !== db.identities.length)
+    throw new Error("Duplicate identity decision");
+  for (const decision of db.identities) {
+    validateIdentity(
+      decision,
+      db.athletes,
+      new Set(db.sources.map((s) => s.id)),
+    );
+    if (!has(db.results, decision.recordId))
+      throw new Error("Orphan identity decision");
+  }
   const slots = new Set<string>();
   const runners = new Set<string>();
   for (const result of db.results) {
@@ -66,6 +165,37 @@ export function validateDatabase(db: Database): void {
       !has(db.athletes, result.athleteId)
     )
       throw new Error("Invalid result relation");
+    if (result.status && !statuses.has(result.status))
+      throw new Error("Unknown section status");
+    const decision = decisions.get(result.id);
+    if (!decision || decision.athleteId !== result.athleteId)
+      throw new Error("Missing result identity decision");
+    if (
+      result.grade !== undefined &&
+      result.grade !== null &&
+      !/^(?:[1-6]|M[1-3]|D[1-6])$/.test(result.grade)
+    )
+      throw new Error("Invalid participation grade");
+    if (
+      result.participationSourceId &&
+      !has(db.sources, result.participationSourceId)
+    )
+      throw new Error("Unknown participation source");
+    if (result.grade && !result.participationSourceId)
+      throw new Error("Missing grade source");
+    if (
+      result.representingUniversityId &&
+      !has(db.universities, result.representingUniversityId)
+    )
+      throw new Error("Unknown participation university");
+    if (
+      result.status &&
+      ["disqualified", "did-not-finish", "did-not-start"].includes(
+        result.status,
+      ) &&
+      result.rank !== null
+    )
+      throw new Error("Invalid section status/rank");
     const slot = `${entry.id}/${section.id}`;
     const runner = `${entry.editionId}/${result.athleteId}`;
     if (slots.has(slot) || runners.has(runner))
@@ -88,7 +218,9 @@ export function createFileRepository(db: Database) {
       edition,
       race: db.races.find((x) => x.id === edition.raceId)!,
       section: db.sections.find((x) => x.id === result.sectionId)!,
-      university: db.universities.find((x) => x.id === entry.universityId)!,
+      university:
+        db.universities.find((x) => x.id === entry.universityId) ?? null,
+      team: db.teams.find((x) => x.id === entry.teamId)!,
       athlete: db.athletes.find((x) => x.id === result.athleteId)!,
       source: db.sources.find((x) => x.id === result.sourceId)!,
     };
@@ -98,25 +230,34 @@ export function createFileRepository(db: Database) {
       return db;
     },
     async search(filters: Filters) {
-      const normalize = (s: string) =>
-        s.normalize("NFKC").replace(/\s/g, "").toLocaleLowerCase("ja");
+      const normalize = normalizeName;
       const matched = rows.filter(
         (row) =>
           (!filters.race || row.race.id === filters.race) &&
           (!filters.edition || row.edition.id === filters.edition) &&
           (!filters.year || String(row.edition.year) === filters.year) &&
-          (!filters.university || row.university.id === filters.university) &&
+          (!filters.season ||
+            String(row.edition.seasonYear) === filters.season) &&
+          (!filters.team || row.team.id === filters.team) &&
+          (!filters.university || row.university?.id === filters.university) &&
           (!filters.section ||
             String(row.section.number) === filters.section) &&
           (!filters.athlete || row.athlete.id === filters.athlete) &&
           (!filters.q ||
-            normalize(row.athlete.name).includes(normalize(filters.q))),
+            [row.athlete.name, ...(row.athlete.aliases ?? [])].some((name) =>
+              normalize(name).includes(normalize(filters.q)),
+            )),
       );
       matched.sort(compareResults(filters));
       // Summaries describe the entire filtered result, not only this page.
       const sourceIds = new Set(
         matched
-          .flatMap((row) => [row.sourceId, row.entry.finalRankSourceId])
+          .flatMap((row) => [
+            row.sourceId,
+            row.entry.finalRankSourceId,
+            row.entry.totalTimeSourceId,
+            row.participationSourceId ?? null,
+          ])
           .filter((id): id is string => id !== null),
       );
       const editions = [
@@ -186,7 +327,7 @@ export function compareResults(
       default: 0,
       race: row.race.name,
       year: row.edition.year,
-      university: row.university.name,
+      university: row.team.name,
       finalRank: row.entry.finalRank,
       section: row.section.number,
       athlete: row.athlete.name,

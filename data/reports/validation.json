@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 2,
+  "reports": [
+    {
+      "editionId": "all-japan-2024",
+      "teams": 25,
+      "universityTeams": 25,
+      "starts": 200,
+      "athletes": 200,
+      "officialFinalRanks": 25,
+      "unrankedTeams": [],
+      "crossEditionAthletes": 60,
+      "reusedFromEarlierEditions": 0,
+      "resultsSha256": "3ffb35885a6bbba18c5ce5577b99bda5bb70ef2bfb92ce29e8b88300f657ca92",
+      "review": [],
+      "missingTeamTotals": [
+        "aj24-kokugakuin",
+        "aj24-komazawa",
+        "aj24-aoyama-gakuin",
+        "aj24-soka",
+        "aj24-waseda",
+        "aj24-josai",
+        "aj24-rikkyo",
+        "aj24-teikyo",
+        "aj24-tokyo-international",
+        "aj24-nippon-sport-science",
+        "aj24-daito-bunka",
+        "aj24-chuo",
+        "aj24-toyo",
+        "aj24-kanagawa",
+        "aj24-tokai",
+        "aj24-kyoto-sangyo",
+        "aj24-kogakkan",
+        "aj24-osaka-keizai",
+        "aj24-kansai",
+        "aj24-sapporo-gakuin",
+        "aj24-kagoshima",
+        "aj24-ritsumeikan",
+        "aj24-okayama",
+        "aj24-niigata",
+        "aj24-tohoku"
+      ]
+    },
+    {
+      "editionId": "all-japan-2025",
+      "teams": 27,
+      "universityTeams": 25,
+      "starts": 216,
+      "athletes": 216,
+      "officialFinalRanks": 25,
+      "unrankedTeams": [
+        "team-japan-selection",
+        "team-tokai-selection"
+      ],
+      "crossEditionAthletes": 60,
+      "reusedFromEarlierEditions": 60,
+      "resultsSha256": "548d35ecbbe42017d16dc973b62498ffc67d6e8d799f1a3020e049eb061e3c83",
+      "review": [
+        {
+          "recordId": "aj25-result-03-1",
+          "athleteId": "athlete-aj25-03-1",
+          "observedName": "椙山 一颯",
+          "status": "needs-review",
+          "candidateIds": [],
+          "evidenceSourceIds": [
+            "iuau-aj2025-results",
+            "iuau-aj2025-roster"
+          ],
+          "reason": "成绩表姓名椙山 一颯与出场名单榅山 一颯字形不一致；采用成绩表写法，年级留空，待原件核验。"
+        },
+        {
+          "recordId": "aj25-result-17-5",
+          "athleteId": "athlete-aj25-17-5",
+          "observedName": "吉田 黎大",
+          "status": "needs-review",
+          "candidateIds": [],
+          "evidenceSourceIds": [
+            "iuau-aj2025-results",
+            "iuau-aj2025-roster"
+          ],
+          "reason": "成绩表姓名吉田 黎大与出场名单𠮷田 黎大字形不一致；采用成绩表写法，年级留空，待原件核验。"
+        },
+        {
+          "recordId": "aj25-result-21-6",
+          "athleteId": "athlete-aj25-21-6",
+          "observedName": "坂本 亘生",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj24-19-4"
+          ],
+          "evidenceSourceIds": [
+            "iuau-aj2025-results",
+            "iuau-aj2024-roster",
+            "iuau-aj2025-roster"
+          ],
+          "reason": "姓名候选存在，但研究生阶段或选拔队代表关系需要额外身份材料；暂保留独立ID，不合并。"
+        },
+        {
+          "recordId": "aj25-result-26-4",
+          "athleteId": "athlete-aj25-26-4",
+          "observedName": "鶴田 寛武",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj24-21-2"
+          ],
+          "evidenceSourceIds": [
+            "iuau-aj2025-results",
+            "iuau-aj2024-roster",
+            "iuau-aj2025-roster"
+          ],
+          "reason": "姓名候选存在，但研究生阶段或选拔队代表关系需要额外身份材料；暂保留独立ID，不合并。"
+        },
+        {
+          "recordId": "aj25-result-26-8",
+          "athleteId": "athlete-aj25-26-8",
+          "observedName": "赤澤 京弥",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj24-23-7"
+          ],
+          "evidenceSourceIds": [
+            "iuau-aj2025-results",
+            "iuau-aj2024-roster",
+            "iuau-aj2025-roster"
+          ],
+          "reason": "姓名候选存在，但研究生阶段或选拔队代表关系需要额外身份材料；暂保留独立ID，不合并。"
+        }
+      ],
+      "missingTeamTotals": []
+    }
+  ]
+}

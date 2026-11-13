@@ -12,8 +12,8 @@ test("home → race → edition → athlete → university → results", async (
   await page.getByRole("link", { name: "嘉数 純平", exact: true }).click();
   await expect(page.getByRole("heading", { level: 1 })).toHaveText("嘉数 純平");
   await page.getByRole("link", { name: "國學院大", exact: true }).click();
-  await expect(page.getByRole("status")).toHaveText("共 8 条成绩");
-  await page.getByRole("link", { name: "6区 · 12.8 km" }).click();
+  await expect(page.getByRole("status")).toHaveText("共 16 条成绩");
+  await page.getByRole("link", { name: "6区 · 12.8 km" }).first().click();
   await expect(page.getByRole("status")).toHaveText("共 25 条成绩");
   await expect(page).toHaveURL(/section=6/);
   await page
@@ -30,14 +30,14 @@ test("home → race → edition → athlete → university → results", async (
 test("GET filters, sort, pagination, reload, sharing and back/forward", async ({
   page,
 }) => {
-  await page.goto("/results");
+  await page.goto("/results?year=2024");
   await page
     .getByRole("combobox", { name: "每页", exact: true })
     .selectOption("10");
   await page.getByRole("button", { name: "应用筛选" }).click();
   await page.getByRole("link", { name: "下一页", exact: true }).click();
   await expect(page).toHaveURL(/page=2/);
-  await expect(page.locator("tbody tr")).toHaveCount(10);
+  await expect(page.locator("tr[data-result-id]")).toHaveCount(10);
   await page.reload();
   await expect(
     page.getByRole("navigation", { name: "成绩分页" }),
@@ -76,7 +76,7 @@ test("empty filters, invalid IDs and mobile table", async ({ page }) => {
     page.getByText("筛选无结果，请调整条件或重置筛选。"),
   ).toBeVisible();
   await page.getByRole("link", { name: "重置筛选" }).click();
-  await expect(page.locator("tbody tr")).toHaveCount(25);
+  await expect(page.locator("tr[data-result-id]")).toHaveCount(25);
   await page.goto("/athletes/unknown");
   await expect(page.getByRole("heading", { name: "暂无此档案" })).toBeVisible();
   await page.getByRole("link", { name: "返回区间成绩查询" }).click();
@@ -92,7 +92,9 @@ test("empty filters, invalid IDs and mobile table", async ({ page }) => {
 test("five columns, query context, view switch resets page and sort, sources follow results", async ({
   page,
 }) => {
-  await page.goto("/results?pageSize=10&page=2&sort=time&direction=desc");
+  await page.goto(
+    "/results?year=2024&pageSize=10&page=2&sort=time&direction=desc",
+  );
   await expect(
     page.getByText("正在跨区间按用时排序：不同区间距离不可直接比较。"),
   ).toBeVisible();
@@ -145,7 +147,7 @@ test("five columns, query context, view switch resets page and sort, sources fol
 test("manual ordering and filtering reset page while retaining view and entity scope", async ({
   page,
 }) => {
-  await page.goto("/universities/kokugakuin?view=university&page=9");
+  await page.goto("/universities/kokugakuin?year=2024&view=university&page=9");
   await page
     .getByRole("columnheader", { name: /成绩/ })
     .getByRole("link")

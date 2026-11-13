@@ -50,6 +50,7 @@ export function Sources({ sources }: { sources: Source[] }) {
             {source.title} ↗
           </a>
           <p>{source.coverage}</p>
+          {source.revision && <p>采用版本：{source.revision}</p>}
           <p className="text-stone-500">
             {source.locator} · 采集时间：
             <time dateTime={source.collectedAt}>

@@ -8,7 +8,7 @@
 
 - 原始来源：[主办方官方成绩 PDF](https://daigaku-ekiden.com/result/files/result_241103.pdf)，第 2 页，下排区间记录及方括号内区间顺位。
 - 来源入口：[日本陸連大会页面](https://www.jaaf.or.jp/competition/detail/1888/)，其「リザルト」链接指向上述文件。
-- 结构化批次：`data/all-japan-2024.json`。`sources[].collectedAt` 记录本次实际采集的 UTC 时间，而非赛事日期。来源记录另含覆盖范围及页码定位。
+- 结构化批次现迁移至 `data/editions/all-japan-2024.json`，原 `data/all-japan-2024.json` 保留为回归快照；多届导入见 [历史数据导入](historical-data-import.md)。`sources[].collectedAt` 记录本次实际采集的 UTC 时间，而非赛事日期。来源记录另含覆盖范围及页码定位。
 - 姓名和大学简称保留官方表写法；不从姓名自动猜读音、生日或历史身份，不建立无依据的 PB。出生日期为 `null`，界面显示 `—`。
 - 用时转为整数秒。官方顺位独立存储；相同显示秒数不一定同顺位，例如 1 区存在官方细分顺位；7 区两条 50:07 均保留第 2 位。
 - 单元测试将 25 校区间合计逐一与第 1 页官方总成绩对照，但不会将这一检查当作姓名或顺位校验的替代。

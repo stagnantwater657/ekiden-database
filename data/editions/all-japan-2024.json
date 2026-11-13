@@ -1,0 +1,4379 @@
+{
+  "schemaVersion": 2,
+  "edition": {
+    "id": "all-japan-2024",
+    "raceId": "all-japan",
+    "year": 2024,
+    "number": 56,
+    "date": "2024-11-03",
+    "sourceId": "official-2024",
+    "seasonYear": 2024,
+    "officialName": "秩父宮賜杯第56回全日本大学駅伝対校選手権大会",
+    "distanceKm": 106.8
+  },
+  "sources": [],
+  "sections": [
+    {
+      "id": "aj24-s1",
+      "editionId": "all-japan-2024",
+      "number": 1,
+      "distanceKm": 9.5,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-s2",
+      "editionId": "all-japan-2024",
+      "number": 2,
+      "distanceKm": 11.1,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-s3",
+      "editionId": "all-japan-2024",
+      "number": 3,
+      "distanceKm": 11.9,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-s4",
+      "editionId": "all-japan-2024",
+      "number": 4,
+      "distanceKm": 11.8,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-s5",
+      "editionId": "all-japan-2024",
+      "number": 5,
+      "distanceKm": 12.4,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-s6",
+      "editionId": "all-japan-2024",
+      "number": 6,
+      "distanceKm": 12.8,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-s7",
+      "editionId": "all-japan-2024",
+      "number": 7,
+      "distanceKm": 17.6,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-s8",
+      "editionId": "all-japan-2024",
+      "number": 8,
+      "distanceKm": 19.7,
+      "sourceId": "official-2024"
+    }
+  ],
+  "entries": [
+    {
+      "id": "aj24-kokugakuin",
+      "editionId": "all-japan-2024",
+      "universityId": "kokugakuin",
+      "sourceId": "official-2024",
+      "finalRank": 1,
+      "finalRankSourceId": "official-2024-final-ranks",
+      "teamId": "team-kokugakuin",
+      "totalTimeSeconds": null,
+      "totalTimeSourceId": null,
+      "status": "finished"
+    },
+    {
+      "id": "aj24-komazawa",
+      "editionId": "all-japan-2024",
+      "universityId": "komazawa",
+      "sourceId": "official-2024",
+      "finalRank": 2,
+      "finalRankSourceId": "official-2024-final-ranks",
+      "teamId": "team-komazawa",
+      "totalTimeSeconds": null,
+      "totalTimeSourceId": null,
+      "status": "finished"
+    },
+    {
+      "id": "aj24-aoyama-gakuin",
+      "editionId": "all-japan-2024",
+      "universityId": "aoyama-gakuin",
+      "sourceId": "official-2024",
+      "finalRank": 3,
+      "finalRankSourceId": "official-2024-final-ranks",
+      "teamId": "team-aoyama-gakuin",
+      "totalTimeSeconds": null,
+      "totalTimeSourceId": null,
+      "status": "finished"
+    },
+    {
+      "id": "aj24-soka",
+      "editionId": "all-japan-2024",
+      "universityId": "soka",
+      "sourceId": "official-2024",
+      "finalRank": 4,
+      "finalRankSourceId": "official-2024-final-ranks",
+      "teamId": "team-soka",
+      "totalTimeSeconds": null,
+      "totalTimeSourceId": null,
+      "status": "finished"
+    },
+    {
+      "id": "aj24-waseda",
+      "editionId": "all-japan-2024",
+      "universityId": "waseda",
+      "sourceId": "official-2024",
+      "finalRank": 5,
+      "finalRankSourceId": "official-2024-final-ranks",
+      "teamId": "team-waseda",
+      "totalTimeSeconds": null,
+      "totalTimeSourceId": null,
+      "status": "finished"
+    },
+    {
+      "id": "aj24-josai",
+      "editionId": "all-japan-2024",
+      "universityId": "josai",
+      "sourceId": "official-2024",
+      "finalRank": 6,
+      "finalRankSourceId": "official-2024-final-ranks",
+      "teamId": "team-josai",
+      "totalTimeSeconds": null,
+      "totalTimeSourceId": null,
+      "status": "finished"
+    },
+    {
+      "id": "aj24-rikkyo",
+      "editionId": "all-japan-2024",
+      "universityId": "rikkyo",
+      "sourceId": "official-2024",
+      "finalRank": 7,
+      "finalRankSourceId": "official-2024-final-ranks",
+      "teamId": "team-rikkyo",
+      "totalTimeSeconds": null,
+      "totalTimeSourceId": null,
+      "status": "finished"
+    },
+    {
+      "id": "aj24-teikyo",
+      "editionId": "all-japan-2024",
+      "universityId": "teikyo",
+      "sourceId": "official-2024",
+      "finalRank": 8,
+      "finalRankSourceId": "official-2024-final-ranks",
+      "teamId": "team-teikyo",
+      "totalTimeSeconds": null,
+      "totalTimeSourceId": null,
+      "status": "finished"
+    },
+    {
+      "id": "aj24-tokyo-international",
+      "editionId": "all-japan-2024",
+      "universityId": "tokyo-international",
+      "sourceId": "official-2024",
+      "finalRank": 9,
+      "finalRankSourceId": "official-2024-final-ranks",
+      "teamId": "team-tokyo-international",
+      "totalTimeSeconds": null,
+      "totalTimeSourceId": null,
+      "status": "finished"
+    },
+    {
+      "id": "aj24-nippon-sport-science",
+      "editionId": "all-japan-2024",
+      "universityId": "nippon-sport-science",
+      "sourceId": "official-2024",
+      "finalRank": 10,
+      "finalRankSourceId": "official-2024-final-ranks",
+      "teamId": "team-nippon-sport-science",
+      "totalTimeSeconds": null,
+      "totalTimeSourceId": null,
+      "status": "finished"
+    },
+    {
+      "id": "aj24-daito-bunka",
+      "editionId": "all-japan-2024",
+      "universityId": "daito-bunka",
+      "sourceId": "official-2024",
+      "finalRank": 11,
+      "finalRankSourceId": "official-2024-final-ranks",
+      "teamId": "team-daito-bunka",
+      "totalTimeSeconds": null,
+      "totalTimeSourceId": null,
+      "status": "finished"
+    },
+    {
+      "id": "aj24-chuo",
+      "editionId": "all-japan-2024",
+      "universityId": "chuo",
+      "sourceId": "official-2024",
+      "finalRank": 12,
+      "finalRankSourceId": "official-2024-final-ranks",
+      "teamId": "team-chuo",
+      "totalTimeSeconds": null,
+      "totalTimeSourceId": null,
+      "status": "finished"
+    },
+    {
+      "id": "aj24-toyo",
+      "editionId": "all-japan-2024",
+      "universityId": "toyo",
+      "sourceId": "official-2024",
+      "finalRank": 13,
+      "finalRankSourceId": "official-2024-final-ranks",
+      "teamId": "team-toyo",
+      "totalTimeSeconds": null,
+      "totalTimeSourceId": null,
+      "status": "finished"
+    },
+    {
+      "id": "aj24-kanagawa",
+      "editionId": "all-japan-2024",
+      "universityId": "kanagawa",
+      "sourceId": "official-2024",
+      "finalRank": 14,
+      "finalRankSourceId": "official-2024-final-ranks",
+      "teamId": "team-kanagawa",
+      "totalTimeSeconds": null,
+      "totalTimeSourceId": null,
+      "status": "finished"
+    },
+    {
+      "id": "aj24-tokai",
+      "editionId": "all-japan-2024",
+      "universityId": "tokai",
+      "sourceId": "official-2024",
+      "finalRank": 15,
+      "finalRankSourceId": "official-2024-final-ranks",
+      "teamId": "team-tokai",
+      "totalTimeSeconds": null,
+      "totalTimeSourceId": null,
+      "status": "finished"
+    },
+    {
+      "id": "aj24-kyoto-sangyo",
+      "editionId": "all-japan-2024",
+      "universityId": "kyoto-sangyo",
+      "sourceId": "official-2024",
+      "finalRank": 16,
+      "finalRankSourceId": "official-2024-final-ranks",
+      "teamId": "team-kyoto-sangyo",
+      "totalTimeSeconds": null,
+      "totalTimeSourceId": null,
+      "status": "finished"
+    },
+    {
+      "id": "aj24-kogakkan",
+      "editionId": "all-japan-2024",
+      "universityId": "kogakkan",
+      "sourceId": "official-2024",
+      "finalRank": 17,
+      "finalRankSourceId": "official-2024-final-ranks",
+      "teamId": "team-kogakkan",
+      "totalTimeSeconds": null,
+      "totalTimeSourceId": null,
+      "status": "finished"
+    },
+    {
+      "id": "aj24-osaka-keizai",
+      "editionId": "all-japan-2024",
+      "universityId": "osaka-keizai",
+      "sourceId": "official-2024",
+      "finalRank": 18,
+      "finalRankSourceId": "official-2024-final-ranks",
+      "teamId": "team-osaka-keizai",
+      "totalTimeSeconds": null,
+      "totalTimeSourceId": null,
+      "status": "finished"
+    },
+    {
+      "id": "aj24-kansai",
+      "editionId": "all-japan-2024",
+      "universityId": "kansai",
+      "sourceId": "official-2024",
+      "finalRank": 19,
+      "finalRankSourceId": "official-2024-final-ranks",
+      "teamId": "team-kansai",
+      "totalTimeSeconds": null,
+      "totalTimeSourceId": null,
+      "status": "finished"
+    },
+    {
+      "id": "aj24-sapporo-gakuin",
+      "editionId": "all-japan-2024",
+      "universityId": "sapporo-gakuin",
+      "sourceId": "official-2024",
+      "finalRank": 20,
+      "finalRankSourceId": "official-2024-final-ranks",
+      "teamId": "team-sapporo-gakuin",
+      "totalTimeSeconds": null,
+      "totalTimeSourceId": null,
+      "status": "finished"
+    },
+    {
+      "id": "aj24-kagoshima",
+      "editionId": "all-japan-2024",
+      "universityId": "kagoshima",
+      "sourceId": "official-2024",
+      "finalRank": 21,
+      "finalRankSourceId": "official-2024-final-ranks",
+      "teamId": "team-kagoshima",
+      "totalTimeSeconds": null,
+      "totalTimeSourceId": null,
+      "status": "finished"
+    },
+    {
+      "id": "aj24-ritsumeikan",
+      "editionId": "all-japan-2024",
+      "universityId": "ritsumeikan",
+      "sourceId": "official-2024",
+      "finalRank": 22,
+      "finalRankSourceId": "official-2024-final-ranks",
+      "teamId": "team-ritsumeikan",
+      "totalTimeSeconds": null,
+      "totalTimeSourceId": null,
+      "status": "finished"
+    },
+    {
+      "id": "aj24-okayama",
+      "editionId": "all-japan-2024",
+      "universityId": "okayama",
+      "sourceId": "official-2024",
+      "finalRank": 23,
+      "finalRankSourceId": "official-2024-final-ranks",
+      "teamId": "team-okayama",
+      "totalTimeSeconds": null,
+      "totalTimeSourceId": null,
+      "status": "finished"
+    },
+    {
+      "id": "aj24-niigata",
+      "editionId": "all-japan-2024",
+      "universityId": "niigata",
+      "sourceId": "official-2024",
+      "finalRank": 24,
+      "finalRankSourceId": "official-2024-final-ranks",
+      "teamId": "team-niigata",
+      "totalTimeSeconds": null,
+      "totalTimeSourceId": null,
+      "status": "finished"
+    },
+    {
+      "id": "aj24-tohoku",
+      "editionId": "all-japan-2024",
+      "universityId": "tohoku",
+      "sourceId": "official-2024",
+      "finalRank": 25,
+      "finalRankSourceId": "official-2024-final-ranks",
+      "teamId": "team-tohoku",
+      "totalTimeSeconds": null,
+      "totalTimeSourceId": null,
+      "status": "finished"
+    }
+  ],
+  "results": [
+    {
+      "id": "aj24-kokugakuin-s1",
+      "entryId": "aj24-kokugakuin",
+      "sectionId": "aj24-s1",
+      "athleteId": "athlete-aj24-01-1",
+      "timeSeconds": 1700,
+      "rank": 2,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kokugakuin-s2",
+      "entryId": "aj24-kokugakuin",
+      "sectionId": "aj24-s2",
+      "athleteId": "athlete-aj24-01-2",
+      "timeSeconds": 1919,
+      "rank": 7,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kokugakuin-s3",
+      "entryId": "aj24-kokugakuin",
+      "sectionId": "aj24-s3",
+      "athleteId": "athlete-aj24-01-3",
+      "timeSeconds": 2039,
+      "rank": 3,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kokugakuin-s4",
+      "entryId": "aj24-kokugakuin",
+      "sectionId": "aj24-s4",
+      "athleteId": "athlete-aj24-01-4",
+      "timeSeconds": 2035,
+      "rank": 4,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kokugakuin-s5",
+      "entryId": "aj24-kokugakuin",
+      "sectionId": "aj24-s5",
+      "athleteId": "athlete-aj24-01-5",
+      "timeSeconds": 2135,
+      "rank": 1,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kokugakuin-s6",
+      "entryId": "aj24-kokugakuin",
+      "sectionId": "aj24-s6",
+      "athleteId": "athlete-aj24-01-6",
+      "timeSeconds": 2207,
+      "rank": 1,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kokugakuin-s7",
+      "entryId": "aj24-kokugakuin",
+      "sectionId": "aj24-s7",
+      "athleteId": "athlete-aj24-01-7",
+      "timeSeconds": 3007,
+      "rank": 2,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kokugakuin-s8",
+      "entryId": "aj24-kokugakuin",
+      "sectionId": "aj24-s8",
+      "athleteId": "athlete-aj24-01-8",
+      "timeSeconds": 3554,
+      "rank": 9,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-komazawa-s1",
+      "entryId": "aj24-komazawa",
+      "sectionId": "aj24-s1",
+      "athleteId": "athlete-aj24-02-1",
+      "timeSeconds": 1705,
+      "rank": 14,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-komazawa-s2",
+      "entryId": "aj24-komazawa",
+      "sectionId": "aj24-s2",
+      "athleteId": "athlete-aj24-02-2",
+      "timeSeconds": 2003,
+      "rank": 17,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-komazawa-s3",
+      "entryId": "aj24-komazawa",
+      "sectionId": "aj24-s3",
+      "athleteId": "athlete-aj24-02-3",
+      "timeSeconds": 2019,
+      "rank": 2,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-komazawa-s4",
+      "entryId": "aj24-komazawa",
+      "sectionId": "aj24-s4",
+      "athleteId": "athlete-aj24-02-4",
+      "timeSeconds": 2024,
+      "rank": 3,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-komazawa-s5",
+      "entryId": "aj24-komazawa",
+      "sectionId": "aj24-s5",
+      "athleteId": "athlete-aj24-02-5",
+      "timeSeconds": 2188,
+      "rank": 5,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-komazawa-s6",
+      "entryId": "aj24-komazawa",
+      "sectionId": "aj24-s6",
+      "athleteId": "athlete-aj24-02-6",
+      "timeSeconds": 2259,
+      "rank": 3,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-komazawa-s7",
+      "entryId": "aj24-komazawa",
+      "sectionId": "aj24-s7",
+      "athleteId": "athlete-aj24-02-7",
+      "timeSeconds": 2997,
+      "rank": 1,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-komazawa-s8",
+      "entryId": "aj24-komazawa",
+      "sectionId": "aj24-s8",
+      "athleteId": "athlete-aj24-02-8",
+      "timeSeconds": 3429,
+      "rank": 1,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-aoyama-gakuin-s1",
+      "entryId": "aj24-aoyama-gakuin",
+      "sectionId": "aj24-s1",
+      "athleteId": "athlete-aj24-03-1",
+      "timeSeconds": 1701,
+      "rank": 4,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-aoyama-gakuin-s2",
+      "entryId": "aj24-aoyama-gakuin",
+      "sectionId": "aj24-s2",
+      "athleteId": "athlete-aj24-03-2",
+      "timeSeconds": 1864,
+      "rank": 1,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-aoyama-gakuin-s3",
+      "entryId": "aj24-aoyama-gakuin",
+      "sectionId": "aj24-s3",
+      "athleteId": "athlete-aj24-03-3",
+      "timeSeconds": 2058,
+      "rank": 5,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-aoyama-gakuin-s4",
+      "entryId": "aj24-aoyama-gakuin",
+      "sectionId": "aj24-s4",
+      "athleteId": "athlete-aj24-03-4",
+      "timeSeconds": 1983,
+      "rank": 1,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-aoyama-gakuin-s5",
+      "entryId": "aj24-aoyama-gakuin",
+      "sectionId": "aj24-s5",
+      "athleteId": "athlete-aj24-03-5",
+      "timeSeconds": 2181,
+      "rank": 4,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-aoyama-gakuin-s6",
+      "entryId": "aj24-aoyama-gakuin",
+      "sectionId": "aj24-s6",
+      "athleteId": "athlete-aj24-03-6",
+      "timeSeconds": 2244,
+      "rank": 2,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-aoyama-gakuin-s7",
+      "entryId": "aj24-aoyama-gakuin",
+      "sectionId": "aj24-s7",
+      "athleteId": "athlete-aj24-03-7",
+      "timeSeconds": 3007,
+      "rank": 2,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-aoyama-gakuin-s8",
+      "entryId": "aj24-aoyama-gakuin",
+      "sectionId": "aj24-s8",
+      "athleteId": "athlete-aj24-03-8",
+      "timeSeconds": 3603,
+      "rank": 15,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-soka-s1",
+      "entryId": "aj24-soka",
+      "sectionId": "aj24-s1",
+      "athleteId": "athlete-aj24-04-1",
+      "timeSeconds": 1700,
+      "rank": 3,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-soka-s2",
+      "entryId": "aj24-soka",
+      "sectionId": "aj24-s2",
+      "athleteId": "athlete-aj24-04-2",
+      "timeSeconds": 1865,
+      "rank": 2,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-soka-s3",
+      "entryId": "aj24-soka",
+      "sectionId": "aj24-s3",
+      "athleteId": "athlete-aj24-04-3",
+      "timeSeconds": 2092,
+      "rank": 10,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-soka-s4",
+      "entryId": "aj24-soka",
+      "sectionId": "aj24-s4",
+      "athleteId": "athlete-aj24-04-4",
+      "timeSeconds": 2055,
+      "rank": 8,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-soka-s5",
+      "entryId": "aj24-soka",
+      "sectionId": "aj24-s5",
+      "athleteId": "athlete-aj24-04-5",
+      "timeSeconds": 2141,
+      "rank": 2,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-soka-s6",
+      "entryId": "aj24-soka",
+      "sectionId": "aj24-s6",
+      "athleteId": "athlete-aj24-04-6",
+      "timeSeconds": 2300,
+      "rank": 9,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-soka-s7",
+      "entryId": "aj24-soka",
+      "sectionId": "aj24-s7",
+      "athleteId": "athlete-aj24-04-7",
+      "timeSeconds": 3176,
+      "rank": 12,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-soka-s8",
+      "entryId": "aj24-soka",
+      "sectionId": "aj24-s8",
+      "athleteId": "athlete-aj24-04-8",
+      "timeSeconds": 3468,
+      "rank": 2,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-waseda-s1",
+      "entryId": "aj24-waseda",
+      "sectionId": "aj24-s1",
+      "athleteId": "athlete-aj24-05-1",
+      "timeSeconds": 1710,
+      "rank": 19,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-waseda-s2",
+      "entryId": "aj24-waseda",
+      "sectionId": "aj24-s2",
+      "athleteId": "athlete-aj24-05-2",
+      "timeSeconds": 1908,
+      "rank": 5,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-waseda-s3",
+      "entryId": "aj24-waseda",
+      "sectionId": "aj24-s3",
+      "athleteId": "athlete-aj24-05-3",
+      "timeSeconds": 2132,
+      "rank": 15,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-waseda-s4",
+      "entryId": "aj24-waseda",
+      "sectionId": "aj24-s4",
+      "athleteId": "athlete-aj24-05-4",
+      "timeSeconds": 2044,
+      "rank": 5,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-waseda-s5",
+      "entryId": "aj24-waseda",
+      "sectionId": "aj24-s5",
+      "athleteId": "athlete-aj24-05-5",
+      "timeSeconds": 2168,
+      "rank": 3,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-waseda-s6",
+      "entryId": "aj24-waseda",
+      "sectionId": "aj24-s6",
+      "athleteId": "athlete-aj24-05-6",
+      "timeSeconds": 2301,
+      "rank": 10,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-waseda-s7",
+      "entryId": "aj24-waseda",
+      "sectionId": "aj24-s7",
+      "athleteId": "athlete-aj24-05-7",
+      "timeSeconds": 3109,
+      "rank": 5,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-waseda-s8",
+      "entryId": "aj24-waseda",
+      "sectionId": "aj24-s8",
+      "athleteId": "athlete-aj24-05-8",
+      "timeSeconds": 3492,
+      "rank": 3,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-josai-s1",
+      "entryId": "aj24-josai",
+      "sectionId": "aj24-s1",
+      "athleteId": "athlete-aj24-06-1",
+      "timeSeconds": 1703,
+      "rank": 7,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-josai-s2",
+      "entryId": "aj24-josai",
+      "sectionId": "aj24-s2",
+      "athleteId": "athlete-aj24-06-2",
+      "timeSeconds": 1956,
+      "rank": 11,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-josai-s3",
+      "entryId": "aj24-josai",
+      "sectionId": "aj24-s3",
+      "athleteId": "athlete-aj24-06-3",
+      "timeSeconds": 2002,
+      "rank": 1,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-josai-s4",
+      "entryId": "aj24-josai",
+      "sectionId": "aj24-s4",
+      "athleteId": "athlete-aj24-06-4",
+      "timeSeconds": 2021,
+      "rank": 2,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-josai-s5",
+      "entryId": "aj24-josai",
+      "sectionId": "aj24-s5",
+      "athleteId": "athlete-aj24-06-5",
+      "timeSeconds": 2213,
+      "rank": 7,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-josai-s6",
+      "entryId": "aj24-josai",
+      "sectionId": "aj24-s6",
+      "athleteId": "athlete-aj24-06-6",
+      "timeSeconds": 2302,
+      "rank": 11,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-josai-s7",
+      "entryId": "aj24-josai",
+      "sectionId": "aj24-s7",
+      "athleteId": "athlete-aj24-06-7",
+      "timeSeconds": 3165,
+      "rank": 11,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-josai-s8",
+      "entryId": "aj24-josai",
+      "sectionId": "aj24-s8",
+      "athleteId": "athlete-aj24-06-8",
+      "timeSeconds": 3535,
+      "rank": 5,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-rikkyo-s1",
+      "entryId": "aj24-rikkyo",
+      "sectionId": "aj24-s1",
+      "athleteId": "athlete-aj24-07-1",
+      "timeSeconds": 1702,
+      "rank": 6,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-rikkyo-s2",
+      "entryId": "aj24-rikkyo",
+      "sectionId": "aj24-s2",
+      "athleteId": "athlete-aj24-07-2",
+      "timeSeconds": 1993,
+      "rank": 15,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-rikkyo-s3",
+      "entryId": "aj24-rikkyo",
+      "sectionId": "aj24-s3",
+      "athleteId": "athlete-aj24-07-3",
+      "timeSeconds": 2106,
+      "rank": 12,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-rikkyo-s4",
+      "entryId": "aj24-rikkyo",
+      "sectionId": "aj24-s4",
+      "athleteId": "athlete-aj24-07-4",
+      "timeSeconds": 2050,
+      "rank": 7,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-rikkyo-s5",
+      "entryId": "aj24-rikkyo",
+      "sectionId": "aj24-s5",
+      "athleteId": "athlete-aj24-07-5",
+      "timeSeconds": 2238,
+      "rank": 10,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-rikkyo-s6",
+      "entryId": "aj24-rikkyo",
+      "sectionId": "aj24-s6",
+      "athleteId": "athlete-aj24-07-6",
+      "timeSeconds": 2271,
+      "rank": 5,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-rikkyo-s7",
+      "entryId": "aj24-rikkyo",
+      "sectionId": "aj24-s7",
+      "athleteId": "athlete-aj24-07-7",
+      "timeSeconds": 3071,
+      "rank": 4,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-rikkyo-s8",
+      "entryId": "aj24-rikkyo",
+      "sectionId": "aj24-s8",
+      "athleteId": "athlete-aj24-07-8",
+      "timeSeconds": 3550,
+      "rank": 8,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-teikyo-s1",
+      "entryId": "aj24-teikyo",
+      "sectionId": "aj24-s1",
+      "athleteId": "athlete-aj24-08-1",
+      "timeSeconds": 1703,
+      "rank": 9,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-teikyo-s2",
+      "entryId": "aj24-teikyo",
+      "sectionId": "aj24-s2",
+      "athleteId": "athlete-aj24-08-2",
+      "timeSeconds": 1904,
+      "rank": 4,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-teikyo-s3",
+      "entryId": "aj24-teikyo",
+      "sectionId": "aj24-s3",
+      "athleteId": "athlete-aj24-08-3",
+      "timeSeconds": 2107,
+      "rank": 13,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-teikyo-s4",
+      "entryId": "aj24-teikyo",
+      "sectionId": "aj24-s4",
+      "athleteId": "athlete-aj24-08-4",
+      "timeSeconds": 2092,
+      "rank": 11,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-teikyo-s5",
+      "entryId": "aj24-teikyo",
+      "sectionId": "aj24-s5",
+      "athleteId": "athlete-aj24-08-5",
+      "timeSeconds": 2252,
+      "rank": 11,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-teikyo-s6",
+      "entryId": "aj24-teikyo",
+      "sectionId": "aj24-s6",
+      "athleteId": "athlete-aj24-08-6",
+      "timeSeconds": 2268,
+      "rank": 4,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-teikyo-s7",
+      "entryId": "aj24-teikyo",
+      "sectionId": "aj24-s7",
+      "athleteId": "athlete-aj24-08-7",
+      "timeSeconds": 3130,
+      "rank": 8,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-teikyo-s8",
+      "entryId": "aj24-teikyo",
+      "sectionId": "aj24-s8",
+      "athleteId": "athlete-aj24-08-8",
+      "timeSeconds": 3528,
+      "rank": 4,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-tokyo-international-s1",
+      "entryId": "aj24-tokyo-international",
+      "sectionId": "aj24-s1",
+      "athleteId": "athlete-aj24-09-1",
+      "timeSeconds": 1709,
+      "rank": 17,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-tokyo-international-s2",
+      "entryId": "aj24-tokyo-international",
+      "sectionId": "aj24-s2",
+      "athleteId": "athlete-aj24-09-2",
+      "timeSeconds": 1897,
+      "rank": 3,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-tokyo-international-s3",
+      "entryId": "aj24-tokyo-international",
+      "sectionId": "aj24-s3",
+      "athleteId": "athlete-aj24-09-3",
+      "timeSeconds": 2053,
+      "rank": 4,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-tokyo-international-s4",
+      "entryId": "aj24-tokyo-international",
+      "sectionId": "aj24-s4",
+      "athleteId": "athlete-aj24-09-4",
+      "timeSeconds": 2117,
+      "rank": 14,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-tokyo-international-s5",
+      "entryId": "aj24-tokyo-international",
+      "sectionId": "aj24-s5",
+      "athleteId": "athlete-aj24-09-5",
+      "timeSeconds": 2275,
+      "rank": 15,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-tokyo-international-s6",
+      "entryId": "aj24-tokyo-international",
+      "sectionId": "aj24-s6",
+      "athleteId": "athlete-aj24-09-6",
+      "timeSeconds": 2299,
+      "rank": 8,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-tokyo-international-s7",
+      "entryId": "aj24-tokyo-international",
+      "sectionId": "aj24-s7",
+      "athleteId": "athlete-aj24-09-7",
+      "timeSeconds": 3117,
+      "rank": 7,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-tokyo-international-s8",
+      "entryId": "aj24-tokyo-international",
+      "sectionId": "aj24-s8",
+      "athleteId": "athlete-aj24-09-8",
+      "timeSeconds": 3599,
+      "rank": 13,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-nippon-sport-science-s1",
+      "entryId": "aj24-nippon-sport-science",
+      "sectionId": "aj24-s1",
+      "athleteId": "athlete-aj24-10-1",
+      "timeSeconds": 1698,
+      "rank": 1,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-nippon-sport-science-s2",
+      "entryId": "aj24-nippon-sport-science",
+      "sectionId": "aj24-s2",
+      "athleteId": "athlete-aj24-10-2",
+      "timeSeconds": 1934,
+      "rank": 8,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-nippon-sport-science-s3",
+      "entryId": "aj24-nippon-sport-science",
+      "sectionId": "aj24-s3",
+      "athleteId": "athlete-aj24-10-3",
+      "timeSeconds": 2100,
+      "rank": 11,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-nippon-sport-science-s4",
+      "entryId": "aj24-nippon-sport-science",
+      "sectionId": "aj24-s4",
+      "athleteId": "athlete-aj24-10-4",
+      "timeSeconds": 2084,
+      "rank": 10,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-nippon-sport-science-s5",
+      "entryId": "aj24-nippon-sport-science",
+      "sectionId": "aj24-s5",
+      "athleteId": "athlete-aj24-10-5",
+      "timeSeconds": 2217,
+      "rank": 8,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-nippon-sport-science-s6",
+      "entryId": "aj24-nippon-sport-science",
+      "sectionId": "aj24-s6",
+      "athleteId": "athlete-aj24-10-6",
+      "timeSeconds": 2284,
+      "rank": 6,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-nippon-sport-science-s7",
+      "entryId": "aj24-nippon-sport-science",
+      "sectionId": "aj24-s7",
+      "athleteId": "athlete-aj24-10-7",
+      "timeSeconds": 3186,
+      "rank": 13,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-nippon-sport-science-s8",
+      "entryId": "aj24-nippon-sport-science",
+      "sectionId": "aj24-s8",
+      "athleteId": "athlete-aj24-10-8",
+      "timeSeconds": 3569,
+      "rank": 10,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-daito-bunka-s1",
+      "entryId": "aj24-daito-bunka",
+      "sectionId": "aj24-s1",
+      "athleteId": "athlete-aj24-11-1",
+      "timeSeconds": 1701,
+      "rank": 5,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-daito-bunka-s2",
+      "entryId": "aj24-daito-bunka",
+      "sectionId": "aj24-s2",
+      "athleteId": "athlete-aj24-11-2",
+      "timeSeconds": 1953,
+      "rank": 10,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-daito-bunka-s3",
+      "entryId": "aj24-daito-bunka",
+      "sectionId": "aj24-s3",
+      "athleteId": "athlete-aj24-11-3",
+      "timeSeconds": 2117,
+      "rank": 14,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-daito-bunka-s4",
+      "entryId": "aj24-daito-bunka",
+      "sectionId": "aj24-s4",
+      "athleteId": "athlete-aj24-11-4",
+      "timeSeconds": 2049,
+      "rank": 6,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-daito-bunka-s5",
+      "entryId": "aj24-daito-bunka",
+      "sectionId": "aj24-s5",
+      "athleteId": "athlete-aj24-11-5",
+      "timeSeconds": 2192,
+      "rank": 6,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-daito-bunka-s6",
+      "entryId": "aj24-daito-bunka",
+      "sectionId": "aj24-s6",
+      "athleteId": "athlete-aj24-11-6",
+      "timeSeconds": 2378,
+      "rank": 16,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-daito-bunka-s7",
+      "entryId": "aj24-daito-bunka",
+      "sectionId": "aj24-s7",
+      "athleteId": "athlete-aj24-11-7",
+      "timeSeconds": 3156,
+      "rank": 9,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-daito-bunka-s8",
+      "entryId": "aj24-daito-bunka",
+      "sectionId": "aj24-s8",
+      "athleteId": "athlete-aj24-11-8",
+      "timeSeconds": 3542,
+      "rank": 6,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-chuo-s1",
+      "entryId": "aj24-chuo",
+      "sectionId": "aj24-s1",
+      "athleteId": "athlete-aj24-12-1",
+      "timeSeconds": 1711,
+      "rank": 20,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-chuo-s2",
+      "entryId": "aj24-chuo",
+      "sectionId": "aj24-s2",
+      "athleteId": "athlete-aj24-12-2",
+      "timeSeconds": 1913,
+      "rank": 6,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-chuo-s3",
+      "entryId": "aj24-chuo",
+      "sectionId": "aj24-s3",
+      "athleteId": "athlete-aj24-12-3",
+      "timeSeconds": 2071,
+      "rank": 6,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-chuo-s4",
+      "entryId": "aj24-chuo",
+      "sectionId": "aj24-s4",
+      "athleteId": "athlete-aj24-12-4",
+      "timeSeconds": 2103,
+      "rank": 13,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-chuo-s5",
+      "entryId": "aj24-chuo",
+      "sectionId": "aj24-s5",
+      "athleteId": "athlete-aj24-12-5",
+      "timeSeconds": 2230,
+      "rank": 9,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-chuo-s6",
+      "entryId": "aj24-chuo",
+      "sectionId": "aj24-s6",
+      "athleteId": "athlete-aj24-12-6",
+      "timeSeconds": 2291,
+      "rank": 7,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-chuo-s7",
+      "entryId": "aj24-chuo",
+      "sectionId": "aj24-s7",
+      "athleteId": "athlete-aj24-12-7",
+      "timeSeconds": 3202,
+      "rank": 14,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-chuo-s8",
+      "entryId": "aj24-chuo",
+      "sectionId": "aj24-s8",
+      "athleteId": "athlete-aj24-12-8",
+      "timeSeconds": 3668,
+      "rank": 18,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-toyo-s1",
+      "entryId": "aj24-toyo",
+      "sectionId": "aj24-s1",
+      "athleteId": "athlete-aj24-13-1",
+      "timeSeconds": 1703,
+      "rank": 8,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-toyo-s2",
+      "entryId": "aj24-toyo",
+      "sectionId": "aj24-s2",
+      "athleteId": "athlete-aj24-13-2",
+      "timeSeconds": 1990,
+      "rank": 14,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-toyo-s3",
+      "entryId": "aj24-toyo",
+      "sectionId": "aj24-s3",
+      "athleteId": "athlete-aj24-13-3",
+      "timeSeconds": 2079,
+      "rank": 7,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-toyo-s4",
+      "entryId": "aj24-toyo",
+      "sectionId": "aj24-s4",
+      "athleteId": "athlete-aj24-13-4",
+      "timeSeconds": 2095,
+      "rank": 12,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-toyo-s5",
+      "entryId": "aj24-toyo",
+      "sectionId": "aj24-s5",
+      "athleteId": "athlete-aj24-13-5",
+      "timeSeconds": 2261,
+      "rank": 13,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-toyo-s6",
+      "entryId": "aj24-toyo",
+      "sectionId": "aj24-s6",
+      "athleteId": "athlete-aj24-13-6",
+      "timeSeconds": 2421,
+      "rank": 21,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-toyo-s7",
+      "entryId": "aj24-toyo",
+      "sectionId": "aj24-s7",
+      "athleteId": "athlete-aj24-13-7",
+      "timeSeconds": 3112,
+      "rank": 6,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-toyo-s8",
+      "entryId": "aj24-toyo",
+      "sectionId": "aj24-s8",
+      "athleteId": "athlete-aj24-13-8",
+      "timeSeconds": 3547,
+      "rank": 7,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kanagawa-s1",
+      "entryId": "aj24-kanagawa",
+      "sectionId": "aj24-s1",
+      "athleteId": "athlete-aj24-14-1",
+      "timeSeconds": 1705,
+      "rank": 13,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kanagawa-s2",
+      "entryId": "aj24-kanagawa",
+      "sectionId": "aj24-s2",
+      "athleteId": "athlete-aj24-14-2",
+      "timeSeconds": 1998,
+      "rank": 16,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kanagawa-s3",
+      "entryId": "aj24-kanagawa",
+      "sectionId": "aj24-s3",
+      "athleteId": "athlete-aj24-14-3",
+      "timeSeconds": 2086,
+      "rank": 8,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kanagawa-s4",
+      "entryId": "aj24-kanagawa",
+      "sectionId": "aj24-s4",
+      "athleteId": "athlete-aj24-14-4",
+      "timeSeconds": 2082,
+      "rank": 9,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kanagawa-s5",
+      "entryId": "aj24-kanagawa",
+      "sectionId": "aj24-s5",
+      "athleteId": "athlete-aj24-14-5",
+      "timeSeconds": 2310,
+      "rank": 17,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kanagawa-s6",
+      "entryId": "aj24-kanagawa",
+      "sectionId": "aj24-s6",
+      "athleteId": "athlete-aj24-14-6",
+      "timeSeconds": 2343,
+      "rank": 14,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kanagawa-s7",
+      "entryId": "aj24-kanagawa",
+      "sectionId": "aj24-s7",
+      "athleteId": "athlete-aj24-14-7",
+      "timeSeconds": 3206,
+      "rank": 15,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kanagawa-s8",
+      "entryId": "aj24-kanagawa",
+      "sectionId": "aj24-s8",
+      "athleteId": "athlete-aj24-14-8",
+      "timeSeconds": 3632,
+      "rank": 16,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-tokai-s1",
+      "entryId": "aj24-tokai",
+      "sectionId": "aj24-s1",
+      "athleteId": "athlete-aj24-15-1",
+      "timeSeconds": 1704,
+      "rank": 11,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-tokai-s2",
+      "entryId": "aj24-tokai",
+      "sectionId": "aj24-s2",
+      "athleteId": "athlete-aj24-15-2",
+      "timeSeconds": 1959,
+      "rank": 12,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-tokai-s3",
+      "entryId": "aj24-tokai",
+      "sectionId": "aj24-s3",
+      "athleteId": "athlete-aj24-15-3",
+      "timeSeconds": 2183,
+      "rank": 17,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-tokai-s4",
+      "entryId": "aj24-tokai",
+      "sectionId": "aj24-s4",
+      "athleteId": "athlete-aj24-15-4",
+      "timeSeconds": 2168,
+      "rank": 20,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-tokai-s5",
+      "entryId": "aj24-tokai",
+      "sectionId": "aj24-s5",
+      "athleteId": "athlete-aj24-15-5",
+      "timeSeconds": 2262,
+      "rank": 14,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-tokai-s6",
+      "entryId": "aj24-tokai",
+      "sectionId": "aj24-s6",
+      "athleteId": "athlete-aj24-15-6",
+      "timeSeconds": 2396,
+      "rank": 19,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-tokai-s7",
+      "entryId": "aj24-tokai",
+      "sectionId": "aj24-s7",
+      "athleteId": "athlete-aj24-15-7",
+      "timeSeconds": 3158,
+      "rank": 10,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-tokai-s8",
+      "entryId": "aj24-tokai",
+      "sectionId": "aj24-s8",
+      "athleteId": "athlete-aj24-15-8",
+      "timeSeconds": 3593,
+      "rank": 12,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kyoto-sangyo-s1",
+      "entryId": "aj24-kyoto-sangyo",
+      "sectionId": "aj24-s1",
+      "athleteId": "athlete-aj24-16-1",
+      "timeSeconds": 1707,
+      "rank": 15,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kyoto-sangyo-s2",
+      "entryId": "aj24-kyoto-sangyo",
+      "sectionId": "aj24-s2",
+      "athleteId": "athlete-aj24-16-2",
+      "timeSeconds": 1974,
+      "rank": 13,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kyoto-sangyo-s3",
+      "entryId": "aj24-kyoto-sangyo",
+      "sectionId": "aj24-s3",
+      "athleteId": "athlete-aj24-16-3",
+      "timeSeconds": 2258,
+      "rank": 25,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kyoto-sangyo-s4",
+      "entryId": "aj24-kyoto-sangyo",
+      "sectionId": "aj24-s4",
+      "athleteId": "athlete-aj24-16-4",
+      "timeSeconds": 2144,
+      "rank": 16,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kyoto-sangyo-s5",
+      "entryId": "aj24-kyoto-sangyo",
+      "sectionId": "aj24-s5",
+      "athleteId": "athlete-aj24-16-5",
+      "timeSeconds": 2276,
+      "rank": 16,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kyoto-sangyo-s6",
+      "entryId": "aj24-kyoto-sangyo",
+      "sectionId": "aj24-s6",
+      "athleteId": "athlete-aj24-16-6",
+      "timeSeconds": 2451,
+      "rank": 22,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kyoto-sangyo-s7",
+      "entryId": "aj24-kyoto-sangyo",
+      "sectionId": "aj24-s7",
+      "athleteId": "athlete-aj24-16-7",
+      "timeSeconds": 3328,
+      "rank": 23,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kyoto-sangyo-s8",
+      "entryId": "aj24-kyoto-sangyo",
+      "sectionId": "aj24-s8",
+      "athleteId": "athlete-aj24-16-8",
+      "timeSeconds": 3600,
+      "rank": 14,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kogakkan-s1",
+      "entryId": "aj24-kogakkan",
+      "sectionId": "aj24-s1",
+      "athleteId": "athlete-aj24-17-1",
+      "timeSeconds": 1761,
+      "rank": 24,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kogakkan-s2",
+      "entryId": "aj24-kogakkan",
+      "sectionId": "aj24-s2",
+      "athleteId": "athlete-aj24-17-2",
+      "timeSeconds": 2092,
+      "rank": 23,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kogakkan-s3",
+      "entryId": "aj24-kogakkan",
+      "sectionId": "aj24-s3",
+      "athleteId": "athlete-aj24-17-3",
+      "timeSeconds": 2191,
+      "rank": 19,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kogakkan-s4",
+      "entryId": "aj24-kogakkan",
+      "sectionId": "aj24-s4",
+      "athleteId": "athlete-aj24-17-4",
+      "timeSeconds": 2177,
+      "rank": 22,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kogakkan-s5",
+      "entryId": "aj24-kogakkan",
+      "sectionId": "aj24-s5",
+      "athleteId": "athlete-aj24-17-5",
+      "timeSeconds": 2336,
+      "rank": 19,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kogakkan-s6",
+      "entryId": "aj24-kogakkan",
+      "sectionId": "aj24-s6",
+      "athleteId": "athlete-aj24-17-6",
+      "timeSeconds": 2386,
+      "rank": 17,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kogakkan-s7",
+      "entryId": "aj24-kogakkan",
+      "sectionId": "aj24-s7",
+      "athleteId": "athlete-aj24-17-7",
+      "timeSeconds": 3311,
+      "rank": 22,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kogakkan-s8",
+      "entryId": "aj24-kogakkan",
+      "sectionId": "aj24-s8",
+      "athleteId": "athlete-aj24-17-8",
+      "timeSeconds": 3642,
+      "rank": 17,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-osaka-keizai-s1",
+      "entryId": "aj24-osaka-keizai",
+      "sectionId": "aj24-s1",
+      "athleteId": "athlete-aj24-18-1",
+      "timeSeconds": 1709,
+      "rank": 18,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-osaka-keizai-s2",
+      "entryId": "aj24-osaka-keizai",
+      "sectionId": "aj24-s2",
+      "athleteId": "athlete-aj24-18-2",
+      "timeSeconds": 2049,
+      "rank": 20,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-osaka-keizai-s3",
+      "entryId": "aj24-osaka-keizai",
+      "sectionId": "aj24-s3",
+      "athleteId": "athlete-aj24-18-3",
+      "timeSeconds": 2200,
+      "rank": 20,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-osaka-keizai-s4",
+      "entryId": "aj24-osaka-keizai",
+      "sectionId": "aj24-s4",
+      "athleteId": "athlete-aj24-18-4",
+      "timeSeconds": 2137,
+      "rank": 15,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-osaka-keizai-s5",
+      "entryId": "aj24-osaka-keizai",
+      "sectionId": "aj24-s5",
+      "athleteId": "athlete-aj24-18-5",
+      "timeSeconds": 2347,
+      "rank": 21,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-osaka-keizai-s6",
+      "entryId": "aj24-osaka-keizai",
+      "sectionId": "aj24-s6",
+      "athleteId": "athlete-aj24-18-6",
+      "timeSeconds": 2357,
+      "rank": 15,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-osaka-keizai-s7",
+      "entryId": "aj24-osaka-keizai",
+      "sectionId": "aj24-s7",
+      "athleteId": "athlete-aj24-18-7",
+      "timeSeconds": 3354,
+      "rank": 24,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-osaka-keizai-s8",
+      "entryId": "aj24-osaka-keizai",
+      "sectionId": "aj24-s8",
+      "athleteId": "athlete-aj24-18-8",
+      "timeSeconds": 3820,
+      "rank": 23,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kansai-s1",
+      "entryId": "aj24-kansai",
+      "sectionId": "aj24-s1",
+      "athleteId": "athlete-aj24-19-1",
+      "timeSeconds": 1703,
+      "rank": 10,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kansai-s2",
+      "entryId": "aj24-kansai",
+      "sectionId": "aj24-s2",
+      "athleteId": "athlete-aj24-19-2",
+      "timeSeconds": 2090,
+      "rank": 22,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kansai-s3",
+      "entryId": "aj24-kansai",
+      "sectionId": "aj24-s3",
+      "athleteId": "athlete-aj24-19-3",
+      "timeSeconds": 2210,
+      "rank": 22,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kansai-s4",
+      "entryId": "aj24-kansai",
+      "sectionId": "aj24-s4",
+      "athleteId": "athlete-aj24-19-4",
+      "timeSeconds": 2228,
+      "rank": 24,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kansai-s5",
+      "entryId": "aj24-kansai",
+      "sectionId": "aj24-s5",
+      "athleteId": "athlete-aj24-19-5",
+      "timeSeconds": 2320,
+      "rank": 18,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kansai-s6",
+      "entryId": "aj24-kansai",
+      "sectionId": "aj24-s6",
+      "athleteId": "athlete-aj24-19-6",
+      "timeSeconds": 2400,
+      "rank": 20,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kansai-s7",
+      "entryId": "aj24-kansai",
+      "sectionId": "aj24-s7",
+      "athleteId": "athlete-aj24-19-7",
+      "timeSeconds": 3274,
+      "rank": 18,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kansai-s8",
+      "entryId": "aj24-kansai",
+      "sectionId": "aj24-s8",
+      "athleteId": "athlete-aj24-19-8",
+      "timeSeconds": 3807,
+      "rank": 21,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-sapporo-gakuin-s1",
+      "entryId": "aj24-sapporo-gakuin",
+      "sectionId": "aj24-s1",
+      "athleteId": "athlete-aj24-20-1",
+      "timeSeconds": 1708,
+      "rank": 16,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-sapporo-gakuin-s2",
+      "entryId": "aj24-sapporo-gakuin",
+      "sectionId": "aj24-s2",
+      "athleteId": "athlete-aj24-20-2",
+      "timeSeconds": 2037,
+      "rank": 19,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-sapporo-gakuin-s3",
+      "entryId": "aj24-sapporo-gakuin",
+      "sectionId": "aj24-s3",
+      "athleteId": "athlete-aj24-20-3",
+      "timeSeconds": 2190,
+      "rank": 18,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-sapporo-gakuin-s4",
+      "entryId": "aj24-sapporo-gakuin",
+      "sectionId": "aj24-s4",
+      "athleteId": "athlete-aj24-20-4",
+      "timeSeconds": 2159,
+      "rank": 18,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-sapporo-gakuin-s5",
+      "entryId": "aj24-sapporo-gakuin",
+      "sectionId": "aj24-s5",
+      "athleteId": "athlete-aj24-20-5",
+      "timeSeconds": 2346,
+      "rank": 20,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-sapporo-gakuin-s6",
+      "entryId": "aj24-sapporo-gakuin",
+      "sectionId": "aj24-s6",
+      "athleteId": "athlete-aj24-20-6",
+      "timeSeconds": 2457,
+      "rank": 24,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-sapporo-gakuin-s7",
+      "entryId": "aj24-sapporo-gakuin",
+      "sectionId": "aj24-s7",
+      "athleteId": "athlete-aj24-20-7",
+      "timeSeconds": 3291,
+      "rank": 20,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-sapporo-gakuin-s8",
+      "entryId": "aj24-sapporo-gakuin",
+      "sectionId": "aj24-s8",
+      "athleteId": "athlete-aj24-20-8",
+      "timeSeconds": 3962,
+      "rank": 27,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kagoshima-s1",
+      "entryId": "aj24-kagoshima",
+      "sectionId": "aj24-s1",
+      "athleteId": "athlete-aj24-21-1",
+      "timeSeconds": 1739,
+      "rank": 23,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kagoshima-s2",
+      "entryId": "aj24-kagoshima",
+      "sectionId": "aj24-s2",
+      "athleteId": "athlete-aj24-21-2",
+      "timeSeconds": 2082,
+      "rank": 21,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kagoshima-s3",
+      "entryId": "aj24-kagoshima",
+      "sectionId": "aj24-s3",
+      "athleteId": "athlete-aj24-21-3",
+      "timeSeconds": 2263,
+      "rank": 26,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kagoshima-s4",
+      "entryId": "aj24-kagoshima",
+      "sectionId": "aj24-s4",
+      "athleteId": "athlete-aj24-21-4",
+      "timeSeconds": 2236,
+      "rank": 25,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kagoshima-s5",
+      "entryId": "aj24-kagoshima",
+      "sectionId": "aj24-s5",
+      "athleteId": "athlete-aj24-21-5",
+      "timeSeconds": 2380,
+      "rank": 22,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kagoshima-s6",
+      "entryId": "aj24-kagoshima",
+      "sectionId": "aj24-s6",
+      "athleteId": "athlete-aj24-21-6",
+      "timeSeconds": 2463,
+      "rank": 25,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kagoshima-s7",
+      "entryId": "aj24-kagoshima",
+      "sectionId": "aj24-s7",
+      "athleteId": "athlete-aj24-21-7",
+      "timeSeconds": 3280,
+      "rank": 19,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-kagoshima-s8",
+      "entryId": "aj24-kagoshima",
+      "sectionId": "aj24-s8",
+      "athleteId": "athlete-aj24-21-8",
+      "timeSeconds": 3801,
+      "rank": 20,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-ritsumeikan-s1",
+      "entryId": "aj24-ritsumeikan",
+      "sectionId": "aj24-s1",
+      "athleteId": "athlete-aj24-22-1",
+      "timeSeconds": 1712,
+      "rank": 21,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-ritsumeikan-s2",
+      "entryId": "aj24-ritsumeikan",
+      "sectionId": "aj24-s2",
+      "athleteId": "athlete-aj24-22-2",
+      "timeSeconds": 2253,
+      "rank": 27,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-ritsumeikan-s3",
+      "entryId": "aj24-ritsumeikan",
+      "sectionId": "aj24-s3",
+      "athleteId": "athlete-aj24-22-3",
+      "timeSeconds": 2163,
+      "rank": 16,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-ritsumeikan-s4",
+      "entryId": "aj24-ritsumeikan",
+      "sectionId": "aj24-s4",
+      "athleteId": "athlete-aj24-22-4",
+      "timeSeconds": 2152,
+      "rank": 17,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-ritsumeikan-s5",
+      "entryId": "aj24-ritsumeikan",
+      "sectionId": "aj24-s5",
+      "athleteId": "athlete-aj24-22-5",
+      "timeSeconds": 2401,
+      "rank": 25,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-ritsumeikan-s6",
+      "entryId": "aj24-ritsumeikan",
+      "sectionId": "aj24-s6",
+      "athleteId": "athlete-aj24-22-6",
+      "timeSeconds": 2387,
+      "rank": 18,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-ritsumeikan-s7",
+      "entryId": "aj24-ritsumeikan",
+      "sectionId": "aj24-s7",
+      "athleteId": "athlete-aj24-22-7",
+      "timeSeconds": 3378,
+      "rank": 25,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-ritsumeikan-s8",
+      "entryId": "aj24-ritsumeikan",
+      "sectionId": "aj24-s8",
+      "athleteId": "athlete-aj24-22-8",
+      "timeSeconds": 3852,
+      "rank": 25,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-okayama-s1",
+      "entryId": "aj24-okayama",
+      "sectionId": "aj24-s1",
+      "athleteId": "athlete-aj24-23-1",
+      "timeSeconds": 1780,
+      "rank": 25,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-okayama-s2",
+      "entryId": "aj24-okayama",
+      "sectionId": "aj24-s2",
+      "athleteId": "athlete-aj24-23-2",
+      "timeSeconds": 2095,
+      "rank": 24,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-okayama-s3",
+      "entryId": "aj24-okayama",
+      "sectionId": "aj24-s3",
+      "athleteId": "athlete-aj24-23-3",
+      "timeSeconds": 2219,
+      "rank": 23,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-okayama-s4",
+      "entryId": "aj24-okayama",
+      "sectionId": "aj24-s4",
+      "athleteId": "athlete-aj24-23-4",
+      "timeSeconds": 2174,
+      "rank": 21,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-okayama-s5",
+      "entryId": "aj24-okayama",
+      "sectionId": "aj24-s5",
+      "athleteId": "athlete-aj24-23-5",
+      "timeSeconds": 2391,
+      "rank": 24,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-okayama-s6",
+      "entryId": "aj24-okayama",
+      "sectionId": "aj24-s6",
+      "athleteId": "athlete-aj24-23-6",
+      "timeSeconds": 2570,
+      "rank": 26,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-okayama-s7",
+      "entryId": "aj24-okayama",
+      "sectionId": "aj24-s7",
+      "athleteId": "athlete-aj24-23-7",
+      "timeSeconds": 3296,
+      "rank": 21,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-okayama-s8",
+      "entryId": "aj24-okayama",
+      "sectionId": "aj24-s8",
+      "athleteId": "athlete-aj24-23-8",
+      "timeSeconds": 3886,
+      "rank": 26,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-niigata-s1",
+      "entryId": "aj24-niigata",
+      "sectionId": "aj24-s1",
+      "athleteId": "athlete-aj24-24-1",
+      "timeSeconds": 1803,
+      "rank": 27,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-niigata-s2",
+      "entryId": "aj24-niigata",
+      "sectionId": "aj24-s2",
+      "athleteId": "athlete-aj24-24-2",
+      "timeSeconds": 2131,
+      "rank": 25,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-niigata-s3",
+      "entryId": "aj24-niigata",
+      "sectionId": "aj24-s3",
+      "athleteId": "athlete-aj24-24-3",
+      "timeSeconds": 2248,
+      "rank": 24,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-niigata-s4",
+      "entryId": "aj24-niigata",
+      "sectionId": "aj24-s4",
+      "athleteId": "athlete-aj24-24-4",
+      "timeSeconds": 2245,
+      "rank": 26,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-niigata-s5",
+      "entryId": "aj24-niigata",
+      "sectionId": "aj24-s5",
+      "athleteId": "athlete-aj24-24-5",
+      "timeSeconds": 2483,
+      "rank": 26,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-niigata-s6",
+      "entryId": "aj24-niigata",
+      "sectionId": "aj24-s6",
+      "athleteId": "athlete-aj24-24-6",
+      "timeSeconds": 2456,
+      "rank": 23,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-niigata-s7",
+      "entryId": "aj24-niigata",
+      "sectionId": "aj24-s7",
+      "athleteId": "athlete-aj24-24-7",
+      "timeSeconds": 3232,
+      "rank": 16,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-niigata-s8",
+      "entryId": "aj24-niigata",
+      "sectionId": "aj24-s8",
+      "athleteId": "athlete-aj24-24-8",
+      "timeSeconds": 3830,
+      "rank": 24,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-tohoku-s1",
+      "entryId": "aj24-tohoku",
+      "sectionId": "aj24-s1",
+      "athleteId": "athlete-aj24-25-1",
+      "timeSeconds": 1794,
+      "rank": 26,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-tohoku-s2",
+      "entryId": "aj24-tohoku",
+      "sectionId": "aj24-s2",
+      "athleteId": "athlete-aj24-25-2",
+      "timeSeconds": 2174,
+      "rank": 26,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-tohoku-s3",
+      "entryId": "aj24-tohoku",
+      "sectionId": "aj24-s3",
+      "athleteId": "athlete-aj24-25-3",
+      "timeSeconds": 2325,
+      "rank": 27,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-tohoku-s4",
+      "entryId": "aj24-tohoku",
+      "sectionId": "aj24-s4",
+      "athleteId": "athlete-aj24-25-4",
+      "timeSeconds": 2301,
+      "rank": 27,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-tohoku-s5",
+      "entryId": "aj24-tohoku",
+      "sectionId": "aj24-s5",
+      "athleteId": "athlete-aj24-25-5",
+      "timeSeconds": 2550,
+      "rank": 27,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-tohoku-s6",
+      "entryId": "aj24-tohoku",
+      "sectionId": "aj24-s6",
+      "athleteId": "athlete-aj24-25-6",
+      "timeSeconds": 2594,
+      "rank": 27,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-tohoku-s7",
+      "entryId": "aj24-tohoku",
+      "sectionId": "aj24-s7",
+      "athleteId": "athlete-aj24-25-7",
+      "timeSeconds": 3887,
+      "rank": 27,
+      "sourceId": "official-2024"
+    },
+    {
+      "id": "aj24-tohoku-s8",
+      "entryId": "aj24-tohoku",
+      "sectionId": "aj24-s8",
+      "athleteId": "athlete-aj24-25-8",
+      "timeSeconds": 3807,
+      "rank": 21,
+      "sourceId": "official-2024"
+    }
+  ],
+  "identities": [
+    {
+      "recordId": "aj24-kokugakuin-s1",
+      "athleteId": "athlete-aj24-01-1",
+      "observedName": "嘉数 純平",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kokugakuin-s2",
+      "athleteId": "athlete-aj24-01-2",
+      "observedName": "青木 瑠郁",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kokugakuin-s3",
+      "athleteId": "athlete-aj24-01-3",
+      "observedName": "辻原 輝",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kokugakuin-s4",
+      "athleteId": "athlete-aj24-01-4",
+      "observedName": "高山 豪起",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kokugakuin-s5",
+      "athleteId": "athlete-aj24-01-5",
+      "observedName": "野中 恒亨",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kokugakuin-s6",
+      "athleteId": "athlete-aj24-01-6",
+      "observedName": "山本 歩夢",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kokugakuin-s7",
+      "athleteId": "athlete-aj24-01-7",
+      "observedName": "平林 清澄",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kokugakuin-s8",
+      "athleteId": "athlete-aj24-01-8",
+      "observedName": "上原 琉翔",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-komazawa-s1",
+      "athleteId": "athlete-aj24-02-1",
+      "observedName": "島子 公佑",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-komazawa-s2",
+      "athleteId": "athlete-aj24-02-2",
+      "observedName": "桑田 駿介",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-komazawa-s3",
+      "athleteId": "athlete-aj24-02-3",
+      "observedName": "伊藤 蒼唯",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-komazawa-s4",
+      "athleteId": "athlete-aj24-02-4",
+      "observedName": "谷中 晴",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-komazawa-s5",
+      "athleteId": "athlete-aj24-02-5",
+      "observedName": "村上 響",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-komazawa-s6",
+      "athleteId": "athlete-aj24-02-6",
+      "observedName": "安原 海晴",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-komazawa-s7",
+      "athleteId": "athlete-aj24-02-7",
+      "observedName": "篠原 倖太朗",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-komazawa-s8",
+      "athleteId": "athlete-aj24-02-8",
+      "observedName": "山川 拓馬",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-aoyama-gakuin-s1",
+      "athleteId": "athlete-aj24-03-1",
+      "observedName": "野村 昭夢",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-aoyama-gakuin-s2",
+      "athleteId": "athlete-aj24-03-2",
+      "observedName": "鶴川 正也",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-aoyama-gakuin-s3",
+      "athleteId": "athlete-aj24-03-3",
+      "observedName": "折田 壮太",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-aoyama-gakuin-s4",
+      "athleteId": "athlete-aj24-03-4",
+      "observedName": "黒田 朝日",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-aoyama-gakuin-s5",
+      "athleteId": "athlete-aj24-03-5",
+      "observedName": "田中 悠登",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-aoyama-gakuin-s6",
+      "athleteId": "athlete-aj24-03-6",
+      "observedName": "白石 光星",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-aoyama-gakuin-s7",
+      "athleteId": "athlete-aj24-03-7",
+      "observedName": "太田 蒼生",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-aoyama-gakuin-s8",
+      "athleteId": "athlete-aj24-03-8",
+      "observedName": "塩出 翔太",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-soka-s1",
+      "athleteId": "athlete-aj24-04-1",
+      "observedName": "小暮 栄輝",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-soka-s2",
+      "athleteId": "athlete-aj24-04-2",
+      "observedName": "吉田 響",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-soka-s3",
+      "athleteId": "athlete-aj24-04-3",
+      "observedName": "石丸 惇那",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-soka-s4",
+      "athleteId": "athlete-aj24-04-4",
+      "observedName": "山口 翔輝",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-soka-s5",
+      "athleteId": "athlete-aj24-04-5",
+      "observedName": "スティーブン ムチーニ",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-soka-s6",
+      "athleteId": "athlete-aj24-04-6",
+      "observedName": "黒木 陽向",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-soka-s7",
+      "athleteId": "athlete-aj24-04-7",
+      "observedName": "吉田 凌",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-soka-s8",
+      "athleteId": "athlete-aj24-04-8",
+      "observedName": "野沢 悠真",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-waseda-s1",
+      "athleteId": "athlete-aj24-05-1",
+      "observedName": "間瀬田 純平",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-waseda-s2",
+      "athleteId": "athlete-aj24-05-2",
+      "observedName": "山口 智規",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-waseda-s3",
+      "athleteId": "athlete-aj24-05-3",
+      "observedName": "藤本 進次郎",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-waseda-s4",
+      "athleteId": "athlete-aj24-05-4",
+      "observedName": "伊藤 大志",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-waseda-s5",
+      "athleteId": "athlete-aj24-05-5",
+      "observedName": "山口 竣平",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-waseda-s6",
+      "athleteId": "athlete-aj24-05-6",
+      "observedName": "伊福 陽太",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-waseda-s7",
+      "athleteId": "athlete-aj24-05-7",
+      "observedName": "長屋 匡起",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-waseda-s8",
+      "athleteId": "athlete-aj24-05-8",
+      "observedName": "工藤 慎作",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-josai-s1",
+      "athleteId": "athlete-aj24-06-1",
+      "observedName": "鈴木 健真",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-josai-s2",
+      "athleteId": "athlete-aj24-06-2",
+      "observedName": "柴田 侑",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-josai-s3",
+      "athleteId": "athlete-aj24-06-3",
+      "observedName": "ヴィクター キムタイ",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-josai-s4",
+      "athleteId": "athlete-aj24-06-4",
+      "observedName": "斎藤 将也",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-josai-s5",
+      "athleteId": "athlete-aj24-06-5",
+      "observedName": "林 晃耀",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-josai-s6",
+      "athleteId": "athlete-aj24-06-6",
+      "observedName": "桜井 優我",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-josai-s7",
+      "athleteId": "athlete-aj24-06-7",
+      "observedName": "久保出 雄太",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-josai-s8",
+      "athleteId": "athlete-aj24-06-8",
+      "observedName": "平林 樹",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-rikkyo-s1",
+      "athleteId": "athlete-aj24-07-1",
+      "observedName": "吉屋 佑晟",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-rikkyo-s2",
+      "athleteId": "athlete-aj24-07-2",
+      "observedName": "國安 広人",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-rikkyo-s3",
+      "athleteId": "athlete-aj24-07-3",
+      "observedName": "林 虎大朗",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-rikkyo-s4",
+      "athleteId": "athlete-aj24-07-4",
+      "observedName": "稲塚 大祐",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-rikkyo-s5",
+      "athleteId": "athlete-aj24-07-5",
+      "observedName": "小倉 史也",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-rikkyo-s6",
+      "athleteId": "athlete-aj24-07-6",
+      "observedName": "山口 史朗",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-rikkyo-s7",
+      "athleteId": "athlete-aj24-07-7",
+      "observedName": "馬場 賢人",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-rikkyo-s8",
+      "athleteId": "athlete-aj24-07-8",
+      "observedName": "安藤 圭佑",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-teikyo-s1",
+      "athleteId": "athlete-aj24-08-1",
+      "observedName": "島田 晃希",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-teikyo-s2",
+      "athleteId": "athlete-aj24-08-2",
+      "observedName": "山中 博生",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-teikyo-s3",
+      "athleteId": "athlete-aj24-08-3",
+      "observedName": "尾崎 仁哉",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-teikyo-s4",
+      "athleteId": "athlete-aj24-08-4",
+      "observedName": "廣田 陸",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-teikyo-s5",
+      "athleteId": "athlete-aj24-08-5",
+      "observedName": "柴戸 遼太",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-teikyo-s6",
+      "athleteId": "athlete-aj24-08-6",
+      "observedName": "楠岡 由浩",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-teikyo-s7",
+      "athleteId": "athlete-aj24-08-7",
+      "observedName": "福田 翔",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-teikyo-s8",
+      "athleteId": "athlete-aj24-08-8",
+      "observedName": "小林 大晟",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-tokyo-international-s1",
+      "athleteId": "athlete-aj24-09-1",
+      "observedName": "木村 海斗",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-tokyo-international-s2",
+      "athleteId": "athlete-aj24-09-2",
+      "observedName": "アモス ベット",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-tokyo-international-s3",
+      "athleteId": "athlete-aj24-09-3",
+      "observedName": "佐藤 榛紀",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-tokyo-international-s4",
+      "athleteId": "athlete-aj24-09-4",
+      "observedName": "中山 拓真",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-tokyo-international-s5",
+      "athleteId": "athlete-aj24-09-5",
+      "observedName": "益田 郁也",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-tokyo-international-s6",
+      "athleteId": "athlete-aj24-09-6",
+      "observedName": "大村 良紀",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-tokyo-international-s7",
+      "athleteId": "athlete-aj24-09-7",
+      "observedName": "大林 洸己",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-tokyo-international-s8",
+      "athleteId": "athlete-aj24-09-8",
+      "observedName": "川内 琉生",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-nippon-sport-science-s1",
+      "athleteId": "athlete-aj24-10-1",
+      "observedName": "平島 龍斗",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-nippon-sport-science-s2",
+      "athleteId": "athlete-aj24-10-2",
+      "observedName": "山崎 丞",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-nippon-sport-science-s3",
+      "athleteId": "athlete-aj24-10-3",
+      "observedName": "田島 駿介",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-nippon-sport-science-s4",
+      "athleteId": "athlete-aj24-10-4",
+      "observedName": "分須 尊紀",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-nippon-sport-science-s5",
+      "athleteId": "athlete-aj24-10-5",
+      "observedName": "二村 昇太朗",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-nippon-sport-science-s6",
+      "athleteId": "athlete-aj24-10-6",
+      "observedName": "山口 廉",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-nippon-sport-science-s7",
+      "athleteId": "athlete-aj24-10-7",
+      "observedName": "富永 椋太",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-nippon-sport-science-s8",
+      "athleteId": "athlete-aj24-10-8",
+      "observedName": "浦上 和樹",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-daito-bunka-s1",
+      "athleteId": "athlete-aj24-11-1",
+      "observedName": "大濱 逞真",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-daito-bunka-s2",
+      "athleteId": "athlete-aj24-11-2",
+      "observedName": "西川 千青",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-daito-bunka-s3",
+      "athleteId": "athlete-aj24-11-3",
+      "observedName": "中澤 真大",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-daito-bunka-s4",
+      "athleteId": "athlete-aj24-11-4",
+      "observedName": "入濵 輝大",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-daito-bunka-s5",
+      "athleteId": "athlete-aj24-11-5",
+      "observedName": "棟方 一楽",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-daito-bunka-s6",
+      "athleteId": "athlete-aj24-11-6",
+      "observedName": "ピーター ワンジル",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-daito-bunka-s7",
+      "athleteId": "athlete-aj24-11-7",
+      "observedName": "大谷 章紘",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-daito-bunka-s8",
+      "athleteId": "athlete-aj24-11-8",
+      "observedName": "西代 雄豪",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-chuo-s1",
+      "athleteId": "athlete-aj24-12-1",
+      "observedName": "溜池 一太",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-chuo-s2",
+      "athleteId": "athlete-aj24-12-2",
+      "observedName": "岡田 開成",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-chuo-s3",
+      "athleteId": "athlete-aj24-12-3",
+      "observedName": "本間 颯",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-chuo-s4",
+      "athleteId": "athlete-aj24-12-4",
+      "observedName": "浦田 優斗",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-chuo-s5",
+      "athleteId": "athlete-aj24-12-5",
+      "observedName": "東海林 宏一",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-chuo-s6",
+      "athleteId": "athlete-aj24-12-6",
+      "observedName": "佐藤 大介",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-chuo-s7",
+      "athleteId": "athlete-aj24-12-7",
+      "observedName": "吉居 駿恭",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-chuo-s8",
+      "athleteId": "athlete-aj24-12-8",
+      "observedName": "阿部 陽樹",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-toyo-s1",
+      "athleteId": "athlete-aj24-13-1",
+      "observedName": "小林 亮太",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-toyo-s2",
+      "athleteId": "athlete-aj24-13-2",
+      "observedName": "吉田 周",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-toyo-s3",
+      "athleteId": "athlete-aj24-13-3",
+      "observedName": "梅崎 蓮",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-toyo-s4",
+      "athleteId": "athlete-aj24-13-4",
+      "observedName": "濱中 尊",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-toyo-s5",
+      "athleteId": "athlete-aj24-13-5",
+      "observedName": "久保田 琉月",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-toyo-s6",
+      "athleteId": "athlete-aj24-13-6",
+      "observedName": "石田 洸介",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-toyo-s7",
+      "athleteId": "athlete-aj24-13-7",
+      "observedName": "緒方 澪那斗",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-toyo-s8",
+      "athleteId": "athlete-aj24-13-8",
+      "observedName": "岸本 遼太郎",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kanagawa-s1",
+      "athleteId": "athlete-aj24-14-1",
+      "observedName": "大岩 蓮",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kanagawa-s2",
+      "athleteId": "athlete-aj24-14-2",
+      "observedName": "酒井 健成",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kanagawa-s3",
+      "athleteId": "athlete-aj24-14-3",
+      "observedName": "宮本 陽叶",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kanagawa-s4",
+      "athleteId": "athlete-aj24-14-4",
+      "observedName": "近藤 大智",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kanagawa-s5",
+      "athleteId": "athlete-aj24-14-5",
+      "observedName": "中西 良介",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kanagawa-s6",
+      "athleteId": "athlete-aj24-14-6",
+      "observedName": "滝本 朗史",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kanagawa-s7",
+      "athleteId": "athlete-aj24-14-7",
+      "observedName": "西坂 昂也",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kanagawa-s8",
+      "athleteId": "athlete-aj24-14-8",
+      "observedName": "志食 隆希",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-tokai-s1",
+      "athleteId": "athlete-aj24-15-1",
+      "observedName": "草刈 恭弓",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-tokai-s2",
+      "athleteId": "athlete-aj24-15-2",
+      "observedName": "花岡 寿哉",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-tokai-s3",
+      "athleteId": "athlete-aj24-15-3",
+      "observedName": "梶谷 優斗",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-tokai-s4",
+      "athleteId": "athlete-aj24-15-4",
+      "observedName": "檜垣 蒼",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-tokai-s5",
+      "athleteId": "athlete-aj24-15-5",
+      "observedName": "水野 龍志",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-tokai-s6",
+      "athleteId": "athlete-aj24-15-6",
+      "observedName": "可児 悠貴",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-tokai-s7",
+      "athleteId": "athlete-aj24-15-7",
+      "observedName": "南坂 柚汰",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-tokai-s8",
+      "athleteId": "athlete-aj24-15-8",
+      "observedName": "竹割 真",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kyoto-sangyo-s1",
+      "athleteId": "athlete-aj24-16-1",
+      "observedName": "粟井 駿平",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kyoto-sangyo-s2",
+      "athleteId": "athlete-aj24-16-2",
+      "observedName": "小嶋 郁依斗",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kyoto-sangyo-s3",
+      "athleteId": "athlete-aj24-16-3",
+      "observedName": "藤田 大輝",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kyoto-sangyo-s4",
+      "athleteId": "athlete-aj24-16-4",
+      "observedName": "杉本 和己",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kyoto-sangyo-s5",
+      "athleteId": "athlete-aj24-16-5",
+      "observedName": "山口 太誉",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kyoto-sangyo-s6",
+      "athleteId": "athlete-aj24-16-6",
+      "observedName": "大久保 颯汰",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kyoto-sangyo-s7",
+      "athleteId": "athlete-aj24-16-7",
+      "observedName": "桒田 大樹",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kyoto-sangyo-s8",
+      "athleteId": "athlete-aj24-16-8",
+      "observedName": "中村 光稀",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kogakkan-s1",
+      "athleteId": "athlete-aj24-17-1",
+      "observedName": "藤川 創",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kogakkan-s2",
+      "athleteId": "athlete-aj24-17-2",
+      "observedName": "毛利 昂太",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kogakkan-s3",
+      "athleteId": "athlete-aj24-17-3",
+      "observedName": "新間 圭",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kogakkan-s4",
+      "athleteId": "athlete-aj24-17-4",
+      "observedName": "田中 靖晃",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kogakkan-s5",
+      "athleteId": "athlete-aj24-17-5",
+      "observedName": "浦瀬 晃太朗",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kogakkan-s6",
+      "athleteId": "athlete-aj24-17-6",
+      "observedName": "芝辻 晴裕",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kogakkan-s7",
+      "athleteId": "athlete-aj24-17-7",
+      "observedName": "曽越 大成",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kogakkan-s8",
+      "athleteId": "athlete-aj24-17-8",
+      "observedName": "岩島 昇汰",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-osaka-keizai-s1",
+      "athleteId": "athlete-aj24-18-1",
+      "observedName": "岩坂 蓮太",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-osaka-keizai-s2",
+      "athleteId": "athlete-aj24-18-2",
+      "observedName": "婦木 拓実",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-osaka-keizai-s3",
+      "athleteId": "athlete-aj24-18-3",
+      "observedName": "上田 寛太",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-osaka-keizai-s4",
+      "athleteId": "athlete-aj24-18-4",
+      "observedName": "新 博貴",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-osaka-keizai-s5",
+      "athleteId": "athlete-aj24-18-5",
+      "observedName": "京川 大真",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-osaka-keizai-s6",
+      "athleteId": "athlete-aj24-18-6",
+      "observedName": "内尾 射光矢",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-osaka-keizai-s7",
+      "athleteId": "athlete-aj24-18-7",
+      "observedName": "山﨑 真聖",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-osaka-keizai-s8",
+      "athleteId": "athlete-aj24-18-8",
+      "observedName": "佐藤 颯",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kansai-s1",
+      "athleteId": "athlete-aj24-19-1",
+      "observedName": "谷村 恒晟",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kansai-s2",
+      "athleteId": "athlete-aj24-19-2",
+      "observedName": "井手 蒼人",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kansai-s3",
+      "athleteId": "athlete-aj24-19-3",
+      "observedName": "平野 圭人",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kansai-s4",
+      "athleteId": "athlete-aj24-19-4",
+      "observedName": "坂本 亘生",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kansai-s5",
+      "athleteId": "athlete-aj24-19-5",
+      "observedName": "芝 秀介",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kansai-s6",
+      "athleteId": "athlete-aj24-19-6",
+      "observedName": "英 唯明",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kansai-s7",
+      "athleteId": "athlete-aj24-19-7",
+      "observedName": "秋山 翔太朗",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kansai-s8",
+      "athleteId": "athlete-aj24-19-8",
+      "observedName": "坂東 壮琉",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-sapporo-gakuin-s1",
+      "athleteId": "athlete-aj24-20-1",
+      "observedName": "西塚 璃純",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-sapporo-gakuin-s2",
+      "athleteId": "athlete-aj24-20-2",
+      "observedName": "渡邊 隼翼",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-sapporo-gakuin-s3",
+      "athleteId": "athlete-aj24-20-3",
+      "observedName": "山田 陽翔",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-sapporo-gakuin-s4",
+      "athleteId": "athlete-aj24-20-4",
+      "observedName": "伊藤 徹",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-sapporo-gakuin-s5",
+      "athleteId": "athlete-aj24-20-5",
+      "observedName": "佐藤 魁良寸",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-sapporo-gakuin-s6",
+      "athleteId": "athlete-aj24-20-6",
+      "observedName": "浦田 陽聖",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-sapporo-gakuin-s7",
+      "athleteId": "athlete-aj24-20-7",
+      "observedName": "山﨑 樹羅",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-sapporo-gakuin-s8",
+      "athleteId": "athlete-aj24-20-8",
+      "observedName": "栗田 紳冴",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kagoshima-s1",
+      "athleteId": "athlete-aj24-21-1",
+      "observedName": "藤本 悠太郎",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kagoshima-s2",
+      "athleteId": "athlete-aj24-21-2",
+      "observedName": "鶴田 寛武",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kagoshima-s3",
+      "athleteId": "athlete-aj24-21-3",
+      "observedName": "弓削 佑太",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kagoshima-s4",
+      "athleteId": "athlete-aj24-21-4",
+      "observedName": "平野 皓大",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kagoshima-s5",
+      "athleteId": "athlete-aj24-21-5",
+      "observedName": "水口 渉",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kagoshima-s6",
+      "athleteId": "athlete-aj24-21-6",
+      "observedName": "梅橋 拓也",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kagoshima-s7",
+      "athleteId": "athlete-aj24-21-7",
+      "observedName": "清藤 悠里",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-kagoshima-s8",
+      "athleteId": "athlete-aj24-21-8",
+      "observedName": "別府 明稔",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-ritsumeikan-s1",
+      "athleteId": "athlete-aj24-22-1",
+      "observedName": "柏木 優希",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-ritsumeikan-s2",
+      "athleteId": "athlete-aj24-22-2",
+      "observedName": "山﨑 皓太",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-ritsumeikan-s3",
+      "athleteId": "athlete-aj24-22-3",
+      "observedName": "大森 駿斗",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-ritsumeikan-s4",
+      "athleteId": "athlete-aj24-22-4",
+      "observedName": "児玉 航洋",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-ritsumeikan-s5",
+      "athleteId": "athlete-aj24-22-5",
+      "observedName": "倉橋 慶",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-ritsumeikan-s6",
+      "athleteId": "athlete-aj24-22-6",
+      "observedName": "髙田 智生",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-ritsumeikan-s7",
+      "athleteId": "athlete-aj24-22-7",
+      "observedName": "尾上 陽人",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-ritsumeikan-s8",
+      "athleteId": "athlete-aj24-22-8",
+      "observedName": "中田 千太郎",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-okayama-s1",
+      "athleteId": "athlete-aj24-23-1",
+      "observedName": "岩﨑 亮太",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-okayama-s2",
+      "athleteId": "athlete-aj24-23-2",
+      "observedName": "木戸 颯",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-okayama-s3",
+      "athleteId": "athlete-aj24-23-3",
+      "observedName": "旭 隼佑",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-okayama-s4",
+      "athleteId": "athlete-aj24-23-4",
+      "observedName": "石鍋 颯一",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-okayama-s5",
+      "athleteId": "athlete-aj24-23-5",
+      "observedName": "日名子 泰明",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-okayama-s6",
+      "athleteId": "athlete-aj24-23-6",
+      "observedName": "米倉 絃之介",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-okayama-s7",
+      "athleteId": "athlete-aj24-23-7",
+      "observedName": "赤澤 京弥",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-okayama-s8",
+      "athleteId": "athlete-aj24-23-8",
+      "observedName": "福永 伸之介",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-niigata-s1",
+      "athleteId": "athlete-aj24-24-1",
+      "observedName": "松野 伊吹",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-niigata-s2",
+      "athleteId": "athlete-aj24-24-2",
+      "observedName": "横山 昇太郎",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-niigata-s3",
+      "athleteId": "athlete-aj24-24-3",
+      "observedName": "髙橋 惇央",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-niigata-s4",
+      "athleteId": "athlete-aj24-24-4",
+      "observedName": "金子 敦哉",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-niigata-s5",
+      "athleteId": "athlete-aj24-24-5",
+      "observedName": "谷端 良鷹",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-niigata-s6",
+      "athleteId": "athlete-aj24-24-6",
+      "observedName": "舟山 俊希",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-niigata-s7",
+      "athleteId": "athlete-aj24-24-7",
+      "observedName": "中戸 元貴",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-niigata-s8",
+      "athleteId": "athlete-aj24-24-8",
+      "observedName": "渡邊 真大",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-tohoku-s1",
+      "athleteId": "athlete-aj24-25-1",
+      "observedName": "千葉 航太",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-tohoku-s2",
+      "athleteId": "athlete-aj24-25-2",
+      "observedName": "新田 友海",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-tohoku-s3",
+      "athleteId": "athlete-aj24-25-3",
+      "observedName": "照内 優允",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-tohoku-s4",
+      "athleteId": "athlete-aj24-25-4",
+      "observedName": "杉山 大輔",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-tohoku-s5",
+      "athleteId": "athlete-aj24-25-5",
+      "observedName": "工藤 大介",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-tohoku-s6",
+      "athleteId": "athlete-aj24-25-6",
+      "observedName": "深澤 昇悟",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-tohoku-s7",
+      "athleteId": "athlete-aj24-25-7",
+      "observedName": "出田 義貴",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    },
+    {
+      "recordId": "aj24-tohoku-s8",
+      "athleteId": "athlete-aj24-25-8",
+      "observedName": "向田 祐翔",
+      "status": "legacy",
+      "candidateIds": [],
+      "evidenceSourceIds": [
+        "official-2024"
+      ],
+      "reason": "Preserved published 2024 identity; no new cross-edition inference."
+    }
+  ]
+}

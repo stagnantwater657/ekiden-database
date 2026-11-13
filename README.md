@@ -1,6 +1,6 @@
 # Ekiden Database
 
-日本大学驿传数据库。Next.js + TypeScript + Tailwind CSS 基础工程，当前提供赛事入口预览和 `/api/health`，尚未接入数据库、登录或正式业务。
+日本大学驿传交叉检索数据库，基于 Next.js、TypeScript、Tailwind CSS 和结构化数据文件。已接入2024年第56回、2025年第57回全日本大学驿传，可按赛事、赛季、大学、队伍和选手查询历史成绩。
 
 ```bash
 npm ci
@@ -10,6 +10,8 @@ npm run dev
 检查：`npm run typecheck`、`npm run lint`、`npm test`、`python3 tests/deployment_test.py`、`npm run build`。
 
 - [管理员初始化、部署权限与回滚说明](docs/DEPLOYMENT.md)
+- [历史赛事数据模型、验证及导入步骤](docs/historical-data-import.md)
+- [2025官方来源与数据核查说明](docs/data-sources.md)
 - [项目计划](docs/PROJECT_PLAN.md)
 - [原始 SSH 连通性测试](docs/SSH_TEST.md)（部署专用账户启用固定命令后，此旧测试会按设计被拒绝）
 

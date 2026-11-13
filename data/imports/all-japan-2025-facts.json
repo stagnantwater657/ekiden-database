@@ -1,0 +1,2162 @@
+[
+  {
+    "team": "駒澤大",
+    "bib": 2,
+    "section": 1,
+    "name": "小山 翔也",
+    "time": "27:21",
+    "rank": 4,
+    "total": "5:06:53",
+    "finalRank": 1
+  },
+  {
+    "team": "駒澤大",
+    "bib": 2,
+    "section": 2,
+    "name": "谷中 晴",
+    "time": "31:14",
+    "rank": 3,
+    "total": "5:06:53",
+    "finalRank": 1
+  },
+  {
+    "team": "駒澤大",
+    "bib": 2,
+    "section": 3,
+    "name": "帰山 侑大",
+    "time": "33:38",
+    "rank": 3,
+    "total": "5:06:53",
+    "finalRank": 1
+  },
+  {
+    "team": "駒澤大",
+    "bib": 2,
+    "section": 4,
+    "name": "安原 海晴",
+    "time": "34:28",
+    "rank": 5,
+    "total": "5:06:53",
+    "finalRank": 1
+  },
+  {
+    "team": "駒澤大",
+    "bib": 2,
+    "section": 5,
+    "name": "伊藤 蒼唯",
+    "time": "35:01",
+    "rank": 1,
+    "total": "5:06:53",
+    "finalRank": 1
+  },
+  {
+    "team": "駒澤大",
+    "bib": 2,
+    "section": 6,
+    "name": "村上 響",
+    "time": "37:22",
+    "rank": 2,
+    "total": "5:06:53",
+    "finalRank": 1
+  },
+  {
+    "team": "駒澤大",
+    "bib": 2,
+    "section": 7,
+    "name": "佐藤 圭汰",
+    "time": "50:26",
+    "rank": 3,
+    "total": "5:06:53",
+    "finalRank": 1
+  },
+  {
+    "team": "駒澤大",
+    "bib": 2,
+    "section": 8,
+    "name": "山川 拓馬",
+    "time": "57:23",
+    "rank": 3,
+    "total": "5:06:53",
+    "finalRank": 1
+  },
+  {
+    "team": "中央大",
+    "bib": 11,
+    "section": 1,
+    "name": "本間 颯",
+    "time": "27:25",
+    "rank": 9,
+    "total": "5:08:54",
+    "finalRank": 2
+  },
+  {
+    "team": "中央大",
+    "bib": 11,
+    "section": 2,
+    "name": "吉居 駿恭",
+    "time": "31:07",
+    "rank": 2,
+    "total": "5:08:54",
+    "finalRank": 2
+  },
+  {
+    "team": "中央大",
+    "bib": 11,
+    "section": 3,
+    "name": "藤田 大智",
+    "time": "33:42",
+    "rank": 4,
+    "total": "5:08:54",
+    "finalRank": 2
+  },
+  {
+    "team": "中央大",
+    "bib": 11,
+    "section": 4,
+    "name": "柴田 大地",
+    "time": "33:52",
+    "rank": 1,
+    "total": "5:08:54",
+    "finalRank": 2
+  },
+  {
+    "team": "中央大",
+    "bib": 11,
+    "section": 5,
+    "name": "三宅 悠斗",
+    "time": "36:33",
+    "rank": 3,
+    "total": "5:08:54",
+    "finalRank": 2
+  },
+  {
+    "team": "中央大",
+    "bib": 11,
+    "section": 6,
+    "name": "佐藤 大介",
+    "time": "37:29",
+    "rank": 3,
+    "total": "5:08:54",
+    "finalRank": 2
+  },
+  {
+    "team": "中央大",
+    "bib": 11,
+    "section": 7,
+    "name": "岡田 開成",
+    "time": "51:43",
+    "rank": 6,
+    "total": "5:08:54",
+    "finalRank": 2
+  },
+  {
+    "team": "中央大",
+    "bib": 11,
+    "section": 8,
+    "name": "溜池 一太",
+    "time": "57:03",
+    "rank": 2,
+    "total": "5:08:54",
+    "finalRank": 2
+  },
+  {
+    "team": "青山学院大",
+    "bib": 3,
+    "section": 1,
+    "name": "椙山 一颯",
+    "time": "27:28",
+    "rank": 12,
+    "total": "5:09:28",
+    "finalRank": 3
+  },
+  {
+    "team": "青山学院大",
+    "bib": 3,
+    "section": 2,
+    "name": "荒巻 朋熙",
+    "time": "31:56",
+    "rank": 10,
+    "total": "5:09:28",
+    "finalRank": 3
+  },
+  {
+    "team": "青山学院大",
+    "bib": 3,
+    "section": 3,
+    "name": "宇田川 瞬矢",
+    "time": "33:54",
+    "rank": 7,
+    "total": "5:09:28",
+    "finalRank": 3
+  },
+  {
+    "team": "青山学院大",
+    "bib": 3,
+    "section": 4,
+    "name": "塩出 翔太",
+    "time": "34:44",
+    "rank": 7,
+    "total": "5:09:28",
+    "finalRank": 3
+  },
+  {
+    "team": "青山学院大",
+    "bib": 3,
+    "section": 5,
+    "name": "佐藤 有一",
+    "time": "36:34",
+    "rank": 4,
+    "total": "5:09:28",
+    "finalRank": 3
+  },
+  {
+    "team": "青山学院大",
+    "bib": 3,
+    "section": 6,
+    "name": "飯田 翔大",
+    "time": "37:20",
+    "rank": 1,
+    "total": "5:09:28",
+    "finalRank": 3
+  },
+  {
+    "team": "青山学院大",
+    "bib": 3,
+    "section": 7,
+    "name": "黒田 朝日",
+    "time": "49:31",
+    "rank": 1,
+    "total": "5:09:28",
+    "finalRank": 3
+  },
+  {
+    "team": "青山学院大",
+    "bib": 3,
+    "section": 8,
+    "name": "小河原 陽琉",
+    "time": "58:01",
+    "rank": 7,
+    "total": "5:09:28",
+    "finalRank": 3
+  },
+  {
+    "team": "國學院大",
+    "bib": 1,
+    "section": 1,
+    "name": "尾熊 迅斗",
+    "time": "27:21",
+    "rank": 3,
+    "total": "5:09:45",
+    "finalRank": 4
+  },
+  {
+    "team": "國學院大",
+    "bib": 1,
+    "section": 2,
+    "name": "辻原 輝",
+    "time": "31:42",
+    "rank": 9,
+    "total": "5:09:45",
+    "finalRank": 4
+  },
+  {
+    "team": "國學院大",
+    "bib": 1,
+    "section": 3,
+    "name": "野中 恒亨",
+    "time": "33:11",
+    "rank": 1,
+    "total": "5:09:45",
+    "finalRank": 4
+  },
+  {
+    "team": "國學院大",
+    "bib": 1,
+    "section": 4,
+    "name": "高山 豪起",
+    "time": "33:54",
+    "rank": 2,
+    "total": "5:09:45",
+    "finalRank": 4
+  },
+  {
+    "team": "國學院大",
+    "bib": 1,
+    "section": 5,
+    "name": "飯國 新太",
+    "time": "36:26",
+    "rank": 2,
+    "total": "5:09:45",
+    "finalRank": 4
+  },
+  {
+    "team": "國學院大",
+    "bib": 1,
+    "section": 6,
+    "name": "浅野 結太",
+    "time": "37:35",
+    "rank": 4,
+    "total": "5:09:45",
+    "finalRank": 4
+  },
+  {
+    "team": "國學院大",
+    "bib": 1,
+    "section": 7,
+    "name": "青木 瑠郁",
+    "time": "52:11",
+    "rank": 9,
+    "total": "5:09:45",
+    "finalRank": 4
+  },
+  {
+    "team": "國學院大",
+    "bib": 1,
+    "section": 8,
+    "name": "上原 琉翔",
+    "time": "57:25",
+    "rank": 4,
+    "total": "5:09:45",
+    "finalRank": 4
+  },
+  {
+    "team": "早稲田大",
+    "bib": 5,
+    "section": 1,
+    "name": "間瀬田 純平",
+    "time": "27:20",
+    "rank": 2,
+    "total": "5:10:21",
+    "finalRank": 5
+  },
+  {
+    "team": "早稲田大",
+    "bib": 5,
+    "section": 2,
+    "name": "鈴木 琉胤",
+    "time": "31:15",
+    "rank": 4,
+    "total": "5:10:21",
+    "finalRank": 5
+  },
+  {
+    "team": "早稲田大",
+    "bib": 5,
+    "section": 3,
+    "name": "堀野 正太",
+    "time": "34:39",
+    "rank": 13,
+    "total": "5:10:21",
+    "finalRank": 5
+  },
+  {
+    "team": "早稲田大",
+    "bib": 5,
+    "section": 4,
+    "name": "吉倉 ナヤブ直希",
+    "time": "34:37",
+    "rank": 6,
+    "total": "5:10:21",
+    "finalRank": 5
+  },
+  {
+    "team": "早稲田大",
+    "bib": 5,
+    "section": 5,
+    "name": "小平 敦之",
+    "time": "36:43",
+    "rank": 7,
+    "total": "5:10:21",
+    "finalRank": 5
+  },
+  {
+    "team": "早稲田大",
+    "bib": 5,
+    "section": 6,
+    "name": "宮岡 凜太",
+    "time": "37:56",
+    "rank": 6,
+    "total": "5:10:21",
+    "finalRank": 5
+  },
+  {
+    "team": "早稲田大",
+    "bib": 5,
+    "section": 7,
+    "name": "山口 智規",
+    "time": "50:57",
+    "rank": 4,
+    "total": "5:10:21",
+    "finalRank": 5
+  },
+  {
+    "team": "早稲田大",
+    "bib": 5,
+    "section": 8,
+    "name": "工藤 慎作",
+    "time": "56:54",
+    "rank": 1,
+    "total": "5:10:21",
+    "finalRank": 5
+  },
+  {
+    "team": "帝京大",
+    "bib": 8,
+    "section": 1,
+    "name": "柴戸 遼太",
+    "time": "27:32",
+    "rank": 13,
+    "total": "5:10:56",
+    "finalRank": 6
+  },
+  {
+    "team": "帝京大",
+    "bib": 8,
+    "section": 2,
+    "name": "楠岡 由浩",
+    "time": "31:01",
+    "rank": 1,
+    "total": "5:10:56",
+    "finalRank": 6
+  },
+  {
+    "team": "帝京大",
+    "bib": 8,
+    "section": 3,
+    "name": "原 悠太",
+    "time": "33:55",
+    "rank": 8,
+    "total": "5:10:56",
+    "finalRank": 6
+  },
+  {
+    "team": "帝京大",
+    "bib": 8,
+    "section": 4,
+    "name": "谷口 颯太",
+    "time": "34:00",
+    "rank": 3,
+    "total": "5:10:56",
+    "finalRank": 6
+  },
+  {
+    "team": "帝京大",
+    "bib": 8,
+    "section": 5,
+    "name": "鎗田 大輝",
+    "time": "36:55",
+    "rank": 9,
+    "total": "5:10:56",
+    "finalRank": 6
+  },
+  {
+    "team": "帝京大",
+    "bib": 8,
+    "section": 6,
+    "name": "尾崎 仁哉",
+    "time": "37:56",
+    "rank": 6,
+    "total": "5:10:56",
+    "finalRank": 6
+  },
+  {
+    "team": "帝京大",
+    "bib": 8,
+    "section": 7,
+    "name": "島田 晃希",
+    "time": "51:17",
+    "rank": 5,
+    "total": "5:10:56",
+    "finalRank": 6
+  },
+  {
+    "team": "帝京大",
+    "bib": 8,
+    "section": 8,
+    "name": "浅川 侑大",
+    "time": "58:20",
+    "rank": 8,
+    "total": "5:10:56",
+    "finalRank": 6
+  },
+  {
+    "team": "創価大",
+    "bib": 4,
+    "section": 1,
+    "name": "石丸 惇那",
+    "time": "27:25",
+    "rank": 8,
+    "total": "5:11:56",
+    "finalRank": 7
+  },
+  {
+    "team": "創価大",
+    "bib": 4,
+    "section": 2,
+    "name": "小池 莉希",
+    "time": "31:22",
+    "rank": 5,
+    "total": "5:11:56",
+    "finalRank": 7
+  },
+  {
+    "team": "創価大",
+    "bib": 4,
+    "section": 3,
+    "name": "スティーブン ムチーニ",
+    "time": "33:44",
+    "rank": 5,
+    "total": "5:11:56",
+    "finalRank": 7
+  },
+  {
+    "team": "創価大",
+    "bib": 4,
+    "section": 4,
+    "name": "織橋 巧",
+    "time": "34:11",
+    "rank": 4,
+    "total": "5:11:56",
+    "finalRank": 7
+  },
+  {
+    "team": "創価大",
+    "bib": 4,
+    "section": 5,
+    "name": "衣川 勇太",
+    "time": "36:42",
+    "rank": 6,
+    "total": "5:11:56",
+    "finalRank": 7
+  },
+  {
+    "team": "創価大",
+    "bib": 4,
+    "section": 6,
+    "name": "榎木 凜太朗",
+    "time": "38:36",
+    "rank": 10,
+    "total": "5:11:56",
+    "finalRank": 7
+  },
+  {
+    "team": "創価大",
+    "bib": 4,
+    "section": 7,
+    "name": "野沢 悠真",
+    "time": "52:03",
+    "rank": 7,
+    "total": "5:11:56",
+    "finalRank": 7
+  },
+  {
+    "team": "創価大",
+    "bib": 4,
+    "section": 8,
+    "name": "山口 翔輝",
+    "time": "57:53",
+    "rank": 6,
+    "total": "5:11:56",
+    "finalRank": 7
+  },
+  {
+    "team": "順天堂大",
+    "bib": 13,
+    "section": 1,
+    "name": "吉岡 大翔",
+    "time": "27:24",
+    "rank": 6,
+    "total": "5:14:33",
+    "finalRank": 8
+  },
+  {
+    "team": "順天堂大",
+    "bib": 13,
+    "section": 2,
+    "name": "井上 朋哉",
+    "time": "31:40",
+    "rank": 8,
+    "total": "5:14:33",
+    "finalRank": 8
+  },
+  {
+    "team": "順天堂大",
+    "bib": 13,
+    "section": 3,
+    "name": "山本 悠",
+    "time": "34:48",
+    "rank": 14,
+    "total": "5:14:33",
+    "finalRank": 8
+  },
+  {
+    "team": "順天堂大",
+    "bib": 13,
+    "section": 4,
+    "name": "永原 颯磨",
+    "time": "34:56",
+    "rank": 8,
+    "total": "5:14:33",
+    "finalRank": 8
+  },
+  {
+    "team": "順天堂大",
+    "bib": 13,
+    "section": 5,
+    "name": "川原 琉人",
+    "time": "36:35",
+    "rank": 5,
+    "total": "5:14:33",
+    "finalRank": 8
+  },
+  {
+    "team": "順天堂大",
+    "bib": 13,
+    "section": 6,
+    "name": "石岡 大侑",
+    "time": "37:43",
+    "rank": 5,
+    "total": "5:14:33",
+    "finalRank": 8
+  },
+  {
+    "team": "順天堂大",
+    "bib": 13,
+    "section": 7,
+    "name": "古川 達也",
+    "time": "53:01",
+    "rank": 14,
+    "total": "5:14:33",
+    "finalRank": 8
+  },
+  {
+    "team": "順天堂大",
+    "bib": 13,
+    "section": 8,
+    "name": "小林 侑世",
+    "time": "58:26",
+    "rank": 10,
+    "total": "5:14:33",
+    "finalRank": 8
+  },
+  {
+    "team": "城西大",
+    "bib": 6,
+    "section": 1,
+    "name": "小田 伊織",
+    "time": "27:45",
+    "rank": 15,
+    "total": "5:15:26",
+    "finalRank": 9
+  },
+  {
+    "team": "城西大",
+    "bib": 6,
+    "section": 2,
+    "name": "小林 竜輝",
+    "time": "32:39",
+    "rank": 13,
+    "total": "5:15:26",
+    "finalRank": 9
+  },
+  {
+    "team": "城西大",
+    "bib": 6,
+    "section": 3,
+    "name": "ヴィクター キムタイ",
+    "time": "33:12",
+    "rank": 2,
+    "total": "5:15:26",
+    "finalRank": 9
+  },
+  {
+    "team": "城西大",
+    "bib": 6,
+    "section": 4,
+    "name": "柴田 侑",
+    "time": "35:14",
+    "rank": 10,
+    "total": "5:15:26",
+    "finalRank": 9
+  },
+  {
+    "team": "城西大",
+    "bib": 6,
+    "section": 5,
+    "name": "岩田 真之",
+    "time": "37:03",
+    "rank": 10,
+    "total": "5:15:26",
+    "finalRank": 9
+  },
+  {
+    "team": "城西大",
+    "bib": 6,
+    "section": 6,
+    "name": "大沼 良太郎",
+    "time": "38:08",
+    "rank": 9,
+    "total": "5:15:26",
+    "finalRank": 9
+  },
+  {
+    "team": "城西大",
+    "bib": 6,
+    "section": 7,
+    "name": "中島 巨翔",
+    "time": "53:53",
+    "rank": 16,
+    "total": "5:15:26",
+    "finalRank": 9
+  },
+  {
+    "team": "城西大",
+    "bib": 6,
+    "section": 8,
+    "name": "斎藤 将也",
+    "time": "57:32",
+    "rank": 5,
+    "total": "5:15:26",
+    "finalRank": 9
+  },
+  {
+    "team": "日本大",
+    "bib": 14,
+    "section": 1,
+    "name": "山口 彰太",
+    "time": "27:28",
+    "rank": 11,
+    "total": "5:15:37",
+    "finalRank": 10
+  },
+  {
+    "team": "日本大",
+    "bib": 14,
+    "section": 2,
+    "name": "山口 聡太",
+    "time": "32:22",
+    "rank": 12,
+    "total": "5:15:37",
+    "finalRank": 10
+  },
+  {
+    "team": "日本大",
+    "bib": 14,
+    "section": 3,
+    "name": "天野 啓太",
+    "time": "35:00",
+    "rank": 15,
+    "total": "5:15:37",
+    "finalRank": 10
+  },
+  {
+    "team": "日本大",
+    "bib": 14,
+    "section": 4,
+    "name": "中澤 星音",
+    "time": "35:33",
+    "rank": 13,
+    "total": "5:15:37",
+    "finalRank": 10
+  },
+  {
+    "team": "日本大",
+    "bib": 14,
+    "section": 5,
+    "name": "長澤 辰朗",
+    "time": "37:51",
+    "rank": 14,
+    "total": "5:15:37",
+    "finalRank": 10
+  },
+  {
+    "team": "日本大",
+    "bib": 14,
+    "section": 6,
+    "name": "大仲 竜平",
+    "time": "38:41",
+    "rank": 11,
+    "total": "5:15:37",
+    "finalRank": 10
+  },
+  {
+    "team": "日本大",
+    "bib": 14,
+    "section": 7,
+    "name": "シャドラック キップケメイ",
+    "time": "50:17",
+    "rank": 2,
+    "total": "5:15:37",
+    "finalRank": 10
+  },
+  {
+    "team": "日本大",
+    "bib": 14,
+    "section": 8,
+    "name": "鈴木 孔士",
+    "time": "58:25",
+    "rank": 9,
+    "total": "5:15:37",
+    "finalRank": 10
+  },
+  {
+    "team": "日本体育大",
+    "bib": 17,
+    "section": 1,
+    "name": "荻野 桂輔",
+    "time": "27:22",
+    "rank": 5,
+    "total": "5:15:51",
+    "finalRank": 11
+  },
+  {
+    "team": "日本体育大",
+    "bib": 17,
+    "section": 2,
+    "name": "平島 龍斗",
+    "time": "31:25",
+    "rank": 7,
+    "total": "5:15:51",
+    "finalRank": 11
+  },
+  {
+    "team": "日本体育大",
+    "bib": 17,
+    "section": 3,
+    "name": "田島 駿介",
+    "time": "33:44",
+    "rank": 5,
+    "total": "5:15:51",
+    "finalRank": 11
+  },
+  {
+    "team": "日本体育大",
+    "bib": 17,
+    "section": 4,
+    "name": "二村 昇太朗",
+    "time": "35:32",
+    "rank": 12,
+    "total": "5:15:51",
+    "finalRank": 11
+  },
+  {
+    "team": "日本体育大",
+    "bib": 17,
+    "section": 5,
+    "name": "吉田 黎大",
+    "time": "36:51",
+    "rank": 8,
+    "total": "5:15:51",
+    "finalRank": 11
+  },
+  {
+    "team": "日本体育大",
+    "bib": 17,
+    "section": 6,
+    "name": "大竹 雄大",
+    "time": "38:59",
+    "rank": 14,
+    "total": "5:15:51",
+    "finalRank": 11
+  },
+  {
+    "team": "日本体育大",
+    "bib": 17,
+    "section": 7,
+    "name": "山崎 丞",
+    "time": "52:03",
+    "rank": 7,
+    "total": "5:15:51",
+    "finalRank": 11
+  },
+  {
+    "team": "日本体育大",
+    "bib": 17,
+    "section": 8,
+    "name": "佐藤 大和",
+    "time": "59:55",
+    "rank": 16,
+    "total": "5:15:51",
+    "finalRank": 11
+  },
+  {
+    "team": "東海大",
+    "bib": 15,
+    "section": 1,
+    "name": "兵藤 ジュダ",
+    "time": "27:55",
+    "rank": 18,
+    "total": "5:17:16",
+    "finalRank": 12
+  },
+  {
+    "team": "東海大",
+    "bib": 15,
+    "section": 2,
+    "name": "永本 脩",
+    "time": "31:24",
+    "rank": 6,
+    "total": "5:17:16",
+    "finalRank": 12
+  },
+  {
+    "team": "東海大",
+    "bib": 15,
+    "section": 3,
+    "name": "花岡 寿哉",
+    "time": "34:01",
+    "rank": 9,
+    "total": "5:17:16",
+    "finalRank": 12
+  },
+  {
+    "team": "東海大",
+    "bib": 15,
+    "section": 4,
+    "name": "中野 純平",
+    "time": "35:19",
+    "rank": 11,
+    "total": "5:17:16",
+    "finalRank": 12
+  },
+  {
+    "team": "東海大",
+    "bib": 15,
+    "section": 5,
+    "name": "松山 優太",
+    "time": "37:08",
+    "rank": 11,
+    "total": "5:17:16",
+    "finalRank": 12
+  },
+  {
+    "team": "東海大",
+    "bib": 15,
+    "section": 6,
+    "name": "平井 璃空",
+    "time": "39:22",
+    "rank": 16,
+    "total": "5:17:16",
+    "finalRank": 12
+  },
+  {
+    "team": "東海大",
+    "bib": 15,
+    "section": 7,
+    "name": "南坂 柚汰",
+    "time": "52:14",
+    "rank": 10,
+    "total": "5:17:16",
+    "finalRank": 12
+  },
+  {
+    "team": "東海大",
+    "bib": 15,
+    "section": 8,
+    "name": "竹割 真",
+    "time": "59:53",
+    "rank": 15,
+    "total": "5:17:16",
+    "finalRank": 12
+  },
+  {
+    "team": "大東文化大",
+    "bib": 12,
+    "section": 1,
+    "name": "菅﨑 大翔",
+    "time": "28:03",
+    "rank": 21,
+    "total": "5:18:27",
+    "finalRank": 13
+  },
+  {
+    "team": "大東文化大",
+    "bib": 12,
+    "section": 2,
+    "name": "棟方 一楽",
+    "time": "32:08",
+    "rank": 11,
+    "total": "5:18:27",
+    "finalRank": 13
+  },
+  {
+    "team": "大東文化大",
+    "bib": 12,
+    "section": 3,
+    "name": "大濱 逞真",
+    "time": "34:29",
+    "rank": 11,
+    "total": "5:18:27",
+    "finalRank": 13
+  },
+  {
+    "team": "大東文化大",
+    "bib": 12,
+    "section": 4,
+    "name": "中澤 真大",
+    "time": "35:03",
+    "rank": 9,
+    "total": "5:18:27",
+    "finalRank": 13
+  },
+  {
+    "team": "大東文化大",
+    "bib": 12,
+    "section": 5,
+    "name": "鈴木 要",
+    "time": "37:56",
+    "rank": 15,
+    "total": "5:18:27",
+    "finalRank": 13
+  },
+  {
+    "team": "大東文化大",
+    "bib": 12,
+    "section": 6,
+    "name": "上田 翔大",
+    "time": "39:03",
+    "rank": 15,
+    "total": "5:18:27",
+    "finalRank": 13
+  },
+  {
+    "team": "大東文化大",
+    "bib": 12,
+    "section": 7,
+    "name": "入濵 輝大",
+    "time": "52:46",
+    "rank": 12,
+    "total": "5:18:27",
+    "finalRank": 13
+  },
+  {
+    "team": "大東文化大",
+    "bib": 12,
+    "section": 8,
+    "name": "松浦 輝仁",
+    "time": "58:59",
+    "rank": 11,
+    "total": "5:18:27",
+    "finalRank": 13
+  },
+  {
+    "team": "立教大",
+    "bib": 7,
+    "section": 1,
+    "name": "吉屋 佑晟",
+    "time": "27:49",
+    "rank": 16,
+    "total": "5:18:51",
+    "finalRank": 14
+  },
+  {
+    "team": "立教大",
+    "bib": 7,
+    "section": 2,
+    "name": "伊藤 匠海",
+    "time": "32:41",
+    "rank": 14,
+    "total": "5:18:51",
+    "finalRank": 14
+  },
+  {
+    "team": "立教大",
+    "bib": 7,
+    "section": 3,
+    "name": "野口 颯汰",
+    "time": "35:54",
+    "rank": 17,
+    "total": "5:18:51",
+    "finalRank": 14
+  },
+  {
+    "team": "立教大",
+    "bib": 7,
+    "section": 4,
+    "name": "小倉 史也",
+    "time": "35:43",
+    "rank": 14,
+    "total": "5:18:51",
+    "finalRank": 14
+  },
+  {
+    "team": "立教大",
+    "bib": 7,
+    "section": 5,
+    "name": "鈴木 愛音",
+    "time": "37:19",
+    "rank": 12,
+    "total": "5:18:51",
+    "finalRank": 14
+  },
+  {
+    "team": "立教大",
+    "bib": 7,
+    "section": 6,
+    "name": "永井 駿",
+    "time": "38:07",
+    "rank": 8,
+    "total": "5:18:51",
+    "finalRank": 14
+  },
+  {
+    "team": "立教大",
+    "bib": 7,
+    "section": 7,
+    "name": "原田 颯大",
+    "time": "52:15",
+    "rank": 11,
+    "total": "5:18:51",
+    "finalRank": 14
+  },
+  {
+    "team": "立教大",
+    "bib": 7,
+    "section": 8,
+    "name": "國安 広人",
+    "time": "59:03",
+    "rank": 12,
+    "total": "5:18:51",
+    "finalRank": 14
+  },
+  {
+    "team": "中央学院大",
+    "bib": 16,
+    "section": 1,
+    "name": "坂本 駿",
+    "time": "27:50",
+    "rank": 17,
+    "total": "5:19:52",
+    "finalRank": 15
+  },
+  {
+    "team": "中央学院大",
+    "bib": 16,
+    "section": 2,
+    "name": "近田 陽路",
+    "time": "32:44",
+    "rank": 15,
+    "total": "5:19:52",
+    "finalRank": 15
+  },
+  {
+    "team": "中央学院大",
+    "bib": 16,
+    "section": 3,
+    "name": "市川 大世",
+    "time": "34:02",
+    "rank": 10,
+    "total": "5:19:52",
+    "finalRank": 15
+  },
+  {
+    "team": "中央学院大",
+    "bib": 16,
+    "section": 4,
+    "name": "三角 洸太",
+    "time": "35:49",
+    "rank": 16,
+    "total": "5:19:52",
+    "finalRank": 15
+  },
+  {
+    "team": "中央学院大",
+    "bib": 16,
+    "section": 5,
+    "name": "黒谷 優",
+    "time": "37:28",
+    "rank": 13,
+    "total": "5:19:52",
+    "finalRank": 15
+  },
+  {
+    "team": "中央学院大",
+    "bib": 16,
+    "section": 6,
+    "name": "三代田 宏太朗",
+    "time": "38:44",
+    "rank": 12,
+    "total": "5:19:52",
+    "finalRank": 15
+  },
+  {
+    "team": "中央学院大",
+    "bib": 16,
+    "section": 7,
+    "name": "長部 虎太郎",
+    "time": "52:50",
+    "rank": 13,
+    "total": "5:19:52",
+    "finalRank": 15
+  },
+  {
+    "team": "中央学院大",
+    "bib": 16,
+    "section": 8,
+    "name": "林 愛斗",
+    "time": "1:00:25",
+    "rank": 19,
+    "total": "5:19:52",
+    "finalRank": 15
+  },
+  {
+    "team": "関西大",
+    "bib": 21,
+    "section": 1,
+    "name": "平野 圭人",
+    "time": "27:58",
+    "rank": 20,
+    "total": "5:28:32",
+    "finalRank": 16
+  },
+  {
+    "team": "関西大",
+    "bib": 21,
+    "section": 2,
+    "name": "谷村 恒晟",
+    "time": "33:00",
+    "rank": 18,
+    "total": "5:28:32",
+    "finalRank": 16
+  },
+  {
+    "team": "関西大",
+    "bib": 21,
+    "section": 3,
+    "name": "芝 秀介",
+    "time": "36:59",
+    "rank": 22,
+    "total": "5:28:32",
+    "finalRank": 16
+  },
+  {
+    "team": "関西大",
+    "bib": 21,
+    "section": 4,
+    "name": "秋山 翔太朗",
+    "time": "36:28",
+    "rank": 18,
+    "total": "5:28:32",
+    "finalRank": 16
+  },
+  {
+    "team": "関西大",
+    "bib": 21,
+    "section": 5,
+    "name": "岡村 和真",
+    "time": "38:32",
+    "rank": 17,
+    "total": "5:28:32",
+    "finalRank": 16
+  },
+  {
+    "team": "関西大",
+    "bib": 21,
+    "section": 6,
+    "name": "坂本 亘生",
+    "time": "39:37",
+    "rank": 17,
+    "total": "5:28:32",
+    "finalRank": 16
+  },
+  {
+    "team": "関西大",
+    "bib": 21,
+    "section": 7,
+    "name": "高村 瑛太",
+    "time": "55:20",
+    "rank": 19,
+    "total": "5:28:32",
+    "finalRank": 16
+  },
+  {
+    "team": "関西大",
+    "bib": 21,
+    "section": 8,
+    "name": "糟谷 源太",
+    "time": "1:00:38",
+    "rank": 21,
+    "total": "5:28:32",
+    "finalRank": 16
+  },
+  {
+    "team": "大阪経済大",
+    "bib": 22,
+    "section": 1,
+    "name": "岩坂 蓮太",
+    "time": "27:26",
+    "rank": 10,
+    "total": "5:29:38",
+    "finalRank": 17
+  },
+  {
+    "team": "大阪経済大",
+    "bib": 22,
+    "section": 2,
+    "name": "婦木 拓実",
+    "time": "33:28",
+    "rank": 21,
+    "total": "5:29:38",
+    "finalRank": 17
+  },
+  {
+    "team": "大阪経済大",
+    "bib": 22,
+    "section": 3,
+    "name": "内尾 射光矢",
+    "time": "35:52",
+    "rank": 16,
+    "total": "5:29:38",
+    "finalRank": 17
+  },
+  {
+    "team": "大阪経済大",
+    "bib": 22,
+    "section": 4,
+    "name": "新 博貴",
+    "time": "36:21",
+    "rank": 17,
+    "total": "5:29:38",
+    "finalRank": 17
+  },
+  {
+    "team": "大阪経済大",
+    "bib": 22,
+    "section": 5,
+    "name": "京川 大真",
+    "time": "38:33",
+    "rank": 18,
+    "total": "5:29:38",
+    "finalRank": 17
+  },
+  {
+    "team": "大阪経済大",
+    "bib": 22,
+    "section": 6,
+    "name": "角野 凌誠",
+    "time": "41:33",
+    "rank": 24,
+    "total": "5:29:38",
+    "finalRank": 17
+  },
+  {
+    "team": "大阪経済大",
+    "bib": 22,
+    "section": 7,
+    "name": "山﨑 真聖",
+    "time": "53:49",
+    "rank": 15,
+    "total": "5:29:38",
+    "finalRank": 17
+  },
+  {
+    "team": "大阪経済大",
+    "bib": 22,
+    "section": 8,
+    "name": "野島 清盟",
+    "time": "1:02:36",
+    "rank": 24,
+    "total": "5:29:38",
+    "finalRank": 17
+  },
+  {
+    "team": "関西学院大",
+    "bib": 23,
+    "section": 1,
+    "name": "山下 慶馬",
+    "time": "27:43",
+    "rank": 14,
+    "total": "5:30:05",
+    "finalRank": 18
+  },
+  {
+    "team": "関西学院大",
+    "bib": 23,
+    "section": 2,
+    "name": "寺川 直央",
+    "time": "32:50",
+    "rank": 16,
+    "total": "5:30:05",
+    "finalRank": 18
+  },
+  {
+    "team": "関西学院大",
+    "bib": 23,
+    "section": 3,
+    "name": "久山 大祐",
+    "time": "35:58",
+    "rank": 18,
+    "total": "5:30:05",
+    "finalRank": 18
+  },
+  {
+    "team": "関西学院大",
+    "bib": 23,
+    "section": 4,
+    "name": "山本 雅也",
+    "time": "36:56",
+    "rank": 20,
+    "total": "5:30:05",
+    "finalRank": 18
+  },
+  {
+    "team": "関西学院大",
+    "bib": 23,
+    "section": 5,
+    "name": "冨永 己太朗",
+    "time": "39:24",
+    "rank": 20,
+    "total": "5:30:05",
+    "finalRank": 18
+  },
+  {
+    "team": "関西学院大",
+    "bib": 23,
+    "section": 6,
+    "name": "片山 堅友",
+    "time": "40:54",
+    "rank": 23,
+    "total": "5:30:05",
+    "finalRank": 18
+  },
+  {
+    "team": "関西学院大",
+    "bib": 23,
+    "section": 7,
+    "name": "尼子 和磨",
+    "time": "55:44",
+    "rank": 21,
+    "total": "5:30:05",
+    "finalRank": 18
+  },
+  {
+    "team": "関西学院大",
+    "bib": 23,
+    "section": 8,
+    "name": "嘉味本 謙信",
+    "time": "1:00:36",
+    "rank": 20,
+    "total": "5:30:05",
+    "finalRank": 18
+  },
+  {
+    "team": "札幌学院大",
+    "bib": 9,
+    "section": 1,
+    "name": "高坂 光希",
+    "time": "29:12",
+    "rank": 27,
+    "total": "5:30:38",
+    "finalRank": 19
+  },
+  {
+    "team": "札幌学院大",
+    "bib": 9,
+    "section": 2,
+    "name": "西塚 璃純",
+    "time": "33:16",
+    "rank": 19,
+    "total": "5:30:38",
+    "finalRank": 19
+  },
+  {
+    "team": "札幌学院大",
+    "bib": 9,
+    "section": 3,
+    "name": "栗田 紳冴",
+    "time": "36:24",
+    "rank": 20,
+    "total": "5:30:38",
+    "finalRank": 19
+  },
+  {
+    "team": "札幌学院大",
+    "bib": 9,
+    "section": 4,
+    "name": "早川 拓海",
+    "time": "37:03",
+    "rank": 22,
+    "total": "5:30:38",
+    "finalRank": 19
+  },
+  {
+    "team": "札幌学院大",
+    "bib": 9,
+    "section": 5,
+    "name": "浦田 陽聖",
+    "time": "38:59",
+    "rank": 19,
+    "total": "5:30:38",
+    "finalRank": 19
+  },
+  {
+    "team": "札幌学院大",
+    "bib": 9,
+    "section": 6,
+    "name": "山田 陽翔",
+    "time": "40:05",
+    "rank": 18,
+    "total": "5:30:38",
+    "finalRank": 19
+  },
+  {
+    "team": "札幌学院大",
+    "bib": 9,
+    "section": 7,
+    "name": "伊藤 徹",
+    "time": "54:29",
+    "rank": 18,
+    "total": "5:30:38",
+    "finalRank": 19
+  },
+  {
+    "team": "札幌学院大",
+    "bib": 9,
+    "section": 8,
+    "name": "キプゲノ ケネス",
+    "time": "1:01:10",
+    "rank": 23,
+    "total": "5:30:38",
+    "finalRank": 19
+  },
+  {
+    "team": "名古屋大",
+    "bib": 19,
+    "section": 1,
+    "name": "吉原 諒",
+    "time": "28:17",
+    "rank": 22,
+    "total": "5:32:25",
+    "finalRank": 20
+  },
+  {
+    "team": "名古屋大",
+    "bib": 19,
+    "section": 2,
+    "name": "加藤 太一",
+    "time": "34:31",
+    "rank": 25,
+    "total": "5:32:25",
+    "finalRank": 20
+  },
+  {
+    "team": "名古屋大",
+    "bib": 19,
+    "section": 3,
+    "name": "浅野 稜太",
+    "time": "37:32",
+    "rank": 26,
+    "total": "5:32:25",
+    "finalRank": 20
+  },
+  {
+    "team": "名古屋大",
+    "bib": 19,
+    "section": 4,
+    "name": "阿部 祥典",
+    "time": "36:45",
+    "rank": 19,
+    "total": "5:32:25",
+    "finalRank": 20
+  },
+  {
+    "team": "名古屋大",
+    "bib": 19,
+    "section": 5,
+    "name": "松村 公平",
+    "time": "39:41",
+    "rank": 24,
+    "total": "5:32:25",
+    "finalRank": 20
+  },
+  {
+    "team": "名古屋大",
+    "bib": 19,
+    "section": 6,
+    "name": "吉田 和輝",
+    "time": "40:33",
+    "rank": 19,
+    "total": "5:32:25",
+    "finalRank": 20
+  },
+  {
+    "team": "名古屋大",
+    "bib": 19,
+    "section": 7,
+    "name": "小川 海里",
+    "time": "55:55",
+    "rank": 23,
+    "total": "5:32:25",
+    "finalRank": 20
+  },
+  {
+    "team": "名古屋大",
+    "bib": 19,
+    "section": 8,
+    "name": "河﨑 憲祐",
+    "time": "59:11",
+    "rank": 13,
+    "total": "5:32:25",
+    "finalRank": 20
+  },
+  {
+    "team": "岐阜協立大",
+    "bib": 20,
+    "section": 1,
+    "name": "下田 悠友",
+    "time": "28:20",
+    "rank": 24,
+    "total": "5:33:47",
+    "finalRank": 21
+  },
+  {
+    "team": "岐阜協立大",
+    "bib": 20,
+    "section": 2,
+    "name": "日比 健仁",
+    "time": "34:29",
+    "rank": 24,
+    "total": "5:33:47",
+    "finalRank": 21
+  },
+  {
+    "team": "岐阜協立大",
+    "bib": 20,
+    "section": 3,
+    "name": "田畑 来成",
+    "time": "37:10",
+    "rank": 24,
+    "total": "5:33:47",
+    "finalRank": 21
+  },
+  {
+    "team": "岐阜協立大",
+    "bib": 20,
+    "section": 4,
+    "name": "道下 力也",
+    "time": "37:37",
+    "rank": 24,
+    "total": "5:33:47",
+    "finalRank": 21
+  },
+  {
+    "team": "岐阜協立大",
+    "bib": 20,
+    "section": 5,
+    "name": "安藤 涼太郎",
+    "time": "39:27",
+    "rank": 21,
+    "total": "5:33:47",
+    "finalRank": 21
+  },
+  {
+    "team": "岐阜協立大",
+    "bib": 20,
+    "section": 6,
+    "name": "長瀬 大起",
+    "time": "40:46",
+    "rank": 22,
+    "total": "5:33:47",
+    "finalRank": 21
+  },
+  {
+    "team": "岐阜協立大",
+    "bib": 20,
+    "section": 7,
+    "name": "友松 悠人",
+    "time": "56:10",
+    "rank": 24,
+    "total": "5:33:47",
+    "finalRank": 21
+  },
+  {
+    "team": "岐阜協立大",
+    "bib": 20,
+    "section": 8,
+    "name": "中嶋 希",
+    "time": "59:48",
+    "rank": 14,
+    "total": "5:33:47",
+    "finalRank": 21
+  },
+  {
+    "team": "志學館大",
+    "bib": 25,
+    "section": 1,
+    "name": "中村 晃斗",
+    "time": "27:20",
+    "rank": 1,
+    "total": "5:36:07",
+    "finalRank": 22
+  },
+  {
+    "team": "志學館大",
+    "bib": 25,
+    "section": 2,
+    "name": "齊藤 莉樹",
+    "time": "33:21",
+    "rank": 20,
+    "total": "5:36:07",
+    "finalRank": 22
+  },
+  {
+    "team": "志學館大",
+    "bib": 25,
+    "section": 3,
+    "name": "小田 夕琥",
+    "time": "36:31",
+    "rank": 21,
+    "total": "5:36:07",
+    "finalRank": 22
+  },
+  {
+    "team": "志學館大",
+    "bib": 25,
+    "section": 4,
+    "name": "濱川 輝太",
+    "time": "38:32",
+    "rank": 26,
+    "total": "5:36:07",
+    "finalRank": 22
+  },
+  {
+    "team": "志學館大",
+    "bib": 25,
+    "section": 5,
+    "name": "大平 倫嗣",
+    "time": "40:15",
+    "rank": 25,
+    "total": "5:36:07",
+    "finalRank": 22
+  },
+  {
+    "team": "志學館大",
+    "bib": 25,
+    "section": 6,
+    "name": "岩川 竜武",
+    "time": "44:56",
+    "rank": 27,
+    "total": "5:36:07",
+    "finalRank": 22
+  },
+  {
+    "team": "志學館大",
+    "bib": 25,
+    "section": 7,
+    "name": "日野 拓夢",
+    "time": "54:07",
+    "rank": 17,
+    "total": "5:36:07",
+    "finalRank": 22
+  },
+  {
+    "team": "志學館大",
+    "bib": 25,
+    "section": 8,
+    "name": "辻田 鉄人",
+    "time": "1:01:05",
+    "rank": 22,
+    "total": "5:36:07",
+    "finalRank": 22
+  },
+  {
+    "team": "信州大",
+    "bib": 18,
+    "section": 1,
+    "name": "片岡 晴哉",
+    "time": "28:19",
+    "rank": 23,
+    "total": "5:36:11",
+    "finalRank": 23
+  },
+  {
+    "team": "信州大",
+    "bib": 18,
+    "section": 2,
+    "name": "森田 克馬",
+    "time": "35:24",
+    "rank": 27,
+    "total": "5:36:11",
+    "finalRank": 23
+  },
+  {
+    "team": "信州大",
+    "bib": 18,
+    "section": 3,
+    "name": "尾崎 康佑",
+    "time": "37:04",
+    "rank": 23,
+    "total": "5:36:11",
+    "finalRank": 23
+  },
+  {
+    "team": "信州大",
+    "bib": 18,
+    "section": 4,
+    "name": "佐藤 匠",
+    "time": "38:31",
+    "rank": 25,
+    "total": "5:36:11",
+    "finalRank": 23
+  },
+  {
+    "team": "信州大",
+    "bib": 18,
+    "section": 5,
+    "name": "三林 明弥",
+    "time": "39:33",
+    "rank": 23,
+    "total": "5:36:11",
+    "finalRank": 23
+  },
+  {
+    "team": "信州大",
+    "bib": 18,
+    "section": 6,
+    "name": "内田 善登",
+    "time": "40:42",
+    "rank": 21,
+    "total": "5:36:11",
+    "finalRank": 23
+  },
+  {
+    "team": "信州大",
+    "bib": 18,
+    "section": 7,
+    "name": "田中 悠貴",
+    "time": "56:19",
+    "rank": 25,
+    "total": "5:36:11",
+    "finalRank": 23
+  },
+  {
+    "team": "信州大",
+    "bib": 18,
+    "section": 8,
+    "name": "松林 直亮",
+    "time": "1:00:19",
+    "rank": 18,
+    "total": "5:36:11",
+    "finalRank": 23
+  },
+  {
+    "team": "広島経済大",
+    "bib": 24,
+    "section": 1,
+    "name": "東 秀太",
+    "time": "27:56",
+    "rank": 19,
+    "total": "5:37:37",
+    "finalRank": 24
+  },
+  {
+    "team": "広島経済大",
+    "bib": 24,
+    "section": 2,
+    "name": "谷畑 佑樹",
+    "time": "33:53",
+    "rank": 22,
+    "total": "5:37:37",
+    "finalRank": 24
+  },
+  {
+    "team": "広島経済大",
+    "bib": 24,
+    "section": 3,
+    "name": "小川 晴也",
+    "time": "37:10",
+    "rank": 24,
+    "total": "5:37:37",
+    "finalRank": 24
+  },
+  {
+    "team": "広島経済大",
+    "bib": 24,
+    "section": 4,
+    "name": "瀬尾 大和",
+    "time": "37:22",
+    "rank": 23,
+    "total": "5:37:37",
+    "finalRank": 24
+  },
+  {
+    "team": "広島経済大",
+    "bib": 24,
+    "section": 5,
+    "name": "板谷 和磨",
+    "time": "39:32",
+    "rank": 22,
+    "total": "5:37:37",
+    "finalRank": 24
+  },
+  {
+    "team": "広島経済大",
+    "bib": 24,
+    "section": 6,
+    "name": "田辺 豊",
+    "time": "42:05",
+    "rank": 25,
+    "total": "5:37:37",
+    "finalRank": 24
+  },
+  {
+    "team": "広島経済大",
+    "bib": 24,
+    "section": 7,
+    "name": "藤井 奏汰",
+    "time": "55:50",
+    "rank": 22,
+    "total": "5:37:37",
+    "finalRank": 24
+  },
+  {
+    "team": "広島経済大",
+    "bib": 24,
+    "section": 8,
+    "name": "佐々木 昴",
+    "time": "1:03:49",
+    "rank": 26,
+    "total": "5:37:37",
+    "finalRank": 24
+  },
+  {
+    "team": "東北学院大",
+    "bib": 10,
+    "section": 1,
+    "name": "吉田 奏斗",
+    "time": "28:33",
+    "rank": 26,
+    "total": "5:54:02",
+    "finalRank": 25
+  },
+  {
+    "team": "東北学院大",
+    "bib": 10,
+    "section": 2,
+    "name": "萩川 晄",
+    "time": "35:01",
+    "rank": 26,
+    "total": "5:54:02",
+    "finalRank": 25
+  },
+  {
+    "team": "東北学院大",
+    "bib": 10,
+    "section": 3,
+    "name": "齋藤 颯希",
+    "time": "37:45",
+    "rank": 27,
+    "total": "5:54:02",
+    "finalRank": 25
+  },
+  {
+    "team": "東北学院大",
+    "bib": 10,
+    "section": 4,
+    "name": "中野 朝斗",
+    "time": "40:18",
+    "rank": 27,
+    "total": "5:54:02",
+    "finalRank": 25
+  },
+  {
+    "team": "東北学院大",
+    "bib": 10,
+    "section": 5,
+    "name": "阿部 輝翔",
+    "time": "41:03",
+    "rank": 27,
+    "total": "5:54:02",
+    "finalRank": 25
+  },
+  {
+    "team": "東北学院大",
+    "bib": 10,
+    "section": 6,
+    "name": "齋 優太郎",
+    "time": "42:06",
+    "rank": 26,
+    "total": "5:54:02",
+    "finalRank": 25
+  },
+  {
+    "team": "東北学院大",
+    "bib": 10,
+    "section": 7,
+    "name": "新美 和哉",
+    "time": "1:02:36",
+    "rank": 27,
+    "total": "5:54:02",
+    "finalRank": 25
+  },
+  {
+    "team": "東北学院大",
+    "bib": 10,
+    "section": 8,
+    "name": "児玉 脩平",
+    "time": "1:06:40",
+    "rank": 27,
+    "total": "5:54:02",
+    "finalRank": 25
+  },
+  {
+    "team": "日本学連選抜",
+    "bib": 26,
+    "section": 1,
+    "name": "古橋 希翁",
+    "time": "27:25",
+    "rank": 7,
+    "total": "5:23:19",
+    "finalRank": null
+  },
+  {
+    "team": "日本学連選抜",
+    "bib": 26,
+    "section": 2,
+    "name": "染谷 雄輝",
+    "time": "32:51",
+    "rank": 17,
+    "total": "5:23:19",
+    "finalRank": null
+  },
+  {
+    "team": "日本学連選抜",
+    "bib": 26,
+    "section": 3,
+    "name": "山本 涼介",
+    "time": "34:29",
+    "rank": 11,
+    "total": "5:23:19",
+    "finalRank": null
+  },
+  {
+    "team": "日本学連選抜",
+    "bib": 26,
+    "section": 4,
+    "name": "鶴田 寛武",
+    "time": "35:47",
+    "rank": 15,
+    "total": "5:23:19",
+    "finalRank": null
+  },
+  {
+    "team": "日本学連選抜",
+    "bib": 26,
+    "section": 5,
+    "name": "佐藤 我駆人",
+    "time": "38:10",
+    "rank": 16,
+    "total": "5:23:19",
+    "finalRank": null
+  },
+  {
+    "team": "日本学連選抜",
+    "bib": 26,
+    "section": 6,
+    "name": "松原 幸之助",
+    "time": "38:51",
+    "rank": 13,
+    "total": "5:23:19",
+    "finalRank": null
+  },
+  {
+    "team": "日本学連選抜",
+    "bib": 26,
+    "section": 7,
+    "name": "南部 悠陽",
+    "time": "55:37",
+    "rank": 20,
+    "total": "5:23:19",
+    "finalRank": null
+  },
+  {
+    "team": "日本学連選抜",
+    "bib": 26,
+    "section": 8,
+    "name": "赤澤 京弥",
+    "time": "1:00:09",
+    "rank": 17,
+    "total": "5:23:19",
+    "finalRank": null
+  },
+  {
+    "team": "東海学連選抜",
+    "bib": 27,
+    "section": 1,
+    "name": "豊田 雄大",
+    "time": "28:26",
+    "rank": 25,
+    "total": "5:36:52",
+    "finalRank": null
+  },
+  {
+    "team": "東海学連選抜",
+    "bib": 27,
+    "section": 2,
+    "name": "原 一成",
+    "time": "34:13",
+    "rank": 23,
+    "total": "5:36:52",
+    "finalRank": null
+  },
+  {
+    "team": "東海学連選抜",
+    "bib": 27,
+    "section": 3,
+    "name": "岩田 玄弥",
+    "time": "35:58",
+    "rank": 18,
+    "total": "5:36:52",
+    "finalRank": null
+  },
+  {
+    "team": "東海学連選抜",
+    "bib": 27,
+    "section": 4,
+    "name": "鈴木 公輔",
+    "time": "36:57",
+    "rank": 21,
+    "total": "5:36:52",
+    "finalRank": null
+  },
+  {
+    "team": "東海学連選抜",
+    "bib": 27,
+    "section": 5,
+    "name": "鶴田 燿也",
+    "time": "40:38",
+    "rank": 26,
+    "total": "5:36:52",
+    "finalRank": null
+  },
+  {
+    "team": "東海学連選抜",
+    "bib": 27,
+    "section": 6,
+    "name": "吉田 亘",
+    "time": "40:35",
+    "rank": 20,
+    "total": "5:36:52",
+    "finalRank": null
+  },
+  {
+    "team": "東海学連選抜",
+    "bib": 27,
+    "section": 7,
+    "name": "脇田 航輝",
+    "time": "56:56",
+    "rank": 26,
+    "total": "5:36:52",
+    "finalRank": null
+  },
+  {
+    "team": "東海学連選抜",
+    "bib": 27,
+    "section": 8,
+    "name": "曽越 祐志",
+    "time": "1:03:09",
+    "rank": 25,
+    "total": "5:36:52",
+    "finalRank": null
+  }
+]

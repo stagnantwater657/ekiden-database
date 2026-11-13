@@ -12,7 +12,9 @@
     "typecheck": "next typegen && tsc --noEmit",
     "lint": "eslint .",
     "test": "node --experimental-strip-types --test tests/*.test.ts tests/*.test.mjs",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "data:validate": "node --experimental-strip-types scripts/data-import.ts",
+    "data:import": "node --experimental-strip-types scripts/data-import.ts"
   },
   "dependencies": {
     "next": "16.4.5",

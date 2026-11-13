@@ -13,8 +13,8 @@
         "team-tokai-selection",
         "team-tohoku-gakuin"
       ],
-      "crossEditionAthletes": 90,
-      "reusedFromEarlierEditions": 0,
+      "crossEditionAthletes": 125,
+      "reusedFromEarlierEditions": 64,
       "resultsSha256": "a768a6b5216f354c014ae8702f4b9507fe5d111f6a2a77d8a6ebb26e4f2c26ee",
       "review": [
         {
@@ -326,8 +326,8 @@
       "athletes": 200,
       "officialFinalRanks": 25,
       "unrankedTeams": [],
-      "crossEditionAthletes": 118,
-      "reusedFromEarlierEditions": 76,
+      "crossEditionAthletes": 148,
+      "reusedFromEarlierEditions": 119,
       "resultsSha256": "3ffb35885a6bbba18c5ce5577b99bda5bb70ef2bfb92ce29e8b88300f657ca92",
       "review": [],
       "missingTeamTotals": [
@@ -369,8 +369,8 @@
         "team-japan-selection",
         "team-tokai-selection"
       ],
-      "crossEditionAthletes": 123,
-      "reusedFromEarlierEditions": 73,
+      "crossEditionAthletes": 148,
+      "reusedFromEarlierEditions": 110,
       "resultsSha256": "548d35ecbbe42017d16dc973b62498ffc67d6e8d799f1a3020e049eb061e3c83",
       "review": [
         {
@@ -456,8 +456,8 @@
         "team-japan-selection",
         "team-tokai-selection"
       ],
-      "crossEditionAthletes": 81,
-      "reusedFromEarlierEditions": 81,
+      "crossEditionAthletes": 114,
+      "reusedFromEarlierEditions": 114,
       "resultsSha256": "96185167d300ddf5f5e484ba7d41d50c0d044cdf0425bd15ee2612390c9b67e2",
       "review": [
         {
@@ -699,6 +699,1133 @@
             "iuau-aj26-roster"
           ],
           "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保留独立ID。"
+        }
+      ],
+      "missingTeamTotals": []
+    },
+    {
+      "editionId": "izumo-2023",
+      "teams": 21,
+      "universityTeams": 17,
+      "starts": 126,
+      "athletes": 126,
+      "officialFinalRanks": 19,
+      "unrankedTeams": [
+        "team-osaka-keizai",
+        "team-soka"
+      ],
+      "crossEditionAthletes": 79,
+      "reusedFromEarlierEditions": 0,
+      "resultsSha256": "b0309f5e10afa248e1dfcb7ff5404f4e3dcfc13e673a4ea759699a884c9e9dd7",
+      "review": [
+        {
+          "recordId": "iz23-result-21-1",
+          "athleteId": "athlete-iz23-21-1",
+          "observedName": "Hugo Milner",
+          "status": "needs-review",
+          "candidateIds": [],
+          "evidenceSourceIds": [
+            "iuau-iz23-results",
+            "iuau-iz23-roster"
+          ],
+          "reason": "首次收录，未发现注册姓名候选。 未公布或未确认年级，留空。"
+        },
+        {
+          "recordId": "iz23-result-21-2",
+          "athleteId": "athlete-iz23-21-2",
+          "observedName": "Will Battershill",
+          "status": "needs-review",
+          "candidateIds": [],
+          "evidenceSourceIds": [
+            "iuau-iz23-results",
+            "iuau-iz23-roster"
+          ],
+          "reason": "首次收录，未发现注册姓名候选。 未公布或未确认年级，留空。"
+        },
+        {
+          "recordId": "iz23-result-21-3",
+          "athleteId": "athlete-iz23-21-3",
+          "observedName": "Matthew Pereira",
+          "status": "needs-review",
+          "candidateIds": [],
+          "evidenceSourceIds": [
+            "iuau-iz23-results",
+            "iuau-iz23-roster"
+          ],
+          "reason": "首次收录，未发现注册姓名候选。 未公布或未确认年级，留空。"
+        },
+        {
+          "recordId": "iz23-result-21-4",
+          "athleteId": "athlete-iz23-21-4",
+          "observedName": "Jakob Kintzele",
+          "status": "needs-review",
+          "candidateIds": [],
+          "evidenceSourceIds": [
+            "iuau-iz23-results",
+            "iuau-iz23-roster"
+          ],
+          "reason": "首次收录，未发现注册姓名候选。 未公布或未确认年级，留空。"
+        },
+        {
+          "recordId": "iz23-result-21-5",
+          "athleteId": "athlete-iz23-21-5",
+          "observedName": "Owen Ritz",
+          "status": "needs-review",
+          "candidateIds": [],
+          "evidenceSourceIds": [
+            "iuau-iz23-results",
+            "iuau-iz23-roster"
+          ],
+          "reason": "首次收录，未发现注册姓名候选。 未公布或未确认年级，留空。"
+        },
+        {
+          "recordId": "iz23-result-21-6",
+          "athleteId": "athlete-iz23-21-6",
+          "observedName": "Kevin Berry",
+          "status": "needs-review",
+          "candidateIds": [],
+          "evidenceSourceIds": [
+            "iuau-iz23-results",
+            "iuau-iz23-roster"
+          ],
+          "reason": "首次收录，未发现注册姓名候选。 未公布或未确认年级，留空。"
+        },
+        {
+          "recordId": "iz23-result-18-3",
+          "athleteId": "athlete-iz23-18-3",
+          "observedName": "藤井 奏汰",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj25-24-7"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz23-results",
+            "iuau-iz23-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz23-result-01-2",
+          "athleteId": "athlete-iz23-01-2",
+          "observedName": "山崎 樹羅",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj24-20-7"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz23-results",
+            "iuau-iz23-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz23-result-01-3",
+          "athleteId": "athlete-iz23-01-3",
+          "observedName": "渡邊 隼翼",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj24-20-2"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz23-results",
+            "iuau-iz23-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz23-result-01-4",
+          "athleteId": "athlete-iz23-01-4",
+          "observedName": "佐藤 匠",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj25-18-4",
+            "athlete-aj23-09-5"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz23-results",
+            "iuau-iz23-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz23-result-01-6",
+          "athleteId": "athlete-iz23-01-6",
+          "observedName": "大栁 達哉",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj23-09-4"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz23-results",
+            "iuau-iz23-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz23-result-13-1",
+          "athleteId": "athlete-iz23-13-1",
+          "observedName": "中戸 元貴",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj24-24-7"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz23-results",
+            "iuau-iz23-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz23-result-13-3",
+          "athleteId": "athlete-iz23-13-3",
+          "observedName": "松林 直亮",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj25-18-8",
+            "athlete-aj23-26-8"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz23-results",
+            "iuau-iz23-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz23-result-13-5",
+          "athleteId": "athlete-iz23-13-5",
+          "observedName": "三林 明弥",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj25-18-5"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz23-results",
+            "iuau-iz23-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz23-result-02-1",
+          "athleteId": "athlete-iz23-02-1",
+          "observedName": "齋藤 颯希",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj25-10-3"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz23-results",
+            "iuau-iz23-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz23-result-02-3",
+          "athleteId": "athlete-iz23-02-3",
+          "observedName": "新美 和哉",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj25-10-7"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz23-results",
+            "iuau-iz23-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz23-result-02-4",
+          "athleteId": "athlete-iz23-02-4",
+          "observedName": "吉田 奏斗",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj25-10-1"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz23-results",
+            "iuau-iz23-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz23-result-02-6",
+          "athleteId": "athlete-iz23-02-6",
+          "observedName": "関 尚輝",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj23-10-8"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz23-results",
+            "iuau-iz23-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        }
+      ],
+      "missingTeamTotals": [
+        "iz23-entry-15",
+        "iz23-entry-10"
+      ]
+    },
+    {
+      "editionId": "izumo-2024",
+      "teams": 21,
+      "universityTeams": 17,
+      "starts": 126,
+      "athletes": 126,
+      "officialFinalRanks": 21,
+      "unrankedTeams": [],
+      "crossEditionAthletes": 91,
+      "reusedFromEarlierEditions": 45,
+      "resultsSha256": "5ad2c8a10c7f7e3e91ea92b169f04ca97283e2646f705b6e11324027a317e238",
+      "review": [
+        {
+          "recordId": "iz24-result-21-1",
+          "athleteId": "athlete-iz24-21-1",
+          "observedName": "Kieran Tuntivate",
+          "status": "needs-review",
+          "candidateIds": [],
+          "evidenceSourceIds": [
+            "iuau-iz24-results",
+            "iuau-iz24-roster"
+          ],
+          "reason": "首次收录，未发现注册姓名候选。 未公布或未确认年级，留空。"
+        },
+        {
+          "recordId": "iz24-result-21-2",
+          "athleteId": "athlete-iz24-21-2",
+          "observedName": "Will Battershill",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-iz23-21-2"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz24-results",
+            "iuau-iz24-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。 未公布或未确认年级，留空。"
+        },
+        {
+          "recordId": "iz24-result-21-3",
+          "athleteId": "athlete-iz24-21-3",
+          "observedName": "Tyler Berg",
+          "status": "needs-review",
+          "candidateIds": [],
+          "evidenceSourceIds": [
+            "iuau-iz24-results",
+            "iuau-iz24-roster"
+          ],
+          "reason": "首次收录，未发现注册姓名候选。 未公布或未确认年级，留空。"
+        },
+        {
+          "recordId": "iz24-result-21-4",
+          "athleteId": "athlete-iz24-21-4",
+          "observedName": "Acer Iverson",
+          "status": "needs-review",
+          "candidateIds": [],
+          "evidenceSourceIds": [
+            "iuau-iz24-results",
+            "iuau-iz24-roster"
+          ],
+          "reason": "首次收录，未发现注册姓名候选。 未公布或未确认年级，留空。"
+        },
+        {
+          "recordId": "iz24-result-21-5",
+          "athleteId": "athlete-iz24-21-5",
+          "observedName": "Matthew Pereira",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-iz23-21-3"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz24-results",
+            "iuau-iz24-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。 未公布或未确认年级，留空。"
+        },
+        {
+          "recordId": "iz24-result-21-6",
+          "athleteId": "athlete-iz24-21-6",
+          "observedName": "Robert Miranda",
+          "status": "needs-review",
+          "candidateIds": [],
+          "evidenceSourceIds": [
+            "iuau-iz24-results",
+            "iuau-iz24-roster"
+          ],
+          "reason": "首次收录，未发现注册姓名候选。 未公布或未确认年级，留空。"
+        },
+        {
+          "recordId": "iz24-result-13-3",
+          "athleteId": "athlete-iz24-13-3",
+          "observedName": "松林 直亮",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj25-18-8",
+            "athlete-aj23-26-8",
+            "athlete-iz23-13-3"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz24-results",
+            "iuau-iz24-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz24-result-13-4",
+          "athleteId": "athlete-iz24-13-4",
+          "observedName": "渡部 遼太郎",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-iz23-13-6"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz24-results",
+            "iuau-iz24-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz24-result-13-5",
+          "athleteId": "athlete-iz24-13-5",
+          "observedName": "三林 明弥",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj25-18-5",
+            "athlete-iz23-13-5"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz24-results",
+            "iuau-iz24-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz24-result-01-3",
+          "athleteId": "athlete-iz24-01-3",
+          "observedName": "ムチリ ディラング",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-iz23-01-1"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz24-results",
+            "iuau-iz24-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz24-result-14-1",
+          "athleteId": "athlete-iz24-14-1",
+          "observedName": "河﨑 憲祐",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj25-19-8",
+            "athlete-aj23-19-2"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz24-results",
+            "iuau-iz24-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz24-result-18-6",
+          "athleteId": "athlete-iz24-18-6",
+          "observedName": "旭 隼佑",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj24-23-3"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz24-results",
+            "iuau-iz24-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz24-result-20-1",
+          "athleteId": "athlete-iz24-20-1",
+          "observedName": "大園 倫太郎",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj23-26-6"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz24-results",
+            "iuau-iz24-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz24-result-20-5",
+          "athleteId": "athlete-iz24-20-5",
+          "observedName": "兵藤 颯太",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj26-26-6"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz24-results",
+            "iuau-iz24-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        }
+      ],
+      "missingTeamTotals": []
+    },
+    {
+      "editionId": "izumo-2025",
+      "teams": 22,
+      "universityTeams": 19,
+      "starts": 132,
+      "athletes": 132,
+      "officialFinalRanks": 21,
+      "unrankedTeams": [
+        "team-c40dbde785ee"
+      ],
+      "crossEditionAthletes": 90,
+      "reusedFromEarlierEditions": 55,
+      "resultsSha256": "a0dae7bd0e1a753a363dc60c567d19fa8dbbfbfac2c9a76578694415f1c06842",
+      "review": [
+        {
+          "recordId": "iz25-result-21-1",
+          "athleteId": "athlete-iz25-21-1",
+          "observedName": "Benjamin Rosa",
+          "status": "needs-review",
+          "candidateIds": [],
+          "evidenceSourceIds": [
+            "iuau-iz25-results",
+            "iuau-iz25-roster"
+          ],
+          "reason": "首次收录，未发现注册姓名候选。 未公布或未确认年级，留空。"
+        },
+        {
+          "recordId": "iz25-result-21-2",
+          "athleteId": "athlete-iz25-21-2",
+          "observedName": "Acer Iverson",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-iz24-21-4"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz25-results",
+            "iuau-iz25-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。 未公布或未确认年级，留空。"
+        },
+        {
+          "recordId": "iz25-result-21-3",
+          "athleteId": "athlete-iz25-21-3",
+          "observedName": "Graham Blanks",
+          "status": "needs-review",
+          "candidateIds": [],
+          "evidenceSourceIds": [
+            "iuau-iz25-results",
+            "iuau-iz25-roster"
+          ],
+          "reason": "首次收录，未发现注册姓名候选。 未公布或未确认年级，留空。"
+        },
+        {
+          "recordId": "iz25-result-21-4",
+          "athleteId": "athlete-iz25-21-4",
+          "observedName": "Tyler Berg",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-iz24-21-3"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz25-results",
+            "iuau-iz25-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。 未公布或未确认年级，留空。"
+        },
+        {
+          "recordId": "iz25-result-21-5",
+          "athleteId": "athlete-iz25-21-5",
+          "observedName": "Derek Amicon",
+          "status": "needs-review",
+          "candidateIds": [],
+          "evidenceSourceIds": [
+            "iuau-iz25-results",
+            "iuau-iz25-roster"
+          ],
+          "reason": "首次收录，未发现注册姓名候选。 未公布或未确认年级，留空。"
+        },
+        {
+          "recordId": "iz25-result-21-6",
+          "athleteId": "athlete-iz25-21-6",
+          "observedName": "James Lawrence",
+          "status": "needs-review",
+          "candidateIds": [],
+          "evidenceSourceIds": [
+            "iuau-iz25-results",
+            "iuau-iz25-roster"
+          ],
+          "reason": "首次收录，未发现注册姓名候选。 未公布或未确认年级，留空。"
+        },
+        {
+          "recordId": "iz25-result-11-2",
+          "athleteId": "athlete-iz25-11-2",
+          "observedName": "小柴 裕士郎",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj26-26-1"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz25-results",
+            "iuau-iz25-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz25-result-14-3",
+          "athleteId": "athlete-iz25-14-3",
+          "observedName": "松林 直亮",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj25-18-8",
+            "athlete-aj23-26-8",
+            "athlete-iz23-13-3",
+            "athlete-iz24-13-3"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz25-results",
+            "iuau-iz25-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz25-result-19-1",
+          "athleteId": "athlete-iz25-19-1",
+          "observedName": "山本 涼介",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj25-26-3"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz25-results",
+            "iuau-iz25-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz25-result-16-1",
+          "athleteId": "athlete-iz25-16-1",
+          "observedName": "曽越 祐志",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj25-27-8"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz25-results",
+            "iuau-iz25-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz25-result-16-2",
+          "athleteId": "athlete-iz25-16-2",
+          "observedName": "清水 大斗",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj26-27-1"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz25-results",
+            "iuau-iz25-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz25-result-16-3",
+          "athleteId": "athlete-iz25-16-3",
+          "observedName": "前野 皓士",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj26-27-2"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz25-results",
+            "iuau-iz25-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz25-result-22-1",
+          "athleteId": "athlete-iz25-22-1",
+          "observedName": "東 秀太",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj25-24-1"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz25-results",
+            "iuau-iz25-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz25-result-22-2",
+          "athleteId": "athlete-iz25-22-2",
+          "observedName": "南 凱士",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-iz24-19-3"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz25-results",
+            "iuau-iz25-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz25-result-22-3",
+          "athleteId": "athlete-iz25-22-3",
+          "observedName": "赤澤 京弥",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj24-23-7",
+            "athlete-aj25-26-8"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz25-results",
+            "iuau-iz25-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz25-result-22-5",
+          "athleteId": "athlete-iz25-22-5",
+          "observedName": "木戸 颯",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj24-23-2"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz25-results",
+            "iuau-iz25-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz25-result-22-6",
+          "athleteId": "athlete-iz25-22-6",
+          "observedName": "小川 晴也",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj25-24-3",
+            "athlete-aj26-24-2"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz25-results",
+            "iuau-iz25-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz25-result-15-6",
+          "athleteId": "athlete-iz25-15-6",
+          "observedName": "谷端 良鷹",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj24-24-5"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz25-results",
+            "iuau-iz25-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz25-result-03-1",
+          "athleteId": "athlete-iz25-03-1",
+          "observedName": "萩川 晄",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj25-10-2"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz25-results",
+            "iuau-iz25-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz25-result-03-2",
+          "athleteId": "athlete-iz25-03-2",
+          "observedName": "近江 周",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-iz24-02-5"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz25-results",
+            "iuau-iz25-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz25-result-03-3",
+          "athleteId": "athlete-iz25-03-3",
+          "observedName": "吉田 奏斗",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj25-10-1",
+            "athlete-iz23-02-4"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz25-results",
+            "iuau-iz25-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz25-result-03-4",
+          "athleteId": "athlete-iz25-03-4",
+          "observedName": "千葉 航太",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj24-25-1"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz25-results",
+            "iuau-iz25-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz25-result-03-5",
+          "athleteId": "athlete-iz25-03-5",
+          "observedName": "齋藤 颯希",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj25-10-3",
+            "athlete-iz23-02-1"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz25-results",
+            "iuau-iz25-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        }
+      ],
+      "missingTeamTotals": []
+    },
+    {
+      "editionId": "izumo-2026",
+      "teams": 22,
+      "universityTeams": 19,
+      "starts": 132,
+      "athletes": 132,
+      "officialFinalRanks": 21,
+      "unrankedTeams": [
+        "team-c40dbde785ee"
+      ],
+      "crossEditionAthletes": 82,
+      "reusedFromEarlierEditions": 57,
+      "resultsSha256": "bcd632ecba6fbdbcb0009877b88b66e8f2ee057322e159f164c1498a9cffd20e",
+      "review": [
+        {
+          "recordId": "iz26-result-21-1",
+          "athleteId": "athlete-iz26-21-1",
+          "observedName": "Nick Bendtsen",
+          "status": "needs-review",
+          "candidateIds": [],
+          "evidenceSourceIds": [
+            "iuau-iz26-results",
+            "iuau-iz26-roster"
+          ],
+          "reason": "首次收录，未发现注册姓名候选。 未公布或未确认年级，留空。"
+        },
+        {
+          "recordId": "iz26-result-21-2",
+          "athleteId": "athlete-iz26-21-2",
+          "observedName": "Myles Hogan",
+          "status": "needs-review",
+          "candidateIds": [],
+          "evidenceSourceIds": [
+            "iuau-iz26-results",
+            "iuau-iz26-roster"
+          ],
+          "reason": "首次收录，未发现注册姓名候选。 未公布或未确认年级，留空。"
+        },
+        {
+          "recordId": "iz26-result-21-3",
+          "athleteId": "athlete-iz26-21-3",
+          "observedName": "Graham Blanks",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-iz25-21-3"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz26-results",
+            "iuau-iz26-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。 未公布或未确认年级，留空。"
+        },
+        {
+          "recordId": "iz26-result-21-4",
+          "athleteId": "athlete-iz26-21-4",
+          "observedName": "Tyler Berg",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-iz24-21-3",
+            "athlete-iz25-21-4"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz26-results",
+            "iuau-iz26-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。 未公布或未确认年级，留空。"
+        },
+        {
+          "recordId": "iz26-result-21-5",
+          "athleteId": "athlete-iz26-21-5",
+          "observedName": "Derek Amicon",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-iz25-21-5"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz26-results",
+            "iuau-iz26-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。 未公布或未确认年级，留空。"
+        },
+        {
+          "recordId": "iz26-result-21-6",
+          "athleteId": "athlete-iz26-21-6",
+          "observedName": "Acer Iverson",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-iz24-21-4",
+            "athlete-iz25-21-2"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz26-results",
+            "iuau-iz26-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。 未公布或未确认年级，留空。"
+        },
+        {
+          "recordId": "iz26-result-17-3",
+          "athleteId": "athlete-iz26-17-3",
+          "observedName": "坂本 亘生",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj24-19-4",
+            "athlete-aj25-21-6",
+            "athlete-aj26-26-4"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz26-results",
+            "iuau-iz26-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz26-result-03-1",
+          "athleteId": "athlete-iz26-03-1",
+          "observedName": "吉田 奏斗",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj25-10-1",
+            "athlete-iz23-02-4",
+            "athlete-iz25-03-3"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz26-results",
+            "iuau-iz26-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz26-result-03-2",
+          "athleteId": "athlete-iz26-03-2",
+          "observedName": "萩川 晄",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj25-10-2",
+            "athlete-iz25-03-1"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz26-results",
+            "iuau-iz26-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz26-result-03-3",
+          "athleteId": "athlete-iz26-03-3",
+          "observedName": "近江 周",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-iz24-02-5",
+            "athlete-iz25-03-2"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz26-results",
+            "iuau-iz26-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz26-result-03-4",
+          "athleteId": "athlete-iz26-03-4",
+          "observedName": "松本 諒哉",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj26-10-1"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz26-results",
+            "iuau-iz26-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz26-result-03-5",
+          "athleteId": "athlete-iz26-03-5",
+          "observedName": "向田 祐翔",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj24-25-8",
+            "athlete-aj26-10-8"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz26-results",
+            "iuau-iz26-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz26-result-03-6",
+          "athleteId": "athlete-iz26-03-6",
+          "observedName": "岡田 卓",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-iz25-03-6"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz26-results",
+            "iuau-iz26-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz26-result-14-2",
+          "athleteId": "athlete-iz26-14-2",
+          "observedName": "福嶋 明大",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj26-18-3"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz26-results",
+            "iuau-iz26-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz26-result-19-1",
+          "athleteId": "athlete-iz26-19-1",
+          "observedName": "小川 晴也",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj25-24-3",
+            "athlete-aj26-24-2",
+            "athlete-iz25-22-6"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz26-results",
+            "iuau-iz26-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz26-result-22-1",
+          "athleteId": "athlete-iz26-22-1",
+          "observedName": "木戸 颯",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj24-23-2",
+            "athlete-iz25-22-5"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz26-results",
+            "iuau-iz26-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz26-result-22-4",
+          "athleteId": "athlete-iz26-22-4",
+          "observedName": "佐野 泰斗",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-aj23-24-4"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz26-results",
+            "iuau-iz26-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz26-result-22-6",
+          "athleteId": "athlete-iz26-22-6",
+          "observedName": "角南 祐行",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-iz25-19-6"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz26-results",
+            "iuau-iz26-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz26-result-02-1",
+          "athleteId": "athlete-iz26-02-1",
+          "observedName": "大野 憲尚",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-iz25-02-2"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz26-results",
+            "iuau-iz26-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz26-result-02-3",
+          "athleteId": "athlete-iz26-02-3",
+          "observedName": "奥村 日向",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-iz25-02-1"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz26-results",
+            "iuau-iz26-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
+        },
+        {
+          "recordId": "iz26-result-02-6",
+          "athleteId": "athlete-iz26-02-6",
+          "observedName": "秋野 僚太",
+          "status": "needs-review",
+          "candidateIds": [
+            "athlete-iz25-02-6"
+          ],
+          "evidenceSourceIds": [
+            "iuau-iz26-results",
+            "iuau-iz26-roster"
+          ],
+          "reason": "姓名候选存在，但大学/年级证据不足或存在歧义，保持独立ID。"
         }
       ],
       "missingTeamTotals": []

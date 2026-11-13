@@ -4,6 +4,11 @@
       "id": "all-japan",
       "name": "全日本大学駅伝",
       "sourceId": "official-2024"
+    },
+    {
+      "id": "izumo",
+      "name": "出雲全日本大学選抜駅伝",
+      "sourceId": "iuau-iz23-results"
     }
   ],
   "universities": [
@@ -206,6 +211,51 @@
       "id": "university-96e731540e16",
       "name": "愛知工業大",
       "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "university-29abf9102602",
+      "name": "法政大学",
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "university-cbd863bd7858",
+      "name": "第一工科大学",
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "university-6fe078b38bfe",
+      "name": "新潟医療福祉大",
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "university-023cc44e18f1",
+      "name": "星槎道都大",
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "university-5ae26e52c2d1",
+      "name": "鹿屋体育大学",
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "university-c735c704d4d5",
+      "name": "広島大学",
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "university-9c204ad92d5d",
+      "name": "山形大",
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "university-800953e13eb7",
+      "name": "北海道大学",
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "university-cd0e5b208f0c",
+      "name": "金沢学院大学",
+      "sourceId": "iuau-iz26-results"
     }
   ],
   "athletes": [
@@ -3916,6 +3966,1098 @@
       "name": "田中 瑞輝",
       "birthDate": null,
       "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "athlete-iz23-11-3",
+      "name": "ウ゛ィクター キムタイ",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-12-4",
+      "name": "松山 和希",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-12-5",
+      "name": "菅野 大輝",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-09-1",
+      "name": "松永 伶",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-09-2",
+      "name": "大島 史也",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-09-3",
+      "name": "武田 和馬",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-09-4",
+      "name": "安澤 駿空",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-09-5",
+      "name": "永島 悠平",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-09-6",
+      "name": "稲毛 崇斗",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-07-4",
+      "name": "海老澤 憲伸",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-07-5",
+      "name": "森本 喜道",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-21-1",
+      "name": "Hugo Milner",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-21-2",
+      "name": "Will Battershill",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-21-3",
+      "name": "Matthew Pereira",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-21-4",
+      "name": "Jakob Kintzele",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-21-5",
+      "name": "Owen Ritz",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-21-6",
+      "name": "Kevin Berry",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-18-1",
+      "name": "横田 吏功",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-18-3",
+      "name": "藤井 奏汰",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-18-6",
+      "name": "小石原 映",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-16-4",
+      "name": "北辻 巴樹",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-01-1",
+      "name": "ムチリ ディラング",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-01-2",
+      "name": "山崎 樹羅",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-01-3",
+      "name": "渡邊 隼翼",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-01-4",
+      "name": "佐藤 匠",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-01-5",
+      "name": "中嶋 光柾",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-01-6",
+      "name": "大栁 達哉",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-13-1",
+      "name": "中戸 元貴",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-13-2",
+      "name": "二宮 秀",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-13-3",
+      "name": "松林 直亮",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-13-4",
+      "name": "上甲 和樹",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-13-5",
+      "name": "三林 明弥",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-13-6",
+      "name": "渡部 遼太郎",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-14-2",
+      "name": "山田 奏楽",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-14-6",
+      "name": "松野 颯斗",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-20-1",
+      "name": "チェボティビン サイラス キプラガト",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-20-2",
+      "name": "大藪 優一郎",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-20-3",
+      "name": "谷口 一希",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-20-4",
+      "name": "東 汰騎",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-20-5",
+      "name": "小川 耀平",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-20-6",
+      "name": "出水 愛翔",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-02-1",
+      "name": "齋藤 颯希",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-02-2",
+      "name": "齋藤 陸杜",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-02-3",
+      "name": "新美 和哉",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-02-4",
+      "name": "吉田 奏斗",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-02-5",
+      "name": "田口 翔",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-02-6",
+      "name": "関 尚輝",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-15-4",
+      "name": "井上 瑞貴",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz23-10-3",
+      "name": "リーキ カミナ",
+      "birthDate": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "athlete-iz24-21-1",
+      "name": "Kieran Tuntivate",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-21-2",
+      "name": "Will Battershill",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-21-3",
+      "name": "Tyler Berg",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-21-4",
+      "name": "Acer Iverson",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-21-5",
+      "name": "Matthew Pereira",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-21-6",
+      "name": "Robert Miranda",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-05-2",
+      "name": "山中 達貴",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-08-2",
+      "name": "野田 晶斗",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-08-3",
+      "name": "小泉 樹",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-08-5",
+      "name": "矢原 倖瑛",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-08-6",
+      "name": "宮岡 幸大",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-12-3",
+      "name": "キプロップ エヴァンス",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-12-4",
+      "name": "小田 恭平",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-06-3",
+      "name": "網本 佳悟",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-13-3",
+      "name": "松林 直亮",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-13-4",
+      "name": "渡部 遼太郎",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-13-5",
+      "name": "三林 明弥",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-01-3",
+      "name": "ムチリ ディラング",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-14-1",
+      "name": "河﨑 憲祐",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-18-6",
+      "name": "旭 隼佑",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-20-1",
+      "name": "大園 倫太郎",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-20-2",
+      "name": "東 純大",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-20-3",
+      "name": "内田 大樹",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-20-4",
+      "name": "山口 大貴",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-20-5",
+      "name": "兵藤 颯太",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-20-6",
+      "name": "中原 敬輝",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-19-1",
+      "name": "大森 勇輝",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-19-2",
+      "name": "菊永 翔太",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-19-3",
+      "name": "南 凱士",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-19-4",
+      "name": "橋井 佑空",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-19-5",
+      "name": "遠藤 浩太郎",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-19-6",
+      "name": "伊藤 信雄",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-17-5",
+      "name": "大濵 遥喜",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-02-2",
+      "name": "伊藤 拓真",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz24-02-5",
+      "name": "近江 周",
+      "birthDate": null,
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "athlete-iz25-07-4",
+      "name": "佐々木 哲",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-21-1",
+      "name": "Benjamin Rosa",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-21-2",
+      "name": "Acer Iverson",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-21-3",
+      "name": "Graham Blanks",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-21-4",
+      "name": "Tyler Berg",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-21-5",
+      "name": "Derek Amicon",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-21-6",
+      "name": "James Lawrence",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-04-4",
+      "name": "神邑 亮佑",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-13-3",
+      "name": "小林 咲冴",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-12-5",
+      "name": "馬場 アンジェロ光",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-08-2",
+      "name": "濵口 大和",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-11-2",
+      "name": "小柴 裕士郎",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-11-3",
+      "name": "リチャード エティーリ",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-11-5",
+      "name": "久保 遼人",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-14-3",
+      "name": "松林 直亮",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-19-1",
+      "name": "山本 涼介",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-19-2",
+      "name": "松下 俊海",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-19-5",
+      "name": "本岡 春穏",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-19-6",
+      "name": "角南 祐行",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-16-1",
+      "name": "曽越 祐志",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-16-2",
+      "name": "清水 大斗",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-16-3",
+      "name": "前野 皓士",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-16-4",
+      "name": "塩見 昊瑛",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-16-5",
+      "name": "松葉 琥太郎",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-22-1",
+      "name": "東 秀太",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-22-2",
+      "name": "南 凱士",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-22-3",
+      "name": "赤澤 京弥",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-22-4",
+      "name": "橋本 怜弥",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-22-5",
+      "name": "木戸 颯",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-22-6",
+      "name": "小川 晴也",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-17-3",
+      "name": "武内 里賢",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-17-5",
+      "name": "西村 稜太",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-15-2",
+      "name": "志賀 風太",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-15-4",
+      "name": "遠藤 皓大",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-15-5",
+      "name": "小木曽 翔太",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-15-6",
+      "name": "谷端 良鷹",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-03-1",
+      "name": "萩川 晄",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-03-2",
+      "name": "近江 周",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-03-3",
+      "name": "吉田 奏斗",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-03-4",
+      "name": "千葉 航太",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-03-5",
+      "name": "齋藤 颯希",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-03-6",
+      "name": "岡田 卓",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-02-1",
+      "name": "奥村 日向",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-02-2",
+      "name": "大野 憲尚",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-02-3",
+      "name": "大久保 伸一",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-02-4",
+      "name": "竹中 順思",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-02-5",
+      "name": "米井 太位鷹",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz25-02-6",
+      "name": "秋野 僚太",
+      "birthDate": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "athlete-iz26-21-1",
+      "name": "Nick Bendtsen",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-21-2",
+      "name": "Myles Hogan",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-21-3",
+      "name": "Graham Blanks",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-21-4",
+      "name": "Tyler Berg",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-21-5",
+      "name": "Derek Amicon",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-21-6",
+      "name": "Acer Iverson",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-06-4",
+      "name": "佐藤 賢仁",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-13-6",
+      "name": "𣘺本 櫂知",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-roster"
+    },
+    {
+      "id": "athlete-iz26-10-1",
+      "name": "山本 聖也",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-10-3",
+      "name": "ルト アロン",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-10-4",
+      "name": "橋本 健市",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-04-6",
+      "name": "前川 竜之将",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-17-3",
+      "name": "坂本 亘生",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-17-5",
+      "name": "信田 亮太",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-03-1",
+      "name": "吉田 奏斗",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-03-2",
+      "name": "萩川 晄",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-03-3",
+      "name": "近江 周",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-03-4",
+      "name": "松本 諒哉",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-03-5",
+      "name": "向田 祐翔",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-03-6",
+      "name": "岡田 卓",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-16-3",
+      "name": "日古見 那由他",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-14-2",
+      "name": "福嶋 明大",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-14-4",
+      "name": "和久津 友杜",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-18-1",
+      "name": "小郷 紘矢",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-18-2",
+      "name": "重谷 斗貴",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-19-1",
+      "name": "小川 晴也",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-22-1",
+      "name": "木戸 颯",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-22-2",
+      "name": "村井 冠太",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-22-3",
+      "name": "田川 滉介",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-22-4",
+      "name": "佐野 泰斗",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-22-5",
+      "name": "岡本 颯太",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-22-6",
+      "name": "角南 祐行",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-20-1",
+      "name": "チェボティビン サイラスキプラガット",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-20-2",
+      "name": "山﨑 誠也",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-20-3",
+      "name": "清水 喜一郎",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-20-4",
+      "name": "古谷 大翔",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-20-5",
+      "name": "大良 優斗",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-20-6",
+      "name": "森 大空",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-15-1",
+      "name": "浦野 蒼日",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-15-2",
+      "name": "金森 柊弥",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-15-3",
+      "name": "佐々木 彪我",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-15-4",
+      "name": "加藤 快都",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-15-5",
+      "name": "片桐 遥久",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-15-6",
+      "name": "山田 琢心",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-02-1",
+      "name": "大野 憲尚",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-02-2",
+      "name": "宮瀬 陸",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-02-3",
+      "name": "奥村 日向",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-02-4",
+      "name": "船山 柚樹",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-02-5",
+      "name": "林 啓樹",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
+    },
+    {
+      "id": "athlete-iz26-02-6",
+      "name": "秋野 僚太",
+      "birthDate": null,
+      "sourceId": "iuau-iz26-results"
     }
   ],
   "sources": [
@@ -4230,6 +5372,83 @@
       "kind": "university",
       "universityId": "university-96e731540e16",
       "sourceId": "iuau-aj26-results"
+    },
+    {
+      "id": "team-university-29abf9102602",
+      "name": "法政大学",
+      "kind": "university",
+      "universityId": "university-29abf9102602",
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "team-6d11fce7a336",
+      "name": "アイビーリーグ選抜",
+      "kind": "overseas-selection",
+      "universityId": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "team-ed3179a493a4",
+      "name": "北海道学連選抜",
+      "kind": "association-selection",
+      "universityId": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "team-94d29474a338",
+      "name": "北信越学連選抜",
+      "kind": "association-selection",
+      "universityId": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "team-university-cbd863bd7858",
+      "name": "第一工科大学",
+      "kind": "university",
+      "universityId": "university-cbd863bd7858",
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "team-f6ca6799da6f",
+      "name": "東北学連選抜",
+      "kind": "association-selection",
+      "universityId": null,
+      "sourceId": "iuau-iz23-results"
+    },
+    {
+      "id": "team-university-5ae26e52c2d1",
+      "name": "鹿屋体育大学",
+      "kind": "university",
+      "universityId": "university-5ae26e52c2d1",
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "team-university-c735c704d4d5",
+      "name": "広島大学",
+      "kind": "university",
+      "universityId": "university-c735c704d4d5",
+      "sourceId": "iuau-iz24-results"
+    },
+    {
+      "id": "team-c40dbde785ee",
+      "name": "中国四国学連選抜",
+      "kind": "association-selection",
+      "universityId": null,
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "team-university-800953e13eb7",
+      "name": "北海道大学",
+      "kind": "university",
+      "universityId": "university-800953e13eb7",
+      "sourceId": "iuau-iz25-results"
+    },
+    {
+      "id": "team-university-cd0e5b208f0c",
+      "name": "金沢学院大学",
+      "kind": "university",
+      "universityId": "university-cd0e5b208f0c",
+      "sourceId": "iuau-iz26-results"
     }
   ]
 }

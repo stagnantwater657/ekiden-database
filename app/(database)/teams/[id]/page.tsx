@@ -21,7 +21,7 @@ export default async function Page({
         description={
           team.kind === "university"
             ? "正式大学队参赛记录"
-            : "选拔队参赛记录；参考成绩不参与正式大学综合排名。"
+            : "选拔队参赛记录；排名资格依各届官方结果。"
         }
       >
         {team.name}

@@ -4,7 +4,7 @@
     "number": 35,
     "year": 2023,
     "seasonYear": 2023,
-    "status": "not-imported",
+    "status": "imported",
     "revisionRequirement": "Use official February 2024 revised results; pre-revision data must not be published."
   },
   {
@@ -26,7 +26,7 @@
     "number": 36,
     "year": 2024,
     "seasonYear": 2024,
-    "status": "not-imported"
+    "status": "imported"
   },
   {
     "raceId": "all-japan",
@@ -47,7 +47,7 @@
     "number": 37,
     "year": 2025,
     "seasonYear": 2025,
-    "status": "not-imported"
+    "status": "imported"
   },
   {
     "raceId": "all-japan",
@@ -68,7 +68,7 @@
     "number": 38,
     "year": 2026,
     "seasonYear": 2026,
-    "status": "not-imported"
+    "status": "imported"
   },
   {
     "raceId": "all-japan",

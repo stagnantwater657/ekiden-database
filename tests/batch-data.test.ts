@@ -5,7 +5,7 @@ import { database, registry, batches } from '../data/index.ts';
 import { validateImport } from '../lib/importer.ts';
 import { assembleDatabase } from '../lib/data-assembly.ts';
 import { formatTime } from '../lib/query.ts';
-for(const [id,teams,results,ranks] of [['all-japan-2023',27,216,24],['all-japan-2026',27,216,25]] as const){
+for(const [id,teams,results,ranks] of [['all-japan-2023',27,216,24],['all-japan-2026',27,216,25],['izumo-2023',21,126,19],['izumo-2024',21,126,21],['izumo-2025',22,132,21],['izumo-2026',22,132,21]] as const){
  test(`${id}: full official counts, independent facts, complete teams and repeatability`,()=>{
   const b=batches.find(b=>b.edition.id===id)!;
   assert.equal(b.entries.length,teams);assert.equal(b.results.length,results);assert.equal(b.entries.filter(e=>e.finalRank!==null).length,ranks);
@@ -28,4 +28,17 @@ test('2023 Tohoku Gakuin withdrawal retains later unranked reference legs withou
  const rows=b.results.filter(r=>r.entryId===e.id);assert.equal(rows.length,8);
  assert.equal(rows[4].timeSeconds,null);assert.equal(rows[4].status,'did-not-finish');
  assert.ok(rows.slice(5).every(r=>r.status==='reference' && r.rank===null && r.timeSeconds!==null));
+});
+
+test('Izumo official selection ranks are edition-specific and revised disqualifications stay empty',()=>{
+ const b=batches.find(b=>b.edition.id==='izumo-2023')!;
+ const soka=b.entries.find(e=>e.universityId==='soka')!;
+ assert.equal(soka.status,'disqualified');assert.equal(soka.finalRank,null);
+ assert.ok(b.results.filter(r=>r.entryId===soka.id).every(r=>r.status==='disqualified' && r.timeSeconds===null && r.rank===null));
+ const ivy=b.entries.find(e=>database.teams.find(t=>t.id===e.teamId)?.kind==='overseas-selection')!;
+ assert.equal(ivy.finalRank,12);assert.equal(ivy.rankingEligibility,'official');
+ const invalid=structuredClone(b);invalid.entries.find(e=>e.id===ivy.id)!.rankingEligibility='reference';
+ assert.throws(()=>validateImport(registry,batches.filter(x=>x!==b),invalid),/Non-official/);
+ const opn=batches.find(b=>b.edition.id==='izumo-2025')!.entries.find(e=>e.status==='reference')!;
+ assert.equal(opn.finalRank,null);assert.equal(opn.rankingEligibility,'reference');
 });

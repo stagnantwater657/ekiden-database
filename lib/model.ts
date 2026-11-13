@@ -59,6 +59,8 @@ export type ResultStatus =
   | "unknown";
 // Team membership belongs to this edition, never to the athlete's identity.
 export interface Entry extends Sourced {
+  // Eligibility is edition-specific: Izumo officially ranks some selection teams.
+  rankingEligibility?: "official" | "reference";
   finalRank: number | null;
   finalRankSourceId: string | null;
   editionId: string;

@@ -124,8 +124,13 @@ export function validateDatabase(db: Database): void {
     const team = db.teams.find((t) => t.id === entry.teamId)!;
     if (entry.universityId !== team.universityId)
       throw new Error("Entry/team affiliation mismatch");
+    if (entry.rankingEligibility !== undefined &&
+      !["official", "reference"].includes(entry.rankingEligibility))
+      throw new Error("Unknown ranking eligibility");
+    const eligibility = entry.rankingEligibility ??
+      (team.kind === "university" ? "official" : "reference");
     if (
-      (team.kind !== "university" || entry.status !== "finished") &&
+      (eligibility !== "official" || entry.status !== "finished") &&
       entry.finalRank !== null
     )
       throw new Error("Non-official entry cannot have final rank");

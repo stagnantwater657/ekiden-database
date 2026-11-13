@@ -4726,5 +4726,4133 @@
     "season": 2025,
     "grade": "2",
     "sourceId": "iuau-aj2025-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-05-1",
+    "name": "本田 桜二郎",
+    "universityId": "waseda",
+    "season": 2026,
+    "grade": "1",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-05-2",
+    "name": "増子 陽太",
+    "universityId": "waseda",
+    "season": 2026,
+    "grade": "1",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-05-3",
+    "name": "新妻 遼己",
+    "universityId": "waseda",
+    "season": 2026,
+    "grade": "1",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-05-5",
+    "name": "小平 敦之",
+    "universityId": "waseda",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-05-2",
+    "name": "鈴木 琉胤",
+    "universityId": "waseda",
+    "season": 2026,
+    "grade": "2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-05-3",
+    "name": "堀野 正太",
+    "universityId": "waseda",
+    "season": 2026,
+    "grade": "2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-05-5",
+    "name": "山口 竣平",
+    "universityId": "waseda",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-05-8",
+    "name": "工藤 慎作",
+    "universityId": "waseda",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-01-1",
+    "name": "尾熊 迅斗",
+    "universityId": "kokugakuin",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-01-6",
+    "name": "浅野 結太",
+    "universityId": "kokugakuin",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-01-3",
+    "name": "辻原 輝",
+    "universityId": "kokugakuin",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-01-5",
+    "name": "飯國 新太",
+    "universityId": "kokugakuin",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-04-5",
+    "name": "鼻野木 悠翔",
+    "universityId": "kokugakuin",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-04-6",
+    "name": "吉田 蔵之介",
+    "universityId": "kokugakuin",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-01-5",
+    "name": "野中 恒亨",
+    "universityId": "kokugakuin",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-04-8",
+    "name": "髙石 樹",
+    "universityId": "kokugakuin",
+    "season": 2026,
+    "grade": "2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-07-1",
+    "name": "田村 幸太",
+    "universityId": "soka",
+    "season": 2026,
+    "grade": "1",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-04-4",
+    "name": "織橋 巧",
+    "universityId": "soka",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-07-3",
+    "name": "菅野 元太",
+    "universityId": "soka",
+    "season": 2026,
+    "grade": "1",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-04-2",
+    "name": "小池 莉希",
+    "universityId": "soka",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-07-5",
+    "name": "村上 遵世",
+    "universityId": "soka",
+    "season": 2026,
+    "grade": "1",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-04-6",
+    "name": "榎木 凜太朗",
+    "universityId": "soka",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-04-5",
+    "name": "スティーブン ムチーニ",
+    "universityId": "soka",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-04-4",
+    "name": "山口 翔輝",
+    "universityId": "soka",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-03-1",
+    "name": "榅山 一颯",
+    "universityId": "aoyama-gakuin",
+    "season": 2026,
+    "grade": "2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-03-2",
+    "name": "石川 浩輝",
+    "universityId": "aoyama-gakuin",
+    "season": 2026,
+    "grade": "2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-03-3",
+    "name": "松田 煌希",
+    "universityId": "aoyama-gakuin",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-03-4",
+    "name": "黒田 然",
+    "universityId": "aoyama-gakuin",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-03-8",
+    "name": "小河原 陽琉",
+    "universityId": "aoyama-gakuin",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-03-6",
+    "name": "飯田 翔大",
+    "universityId": "aoyama-gakuin",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-03-7",
+    "name": "平松 享祐",
+    "universityId": "aoyama-gakuin",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-03-8",
+    "name": "鳥井 健太",
+    "universityId": "aoyama-gakuin",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-02-1",
+    "name": "簡 子傑",
+    "universityId": "chuo",
+    "season": 2026,
+    "grade": "1",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-02-2",
+    "name": "栗村 凌",
+    "universityId": "chuo",
+    "season": 2026,
+    "grade": "1",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-12-6",
+    "name": "佐藤 大介",
+    "universityId": "chuo",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-11-4",
+    "name": "柴田 大地",
+    "universityId": "chuo",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-11-5",
+    "name": "三宅 悠斗",
+    "universityId": "chuo",
+    "season": 2026,
+    "grade": "2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-02-6",
+    "name": "並川 颯太",
+    "universityId": "chuo",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-12-2",
+    "name": "岡田 開成",
+    "universityId": "chuo",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-11-3",
+    "name": "藤田 大智",
+    "universityId": "chuo",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-01-1",
+    "name": "上岡 煌",
+    "universityId": "komazawa",
+    "season": 2026,
+    "grade": "2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-01-2",
+    "name": "鈴木 大翔",
+    "universityId": "komazawa",
+    "season": 2026,
+    "grade": "1",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-01-3",
+    "name": "牟田 凜太",
+    "universityId": "komazawa",
+    "season": 2026,
+    "grade": "2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-01-4",
+    "name": "池谷 陸斗",
+    "universityId": "komazawa",
+    "season": 2026,
+    "grade": "1",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-01-5",
+    "name": "植阪 嶺児",
+    "universityId": "komazawa",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-01-6",
+    "name": "菅谷 希弥",
+    "universityId": "komazawa",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-02-2",
+    "name": "桑田 駿介",
+    "universityId": "komazawa",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-01-8",
+    "name": "新谷 倖生",
+    "universityId": "komazawa",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-13-1",
+    "name": "近江 亮",
+    "universityId": "daito-bunka",
+    "season": 2026,
+    "grade": "1",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-11-1",
+    "name": "大濱 逞真",
+    "universityId": "daito-bunka",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-12-6",
+    "name": "上田 翔大",
+    "universityId": "daito-bunka",
+    "season": 2026,
+    "grade": "2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-12-1",
+    "name": "菅﨑 大翔",
+    "universityId": "daito-bunka",
+    "season": 2026,
+    "grade": "2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-11-5",
+    "name": "棟方 一楽",
+    "universityId": "daito-bunka",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-13-6",
+    "name": "エヴァンス キプロップ",
+    "universityId": "daito-bunka",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-13-7",
+    "name": "藤原 幹大",
+    "universityId": "daito-bunka",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-12-8",
+    "name": "松浦 輝仁",
+    "universityId": "daito-bunka",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-06-1",
+    "name": "松尾 航希",
+    "universityId": "teikyo",
+    "season": 2026,
+    "grade": "1",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-08-6",
+    "name": "楠岡 由浩",
+    "universityId": "teikyo",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-06-3",
+    "name": "松井 一",
+    "universityId": "teikyo",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-08-4",
+    "name": "廣田 陸",
+    "universityId": "teikyo",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-06-5",
+    "name": "浅野 智仁",
+    "universityId": "teikyo",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-08-3",
+    "name": "原 悠太",
+    "universityId": "teikyo",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-08-4",
+    "name": "谷口 颯太",
+    "universityId": "teikyo",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-08-8",
+    "name": "浅川 侑大",
+    "universityId": "teikyo",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-08-1",
+    "name": "大野 聖登",
+    "universityId": "juntendo",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-13-1",
+    "name": "吉岡 大翔",
+    "universityId": "juntendo",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-08-3",
+    "name": "池間 凛斗",
+    "universityId": "juntendo",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-08-4",
+    "name": "今井 悠貴",
+    "universityId": "juntendo",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-13-3",
+    "name": "山本 悠",
+    "universityId": "juntendo",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-13-4",
+    "name": "永原 颯磨",
+    "universityId": "juntendo",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-08-7",
+    "name": "玉目 陸",
+    "universityId": "juntendo",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-13-8",
+    "name": "小林 侑世",
+    "universityId": "juntendo",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-11-1",
+    "name": "首藤 海翔",
+    "universityId": "nihon",
+    "season": 2026,
+    "grade": "1",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-14-3",
+    "name": "天野 啓太",
+    "universityId": "nihon",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-11-3",
+    "name": "後藤 玄樹",
+    "universityId": "nihon",
+    "season": 2026,
+    "grade": "2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-14-2",
+    "name": "山口 聡太",
+    "universityId": "nihon",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-11-6",
+    "name": "石川 悠斗",
+    "universityId": "nihon",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-14-7",
+    "name": "シャドラック キップケメイ",
+    "universityId": "nihon",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-14-5",
+    "name": "長澤 辰朗",
+    "universityId": "nihon",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-12-1",
+    "name": "矢口 陽太",
+    "universityId": "tokai",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-15-2",
+    "name": "永本 脩",
+    "universityId": "tokai",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-15-6",
+    "name": "平井 璃空",
+    "universityId": "tokai",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-15-5",
+    "name": "松山 優太",
+    "universityId": "tokai",
+    "season": 2026,
+    "grade": "2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-12-5",
+    "name": "松山 唯人",
+    "universityId": "tokai",
+    "season": 2026,
+    "grade": "2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-12-6",
+    "name": "佐野 鈴太",
+    "universityId": "tokai",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-15-4",
+    "name": "中野 純平",
+    "universityId": "tokai",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-15-7",
+    "name": "南坂 柚汰",
+    "universityId": "tokai",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-14-1",
+    "name": "北村 海智",
+    "universityId": "kanagawa",
+    "season": 2026,
+    "grade": "1",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-14-2",
+    "name": "上田 航大",
+    "universityId": "kanagawa",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-14-3",
+    "name": "平川 瑠星",
+    "universityId": "kanagawa",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-14-4",
+    "name": "山崎 碧葉",
+    "universityId": "kanagawa",
+    "season": 2026,
+    "grade": "1",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-14-5",
+    "name": "新妻 昂己",
+    "universityId": "kanagawa",
+    "season": 2026,
+    "grade": "1",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-14-6",
+    "name": "新妻 玲旺",
+    "universityId": "kanagawa",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-14-1",
+    "name": "大岩 蓮",
+    "universityId": "kanagawa",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-14-8",
+    "name": "花井 創",
+    "universityId": "kanagawa",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-16-1",
+    "name": "米田 昂太",
+    "universityId": "chuo-gakuin",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-16-3",
+    "name": "市川 大世",
+    "universityId": "chuo-gakuin",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-16-7",
+    "name": "長部 虎太郎",
+    "universityId": "chuo-gakuin",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-16-4",
+    "name": "長友 英吾",
+    "universityId": "chuo-gakuin",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-16-5",
+    "name": "一ノ瀬 慎太",
+    "universityId": "chuo-gakuin",
+    "season": 2026,
+    "grade": "2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-16-6",
+    "name": "徳善 龍",
+    "universityId": "chuo-gakuin",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-16-8",
+    "name": "林 愛斗",
+    "universityId": "chuo-gakuin",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-16-8",
+    "name": "小川 優晴",
+    "universityId": "chuo-gakuin",
+    "season": 2026,
+    "grade": "2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-17-1",
+    "name": "和田 瑛登",
+    "universityId": "university-ae98ed970e35",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-17-2",
+    "name": "占部 大和",
+    "universityId": "university-ae98ed970e35",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-17-3",
+    "name": "松岡 一星",
+    "universityId": "university-ae98ed970e35",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-17-5",
+    "name": "高橋 楓河",
+    "universityId": "university-ae98ed970e35",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-17-6",
+    "name": "綱本 幸栄",
+    "universityId": "university-ae98ed970e35",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-17-7",
+    "name": "平井 翼",
+    "universityId": "university-ae98ed970e35",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-17-8",
+    "name": "ブライアン キピエゴ",
+    "universityId": "university-ae98ed970e35",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-15-1",
+    "name": "林 柚杏",
+    "universityId": "toyo",
+    "season": 2026,
+    "grade": "1",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-15-2",
+    "name": "内堀 勇",
+    "universityId": "toyo",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-15-3",
+    "name": "松井 海斗",
+    "universityId": "toyo",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-15-4",
+    "name": "宮崎 優",
+    "universityId": "toyo",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-15-5",
+    "name": "迎 暖人",
+    "universityId": "toyo",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-15-6",
+    "name": "倉本 晃羽",
+    "universityId": "toyo",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-15-7",
+    "name": "馬場 大翔",
+    "universityId": "toyo",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-08-5",
+    "name": "薄根 大河",
+    "universityId": "toyo",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-23-1",
+    "name": "山下 慶馬",
+    "universityId": "kwansei-gakuin",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-23-2",
+    "name": "寺川 直央",
+    "universityId": "kwansei-gakuin",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-23-3",
+    "name": "久山 大祐",
+    "universityId": "kwansei-gakuin",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-22-4",
+    "name": "上井 卓巳",
+    "universityId": "kwansei-gakuin",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-23-5",
+    "name": "冨永 己太朗",
+    "universityId": "kwansei-gakuin",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-23-6",
+    "name": "片山 堅友",
+    "universityId": "kwansei-gakuin",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-23-7",
+    "name": "尼子 和磨",
+    "universityId": "kwansei-gakuin",
+    "season": 2026,
+    "grade": "2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-23-8",
+    "name": "嘉味本 謙信",
+    "universityId": "kwansei-gakuin",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-21-1",
+    "name": "桂 一太",
+    "universityId": "osaka-keizai",
+    "season": 2026,
+    "grade": "1",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-18-1",
+    "name": "岩坂 蓮太",
+    "universityId": "osaka-keizai",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-21-3",
+    "name": "三浦 璃空",
+    "universityId": "osaka-keizai",
+    "season": 2026,
+    "grade": "1",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-18-6",
+    "name": "内尾 射光矢",
+    "universityId": "osaka-keizai",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-21-5",
+    "name": "橋本 友樹",
+    "universityId": "osaka-keizai",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-21-6",
+    "name": "卯野 大樹",
+    "universityId": "osaka-keizai",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-18-5",
+    "name": "京川 大真",
+    "universityId": "osaka-keizai",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-22-8",
+    "name": "野島 清盟",
+    "universityId": "osaka-keizai",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-23-1",
+    "name": "水野 颯也",
+    "universityId": "ritsumeikan",
+    "season": 2026,
+    "grade": "2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-22-1",
+    "name": "柏木 優希",
+    "universityId": "ritsumeikan",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-22-4",
+    "name": "児玉 航洋",
+    "universityId": "ritsumeikan",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-23-4",
+    "name": "藪田 虎志朗",
+    "universityId": "ritsumeikan",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-23-5",
+    "name": "髙橋 早大",
+    "universityId": "ritsumeikan",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-23-6",
+    "name": "橋本 和希",
+    "universityId": "ritsumeikan",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-22-6",
+    "name": "髙田 智生",
+    "universityId": "ritsumeikan",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-23-8",
+    "name": "矢谷 隆斗",
+    "universityId": "ritsumeikan",
+    "season": 2026,
+    "grade": "2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-20-6",
+    "name": "浦田 陽聖",
+    "universityId": "sapporo-gakuin",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-09-1",
+    "name": "高坂 光希",
+    "universityId": "sapporo-gakuin",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-09-3",
+    "name": "大橋 史空",
+    "universityId": "sapporo-gakuin",
+    "season": 2026,
+    "grade": "2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-09-4",
+    "name": "大宮 千來",
+    "universityId": "sapporo-gakuin",
+    "season": 2026,
+    "grade": "1",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-09-5",
+    "name": "小林 歩夢",
+    "universityId": "sapporo-gakuin",
+    "season": 2026,
+    "grade": "2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-09-6",
+    "name": "田野 朝陽",
+    "universityId": "sapporo-gakuin",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-20-8",
+    "name": "栗田 紳冴",
+    "universityId": "sapporo-gakuin",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-09-8",
+    "name": "キプゲノ ケネス",
+    "universityId": "sapporo-gakuin",
+    "season": 2026,
+    "grade": "2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-20-1",
+    "name": "松原 幸之助",
+    "universityId": "kyoto-sangyo",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-20-2",
+    "name": "竹村 明人",
+    "universityId": "kyoto-sangyo",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-20-3",
+    "name": "西川 天馬",
+    "universityId": "kyoto-sangyo",
+    "season": 2026,
+    "grade": "2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-20-4",
+    "name": "南 月人",
+    "universityId": "kyoto-sangyo",
+    "season": 2026,
+    "grade": "2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-16-3",
+    "name": "藤田 大輝",
+    "universityId": "kyoto-sangyo",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-20-6",
+    "name": "髙倉 侃斗",
+    "universityId": "kyoto-sangyo",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-20-7",
+    "name": "吉村 陸翔",
+    "universityId": "kyoto-sangyo",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-20-8",
+    "name": "古田 瑞樹",
+    "universityId": "kyoto-sangyo",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-19-1",
+    "name": "坂井田 翔太",
+    "universityId": "university-96e731540e16",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-19-2",
+    "name": "岩田 玄弥",
+    "universityId": "university-96e731540e16",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-19-3",
+    "name": "大迫 汰希",
+    "universityId": "university-96e731540e16",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-19-4",
+    "name": "豊田 雄大",
+    "universityId": "university-96e731540e16",
+    "season": 2026,
+    "grade": "2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-19-5",
+    "name": "加藤 晨",
+    "universityId": "university-96e731540e16",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-19-6",
+    "name": "横田 弥海",
+    "universityId": "university-96e731540e16",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-19-7",
+    "name": "中村 太一",
+    "universityId": "university-96e731540e16",
+    "season": 2026,
+    "grade": "1",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-19-8",
+    "name": "渥美 希良",
+    "universityId": "university-96e731540e16",
+    "season": 2026,
+    "grade": "2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-24-4",
+    "name": "瀬尾 大和",
+    "universityId": "hiroshima-economics",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-24-2",
+    "name": "小川 晴也",
+    "universityId": "hiroshima-economics",
+    "season": 2026,
+    "grade": "M1",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-24-3",
+    "name": "伊藤 大弥",
+    "universityId": "hiroshima-economics",
+    "season": 2026,
+    "grade": "2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-24-4",
+    "name": "田中 陸",
+    "universityId": "hiroshima-economics",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-24-5",
+    "name": "日隈 敦士",
+    "universityId": "hiroshima-economics",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-24-6",
+    "name": "井﨑 尋斗",
+    "universityId": "hiroshima-economics",
+    "season": 2026,
+    "grade": "2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-24-7",
+    "name": "中垣 颯太",
+    "universityId": "hiroshima-economics",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-24-8",
+    "name": "佐々木 昴",
+    "universityId": "hiroshima-economics",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-18-1",
+    "name": "片岡 晴哉",
+    "universityId": "shinshu",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-18-2",
+    "name": "嶋津 明良",
+    "universityId": "shinshu",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-18-3",
+    "name": "福嶋 明大",
+    "universityId": "shinshu",
+    "season": 2026,
+    "grade": "M2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-18-4",
+    "name": "漆原 幹人",
+    "universityId": "shinshu",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-18-5",
+    "name": "村上 尚希",
+    "universityId": "shinshu",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-18-6",
+    "name": "有元 裕人",
+    "universityId": "shinshu",
+    "season": 2026,
+    "grade": "M2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-18-7",
+    "name": "川上 玄",
+    "universityId": "shinshu",
+    "season": 2026,
+    "grade": "M2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-18-6",
+    "name": "内田 善登",
+    "universityId": "shinshu",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-25-1",
+    "name": "中村 晃斗",
+    "universityId": "shigakukan",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-25-3",
+    "name": "小田 夕琥",
+    "universityId": "shigakukan",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-25-3",
+    "name": "福田 陽仁",
+    "universityId": "shigakukan",
+    "season": 2026,
+    "grade": "1",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-25-4",
+    "name": "黒葛 琉碧",
+    "universityId": "shigakukan",
+    "season": 2026,
+    "grade": "1",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-25-5",
+    "name": "大平 倫嗣",
+    "universityId": "shigakukan",
+    "season": 2026,
+    "grade": "2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-25-6",
+    "name": "倉元 大智",
+    "universityId": "shigakukan",
+    "season": 2026,
+    "grade": "1",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-25-8",
+    "name": "辻田 鉄人",
+    "universityId": "shigakukan",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-25-7",
+    "name": "日野 拓夢",
+    "universityId": "shigakukan",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-10-1",
+    "name": "松本 諒哉",
+    "universityId": "tohoku",
+    "season": 2026,
+    "grade": "2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-10-2",
+    "name": "渡邉 優典",
+    "universityId": "tohoku",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-25-3",
+    "name": "照内 優允",
+    "universityId": "tohoku",
+    "season": 2026,
+    "grade": "4",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-10-4",
+    "name": "小林 由輝",
+    "universityId": "tohoku",
+    "season": 2026,
+    "grade": "M2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-10-5",
+    "name": "新美 友哉",
+    "universityId": "tohoku",
+    "season": 2026,
+    "grade": "2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-10-6",
+    "name": "山内 滉介",
+    "universityId": "tohoku",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-25-7",
+    "name": "出田 義貴",
+    "universityId": "tohoku",
+    "season": 2026,
+    "grade": "3",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-10-8",
+    "name": "向田 祐翔",
+    "universityId": "tohoku",
+    "season": 2026,
+    "grade": "M2",
+    "sourceId": "iuau-aj26-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-02-7",
+    "name": "篠原 倖太朗",
+    "universityId": "komazawa",
+    "season": 2023,
+    "grade": "3",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-02-7",
+    "name": "佐藤 圭汰",
+    "universityId": "komazawa",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-02-8",
+    "name": "山川 拓馬",
+    "universityId": "komazawa",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-02-3",
+    "name": "伊藤 蒼唯",
+    "universityId": "komazawa",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-01-6",
+    "name": "安原 太陽",
+    "universityId": "komazawa",
+    "season": 2023,
+    "grade": "4",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-01-7",
+    "name": "鈴木 芽吹",
+    "universityId": "komazawa",
+    "season": 2023,
+    "grade": "4",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-06-4",
+    "name": "斎藤 将也",
+    "universityId": "josai",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-11-2",
+    "name": "山中 秀真",
+    "universityId": "josai",
+    "season": 2023,
+    "grade": "4",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-iz23-11-3",
+    "name": "ウ゛ィクター キムタイ",
+    "universityId": "josai",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-06-5",
+    "name": "林 晃耀",
+    "universityId": "josai",
+    "season": 2023,
+    "grade": "3",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-06-6",
+    "name": "桜井 優我",
+    "universityId": "josai",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-11-8",
+    "name": "山本 唯翔",
+    "universityId": "josai",
+    "season": 2023,
+    "grade": "4",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-01-8",
+    "name": "上原 琉翔",
+    "universityId": "kokugakuin",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-01-2",
+    "name": "青木 瑠郁",
+    "universityId": "kokugakuin",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-02-8",
+    "name": "伊地知 賢造",
+    "universityId": "kokugakuin",
+    "season": 2023,
+    "grade": "4",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-01-6",
+    "name": "山本 歩夢",
+    "universityId": "kokugakuin",
+    "season": 2023,
+    "grade": "3",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-01-4",
+    "name": "高山 豪起",
+    "universityId": "kokugakuin",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-01-7",
+    "name": "平林 清澄",
+    "universityId": "kokugakuin",
+    "season": 2023,
+    "grade": "3",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-03-1",
+    "name": "野村 昭夢",
+    "universityId": "aoyama-gakuin",
+    "season": 2023,
+    "grade": "3",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-03-4",
+    "name": "黒田 朝日",
+    "universityId": "aoyama-gakuin",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-03-3",
+    "name": "佐藤 一世",
+    "universityId": "aoyama-gakuin",
+    "season": 2023,
+    "grade": "4",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-03-5",
+    "name": "山内 健登",
+    "universityId": "aoyama-gakuin",
+    "season": 2023,
+    "grade": "4",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-03-8",
+    "name": "鳥井 健太",
+    "universityId": "aoyama-gakuin",
+    "season": 2023,
+    "grade": "1",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-03-2",
+    "name": "鶴川 正也",
+    "universityId": "aoyama-gakuin",
+    "season": 2023,
+    "grade": "3",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-05-4",
+    "name": "伊藤 大志",
+    "universityId": "waseda",
+    "season": 2023,
+    "grade": "3",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-05-2",
+    "name": "山口 智規",
+    "universityId": "waseda",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-06-3",
+    "name": "石塚 陽士",
+    "universityId": "waseda",
+    "season": 2023,
+    "grade": "3",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-05-8",
+    "name": "工藤 慎作",
+    "universityId": "waseda",
+    "season": 2023,
+    "grade": "1",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-05-1",
+    "name": "間瀬田 純平",
+    "universityId": "waseda",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-05-7",
+    "name": "長屋 匡起",
+    "universityId": "waseda",
+    "season": 2023,
+    "grade": "1",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-12-4",
+    "name": "浦田 優斗",
+    "universityId": "chuo",
+    "season": 2023,
+    "grade": "3",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-07-2",
+    "name": "中野 翔太",
+    "universityId": "chuo",
+    "season": 2023,
+    "grade": "4",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-12-7",
+    "name": "吉居 駿恭",
+    "universityId": "chuo",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-12-8",
+    "name": "阿部 陽樹",
+    "universityId": "chuo",
+    "season": 2023,
+    "grade": "3",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-12-1",
+    "name": "溜池 一太",
+    "universityId": "chuo",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-07-7",
+    "name": "湯浅 仁",
+    "universityId": "chuo",
+    "season": 2023,
+    "grade": "4",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-13-7",
+    "name": "緒方 澪那斗",
+    "universityId": "toyo",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-08-1",
+    "name": "熊﨑 貴哉",
+    "universityId": "toyo",
+    "season": 2023,
+    "grade": "4",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-13-1",
+    "name": "小林 亮太",
+    "universityId": "toyo",
+    "season": 2023,
+    "grade": "3",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-iz23-12-4",
+    "name": "松山 和希",
+    "universityId": "toyo",
+    "season": 2023,
+    "grade": "4",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-iz23-12-5",
+    "name": "菅野 大輝",
+    "universityId": "toyo",
+    "season": 2023,
+    "grade": "4",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-13-3",
+    "name": "梅崎 蓮",
+    "universityId": "toyo",
+    "season": 2023,
+    "grade": "3",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-iz23-09-1",
+    "name": "松永 伶",
+    "universityId": "university-29abf9102602",
+    "season": 2023,
+    "grade": "4",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-iz23-09-2",
+    "name": "大島 史也",
+    "universityId": "university-29abf9102602",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-iz23-09-3",
+    "name": "武田 和馬",
+    "universityId": "university-29abf9102602",
+    "season": 2023,
+    "grade": "3",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-iz23-09-4",
+    "name": "安澤 駿空",
+    "universityId": "university-29abf9102602",
+    "season": 2023,
+    "grade": "3",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-iz23-09-5",
+    "name": "永島 悠平",
+    "universityId": "university-29abf9102602",
+    "season": 2023,
+    "grade": "3",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-iz23-09-6",
+    "name": "稲毛 崇斗",
+    "universityId": "university-29abf9102602",
+    "season": 2023,
+    "grade": "4",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-13-1",
+    "name": "吉岡 大翔",
+    "universityId": "juntendo",
+    "season": 2023,
+    "grade": "1",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-04-4",
+    "name": "村尾 雄己",
+    "universityId": "juntendo",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-04-8",
+    "name": "浅井 皓貴",
+    "universityId": "juntendo",
+    "season": 2023,
+    "grade": "3",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-iz23-07-4",
+    "name": "海老澤 憲伸",
+    "universityId": "juntendo",
+    "season": 2023,
+    "grade": "3",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-iz23-07-5",
+    "name": "森本 喜道",
+    "universityId": "juntendo",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-04-7",
+    "name": "石井 一希",
+    "universityId": "juntendo",
+    "season": 2023,
+    "grade": "4",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-22-2",
+    "name": "亀田 仁一路",
+    "universityId": "kansai",
+    "season": 2023,
+    "grade": "4",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-19-1",
+    "name": "谷村 恒晟",
+    "universityId": "kansai",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-19-4",
+    "name": "坂本 亘生",
+    "universityId": "kansai",
+    "season": 2023,
+    "grade": "3",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-22-3",
+    "name": "伊藤 仁",
+    "universityId": "kansai",
+    "season": 2023,
+    "grade": "4",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-22-6",
+    "name": "市川 侑生",
+    "universityId": "kansai",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-19-8",
+    "name": "坂東 壮琉",
+    "universityId": "kansai",
+    "season": 2023,
+    "grade": "3",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-24-1",
+    "name": "谷末 智哉",
+    "universityId": "university-a26b3cd4582e",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-24-2",
+    "name": "髙嶋 荘太",
+    "universityId": "university-a26b3cd4582e",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-24-6",
+    "name": "林本 涼",
+    "universityId": "university-a26b3cd4582e",
+    "season": 2023,
+    "grade": "4",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-24-3",
+    "name": "松崎 寧生",
+    "universityId": "university-a26b3cd4582e",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-24-5",
+    "name": "中川 大智",
+    "universityId": "university-a26b3cd4582e",
+    "season": 2023,
+    "grade": "4",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-24-8",
+    "name": "脇 健斗",
+    "universityId": "university-a26b3cd4582e",
+    "season": 2023,
+    "grade": "4",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-iz23-18-1",
+    "name": "横田 吏功",
+    "universityId": "hiroshima-economics",
+    "season": 2023,
+    "grade": "4",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-24-1",
+    "name": "東 秀太",
+    "universityId": "hiroshima-economics",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-iz23-18-3",
+    "name": "藤井 奏汰",
+    "universityId": "hiroshima-economics",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-24-6",
+    "name": "田辺 豊",
+    "universityId": "hiroshima-economics",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-24-5",
+    "name": "板谷 和磨",
+    "universityId": "hiroshima-economics",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-iz23-18-6",
+    "name": "小石原 映",
+    "universityId": "hiroshima-economics",
+    "season": 2023,
+    "grade": "3",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-22-7",
+    "name": "尾上 陽人",
+    "universityId": "ritsumeikan",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-22-8",
+    "name": "中田 千太郎",
+    "universityId": "ritsumeikan",
+    "season": 2023,
+    "grade": "3",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-22-3",
+    "name": "大森 駿斗",
+    "universityId": "ritsumeikan",
+    "season": 2023,
+    "grade": "3",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-iz23-16-4",
+    "name": "北辻 巴樹",
+    "universityId": "ritsumeikan",
+    "season": 2023,
+    "grade": "4",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-21-4",
+    "name": "清水 隼人",
+    "universityId": "ritsumeikan",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-22-2",
+    "name": "山﨑 皓太",
+    "universityId": "ritsumeikan",
+    "season": 2023,
+    "grade": "3",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-17-3",
+    "name": "新間 圭",
+    "universityId": "kogakkan",
+    "season": 2023,
+    "grade": "1",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-iz23-14-2",
+    "name": "山田 奏楽",
+    "universityId": "kogakkan",
+    "season": 2023,
+    "grade": "3",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-17-1",
+    "name": "藤川 創",
+    "universityId": "kogakkan",
+    "season": 2023,
+    "grade": "3",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-17-4",
+    "name": "田中 靖晃",
+    "universityId": "kogakkan",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-17-5",
+    "name": "浦瀬 晃太朗",
+    "universityId": "kogakkan",
+    "season": 2023,
+    "grade": "3",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-iz23-14-6",
+    "name": "松野 颯斗",
+    "universityId": "kogakkan",
+    "season": 2023,
+    "grade": "4",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-iz23-20-1",
+    "name": "チェボティビン サイラス キプラガト",
+    "universityId": "university-cbd863bd7858",
+    "season": 2023,
+    "grade": "1",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-iz23-20-2",
+    "name": "大藪 優一郎",
+    "universityId": "university-cbd863bd7858",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-iz23-20-3",
+    "name": "谷口 一希",
+    "universityId": "university-cbd863bd7858",
+    "season": 2023,
+    "grade": "4",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-iz23-20-4",
+    "name": "東 汰騎",
+    "universityId": "university-cbd863bd7858",
+    "season": 2023,
+    "grade": "3",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-iz23-20-5",
+    "name": "小川 耀平",
+    "universityId": "university-cbd863bd7858",
+    "season": 2023,
+    "grade": "3",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-iz23-20-6",
+    "name": "出水 愛翔",
+    "universityId": "university-cbd863bd7858",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-18-4",
+    "name": "新 博貴",
+    "universityId": "osaka-keizai",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-20-1",
+    "name": "坂本 智基",
+    "universityId": "osaka-keizai",
+    "season": 2023,
+    "grade": "4",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-20-5",
+    "name": "杉本 平汰",
+    "universityId": "osaka-keizai",
+    "season": 2023,
+    "grade": "4",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-iz23-15-4",
+    "name": "井上 瑞貴",
+    "universityId": "osaka-keizai",
+    "season": 2023,
+    "grade": "4",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-18-2",
+    "name": "婦木 拓実",
+    "universityId": "osaka-keizai",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-20-4",
+    "name": "島野 和志",
+    "universityId": "osaka-keizai",
+    "season": 2023,
+    "grade": "4",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-04-3",
+    "name": "石丸 惇那",
+    "universityId": "soka",
+    "season": 2023,
+    "grade": "2",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-04-2",
+    "name": "小池 莉希",
+    "universityId": "soka",
+    "season": 2023,
+    "grade": "1",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-iz23-10-3",
+    "name": "リーキ カミナ",
+    "universityId": "soka",
+    "season": 2023,
+    "grade": "3",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-05-2",
+    "name": "山森 龍暁",
+    "universityId": "soka",
+    "season": 2023,
+    "grade": "4",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-04-2",
+    "name": "吉田 響",
+    "universityId": "soka",
+    "season": 2023,
+    "grade": "3",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-04-7",
+    "name": "吉田 凌",
+    "universityId": "soka",
+    "season": 2023,
+    "grade": "3",
+    "sourceId": "iuau-iz23-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-01-2",
+    "name": "青木 瑠郁",
+    "universityId": "kokugakuin",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-01-6",
+    "name": "山本 歩夢",
+    "universityId": "kokugakuin",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-01-3",
+    "name": "辻原 輝",
+    "universityId": "kokugakuin",
+    "season": 2024,
+    "grade": "2",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-01-5",
+    "name": "野中 恒亨",
+    "universityId": "kokugakuin",
+    "season": 2024,
+    "grade": "2",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-01-8",
+    "name": "上原 琉翔",
+    "universityId": "kokugakuin",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-01-7",
+    "name": "平林 清澄",
+    "universityId": "kokugakuin",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-02-2",
+    "name": "桑田 駿介",
+    "universityId": "komazawa",
+    "season": 2024,
+    "grade": "1",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-02-3",
+    "name": "帰山 侑大",
+    "universityId": "komazawa",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-02-8",
+    "name": "山川 拓馬",
+    "universityId": "komazawa",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-02-3",
+    "name": "伊藤 蒼唯",
+    "universityId": "komazawa",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-02-1",
+    "name": "島子 公佑",
+    "universityId": "komazawa",
+    "season": 2024,
+    "grade": "2",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-02-7",
+    "name": "篠原 倖太朗",
+    "universityId": "komazawa",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-03-2",
+    "name": "鶴川 正也",
+    "universityId": "aoyama-gakuin",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-03-1",
+    "name": "野村 昭夢",
+    "universityId": "aoyama-gakuin",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-03-4",
+    "name": "黒田 朝日",
+    "universityId": "aoyama-gakuin",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-03-3",
+    "name": "宇田川 瞬矢",
+    "universityId": "aoyama-gakuin",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-03-1",
+    "name": "若林 宏樹",
+    "universityId": "aoyama-gakuin",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-03-7",
+    "name": "太田 蒼生",
+    "universityId": "aoyama-gakuin",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-04-3",
+    "name": "石丸 惇那",
+    "universityId": "soka",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-04-2",
+    "name": "吉田 響",
+    "universityId": "soka",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-04-4",
+    "name": "山口 翔輝",
+    "universityId": "soka",
+    "season": 2024,
+    "grade": "1",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-04-7",
+    "name": "吉田 凌",
+    "universityId": "soka",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-04-6",
+    "name": "黒木 陽向",
+    "universityId": "soka",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-04-1",
+    "name": "小暮 栄輝",
+    "universityId": "soka",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-05-2",
+    "name": "山口 智規",
+    "universityId": "waseda",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-05-4",
+    "name": "伊藤 大志",
+    "universityId": "waseda",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-05-5",
+    "name": "山口 竣平",
+    "universityId": "waseda",
+    "season": 2024,
+    "grade": "1",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-05-3",
+    "name": "藤本 進次郎",
+    "universityId": "waseda",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-05-7",
+    "name": "長屋 匡起",
+    "universityId": "waseda",
+    "season": 2024,
+    "grade": "2",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-05-8",
+    "name": "工藤 慎作",
+    "universityId": "waseda",
+    "season": 2024,
+    "grade": "2",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-06-4",
+    "name": "斎藤 将也",
+    "universityId": "josai",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-iz24-05-2",
+    "name": "山中 達貴",
+    "universityId": "josai",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-06-3",
+    "name": "ヴィクター キムタイ",
+    "universityId": "josai",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-06-8",
+    "name": "平林 樹",
+    "universityId": "josai",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-06-1",
+    "name": "鈴木 健真",
+    "universityId": "josai",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-06-7",
+    "name": "久保出 雄太",
+    "universityId": "josai",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-08-2",
+    "name": "山中 博生",
+    "universityId": "teikyo",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-08-3",
+    "name": "尾崎 仁哉",
+    "universityId": "teikyo",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-08-4",
+    "name": "廣田 陸",
+    "universityId": "teikyo",
+    "season": 2024,
+    "grade": "2",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-08-6",
+    "name": "楠岡 由浩",
+    "universityId": "teikyo",
+    "season": 2024,
+    "grade": "2",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-08-5",
+    "name": "鎗田 大輝",
+    "universityId": "teikyo",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-08-7",
+    "name": "福田 翔",
+    "universityId": "teikyo",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-iz23-09-2",
+    "name": "大島 史也",
+    "universityId": "university-29abf9102602",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-iz24-08-2",
+    "name": "野田 晶斗",
+    "universityId": "university-29abf9102602",
+    "season": 2024,
+    "grade": "2",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-iz24-08-3",
+    "name": "小泉 樹",
+    "universityId": "university-29abf9102602",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-iz23-09-3",
+    "name": "武田 和馬",
+    "universityId": "university-29abf9102602",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-iz24-08-5",
+    "name": "矢原 倖瑛",
+    "universityId": "university-29abf9102602",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-iz24-08-6",
+    "name": "宮岡 幸大",
+    "universityId": "university-29abf9102602",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-11-4",
+    "name": "入濵 輝大",
+    "universityId": "daito-bunka",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-11-1",
+    "name": "大濱 逞真",
+    "universityId": "daito-bunka",
+    "season": 2024,
+    "grade": "1",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-iz24-12-3",
+    "name": "キプロップ エヴァンス",
+    "universityId": "daito-bunka",
+    "season": 2024,
+    "grade": "1",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-iz24-12-4",
+    "name": "小田 恭平",
+    "universityId": "daito-bunka",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-11-3",
+    "name": "中澤 真大",
+    "universityId": "daito-bunka",
+    "season": 2024,
+    "grade": "1",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-11-2",
+    "name": "西川 千青",
+    "universityId": "daito-bunka",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-13-7",
+    "name": "緒方 澪那斗",
+    "universityId": "toyo",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-13-4",
+    "name": "濱中 尊",
+    "universityId": "toyo",
+    "season": 2024,
+    "grade": "2",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-iz24-06-3",
+    "name": "網本 佳悟",
+    "universityId": "toyo",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-15-5",
+    "name": "迎 暖人",
+    "universityId": "toyo",
+    "season": 2024,
+    "grade": "1",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-08-7",
+    "name": "西村 真周",
+    "universityId": "toyo",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-15-4",
+    "name": "宮崎 優",
+    "universityId": "toyo",
+    "season": 2024,
+    "grade": "1",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-16-8",
+    "name": "中村 光稀",
+    "universityId": "kyoto-sangyo",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-16-1",
+    "name": "粟井 駿平",
+    "universityId": "kyoto-sangyo",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-16-2",
+    "name": "小嶋 郁依斗",
+    "universityId": "kyoto-sangyo",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-16-6",
+    "name": "大久保 颯汰",
+    "universityId": "kyoto-sangyo",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-16-3",
+    "name": "藤田 大輝",
+    "universityId": "kyoto-sangyo",
+    "season": 2024,
+    "grade": "2",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-16-7",
+    "name": "桒田 大樹",
+    "universityId": "kyoto-sangyo",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-iz24-14-1",
+    "name": "河﨑 憲祐",
+    "universityId": "nagoya",
+    "season": 2024,
+    "grade": "M1",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-19-3",
+    "name": "阿部 祥典",
+    "universityId": "nagoya",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-19-4",
+    "name": "吉原 諒",
+    "universityId": "nagoya",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-19-2",
+    "name": "加藤 太一",
+    "universityId": "nagoya",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-19-3",
+    "name": "浅野 稜太",
+    "universityId": "nagoya",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-19-1",
+    "name": "小川 海里",
+    "universityId": "nagoya",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-19-1",
+    "name": "谷村 恒晟",
+    "universityId": "kansai",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-21-5",
+    "name": "岡村 和真",
+    "universityId": "kansai",
+    "season": 2024,
+    "grade": "2",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-19-8",
+    "name": "坂東 壮琉",
+    "universityId": "kansai",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-19-3",
+    "name": "平野 圭人",
+    "universityId": "kansai",
+    "season": 2024,
+    "grade": "2",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-22-5",
+    "name": "大槻 涼人",
+    "universityId": "kansai",
+    "season": 2024,
+    "grade": "2",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-19-7",
+    "name": "秋山 翔太朗",
+    "universityId": "kansai",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-23-4",
+    "name": "石鍋 颯一",
+    "universityId": "okayama",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-23-5",
+    "name": "日名子 泰明",
+    "universityId": "okayama",
+    "season": 2024,
+    "grade": "2",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-23-2",
+    "name": "木戸 颯",
+    "universityId": "okayama",
+    "season": 2024,
+    "grade": "2",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-23-1",
+    "name": "岩﨑 亮太",
+    "universityId": "okayama",
+    "season": 2024,
+    "grade": "5",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-23-7",
+    "name": "赤澤 京弥",
+    "universityId": "okayama",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-iz24-18-6",
+    "name": "旭 隼佑",
+    "universityId": "okayama",
+    "season": 2024,
+    "grade": "M2",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-iz24-20-1",
+    "name": "大園 倫太郎",
+    "universityId": "university-5ae26e52c2d1",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-iz24-20-2",
+    "name": "東 純大",
+    "universityId": "university-5ae26e52c2d1",
+    "season": 2024,
+    "grade": "2",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-iz24-20-3",
+    "name": "内田 大樹",
+    "universityId": "university-5ae26e52c2d1",
+    "season": 2024,
+    "grade": "4",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-iz24-20-4",
+    "name": "山口 大貴",
+    "universityId": "university-5ae26e52c2d1",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-iz24-20-5",
+    "name": "兵藤 颯太",
+    "universityId": "university-5ae26e52c2d1",
+    "season": 2024,
+    "grade": "2",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-iz24-20-6",
+    "name": "中原 敬輝",
+    "universityId": "university-5ae26e52c2d1",
+    "season": 2024,
+    "grade": "M1",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-iz24-19-1",
+    "name": "大森 勇輝",
+    "universityId": "university-c735c704d4d5",
+    "season": 2024,
+    "grade": "M1",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-iz24-19-2",
+    "name": "菊永 翔太",
+    "universityId": "university-c735c704d4d5",
+    "season": 2024,
+    "grade": "1",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-iz24-19-3",
+    "name": "南 凱士",
+    "universityId": "university-c735c704d4d5",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-iz24-19-4",
+    "name": "橋井 佑空",
+    "universityId": "university-c735c704d4d5",
+    "season": 2024,
+    "grade": "2",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-iz24-19-5",
+    "name": "遠藤 浩太郎",
+    "universityId": "university-c735c704d4d5",
+    "season": 2024,
+    "grade": "2",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-iz24-19-6",
+    "name": "伊藤 信雄",
+    "universityId": "university-c735c704d4d5",
+    "season": 2024,
+    "grade": "M2",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-24-1",
+    "name": "東 秀太",
+    "universityId": "hiroshima-economics",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-24-3",
+    "name": "小川 晴也",
+    "universityId": "hiroshima-economics",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-24-7",
+    "name": "藤井 奏汰",
+    "universityId": "hiroshima-economics",
+    "season": 2024,
+    "grade": "2",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-24-4",
+    "name": "瀬尾 大和",
+    "universityId": "hiroshima-economics",
+    "season": 2024,
+    "grade": "1",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-iz24-17-5",
+    "name": "大濵 遥喜",
+    "universityId": "hiroshima-economics",
+    "season": 2024,
+    "grade": "1",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-24-5",
+    "name": "板谷 和磨",
+    "universityId": "hiroshima-economics",
+    "season": 2024,
+    "grade": "3",
+    "sourceId": "iuau-iz24-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-01-2",
+    "name": "青木 瑠郁",
+    "universityId": "kokugakuin",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-01-1",
+    "name": "尾熊 迅斗",
+    "universityId": "kokugakuin",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-01-5",
+    "name": "野中 恒亨",
+    "universityId": "kokugakuin",
+    "season": 2025,
+    "grade": "3",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-01-3",
+    "name": "辻原 輝",
+    "universityId": "kokugakuin",
+    "season": 2025,
+    "grade": "3",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-01-4",
+    "name": "高山 豪起",
+    "universityId": "kokugakuin",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-01-8",
+    "name": "上原 琉翔",
+    "universityId": "kokugakuin",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-05-4",
+    "name": "吉倉 ナヤブ直希",
+    "universityId": "waseda",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-05-2",
+    "name": "山口 智規",
+    "universityId": "waseda",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-05-2",
+    "name": "鈴木 琉胤",
+    "universityId": "waseda",
+    "season": 2025,
+    "grade": "1",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-iz25-07-4",
+    "name": "佐々木 哲",
+    "universityId": "waseda",
+    "season": 2025,
+    "grade": "1",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-05-3",
+    "name": "堀野 正太",
+    "universityId": "waseda",
+    "season": 2025,
+    "grade": "1",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-05-8",
+    "name": "工藤 慎作",
+    "universityId": "waseda",
+    "season": 2025,
+    "grade": "3",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-04-4",
+    "name": "織橋 巧",
+    "universityId": "soka",
+    "season": 2025,
+    "grade": "3",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-04-2",
+    "name": "小池 莉希",
+    "universityId": "soka",
+    "season": 2025,
+    "grade": "3",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-04-5",
+    "name": "スティーブン ムチーニ",
+    "universityId": "soka",
+    "season": 2025,
+    "grade": "3",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-04-3",
+    "name": "石丸 惇那",
+    "universityId": "soka",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-04-4",
+    "name": "山口 翔輝",
+    "universityId": "soka",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-04-8",
+    "name": "野沢 悠真",
+    "universityId": "soka",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-02-4",
+    "name": "谷中 晴",
+    "universityId": "komazawa",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-02-3",
+    "name": "帰山 侑大",
+    "universityId": "komazawa",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-02-2",
+    "name": "桑田 駿介",
+    "universityId": "komazawa",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-02-3",
+    "name": "伊藤 蒼唯",
+    "universityId": "komazawa",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-01-6",
+    "name": "菅谷 希弥",
+    "universityId": "komazawa",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-02-8",
+    "name": "山川 拓馬",
+    "universityId": "komazawa",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-06-2",
+    "name": "柴田 侑",
+    "universityId": "josai",
+    "season": 2025,
+    "grade": "3",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-06-2",
+    "name": "小林 竜輝",
+    "universityId": "josai",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-06-3",
+    "name": "ヴィクター キムタイ",
+    "universityId": "josai",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-06-1",
+    "name": "小田 伊織",
+    "universityId": "josai",
+    "season": 2025,
+    "grade": "3",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-06-6",
+    "name": "大沼 良太郎",
+    "universityId": "josai",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-06-4",
+    "name": "斎藤 将也",
+    "universityId": "josai",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-03-8",
+    "name": "小河原 陽琉",
+    "universityId": "aoyama-gakuin",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-03-3",
+    "name": "折田 壮太",
+    "universityId": "aoyama-gakuin",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-03-6",
+    "name": "飯田 翔大",
+    "universityId": "aoyama-gakuin",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-iz25-04-4",
+    "name": "神邑 亮佑",
+    "universityId": "aoyama-gakuin",
+    "season": 2025,
+    "grade": "1",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-03-8",
+    "name": "塩出 翔太",
+    "universityId": "aoyama-gakuin",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-03-4",
+    "name": "黒田 朝日",
+    "universityId": "aoyama-gakuin",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-08-6",
+    "name": "楠岡 由浩",
+    "universityId": "teikyo",
+    "season": 2025,
+    "grade": "3",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-08-1",
+    "name": "島田 晃希",
+    "universityId": "teikyo",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-iz25-13-3",
+    "name": "小林 咲冴",
+    "universityId": "teikyo",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-08-3",
+    "name": "原 悠太",
+    "universityId": "teikyo",
+    "season": 2025,
+    "grade": "3",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-08-5",
+    "name": "鎗田 大輝",
+    "universityId": "teikyo",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-08-4",
+    "name": "谷口 颯太",
+    "universityId": "teikyo",
+    "season": 2025,
+    "grade": "3",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-15-3",
+    "name": "松井 海斗",
+    "universityId": "toyo",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-15-2",
+    "name": "内堀 勇",
+    "universityId": "toyo",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-15-5",
+    "name": "迎 暖人",
+    "universityId": "toyo",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-13-4",
+    "name": "濱中 尊",
+    "universityId": "toyo",
+    "season": 2025,
+    "grade": "3",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-iz25-12-5",
+    "name": "馬場 アンジェロ光",
+    "universityId": "toyo",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-15-4",
+    "name": "宮崎 優",
+    "universityId": "toyo",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-12-2",
+    "name": "岡田 開成",
+    "universityId": "chuo",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-iz25-08-2",
+    "name": "濵口 大和",
+    "universityId": "chuo",
+    "season": 2025,
+    "grade": "1",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-12-1",
+    "name": "溜池 一太",
+    "universityId": "chuo",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-12-7",
+    "name": "吉居 駿恭",
+    "universityId": "chuo",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-12-6",
+    "name": "佐藤 大介",
+    "universityId": "chuo",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-12-3",
+    "name": "本間 颯",
+    "universityId": "chuo",
+    "season": 2025,
+    "grade": "3",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-14-5",
+    "name": "菅野 裕二郎",
+    "universityId": "tokyo-international",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-iz25-11-2",
+    "name": "小柴 裕士郎",
+    "universityId": "tokyo-international",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-iz25-11-3",
+    "name": "リチャード エティーリ",
+    "universityId": "tokyo-international",
+    "season": 2025,
+    "grade": "3",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-09-4",
+    "name": "中山 拓真",
+    "universityId": "tokyo-international",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-iz25-11-5",
+    "name": "久保 遼人",
+    "universityId": "tokyo-international",
+    "season": 2025,
+    "grade": "3",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-09-8",
+    "name": "川内 琉生",
+    "universityId": "tokyo-international",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-19-1",
+    "name": "谷村 恒晟",
+    "universityId": "kansai",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-19-3",
+    "name": "平野 圭人",
+    "universityId": "kansai",
+    "season": 2025,
+    "grade": "3",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-19-5",
+    "name": "芝 秀介",
+    "universityId": "kansai",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-19-2",
+    "name": "井手 蒼人",
+    "universityId": "kansai",
+    "season": 2025,
+    "grade": "3",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-21-7",
+    "name": "高村 瑛太",
+    "universityId": "kansai",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-19-7",
+    "name": "秋山 翔太朗",
+    "universityId": "kansai",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-20-1",
+    "name": "西塚 璃純",
+    "universityId": "sapporo-gakuin",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-09-8",
+    "name": "キプゲノ ケネス",
+    "universityId": "sapporo-gakuin",
+    "season": 2025,
+    "grade": "1",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-20-3",
+    "name": "山田 陽翔",
+    "universityId": "sapporo-gakuin",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-09-4",
+    "name": "早川 拓海",
+    "universityId": "sapporo-gakuin",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-20-8",
+    "name": "栗田 紳冴",
+    "universityId": "sapporo-gakuin",
+    "season": 2025,
+    "grade": "3",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-20-4",
+    "name": "伊藤 徹",
+    "universityId": "sapporo-gakuin",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-18-1",
+    "name": "片岡 晴哉",
+    "universityId": "shinshu",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-18-2",
+    "name": "森田 克馬",
+    "universityId": "shinshu",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-iz25-14-3",
+    "name": "松林 直亮",
+    "universityId": "shinshu",
+    "season": 2025,
+    "grade": "M2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-18-3",
+    "name": "尾崎 康佑",
+    "universityId": "shinshu",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-18-4",
+    "name": "佐藤 匠",
+    "universityId": "shinshu",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-18-6",
+    "name": "内田 善登",
+    "universityId": "shinshu",
+    "season": 2025,
+    "grade": "3",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-25-1",
+    "name": "中村 晃斗",
+    "universityId": "shigakukan",
+    "season": 2025,
+    "grade": "3",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-25-3",
+    "name": "小田 夕琥",
+    "universityId": "shigakukan",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-25-2",
+    "name": "齊藤 莉樹",
+    "universityId": "shigakukan",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-25-5",
+    "name": "大平 倫嗣",
+    "universityId": "shigakukan",
+    "season": 2025,
+    "grade": "1",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-25-7",
+    "name": "日野 拓夢",
+    "universityId": "shigakukan",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj25-25-8",
+    "name": "辻田 鉄人",
+    "universityId": "shigakukan",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-iz25-19-1",
+    "name": "山本 涼介",
+    "universityId": "university-a26b3cd4582e",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-iz25-19-2",
+    "name": "松下 俊海",
+    "universityId": "university-a26b3cd4582e",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-24-1",
+    "name": "谷末 智哉",
+    "universityId": "university-a26b3cd4582e",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj23-24-2",
+    "name": "髙嶋 荘太",
+    "universityId": "university-a26b3cd4582e",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-iz25-19-5",
+    "name": "本岡 春穏",
+    "universityId": "university-a26b3cd4582e",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-iz25-19-6",
+    "name": "角南 祐行",
+    "universityId": "university-a26b3cd4582e",
+    "season": 2025,
+    "grade": "1",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-iz25-16-1",
+    "name": "曽越 祐志",
+    "universityId": "kogakkan",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-iz25-16-2",
+    "name": "清水 大斗",
+    "universityId": "kogakkan",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-iz25-16-3",
+    "name": "前野 皓士",
+    "universityId": "kogakkan",
+    "season": 2025,
+    "grade": "3",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-iz25-16-4",
+    "name": "塩見 昊瑛",
+    "universityId": "kogakkan",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-iz25-16-5",
+    "name": "松葉 琥太郎",
+    "universityId": "kogakkan",
+    "season": 2025,
+    "grade": "1",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-17-3",
+    "name": "新間 圭",
+    "universityId": "kogakkan",
+    "season": 2025,
+    "grade": "3",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-16-7",
+    "name": "桒田 大樹",
+    "universityId": "kyoto-sangyo",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-20-1",
+    "name": "松原 幸之助",
+    "universityId": "kyoto-sangyo",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-iz25-17-3",
+    "name": "武内 里賢",
+    "universityId": "kyoto-sangyo",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-16-3",
+    "name": "藤田 大輝",
+    "universityId": "kyoto-sangyo",
+    "season": 2025,
+    "grade": "3",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-iz25-17-5",
+    "name": "西村 稜太",
+    "universityId": "kyoto-sangyo",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj26-20-2",
+    "name": "竹村 明人",
+    "universityId": "kyoto-sangyo",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-24-7",
+    "name": "中戸 元貴",
+    "universityId": "niigata",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-iz25-15-2",
+    "name": "志賀 風太",
+    "universityId": "niigata",
+    "season": 2025,
+    "grade": "M2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-aj24-24-4",
+    "name": "金子 敦哉",
+    "universityId": "niigata",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-iz25-15-4",
+    "name": "遠藤 皓大",
+    "universityId": "niigata",
+    "season": 2025,
+    "grade": "3",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-iz25-15-5",
+    "name": "小木曽 翔太",
+    "universityId": "niigata",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-iz25-15-6",
+    "name": "谷端 良鷹",
+    "universityId": "niigata",
+    "season": 2025,
+    "grade": "M1",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-iz25-02-1",
+    "name": "奥村 日向",
+    "universityId": "university-800953e13eb7",
+    "season": 2025,
+    "grade": "D1",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-iz25-02-2",
+    "name": "大野 憲尚",
+    "universityId": "university-800953e13eb7",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-iz25-02-3",
+    "name": "大久保 伸一",
+    "universityId": "university-800953e13eb7",
+    "season": 2025,
+    "grade": "3",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-iz25-02-4",
+    "name": "竹中 順思",
+    "universityId": "university-800953e13eb7",
+    "season": 2025,
+    "grade": "4",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-iz25-02-5",
+    "name": "米井 太位鷹",
+    "universityId": "university-800953e13eb7",
+    "season": 2025,
+    "grade": "2",
+    "sourceId": "iuau-iz25-roster"
+  },
+  {
+    "athleteId": "athlete-iz25-02-6",
+    "name": "秋野 僚太",
+    "universityId": "university-800953e13eb7",
+    "season": 2025,
+    "grade": "D1",
+    "sourceId": "iuau-iz25-roster"
   }
 ]

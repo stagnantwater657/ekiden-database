@@ -23,3 +23,5 @@
 限制：现有2024全日本仍只覆盖25大学、200条成绩，原说明中的两支公开选拔队未补入。箱根来源未提供可直接采用的独立往返路名次字段，阶段rank留空；保存官方阶段时间，不按用时数组推造名次。Ivy等未公布年级和有争议的姓名/年级保留空值或独立身份。每项待审核均在validation.json含候选ID、证据sourceId及原因。
 
 核验方法和来源差异见[批次说明](batch-history-progress.md)；机器报告为[data/reports/validation.json](../data/reports/validation.json)。
+
+本地验证：data:validate、TypeScript、ESLint、54项Node测试、Next.js生产构建、8项Playwright和Docker Build通过。GitHub Actions结果以PR #13对应提交的检查为准。

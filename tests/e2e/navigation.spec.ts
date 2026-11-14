@@ -1,36 +1,44 @@
 import { test, expect } from "@playwright/test";
-import { database } from "../../data/index";
-test("home → race → edition → athlete → university → results", async ({
+test("home → race archive → edition → athlete → university → advanced results", async ({
   page,
 }) => {
   await page.goto("/");
-  await page.getByRole("link", { name: "全日本赛事入口", exact: true }).click();
-  await page.getByRole("link", { name: /2024 · 第 56 届/ }).click();
+  await page.locator('a[href="/races/all-japan"]').first().click();
+  await page.locator('a[href="/editions/all-japan-2024"]').first().click();
   await expect(page.getByRole("heading", { level: 1 })).toContainText("2024");
-  await page.getByLabel("选手姓名").fill("嘉数");
-  await page.getByRole("button", { name: "应用筛选" }).click();
-  await expect(page.getByRole("status")).toHaveText("共 1 条成绩");
+  await expect(
+    page
+      .getByRole("navigation", { name: "区间导航" })
+      .getByRole("link", { name: "1区", exact: true }),
+  ).toHaveAttribute("aria-current", "page");
   await page.getByRole("link", { name: "嘉数 純平", exact: true }).click();
+  await expect(page).toHaveURL(/athletes\/athlete-aj24-01-1/);
   await expect(page.getByRole("heading", { level: 1 })).toHaveText("嘉数 純平");
-  await page.getByRole("link", { name: "國學院大", exact: true }).first().click();
-  const entries = new Set(database.entries.filter((entry) => entry.universityId === "kokugakuin").map((entry) => entry.id));
-  await expect(page.getByRole("status")).toHaveText(`共 ${database.results.filter((row) => entries.has(row.entryId)).length} 条成绩`);
-  await page.getByRole("combobox", { name: "赛事", exact: true }).selectOption("all-japan");
-  await page.getByRole("combobox", { name: "年份", exact: true }).selectOption("2024");
-  await page.getByRole("button", { name: "应用筛选" }).click();
-  await page.getByRole("link", { name: "6区 · 12.8 km" }).first().click();
-  await expect(page.getByRole("status")).toHaveText("共 27 条成绩");
-  await expect(page).toHaveURL(/section=6/);
+  await expect(page.getByRole("button", { name: "应用筛选" })).toHaveCount(0);
   await page
-    .getByRole("link", {
-      name: "全日本大学駅伝 · 2024 · 第 56 届",
-      exact: true,
-    })
+    .getByRole("link", { name: "國學院大", exact: true })
     .first()
     .click();
-  await expect(page.getByRole("heading", { level: 1 })).toContainText(
-    "第 56 届",
-  );
+  await expect(page).toHaveURL(/universities\/kokugakuin/);
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText("國學院大");
+  await expect(page.getByRole("button", { name: "应用筛选" })).toHaveCount(0);
+  await page
+    .locator('a[href^="/results?"][href*="university=kokugakuin"]')
+    .first()
+    .click();
+  await page
+    .getByRole("combobox", { name: "赛事", exact: true })
+    .selectOption("all-japan");
+  await page
+    .getByRole("combobox", { name: "年份", exact: true })
+    .selectOption("2024");
+  await page.getByRole("button", { name: "应用筛选" }).click();
+  await expect(page.getByRole("status")).toHaveText("共 8 条成绩");
+  await page.getByRole("link", { name: "6区 · 12.8 km" }).first().click();
+  await expect(page).toHaveURL(/section=6/);
+  await expect(page.getByRole("status")).toHaveText("共 27 条成绩");
+  await page.locator('a[href="/editions/all-japan-2024"]').first().click();
+  await expect(page.getByRole("heading", { level: 1 })).toContainText("56");
 });
 test("GET filters, sort, pagination, reload, sharing and back/forward", async ({
   page,
@@ -132,7 +140,9 @@ test("five columns, query context, view switch resets page and sort, sources fol
   ).toHaveAttribute("aria-current", "page");
   await page.getByRole("link", { name: "下一页", exact: true }).click();
   await expect(page).toHaveURL(/page=2/);
-  await expect(page.getByRole("navigation", { name: "成绩分页" })).toContainText("第 2 / 22 页");
+  await expect(
+    page.getByRole("navigation", { name: "成绩分页" }),
+  ).toContainText("第 2 / 22 页");
   await page.getByRole("link", { name: "区间视图", exact: true }).click();
   await expect(page).toHaveURL(/page=1/);
   await expect(rows.first()).toContainText("平島 龍斗");
@@ -154,7 +164,9 @@ test("five columns, query context, view switch resets page and sort, sources fol
 test("manual ordering and filtering reset page while retaining view and entity scope", async ({
   page,
 }) => {
-  await page.goto("/universities/kokugakuin?race=all-japan&year=2024&view=university&page=9");
+  await page.goto(
+    "/results?university=kokugakuin&race=all-japan&year=2024&view=university&page=9",
+  );
   await page
     .getByRole("columnheader", { name: /成绩/ })
     .getByRole("link")
@@ -180,7 +192,9 @@ test("manual ordering and filtering reset page while retaining view and entity s
 test("university header clearly sorts names; official standing is a separate control", async ({
   page,
 }) => {
-  await page.goto("/results?race=all-japan&year=2024&view=university&pageSize=10&page=2");
+  await page.goto(
+    "/results?race=all-japan&year=2024&view=university&pageSize=10&page=2",
+  );
   await page
     .getByRole("columnheader", { name: /大学名称/ })
     .getByRole("link")

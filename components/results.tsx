@@ -10,6 +10,7 @@ import {
   type SortKey,
 } from "../lib/query";
 import { Empty, Sources } from "./database";
+import { ResultBadges } from "./result-badges";
 export async function Results({
   params,
   path = "/results",
@@ -93,7 +94,7 @@ export async function Results({
     );
   return (
     <section className="mt-8" aria-label="区间成绩查询">
-      <nav aria-label="成绩视图" className="mb-5 flex gap-3">
+      <nav aria-label="成绩视图" className="view-tabs">
         {(
           [
             ["section", "区间视图"],
@@ -103,7 +104,6 @@ export async function Results({
           <Link
             key={view}
             aria-current={filters.view === view ? "page" : undefined}
-            className={`border px-4 py-2 text-sm ${filters.view === view ? "border-red-900 bg-red-900 text-white" : "border-stone-300 bg-white"}`}
             href={queryHref(path, switchView(filters, view))}
           >
             {label}
@@ -114,7 +114,7 @@ export async function Results({
         key={JSON.stringify(filters)}
         action={path}
         method="get"
-        className="grid gap-4 border border-stone-200 bg-stone-100 p-5 sm:grid-cols-3 lg:grid-cols-4"
+        className="filter-panel"
       >
         <input type="hidden" name="view" value={filters.view} />
         {Object.entries(scope).map(([key, value]) => (
@@ -209,10 +209,7 @@ export async function Results({
           </Link>
         </div>
       </form>
-      <aside
-        aria-label="查询上下文"
-        className="my-5 space-y-2 border-l-2 border-red-800 pl-4 text-sm leading-6 text-stone-600"
-      >
+      <aside aria-label="查询上下文" className="query-context space-y-2">
         <p>
           {conditions.length
             ? conditions.join(" · ")
@@ -234,10 +231,7 @@ export async function Results({
         <ul className="flex flex-wrap gap-x-5 gap-y-1">
           {result.editions.map((edition) => (
             <li key={edition.id}>
-              <Link
-                className="text-red-800 underline"
-                href={`/editions/${edition.id}`}
-              >
+              <Link className="archive-link" href={`/editions/${edition.id}`}>
                 {edition.race.name} · {edition.year} · 第 {edition.number} 届
               </Link>{" "}
               · {edition.date}
@@ -250,7 +244,7 @@ export async function Results({
           </Link>
         )}
       </aside>
-      <div className="my-5 flex flex-wrap justify-between gap-2 text-sm text-stone-600">
+      <div className="my-5 flex flex-wrap justify-between gap-2 text-sm text-[var(--muted)]">
         <p role="status">共 {result.total} 条成绩</p>
         <p>
           {filters.sort === "time" && !filters.section
@@ -265,8 +259,8 @@ export async function Results({
             : "暂无区间成绩，待核验后收录。"}
         </Empty>
       ) : (
-        <div className="max-w-4xl overflow-x-auto border border-stone-200 bg-white">
-          <table className="w-full whitespace-nowrap text-left text-sm">
+        <div className="table-scroll">
+          <table className="archive-table">
             <caption className="sr-only">
               区间成绩，点击列名手动排序；点击区间、大学或选手继续查询。
             </caption>
@@ -309,10 +303,10 @@ export async function Results({
             {pageGroups.map((group) => (
               <tbody key={group.edition.id}>
                 {result.editions.length > 1 && (
-                  <tr className="border-t border-stone-300 bg-stone-50">
+                  <tr className="table-group">
                     <th colSpan={5} scope="rowgroup" className="px-4 py-3">
                       <Link
-                        className="text-red-800 underline"
+                        className="archive-link"
                         href={`/editions/${group.edition.id}`}
                       >
                         {group.rows[0].race.name} · {group.edition.year} · 第{" "}
@@ -322,14 +316,10 @@ export async function Results({
                   </tr>
                 )}
                 {group.rows.map((row) => (
-                  <tr
-                    key={row.id}
-                    data-result-id={row.id}
-                    className="border-t border-stone-100 hover:bg-stone-50"
-                  >
-                    <td className="w-40 px-4 py-3">
+                  <tr key={row.id} data-result-id={row.id}>
+                    <td className="w-36 px-4 py-3">
                       <Link
-                        className="underline"
+                        className="archive-link"
                         href={queryHref("/results", {
                           edition: row.edition.id,
                           section: String(row.section.number),
@@ -339,12 +329,12 @@ export async function Results({
                         km
                       </Link>
                     </td>
-                    <td className="w-28 px-4 py-3 font-mono tabular-nums">
+                    <td className="w-28 px-4 py-3 numeric">
                       {row.rank ?? "—"}
                     </td>
                     <td className="px-4 py-3">
                       <Link
-                        className="text-red-800 underline"
+                        className="archive-link"
                         href={
                           row.university
                             ? `/universities/${row.university.id}`
@@ -354,31 +344,32 @@ export async function Results({
                         {row.team.name}
                       </Link>
                       {row.team.kind !== "university" && (
-                        <span className="ml-2 text-xs text-stone-500">
+                        <span className="ml-2 text-xs text-[var(--muted)]">
                           选拔队 ·{" "}
                           {row.entry.finalRank !== null
                             ? `官方综合第 ${row.entry.finalRank}`
                             : row.entry.status === "reference"
-                            ? "参考成绩"
-                            : "无正式综合排名"}
+                              ? "参考成绩"
+                              : "无正式综合排名"}
                         </span>
                       )}
                       {filters.view === "university" && (
-                        <span className="ml-2 text-xs text-stone-500">
+                        <span className="ml-2 text-xs text-[var(--muted)]">
                           综合 {row.entry.finalRank ?? "—"}
                         </span>
                       )}
                     </td>
                     <td className="px-4 py-3">
                       <Link
-                        className="text-red-800 underline"
+                        className="archive-link"
                         href={`/athletes/${row.athlete.id}`}
                       >
                         {row.athlete.name}
                       </Link>
                     </td>
-                    <td className="w-28 px-4 py-3 font-mono tabular-nums">
+                    <td className="w-28 px-4 py-3 numeric">
                       {formatTime(row.timeSeconds)}
+                      <ResultBadges resultId={row.id} />
                       {row.status && row.status !== "finished" && (
                         <span className="ml-2 text-xs">
                           {row.status === "reference"
@@ -400,10 +391,7 @@ export async function Results({
           </table>
         </div>
       )}
-      <nav
-        aria-label="成绩分页"
-        className="mt-6 flex items-center justify-center gap-6 text-sm"
-      >
+      <nav aria-label="成绩分页" className="pagination">
         {result.page > 1 && (
           <Link href={queryHref(path, { ...filters, page: result.page - 1 })}>
             上一页

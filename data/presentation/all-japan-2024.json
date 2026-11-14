@@ -1,0 +1,1361 @@
+{
+  "editionId": "all-japan-2024",
+  "sourceId": "iuau-aj2024-completion-results",
+  "reviewedAt": "2026-11-14",
+  "revision": "PDF p.1–2 footer 2024/11/5 19:45; official cumulative standings, section awards and new records",
+  "coverage": "27 teams × 8 official cumulative results; 8 section awards and 2 explicitly marked new section records. Reference teams retain null cumulative ranks.",
+  "usage": {
+    "policyUrl": "https://iuau.jp/taikaijoho2024.html",
+    "reviewedAt": "2026-11-14",
+    "basis": "Reviewed the independent IUAU event page and office information page. Copyright notice present; no explicit prohibition applicable to this limited factual extraction identified. Structured facts only; no redistribution of source PDF, layout or explanatory text. No confirmed written permission recorded.",
+    "permissionReference": null
+  },
+  "cumulative": [
+    {
+      "resultId": "aj24-kokugakuin-s1",
+      "timeSeconds": 1700,
+      "rank": 2,
+      "locator": "p.2; No.3 國學院大; 第1区 総合記録"
+    },
+    {
+      "resultId": "aj24-kokugakuin-s2",
+      "timeSeconds": 3619,
+      "rank": 6,
+      "locator": "p.2; No.3 國學院大; 第2区 総合記録"
+    },
+    {
+      "resultId": "aj24-kokugakuin-s3",
+      "timeSeconds": 5658,
+      "rank": 3,
+      "locator": "p.2; No.3 國學院大; 第3区 総合記録"
+    },
+    {
+      "resultId": "aj24-kokugakuin-s4",
+      "timeSeconds": 7693,
+      "rank": 3,
+      "locator": "p.2; No.3 國學院大; 第4区 総合記録"
+    },
+    {
+      "resultId": "aj24-kokugakuin-s5",
+      "timeSeconds": 9828,
+      "rank": 2,
+      "locator": "p.2; No.3 國學院大; 第5区 総合記録"
+    },
+    {
+      "resultId": "aj24-kokugakuin-s6",
+      "timeSeconds": 12035,
+      "rank": 2,
+      "locator": "p.2; No.3 國學院大; 第6区 総合記録"
+    },
+    {
+      "resultId": "aj24-kokugakuin-s7",
+      "timeSeconds": 15042,
+      "rank": 2,
+      "locator": "p.2; No.3 國學院大; 第7区 総合記録"
+    },
+    {
+      "resultId": "aj24-kokugakuin-s8",
+      "timeSeconds": 18596,
+      "rank": 1,
+      "locator": "p.2; No.3 國學院大; 第8区 総合記録"
+    },
+    {
+      "resultId": "aj24-komazawa-s1",
+      "timeSeconds": 1705,
+      "rank": 13,
+      "locator": "p.2; No.1 駒澤大; 第1区 総合記録"
+    },
+    {
+      "resultId": "aj24-komazawa-s2",
+      "timeSeconds": 3708,
+      "rank": 16,
+      "locator": "p.2; No.1 駒澤大; 第2区 総合記録"
+    },
+    {
+      "resultId": "aj24-komazawa-s3",
+      "timeSeconds": 5727,
+      "rank": 8,
+      "locator": "p.2; No.1 駒澤大; 第3区 総合記録"
+    },
+    {
+      "resultId": "aj24-komazawa-s4",
+      "timeSeconds": 7751,
+      "rank": 5,
+      "locator": "p.2; No.1 駒澤大; 第4区 総合記録"
+    },
+    {
+      "resultId": "aj24-komazawa-s5",
+      "timeSeconds": 9939,
+      "rank": 5,
+      "locator": "p.2; No.1 駒澤大; 第5区 総合記録"
+    },
+    {
+      "resultId": "aj24-komazawa-s6",
+      "timeSeconds": 12198,
+      "rank": 5,
+      "locator": "p.2; No.1 駒澤大; 第6区 総合記録"
+    },
+    {
+      "resultId": "aj24-komazawa-s7",
+      "timeSeconds": 15195,
+      "rank": 3,
+      "locator": "p.2; No.1 駒澤大; 第7区 総合記録"
+    },
+    {
+      "resultId": "aj24-komazawa-s8",
+      "timeSeconds": 18624,
+      "rank": 2,
+      "locator": "p.2; No.1 駒澤大; 第8区 総合記録"
+    },
+    {
+      "resultId": "aj24-aoyama-gakuin-s1",
+      "timeSeconds": 1701,
+      "rank": 4,
+      "locator": "p.2; No.2 青山学院大; 第1区 総合記録"
+    },
+    {
+      "resultId": "aj24-aoyama-gakuin-s2",
+      "timeSeconds": 3565,
+      "rank": 1,
+      "locator": "p.2; No.2 青山学院大; 第2区 総合記録"
+    },
+    {
+      "resultId": "aj24-aoyama-gakuin-s3",
+      "timeSeconds": 5623,
+      "rank": 1,
+      "locator": "p.2; No.2 青山学院大; 第3区 総合記録"
+    },
+    {
+      "resultId": "aj24-aoyama-gakuin-s4",
+      "timeSeconds": 7606,
+      "rank": 1,
+      "locator": "p.2; No.2 青山学院大; 第4区 総合記録"
+    },
+    {
+      "resultId": "aj24-aoyama-gakuin-s5",
+      "timeSeconds": 9787,
+      "rank": 1,
+      "locator": "p.2; No.2 青山学院大; 第5区 総合記録"
+    },
+    {
+      "resultId": "aj24-aoyama-gakuin-s6",
+      "timeSeconds": 12031,
+      "rank": 1,
+      "locator": "p.2; No.2 青山学院大; 第6区 総合記録"
+    },
+    {
+      "resultId": "aj24-aoyama-gakuin-s7",
+      "timeSeconds": 15038,
+      "rank": 1,
+      "locator": "p.2; No.2 青山学院大; 第7区 総合記録"
+    },
+    {
+      "resultId": "aj24-aoyama-gakuin-s8",
+      "timeSeconds": 18641,
+      "rank": 3,
+      "locator": "p.2; No.2 青山学院大; 第8区 総合記録"
+    },
+    {
+      "resultId": "aj24-soka-s1",
+      "timeSeconds": 1700,
+      "rank": 3,
+      "locator": "p.2; No.6 創価大; 第1区 総合記録"
+    },
+    {
+      "resultId": "aj24-soka-s2",
+      "timeSeconds": 3565,
+      "rank": 2,
+      "locator": "p.2; No.6 創価大; 第2区 総合記録"
+    },
+    {
+      "resultId": "aj24-soka-s3",
+      "timeSeconds": 5657,
+      "rank": 2,
+      "locator": "p.2; No.6 創価大; 第3区 総合記録"
+    },
+    {
+      "resultId": "aj24-soka-s4",
+      "timeSeconds": 7712,
+      "rank": 4,
+      "locator": "p.2; No.6 創価大; 第4区 総合記録"
+    },
+    {
+      "resultId": "aj24-soka-s5",
+      "timeSeconds": 9853,
+      "rank": 3,
+      "locator": "p.2; No.6 創価大; 第5区 総合記録"
+    },
+    {
+      "resultId": "aj24-soka-s6",
+      "timeSeconds": 12153,
+      "rank": 3,
+      "locator": "p.2; No.6 創価大; 第6区 総合記録"
+    },
+    {
+      "resultId": "aj24-soka-s7",
+      "timeSeconds": 15329,
+      "rank": 4,
+      "locator": "p.2; No.6 創価大; 第7区 総合記録"
+    },
+    {
+      "resultId": "aj24-soka-s8",
+      "timeSeconds": 18797,
+      "rank": 4,
+      "locator": "p.2; No.6 創価大; 第8区 総合記録"
+    },
+    {
+      "resultId": "aj24-waseda-s1",
+      "timeSeconds": 1710,
+      "rank": 18,
+      "locator": "p.2; No.13 早稲田大; 第1区 総合記録"
+    },
+    {
+      "resultId": "aj24-waseda-s2",
+      "timeSeconds": 3618,
+      "rank": 5,
+      "locator": "p.2; No.13 早稲田大; 第2区 総合記録"
+    },
+    {
+      "resultId": "aj24-waseda-s3",
+      "timeSeconds": 5750,
+      "rank": 10,
+      "locator": "p.2; No.13 早稲田大; 第3区 総合記録"
+    },
+    {
+      "resultId": "aj24-waseda-s4",
+      "timeSeconds": 7794,
+      "rank": 7,
+      "locator": "p.2; No.13 早稲田大; 第4区 総合記録"
+    },
+    {
+      "resultId": "aj24-waseda-s5",
+      "timeSeconds": 9962,
+      "rank": 6,
+      "locator": "p.2; No.13 早稲田大; 第5区 総合記録"
+    },
+    {
+      "resultId": "aj24-waseda-s6",
+      "timeSeconds": 12263,
+      "rank": 6,
+      "locator": "p.2; No.13 早稲田大; 第6区 総合記録"
+    },
+    {
+      "resultId": "aj24-waseda-s7",
+      "timeSeconds": 15372,
+      "rank": 6,
+      "locator": "p.2; No.13 早稲田大; 第7区 総合記録"
+    },
+    {
+      "resultId": "aj24-waseda-s8",
+      "timeSeconds": 18864,
+      "rank": 5,
+      "locator": "p.2; No.13 早稲田大; 第8区 総合記録"
+    },
+    {
+      "resultId": "aj24-josai-s1",
+      "timeSeconds": 1703,
+      "rank": 7,
+      "locator": "p.2; No.5 城西大; 第1区 総合記録"
+    },
+    {
+      "resultId": "aj24-josai-s2",
+      "timeSeconds": 3659,
+      "rank": 10,
+      "locator": "p.2; No.5 城西大; 第2区 総合記録"
+    },
+    {
+      "resultId": "aj24-josai-s3",
+      "timeSeconds": 5661,
+      "rank": 5,
+      "locator": "p.2; No.5 城西大; 第3区 総合記録"
+    },
+    {
+      "resultId": "aj24-josai-s4",
+      "timeSeconds": 7682,
+      "rank": 2,
+      "locator": "p.2; No.5 城西大; 第4区 総合記録"
+    },
+    {
+      "resultId": "aj24-josai-s5",
+      "timeSeconds": 9895,
+      "rank": 4,
+      "locator": "p.2; No.5 城西大; 第5区 総合記録"
+    },
+    {
+      "resultId": "aj24-josai-s6",
+      "timeSeconds": 12197,
+      "rank": 4,
+      "locator": "p.2; No.5 城西大; 第6区 総合記録"
+    },
+    {
+      "resultId": "aj24-josai-s7",
+      "timeSeconds": 15362,
+      "rank": 5,
+      "locator": "p.2; No.5 城西大; 第7区 総合記録"
+    },
+    {
+      "resultId": "aj24-josai-s8",
+      "timeSeconds": 18897,
+      "rank": 6,
+      "locator": "p.2; No.5 城西大; 第8区 総合記録"
+    },
+    {
+      "resultId": "aj24-rikkyo-s1",
+      "timeSeconds": 1702,
+      "rank": 6,
+      "locator": "p.2; No.15 立教大; 第1区 総合記録"
+    },
+    {
+      "resultId": "aj24-rikkyo-s2",
+      "timeSeconds": 3695,
+      "rank": 14,
+      "locator": "p.2; No.15 立教大; 第2区 総合記録"
+    },
+    {
+      "resultId": "aj24-rikkyo-s3",
+      "timeSeconds": 5801,
+      "rank": 14,
+      "locator": "p.2; No.15 立教大; 第3区 総合記録"
+    },
+    {
+      "resultId": "aj24-rikkyo-s4",
+      "timeSeconds": 7851,
+      "rank": 12,
+      "locator": "p.2; No.15 立教大; 第4区 総合記録"
+    },
+    {
+      "resultId": "aj24-rikkyo-s5",
+      "timeSeconds": 10089,
+      "rank": 12,
+      "locator": "p.2; No.15 立教大; 第5区 総合記録"
+    },
+    {
+      "resultId": "aj24-rikkyo-s6",
+      "timeSeconds": 12360,
+      "rank": 11,
+      "locator": "p.2; No.15 立教大; 第6区 総合記録"
+    },
+    {
+      "resultId": "aj24-rikkyo-s7",
+      "timeSeconds": 15431,
+      "rank": 7,
+      "locator": "p.2; No.15 立教大; 第7区 総合記録"
+    },
+    {
+      "resultId": "aj24-rikkyo-s8",
+      "timeSeconds": 18981,
+      "rank": 7,
+      "locator": "p.2; No.15 立教大; 第8区 総合記録"
+    },
+    {
+      "resultId": "aj24-teikyo-s1",
+      "timeSeconds": 1703,
+      "rank": 9,
+      "locator": "p.2; No.16 帝京大; 第1区 総合記録"
+    },
+    {
+      "resultId": "aj24-teikyo-s2",
+      "timeSeconds": 3607,
+      "rank": 4,
+      "locator": "p.2; No.16 帝京大; 第2区 総合記録"
+    },
+    {
+      "resultId": "aj24-teikyo-s3",
+      "timeSeconds": 5714,
+      "rank": 7,
+      "locator": "p.2; No.16 帝京大; 第3区 総合記録"
+    },
+    {
+      "resultId": "aj24-teikyo-s4",
+      "timeSeconds": 7806,
+      "rank": 9,
+      "locator": "p.2; No.16 帝京大; 第4区 総合記録"
+    },
+    {
+      "resultId": "aj24-teikyo-s5",
+      "timeSeconds": 10058,
+      "rank": 11,
+      "locator": "p.2; No.16 帝京大; 第5区 総合記録"
+    },
+    {
+      "resultId": "aj24-teikyo-s6",
+      "timeSeconds": 12326,
+      "rank": 9,
+      "locator": "p.2; No.16 帝京大; 第6区 総合記録"
+    },
+    {
+      "resultId": "aj24-teikyo-s7",
+      "timeSeconds": 15456,
+      "rank": 8,
+      "locator": "p.2; No.16 帝京大; 第7区 総合記録"
+    },
+    {
+      "resultId": "aj24-teikyo-s8",
+      "timeSeconds": 18984,
+      "rank": 8,
+      "locator": "p.2; No.16 帝京大; 第8区 総合記録"
+    },
+    {
+      "resultId": "aj24-tokyo-international-s1",
+      "timeSeconds": 1709,
+      "rank": 16,
+      "locator": "p.2; No.8 東京国際大; 第1区 総合記録"
+    },
+    {
+      "resultId": "aj24-tokyo-international-s2",
+      "timeSeconds": 3606,
+      "rank": 3,
+      "locator": "p.2; No.8 東京国際大; 第2区 総合記録"
+    },
+    {
+      "resultId": "aj24-tokyo-international-s3",
+      "timeSeconds": 5659,
+      "rank": 4,
+      "locator": "p.2; No.8 東京国際大; 第3区 総合記録"
+    },
+    {
+      "resultId": "aj24-tokyo-international-s4",
+      "timeSeconds": 7776,
+      "rank": 6,
+      "locator": "p.2; No.8 東京国際大; 第4区 総合記録"
+    },
+    {
+      "resultId": "aj24-tokyo-international-s5",
+      "timeSeconds": 10051,
+      "rank": 10,
+      "locator": "p.2; No.8 東京国際大; 第5区 総合記録"
+    },
+    {
+      "resultId": "aj24-tokyo-international-s6",
+      "timeSeconds": 12350,
+      "rank": 10,
+      "locator": "p.2; No.8 東京国際大; 第6区 総合記録"
+    },
+    {
+      "resultId": "aj24-tokyo-international-s7",
+      "timeSeconds": 15467,
+      "rank": 9,
+      "locator": "p.2; No.8 東京国際大; 第7区 総合記録"
+    },
+    {
+      "resultId": "aj24-tokyo-international-s8",
+      "timeSeconds": 19066,
+      "rank": 9,
+      "locator": "p.2; No.8 東京国際大; 第8区 総合記録"
+    },
+    {
+      "resultId": "aj24-nippon-sport-science-s1",
+      "timeSeconds": 1698,
+      "rank": 1,
+      "locator": "p.2; No.14 日本体育大; 第1区 総合記録"
+    },
+    {
+      "resultId": "aj24-nippon-sport-science-s2",
+      "timeSeconds": 3632,
+      "rank": 8,
+      "locator": "p.2; No.14 日本体育大; 第2区 総合記録"
+    },
+    {
+      "resultId": "aj24-nippon-sport-science-s3",
+      "timeSeconds": 5732,
+      "rank": 9,
+      "locator": "p.2; No.14 日本体育大; 第3区 総合記録"
+    },
+    {
+      "resultId": "aj24-nippon-sport-science-s4",
+      "timeSeconds": 7816,
+      "rank": 10,
+      "locator": "p.2; No.14 日本体育大; 第4区 総合記録"
+    },
+    {
+      "resultId": "aj24-nippon-sport-science-s5",
+      "timeSeconds": 10033,
+      "rank": 9,
+      "locator": "p.2; No.14 日本体育大; 第5区 総合記録"
+    },
+    {
+      "resultId": "aj24-nippon-sport-science-s6",
+      "timeSeconds": 12317,
+      "rank": 7,
+      "locator": "p.2; No.14 日本体育大; 第6区 総合記録"
+    },
+    {
+      "resultId": "aj24-nippon-sport-science-s7",
+      "timeSeconds": 15503,
+      "rank": 10,
+      "locator": "p.2; No.14 日本体育大; 第7区 総合記録"
+    },
+    {
+      "resultId": "aj24-nippon-sport-science-s8",
+      "timeSeconds": 19072,
+      "rank": 10,
+      "locator": "p.2; No.14 日本体育大; 第8区 総合記録"
+    },
+    {
+      "resultId": "aj24-daito-bunka-s1",
+      "timeSeconds": 1701,
+      "rank": 5,
+      "locator": "p.2; No.7 大東文化大; 第1区 総合記録"
+    },
+    {
+      "resultId": "aj24-daito-bunka-s2",
+      "timeSeconds": 3654,
+      "rank": 9,
+      "locator": "p.2; No.7 大東文化大; 第2区 総合記録"
+    },
+    {
+      "resultId": "aj24-daito-bunka-s3",
+      "timeSeconds": 5771,
+      "rank": 11,
+      "locator": "p.2; No.7 大東文化大; 第3区 総合記録"
+    },
+    {
+      "resultId": "aj24-daito-bunka-s4",
+      "timeSeconds": 7820,
+      "rank": 11,
+      "locator": "p.2; No.7 大東文化大; 第4区 総合記録"
+    },
+    {
+      "resultId": "aj24-daito-bunka-s5",
+      "timeSeconds": 10012,
+      "rank": 7,
+      "locator": "p.2; No.7 大東文化大; 第5区 総合記録"
+    },
+    {
+      "resultId": "aj24-daito-bunka-s6",
+      "timeSeconds": 12390,
+      "rank": 12,
+      "locator": "p.2; No.7 大東文化大; 第6区 総合記録"
+    },
+    {
+      "resultId": "aj24-daito-bunka-s7",
+      "timeSeconds": 15546,
+      "rank": 12,
+      "locator": "p.2; No.7 大東文化大; 第7区 総合記録"
+    },
+    {
+      "resultId": "aj24-daito-bunka-s8",
+      "timeSeconds": 19088,
+      "rank": 11,
+      "locator": "p.2; No.7 大東文化大; 第8区 総合記録"
+    },
+    {
+      "resultId": "aj24-chuo-s1",
+      "timeSeconds": 1711,
+      "rank": 19,
+      "locator": "p.2; No.4 中央大; 第1区 総合記録"
+    },
+    {
+      "resultId": "aj24-chuo-s2",
+      "timeSeconds": 3624,
+      "rank": 7,
+      "locator": "p.2; No.4 中央大; 第2区 総合記録"
+    },
+    {
+      "resultId": "aj24-chuo-s3",
+      "timeSeconds": 5695,
+      "rank": 6,
+      "locator": "p.2; No.4 中央大; 第3区 総合記録"
+    },
+    {
+      "resultId": "aj24-chuo-s4",
+      "timeSeconds": 7798,
+      "rank": 8,
+      "locator": "p.2; No.4 中央大; 第4区 総合記録"
+    },
+    {
+      "resultId": "aj24-chuo-s5",
+      "timeSeconds": 10028,
+      "rank": 8,
+      "locator": "p.2; No.4 中央大; 第5区 総合記録"
+    },
+    {
+      "resultId": "aj24-chuo-s6",
+      "timeSeconds": 12319,
+      "rank": 8,
+      "locator": "p.2; No.4 中央大; 第6区 総合記録"
+    },
+    {
+      "resultId": "aj24-chuo-s7",
+      "timeSeconds": 15521,
+      "rank": 11,
+      "locator": "p.2; No.4 中央大; 第7区 総合記録"
+    },
+    {
+      "resultId": "aj24-chuo-s8",
+      "timeSeconds": 19189,
+      "rank": 12,
+      "locator": "p.2; No.4 中央大; 第8区 総合記録"
+    },
+    {
+      "resultId": "aj24-toyo-s1",
+      "timeSeconds": 1703,
+      "rank": 8,
+      "locator": "p.2; No.12 東洋大; 第1区 総合記録"
+    },
+    {
+      "resultId": "aj24-toyo-s2",
+      "timeSeconds": 3693,
+      "rank": 13,
+      "locator": "p.2; No.12 東洋大; 第2区 総合記録"
+    },
+    {
+      "resultId": "aj24-toyo-s3",
+      "timeSeconds": 5772,
+      "rank": 12,
+      "locator": "p.2; No.12 東洋大; 第3区 総合記録"
+    },
+    {
+      "resultId": "aj24-toyo-s4",
+      "timeSeconds": 7867,
+      "rank": 13,
+      "locator": "p.2; No.12 東洋大; 第4区 総合記録"
+    },
+    {
+      "resultId": "aj24-toyo-s5",
+      "timeSeconds": 10128,
+      "rank": 13,
+      "locator": "p.2; No.12 東洋大; 第5区 総合記録"
+    },
+    {
+      "resultId": "aj24-toyo-s6",
+      "timeSeconds": 12549,
+      "rank": 14,
+      "locator": "p.2; No.12 東洋大; 第6区 総合記録"
+    },
+    {
+      "resultId": "aj24-toyo-s7",
+      "timeSeconds": 15661,
+      "rank": 13,
+      "locator": "p.2; No.12 東洋大; 第7区 総合記録"
+    },
+    {
+      "resultId": "aj24-toyo-s8",
+      "timeSeconds": 19208,
+      "rank": 13,
+      "locator": "p.2; No.12 東洋大; 第8区 総合記録"
+    },
+    {
+      "resultId": "aj24-kanagawa-s1",
+      "timeSeconds": 1705,
+      "rank": 12,
+      "locator": "p.2; No.17 神奈川大; 第1区 総合記録"
+    },
+    {
+      "resultId": "aj24-kanagawa-s2",
+      "timeSeconds": 3703,
+      "rank": 15,
+      "locator": "p.2; No.17 神奈川大; 第2区 総合記録"
+    },
+    {
+      "resultId": "aj24-kanagawa-s3",
+      "timeSeconds": 5789,
+      "rank": 13,
+      "locator": "p.2; No.17 神奈川大; 第3区 総合記録"
+    },
+    {
+      "resultId": "aj24-kanagawa-s4",
+      "timeSeconds": 7871,
+      "rank": 14,
+      "locator": "p.2; No.17 神奈川大; 第4区 総合記録"
+    },
+    {
+      "resultId": "aj24-kanagawa-s5",
+      "timeSeconds": 10181,
+      "rank": 14,
+      "locator": "p.2; No.17 神奈川大; 第5区 総合記録"
+    },
+    {
+      "resultId": "aj24-kanagawa-s6",
+      "timeSeconds": 12524,
+      "rank": 13,
+      "locator": "p.2; No.17 神奈川大; 第6区 総合記録"
+    },
+    {
+      "resultId": "aj24-kanagawa-s7",
+      "timeSeconds": 15730,
+      "rank": 14,
+      "locator": "p.2; No.17 神奈川大; 第7区 総合記録"
+    },
+    {
+      "resultId": "aj24-kanagawa-s8",
+      "timeSeconds": 19362,
+      "rank": 14,
+      "locator": "p.2; No.17 神奈川大; 第8区 総合記録"
+    },
+    {
+      "resultId": "aj24-tokai-s1",
+      "timeSeconds": 1704,
+      "rank": 11,
+      "locator": "p.2; No.11 東海大; 第1区 総合記録"
+    },
+    {
+      "resultId": "aj24-tokai-s2",
+      "timeSeconds": 3663,
+      "rank": 11,
+      "locator": "p.2; No.11 東海大; 第2区 総合記録"
+    },
+    {
+      "resultId": "aj24-tokai-s3",
+      "timeSeconds": 5846,
+      "rank": 15,
+      "locator": "p.2; No.11 東海大; 第3区 総合記録"
+    },
+    {
+      "resultId": "aj24-tokai-s4",
+      "timeSeconds": 8014,
+      "rank": 15,
+      "locator": "p.2; No.11 東海大; 第4区 総合記録"
+    },
+    {
+      "resultId": "aj24-tokai-s5",
+      "timeSeconds": 10276,
+      "rank": 15,
+      "locator": "p.2; No.11 東海大; 第5区 総合記録"
+    },
+    {
+      "resultId": "aj24-tokai-s6",
+      "timeSeconds": 12672,
+      "rank": 15,
+      "locator": "p.2; No.11 東海大; 第6区 総合記録"
+    },
+    {
+      "resultId": "aj24-tokai-s7",
+      "timeSeconds": 15830,
+      "rank": 15,
+      "locator": "p.2; No.11 東海大; 第7区 総合記録"
+    },
+    {
+      "resultId": "aj24-tokai-s8",
+      "timeSeconds": 19423,
+      "rank": 15,
+      "locator": "p.2; No.11 東海大; 第8区 総合記録"
+    },
+    {
+      "resultId": "aj24-kyoto-sangyo-s1",
+      "timeSeconds": 1707,
+      "rank": 14,
+      "locator": "p.2; No.21 京都産業大; 第1区 総合記録"
+    },
+    {
+      "resultId": "aj24-kyoto-sangyo-s2",
+      "timeSeconds": 3681,
+      "rank": 12,
+      "locator": "p.2; No.21 京都産業大; 第2区 総合記録"
+    },
+    {
+      "resultId": "aj24-kyoto-sangyo-s3",
+      "timeSeconds": 5939,
+      "rank": 17,
+      "locator": "p.2; No.21 京都産業大; 第3区 総合記録"
+    },
+    {
+      "resultId": "aj24-kyoto-sangyo-s4",
+      "timeSeconds": 8083,
+      "rank": 16,
+      "locator": "p.2; No.21 京都産業大; 第4区 総合記録"
+    },
+    {
+      "resultId": "aj24-kyoto-sangyo-s5",
+      "timeSeconds": 10359,
+      "rank": 16,
+      "locator": "p.2; No.21 京都産業大; 第5区 総合記録"
+    },
+    {
+      "resultId": "aj24-kyoto-sangyo-s6",
+      "timeSeconds": 12810,
+      "rank": 17,
+      "locator": "p.2; No.21 京都産業大; 第6区 総合記録"
+    },
+    {
+      "resultId": "aj24-kyoto-sangyo-s7",
+      "timeSeconds": 16138,
+      "rank": 16,
+      "locator": "p.2; No.21 京都産業大; 第7区 総合記録"
+    },
+    {
+      "resultId": "aj24-kyoto-sangyo-s8",
+      "timeSeconds": 19738,
+      "rank": 16,
+      "locator": "p.2; No.21 京都産業大; 第8区 総合記録"
+    },
+    {
+      "resultId": "aj24-kogakkan-s1",
+      "timeSeconds": 1761,
+      "rank": 22,
+      "locator": "p.2; No.19 皇學館大; 第1区 総合記録"
+    },
+    {
+      "resultId": "aj24-kogakkan-s2",
+      "timeSeconds": 3853,
+      "rank": 21,
+      "locator": "p.2; No.19 皇學館大; 第2区 総合記録"
+    },
+    {
+      "resultId": "aj24-kogakkan-s3",
+      "timeSeconds": 6044,
+      "rank": 20,
+      "locator": "p.2; No.19 皇學館大; 第3区 総合記録"
+    },
+    {
+      "resultId": "aj24-kogakkan-s4",
+      "timeSeconds": 8221,
+      "rank": 19,
+      "locator": "p.2; No.19 皇學館大; 第4区 総合記録"
+    },
+    {
+      "resultId": "aj24-kogakkan-s5",
+      "timeSeconds": 10557,
+      "rank": 20,
+      "locator": "p.2; No.19 皇學館大; 第5区 総合記録"
+    },
+    {
+      "resultId": "aj24-kogakkan-s6",
+      "timeSeconds": 12943,
+      "rank": 19,
+      "locator": "p.2; No.19 皇學館大; 第6区 総合記録"
+    },
+    {
+      "resultId": "aj24-kogakkan-s7",
+      "timeSeconds": 16254,
+      "rank": 20,
+      "locator": "p.2; No.19 皇學館大; 第7区 総合記録"
+    },
+    {
+      "resultId": "aj24-kogakkan-s8",
+      "timeSeconds": 19896,
+      "rank": 17,
+      "locator": "p.2; No.19 皇學館大; 第8区 総合記録"
+    },
+    {
+      "resultId": "aj24-osaka-keizai-s1",
+      "timeSeconds": 1709,
+      "rank": 17,
+      "locator": "p.2; No.22 大阪経済大; 第1区 総合記録"
+    },
+    {
+      "resultId": "aj24-osaka-keizai-s2",
+      "timeSeconds": 3758,
+      "rank": 18,
+      "locator": "p.2; No.22 大阪経済大; 第2区 総合記録"
+    },
+    {
+      "resultId": "aj24-osaka-keizai-s3",
+      "timeSeconds": 5958,
+      "rank": 18,
+      "locator": "p.2; No.22 大阪経済大; 第3区 総合記録"
+    },
+    {
+      "resultId": "aj24-osaka-keizai-s4",
+      "timeSeconds": 8095,
+      "rank": 18,
+      "locator": "p.2; No.22 大阪経済大; 第4区 総合記録"
+    },
+    {
+      "resultId": "aj24-osaka-keizai-s5",
+      "timeSeconds": 10442,
+      "rank": 18,
+      "locator": "p.2; No.22 大阪経済大; 第5区 総合記録"
+    },
+    {
+      "resultId": "aj24-osaka-keizai-s6",
+      "timeSeconds": 12799,
+      "rank": 16,
+      "locator": "p.2; No.22 大阪経済大; 第6区 総合記録"
+    },
+    {
+      "resultId": "aj24-osaka-keizai-s7",
+      "timeSeconds": 16153,
+      "rank": 17,
+      "locator": "p.2; No.22 大阪経済大; 第7区 総合記録"
+    },
+    {
+      "resultId": "aj24-osaka-keizai-s8",
+      "timeSeconds": 19973,
+      "rank": 18,
+      "locator": "p.2; No.22 大阪経済大; 第8区 総合記録"
+    },
+    {
+      "resultId": "aj24-kansai-s1",
+      "timeSeconds": 1703,
+      "rank": 10,
+      "locator": "p.2; No.20 関西大; 第1区 総合記録"
+    },
+    {
+      "resultId": "aj24-kansai-s2",
+      "timeSeconds": 3793,
+      "rank": 19,
+      "locator": "p.2; No.20 関西大; 第2区 総合記録"
+    },
+    {
+      "resultId": "aj24-kansai-s3",
+      "timeSeconds": 6003,
+      "rank": 19,
+      "locator": "p.2; No.20 関西大; 第3区 総合記録"
+    },
+    {
+      "resultId": "aj24-kansai-s4",
+      "timeSeconds": 8231,
+      "rank": 20,
+      "locator": "p.2; No.20 関西大; 第4区 総合記録"
+    },
+    {
+      "resultId": "aj24-kansai-s5",
+      "timeSeconds": 10551,
+      "rank": 19,
+      "locator": "p.2; No.20 関西大; 第5区 総合記録"
+    },
+    {
+      "resultId": "aj24-kansai-s6",
+      "timeSeconds": 12951,
+      "rank": 20,
+      "locator": "p.2; No.20 関西大; 第6区 総合記録"
+    },
+    {
+      "resultId": "aj24-kansai-s7",
+      "timeSeconds": 16225,
+      "rank": 19,
+      "locator": "p.2; No.20 関西大; 第7区 総合記録"
+    },
+    {
+      "resultId": "aj24-kansai-s8",
+      "timeSeconds": 20032,
+      "rank": 19,
+      "locator": "p.2; No.20 関西大; 第8区 総合記録"
+    },
+    {
+      "resultId": "aj24-sapporo-gakuin-s1",
+      "timeSeconds": 1708,
+      "rank": 15,
+      "locator": "p.2; No.9 札幌学院大; 第1区 総合記録"
+    },
+    {
+      "resultId": "aj24-sapporo-gakuin-s2",
+      "timeSeconds": 3745,
+      "rank": 17,
+      "locator": "p.2; No.9 札幌学院大; 第2区 総合記録"
+    },
+    {
+      "resultId": "aj24-sapporo-gakuin-s3",
+      "timeSeconds": 5935,
+      "rank": 16,
+      "locator": "p.2; No.9 札幌学院大; 第3区 総合記録"
+    },
+    {
+      "resultId": "aj24-sapporo-gakuin-s4",
+      "timeSeconds": 8094,
+      "rank": 17,
+      "locator": "p.2; No.9 札幌学院大; 第4区 総合記録"
+    },
+    {
+      "resultId": "aj24-sapporo-gakuin-s5",
+      "timeSeconds": 10440,
+      "rank": 17,
+      "locator": "p.2; No.9 札幌学院大; 第5区 総合記録"
+    },
+    {
+      "resultId": "aj24-sapporo-gakuin-s6",
+      "timeSeconds": 12897,
+      "rank": 18,
+      "locator": "p.2; No.9 札幌学院大; 第6区 総合記録"
+    },
+    {
+      "resultId": "aj24-sapporo-gakuin-s7",
+      "timeSeconds": 16188,
+      "rank": 18,
+      "locator": "p.2; No.9 札幌学院大; 第7区 総合記録"
+    },
+    {
+      "resultId": "aj24-sapporo-gakuin-s8",
+      "timeSeconds": 20150,
+      "rank": 20,
+      "locator": "p.2; No.9 札幌学院大; 第8区 総合記録"
+    },
+    {
+      "resultId": "aj24-kagoshima-s1",
+      "timeSeconds": 1739,
+      "rank": 21,
+      "locator": "p.2; No.25 鹿児島大; 第1区 総合記録"
+    },
+    {
+      "resultId": "aj24-kagoshima-s2",
+      "timeSeconds": 3821,
+      "rank": 20,
+      "locator": "p.2; No.25 鹿児島大; 第2区 総合記録"
+    },
+    {
+      "resultId": "aj24-kagoshima-s3",
+      "timeSeconds": 6084,
+      "rank": 21,
+      "locator": "p.2; No.25 鹿児島大; 第3区 総合記録"
+    },
+    {
+      "resultId": "aj24-kagoshima-s4",
+      "timeSeconds": 8320,
+      "rank": 23,
+      "locator": "p.2; No.25 鹿児島大; 第4区 総合記録"
+    },
+    {
+      "resultId": "aj24-kagoshima-s5",
+      "timeSeconds": 10700,
+      "rank": 23,
+      "locator": "p.2; No.25 鹿児島大; 第5区 総合記録"
+    },
+    {
+      "resultId": "aj24-kagoshima-s6",
+      "timeSeconds": 13163,
+      "rank": 22,
+      "locator": "p.2; No.25 鹿児島大; 第6区 総合記録"
+    },
+    {
+      "resultId": "aj24-kagoshima-s7",
+      "timeSeconds": 16443,
+      "rank": 21,
+      "locator": "p.2; No.25 鹿児島大; 第7区 総合記録"
+    },
+    {
+      "resultId": "aj24-kagoshima-s8",
+      "timeSeconds": 20244,
+      "rank": 21,
+      "locator": "p.2; No.25 鹿児島大; 第8区 総合記録"
+    },
+    {
+      "resultId": "aj24-ritsumeikan-s1",
+      "timeSeconds": 1712,
+      "rank": 20,
+      "locator": "p.2; No.23 立命館大; 第1区 総合記録"
+    },
+    {
+      "resultId": "aj24-ritsumeikan-s2",
+      "timeSeconds": 3965,
+      "rank": 24,
+      "locator": "p.2; No.23 立命館大; 第2区 総合記録"
+    },
+    {
+      "resultId": "aj24-ritsumeikan-s3",
+      "timeSeconds": 6128,
+      "rank": 23,
+      "locator": "p.2; No.23 立命館大; 第3区 総合記録"
+    },
+    {
+      "resultId": "aj24-ritsumeikan-s4",
+      "timeSeconds": 8280,
+      "rank": 22,
+      "locator": "p.2; No.23 立命館大; 第4区 総合記録"
+    },
+    {
+      "resultId": "aj24-ritsumeikan-s5",
+      "timeSeconds": 10681,
+      "rank": 22,
+      "locator": "p.2; No.23 立命館大; 第5区 総合記録"
+    },
+    {
+      "resultId": "aj24-ritsumeikan-s6",
+      "timeSeconds": 13068,
+      "rank": 21,
+      "locator": "p.2; No.23 立命館大; 第6区 総合記録"
+    },
+    {
+      "resultId": "aj24-ritsumeikan-s7",
+      "timeSeconds": 16446,
+      "rank": 22,
+      "locator": "p.2; No.23 立命館大; 第7区 総合記録"
+    },
+    {
+      "resultId": "aj24-ritsumeikan-s8",
+      "timeSeconds": 20298,
+      "rank": 22,
+      "locator": "p.2; No.23 立命館大; 第8区 総合記録"
+    },
+    {
+      "resultId": "aj24-okayama-s1",
+      "timeSeconds": 1780,
+      "rank": 23,
+      "locator": "p.2; No.24 岡山大; 第1区 総合記録"
+    },
+    {
+      "resultId": "aj24-okayama-s2",
+      "timeSeconds": 3875,
+      "rank": 22,
+      "locator": "p.2; No.24 岡山大; 第2区 総合記録"
+    },
+    {
+      "resultId": "aj24-okayama-s3",
+      "timeSeconds": 6094,
+      "rank": 22,
+      "locator": "p.2; No.24 岡山大; 第3区 総合記録"
+    },
+    {
+      "resultId": "aj24-okayama-s4",
+      "timeSeconds": 8268,
+      "rank": 21,
+      "locator": "p.2; No.24 岡山大; 第4区 総合記録"
+    },
+    {
+      "resultId": "aj24-okayama-s5",
+      "timeSeconds": 10659,
+      "rank": 21,
+      "locator": "p.2; No.24 岡山大; 第5区 総合記録"
+    },
+    {
+      "resultId": "aj24-okayama-s6",
+      "timeSeconds": 13229,
+      "rank": 23,
+      "locator": "p.2; No.24 岡山大; 第6区 総合記録"
+    },
+    {
+      "resultId": "aj24-okayama-s7",
+      "timeSeconds": 16525,
+      "rank": 23,
+      "locator": "p.2; No.24 岡山大; 第7区 総合記録"
+    },
+    {
+      "resultId": "aj24-okayama-s8",
+      "timeSeconds": 20411,
+      "rank": 23,
+      "locator": "p.2; No.24 岡山大; 第8区 総合記録"
+    },
+    {
+      "resultId": "aj24-niigata-s1",
+      "timeSeconds": 1803,
+      "rank": 25,
+      "locator": "p.2; No.18 新潟大; 第1区 総合記録"
+    },
+    {
+      "resultId": "aj24-niigata-s2",
+      "timeSeconds": 3934,
+      "rank": 23,
+      "locator": "p.2; No.18 新潟大; 第2区 総合記録"
+    },
+    {
+      "resultId": "aj24-niigata-s3",
+      "timeSeconds": 6182,
+      "rank": 24,
+      "locator": "p.2; No.18 新潟大; 第3区 総合記録"
+    },
+    {
+      "resultId": "aj24-niigata-s4",
+      "timeSeconds": 8427,
+      "rank": 24,
+      "locator": "p.2; No.18 新潟大; 第4区 総合記録"
+    },
+    {
+      "resultId": "aj24-niigata-s5",
+      "timeSeconds": 10910,
+      "rank": 24,
+      "locator": "p.2; No.18 新潟大; 第5区 総合記録"
+    },
+    {
+      "resultId": "aj24-niigata-s6",
+      "timeSeconds": 13366,
+      "rank": 24,
+      "locator": "p.2; No.18 新潟大; 第6区 総合記録"
+    },
+    {
+      "resultId": "aj24-niigata-s7",
+      "timeSeconds": 16598,
+      "rank": 24,
+      "locator": "p.2; No.18 新潟大; 第7区 総合記録"
+    },
+    {
+      "resultId": "aj24-niigata-s8",
+      "timeSeconds": 20428,
+      "rank": 24,
+      "locator": "p.2; No.18 新潟大; 第8区 総合記録"
+    },
+    {
+      "resultId": "aj24-tohoku-s1",
+      "timeSeconds": 1794,
+      "rank": 24,
+      "locator": "p.2; No.10 東北大; 第1区 総合記録"
+    },
+    {
+      "resultId": "aj24-tohoku-s2",
+      "timeSeconds": 3968,
+      "rank": 25,
+      "locator": "p.2; No.10 東北大; 第2区 総合記録"
+    },
+    {
+      "resultId": "aj24-tohoku-s3",
+      "timeSeconds": 6293,
+      "rank": 25,
+      "locator": "p.2; No.10 東北大; 第3区 総合記録"
+    },
+    {
+      "resultId": "aj24-tohoku-s4",
+      "timeSeconds": 8594,
+      "rank": 25,
+      "locator": "p.2; No.10 東北大; 第4区 総合記録"
+    },
+    {
+      "resultId": "aj24-tohoku-s5",
+      "timeSeconds": 11144,
+      "rank": 25,
+      "locator": "p.2; No.10 東北大; 第5区 総合記録"
+    },
+    {
+      "resultId": "aj24-tohoku-s6",
+      "timeSeconds": 13738,
+      "rank": 25,
+      "locator": "p.2; No.10 東北大; 第6区 総合記録"
+    },
+    {
+      "resultId": "aj24-tohoku-s7",
+      "timeSeconds": 17625,
+      "rank": 25,
+      "locator": "p.2; No.10 東北大; 第7区 総合記録"
+    },
+    {
+      "resultId": "aj24-tohoku-s8",
+      "timeSeconds": 21432,
+      "rank": 25,
+      "locator": "p.2; No.10 東北大; 第8区 総合記録"
+    },
+    {
+      "resultId": "aj24-japan-selection-s1",
+      "timeSeconds": 1705,
+      "rank": null,
+      "locator": "p.2; No.26 日本学連選抜; 第1区 総合記録"
+    },
+    {
+      "resultId": "aj24-japan-selection-s2",
+      "timeSeconds": 3650,
+      "rank": null,
+      "locator": "p.2; No.26 日本学連選抜; 第2区 総合記録"
+    },
+    {
+      "resultId": "aj24-japan-selection-s3",
+      "timeSeconds": 5736,
+      "rank": null,
+      "locator": "p.2; No.26 日本学連選抜; 第3区 総合記録"
+    },
+    {
+      "resultId": "aj24-japan-selection-s4",
+      "timeSeconds": 7903,
+      "rank": null,
+      "locator": "p.2; No.26 日本学連選抜; 第4区 総合記録"
+    },
+    {
+      "resultId": "aj24-japan-selection-s5",
+      "timeSeconds": 10160,
+      "rank": null,
+      "locator": "p.2; No.26 日本学連選抜; 第5区 総合記録"
+    },
+    {
+      "resultId": "aj24-japan-selection-s6",
+      "timeSeconds": 12471,
+      "rank": null,
+      "locator": "p.2; No.26 日本学連選抜; 第6区 総合記録"
+    },
+    {
+      "resultId": "aj24-japan-selection-s7",
+      "timeSeconds": 15707,
+      "rank": null,
+      "locator": "p.2; No.26 日本学連選抜; 第7区 総合記録"
+    },
+    {
+      "resultId": "aj24-japan-selection-s8",
+      "timeSeconds": 19291,
+      "rank": null,
+      "locator": "p.2; No.26 日本学連選抜; 第8区 総合記録"
+    },
+    {
+      "resultId": "aj24-tokai-selection-s1",
+      "timeSeconds": 1723,
+      "rank": null,
+      "locator": "p.2; No.27 東海学連選抜; 第1区 総合記録"
+    },
+    {
+      "resultId": "aj24-tokai-selection-s2",
+      "timeSeconds": 3743,
+      "rank": null,
+      "locator": "p.2; No.27 東海学連選抜; 第2区 総合記録"
+    },
+    {
+      "resultId": "aj24-tokai-selection-s3",
+      "timeSeconds": 5948,
+      "rank": null,
+      "locator": "p.2; No.27 東海学連選抜; 第3区 総合記録"
+    },
+    {
+      "resultId": "aj24-tokai-selection-s4",
+      "timeSeconds": 8174,
+      "rank": null,
+      "locator": "p.2; No.27 東海学連選抜; 第4区 総合記録"
+    },
+    {
+      "resultId": "aj24-tokai-selection-s5",
+      "timeSeconds": 10557,
+      "rank": null,
+      "locator": "p.2; No.27 東海学連選抜; 第5区 総合記録"
+    },
+    {
+      "resultId": "aj24-tokai-selection-s6",
+      "timeSeconds": 12876,
+      "rank": null,
+      "locator": "p.2; No.27 東海学連選抜; 第6区 総合記録"
+    },
+    {
+      "resultId": "aj24-tokai-selection-s7",
+      "timeSeconds": 16258,
+      "rank": null,
+      "locator": "p.2; No.27 東海学連選抜; 第7区 総合記録"
+    },
+    {
+      "resultId": "aj24-tokai-selection-s8",
+      "timeSeconds": 19940,
+      "rank": null,
+      "locator": "p.2; No.27 東海学連選抜; 第8区 総合記録"
+    }
+  ],
+  "honors": [
+    {
+      "resultId": "aj24-nippon-sport-science-s1",
+      "sectionAward": true,
+      "sectionRecord": false,
+      "locator": "p.1 区間賞; p.2 第1区 区間記録"
+    },
+    {
+      "resultId": "aj24-aoyama-gakuin-s2",
+      "sectionAward": true,
+      "sectionRecord": false,
+      "locator": "p.1 区間賞; p.2 第2区 区間記録"
+    },
+    {
+      "resultId": "aj24-josai-s3",
+      "sectionAward": true,
+      "sectionRecord": false,
+      "locator": "p.1 区間賞; p.2 第3区 区間記録"
+    },
+    {
+      "resultId": "aj24-aoyama-gakuin-s4",
+      "sectionAward": true,
+      "sectionRecord": true,
+      "locator": "p.1 区間賞; p.2 第4区 区間記録 ◎区間新記録"
+    },
+    {
+      "resultId": "aj24-kokugakuin-s5",
+      "sectionAward": true,
+      "sectionRecord": false,
+      "locator": "p.1 区間賞; p.2 第5区 区間記録"
+    },
+    {
+      "resultId": "aj24-kokugakuin-s6",
+      "sectionAward": true,
+      "sectionRecord": true,
+      "locator": "p.1 区間賞; p.2 第6区 区間記録 ◎区間新記録"
+    },
+    {
+      "resultId": "aj24-komazawa-s7",
+      "sectionAward": true,
+      "sectionRecord": false,
+      "locator": "p.1 区間賞; p.2 第7区 区間記録"
+    },
+    {
+      "resultId": "aj24-komazawa-s8",
+      "sectionAward": true,
+      "sectionRecord": false,
+      "locator": "p.1 区間賞; p.2 第8区 区間記録"
+    }
+  ]
+}

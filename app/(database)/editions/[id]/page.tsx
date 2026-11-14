@@ -1,8 +1,7 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Heading } from "../../../../components/database";
-import { Results } from "../../../../components/results";
+import { EditionScoreboard } from "../../../../components/edition-scoreboard";
 import { getRepository } from "../../../../lib/repository";
+import { buildEditionScoreboard } from "../../../../lib/scoreboard";
 import type { QueryParams } from "../../../../lib/query";
 export default async function Page({
   params,
@@ -11,30 +10,15 @@ export default async function Page({
   params: Promise<{ id: string }>;
   searchParams: Promise<QueryParams>;
 }) {
-  const { id } = await params;
-  const db = await getRepository().catalog();
-  const edition = db.editions.find((e) => e.id === id);
-  if (!edition) notFound();
-  const race = db.races.find((r) => r.id === edition.raceId)!;
-  return (
-    <>
-      <Heading
-        eyebrow="EDITION RESULTS"
-        description={`${edition.date} · ${edition.seasonYear} 赛季 · 已收录 ${db.entries.filter((e) => e.editionId === id).length} 支参赛队。点击区间可比较同区间选手。`}
-      >
-        {edition.year} {race.name} · 第 {edition.number} 届
-      </Heading>
-      <Link
-        className="mt-5 inline-block text-red-800 underline"
-        href={`/races/${race.id}`}
-      >
-        查看该赛事各届次 ↗
-      </Link>
-      <Results
-        path={`/editions/${id}`}
-        params={await searchParams}
-        scope={{ edition: id, race: race.id, year: String(edition.year) }}
-      />
-    </>
-  );
+  const [{ id }, query, db] = await Promise.all([
+    params,
+    searchParams,
+    getRepository().catalog(),
+  ]);
+  const selection = Array.isArray(query.section)
+    ? query.section[0]
+    : query.section;
+  const board = buildEditionScoreboard(db, id, Number(selection) || 1);
+  if (!board) notFound();
+  return <EditionScoreboard board={board} final={selection === "final"} />;
 }

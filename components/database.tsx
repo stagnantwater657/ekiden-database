@@ -11,15 +11,11 @@ export function Heading({
   description?: string;
 }) {
   return (
-    <div className="border-b border-stone-300 py-10">
-      <p className="text-xs font-bold tracking-[.2em] text-red-800">
-        {eyebrow}
-      </p>
-      <h1 className="mt-4 text-3xl font-black sm:text-5xl">{children}</h1>
-      {description && (
-        <p className="mt-5 max-w-3xl leading-7 text-stone-600">{description}</p>
-      )}
-    </div>
+    <header className="archive-header">
+      <p className="eyebrow">{eyebrow}</p>
+      <h1 className="archive-title">{children}</h1>
+      {description && <p className="archive-lead">{description}</p>}
+    </header>
   );
 }
 export function Empty({
@@ -28,30 +24,24 @@ export function Empty({
   children?: ReactNode;
 }) {
   return (
-    <p
-      role="status"
-      className="my-8 border border-dashed border-stone-300 p-8 text-stone-600"
-    >
+    <p role="status" className="empty-state">
       {children}
     </p>
   );
 }
 export function Sources({ sources }: { sources: Source[] }) {
   return (
-    <aside
-      aria-label="数据范围与来源"
-      className="mt-10 border-l-2 border-red-800 bg-stone-100 p-5 text-sm leading-7"
-    >
-      <h2 className="font-bold">数据范围与来源</h2>
+    <aside aria-label="数据范围与来源" className="source-reference">
+      <h2>数据范围与来源</h2>
       {!sources.length && <p>当前查询无成绩，暂无对应来源。</p>}
       {sources.map((source) => (
-        <div key={source.id} className="mt-3">
-          <a className="text-red-800 underline" href={source.url}>
+        <div key={source.id} className="mt-4">
+          <a className="archive-link" href={source.url}>
             {source.title} ↗
           </a>
           <p>{source.coverage}</p>
           {source.revision && <p>采用版本：{source.revision}</p>}
-          <p className="text-stone-500">
+          <p>
             {source.locator} · 采集时间：
             <time dateTime={source.collectedAt}>
               {source.collectedAt.slice(0, 19).replace("T", " ")} UTC
@@ -59,7 +49,7 @@ export function Sources({ sources }: { sources: Source[] }) {
           </p>
         </div>
       ))}
-      <p>
+      <p className="mt-4">
         “—”表示尚未核实；未收录 PB，不以区间成绩推算
         PB。大学名称沿用官方成绩表。
       </p>
@@ -74,12 +64,9 @@ export function Card({
   children: ReactNode;
 }) {
   return (
-    <Link
-      className="block border border-stone-200 bg-white p-6 transition hover:border-red-800"
-      href={href}
-    >
+    <Link className="archive-card" href={href}>
       {children}
-      <span className="mt-4 block text-sm text-red-800">查看档案 ↗</span>
+      <span>查看档案 ↗</span>
     </Link>
   );
 }

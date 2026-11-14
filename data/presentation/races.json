@@ -1,0 +1,83 @@
+{
+  "reviewedAt": "2026-11-14",
+  "profiles": [
+    {
+      "raceId": "hakone",
+      "nameZh": "箱根驿传",
+      "foundingYear": 1920,
+      "foundingSourceId": "profile-hakone-about",
+      "courseEditionId": "hakone-2026",
+      "start": "東京・読売新聞社前",
+      "finish": "東京・読売新聞社前",
+      "turnaround": "箱根・芦ノ湖",
+      "courseSourceId": "profile-hakone-about"
+    },
+    {
+      "raceId": "all-japan",
+      "nameZh": "全日本大学驿传",
+      "foundingYear": 1970,
+      "foundingSourceId": "profile-jaaf-all-japan",
+      "courseEditionId": "all-japan-2026",
+      "start": "熱田神宮西門前",
+      "finish": "伊勢神宮内宮宇治橋前",
+      "turnaround": null,
+      "courseSourceId": "profile-iuau-2026"
+    },
+    {
+      "raceId": "izumo",
+      "nameZh": "出云全日本大学选拔驿传",
+      "foundingYear": null,
+      "foundingSourceId": null,
+      "courseEditionId": "izumo-2026",
+      "start": "出雲大社正面鳥居前",
+      "finish": "出雲ドーム前",
+      "turnaround": null,
+      "courseSourceId": "profile-iuau-2026"
+    }
+  ],
+  "sectionRecords": [],
+  "sources": [
+    {
+      "id": "profile-hakone-about",
+      "title": "箱根駅伝公式：赛事概要与历史",
+      "url": "https://www.hakone-ekiden.jp/about/",
+      "collectedAt": "2026-11-14",
+      "locator": "概要（东京—箱根往返）；历史（1920年创办）",
+      "coverage": "箱根创办年份与已核对的路线起终点；未摘录介绍文章。",
+      "usage": {
+        "policyUrl": "https://www.hakone-ekiden.jp/about/",
+        "reviewedAt": "2026-11-14",
+        "basis": "页脚禁止未经授权复制和转载文章、图片；这里只独立记录少量客观年份与地点，不转载文案、地图、照片或布局，不推断授权。",
+        "permissionReference": null
+      }
+    },
+    {
+      "id": "profile-jaaf-all-japan",
+      "title": "日本陸上競技連盟：2019年全日本大学驿传赛事资料",
+      "url": "https://www.jaaf.or.jp/news/article/13344/",
+      "collectedAt": "2026-11-14",
+      "locator": "2019-11-01发布，赛事简介中的创办年份",
+      "coverage": "仅核对全日本大学驿传于1970年创办，不用旧报道认定当前路线或纪录。",
+      "usage": {
+        "policyUrl": "https://www.jaaf.or.jp/news/article/13344/",
+        "reviewedAt": "2026-11-14",
+        "basis": "核查页面及页脚版权声明；独立记录创办年份，不转载文章、照片或布局，未发现该页面对少量客观事实整理的额外自动访问限制，不推断授权。",
+        "permissionReference": null
+      }
+    },
+    {
+      "id": "profile-iuau-2026",
+      "title": "日本学生陸上競技連合：2026年度大会情報",
+      "url": "https://www.iuau.jp/sp1/taikaijoho2026.html",
+      "collectedAt": "2026-11-14",
+      "locator": "第38回出雲及第58回全日本的会场栏",
+      "coverage": "2026年出云与全日本起终点；距离另取既有已核验届次数据。",
+      "usage": {
+        "policyUrl": "https://www.iuau.jp/sp1/taikaijoho2026.html",
+        "reviewedAt": "2026-11-14",
+        "basis": "核查日本学连独立发布的赛事信息及版权声明；未发现该页面明确禁止少量客观事实整理的访问条款。只整理地点事实，不转载PDF、文章、图片或布局；不将其他网站条款套用，也不推断已有授权。",
+        "permissionReference": null
+      }
+    }
+  ]
+}

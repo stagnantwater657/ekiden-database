@@ -1,142 +1,207 @@
 import Link from "next/link";
+import { SiteFooter, SiteHeader } from "../components/site-shell";
 import { getRepository } from "../lib/repository";
-const navigation = [
-  { name: "选手", href: "/athletes" },
-  { name: "大学", href: "/universities" },
-  { name: "赛事", href: "/races" },
-  { name: "区间成绩", href: "/results" },
-];
-const races = [
+import { formatTime } from "../lib/query";
+const raceLabels = [
   {
     id: "izumo",
     name: "出云",
-    japanese: "出雲駅伝",
+    caption: "出雲全日本大学選抜駅伝競走",
     number: "01",
-    distance: "6 区间 · 45.1 km",
-    caption: "秋日赛季，从出云启程。",
-    color: "bg-emerald-800",
   },
   {
     id: "all-japan",
     name: "全日本",
-    japanese: "全日本大学駅伝",
+    caption: "全日本大学駅伝対校選手権大会",
     number: "02",
-    distance: "8 区间 · 106.8 km",
-    caption: "伊势路上，争夺日本第一。",
-    color: "bg-amber-800",
   },
   {
     id: "hakone",
     name: "箱根",
-    japanese: "箱根駅伝",
+    caption: "東京箱根間往復大学駅伝競走",
     number: "03",
-    distance: "10 区间 · 往返赛道",
-    caption: "新年的山路，百年的接力。",
-    color: "bg-red-900",
   },
 ];
 export default async function Home() {
   const db = await getRepository().catalog();
+  const latest = [...db.editions]
+    .sort((a, b) => b.date.localeCompare(a.date))
+    .slice(0, 4);
   return (
     <>
-      <header className="border-b border-stone-200">
-        <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-6 px-6 py-6">
-          <Link href="/" className="text-lg font-black tracking-tight">
-            EKIDEN<span className="text-red-800"> / </span>DATABASE
-          </Link>
-          <nav
-            aria-label="主导航"
-            className="flex flex-wrap gap-6 text-sm text-stone-600"
-          >
-            {navigation.map((item) => (
-              <a
-                key={item.name}
-                href={item.href}
-                className="hover:text-red-800 focus-visible:outline-2 focus-visible:outline-red-800"
-              >
-                {item.name}
-              </a>
-            ))}
-          </nav>
-        </div>
-      </header>
-      <main className="mx-auto max-w-6xl px-6 pb-20">
-        <section className="relative overflow-hidden border-b border-stone-300 py-20 sm:py-28">
-          <p className="mb-7 text-xs font-bold tracking-[.24em] text-red-800">
-            THE RECORD OF EVERY RELAY
-          </p>
-          <h1 className="max-w-3xl text-5xl leading-tight font-black tracking-tight sm:text-7xl">
-            Ekiden Database
-          </h1>
-          <p className="mt-5 text-xl text-stone-600 sm:text-2xl">
-            日本大学驿传数据库
-          </p>
-          <p className="mt-8 max-w-lg leading-8 text-stone-500">
-            一条襷，连接每个人的奔跑。
-            <br />
-            从出云到箱根，记录大学驿传的每一程。
-          </p>
-          <div
-            aria-hidden="true"
-            className="absolute -right-20 bottom-10 -z-10 h-60 w-60 rotate-[-25deg] border-[32px] border-red-900/5 sm:h-80 sm:w-80"
-          />
-        </section>
-        <section aria-labelledby="races" className="pt-12">
-          <div className="mb-8 flex items-end justify-between">
-            <h2 id="races" className="text-2xl font-bold">
-              三大驿传
-            </h2>
-            <span className="text-xs tracking-widest text-stone-500">
-              THE BIG THREE
-            </span>
+      <SiteHeader />
+      <main className="site-width">
+        <section className="home-hero">
+          <div>
+            <p className="eyebrow">THE JAPANESE COLLEGIATE EKIDEN ARCHIVE</p>
+            <h1 className="home-title">
+              每一程，<span>都有迹可循。</span>
+            </h1>
+            <p className="archive-lead">
+              从出云到伊势路，再到箱根。
+              <br />
+              连接赛事、大学与选手的日本大学驿传年鉴。
+            </p>
+            <div className="mt-7 flex flex-wrap items-center gap-6">
+              <Link className="action-link" href="/results">
+                检索历史成绩 <span>↗</span>
+              </Link>
+              <Link className="archive-link text-xs" href="/races">
+                浏览三大驿传 →
+              </Link>
+            </div>
           </div>
-          <div className="grid gap-5 md:grid-cols-3">
-            {races.map((race) => (
-              <a
-                href={`/races/${race.id}`}
-                key={race.name}
-                aria-label={`${race.name}赛事入口`}
-                className="group overflow-hidden border border-stone-200 bg-white transition hover:-translate-y-1 hover:shadow-md"
-              >
-                <div
-                  className={`${race.color} flex h-44 items-end justify-between p-6 text-white`}
+          <aside className="home-stat-panel" aria-label="数据库收录范围">
+            <p className="eyebrow">
+              ARCHIVE / {Math.min(...db.editions.map((e) => e.year))} —{" "}
+              {Math.max(...db.editions.map((e) => e.year))}
+            </p>
+            <dl>
+              {[
+                [db.editions.length, "届赛事"],
+                [db.results.length.toLocaleString(), "条区间记录"],
+                [db.athletes.length.toLocaleString(), "位选手"],
+                [db.universities.length, "所大学"],
+              ].map(([value, label]) => (
+                <div key={label}>
+                  <dt>{label}</dt>
+                  <dd>{value}</dd>
+                </div>
+              ))}
+            </dl>
+            <p className="text-xs leading-6 text-[var(--line)]">
+              历史成绩按届次保存，选手跨赛季关联。
+              <br />
+              每条记录均可追溯至对应资料来源。
+            </p>
+          </aside>
+        </section>
+        <section className="archive-section" aria-labelledby="races">
+          <h2 id="races" className="section-heading">
+            三大驿传 <small>THE BIG THREE</small>
+          </h2>
+          <div className="grid gap-4 md:grid-cols-3">
+            {raceLabels.map((r) => {
+              const editions = db.editions
+                .filter((e) => e.raceId === r.id)
+                .sort((a, b) => b.date.localeCompare(a.date));
+              const current = editions[0];
+              return (
+                <Link
+                  key={r.id}
+                  href={`/races/${r.id}`}
+                  aria-label={`${r.name}赛事入口`}
+                  className="home-race"
                 >
-                  <span className="text-5xl font-black">{race.name}</span>
-                  <span className="text-sm opacity-60">{race.number} /</span>
-                </div>
-                <div className="p-6">
-                  <p className="text-xs tracking-wider text-stone-500">
-                    {race.japanese} · {race.distance}
-                  </p>
-                  <p className="mt-4 text-stone-700">{race.caption}</p>
-                  <p className="mt-8 text-sm font-semibold">
-                    赛事档案 <span aria-hidden="true">↗</span>
-                    <span className="float-right font-normal text-stone-400">
-                      已收录 {db.editions.filter((edition) => edition.raceId === race.id).length} 届
+                  <div className="flex justify-between">
+                    <span className="eyebrow">RACE ARCHIVE / {r.number}</span>
+                    <span className="text-xs text-[var(--muted)]">
+                      {editions.length} 届收录
                     </span>
-                  </p>
-                </div>
-              </a>
-            ))}
+                  </div>
+                  <h3>
+                    {r.name}
+                    <span className="ml-2 text-lg font-normal">駅伝</span>
+                  </h3>
+                  <p className="mt-2">{r.caption}</p>
+                  <div className="mt-7 flex justify-between border-t border-[var(--line)] pt-4 text-xs">
+                    <span>
+                      {
+                        db.sections.filter((s) => s.editionId === current?.id)
+                          .length
+                      }{" "}
+                      区间 · {current?.distanceKm ?? "—"} km
+                    </span>
+                    <span>赛事档案 ↗</span>
+                  </div>
+                </Link>
+              );
+            })}
           </div>
         </section>
-        <aside
-          id="data-coverage"
-          className="mt-12 border-l-2 border-red-800 bg-stone-100 p-6 scroll-mt-8"
-        >
-          <h2 className="font-semibold">从一场比赛，连接每一位选手</h2>
-          <p className="mt-2 text-sm leading-7 text-stone-600">
-            已接入 {db.editions.length} 届赛事，共 {db.results.length} 条区间成绩。
-            按赛事、年份、大学和选手交叉检索历史记录。
-            <Link href="/results" className="ml-2 text-red-800 underline">
-              开始交叉检索 ↗
-            </Link>
+        <section className="archive-section" aria-labelledby="recent">
+          <h2 id="recent" className="section-heading">
+            最近收录的比赛 <small>EDITION INDEX</small>
+          </h2>
+          <div className="table-scroll">
+            <table className="archive-table">
+              <thead>
+                <tr>
+                  <th>比赛日期</th>
+                  <th>赛事 / 届次</th>
+                  <th>优胜大学</th>
+                  <th>官方总成绩</th>
+                  <th>
+                    <span className="sr-only">入口</span>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {latest.map((e) => {
+                  const winner = db.entries.find(
+                    (entry) =>
+                      entry.editionId === e.id &&
+                      entry.finalRank === 1 &&
+                      entry.status === "finished",
+                  );
+                  const university = db.universities.find(
+                    (u) => u.id === winner?.universityId,
+                  );
+                  return (
+                    <tr key={e.id}>
+                      <td className="numeric text-[var(--muted)]">{e.date}</td>
+                      <td>
+                        <Link
+                          className="archive-link"
+                          href={`/editions/${e.id}`}
+                        >
+                          {db.races.find((r) => r.id === e.raceId)?.name} · 第{" "}
+                          {e.number} 届
+                        </Link>
+                      </td>
+                      <td>
+                        {university ? (
+                          <Link
+                            className="archive-link"
+                            href={`/universities/${university.id}`}
+                          >
+                            {university.name}
+                          </Link>
+                        ) : (
+                          "—"
+                        )}
+                      </td>
+                      <td className="time">
+                        {formatTime(winner?.totalTimeSeconds ?? null)}
+                      </td>
+                      <td>
+                        <Link
+                          aria-label={`${e.year} 第${e.number}届成绩`}
+                          href={`/editions/${e.id}`}
+                        >
+                          成绩 ↗
+                        </Link>
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        </section>
+        <aside id="data-coverage" className="source-reference">
+          <h2>从比赛记录，走进选手档案</h2>
+          <p className="mt-2">
+            已收录 {db.editions.length} 届赛事、{db.results.length}{" "}
+            条区间参赛记录。资料不完整的字段保持空缺；赛道纪录及个人 PB
+            仅在来源核实后补充。
           </p>
+          <Link className="archive-link mt-3 inline-block" href="/results">
+            按年份、赛季、大学和选手交叉检索 →
+          </Link>
         </aside>
       </main>
-      <footer className="border-t border-stone-200 px-6 py-7 text-center text-xs tracking-wider text-stone-500">
-        EKIDEN DATABASE · 每一程，都值得记录。
-      </footer>
+      <SiteFooter />
     </>
   );
 }

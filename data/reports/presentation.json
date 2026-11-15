@@ -1,0 +1,369 @@
+{
+  "schemaVersion": 1,
+  "rankingBasis": "Official cumulative elapsed ranking, never road passage order; null ranks remain unknown/ineligible",
+  "editions": [
+    {
+      "editionId": "all-japan-2023",
+      "editionNumber": 55,
+      "results": 216,
+      "cumulative": {
+        "official": 212,
+        "calculated": 0,
+        "missing": 4,
+        "officialTimeWithoutRank": 16
+      },
+      "sectionAwards": 8,
+      "sectionRecords": 4,
+      "sectionRecordTies": 0,
+      "gaps": [
+        "東北学院大途中棄権：仅保留官方已公布的第1—4区累计顺位；第5—8区累计缺失，不生成最终综合排名。"
+      ],
+      "sources": [
+        {
+          "id": "iuau-aj23-results",
+          "url": "https://iuau.jp/ev2023/55meki/55meki_result.pdf",
+          "revision": "2023/11/13 8:38",
+          "locator": "PDF p.1 totals; p.2 lineup; pp.3–10 section results"
+        }
+      ]
+    },
+    {
+      "editionId": "all-japan-2024",
+      "editionNumber": 56,
+      "results": 216,
+      "cumulative": {
+        "official": 216,
+        "calculated": 0,
+        "missing": 0,
+        "officialTimeWithoutRank": 16
+      },
+      "sectionAwards": 8,
+      "sectionRecords": 2,
+      "sectionRecordTies": 0,
+      "gaps": [],
+      "sources": [
+        {
+          "id": "iuau-aj2024-completion-results",
+          "url": "https://www.iuau.jp/sp1/ev2024/56meki/56meki_result.pdf",
+          "revision": "Footer 2024/11/5 19:45 (p.1), 19:47 (pp.2–6), 19:48 (pp.7–10); document output times, not a claimed revision announcement",
+          "locator": "PDF p.1 overall results; p.2 bibs26/27 and finish column; pp.3–10 section-ranking tables"
+        }
+      ]
+    },
+    {
+      "editionId": "all-japan-2025",
+      "editionNumber": 57,
+      "results": 216,
+      "cumulative": {
+        "official": 216,
+        "calculated": 0,
+        "missing": 0,
+        "officialTimeWithoutRank": 16
+      },
+      "sectionAwards": 8,
+      "sectionRecords": 2,
+      "sectionRecordTies": 1,
+      "gaps": [],
+      "sources": [
+        {
+          "id": "iuau-aj2025-results",
+          "url": "https://www.iuau.jp/sp1/ev2025/57meki/57meki_result.pdf",
+          "revision": "Document footer 2025/11/5 16:07",
+          "locator": "PDF pp.1–2 (totals and lineup); pp.3–10 (section ranking cross-check)"
+        }
+      ]
+    },
+    {
+      "editionId": "all-japan-2026",
+      "editionNumber": 58,
+      "results": 216,
+      "cumulative": {
+        "official": 216,
+        "calculated": 0,
+        "missing": 0,
+        "officialTimeWithoutRank": 16
+      },
+      "sectionAwards": 9,
+      "sectionRecords": 6,
+      "sectionRecordTies": 0,
+      "gaps": [],
+      "sources": [
+        {
+          "id": "iuau-aj26-results",
+          "url": "https://iuau.jp/ev2026/58meki/58meki_result.pdf",
+          "revision": "2026/11/1 14:46",
+          "locator": "PDF p.1 totals; p.2 lineup; pp.3–10 section results"
+        }
+      ]
+    },
+    {
+      "editionId": "hakone-2024",
+      "editionNumber": 100,
+      "results": 230,
+      "cumulative": {
+        "official": 230,
+        "calculated": 0,
+        "missing": 0,
+        "officialTimeWithoutRank": 0
+      },
+      "sectionAwards": 10,
+      "sectionRecords": 2,
+      "sectionRecordTies": 0,
+      "gaps": [
+        "累计用时与综合顺位取自日本テレビ「記録速報」第100回各区间终点数据（10个中继所），为按有效累计比赛用时排列的综合顺位；与繰り上げスタート后的走行順不同。",
+        "各站累计用时与官方区间用时逐队求和一致，并与已核验的第5区往路用时、第10区最终用时逐队相符；未使用区间用时反推名次。",
+        "第100回为23所大学、无参考队；全部23队均取得官方综合顺位（230/230）。",
+        "区间赏与区间新仅标注有明确来源的认定；未标记不代表没有获奖或纪录。"
+      ],
+      "sources": [
+        {
+          "id": "kgrr-hk24-awards",
+          "url": "https://www.kgrr.org/files/competition/23/40/kukansyouichiran.PDF",
+          "revision": "Post-race official 区間賞一覧 総合, reviewed 2026-11-15",
+          "locator": "p.1"
+        },
+        {
+          "id": "kgrr-hk24-section-5",
+          "url": "https://www.kgrr.org/files/competition/23/40/5kukukankiroku.PDF",
+          "revision": "Published section sheet labelled 速報; marker checked with final archived elapsed result; not used for final cumulative ranks",
+          "locator": "p.1"
+        },
+        {
+          "id": "ntv-hk24-sokuhou",
+          "url": "https://www.ntv.co.jp/hakone/assets_data/100/Sokuhou_020.json",
+          "revision": "記録速報 last updated 2024/01/03 14:12:01",
+          "locator": "Sokuhou_020 / 030 / 040 / 050 / 060 / 070 / 080 / 090 / 100 / 110.json (10 中継所, SOGOU array); human pages /hakone/backnumber/100/tsuka/<中継所>.html"
+        }
+      ]
+    },
+    {
+      "editionId": "hakone-2025",
+      "editionNumber": 101,
+      "results": 210,
+      "cumulative": {
+        "official": 210,
+        "calculated": 0,
+        "missing": 0,
+        "officialTimeWithoutRank": 10
+      },
+      "sectionAwards": 10,
+      "sectionRecords": 6,
+      "sectionRecordTies": 0,
+      "gaps": [
+        "累计用时与综合顺位取自日本テレビ「記録速報」第101回各区间终点数据（10个中继所），为按有效累计比赛用时排列的综合顺位；与繰り上げスタート后的走行順不同。",
+        "各站累计用时与官方区间用时逐队求和一致，并与已核验的第5区往路用时、第10区最终用时逐队相符；未使用区间用时反推名次。",
+        "関東学生連合为参考成绩，保留累计用时但不赋予综合顺位。",
+        "区间赏与区间新仅标注有明确来源的认定；未标记不代表没有获奖或纪录。"
+      ],
+      "sources": [
+        {
+          "id": "kgrr-hk25-awards",
+          "url": "https://www.kgrr.org/files/competition/106/40/kukannsyouitirann.PDF",
+          "revision": "Post-race official 区間賞一覧 総合, reviewed 2026-11-15",
+          "locator": "p.1"
+        },
+        {
+          "id": "kgrr-hk25-section-2",
+          "url": "https://www.kgrr.org/files/competition/106/40/niku.PDF",
+          "revision": "Published section sheet labelled 速報; marker checked with final archived elapsed result; not used for final cumulative ranks",
+          "locator": "p.1"
+        },
+        {
+          "id": "ntv-hk25-sokuhou",
+          "url": "https://www.ntv.co.jp/hakone/assets_data/101/Sokuhou_020.json",
+          "revision": "記録速報 last updated 2025/01/03 13:49:40",
+          "locator": "Sokuhou_020 / 030 / 040 / 050 / 060 / 070 / 080 / 090 / 100 / 110.json (10 中継所, SOGOU array); human pages /hakone/backnumber/101/tsuka/<中継所>.html"
+        }
+      ]
+    },
+    {
+      "editionId": "hakone-2026",
+      "editionNumber": 102,
+      "results": 210,
+      "cumulative": {
+        "official": 210,
+        "calculated": 0,
+        "missing": 0,
+        "officialTimeWithoutRank": 10
+      },
+      "sectionAwards": 10,
+      "sectionRecords": 6,
+      "sectionRecordTies": 0,
+      "gaps": [
+        "累计用时与综合顺位取自日本テレビ「記録速報」第102回各区间终点数据（10个中继所），为按有效累计比赛用时排列的综合顺位；与繰り上げスタート后的走行順不同。",
+        "各站累计用时与官方区间用时逐队求和一致，并与已核验的第5区往路用时、第10区最终用时逐队相符；未使用区间用时反推名次。",
+        "関東学生連合为参考成绩，保留累计用时但不赋予综合顺位。",
+        "1区関東学生連合川崎楓1:00:38为参考成绩；未获得官方区间纪录资格，不标区間新。"
+      ],
+      "sources": [
+        {
+          "id": "kgrr-hk26-awards",
+          "url": "https://www.kgrr.org/files/competition/125/40/hukurokukannsyou.PDF",
+          "revision": "Post-race official 区間賞一覧 総合, reviewed 2026-11-15",
+          "locator": "p.1"
+        },
+        {
+          "id": "kgrr-hk26-section-1",
+          "url": "https://www.kgrr.org/files/competition/125/40/1%E5%8C%BA%E5%8C%BA%E9%96%93%E8%A8%98%E9%8C%B2.PDF",
+          "revision": "Published section sheet labelled 速報; marker checked with final archived elapsed result; not used for final cumulative ranks",
+          "locator": "p.1"
+        },
+        {
+          "id": "ntv-hk26-sokuhou",
+          "url": "https://www.ntv.co.jp/hakone/assets_data/102/Sokuhou_020.json",
+          "revision": "記録速報 last updated 2026/01/03 16:30:37",
+          "locator": "Sokuhou_020 / 030 / 040 / 050 / 060 / 070 / 080 / 090 / 100 / 110.json (10 中継所, SOGOU array); human pages /hakone/backnumber/102/tsuka/<中継所>.html"
+        }
+      ]
+    },
+    {
+      "editionId": "izumo-2023",
+      "editionNumber": 35,
+      "results": 126,
+      "cumulative": {
+        "official": 114,
+        "calculated": 0,
+        "missing": 12,
+        "officialTimeWithoutRank": 0
+      },
+      "sectionAwards": 6,
+      "sectionRecords": 0,
+      "sectionRecordTies": 0,
+      "gaps": [
+        "采用2024年2月修订版：創価大失格、大阪経済大退赛的累计记录留空；其余队伍使用修订后官方顺位。",
+        "第5区修订后个人顺位第一为安原太陽；尚未查到明确补授区間賞资料，暂不贴区間賞标签。其他6项采用明确获奖名单并排除失格记录。"
+      ],
+      "sources": [
+        {
+          "id": "iuau-iz23-results",
+          "url": "https://iuau.jp/ev2023/msenbatu/35izumo_result-rr.pdf",
+          "revision": "2024-02-21 16:07 revised results; IUAU publication 2024-02-22",
+          "locator": "PDF p.1 team/section cells"
+        },
+        {
+          "id": "getsuriku-iz23-awards",
+          "url": "https://www.rikujyokyogi.co.jp/archives/116531",
+          "revision": "2023-10-09 published report; final eligibility checked against 2024-02-21 revised results",
+          "locator": "区間賞 list"
+        }
+      ]
+    },
+    {
+      "editionId": "izumo-2024",
+      "editionNumber": 36,
+      "results": 126,
+      "cumulative": {
+        "official": 126,
+        "calculated": 0,
+        "missing": 0,
+        "officialTimeWithoutRank": 0
+      },
+      "sectionAwards": 6,
+      "sectionRecords": 0,
+      "sectionRecordTies": 0,
+      "gaps": [],
+      "sources": [
+        {
+          "id": "iuau-iz24-results",
+          "url": "https://iuau.jp/ev2024/msenbatu/36izumo_result.pdf",
+          "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header",
+          "locator": "PDF p.2 team/section cells"
+        }
+      ]
+    },
+    {
+      "editionId": "izumo-2025",
+      "editionNumber": 37,
+      "results": 132,
+      "cumulative": {
+        "official": 132,
+        "calculated": 0,
+        "missing": 0,
+        "officialTimeWithoutRank": 6
+      },
+      "sectionAwards": 6,
+      "sectionRecords": 1,
+      "sectionRecordTies": 0,
+      "gaps": [],
+      "sources": [
+        {
+          "id": "iuau-iz25-results",
+          "url": "https://iuau.jp/ev2025/msenbatu/37izumo_result.pdf",
+          "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded",
+          "locator": "PDF p.2 team/section cells"
+        }
+      ]
+    },
+    {
+      "editionId": "izumo-2026",
+      "editionNumber": 38,
+      "results": 132,
+      "cumulative": {
+        "official": 132,
+        "calculated": 0,
+        "missing": 0,
+        "officialTimeWithoutRank": 6
+      },
+      "sectionAwards": 6,
+      "sectionRecords": 10,
+      "sectionRecordTies": 1,
+      "gaps": [],
+      "sources": [
+        {
+          "id": "iuau-iz26-results",
+          "url": "https://iuau.jp/ev2026/msenbatu/38izumo_result.pdf",
+          "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded",
+          "locator": "PDF p.1 team/section cells"
+        },
+        {
+          "id": "getsuriku-iz26-awards",
+          "url": "https://www.rikujyokyogi.co.jp/archives/219067",
+          "revision": "2026-10-12 published result report",
+          "locator": "区間賞 list"
+        }
+      ]
+    }
+  ],
+  "currentRecords": [
+    {
+      "raceId": "all-japan",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "sections": 8,
+      "holders": 9,
+      "linkedHolders": 7,
+      "sources": [
+        "iuau-aj26-results"
+      ]
+    },
+    {
+      "raceId": "izumo",
+      "courseVersion": "izumo-2026-confirmed-route",
+      "sections": 6,
+      "holders": 6,
+      "linkedHolders": 3,
+      "sources": [
+        "iuau-iz26-results"
+      ]
+    },
+    {
+      "raceId": "hakone",
+      "courseVersion": "hakone-2026-confirmed-route",
+      "sections": 10,
+      "holders": 10,
+      "linkedHolders": 7,
+      "sources": [
+        "ntv-hakone-current-records-102"
+      ]
+    }
+  ],
+  "totals": {
+    "editions": 11,
+    "results": 2030,
+    "officialCumulative": 2014,
+    "calculatedCumulative": 0,
+    "missingCumulative": 16,
+    "sectionAwards": 87,
+    "sectionRecords": 39,
+    "sectionRecordTies": 2
+  }
+}

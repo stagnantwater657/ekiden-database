@@ -92,7 +92,7 @@ test("all three race archives and all eleven editions expose actual routes and c
       .filter((edition) => edition.raceId === race.id)
       .sort((a, b) => b.date.localeCompare(a.date))[0];
     await expect(page.locator("main")).toContainText(String(latest.number));
-    await expect(page.locator("main")).toContainText("待核实");
+    await expect(page.getByRole("region", { name: "区间路线与官方纪录" })).not.toContainText("待核实");
     for (const edition of database.editions.filter(
       (item) => item.raceId === race.id,
     )) {
@@ -299,18 +299,23 @@ test("reference, DNF and Hakone timing do not acquire invented official cumulati
     page.locator('tr[data-entry-id="aj24-tokai-selection"]'),
   ).toContainText("5:32:20");
   await page.goto("/editions/hakone-2026?section=10");
-  await expect(page.locator("main")).toContainText("繰り上げスタート");
+  await expect(page.locator("main")).toContainText("不等同于赛道上的通过顺序");
   for (const row of await page.locator("tr[data-result-id]").all()) {
-    for (const column of [4, 5, 6, 7])
-      await expect(row.locator("td").nth(column)).toHaveText("—");
+    const id = await row.getAttribute("data-result-id");
+    const result = database.results.find((r) => r.id === id)!;
+    const entry = database.entries.find((e) => e.id === result.entryId)!;
+    await expect(row.locator("td").nth(4)).toHaveText(entry.finalRank === null ? "—" : String(entry.finalRank));
+    // Placement movement is now derived from the official ninth-checkpoint standings,
+    // so only the printed elapsed time must always be present here.
+    await expect(row.locator("td").nth(6)).not.toHaveText("—");
   }
   await page.goto("/editions/all-japan-2023?section=8");
-  await expect(page.locator("main")).toContainText("累计成绩尚待核验");
-  for (const row of await page.locator("tr[data-result-id]").all())
-    await expect(row.locator("td").nth(4)).toHaveText("—");
+  await expect(page.locator("main")).toContainText("官方累计成绩");
+  const withdrawn = page.locator('tr[data-result-id="aj23-result-10-8"]');
+  for (const column of [4,5,6,7]) await expect(withdrawn.locator("td").nth(column)).toHaveText("—");
   await page.goto("/editions/all-japan-2025?section=2");
-  await expect(page.locator("main")).toContainText("按区间用时计算");
-  await expect(page.locator("main")).toContainText("不是官方通過順位");
+  await expect(page.locator("main")).toContainText("官方累计成绩");
+  await expect(page.locator("main")).not.toContainText("按区间用时计算");
 });
 
 test("advanced season filters and reference-team scope remain URL based", async ({

@@ -709,3 +709,5 @@ select {
     grid-column: 1 / -1;
   }
 }
+
+.result-badge--tie { background: #f5e8bf; color: #5c4717; border: 1px solid #b39142; }

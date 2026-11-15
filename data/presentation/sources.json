@@ -1,0 +1,182 @@
+[
+  {
+    "id": "getsuriku-iz23-awards",
+    "title": "月陸Online 第35回出雲 区間賞報道（事実照合）",
+    "url": "https://www.rikujyokyogi.co.jp/archives/116531",
+    "collectedAt": "2026-11-15",
+    "locator": "区間賞 list",
+    "coverage": "Only award identity facts cross-checked against adopted IUAU results; article text/images/layout excluded",
+    "revision": "2023-10-09 published report; final eligibility checked against 2024-02-21 revised results",
+    "usage": {
+      "policyUrl": "https://www.rikujyokyogi.co.jp/サイトポリシー",
+      "reviewedAt": "2026-11-15",
+      "basis": "Site policy protects articles, photographs, design and other content and prohibits unauthorized republication. Only independently structured, bounded objective award facts are recorded; no article, image, layout or raw page is republished. No written permission claimed; no access-control bypass or crawling.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "getsuriku-iz26-awards",
+    "title": "月陸Online 第38回出雲 区間賞報道（事実照合）",
+    "url": "https://www.rikujyokyogi.co.jp/archives/219067",
+    "collectedAt": "2026-11-15",
+    "locator": "区間賞 list",
+    "coverage": "Only award identity facts cross-checked against adopted IUAU results; article text/images/layout excluded",
+    "revision": "2026-10-12 published result report",
+    "usage": {
+      "policyUrl": "https://www.rikujyokyogi.co.jp/サイトポリシー",
+      "reviewedAt": "2026-11-15",
+      "basis": "Site policy protects articles, photographs, design and other content and prohibits unauthorized republication. Only independently structured, bounded objective award facts are recorded; no article, image, layout or raw page is republished. No written permission claimed; no access-control bypass or crawling.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "kgrr-hk24-awards",
+    "title": "関東学連 第100回箱根 区間賞一覧 総合",
+    "url": "https://www.kgrr.org/files/competition/23/40/kukansyouichiran.PDF",
+    "collectedAt": "2026-11-15",
+    "locator": "p.1",
+    "coverage": "区間賞一覧 総合",
+    "revision": "Post-race official 区間賞一覧 総合, reviewed 2026-11-15",
+    "usage": {
+      "policyUrl": "https://www.kgrr.org/competition/?id=23",
+      "reviewedAt": "2026-11-15",
+      "basis": "Competition page and published PDF reviewed. No explicit automated-access restriction found on these pages. Only objective award/record facts independently structured; no PDF/page/image republished. Public access is not a permission grant.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "kgrr-hk24-section-5",
+    "title": "関東学連 第100回箱根 第5区 新記録標記",
+    "url": "https://www.kgrr.org/files/competition/23/40/5kukukankiroku.PDF",
+    "collectedAt": "2026-11-15",
+    "locator": "p.1",
+    "coverage": "第5区 新記録標記",
+    "revision": "Published section sheet labelled 速報; marker checked with final archived elapsed result; not used for final cumulative ranks",
+    "usage": {
+      "policyUrl": "https://www.kgrr.org/competition/?id=23",
+      "reviewedAt": "2026-11-15",
+      "basis": "Competition page and published PDF reviewed. No explicit automated-access restriction found on these pages. Only objective award/record facts independently structured; no PDF/page/image republished. Public access is not a permission grant.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "kgrr-hk25-awards",
+    "title": "関東学連 第101回箱根 区間賞一覧 総合",
+    "url": "https://www.kgrr.org/files/competition/106/40/kukannsyouitirann.PDF",
+    "collectedAt": "2026-11-15",
+    "locator": "p.1",
+    "coverage": "区間賞一覧 総合",
+    "revision": "Post-race official 区間賞一覧 総合, reviewed 2026-11-15",
+    "usage": {
+      "policyUrl": "https://www.kgrr.org/competition/?id=106",
+      "reviewedAt": "2026-11-15",
+      "basis": "Competition page and published PDF reviewed. No explicit automated-access restriction found on these pages. Only objective award/record facts independently structured; no PDF/page/image republished. Public access is not a permission grant.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "kgrr-hk25-section-2",
+    "title": "関東学連 第101回箱根 第2区 新記録標記",
+    "url": "https://www.kgrr.org/files/competition/106/40/niku.PDF",
+    "collectedAt": "2026-11-15",
+    "locator": "p.1",
+    "coverage": "第2区 新記録標記",
+    "revision": "Published section sheet labelled 速報; marker checked with final archived elapsed result; not used for final cumulative ranks",
+    "usage": {
+      "policyUrl": "https://www.kgrr.org/competition/?id=106",
+      "reviewedAt": "2026-11-15",
+      "basis": "Competition page and published PDF reviewed. No explicit automated-access restriction found on these pages. Only objective award/record facts independently structured; no PDF/page/image republished. Public access is not a permission grant.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "kgrr-hk26-awards",
+    "title": "関東学連 第102回箱根 区間賞一覧 総合",
+    "url": "https://www.kgrr.org/files/competition/125/40/hukurokukannsyou.PDF",
+    "collectedAt": "2026-11-15",
+    "locator": "p.1",
+    "coverage": "区間賞一覧 総合",
+    "revision": "Post-race official 区間賞一覧 総合, reviewed 2026-11-15",
+    "usage": {
+      "policyUrl": "https://www.kgrr.org/competition/?id=125",
+      "reviewedAt": "2026-11-15",
+      "basis": "Competition page and published PDF reviewed. No explicit automated-access restriction found on these pages. Only objective award/record facts independently structured; no PDF/page/image republished. Public access is not a permission grant.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "kgrr-hk26-section-1",
+    "title": "関東学連 第102回箱根 第1区 新記録標記",
+    "url": "https://www.kgrr.org/files/competition/125/40/1%E5%8C%BA%E5%8C%BA%E9%96%93%E8%A8%98%E9%8C%B2.PDF",
+    "collectedAt": "2026-11-15",
+    "locator": "p.1",
+    "coverage": "第1区 新記録標記",
+    "revision": "Published section sheet labelled 速報; marker checked with final archived elapsed result; not used for final cumulative ranks",
+    "usage": {
+      "policyUrl": "https://www.kgrr.org/competition/?id=125",
+      "reviewedAt": "2026-11-15",
+      "basis": "Competition page and published PDF reviewed. No explicit automated-access restriction found on these pages. Only objective award/record facts independently structured; no PDF/page/image republished. Public access is not a permission grant.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "ntv-hakone-current-records-102",
+    "title": "日本テレビ 箱根駅伝 大会記録（第102回終了時）",
+    "url": "https://www.ntv.co.jp/hakone/record/",
+    "collectedAt": "2026-11-14",
+    "locator": "区間記録 table, sections 1–10; route-change notes",
+    "coverage": "Current official section-record facts through edition 102; no page/article/image republication",
+    "revision": "第102回（2026）終了時; checked 2026-11-14",
+    "usage": {
+      "policyUrl": "https://www.ntv.co.jp/ntv_notice/rights.html",
+      "reviewedAt": "2026-11-15",
+      "basis": "Reviewed rights and terms pages. They protect broadcasts, photographs, text, logos and other copyrighted expression and prohibit unauthorized republication. Only independently structured objective record facts are retained, not page content, imagery or layout; no claim of permission and no access restriction bypass.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "ntv-hk24-sokuhou",
+    "title": "日本テレビ 箱根駅伝 記録速報 第100回 各区間終点（中継所）",
+    "url": "https://www.ntv.co.jp/hakone/assets_data/100/Sokuhou_020.json",
+    "collectedAt": "2026-11-15",
+    "locator": "Sokuhou_020 / 030 / 040 / 050 / 060 / 070 / 080 / 090 / 100 / 110.json (10 中継所, SOGOU array); human pages /hakone/backnumber/100/tsuka/<中継所>.html",
+    "coverage": "箱根駅伝 第100回 23校・10中継所 総合順位・総合タイム・繰り上げフラグのみ。走行順（TSUKA）は採用せず、PDF・画像・番組映像は保存しない。",
+    "revision": "記録速報 last updated 2024/01/03 14:12:01",
+    "usage": {
+      "policyUrl": "https://www.ntv.co.jp/ntv_notice/terms.html",
+      "reviewedAt": "2026-11-15",
+      "basis": "Reviewed NTV terms and rights notices: programme content, articles, imagery and layout are protected. Only independently structured objective record facts (per-team checkpoint elapsed time and elapsed-time ranking) are retained; no text, image, layout or programme material is copied, and no access control is bypassed. No written permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "ntv-hk25-sokuhou",
+    "title": "日本テレビ 箱根駅伝 記録速報 第101回 各区間終点（中継所）",
+    "url": "https://www.ntv.co.jp/hakone/assets_data/101/Sokuhou_020.json",
+    "collectedAt": "2026-11-15",
+    "locator": "Sokuhou_020 / 030 / 040 / 050 / 060 / 070 / 080 / 090 / 100 / 110.json (10 中継所, SOGOU array); human pages /hakone/backnumber/101/tsuka/<中継所>.html",
+    "coverage": "箱根駅伝 第101回 20校＋関東学生連合・10中継所 総合順位・総合タイム・繰り上げフラグのみ。走行順（TSUKA）は採用せず、PDF・画像・番組映像は保存しない。",
+    "revision": "記録速報 last updated 2025/01/03 13:49:40",
+    "usage": {
+      "policyUrl": "https://www.ntv.co.jp/ntv_notice/terms.html",
+      "reviewedAt": "2026-11-15",
+      "basis": "Reviewed NTV terms and rights notices: programme content, articles, imagery and layout are protected. Only independently structured objective record facts (per-team checkpoint elapsed time and elapsed-time ranking) are retained; no text, image, layout or programme material is copied, and no access control is bypassed. No written permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "ntv-hk26-sokuhou",
+    "title": "日本テレビ 箱根駅伝 記録速報 第102回 各区間終点（中継所）",
+    "url": "https://www.ntv.co.jp/hakone/assets_data/102/Sokuhou_020.json",
+    "collectedAt": "2026-11-15",
+    "locator": "Sokuhou_020 / 030 / 040 / 050 / 060 / 070 / 080 / 090 / 100 / 110.json (10 中継所, SOGOU array); human pages /hakone/backnumber/102/tsuka/<中継所>.html",
+    "coverage": "箱根駅伝 第102回 20校＋関東学生連合・10中継所 総合順位・総合タイム・繰り上げフラグのみ。走行順（TSUKA）は採用せず、PDF・画像・番組映像は保存しない。",
+    "revision": "記録速報 last updated 2026/01/03 16:30:37",
+    "usage": {
+      "policyUrl": "https://www.ntv.co.jp/ntv_notice/terms.html",
+      "reviewedAt": "2026-11-15",
+      "basis": "Reviewed NTV terms and rights notices: programme content, articles, imagery and layout are protected. Only independently structured objective record facts (per-team checkpoint elapsed time and elapsed-time ranking) are retained; no text, image, layout or programme material is copied, and no access control is bypassed. No written permission is claimed.",
+      "permissionReference": null
+    }
+  }
+]

@@ -1,0 +1,10 @@
+import { writeFileSync } from "node:fs";
+import { database } from "../data/index.ts";
+import { validatePresentation } from "../lib/presentation.ts";
+import { validateSectionRecords } from "../lib/race-profile.ts";
+import { presentationReport } from "../lib/presentation-report.ts";
+validatePresentation(database);
+validateSectionRecords(database);
+const report = presentationReport(database);
+writeFileSync(new URL("../data/reports/presentation.json", import.meta.url), JSON.stringify(report,null,2)+"\n");
+console.log(JSON.stringify(report.totals,null,2));

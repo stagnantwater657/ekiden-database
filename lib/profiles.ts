@@ -1,3 +1,4 @@
+import { allSources } from "./presentation.ts";
 import type {
   Athlete,
   Database,
@@ -54,14 +55,14 @@ function sourceReferences(
   ids: (string | null | undefined)[],
 ): Source[] {
   const selected = new Set(ids);
-  return db.sources.filter((source) => selected.has(source.id));
+  return allSources(db).filter((source) => selected.has(source.id));
 }
 
 function rowSourceIds(rows: ResultRow[]): (string | null | undefined)[] {
   return rows.flatMap((row) => [
     row.sourceId,
     row.participationSourceId,
-    getResultHonors(row.id)?.sourceId,
+    ...(getResultHonors(row.id)?.sourceIds ?? []),
   ]);
 }
 

@@ -1,0 +1,1194 @@
+{
+  "editionId": "izumo-2024",
+  "reviewedAt": "2026-11-15",
+  "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header",
+  "sourceId": "iuau-iz24-results",
+  "cumulativeRankingBasis": "official-overall-elapsed",
+  "cumulative": [
+    {
+      "resultId": "iz24-result-07-1",
+      "entryId": "iz24-entry-07",
+      "timeSeconds": 1428,
+      "rank": 3,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.7; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-07-2",
+      "entryId": "iz24-entry-07",
+      "timeSeconds": 2415,
+      "rank": 5,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.7; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-07-3",
+      "entryId": "iz24-entry-07",
+      "timeSeconds": 3867,
+      "rank": 3,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.7; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-07-4",
+      "entryId": "iz24-entry-07",
+      "timeSeconds": 4929,
+      "rank": 3,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.7; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-07-5",
+      "entryId": "iz24-entry-07",
+      "timeSeconds": 6021,
+      "rank": 1,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.7; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-07-6",
+      "entryId": "iz24-entry-07",
+      "timeSeconds": 7764,
+      "rank": 1,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.7; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-04-1",
+      "entryId": "iz24-entry-04",
+      "timeSeconds": 1435,
+      "rank": 6,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.4; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-04-2",
+      "entryId": "iz24-entry-04",
+      "timeSeconds": 2419,
+      "rank": 6,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.4; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-04-3",
+      "entryId": "iz24-entry-04",
+      "timeSeconds": 3851,
+      "rank": 2,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.4; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-04-4",
+      "entryId": "iz24-entry-04",
+      "timeSeconds": 4920,
+      "rank": 1,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.4; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-04-5",
+      "entryId": "iz24-entry-04",
+      "timeSeconds": 6025,
+      "rank": 2,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.4; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-04-6",
+      "entryId": "iz24-entry-04",
+      "timeSeconds": 7804,
+      "rank": 2,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.4; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-03-1",
+      "entryId": "iz24-entry-03",
+      "timeSeconds": 1420,
+      "rank": 1,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.3; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-03-2",
+      "entryId": "iz24-entry-03",
+      "timeSeconds": 2412,
+      "rank": 3,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.3; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-03-3",
+      "entryId": "iz24-entry-03",
+      "timeSeconds": 3847,
+      "rank": 1,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.3; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-03-4",
+      "entryId": "iz24-entry-03",
+      "timeSeconds": 4925,
+      "rank": 2,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.3; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-03-5",
+      "entryId": "iz24-entry-03",
+      "timeSeconds": 6045,
+      "rank": 3,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.3; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-03-6",
+      "entryId": "iz24-entry-03",
+      "timeSeconds": 7824,
+      "rank": 3,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.3; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-10-1",
+      "entryId": "iz24-entry-10",
+      "timeSeconds": 1446,
+      "rank": 10,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.10; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-10-2",
+      "entryId": "iz24-entry-10",
+      "timeSeconds": 2392,
+      "rank": 1,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.10; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-10-3",
+      "entryId": "iz24-entry-10",
+      "timeSeconds": 3889,
+      "rank": 4,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.10; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-10-4",
+      "entryId": "iz24-entry-10",
+      "timeSeconds": 4965,
+      "rank": 4,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.10; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-10-5",
+      "entryId": "iz24-entry-10",
+      "timeSeconds": 6090,
+      "rank": 4,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.10; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-10-6",
+      "entryId": "iz24-entry-10",
+      "timeSeconds": 7907,
+      "rank": 4,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.10; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-21-1",
+      "entryId": "iz24-entry-21",
+      "timeSeconds": 1428,
+      "rank": 2,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.21; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-21-2",
+      "entryId": "iz24-entry-21",
+      "timeSeconds": 2406,
+      "rank": 2,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.21; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-21-3",
+      "entryId": "iz24-entry-21",
+      "timeSeconds": 3905,
+      "rank": 6,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.21; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-21-4",
+      "entryId": "iz24-entry-21",
+      "timeSeconds": 4971,
+      "rank": 5,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.21; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-21-5",
+      "entryId": "iz24-entry-21",
+      "timeSeconds": 6118,
+      "rank": 6,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.21; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-21-6",
+      "entryId": "iz24-entry-21",
+      "timeSeconds": 7938,
+      "rank": 5,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.21; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-09-1",
+      "entryId": "iz24-entry-09",
+      "timeSeconds": 1449,
+      "rank": 12,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.9; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-09-2",
+      "entryId": "iz24-entry-09",
+      "timeSeconds": 2458,
+      "rank": 11,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.9; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-09-3",
+      "entryId": "iz24-entry-09",
+      "timeSeconds": 3973,
+      "rank": 11,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.9; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-09-4",
+      "entryId": "iz24-entry-09",
+      "timeSeconds": 5057,
+      "rank": 9,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.9; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-09-5",
+      "entryId": "iz24-entry-09",
+      "timeSeconds": 6168,
+      "rank": 8,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.9; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-09-6",
+      "entryId": "iz24-entry-09",
+      "timeSeconds": 7943,
+      "rank": 6,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.9; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-05-1",
+      "entryId": "iz24-entry-05",
+      "timeSeconds": 1446,
+      "rank": 11,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.5; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-05-2",
+      "entryId": "iz24-entry-05",
+      "timeSeconds": 2475,
+      "rank": 12,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.5; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-05-3",
+      "entryId": "iz24-entry-05",
+      "timeSeconds": 3897,
+      "rank": 5,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.5; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-05-4",
+      "entryId": "iz24-entry-05",
+      "timeSeconds": 4994,
+      "rank": 6,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.5; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-05-5",
+      "entryId": "iz24-entry-05",
+      "timeSeconds": 6106,
+      "rank": 5,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.5; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-05-6",
+      "entryId": "iz24-entry-05",
+      "timeSeconds": 7954,
+      "rank": 7,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.5; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-11-1",
+      "entryId": "iz24-entry-11",
+      "timeSeconds": 1433,
+      "rank": 4,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.11; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-11-2",
+      "entryId": "iz24-entry-11",
+      "timeSeconds": 2425,
+      "rank": 7,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.11; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-11-3",
+      "entryId": "iz24-entry-11",
+      "timeSeconds": 3933,
+      "rank": 9,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.11; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-11-4",
+      "entryId": "iz24-entry-11",
+      "timeSeconds": 5025,
+      "rank": 8,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.11; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-11-5",
+      "entryId": "iz24-entry-11",
+      "timeSeconds": 6189,
+      "rank": 9,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.11; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-11-6",
+      "entryId": "iz24-entry-11",
+      "timeSeconds": 8015,
+      "rank": 8,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.11; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-08-1",
+      "entryId": "iz24-entry-08",
+      "timeSeconds": 1443,
+      "rank": 9,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.8; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-08-2",
+      "entryId": "iz24-entry-08",
+      "timeSeconds": 2445,
+      "rank": 8,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.8; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-08-3",
+      "entryId": "iz24-entry-08",
+      "timeSeconds": 3937,
+      "rank": 10,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.8; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-08-4",
+      "entryId": "iz24-entry-08",
+      "timeSeconds": 5015,
+      "rank": 7,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.8; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-08-5",
+      "entryId": "iz24-entry-08",
+      "timeSeconds": 6153,
+      "rank": 7,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.8; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-08-6",
+      "entryId": "iz24-entry-08",
+      "timeSeconds": 8021,
+      "rank": 9,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.8; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-12-1",
+      "entryId": "iz24-entry-12",
+      "timeSeconds": 1434,
+      "rank": 5,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.12; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-12-2",
+      "entryId": "iz24-entry-12",
+      "timeSeconds": 2414,
+      "rank": 4,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.12; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-12-3",
+      "entryId": "iz24-entry-12",
+      "timeSeconds": 3932,
+      "rank": 7,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.12; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-12-4",
+      "entryId": "iz24-entry-12",
+      "timeSeconds": 5097,
+      "rank": 10,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.12; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-12-5",
+      "entryId": "iz24-entry-12",
+      "timeSeconds": 6229,
+      "rank": 10,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.12; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-12-6",
+      "entryId": "iz24-entry-12",
+      "timeSeconds": 8037,
+      "rank": 10,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.12; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-06-1",
+      "entryId": "iz24-entry-06",
+      "timeSeconds": 1436,
+      "rank": 7,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.6; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-06-2",
+      "entryId": "iz24-entry-06",
+      "timeSeconds": 2457,
+      "rank": 10,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.6; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-06-3",
+      "entryId": "iz24-entry-06",
+      "timeSeconds": 4000,
+      "rank": 12,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.6; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-06-4",
+      "entryId": "iz24-entry-06",
+      "timeSeconds": 5098,
+      "rank": 11,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.6; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-06-5",
+      "entryId": "iz24-entry-06",
+      "timeSeconds": 6273,
+      "rank": 11,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.6; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-06-6",
+      "entryId": "iz24-entry-06",
+      "timeSeconds": 8145,
+      "rank": 11,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.6; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-15-1",
+      "entryId": "iz24-entry-15",
+      "timeSeconds": 1442,
+      "rank": 8,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.15; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-15-2",
+      "entryId": "iz24-entry-15",
+      "timeSeconds": 2446,
+      "rank": 9,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.15; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-15-3",
+      "entryId": "iz24-entry-15",
+      "timeSeconds": 3932,
+      "rank": 8,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.15; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-15-4",
+      "entryId": "iz24-entry-15",
+      "timeSeconds": 5104,
+      "rank": 12,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.15; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-15-5",
+      "entryId": "iz24-entry-15",
+      "timeSeconds": 6291,
+      "rank": 12,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.15; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-15-6",
+      "entryId": "iz24-entry-15",
+      "timeSeconds": 8227,
+      "rank": 12,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.15; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-13-1",
+      "entryId": "iz24-entry-13",
+      "timeSeconds": 1472,
+      "rank": 17,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.13; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-13-2",
+      "entryId": "iz24-entry-13",
+      "timeSeconds": 2506,
+      "rank": 15,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.13; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-13-3",
+      "entryId": "iz24-entry-13",
+      "timeSeconds": 4018,
+      "rank": 13,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.13; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-13-4",
+      "entryId": "iz24-entry-13",
+      "timeSeconds": 5178,
+      "rank": 13,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.13; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-13-5",
+      "entryId": "iz24-entry-13",
+      "timeSeconds": 6371,
+      "rank": 13,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.13; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-13-6",
+      "entryId": "iz24-entry-13",
+      "timeSeconds": 8289,
+      "rank": 13,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.13; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-01-1",
+      "entryId": "iz24-entry-01",
+      "timeSeconds": 1471,
+      "rank": 16,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.1; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-01-2",
+      "entryId": "iz24-entry-01",
+      "timeSeconds": 2499,
+      "rank": 14,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.1; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-01-3",
+      "entryId": "iz24-entry-01",
+      "timeSeconds": 4063,
+      "rank": 15,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.1; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-01-4",
+      "entryId": "iz24-entry-01",
+      "timeSeconds": 5225,
+      "rank": 15,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.1; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-01-5",
+      "entryId": "iz24-entry-01",
+      "timeSeconds": 6442,
+      "rank": 15,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.1; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-01-6",
+      "entryId": "iz24-entry-01",
+      "timeSeconds": 8319,
+      "rank": 14,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.1; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-14-1",
+      "entryId": "iz24-entry-14",
+      "timeSeconds": 1454,
+      "rank": 13,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.14; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-14-2",
+      "entryId": "iz24-entry-14",
+      "timeSeconds": 2485,
+      "rank": 13,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.14; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-14-3",
+      "entryId": "iz24-entry-14",
+      "timeSeconds": 4059,
+      "rank": 14,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.14; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-14-4",
+      "entryId": "iz24-entry-14",
+      "timeSeconds": 5204,
+      "rank": 14,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.14; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-14-5",
+      "entryId": "iz24-entry-14",
+      "timeSeconds": 6415,
+      "rank": 14,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.14; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-14-6",
+      "entryId": "iz24-entry-14",
+      "timeSeconds": 8333,
+      "rank": 15,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.14; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-16-1",
+      "entryId": "iz24-entry-16",
+      "timeSeconds": 1466,
+      "rank": 15,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.16; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-16-2",
+      "entryId": "iz24-entry-16",
+      "timeSeconds": 2528,
+      "rank": 16,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.16; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-16-3",
+      "entryId": "iz24-entry-16",
+      "timeSeconds": 4110,
+      "rank": 16,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.16; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-16-4",
+      "entryId": "iz24-entry-16",
+      "timeSeconds": 5239,
+      "rank": 16,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.16; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-16-5",
+      "entryId": "iz24-entry-16",
+      "timeSeconds": 6444,
+      "rank": 16,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.16; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-16-6",
+      "entryId": "iz24-entry-16",
+      "timeSeconds": 8373,
+      "rank": 16,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.16; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-18-1",
+      "entryId": "iz24-entry-18",
+      "timeSeconds": 1487,
+      "rank": 18,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.18; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-18-2",
+      "entryId": "iz24-entry-18",
+      "timeSeconds": 2603,
+      "rank": 19,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.18; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-18-3",
+      "entryId": "iz24-entry-18",
+      "timeSeconds": 4206,
+      "rank": 19,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.18; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-18-4",
+      "entryId": "iz24-entry-18",
+      "timeSeconds": 5399,
+      "rank": 19,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.18; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-18-5",
+      "entryId": "iz24-entry-18",
+      "timeSeconds": 6554,
+      "rank": 18,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.18; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-18-6",
+      "entryId": "iz24-entry-18",
+      "timeSeconds": 8461,
+      "rank": 17,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.18; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-20-1",
+      "entryId": "iz24-entry-20",
+      "timeSeconds": 1508,
+      "rank": 20,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.20; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-20-2",
+      "entryId": "iz24-entry-20",
+      "timeSeconds": 2572,
+      "rank": 18,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.20; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-20-3",
+      "entryId": "iz24-entry-20",
+      "timeSeconds": 4176,
+      "rank": 18,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.20; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-20-4",
+      "entryId": "iz24-entry-20",
+      "timeSeconds": 5350,
+      "rank": 17,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.20; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-20-5",
+      "entryId": "iz24-entry-20",
+      "timeSeconds": 6545,
+      "rank": 17,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.20; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-20-6",
+      "entryId": "iz24-entry-20",
+      "timeSeconds": 8486,
+      "rank": 18,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.20; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-19-1",
+      "entryId": "iz24-entry-19",
+      "timeSeconds": 1465,
+      "rank": 14,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.19; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-19-2",
+      "entryId": "iz24-entry-19",
+      "timeSeconds": 2540,
+      "rank": 17,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.19; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-19-3",
+      "entryId": "iz24-entry-19",
+      "timeSeconds": 4152,
+      "rank": 17,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.19; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-19-4",
+      "entryId": "iz24-entry-19",
+      "timeSeconds": 5371,
+      "rank": 18,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.19; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-19-5",
+      "entryId": "iz24-entry-19",
+      "timeSeconds": 6655,
+      "rank": 19,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.19; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-19-6",
+      "entryId": "iz24-entry-19",
+      "timeSeconds": 8613,
+      "rank": 19,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.19; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-17-1",
+      "entryId": "iz24-entry-17",
+      "timeSeconds": 1502,
+      "rank": 19,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.17; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-17-2",
+      "entryId": "iz24-entry-17",
+      "timeSeconds": 2671,
+      "rank": 20,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.17; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-17-3",
+      "entryId": "iz24-entry-17",
+      "timeSeconds": 4302,
+      "rank": 20,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.17; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-17-4",
+      "entryId": "iz24-entry-17",
+      "timeSeconds": 5509,
+      "rank": 20,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.17; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-17-5",
+      "entryId": "iz24-entry-17",
+      "timeSeconds": 6720,
+      "rank": 20,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.17; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-17-6",
+      "entryId": "iz24-entry-17",
+      "timeSeconds": 8720,
+      "rank": 20,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.17; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-02-1",
+      "entryId": "iz24-entry-02",
+      "timeSeconds": 1583,
+      "rank": 21,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.2; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-02-2",
+      "entryId": "iz24-entry-02",
+      "timeSeconds": 2715,
+      "rank": 21,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.2; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-02-3",
+      "entryId": "iz24-entry-02",
+      "timeSeconds": 4380,
+      "rank": 21,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.2; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-02-4",
+      "entryId": "iz24-entry-02",
+      "timeSeconds": 5545,
+      "rank": 21,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.2; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-02-5",
+      "entryId": "iz24-entry-02",
+      "timeSeconds": 6768,
+      "rank": 21,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.2; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "resultId": "iz24-result-02-6",
+      "entryId": "iz24-entry-02",
+      "timeSeconds": 8721,
+      "rank": 21,
+      "sourceId": "iuau-iz24-results",
+      "locator": "p.2; No.2; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    }
+  ],
+  "honors": [
+    {
+      "id": "iz24-result-03-1/section-award",
+      "resultId": "iz24-result-03-1",
+      "type": "section-award",
+      "sourceId": "iuau-iz24-results",
+      "locator": "区間賞 explicit list; section 1; No.3; 23:40; eligibility cross-checked with adopted IUAU final/revised PDF",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "id": "iz24-result-10-2/section-award",
+      "resultId": "iz24-result-10-2",
+      "type": "section-award",
+      "sourceId": "iuau-iz24-results",
+      "locator": "区間賞 explicit list; section 2; No.10; 15:46; eligibility cross-checked with adopted IUAU final/revised PDF",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "id": "iz24-result-05-3/section-award",
+      "resultId": "iz24-result-05-3",
+      "type": "section-award",
+      "sourceId": "iuau-iz24-results",
+      "locator": "区間賞 explicit list; section 3; No.5; 23:42; eligibility cross-checked with adopted IUAU final/revised PDF",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "id": "iz24-result-07-4/section-award",
+      "resultId": "iz24-result-07-4",
+      "type": "section-award",
+      "sourceId": "iuau-iz24-results",
+      "locator": "区間賞 explicit list; section 4; No.7; 17:42; eligibility cross-checked with adopted IUAU final/revised PDF",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "id": "iz24-result-07-5/section-award",
+      "resultId": "iz24-result-07-5",
+      "type": "section-award",
+      "sourceId": "iuau-iz24-results",
+      "locator": "区間賞 explicit list; section 5; No.7; 18:12; eligibility cross-checked with adopted IUAU final/revised PDF",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    },
+    {
+      "id": "iz24-result-07-6/section-award",
+      "resultId": "iz24-result-07-6",
+      "type": "section-award",
+      "sourceId": "iuau-iz24-results",
+      "locator": "区間賞 explicit list; section 6; No.7; 29:03; eligibility cross-checked with adopted IUAU final/revised PDF",
+      "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header"
+    }
+  ],
+  "notes": []
+}

@@ -1,4 +1,4 @@
-import { test, expect } from "@playwright/test";
+﻿import { test, expect } from "@playwright/test";
 
 test("scoreboard header sorting survives refresh and section navigation, with signed movement and nulls last", async ({ page }) => {
   await page.goto("/editions/all-japan-2024?section=2");
@@ -56,16 +56,18 @@ test("scoreboard header sorting survives refresh and section navigation, with si
   await expect(cumulative).toHaveAttribute("aria-sort", "descending");
 });
 
-test("overview keeps explicit co-awards, non-winning record badges and truthful pre-race record gaps", async ({page}) => {
+test("overview keeps explicit co-awards, non-winning record badges and the pre-race record", async ({page}) => {
   await page.goto("/editions/all-japan-2026?section=2");
   const overview = page.getByRole("region",{name:"本区间成绩概览"});
-  await expect(overview.locator(".result-badge--award")).toHaveCount(2);
-  for (const name of ["増子 陽太", "楠岡 由浩"]) await expect(overview.getByRole("link",{name,exact:true})).toBeVisible();
-  await expect(overview.locator('a[href="/universities/waseda"]')).toHaveText("早稲田大");
-  await expect(overview.locator('a[href="/universities/teikyo"]')).toHaveText("帝京大");
-  await expect(overview).toContainText("30:51");
+  const awards = overview.locator("div").filter({has:page.getByRole("heading",{name:"区间赏",exact:true})});
+  await expect(awards.locator(".result-badge--award")).toHaveCount(2);
+  for (const name of ["増子 陽太", "楠岡 由浩"]) await expect(awards.getByRole("link",{name,exact:true})).toBeVisible();
+  await expect(awards.locator('a[href="/universities/waseda"]')).toHaveText("早稲田大");
+  await expect(awards.locator('a[href="/universities/teikyo"]')).toHaveText("帝京大");
+  await expect(awards).toContainText("30:51");
   const record = overview.locator("div").filter({has:page.getByRole("heading",{name:"区间纪录",exact:true})});
-  await expect(record).toContainText("赛前纪录尚待核验");
+  await expect(record).toContainText("31:01");
+  await expect(record).toContainText("共同纪录保持者");
   await expect(record).not.toContainText("30:51");
   await expect(page.locator('tr[data-result-id="aj26-result-01-2"] .result-badge--record')).toHaveText("区間新");
   await page.goto("/editions/izumo-2023?section=5");

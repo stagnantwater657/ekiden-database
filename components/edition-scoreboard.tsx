@@ -1,4 +1,4 @@
-import { parseScoreboardSort, scoreboardHref, sortScoreboardRows, type ScoreboardSort } from "../lib/scoreboard-sort";
+﻿import { parseScoreboardSort, scoreboardHref, sortScoreboardRows, type ScoreboardSort } from "../lib/scoreboard-sort";
 import type { QueryParams } from "../lib/query";
 import { getResultHonors } from "../lib/scoreboard";
 import Link from "next/link";
@@ -9,6 +9,7 @@ import type {
 import { formatGap } from "../lib/scoreboard";
 import type { ResultStatus } from "../lib/model";
 import { formatTime } from "../lib/query";
+import type { PriorSectionRecord } from "../lib/prior-records";
 import { ResultBadges } from "./result-badges";
 import { Empty, Sources } from "./database";
 const statusLabels: Record<ResultStatus, string> = {
@@ -37,6 +38,68 @@ export function RankMovement({ value }: { value: number | null }) {
     >
       {value > 0 ? "↑" : "↓"} {Math.abs(value)}
     </span>
+  );
+}
+/**
+ * The record in force when the edition started. A record set during the race is
+ * never shown here; it stays a 区間新 badge on the results table below.
+ */
+function PriorRecord({ record }: { record: PriorSectionRecord | null }) {
+  if (!record || record.status !== "verified") {
+    return (
+      <>
+        <p className="source-note">赛前纪录尚待核验</p>
+        <p className="source-note">
+          {record?.note ?? "暂无本届对应路线的已核验赛前纪录资料。"}
+        </p>
+      </>
+    );
+  }
+  const provenance = [record.locator, record.revision]
+    .filter(Boolean)
+    .join(" · ");
+  return (
+    <>
+      <p className="source-note">本届开赛前有效</p>
+      {record.holders.map((holder, index) => (
+        <p key={`${record.id}-holder-${index}`}>
+          <span className="time" title={provenance || undefined}>
+            {formatTime(record.timeSeconds)}
+          </span>
+          {" · "}
+          {holder.athleteId ? (
+            <Link className="archive-link" href={`/athletes/${holder.athleteId}`}>
+              {holder.holderName}
+            </Link>
+          ) : (
+            holder.holderName
+          )}
+          {" · "}
+          {holder.universityId ? (
+            <Link
+              className="archive-link"
+              href={`/universities/${holder.universityId}`}
+            >
+              {holder.universityName}
+            </Link>
+          ) : (
+            holder.universityName
+          )}
+          {" · "}
+          {holder.editionId ? (
+            <Link className="archive-link" href={`/editions/${holder.editionId}`}>
+              {holder.year} 第{holder.editionNumber}回
+            </Link>
+          ) : (
+            `${holder.year} 第${holder.editionNumber}回`
+          )}
+        </p>
+      ))}
+      {record.holders.length > 1 && (
+        <p className="source-note">共同纪录保持者，按同一记录成绩并列</p>
+      )}
+      {record.note && <p className="source-note">{record.note}</p>}
+    </>
   );
 }
 function TeamLink({ row }: { row: FinalStanding }) {
@@ -321,8 +384,7 @@ export function EditionScoreboard({
             </div>
             <div>
               <h3>区间纪录</h3>
-              <p className="source-note">赛前纪录尚待核验</p>
-              <p className="source-note">暂无本届对应路线的已核验赛前纪录资料。</p>
+              <PriorRecord record={board.priorRecord} />
             </div>
           </section>
           {board.rows.length ? (

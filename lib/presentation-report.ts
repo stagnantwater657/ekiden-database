@@ -1,4 +1,5 @@
 import { editionPresentations, allSources } from "./presentation.ts";
+import { priorSectionRecords } from "./prior-records.ts";
 import { buildEditionScoreboard } from "./scoreboard.ts";
 import { officialSectionRecords } from "./race-profile.ts";
 import type { Database } from "./model.ts";
@@ -13,10 +14,21 @@ export function presentationReport(db: Database) {
       counts[mode === "unavailable" ? "missing" : mode]++;
       if (mode === "official" && rank === null) counts.officialTimeWithoutRank++;
     }
-    const sourceIds = new Set([...(supplement?.cumulative.map((p) => p.sourceId) ?? []), ...(supplement?.honors.map((h) => h.sourceId) ?? [])]);
+    // Pre-race records are counted per edition: every section needs an explicit
+    // verified / unverified / not-applicable state, never a silent omission.
+    const sections = db.sections.filter((section) => section.editionId === edition.id);
+    const prior = priorSectionRecords.filter((record) => record.editionId === edition.id);
+    const priorCounts = { sections: sections.length, verified: 0, unverified: 0, notApplicable: 0 };
+    for (const record of prior) {
+      if (record.status === "verified") priorCounts.verified++;
+      else if (record.status === "unverified") priorCounts.unverified++;
+      else priorCounts.notApplicable++;
+    }
+    const sourceIds = new Set([...prior.map((p) => p.sourceId).filter((id): id is string => !!id), ...(supplement?.cumulative.map((p) => p.sourceId) ?? []), ...(supplement?.honors.map((h) => h.sourceId) ?? [])]);
     return {
       editionId: edition.id, editionNumber: edition.number, results: rows.length,
       cumulative: counts,
+      priorRecords: priorCounts,
       sectionAwards: supplement?.honors.filter((h) => h.type === "section-award").length ?? 0,
       sectionRecords: supplement?.honors.filter((h) => h.type === "section-record").length ?? 0,
       sectionRecordTies: supplement?.honors.filter((h) => h.type === "section-record-tie").length ?? 0,
@@ -37,6 +49,9 @@ export function presentationReport(db: Database) {
       officialCumulative: editions.reduce((n,e) => n + e.cumulative.official,0),
       calculatedCumulative: editions.reduce((n,e) => n + e.cumulative.calculated,0),
       missingCumulative: editions.reduce((n,e) => n + e.cumulative.missing,0),
+      priorRecordsVerified: editions.reduce((n,e) => n + e.priorRecords.verified,0),
+      priorRecordsUnverified: editions.reduce((n,e) => n + e.priorRecords.unverified,0),
+      priorRecordsNotApplicable: editions.reduce((n,e) => n + e.priorRecords.notApplicable,0),
       sectionAwards: editions.reduce((n,e) => n + e.sectionAwards,0),
       sectionRecords: editions.reduce((n,e) => n + e.sectionRecords,0),
       sectionRecordTies: editions.reduce((n,e) => n + e.sectionRecordTies,0),

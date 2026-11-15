@@ -12,6 +12,12 @@
         "missing": 4,
         "officialTimeWithoutRank": 16
       },
+      "priorRecords": {
+        "sections": 8,
+        "verified": 8,
+        "unverified": 0,
+        "notApplicable": 0
+      },
       "sectionAwards": 8,
       "sectionRecords": 4,
       "sectionRecordTies": 0,
@@ -37,6 +43,12 @@
         "missing": 0,
         "officialTimeWithoutRank": 16
       },
+      "priorRecords": {
+        "sections": 8,
+        "verified": 8,
+        "unverified": 0,
+        "notApplicable": 0
+      },
       "sectionAwards": 8,
       "sectionRecords": 2,
       "sectionRecordTies": 0,
@@ -59,6 +71,12 @@
         "calculated": 0,
         "missing": 0,
         "officialTimeWithoutRank": 16
+      },
+      "priorRecords": {
+        "sections": 8,
+        "verified": 8,
+        "unverified": 0,
+        "notApplicable": 0
       },
       "sectionAwards": 8,
       "sectionRecords": 2,
@@ -83,6 +101,12 @@
         "missing": 0,
         "officialTimeWithoutRank": 16
       },
+      "priorRecords": {
+        "sections": 8,
+        "verified": 8,
+        "unverified": 0,
+        "notApplicable": 0
+      },
       "sectionAwards": 9,
       "sectionRecords": 6,
       "sectionRecordTies": 0,
@@ -105,6 +129,12 @@
         "calculated": 0,
         "missing": 0,
         "officialTimeWithoutRank": 0
+      },
+      "priorRecords": {
+        "sections": 10,
+        "verified": 10,
+        "unverified": 0,
+        "notApplicable": 0
       },
       "sectionAwards": 10,
       "sectionRecords": 2,
@@ -133,6 +163,12 @@
           "url": "https://www.ntv.co.jp/hakone/assets_data/100/Sokuhou_020.json",
           "revision": "記録速報 last updated 2024/01/03 14:12:01",
           "locator": "Sokuhou_020 / 030 / 040 / 050 / 060 / 070 / 080 / 090 / 100 / 110.json (10 中継所, SOGOU array); human pages /hakone/backnumber/100/tsuka/<中継所>.html"
+        },
+        {
+          "id": "kgrr-hk24-prior-records",
+          "url": "https://www.kgrr.org/files/competition/23/40/sogokoshikikiroku.pdf",
+          "revision": "第100回（2024-01-03） 版, retrieved 2026-11-15",
+          "locator": "p.1 過去区間最高記録 row, sections 1–10 (往路/復路 tables)"
         }
       ]
     },
@@ -145,6 +181,12 @@
         "calculated": 0,
         "missing": 0,
         "officialTimeWithoutRank": 10
+      },
+      "priorRecords": {
+        "sections": 10,
+        "verified": 10,
+        "unverified": 0,
+        "notApplicable": 0
       },
       "sectionAwards": 10,
       "sectionRecords": 6,
@@ -173,6 +215,12 @@
           "url": "https://www.ntv.co.jp/hakone/assets_data/101/Sokuhou_020.json",
           "revision": "記録速報 last updated 2025/01/03 13:49:40",
           "locator": "Sokuhou_020 / 030 / 040 / 050 / 060 / 070 / 080 / 090 / 100 / 110.json (10 中継所, SOGOU array); human pages /hakone/backnumber/101/tsuka/<中継所>.html"
+        },
+        {
+          "id": "kgrr-hk25-prior-records",
+          "url": "https://www.kgrr.org/files/competition/106/40/ouhukusougoukiroku.pdf",
+          "revision": "第101回（2025-01-03） 版, retrieved 2026-11-15",
+          "locator": "p.1 過去区間最高記録 row, sections 1–10 (往路/復路 tables)"
         }
       ]
     },
@@ -185,6 +233,12 @@
         "calculated": 0,
         "missing": 0,
         "officialTimeWithoutRank": 10
+      },
+      "priorRecords": {
+        "sections": 10,
+        "verified": 10,
+        "unverified": 0,
+        "notApplicable": 0
       },
       "sectionAwards": 10,
       "sectionRecords": 6,
@@ -213,6 +267,12 @@
           "url": "https://www.ntv.co.jp/hakone/assets_data/102/Sokuhou_020.json",
           "revision": "記録速報 last updated 2026/01/03 16:30:37",
           "locator": "Sokuhou_020 / 030 / 040 / 050 / 060 / 070 / 080 / 090 / 100 / 110.json (10 中継所, SOGOU array); human pages /hakone/backnumber/102/tsuka/<中継所>.html"
+        },
+        {
+          "id": "kgrr-hk26-prior-records",
+          "url": "https://www.kgrr.org/files/competition/125/40/sougoukiroku.pdf",
+          "revision": "第102回（2026-01-03） 版, retrieved 2026-11-15",
+          "locator": "p.1 過去区間最高記録 row, sections 1–10 (往路/復路 tables)"
         }
       ]
     },
@@ -225,6 +285,12 @@
         "calculated": 0,
         "missing": 12,
         "officialTimeWithoutRank": 0
+      },
+      "priorRecords": {
+        "sections": 6,
+        "verified": 6,
+        "unverified": 0,
+        "notApplicable": 0
       },
       "sectionAwards": 6,
       "sectionRecords": 0,
@@ -239,6 +305,12 @@
           "url": "https://iuau.jp/ev2023/msenbatu/35izumo_result-rr.pdf",
           "revision": "2024-02-21 16:07 revised results; IUAU publication 2024-02-22",
           "locator": "PDF p.1 team/section cells"
+        },
+        {
+          "id": "iuau-iz24-results",
+          "url": "https://iuau.jp/ev2024/msenbatu/36izumo_result.pdf",
+          "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header",
+          "locator": "PDF p.2 team/section cells"
         },
         {
           "id": "getsuriku-iz23-awards",
@@ -257,6 +329,12 @@
         "calculated": 0,
         "missing": 0,
         "officialTimeWithoutRank": 0
+      },
+      "priorRecords": {
+        "sections": 6,
+        "verified": 6,
+        "unverified": 0,
+        "notApplicable": 0
       },
       "sectionAwards": 6,
       "sectionRecords": 0,
@@ -281,6 +359,12 @@
         "missing": 0,
         "officialTimeWithoutRank": 6
       },
+      "priorRecords": {
+        "sections": 6,
+        "verified": 6,
+        "unverified": 0,
+        "notApplicable": 0
+      },
       "sectionAwards": 6,
       "sectionRecords": 1,
       "sectionRecordTies": 0,
@@ -303,6 +387,12 @@
         "calculated": 0,
         "missing": 0,
         "officialTimeWithoutRank": 6
+      },
+      "priorRecords": {
+        "sections": 6,
+        "verified": 6,
+        "unverified": 0,
+        "notApplicable": 0
       },
       "sectionAwards": 6,
       "sectionRecords": 10,
@@ -362,6 +452,9 @@
     "officialCumulative": 2014,
     "calculatedCumulative": 0,
     "missingCumulative": 16,
+    "priorRecordsVerified": 86,
+    "priorRecordsUnverified": 0,
+    "priorRecordsNotApplicable": 0,
     "sectionAwards": 87,
     "sectionRecords": 39,
     "sectionRecordTies": 2

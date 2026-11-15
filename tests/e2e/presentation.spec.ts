@@ -60,3 +60,27 @@ test("official Hakone checkpoint standings replace the former gap and keep revis
   await expect(page.locator('tr[data-result-id="iz23-result-10-5"] .result-badge')).toHaveCount(0);
   await expect(page.locator("main")).toContainText("补授");
 });
+
+test("section overview shows the record in force before the race, never the one set during it", async ({ page }) => {
+  await page.goto("/editions/hakone-2026?section=2");
+  const overview = page.getByRole("region", { name: "本区间成绩概览" });
+  const recordBlock = overview.locator("div").filter({
+    has: page.getByRole("heading", { name: "区间纪录", exact: true }),
+  });
+  await expect(recordBlock).toContainText("1:05:31");
+  await expect(recordBlock).toContainText("エティーリ");
+  await expect(recordBlock).toContainText("2025 第101回");
+  // キムタイ's 1:05:09 broke it that day; it must stay a badge, not the record block.
+  await expect(recordBlock).not.toContainText("1:05:09");
+  await expect(
+    page.locator('tr[data-result-id="hk26-result-07-2"] .result-badge--record'),
+  ).toHaveText("区間新");
+  await page.goto("/editions/all-japan-2026?section=2");
+  const shared = page.getByRole("region", { name: "本区间成绩概览" });
+  await expect(shared).toContainText("31:01");
+  await expect(shared).toContainText("佐藤 圭汰");
+  await expect(shared).toContainText("楠岡 由浩");
+  await expect(shared).toContainText("共同纪录保持者");
+  await page.goto("/editions/hakone-2024?section=5");
+  await expect(page.getByRole("region", { name: "本区间成绩概览" })).toContainText("1:10:04");
+});

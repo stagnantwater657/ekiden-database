@@ -45,6 +45,8 @@ test("supplement validation rejects wrong links, times, ranks, duplicates, prove
   assert.throws(() => validatePresentation(database, data), /inconsistent/);
   data = copy(); data[0].cumulative.push(data[0].cumulative[0]);
   assert.throws(() => validatePresentation(database, data), /duplicate/);
+  data = copy(); data[0].cumulative.find((p) => p.resultId === "aj23-result-01-8")!.rank = 2;
+  assert.throws(() => validatePresentation(database, data), /final time\/rank/);
   data = copy(); data[0].honors[0].sourceId = "unknown";
   assert.throws(() => validatePresentation(database, data), /evidence/);
   data = copy(); data[0].honors.push(data[0].honors[0]);

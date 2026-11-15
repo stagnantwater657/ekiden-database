@@ -32,3 +32,7 @@
 ## 批量历史扩充（2026-11-13）
 
 现已完成计划11届；逐届来源、版本、使用条件核查及数量见[批次来源核验](batch-history-progress.md)和[验收报告](batch-import-report.md)。新增Source.permissionReference均为null，不推断已有书面授权；只保存独立结构化事实。PR #13保持原2024/2025来源及数据原样；本次受控补录只追加第56回16条成绩及填充其25个空总用时，原200条成绩和其他十届不变。
+
+## PR #16 展示资料补充
+
+[逐届奖项、路线纪录与累计资料核验](official-records-completion.md)记录新增来源、采用版本、访问使用条件和缺口。事实保存在 `data/presentation/`，不覆盖原始11届成绩、身份决定和Registry；覆盖统计可用 `npm run presentation:report` 重算。

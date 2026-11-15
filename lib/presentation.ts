@@ -13,6 +13,9 @@ export function validatePresentation(db: Database, bundles: EditionPresentation[
   const fail = (message: string): never => { throw new Error(`Presentation: ${message}`); };
   const sources = new Map([...db.sources, ...extraSources].map((source) => [source.id, source]));
   if (sources.size !== db.sources.length + extraSources.length) fail("duplicate source ID");
+  for (const source of extraSources) {
+    if (!/^https?:\/\//.test(source.url) || !source.title || !source.coverage || !source.locator || !source.revision || !/^\d{4}-\d{2}-\d{2}/.test(source.collectedAt) || !source.usage || !/^https?:\/\//.test(source.usage.policyUrl) || !source.usage.reviewedAt || !source.usage.basis) fail("incomplete source metadata/policy review");
+  }
   const entries = new Map(db.entries.map((entry) => [entry.id, entry]));
   const sections = new Map(db.sections.map((section) => [section.id, section]));
   const results = new Map(db.results.map((result) => [result.id, result]));
@@ -39,6 +42,8 @@ export function validatePresentation(db: Database, bundles: EditionPresentation[
       if (entry!.status === "did-not-finish") {
         if (point.rankingScope !== "checkpoint-before-withdrawal" || db.results.some((row) => row.entryId === entry!.id && sections.get(row.sectionId)!.number <= section!.number && (row.status === "did-not-finish" || row.timeSeconds === null))) fail("invalid pre-withdrawal point");
       } else if (point.rankingScope) fail("unexpected pre-withdrawal scope");
+      const finalSection = Math.max(...db.sections.filter((leg) => leg.editionId === bundle.editionId).map((leg) => leg.number));
+      if (section!.number === finalSection && (point.timeSeconds !== entry!.totalTimeSeconds || point.rank !== entry!.finalRank)) fail("inconsistent official final time/rank");
       // Compare to section elapsed times, never to on-road clocks. Hakone archive
       // contains documented official rounding differences; only its explicitly
       // sourced stage/final times are checked here, never inferred arrival ranks.

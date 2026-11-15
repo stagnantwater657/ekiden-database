@@ -178,5 +178,50 @@
       "basis": "Reviewed NTV terms and rights notices: programme content, articles, imagery and layout are protected. Only independently structured objective record facts (per-team checkpoint elapsed time and elapsed-time ranking) are retained; no text, image, layout or programme material is copied, and no access control is bypassed. No written permission is claimed.",
       "permissionReference": null
     }
+  },
+  {
+    "id": "kgrr-hk24-prior-records",
+    "title": "関東学連 第100回箱根 往復総合公式記録（過去区間最高記録）",
+    "url": "https://www.kgrr.org/files/competition/23/40/sogokoshikikiroku.pdf",
+    "collectedAt": "2026-11-15",
+    "locator": "p.1 過去区間最高記録 row, sections 1–10 (往路/復路 tables)",
+    "coverage": "第100回開幕前に有効な区間最高記録（10区間）の保持者、所属、記録、樹立年。PDF・画像・表組は保存しない。",
+    "revision": "第100回（2024-01-03） 版, retrieved 2026-11-15",
+    "usage": {
+      "policyUrl": "https://www.kgrr.org/competition/?id=23",
+      "reviewedAt": "2026-11-15",
+      "basis": "Competition page and published PDF reviewed. No explicit automated-access restriction found on these pages. Only objective record facts (time, holder, university, year) are independently structured; no PDF/page/image or table layout is republished. Public access is not a permission grant.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "kgrr-hk25-prior-records",
+    "title": "関東学連 第101回箱根 往復総合公式記録（過去区間最高記録）",
+    "url": "https://www.kgrr.org/files/competition/106/40/ouhukusougoukiroku.pdf",
+    "collectedAt": "2026-11-15",
+    "locator": "p.1 過去区間最高記録 row, sections 1–10 (往路/復路 tables)",
+    "coverage": "第101回開幕前に有効な区間最高記録（10区間）の保持者、所属、記録、樹立年。PDF・画像・表組は保存しない。",
+    "revision": "第101回（2025-01-03） 版, retrieved 2026-11-15",
+    "usage": {
+      "policyUrl": "https://www.kgrr.org/competition/?id=106",
+      "reviewedAt": "2026-11-15",
+      "basis": "Competition page and published PDF reviewed. No explicit automated-access restriction found on these pages. Only objective record facts (time, holder, university, year) are independently structured; no PDF/page/image or table layout is republished. Public access is not a permission grant.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "kgrr-hk26-prior-records",
+    "title": "関東学連 第102回箱根 往復総合公式記録（過去区間最高記録）",
+    "url": "https://www.kgrr.org/files/competition/125/40/sougoukiroku.pdf",
+    "collectedAt": "2026-11-15",
+    "locator": "p.1 過去区間最高記録 row, sections 1–10 (往路/復路 tables)",
+    "coverage": "第102回開幕前に有効な区間最高記録（10区間）の保持者、所属、記録、樹立年。PDF・画像・表組は保存しない。",
+    "revision": "第102回（2026-01-03） 版, retrieved 2026-11-15",
+    "usage": {
+      "policyUrl": "https://www.kgrr.org/competition/?id=125",
+      "reviewedAt": "2026-11-15",
+      "basis": "Competition page and published PDF reviewed. No explicit automated-access restriction found on these pages. Only objective record facts (time, holder, university, year) are independently structured; no PDF/page/image or table layout is republished. Public access is not a permission grant.",
+      "permissionReference": null
+    }
   }
 ]

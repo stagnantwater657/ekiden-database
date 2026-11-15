@@ -32,7 +32,7 @@ export default async function Home() {
       <SiteHeader />
       <main className="site-width">
         <section className="home-hero">
-          <div>
+          <div className="home-hero-copy">
             <p className="eyebrow">THE JAPANESE COLLEGIATE EKIDEN ARCHIVE</p>
             <h1 className="home-title">
               每一程，<span>都有迹可循。</span>

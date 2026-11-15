@@ -106,8 +106,8 @@ export function UniversityProfile({ profile }: { profile: UniversityArchive }) {
                 <tr>
                   <th>赛事 / 届次</th>
                   <th>年份</th>
-                  <th>正式综合顺位</th>
-                  <th>官方总成绩</th>
+                  <th>综合顺位</th>
+                  <th>总成绩</th>
                   <th>状态</th>
                 </tr>
               </thead>

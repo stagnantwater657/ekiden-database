@@ -1,4 +1,6 @@
 import { allSources, editionPresentations, honorFacts } from "./presentation.ts";
+import { priorRecordFor } from "./prior-records.ts";
+import type { PriorSectionRecord } from "./prior-records.ts";
 import type { EditionPresentation } from "./presentation-model.ts";
 import type {
   Database,
@@ -41,6 +43,8 @@ export interface EditionScoreboard {
   specialRows: FinalStanding[];
   cumulativeMode: CumulativeMode;
   cumulativeLabel: string;
+  /** The record in force when this edition started, never the current one. */
+  priorRecord: PriorSectionRecord | null;
   sources: Source[];
   notes: string[];
 }
@@ -318,8 +322,10 @@ export function buildEditionScoreboard(
       }),
     )
     .sort((a, b) => a.entry.id.localeCompare(b.entry.id));
+  const priorRecord = priorRecordFor(edition.id, section.number);
   const sourceIds = new Set([
     edition.sourceId,
+    ...(priorRecord?.sourceId ? [priorRecord.sourceId] : []),
     ...results.flatMap((result) => [
       result.sourceId,
       result.participationSourceId,
@@ -347,6 +353,7 @@ export function buildEditionScoreboard(
       : canCalculate
         ? "按区间用时计算"
         : "累计成绩尚待核验",
+    priorRecord,
     sources: allSources(db).filter((source) => sourceIds.has(source.id)),
     notes: [
       ...(hasOfficial

@@ -6,7 +6,7 @@ test("non-winning new records and record ties survive athlete navigation with th
   const row = page.locator('tr[data-result-id="aj26-result-01-2"]');
   await expect(row.locator(".result-badge--record")).toHaveText("区間新");
   await expect(row.locator(".result-badge--award")).toHaveCount(0);
-  await expect(page.locator(".result-badge--award")).toHaveCount(2);
+  await expect(page.locator(".scoreboard-table .result-badge--award")).toHaveCount(2);
   const result = database.results.find((r) => r.id === "aj26-result-01-2")!;
   await row.locator(`a[href="/athletes/${result.athleteId}"]`).click();
   await expect(page.locator('tr[data-result-id="aj26-result-01-2"] .result-badge--record')).toHaveText("区間新");
@@ -23,15 +23,19 @@ test("current course records retain co-holders, university and edition links on 
   await page.setViewportSize({ width:390, height:844 });
   await page.goto("/races/all-japan");
   const table = page.getByRole("region", { name:"区间路线与官方纪录" });
-  const second = table.locator("tbody tr").nth(1);
+  const second = table.locator("tbody tr").filter({ hasText: "増子 陽太" });
+  const coholder = table.locator("tbody tr").filter({ hasText: "楠岡 由浩" });
   await expect(second).toContainText("30:51");
   await expect(second).toContainText("増子 陽太");
-  await expect(second).toContainText("楠岡 由浩");
+  await expect(coholder).toContainText("楠岡 由浩");
   await expect(second.locator('a[href="/universities/waseda"]')).toHaveCount(1);
-  await expect(second.locator('a[href="/universities/teikyo"]')).toHaveCount(1);
-  await expect(second.locator('a[href="/editions/all-japan-2026"]')).toHaveCount(2);
+  await expect(coholder.locator('a[href="/universities/teikyo"]')).toHaveCount(1);
+  await expect(second.locator('a[href="/editions/all-japan-2026"]')).toHaveCount(1);
+  await expect(coholder.locator('a[href="/editions/all-japan-2026"]')).toHaveCount(1);
+  await expect(second.locator("th")).toHaveAttribute("rowspan", "2");
+  await expect(table.locator("thead th")).toHaveText(["区间", "距离", "区间纪录", "纪录保持者", "大学", "年份"]);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
-  await second.getByRole("link",{name:"楠岡 由浩",exact:true}).click();
+  await coholder.getByRole("link",{name:"楠岡 由浩",exact:true}).click();
   await expect(page.getByRole("heading",{level:1})).toContainText("楠岡");
   await page.goto("/races/izumo");
   await expect(page.getByRole("region",{name:"区间路线与官方纪录"})).toContainText("22:56");
@@ -55,4 +59,28 @@ test("official Hakone checkpoint standings replace the former gap and keep revis
   await expect(page.locator('tr[data-result-id="iz23-result-03-5"] .result-badge--award')).toHaveCount(0);
   await expect(page.locator('tr[data-result-id="iz23-result-10-5"] .result-badge')).toHaveCount(0);
   await expect(page.locator("main")).toContainText("补授");
+});
+
+test("section overview shows the record in force before the race, never the one set during it", async ({ page }) => {
+  await page.goto("/editions/hakone-2026?section=2");
+  const overview = page.getByRole("region", { name: "本区间成绩概览" });
+  const recordBlock = overview.locator("div").filter({
+    has: page.getByRole("heading", { name: "区间纪录", exact: true }),
+  });
+  await expect(recordBlock).toContainText("1:05:31");
+  await expect(recordBlock).toContainText("エティーリ");
+  await expect(recordBlock).toContainText("2025 第101回");
+  // キムタイ's 1:05:09 broke it that day; it must stay a badge, not the record block.
+  await expect(recordBlock).not.toContainText("1:05:09");
+  await expect(
+    page.locator('tr[data-result-id="hk26-result-07-2"] .result-badge--record'),
+  ).toHaveText("区間新");
+  await page.goto("/editions/all-japan-2026?section=2");
+  const shared = page.getByRole("region", { name: "本区间成绩概览" });
+  await expect(shared).toContainText("31:01");
+  await expect(shared).toContainText("佐藤 圭汰");
+  await expect(shared).toContainText("楠岡 由浩");
+  await expect(shared).toContainText("共同纪录保持者");
+  await page.goto("/editions/hakone-2024?section=5");
+  await expect(page.getByRole("region", { name: "本区间成绩概览" })).toContainText("1:10:04");
 });

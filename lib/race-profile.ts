@@ -41,6 +41,7 @@ export interface OfficialSectionRecord {
 export const raceOrder = ["hakone", "all-japan", "izumo"];
 export const raceMetadata = presentation.profiles as RaceMetadata[];
 export const raceProfileSources = presentation.sources as Source[];
+export const courseVersions = presentation.courseVersions;
 export const officialSectionRecords =
   presentation.sectionRecords as OfficialSectionRecord[];
 

@@ -133,53 +133,42 @@ export default async function Page({
                 <tr>
                   <th scope="col">区间</th>
                   <th scope="col">距离</th>
-                  <th scope="col">官方区间纪录</th>
+                  <th scope="col">区间纪录</th>
                   <th scope="col">纪录保持者</th>
-                  <th scope="col">创造年份</th>
+                  <th scope="col">大学</th>
+                  <th scope="col">年份</th>
                 </tr>
               </thead>
               <tbody>
-                {sections.map((section) => (
-                  <tr key={section.id}>
-                    <th scope="row">
-                      <Link
-                        className="archive-link"
-                        href={`/editions/${section.editionId}?section=${section.number}`}
-                      >
-                        {section.number}区
-                      </Link>
-                    </th>
-                    <td className="tabular-nums">
-                      {section.distanceKm === null
-                        ? "—"
-                        : `${section.distanceKm} km`}
-                    </td>
-                    <td className="tabular-nums">
-                      {section.record ? (
-                        formatTime(section.record.timeSeconds)
-                      ) : (
-                        <span className="text-[var(--muted)]">待核实</span>
-                      )}
-                    </td>
-                    <td>
-                      {section.records.length ? section.records.map((record) => (
-                        <div key={record.id} title={`${record.locator} · ${record.revision}`}>
-                          {record.athleteId ? <Link className="archive-link" href={`/athletes/${record.athleteId}`}>{record.holderName}</Link> : record.holderName}
-                          <span className="ml-2 text-xs text-[var(--muted)]">
-                            {record.universityId ? <Link className="archive-link" href={`/universities/${record.universityId}`}>{record.universityName}</Link> : record.universityName}
-                          </span>
-                        </div>
-                      )) : "—"}
-                    </td>
-                    <td className="tabular-nums">
-                      {section.records.length ? section.records.map((record) => (
-                        <div key={record.id}>
-                          {record.editionId ? <Link className="archive-link" href={`/editions/${record.editionId}`}>{record.year} · 第{record.editionNumber}回</Link> : `${record.year} · 第${record.editionNumber}回`}
-                        </div>
-                      )) : "—"}
-                    </td>
-                  </tr>
-                ))}
+                {sections.flatMap((section) => {
+                  const records = section.records.length ? section.records : [null];
+                  return records.map((record, index) => (
+                    <tr key={record?.id ?? section.id}>
+                      {index === 0 && <>
+                        <th scope="row" rowSpan={records.length}>
+                          <Link className="archive-link" href={`/editions/${section.editionId}?section=${section.number}`}>
+                            {section.number}区
+                          </Link>
+                        </th>
+                        <td className="tabular-nums" rowSpan={records.length}>
+                          {section.distanceKm === null ? "—" : `${section.distanceKm} km`}
+                        </td>
+                        <td className="tabular-nums" rowSpan={records.length}>
+                          {section.record ? formatTime(section.record.timeSeconds) : <span className="text-[var(--muted)]">待核实</span>}
+                        </td>
+                      </>}
+                      <td title={record ? `${record.locator} · ${record.revision}` : undefined}>
+                        {record ? record.athleteId ? <Link className="archive-link" href={`/athletes/${record.athleteId}`}>{record.holderName}</Link> : record.holderName : "—"}
+                      </td>
+                      <td>
+                        {record ? record.universityId ? <Link className="archive-link" href={`/universities/${record.universityId}`}>{record.universityName}</Link> : record.universityName : "—"}
+                      </td>
+                      <td className="tabular-nums">
+                        {record ? record.editionId ? <Link className="archive-link" href={`/editions/${record.editionId}`}>{record.year} · 第{record.editionNumber}回</Link> : `${record.year} · 第${record.editionNumber}回` : "—"}
+                      </td>
+                    </tr>
+                  ));
+                })}
               </tbody>
             </table>
           </div>

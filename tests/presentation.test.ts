@@ -133,6 +133,6 @@ test("committed coverage report is reproducible and every result is counted once
   const { presentationReport } = await import("../lib/presentation-report.ts");
   const report = presentationReport(database);
   assert.deepEqual(JSON.parse(readFileSync(new URL("../data/reports/presentation.json",import.meta.url),"utf8")),report);
-  assert.deepEqual(report.totals,{editions:11,results:2030,officialCumulative:2014,calculatedCumulative:0,missingCumulative:16,sectionAwards:87,sectionRecords:39,sectionRecordTies:2});
+  assert.deepEqual(report.totals,{editions:11,results:2030,officialCumulative:2014,calculatedCumulative:0,missingCumulative:16,priorRecordsVerified:86,priorRecordsUnverified:0,priorRecordsNotApplicable:0,sectionAwards:87,sectionRecords:39,sectionRecordTies:2});
   for (const row of report.editions) assert.equal(row.cumulative.official+row.cumulative.calculated+row.cumulative.missing,row.results);
 });

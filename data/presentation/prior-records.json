@@ -1,0 +1,2342 @@
+{
+  "reviewedAt": "2026-11-15",
+  "raceNotes": {
+    "hakone": "第100–102回沿用第93回起的箱根路线（4/5区自第93回调整），三届距离与2026年现行路线一致；紀錄行取自各届公式記録『過去区間最高記録』。",
+    "all-japan": "第55–58回使用当前8区间106.8km路线；紀錄表为各届成績表p.2大会記録（上段），纪录保持届次一并保留。",
+    "izumo": "第35–38回使用45.1km、6区间路线；第35回PDF本身未印区間紀錄表，采用第36回官方表并在第35回无区間新前提下引用。"
+  },
+  "records": [
+    {
+      "id": "hk2024-s1-prior",
+      "raceId": "hakone",
+      "editionId": "hakone-2024",
+      "sectionNumber": 1,
+      "courseEditionId": "hakone-2024",
+      "courseVersion": "hakone-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 3640,
+      "holders": [
+        {
+          "holderName": "吉居 大和",
+          "universityName": "中央大",
+          "universityId": "chuo",
+          "athleteId": null,
+          "year": 2022,
+          "editionNumber": 98,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "kgrr-hk24-prior-records",
+      "locator": "第100回 往復総合公式記録 p.1 過去区間最高記録 row; 第1区",
+      "revision": "第100回 往復総合公式記録（2024-01-03 版）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "hk2024-s2-prior",
+      "raceId": "hakone",
+      "editionId": "hakone-2024",
+      "sectionNumber": 2,
+      "courseEditionId": "hakone-2024",
+      "courseVersion": "hakone-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 3949,
+      "holders": [
+        {
+          "holderName": "ヴィンセント",
+          "universityName": "東京国際大",
+          "universityId": "tokyo-international",
+          "athleteId": null,
+          "year": 2021,
+          "editionNumber": 97,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "kgrr-hk24-prior-records",
+      "locator": "第100回 往復総合公式記録 p.1 過去区間最高記録 row; 第2区",
+      "revision": "第100回 往復総合公式記録（2024-01-03 版）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "hk2024-s3-prior",
+      "raceId": "hakone",
+      "editionId": "hakone-2024",
+      "sectionNumber": 3,
+      "courseEditionId": "hakone-2024",
+      "courseVersion": "hakone-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 3565,
+      "holders": [
+        {
+          "holderName": "ヴィンセント",
+          "universityName": "東京国際大",
+          "universityId": "tokyo-international",
+          "athleteId": null,
+          "year": 2020,
+          "editionNumber": 96,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "kgrr-hk24-prior-records",
+      "locator": "第100回 往復総合公式記録 p.1 過去区間最高記録 row; 第3区",
+      "revision": "第100回 往復総合公式記録（2024-01-03 版）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "hk2024-s4-prior",
+      "raceId": "hakone",
+      "editionId": "hakone-2024",
+      "sectionNumber": 4,
+      "courseEditionId": "hakone-2024",
+      "courseVersion": "hakone-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 3600,
+      "holders": [
+        {
+          "holderName": "ヴィンセント",
+          "universityName": "東京国際大",
+          "universityId": "tokyo-international",
+          "athleteId": null,
+          "year": 2023,
+          "editionNumber": 99,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "kgrr-hk24-prior-records",
+      "locator": "第100回 往復総合公式記録 p.1 過去区間最高記録 row; 第4区",
+      "revision": "第100回 往復総合公式記録（2024-01-03 版）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "hk2024-s5-prior",
+      "raceId": "hakone",
+      "editionId": "hakone-2024",
+      "sectionNumber": 5,
+      "courseEditionId": "hakone-2024",
+      "courseVersion": "hakone-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 4204,
+      "holders": [
+        {
+          "holderName": "山本 唯翔",
+          "universityName": "城西大",
+          "universityId": "josai",
+          "athleteId": null,
+          "year": 2023,
+          "editionNumber": 99,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "kgrr-hk24-prior-records",
+      "locator": "第100回 往復総合公式記録 p.1 過去区間最高記録 row; 第5区",
+      "revision": "第100回 往復総合公式記録（2024-01-03 版）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "hk2024-s6-prior",
+      "raceId": "hakone",
+      "editionId": "hakone-2024",
+      "sectionNumber": 6,
+      "courseEditionId": "hakone-2024",
+      "courseVersion": "hakone-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 3437,
+      "holders": [
+        {
+          "holderName": "館澤 亨次",
+          "universityName": "東海大",
+          "universityId": "tokai",
+          "athleteId": null,
+          "year": 2020,
+          "editionNumber": 96,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "kgrr-hk24-prior-records",
+      "locator": "第100回 往復総合公式記録 p.1 過去区間最高記録 row; 第6区",
+      "revision": "第100回 往復総合公式記録（2024-01-03 版）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "hk2024-s7-prior",
+      "raceId": "hakone",
+      "editionId": "hakone-2024",
+      "sectionNumber": 7,
+      "courseEditionId": "hakone-2024",
+      "courseVersion": "hakone-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 3700,
+      "holders": [
+        {
+          "holderName": "阿部 弘輝",
+          "universityName": "明治大学",
+          "universityId": "university-07830b68b074",
+          "athleteId": null,
+          "year": 2020,
+          "editionNumber": 96,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "kgrr-hk24-prior-records",
+      "locator": "第100回 往復総合公式記録 p.1 過去区間最高記録 row; 第7区",
+      "revision": "第100回 往復総合公式記録（2024-01-03 版）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "hk2024-s8-prior",
+      "raceId": "hakone",
+      "editionId": "hakone-2024",
+      "sectionNumber": 8,
+      "courseEditionId": "hakone-2024",
+      "courseVersion": "hakone-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 3829,
+      "holders": [
+        {
+          "holderName": "小松 陽平",
+          "universityName": "東海大",
+          "universityId": "tokai",
+          "athleteId": null,
+          "year": 2019,
+          "editionNumber": 95,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "kgrr-hk24-prior-records",
+      "locator": "第100回 往復総合公式記録 p.1 過去区間最高記録 row; 第8区",
+      "revision": "第100回 往復総合公式記録（2024-01-03 版）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "hk2024-s9-prior",
+      "raceId": "hakone",
+      "editionId": "hakone-2024",
+      "sectionNumber": 9,
+      "courseEditionId": "hakone-2024",
+      "courseVersion": "hakone-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 4035,
+      "holders": [
+        {
+          "holderName": "中村 唯翔",
+          "universityName": "青山学院大",
+          "universityId": "aoyama-gakuin",
+          "athleteId": null,
+          "year": 2022,
+          "editionNumber": 98,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "kgrr-hk24-prior-records",
+      "locator": "第100回 往復総合公式記録 p.1 過去区間最高記録 row; 第9区",
+      "revision": "第100回 往復総合公式記録（2024-01-03 版）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "hk2024-s10-prior",
+      "raceId": "hakone",
+      "editionId": "hakone-2024",
+      "sectionNumber": 10,
+      "courseEditionId": "hakone-2024",
+      "courseVersion": "hakone-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 4070,
+      "holders": [
+        {
+          "holderName": "中倉 啓敦",
+          "universityName": "青山学院大",
+          "universityId": "aoyama-gakuin",
+          "athleteId": null,
+          "year": 2022,
+          "editionNumber": 98,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "kgrr-hk24-prior-records",
+      "locator": "第100回 往復総合公式記録 p.1 過去区間最高記録 row; 第10区",
+      "revision": "第100回 往復総合公式記録（2024-01-03 版）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "hk2025-s1-prior",
+      "raceId": "hakone",
+      "editionId": "hakone-2025",
+      "sectionNumber": 1,
+      "courseEditionId": "hakone-2025",
+      "courseVersion": "hakone-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 3640,
+      "holders": [
+        {
+          "holderName": "吉居 大和",
+          "universityName": "中央大",
+          "universityId": "chuo",
+          "athleteId": null,
+          "year": 2022,
+          "editionNumber": 98,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "kgrr-hk25-prior-records",
+      "locator": "第101回 往復総合公式記録 p.1 過去区間最高記録 row; 第1区",
+      "revision": "第101回 往復総合公式記録（2025-01-03 版）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "hk2025-s2-prior",
+      "raceId": "hakone",
+      "editionId": "hakone-2025",
+      "sectionNumber": 2,
+      "courseEditionId": "hakone-2025",
+      "courseVersion": "hakone-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 3949,
+      "holders": [
+        {
+          "holderName": "ヴィンセント",
+          "universityName": "東京国際大",
+          "universityId": "tokyo-international",
+          "athleteId": null,
+          "year": 2021,
+          "editionNumber": 97,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "kgrr-hk25-prior-records",
+      "locator": "第101回 往復総合公式記録 p.1 過去区間最高記録 row; 第2区",
+      "revision": "第101回 往復総合公式記録（2025-01-03 版）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "hk2025-s3-prior",
+      "raceId": "hakone",
+      "editionId": "hakone-2025",
+      "sectionNumber": 3,
+      "courseEditionId": "hakone-2025",
+      "courseVersion": "hakone-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 3565,
+      "holders": [
+        {
+          "holderName": "ヴィンセント",
+          "universityName": "東京国際大",
+          "universityId": "tokyo-international",
+          "athleteId": null,
+          "year": 2020,
+          "editionNumber": 96,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "kgrr-hk25-prior-records",
+      "locator": "第101回 往復総合公式記録 p.1 過去区間最高記録 row; 第3区",
+      "revision": "第101回 往復総合公式記録（2025-01-03 版）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "hk2025-s4-prior",
+      "raceId": "hakone",
+      "editionId": "hakone-2025",
+      "sectionNumber": 4,
+      "courseEditionId": "hakone-2025",
+      "courseVersion": "hakone-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 3600,
+      "holders": [
+        {
+          "holderName": "ヴィンセント",
+          "universityName": "東京国際大",
+          "universityId": "tokyo-international",
+          "athleteId": null,
+          "year": 2023,
+          "editionNumber": 99,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "kgrr-hk25-prior-records",
+      "locator": "第101回 往復総合公式記録 p.1 過去区間最高記録 row; 第4区",
+      "revision": "第101回 往復総合公式記録（2025-01-03 版）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "hk2025-s5-prior",
+      "raceId": "hakone",
+      "editionId": "hakone-2025",
+      "sectionNumber": 5,
+      "courseEditionId": "hakone-2025",
+      "courseVersion": "hakone-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 4154,
+      "holders": [
+        {
+          "holderName": "山本 唯翔",
+          "universityName": "城西大",
+          "universityId": "josai",
+          "athleteId": "athlete-aj23-11-8",
+          "year": 2024,
+          "editionNumber": 100,
+          "editionId": "hakone-2024",
+          "resultId": "hk24-result-03-5"
+        }
+      ],
+      "sourceId": "kgrr-hk25-prior-records",
+      "locator": "第101回 往復総合公式記録 p.1 過去区間最高記録 row; 第5区",
+      "revision": "第101回 往復総合公式記録（2025-01-03 版）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "hk2025-s6-prior",
+      "raceId": "hakone",
+      "editionId": "hakone-2025",
+      "sectionNumber": 6,
+      "courseEditionId": "hakone-2025",
+      "courseVersion": "hakone-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 3437,
+      "holders": [
+        {
+          "holderName": "館澤 亨次",
+          "universityName": "東海大",
+          "universityId": "tokai",
+          "athleteId": null,
+          "year": 2020,
+          "editionNumber": 96,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "kgrr-hk25-prior-records",
+      "locator": "第101回 往復総合公式記録 p.1 過去区間最高記録 row; 第6区",
+      "revision": "第101回 往復総合公式記録（2025-01-03 版）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "hk2025-s7-prior",
+      "raceId": "hakone",
+      "editionId": "hakone-2025",
+      "sectionNumber": 7,
+      "courseEditionId": "hakone-2025",
+      "courseVersion": "hakone-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 3700,
+      "holders": [
+        {
+          "holderName": "阿部 弘輝",
+          "universityName": "明治大学",
+          "universityId": "university-07830b68b074",
+          "athleteId": null,
+          "year": 2020,
+          "editionNumber": 96,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "kgrr-hk25-prior-records",
+      "locator": "第101回 往復総合公式記録 p.1 過去区間最高記録 row; 第7区",
+      "revision": "第101回 往復総合公式記録（2025-01-03 版）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "hk2025-s8-prior",
+      "raceId": "hakone",
+      "editionId": "hakone-2025",
+      "sectionNumber": 8,
+      "courseEditionId": "hakone-2025",
+      "courseVersion": "hakone-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 3829,
+      "holders": [
+        {
+          "holderName": "小松 陽平",
+          "universityName": "東海大",
+          "universityId": "tokai",
+          "athleteId": null,
+          "year": 2019,
+          "editionNumber": 95,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "kgrr-hk25-prior-records",
+      "locator": "第101回 往復総合公式記録 p.1 過去区間最高記録 row; 第8区",
+      "revision": "第101回 往復総合公式記録（2025-01-03 版）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "hk2025-s9-prior",
+      "raceId": "hakone",
+      "editionId": "hakone-2025",
+      "sectionNumber": 9,
+      "courseEditionId": "hakone-2025",
+      "courseVersion": "hakone-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 4035,
+      "holders": [
+        {
+          "holderName": "中村 唯翔",
+          "universityName": "青山学院大",
+          "universityId": "aoyama-gakuin",
+          "athleteId": null,
+          "year": 2022,
+          "editionNumber": 98,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "kgrr-hk25-prior-records",
+      "locator": "第101回 往復総合公式記録 p.1 過去区間最高記録 row; 第9区",
+      "revision": "第101回 往復総合公式記録（2025-01-03 版）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "hk2025-s10-prior",
+      "raceId": "hakone",
+      "editionId": "hakone-2025",
+      "sectionNumber": 10,
+      "courseEditionId": "hakone-2025",
+      "courseVersion": "hakone-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 4070,
+      "holders": [
+        {
+          "holderName": "中倉 啓敦",
+          "universityName": "青山学院大",
+          "universityId": "aoyama-gakuin",
+          "athleteId": null,
+          "year": 2022,
+          "editionNumber": 98,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "kgrr-hk25-prior-records",
+      "locator": "第101回 往復総合公式記録 p.1 過去区間最高記録 row; 第10区",
+      "revision": "第101回 往復総合公式記録（2025-01-03 版）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "hk2026-s1-prior",
+      "raceId": "hakone",
+      "editionId": "hakone-2026",
+      "sectionNumber": 1,
+      "courseEditionId": "hakone-2026",
+      "courseVersion": "hakone-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 3640,
+      "holders": [
+        {
+          "holderName": "吉居 大和",
+          "universityName": "中央大",
+          "universityId": "chuo",
+          "athleteId": null,
+          "year": 2022,
+          "editionNumber": 98,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "kgrr-hk26-prior-records",
+      "locator": "第102回 往復総合公式記録 p.1 過去区間最高記録 row; 第1区",
+      "revision": "第102回 往復総合公式記録（2026-01-03 版）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "hk2026-s2-prior",
+      "raceId": "hakone",
+      "editionId": "hakone-2026",
+      "sectionNumber": 2,
+      "courseEditionId": "hakone-2026",
+      "courseVersion": "hakone-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 3931,
+      "holders": [
+        {
+          "holderName": "Ｒ.エティーリ",
+          "universityName": "東京国際大",
+          "universityId": "tokyo-international",
+          "athleteId": "athlete-hk25-08-2",
+          "year": 2025,
+          "editionNumber": 101,
+          "editionId": "hakone-2025",
+          "resultId": "hk25-result-08-2"
+        }
+      ],
+      "sourceId": "kgrr-hk26-prior-records",
+      "locator": "第102回 往復総合公式記録 p.1 過去区間最高記録 row; 第2区",
+      "revision": "第102回 往復総合公式記録（2026-01-03 版）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "hk2026-s3-prior",
+      "raceId": "hakone",
+      "editionId": "hakone-2026",
+      "sectionNumber": 3,
+      "courseEditionId": "hakone-2026",
+      "courseVersion": "hakone-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 3565,
+      "holders": [
+        {
+          "holderName": "ヴィンセント",
+          "universityName": "東京国際大",
+          "universityId": "tokyo-international",
+          "athleteId": null,
+          "year": 2020,
+          "editionNumber": 96,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "kgrr-hk26-prior-records",
+      "locator": "第102回 往復総合公式記録 p.1 過去区間最高記録 row; 第3区",
+      "revision": "第102回 往復総合公式記録（2026-01-03 版）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "hk2026-s4-prior",
+      "raceId": "hakone",
+      "editionId": "hakone-2026",
+      "sectionNumber": 4,
+      "courseEditionId": "hakone-2026",
+      "courseVersion": "hakone-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 3600,
+      "holders": [
+        {
+          "holderName": "ヴィンセント",
+          "universityName": "東京国際大",
+          "universityId": "tokyo-international",
+          "athleteId": null,
+          "year": 2023,
+          "editionNumber": 99,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "kgrr-hk26-prior-records",
+      "locator": "第102回 往復総合公式記録 p.1 過去区間最高記録 row; 第4区",
+      "revision": "第102回 往復総合公式記録（2026-01-03 版）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "hk2026-s5-prior",
+      "raceId": "hakone",
+      "editionId": "hakone-2026",
+      "sectionNumber": 5,
+      "courseEditionId": "hakone-2026",
+      "courseVersion": "hakone-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 4151,
+      "holders": [
+        {
+          "holderName": "若林 宏樹",
+          "universityName": "青山学院大",
+          "universityId": "aoyama-gakuin",
+          "athleteId": "athlete-aj23-03-1",
+          "year": 2025,
+          "editionNumber": 101,
+          "editionId": "hakone-2025",
+          "resultId": "hk25-result-01-5"
+        }
+      ],
+      "sourceId": "kgrr-hk26-prior-records",
+      "locator": "第102回 往復総合公式記録 p.1 過去区間最高記録 row; 第5区",
+      "revision": "第102回 往復総合公式記録（2026-01-03 版）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "hk2026-s6-prior",
+      "raceId": "hakone",
+      "editionId": "hakone-2026",
+      "sectionNumber": 6,
+      "courseEditionId": "hakone-2026",
+      "courseVersion": "hakone-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 3407,
+      "holders": [
+        {
+          "holderName": "野村 昭夢",
+          "universityName": "青山学院大",
+          "universityId": "aoyama-gakuin",
+          "athleteId": "athlete-aj24-03-1",
+          "year": 2025,
+          "editionNumber": 101,
+          "editionId": "hakone-2025",
+          "resultId": "hk25-result-01-6"
+        }
+      ],
+      "sourceId": "kgrr-hk26-prior-records",
+      "locator": "第102回 往復総合公式記録 p.1 過去区間最高記録 row; 第6区",
+      "revision": "第102回 往復総合公式記録（2026-01-03 版）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "hk2026-s7-prior",
+      "raceId": "hakone",
+      "editionId": "hakone-2026",
+      "sectionNumber": 7,
+      "courseEditionId": "hakone-2026",
+      "courseVersion": "hakone-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 3643,
+      "holders": [
+        {
+          "holderName": "佐藤 圭汰",
+          "universityName": "駒澤大",
+          "universityId": "komazawa",
+          "athleteId": "athlete-aj25-02-7",
+          "year": 2025,
+          "editionNumber": 101,
+          "editionId": "hakone-2025",
+          "resultId": "hk25-result-02-7"
+        }
+      ],
+      "sourceId": "kgrr-hk26-prior-records",
+      "locator": "第102回 往復総合公式記録 p.1 過去区間最高記録 row; 第7区",
+      "revision": "第102回 往復総合公式記録（2026-01-03 版）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "hk2026-s8-prior",
+      "raceId": "hakone",
+      "editionId": "hakone-2026",
+      "sectionNumber": 8,
+      "courseEditionId": "hakone-2026",
+      "courseVersion": "hakone-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 3829,
+      "holders": [
+        {
+          "holderName": "小松 陽平",
+          "universityName": "東海大",
+          "universityId": "tokai",
+          "athleteId": null,
+          "year": 2019,
+          "editionNumber": 95,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "kgrr-hk26-prior-records",
+      "locator": "第102回 往復総合公式記録 p.1 過去区間最高記録 row; 第8区",
+      "revision": "第102回 往復総合公式記録（2026-01-03 版）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "hk2026-s9-prior",
+      "raceId": "hakone",
+      "editionId": "hakone-2026",
+      "sectionNumber": 9,
+      "courseEditionId": "hakone-2026",
+      "courseVersion": "hakone-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 4035,
+      "holders": [
+        {
+          "holderName": "中村 唯翔",
+          "universityName": "青山学院大",
+          "universityId": "aoyama-gakuin",
+          "athleteId": null,
+          "year": 2022,
+          "editionNumber": 98,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "kgrr-hk26-prior-records",
+      "locator": "第102回 往復総合公式記録 p.1 過去区間最高記録 row; 第9区",
+      "revision": "第102回 往復総合公式記録（2026-01-03 版）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "hk2026-s10-prior",
+      "raceId": "hakone",
+      "editionId": "hakone-2026",
+      "sectionNumber": 10,
+      "courseEditionId": "hakone-2026",
+      "courseVersion": "hakone-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 4070,
+      "holders": [
+        {
+          "holderName": "中倉 啓敦",
+          "universityName": "青山学院大",
+          "universityId": "aoyama-gakuin",
+          "athleteId": null,
+          "year": 2022,
+          "editionNumber": 98,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "kgrr-hk26-prior-records",
+      "locator": "第102回 往復総合公式記録 p.1 過去区間最高記録 row; 第10区",
+      "revision": "第102回 往復総合公式記録（2026-01-03 版）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "aj2023-s1-prior",
+      "raceId": "all-japan",
+      "editionId": "all-japan-2023",
+      "sectionNumber": 1,
+      "courseEditionId": "all-japan-2023",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1618,
+      "holders": [
+        {
+          "holderName": "ﾋﾟｰﾀｰ･ﾜﾝｼﾞﾙ",
+          "universityName": "大東文化大",
+          "universityId": "daito-bunka",
+          "athleteId": null,
+          "year": 2022,
+          "editionNumber": 54,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-aj23-results",
+      "locator": "all-japan-2023 成績表 p.2 大会記録表; 第1区",
+      "revision": "第55回 成績表 p.2 大会記録（2023-11-05）",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "aj2023-s2-prior",
+      "raceId": "all-japan",
+      "editionId": "all-japan-2023",
+      "sectionNumber": 2,
+      "courseEditionId": "all-japan-2023",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1872,
+      "holders": [
+        {
+          "holderName": "葛西 潤",
+          "universityName": "創価大",
+          "universityId": "soka",
+          "athleteId": null,
+          "year": 2022,
+          "editionNumber": 54,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-aj23-results",
+      "locator": "all-japan-2023 成績表 p.2 大会記録表; 第2区",
+      "revision": "第55回 成績表 p.2 大会記録（2023-11-05）",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "aj2023-s3-prior",
+      "raceId": "all-japan",
+      "editionId": "all-japan-2023",
+      "sectionNumber": 3,
+      "courseEditionId": "all-japan-2023",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1966,
+      "holders": [
+        {
+          "holderName": "ｲｴｺﾞﾝ･ｳﾞｨﾝｾﾝﾄ",
+          "universityName": "東京国際大",
+          "universityId": "tokyo-international",
+          "athleteId": null,
+          "year": 2021,
+          "editionNumber": 53,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-aj23-results",
+      "locator": "all-japan-2023 成績表 p.2 大会記録表; 第3区",
+      "revision": "第55回 成績表 p.2 大会記録（2023-11-05）",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "aj2023-s4-prior",
+      "raceId": "all-japan",
+      "editionId": "all-japan-2023",
+      "sectionNumber": 4,
+      "courseEditionId": "all-japan-2023",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1996,
+      "holders": [
+        {
+          "holderName": "石原 翔太郎",
+          "universityName": "東海大",
+          "universityId": "tokai",
+          "athleteId": null,
+          "year": 2020,
+          "editionNumber": 52,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-aj23-results",
+      "locator": "all-japan-2023 成績表 p.2 大会記録表; 第4区",
+      "revision": "第55回 成績表 p.2 大会記録（2023-11-05）",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "aj2023-s5-prior",
+      "raceId": "all-japan",
+      "editionId": "all-japan-2023",
+      "sectionNumber": 5,
+      "courseEditionId": "all-japan-2023",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 2147,
+      "holders": [
+        {
+          "holderName": "佐藤 一世",
+          "universityName": "青山学院大",
+          "universityId": "aoyama-gakuin",
+          "athleteId": null,
+          "year": 2020,
+          "editionNumber": 52,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-aj23-results",
+      "locator": "all-japan-2023 成績表 p.2 大会記録表; 第5区",
+      "revision": "第55回 成績表 p.2 大会記録（2023-11-05）",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "aj2023-s6-prior",
+      "raceId": "all-japan",
+      "editionId": "all-japan-2023",
+      "sectionNumber": 6,
+      "courseEditionId": "all-japan-2023",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 2221,
+      "holders": [
+        {
+          "holderName": "吉居 大和",
+          "universityName": "中央大",
+          "universityId": "chuo",
+          "athleteId": null,
+          "year": 2022,
+          "editionNumber": 54,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-aj23-results",
+      "locator": "all-japan-2023 成績表 p.2 大会記録表; 第6区",
+      "revision": "第55回 成績表 p.2 大会記録（2023-11-05）",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "aj2023-s7-prior",
+      "raceId": "all-japan",
+      "editionId": "all-japan-2023",
+      "sectionNumber": 7,
+      "courseEditionId": "all-japan-2023",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 2978,
+      "holders": [
+        {
+          "holderName": "田澤 廉",
+          "universityName": "駒澤大",
+          "universityId": "komazawa",
+          "athleteId": null,
+          "year": 2022,
+          "editionNumber": 54,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-aj23-results",
+      "locator": "all-japan-2023 成績表 p.2 大会記録表; 第7区",
+      "revision": "第55回 成績表 p.2 大会記録（2023-11-05）",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "aj2023-s8-prior",
+      "raceId": "all-japan",
+      "editionId": "all-japan-2023",
+      "sectionNumber": 8,
+      "courseEditionId": "all-japan-2023",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 3332,
+      "holders": [
+        {
+          "holderName": "ﾒｸﾎﾞ･ﾓｸﾞｽ",
+          "universityName": "山梨学院大",
+          "universityId": "university-ae98ed970e35",
+          "athleteId": null,
+          "year": 2007,
+          "editionNumber": 39,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-aj23-results",
+      "locator": "all-japan-2023 成績表 p.2 大会記録表; 第8区",
+      "revision": "第55回 成績表 p.2 大会記録（2023-11-05）",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "aj2024-s1-prior",
+      "raceId": "all-japan",
+      "editionId": "all-japan-2024",
+      "sectionNumber": 1,
+      "courseEditionId": "all-japan-2024",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1618,
+      "holders": [
+        {
+          "holderName": "ﾋﾟｰﾀｰ･ﾜﾝｼﾞﾙ",
+          "universityName": "大東文化大",
+          "universityId": "daito-bunka",
+          "athleteId": null,
+          "year": 2022,
+          "editionNumber": 54,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-aj2024-completion-results",
+      "locator": "all-japan-2024 成績表 p.2 大会記録表; 第1区",
+      "revision": "第56回 成績表 p.2 大会記録（2024-11-03）",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "aj2024-s2-prior",
+      "raceId": "all-japan",
+      "editionId": "all-japan-2024",
+      "sectionNumber": 2,
+      "courseEditionId": "all-japan-2024",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1861,
+      "holders": [
+        {
+          "holderName": "佐藤 圭汰",
+          "universityName": "駒澤大",
+          "universityId": "komazawa",
+          "athleteId": "athlete-aj25-02-7",
+          "year": 2023,
+          "editionNumber": 55,
+          "editionId": "all-japan-2023",
+          "resultId": "aj23-result-01-2"
+        }
+      ],
+      "sourceId": "iuau-aj2024-completion-results",
+      "locator": "all-japan-2024 成績表 p.2 大会記録表; 第2区",
+      "revision": "第56回 成績表 p.2 大会記録（2024-11-03）",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "aj2024-s3-prior",
+      "raceId": "all-japan",
+      "editionId": "all-japan-2024",
+      "sectionNumber": 3,
+      "courseEditionId": "all-japan-2024",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1966,
+      "holders": [
+        {
+          "holderName": "ｲｴｺﾞﾝ･ｳﾞｨﾝｾﾝﾄ",
+          "universityName": "東京国際大",
+          "universityId": "tokyo-international",
+          "athleteId": null,
+          "year": 2021,
+          "editionNumber": 53,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-aj2024-completion-results",
+      "locator": "all-japan-2024 成績表 p.2 大会記録表; 第3区",
+      "revision": "第56回 成績表 p.2 大会記録（2024-11-03）",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "aj2024-s4-prior",
+      "raceId": "all-japan",
+      "editionId": "all-japan-2024",
+      "sectionNumber": 4,
+      "courseEditionId": "all-japan-2024",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1996,
+      "holders": [
+        {
+          "holderName": "石原 翔太郎",
+          "universityName": "東海大",
+          "universityId": "tokai",
+          "athleteId": null,
+          "year": 2020,
+          "editionNumber": 52,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-aj2024-completion-results",
+      "locator": "all-japan-2024 成績表 p.2 大会記録表; 第4区",
+      "revision": "第56回 成績表 p.2 大会記録（2024-11-03）",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "aj2024-s5-prior",
+      "raceId": "all-japan",
+      "editionId": "all-japan-2024",
+      "sectionNumber": 5,
+      "courseEditionId": "all-japan-2024",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 2118,
+      "holders": [
+        {
+          "holderName": "吉田 響",
+          "universityName": "創価大",
+          "universityId": "soka",
+          "athleteId": "athlete-aj24-04-2",
+          "year": 2023,
+          "editionNumber": 55,
+          "editionId": "all-japan-2023",
+          "resultId": "aj23-result-05-5"
+        }
+      ],
+      "sourceId": "iuau-aj2024-completion-results",
+      "locator": "all-japan-2024 成績表 p.2 大会記録表; 第5区",
+      "revision": "第56回 成績表 p.2 大会記録（2024-11-03）",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "aj2024-s6-prior",
+      "raceId": "all-japan",
+      "editionId": "all-japan-2024",
+      "sectionNumber": 6,
+      "courseEditionId": "all-japan-2024",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 2221,
+      "holders": [
+        {
+          "holderName": "吉居 大和",
+          "universityName": "中央大",
+          "universityId": "chuo",
+          "athleteId": null,
+          "year": 2022,
+          "editionNumber": 54,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-aj2024-completion-results",
+      "locator": "all-japan-2024 成績表 p.2 大会記録表; 第6区",
+      "revision": "第56回 成績表 p.2 大会記録（2024-11-03）",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "aj2024-s7-prior",
+      "raceId": "all-japan",
+      "editionId": "all-japan-2024",
+      "sectionNumber": 7,
+      "courseEditionId": "all-japan-2024",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 2978,
+      "holders": [
+        {
+          "holderName": "田澤 廉",
+          "universityName": "駒澤大",
+          "universityId": "komazawa",
+          "athleteId": null,
+          "year": 2022,
+          "editionNumber": 54,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-aj2024-completion-results",
+      "locator": "all-japan-2024 成績表 p.2 大会記録表; 第7区",
+      "revision": "第56回 成績表 p.2 大会記録（2024-11-03）",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "aj2024-s8-prior",
+      "raceId": "all-japan",
+      "editionId": "all-japan-2024",
+      "sectionNumber": 8,
+      "courseEditionId": "all-japan-2024",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 3332,
+      "holders": [
+        {
+          "holderName": "ﾒｸﾎﾞ･ﾓｸﾞｽ",
+          "universityName": "山梨学院大",
+          "universityId": "university-ae98ed970e35",
+          "athleteId": null,
+          "year": 2007,
+          "editionNumber": 39,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-aj2024-completion-results",
+      "locator": "all-japan-2024 成績表 p.2 大会記録表; 第8区",
+      "revision": "第56回 成績表 p.2 大会記録（2024-11-03）",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "aj2025-s1-prior",
+      "raceId": "all-japan",
+      "editionId": "all-japan-2025",
+      "sectionNumber": 1,
+      "courseEditionId": "all-japan-2025",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1618,
+      "holders": [
+        {
+          "holderName": "ﾋﾟｰﾀｰ･ﾜﾝｼﾞﾙ",
+          "universityName": "大東文化大",
+          "universityId": "daito-bunka",
+          "athleteId": null,
+          "year": 2022,
+          "editionNumber": 54,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-aj2025-results",
+      "locator": "all-japan-2025 成績表 p.2 大会記録表; 第1区",
+      "revision": "第57回 成績表 p.2 大会記録（2025-11-02）",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "aj2025-s2-prior",
+      "raceId": "all-japan",
+      "editionId": "all-japan-2025",
+      "sectionNumber": 2,
+      "courseEditionId": "all-japan-2025",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1861,
+      "holders": [
+        {
+          "holderName": "佐藤 圭汰",
+          "universityName": "駒澤大",
+          "universityId": "komazawa",
+          "athleteId": "athlete-aj25-02-7",
+          "year": 2023,
+          "editionNumber": 55,
+          "editionId": "all-japan-2023",
+          "resultId": "aj23-result-01-2"
+        }
+      ],
+      "sourceId": "iuau-aj2025-results",
+      "locator": "all-japan-2025 成績表 p.2 大会記録表; 第2区",
+      "revision": "第57回 成績表 p.2 大会記録（2025-11-02）",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "aj2025-s3-prior",
+      "raceId": "all-japan",
+      "editionId": "all-japan-2025",
+      "sectionNumber": 3,
+      "courseEditionId": "all-japan-2025",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1966,
+      "holders": [
+        {
+          "holderName": "ｲｴｺﾞﾝ･ｳﾞｨﾝｾﾝﾄ",
+          "universityName": "東京国際大",
+          "universityId": "tokyo-international",
+          "athleteId": null,
+          "year": 2021,
+          "editionNumber": 53,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-aj2025-results",
+      "locator": "all-japan-2025 成績表 p.2 大会記録表; 第3区",
+      "revision": "第57回 成績表 p.2 大会記録（2025-11-02）",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "aj2025-s4-prior",
+      "raceId": "all-japan",
+      "editionId": "all-japan-2025",
+      "sectionNumber": 4,
+      "courseEditionId": "all-japan-2025",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1983,
+      "holders": [
+        {
+          "holderName": "黒田 朝日",
+          "universityName": "青山学院大",
+          "universityId": "aoyama-gakuin",
+          "athleteId": "athlete-aj24-03-4",
+          "year": 2024,
+          "editionNumber": 56,
+          "editionId": "all-japan-2024",
+          "resultId": "aj24-aoyama-gakuin-s4"
+        }
+      ],
+      "sourceId": "iuau-aj2025-results",
+      "locator": "all-japan-2025 成績表 p.2 大会記録表; 第4区",
+      "revision": "第57回 成績表 p.2 大会記録（2025-11-02）",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "aj2025-s5-prior",
+      "raceId": "all-japan",
+      "editionId": "all-japan-2025",
+      "sectionNumber": 5,
+      "courseEditionId": "all-japan-2025",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 2118,
+      "holders": [
+        {
+          "holderName": "吉田 響",
+          "universityName": "創価大",
+          "universityId": "soka",
+          "athleteId": "athlete-aj24-04-2",
+          "year": 2023,
+          "editionNumber": 55,
+          "editionId": "all-japan-2023",
+          "resultId": "aj23-result-05-5"
+        }
+      ],
+      "sourceId": "iuau-aj2025-results",
+      "locator": "all-japan-2025 成績表 p.2 大会記録表; 第5区",
+      "revision": "第57回 成績表 p.2 大会記録（2025-11-02）",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "aj2025-s6-prior",
+      "raceId": "all-japan",
+      "editionId": "all-japan-2025",
+      "sectionNumber": 6,
+      "courseEditionId": "all-japan-2025",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 2207,
+      "holders": [
+        {
+          "holderName": "山本 歩夢",
+          "universityName": "國學院大",
+          "universityId": "kokugakuin",
+          "athleteId": "athlete-aj24-01-6",
+          "year": 2024,
+          "editionNumber": 56,
+          "editionId": "all-japan-2024",
+          "resultId": "aj24-kokugakuin-s6"
+        }
+      ],
+      "sourceId": "iuau-aj2025-results",
+      "locator": "all-japan-2025 成績表 p.2 大会記録表; 第6区",
+      "revision": "第57回 成績表 p.2 大会記録（2025-11-02）",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "aj2025-s7-prior",
+      "raceId": "all-japan",
+      "editionId": "all-japan-2025",
+      "sectionNumber": 7,
+      "courseEditionId": "all-japan-2025",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 2978,
+      "holders": [
+        {
+          "holderName": "田澤 廉",
+          "universityName": "駒澤大",
+          "universityId": "komazawa",
+          "athleteId": null,
+          "year": 2022,
+          "editionNumber": 54,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-aj2025-results",
+      "locator": "all-japan-2025 成績表 p.2 大会記録表; 第7区",
+      "revision": "第57回 成績表 p.2 大会記録（2025-11-02）",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "aj2025-s8-prior",
+      "raceId": "all-japan",
+      "editionId": "all-japan-2025",
+      "sectionNumber": 8,
+      "courseEditionId": "all-japan-2025",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 3332,
+      "holders": [
+        {
+          "holderName": "ﾒｸﾎﾞ･ﾓｸﾞｽ",
+          "universityName": "山梨学院大",
+          "universityId": "university-ae98ed970e35",
+          "athleteId": null,
+          "year": 2007,
+          "editionNumber": 39,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-aj2025-results",
+      "locator": "all-japan-2025 成績表 p.2 大会記録表; 第8区",
+      "revision": "第57回 成績表 p.2 大会記録（2025-11-02）",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "aj2026-s1-prior",
+      "raceId": "all-japan",
+      "editionId": "all-japan-2026",
+      "sectionNumber": 1,
+      "courseEditionId": "all-japan-2026",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1618,
+      "holders": [
+        {
+          "holderName": "ﾋﾟｰﾀｰ･ﾜﾝｼﾞﾙ",
+          "universityName": "大東文化大",
+          "universityId": "daito-bunka",
+          "athleteId": null,
+          "year": 2022,
+          "editionNumber": 54,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-aj26-results",
+      "locator": "all-japan-2026 成績表 p.2 大会記録表; 第1区",
+      "revision": "第58回 成績表 p.2 大会記録（2026-11-01）",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "aj2026-s2-prior",
+      "raceId": "all-japan",
+      "editionId": "all-japan-2026",
+      "sectionNumber": 2,
+      "courseEditionId": "all-japan-2026",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1861,
+      "holders": [
+        {
+          "holderName": "佐藤 圭汰",
+          "universityName": "駒澤大",
+          "universityId": "komazawa",
+          "athleteId": "athlete-aj25-02-7",
+          "year": 2023,
+          "editionNumber": 55,
+          "editionId": "all-japan-2023",
+          "resultId": "aj23-result-01-2"
+        },
+        {
+          "holderName": "楠岡 由浩",
+          "universityName": "帝京大",
+          "universityId": "teikyo",
+          "athleteId": "athlete-aj24-08-6",
+          "year": 2025,
+          "editionNumber": 57,
+          "editionId": "all-japan-2025",
+          "resultId": "aj25-result-08-2"
+        }
+      ],
+      "sourceId": "iuau-aj26-results",
+      "locator": "all-japan-2026 成績表 p.2 大会記録表; 第2区",
+      "revision": "第58回 成績表 p.2 大会記録（2026-11-01）",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "aj2026-s3-prior",
+      "raceId": "all-japan",
+      "editionId": "all-japan-2026",
+      "sectionNumber": 3,
+      "courseEditionId": "all-japan-2026",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1966,
+      "holders": [
+        {
+          "holderName": "ｲｴｺﾞﾝ･ｳﾞｨﾝｾﾝﾄ",
+          "universityName": "東京国際大",
+          "universityId": "tokyo-international",
+          "athleteId": null,
+          "year": 2021,
+          "editionNumber": 53,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-aj26-results",
+      "locator": "all-japan-2026 成績表 p.2 大会記録表; 第3区",
+      "revision": "第58回 成績表 p.2 大会記録（2026-11-01）",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "aj2026-s4-prior",
+      "raceId": "all-japan",
+      "editionId": "all-japan-2026",
+      "sectionNumber": 4,
+      "courseEditionId": "all-japan-2026",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1983,
+      "holders": [
+        {
+          "holderName": "黒田 朝日",
+          "universityName": "青山学院大",
+          "universityId": "aoyama-gakuin",
+          "athleteId": "athlete-aj24-03-4",
+          "year": 2024,
+          "editionNumber": 56,
+          "editionId": "all-japan-2024",
+          "resultId": "aj24-aoyama-gakuin-s4"
+        }
+      ],
+      "sourceId": "iuau-aj26-results",
+      "locator": "all-japan-2026 成績表 p.2 大会記録表; 第4区",
+      "revision": "第58回 成績表 p.2 大会記録（2026-11-01）",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "aj2026-s5-prior",
+      "raceId": "all-japan",
+      "editionId": "all-japan-2026",
+      "sectionNumber": 5,
+      "courseEditionId": "all-japan-2026",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 2101,
+      "holders": [
+        {
+          "holderName": "伊藤 蒼唯",
+          "universityName": "駒澤大",
+          "universityId": "komazawa",
+          "athleteId": "athlete-aj24-02-3",
+          "year": 2025,
+          "editionNumber": 57,
+          "editionId": "all-japan-2025",
+          "resultId": "aj25-result-02-5"
+        }
+      ],
+      "sourceId": "iuau-aj26-results",
+      "locator": "all-japan-2026 成績表 p.2 大会記録表; 第5区",
+      "revision": "第58回 成績表 p.2 大会記録（2026-11-01）",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "aj2026-s6-prior",
+      "raceId": "all-japan",
+      "editionId": "all-japan-2026",
+      "sectionNumber": 6,
+      "courseEditionId": "all-japan-2026",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 2207,
+      "holders": [
+        {
+          "holderName": "山本 歩夢",
+          "universityName": "國學院大",
+          "universityId": "kokugakuin",
+          "athleteId": "athlete-aj24-01-6",
+          "year": 2024,
+          "editionNumber": 56,
+          "editionId": "all-japan-2024",
+          "resultId": "aj24-kokugakuin-s6"
+        }
+      ],
+      "sourceId": "iuau-aj26-results",
+      "locator": "all-japan-2026 成績表 p.2 大会記録表; 第6区",
+      "revision": "第58回 成績表 p.2 大会記録（2026-11-01）",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "aj2026-s7-prior",
+      "raceId": "all-japan",
+      "editionId": "all-japan-2026",
+      "sectionNumber": 7,
+      "courseEditionId": "all-japan-2026",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 2971,
+      "holders": [
+        {
+          "holderName": "黒田 朝日",
+          "universityName": "青山学院大",
+          "universityId": "aoyama-gakuin",
+          "athleteId": "athlete-aj24-03-4",
+          "year": 2025,
+          "editionNumber": 57,
+          "editionId": "all-japan-2025",
+          "resultId": "aj25-result-03-7"
+        }
+      ],
+      "sourceId": "iuau-aj26-results",
+      "locator": "all-japan-2026 成績表 p.2 大会記録表; 第7区",
+      "revision": "第58回 成績表 p.2 大会記録（2026-11-01）",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "aj2026-s8-prior",
+      "raceId": "all-japan",
+      "editionId": "all-japan-2026",
+      "sectionNumber": 8,
+      "courseEditionId": "all-japan-2026",
+      "courseVersion": "all-japan-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 3332,
+      "holders": [
+        {
+          "holderName": "ﾒｸﾎﾞ･ﾓｸﾞｽ",
+          "universityName": "山梨学院大",
+          "universityId": "university-ae98ed970e35",
+          "athleteId": null,
+          "year": 2007,
+          "editionNumber": 39,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-aj26-results",
+      "locator": "all-japan-2026 成績表 p.2 大会記録表; 第8区",
+      "revision": "第58回 成績表 p.2 大会記録（2026-11-01）",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "iz2023-s1-prior",
+      "raceId": "izumo",
+      "editionId": "izumo-2023",
+      "sectionNumber": 1,
+      "courseEditionId": "izumo-2023",
+      "courseVersion": "izumo-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1350,
+      "holders": [
+        {
+          "holderName": "キラグ・ジュグナ",
+          "universityName": "第一工業大学",
+          "universityId": null,
+          "athleteId": null,
+          "year": 2009,
+          "editionNumber": 21,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-iz26-results",
+      "locator": "第38回 成績表 p.1 区間記録表; 第1区",
+      "revision": "第36回 結果 p.2（2024-10-14）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "iz2023-s2-prior",
+      "raceId": "izumo",
+      "editionId": "izumo-2023",
+      "sectionNumber": 2,
+      "courseEditionId": "izumo-2023",
+      "courseVersion": "izumo-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 927,
+      "holders": [
+        {
+          "holderName": "佐藤 圭汰",
+          "universityName": "駒澤大",
+          "universityId": "komazawa",
+          "athleteId": null,
+          "year": 2022,
+          "editionNumber": 34,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-iz24-results",
+      "locator": "第36回 成績表 p.2 区間記録表（第35回PDF未印区間記録表，第35回无区間新）; 第2区",
+      "revision": "第36回 結果 p.2（2024-10-14）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "iz2023-s3-prior",
+      "raceId": "izumo",
+      "editionId": "izumo-2023",
+      "sectionNumber": 3,
+      "courseEditionId": "izumo-2023",
+      "courseVersion": "izumo-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1416,
+      "holders": [
+        {
+          "holderName": "フィリップ ムルワ",
+          "universityName": "創価大",
+          "universityId": "soka",
+          "athleteId": null,
+          "year": 2022,
+          "editionNumber": 34,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-iz24-results",
+      "locator": "第36回 成績表 p.2 区間記録表（第35回PDF未印区間記録表，第35回无区間新）; 第3区",
+      "revision": "第36回 結果 p.2（2024-10-14）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "iz2023-s4-prior",
+      "raceId": "izumo",
+      "editionId": "izumo-2023",
+      "sectionNumber": 4,
+      "courseEditionId": "izumo-2023",
+      "courseVersion": "izumo-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1044,
+      "holders": [
+        {
+          "holderName": "神林 勇太",
+          "universityName": "青山学院大",
+          "universityId": "aoyama-gakuin",
+          "athleteId": null,
+          "year": 2019,
+          "editionNumber": 31,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-iz24-results",
+      "locator": "第36回 成績表 p.2 区間記録表（第35回PDF未印区間記録表，第35回无区間新）; 第4区",
+      "revision": "第36回 結果 p.2（2024-10-14）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "iz2023-s5-prior",
+      "raceId": "izumo",
+      "editionId": "izumo-2023",
+      "sectionNumber": 5,
+      "courseEditionId": "izumo-2023",
+      "courseVersion": "izumo-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1063,
+      "holders": [
+        {
+          "holderName": "安藤 悠哉",
+          "universityName": "青山学院大",
+          "universityId": "aoyama-gakuin",
+          "athleteId": null,
+          "year": 2016,
+          "editionNumber": 28,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-iz24-results",
+      "locator": "第36回 成績表 p.2 区間記録表（第35回PDF未印区間記録表，第35回无区間新）; 第5区",
+      "revision": "第36回 結果 p.2（2024-10-14）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "iz2023-s6-prior",
+      "raceId": "izumo",
+      "editionId": "izumo-2023",
+      "sectionNumber": 6,
+      "courseEditionId": "izumo-2023",
+      "courseVersion": "izumo-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1697,
+      "holders": [
+        {
+          "holderName": "ギタウ・ダニエル",
+          "universityName": "日本大",
+          "universityId": "nihon",
+          "athleteId": null,
+          "year": 2009,
+          "editionNumber": 21,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-iz24-results",
+      "locator": "第36回 成績表 p.2 区間記録表（第35回PDF未印区間記録表，第35回无区間新）; 第6区",
+      "revision": "第36回 結果 p.2（2024-10-14）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "iz2024-s1-prior",
+      "raceId": "izumo",
+      "editionId": "izumo-2024",
+      "sectionNumber": 1,
+      "courseEditionId": "izumo-2024",
+      "courseVersion": "izumo-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1350,
+      "holders": [
+        {
+          "holderName": "キラグ・ジュグナ",
+          "universityName": "第一工業大学",
+          "universityId": null,
+          "athleteId": null,
+          "year": 2009,
+          "editionNumber": 21,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-iz26-results",
+      "locator": "第38回 成績表 p.1 区間記録表; 第1区",
+      "revision": "第36回 結果 p.2（2024-10-14）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "iz2024-s2-prior",
+      "raceId": "izumo",
+      "editionId": "izumo-2024",
+      "sectionNumber": 2,
+      "courseEditionId": "izumo-2024",
+      "courseVersion": "izumo-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 927,
+      "holders": [
+        {
+          "holderName": "佐藤 圭汰",
+          "universityName": "駒澤大",
+          "universityId": "komazawa",
+          "athleteId": null,
+          "year": 2022,
+          "editionNumber": 34,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-iz24-results",
+      "locator": "第36回 成績表 p.2 区間記録表; 第2区",
+      "revision": "第36回 結果 p.2（2024-10-14）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "iz2024-s3-prior",
+      "raceId": "izumo",
+      "editionId": "izumo-2024",
+      "sectionNumber": 3,
+      "courseEditionId": "izumo-2024",
+      "courseVersion": "izumo-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1416,
+      "holders": [
+        {
+          "holderName": "フィリップ ムルワ",
+          "universityName": "創価大",
+          "universityId": "soka",
+          "athleteId": null,
+          "year": 2022,
+          "editionNumber": 34,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-iz24-results",
+      "locator": "第36回 成績表 p.2 区間記録表; 第3区",
+      "revision": "第36回 結果 p.2（2024-10-14）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "iz2024-s4-prior",
+      "raceId": "izumo",
+      "editionId": "izumo-2024",
+      "sectionNumber": 4,
+      "courseEditionId": "izumo-2024",
+      "courseVersion": "izumo-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1044,
+      "holders": [
+        {
+          "holderName": "神林 勇太",
+          "universityName": "青山学院大",
+          "universityId": "aoyama-gakuin",
+          "athleteId": null,
+          "year": 2019,
+          "editionNumber": 31,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-iz24-results",
+      "locator": "第36回 成績表 p.2 区間記録表; 第4区",
+      "revision": "第36回 結果 p.2（2024-10-14）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "iz2024-s5-prior",
+      "raceId": "izumo",
+      "editionId": "izumo-2024",
+      "sectionNumber": 5,
+      "courseEditionId": "izumo-2024",
+      "courseVersion": "izumo-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1063,
+      "holders": [
+        {
+          "holderName": "安藤 悠哉",
+          "universityName": "青山学院大",
+          "universityId": "aoyama-gakuin",
+          "athleteId": null,
+          "year": 2016,
+          "editionNumber": 28,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-iz24-results",
+      "locator": "第36回 成績表 p.2 区間記録表; 第5区",
+      "revision": "第36回 結果 p.2（2024-10-14）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "iz2024-s6-prior",
+      "raceId": "izumo",
+      "editionId": "izumo-2024",
+      "sectionNumber": 6,
+      "courseEditionId": "izumo-2024",
+      "courseVersion": "izumo-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1697,
+      "holders": [
+        {
+          "holderName": "ギタウ・ダニエル",
+          "universityName": "日本大",
+          "universityId": "nihon",
+          "athleteId": null,
+          "year": 2009,
+          "editionNumber": 21,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-iz24-results",
+      "locator": "第36回 成績表 p.2 区間記録表; 第6区",
+      "revision": "第36回 結果 p.2（2024-10-14）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "iz2025-s1-prior",
+      "raceId": "izumo",
+      "editionId": "izumo-2025",
+      "sectionNumber": 1,
+      "courseEditionId": "izumo-2025",
+      "courseVersion": "izumo-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1350,
+      "holders": [
+        {
+          "holderName": "キラグ・ジュグナ",
+          "universityName": "第一工業大学",
+          "universityId": null,
+          "athleteId": null,
+          "year": 2009,
+          "editionNumber": 21,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-iz26-results",
+      "locator": "第38回 成績表 p.1 区間記録表; 第1区",
+      "revision": "第37回 結果 p.2（2025-10-13）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "iz2025-s2-prior",
+      "raceId": "izumo",
+      "editionId": "izumo-2025",
+      "sectionNumber": 2,
+      "courseEditionId": "izumo-2025",
+      "courseVersion": "izumo-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 927,
+      "holders": [
+        {
+          "holderName": "佐藤 圭汰",
+          "universityName": "駒澤大",
+          "universityId": "komazawa",
+          "athleteId": null,
+          "year": 2022,
+          "editionNumber": 34,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-iz25-results",
+      "locator": "第37回 成績表 p.2 区間記録表; 第2区",
+      "revision": "第37回 結果 p.2（2025-10-13）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "iz2025-s3-prior",
+      "raceId": "izumo",
+      "editionId": "izumo-2025",
+      "sectionNumber": 3,
+      "courseEditionId": "izumo-2025",
+      "courseVersion": "izumo-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1416,
+      "holders": [
+        {
+          "holderName": "フィリップ ムルワ",
+          "universityName": "創価大",
+          "universityId": "soka",
+          "athleteId": null,
+          "year": 2022,
+          "editionNumber": 34,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-iz25-results",
+      "locator": "第37回 成績表 p.2 区間記録表; 第3区",
+      "revision": "第37回 結果 p.2（2025-10-13）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "iz2025-s4-prior",
+      "raceId": "izumo",
+      "editionId": "izumo-2025",
+      "sectionNumber": 4,
+      "courseEditionId": "izumo-2025",
+      "courseVersion": "izumo-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1044,
+      "holders": [
+        {
+          "holderName": "神林 勇太",
+          "universityName": "青山学院大",
+          "universityId": "aoyama-gakuin",
+          "athleteId": null,
+          "year": 2019,
+          "editionNumber": 31,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-iz25-results",
+      "locator": "第37回 成績表 p.2 区間記録表; 第4区",
+      "revision": "第37回 結果 p.2（2025-10-13）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "iz2025-s5-prior",
+      "raceId": "izumo",
+      "editionId": "izumo-2025",
+      "sectionNumber": 5,
+      "courseEditionId": "izumo-2025",
+      "courseVersion": "izumo-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1063,
+      "holders": [
+        {
+          "holderName": "安藤 悠哉",
+          "universityName": "青山学院大",
+          "universityId": "aoyama-gakuin",
+          "athleteId": null,
+          "year": 2016,
+          "editionNumber": 28,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-iz25-results",
+      "locator": "第37回 成績表 p.2 区間記録表; 第5区",
+      "revision": "第37回 結果 p.2（2025-10-13）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "iz2025-s6-prior",
+      "raceId": "izumo",
+      "editionId": "izumo-2025",
+      "sectionNumber": 6,
+      "courseEditionId": "izumo-2025",
+      "courseVersion": "izumo-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1697,
+      "holders": [
+        {
+          "holderName": "ギタウ・ダニエル",
+          "universityName": "日本大",
+          "universityId": "nihon",
+          "athleteId": null,
+          "year": 2009,
+          "editionNumber": 21,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-iz25-results",
+      "locator": "第37回 成績表 p.2 区間記録表; 第6区",
+      "revision": "第37回 結果 p.2（2025-10-13）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "iz2026-s1-prior",
+      "raceId": "izumo",
+      "editionId": "izumo-2026",
+      "sectionNumber": 1,
+      "courseEditionId": "izumo-2026",
+      "courseVersion": "izumo-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1350,
+      "holders": [
+        {
+          "holderName": "キラグ・ジュグナ",
+          "universityName": "第一工業大学",
+          "universityId": null,
+          "athleteId": null,
+          "year": 2009,
+          "editionNumber": 21,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-iz26-results",
+      "locator": "第38回 成績表 p.1 区間記録表; 第1区",
+      "revision": "第38回 結果 p.1（2026-10-12）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "iz2026-s2-prior",
+      "raceId": "izumo",
+      "editionId": "izumo-2026",
+      "sectionNumber": 2,
+      "courseEditionId": "izumo-2026",
+      "courseVersion": "izumo-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 927,
+      "holders": [
+        {
+          "holderName": "佐藤 圭汰",
+          "universityName": "駒澤大",
+          "universityId": "komazawa",
+          "athleteId": null,
+          "year": 2022,
+          "editionNumber": 34,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-iz26-results",
+      "locator": "第38回 成績表 p.1 区間記録表; 第2区",
+      "revision": "第38回 結果 p.1（2026-10-12）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "iz2026-s3-prior",
+      "raceId": "izumo",
+      "editionId": "izumo-2026",
+      "sectionNumber": 3,
+      "courseEditionId": "izumo-2026",
+      "courseVersion": "izumo-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1416,
+      "holders": [
+        {
+          "holderName": "フィリップ ムルワ",
+          "universityName": "創価大",
+          "universityId": "soka",
+          "athleteId": null,
+          "year": 2022,
+          "editionNumber": 34,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-iz26-results",
+      "locator": "第38回 成績表 p.1 区間記録表; 第3区",
+      "revision": "第38回 結果 p.1（2026-10-12）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "iz2026-s4-prior",
+      "raceId": "izumo",
+      "editionId": "izumo-2026",
+      "sectionNumber": 4,
+      "courseEditionId": "izumo-2026",
+      "courseVersion": "izumo-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1040,
+      "holders": [
+        {
+          "holderName": "辻原 輝",
+          "universityName": "國學院大",
+          "universityId": "kokugakuin",
+          "athleteId": "athlete-aj24-01-3",
+          "year": 2025,
+          "editionNumber": 37,
+          "editionId": "izumo-2025",
+          "resultId": "iz25-result-06-4"
+        }
+      ],
+      "sourceId": "iuau-iz26-results",
+      "locator": "第38回 成績表 p.1 区間記録表; 第4区",
+      "revision": "第38回 結果 p.1（2026-10-12）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "iz2026-s5-prior",
+      "raceId": "izumo",
+      "editionId": "izumo-2026",
+      "sectionNumber": 5,
+      "courseEditionId": "izumo-2026",
+      "courseVersion": "izumo-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1063,
+      "holders": [
+        {
+          "holderName": "安藤 悠哉",
+          "universityName": "青山学院大",
+          "universityId": "aoyama-gakuin",
+          "athleteId": null,
+          "year": 2016,
+          "editionNumber": 28,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-iz26-results",
+      "locator": "第38回 成績表 p.1 区間記録表; 第5区",
+      "revision": "第38回 結果 p.1（2026-10-12）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    },
+    {
+      "id": "iz2026-s6-prior",
+      "raceId": "izumo",
+      "editionId": "izumo-2026",
+      "sectionNumber": 6,
+      "courseEditionId": "izumo-2026",
+      "courseVersion": "izumo-2026-confirmed-route",
+      "status": "verified",
+      "timeSeconds": 1697,
+      "holders": [
+        {
+          "holderName": "ギタウ・ダニエル",
+          "universityName": "日本大",
+          "universityId": "nihon",
+          "athleteId": null,
+          "year": 2009,
+          "editionNumber": 21,
+          "editionId": null,
+          "resultId": null
+        }
+      ],
+      "sourceId": "iuau-iz26-results",
+      "locator": "第38回 成績表 p.1 区間記録表; 第6区",
+      "revision": "第38回 結果 p.1（2026-10-12）, retrieved 2026-11-15",
+      "reviewedAt": "2026-11-15",
+      "note": null
+    }
+  ]
+}

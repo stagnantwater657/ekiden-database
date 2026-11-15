@@ -25,7 +25,7 @@ test("athlete archive retains verified cross-year identities and separates missi
   page,
 }) => {
   await page.goto("/editions/all-japan-2025?section=3");
-  await page.getByRole("link", { name: "野中 恒亨", exact: true }).click();
+  await page.getByRole("region", { name: "区间成绩表", exact: true }).getByRole("link", { name: "野中 恒亨", exact: true }).click();
   await expect(page).toHaveURL(/athletes\/athlete-aj24-01-5/);
   await expect(page.getByRole("heading", { level: 1 })).toHaveText("野中 恒亨");
   await noGenericProfileForm(page);
@@ -203,7 +203,7 @@ test("mobile archives keep cross-race athlete links, reference identities and ad
     await noPageOverflow(page);
   }
   await page.goto("/editions/izumo-2025?section=6");
-  await page.getByRole("link", { name: "黒田 朝日", exact: true }).click();
+  await page.getByRole("region", { name: "区间成绩表", exact: true }).getByRole("link", { name: "黒田 朝日", exact: true }).click();
   await expect(page).toHaveURL(/athletes\/athlete-aj24-03-4/);
   for (const race of database.races)
     await expect(page.locator(`#history-${race.id}`)).toContainText(race.name);
@@ -246,14 +246,14 @@ test("official cumulative standing, movement and leader gap are distinct from in
   await expect(kokugakuin.locator(".rank-movement--down")).toContainText("4");
   await expect(kokugakuin.locator(".rank-movement--down")).toHaveCSS(
     "color",
-    "rgb(180, 35, 53)",
+    "rgb(165, 29, 45)",
   );
   const aoyama = page.locator('tr[data-result-id="aj24-aoyama-gakuin-s2"]');
   await expect(aoyama.locator("td").nth(4)).toHaveText("1");
   await expect(aoyama.locator(".rank-movement--up")).toContainText("3");
   await expect(aoyama.locator(".rank-movement--up")).toHaveCSS(
     "color",
-    "rgb(24, 118, 75)",
+    "rgb(20, 101, 52)",
   );
   await page
     .getByRole("navigation", { name: "区间导航" })

@@ -313,6 +313,12 @@
           "locator": "PDF p.2 team/section cells"
         },
         {
+          "id": "iuau-iz26-results",
+          "url": "https://iuau.jp/ev2026/msenbatu/38izumo_result.pdf",
+          "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded",
+          "locator": "PDF p.1 team/section cells"
+        },
+        {
           "id": "getsuriku-iz23-awards",
           "url": "https://www.rikujyokyogi.co.jp/archives/116531",
           "revision": "2023-10-09 published report; final eligibility checked against 2024-02-21 revised results",
@@ -346,6 +352,12 @@
           "url": "https://iuau.jp/ev2024/msenbatu/36izumo_result.pdf",
           "revision": "IUAU result publication retrieved 2026-11-13; cross-checked against bulletin172 (2025-01-20), excluding historical record header",
           "locator": "PDF p.2 team/section cells"
+        },
+        {
+          "id": "iuau-iz26-results",
+          "url": "https://iuau.jp/ev2026/msenbatu/38izumo_result.pdf",
+          "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded",
+          "locator": "PDF p.1 team/section cells"
         }
       ]
     },
@@ -375,6 +387,12 @@
           "url": "https://iuau.jp/ev2025/msenbatu/37izumo_result.pdf",
           "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded",
           "locator": "PDF p.2 team/section cells"
+        },
+        {
+          "id": "iuau-iz26-results",
+          "url": "https://iuau.jp/ev2026/msenbatu/38izumo_result.pdf",
+          "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded",
+          "locator": "PDF p.1 team/section cells"
         }
       ]
     },

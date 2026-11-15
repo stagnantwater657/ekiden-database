@@ -132,9 +132,11 @@ test("route mismatch and provenance gaps are rejected, not silently displayed", 
   assert.throws(() => validatePriorRecords(database, data), /holder/);
 });
 
-test("the Izumo 1区 header conflict is recorded instead of silently resolved", () => {
-  const board = buildEditionScoreboard(database, "izumo-2026", 1)!;
-  assert.equal(board.priorRecord!.timeSeconds, 1350); // 22:30
-  assert.match(board.priorRecord!.note ?? "", /18:44/);
-  assert.match(board.priorRecord!.note ?? "", /22:30/);
+test("the Izumo 1区 record is attributed to the table that actually prints it", () => {
+  for (const year of [2023, 2024, 2025, 2026]) {
+    const board = buildEditionScoreboard(database, `izumo-${year}`, 1)!;
+    assert.equal(board.priorRecord!.timeSeconds, 1350); // 22:30, 第21回
+    assert.equal(board.priorRecord!.sourceId, "iuau-iz26-results");
+    assert.equal(board.priorRecord!.note, null);
+  }
 });

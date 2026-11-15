@@ -1,4 +1,5 @@
-import aj2024 from "../data/presentation/all-japan-2024.json" with { type: "json" };
+import { allSources, editionPresentations, honorFacts } from "./presentation.ts";
+import type { EditionPresentation } from "./presentation-model.ts";
 import type {
   Database,
   Edition,
@@ -46,24 +47,22 @@ export interface EditionScoreboard {
 export interface ResultHonors {
   sectionAward: boolean;
   sectionRecord: boolean;
+  sectionRecordTie: boolean;
   sourceId: string;
+  sourceIds: string[];
   locator: string;
 }
-
-// Explicit award/record evidence, never the minimum time in the site's partial history.
-const honors = new Map(
-  aj2024.honors.map((honor) => [
-    honor.resultId,
-    {
-      sectionAward: honor.sectionAward,
-      sectionRecord: honor.sectionRecord,
-      sourceId: aj2024.sourceId,
-      locator: honor.locator,
-    },
-  ]),
-);
 export function getResultHonors(resultId: string): ResultHonors | null {
-  return honors.get(resultId) ?? null;
+  const facts = honorFacts(resultId);
+  if (!facts.length) return null;
+  return {
+    sectionAward: facts.some((fact) => fact.type === "section-award"),
+    sectionRecord: facts.some((fact) => fact.type === "section-record"),
+    sectionRecordTie: facts.some((fact) => fact.type === "section-record-tie"),
+    sourceId: facts[0].sourceId,
+    sourceIds: [...new Set(facts.map((fact) => fact.sourceId))],
+    locator: [...new Set(facts.map((fact) => fact.locator))].join("; "),
+  };
 }
 
 export function rankMovement(
@@ -100,7 +99,7 @@ function compareNullable(a: number | null, b: number | null): number {
 }
 
 /**
- * Read-only presentation projection. Official AJ2024 points retain the printed
+ * Read-only presentation projection. Official sourced points retain the printed
  * cumulative rank (not the individual section rank or a recalculated tie rank).
  * Ordinary complete all-Japan/Izumo editions can show a separately labelled sum;
  * Hakone's staggered starts and editions with missing/disqualified/DNF formal
@@ -110,6 +109,7 @@ export function buildEditionScoreboard(
   db: Database,
   editionId: string,
   sectionNumber = 1,
+  supplements: EditionPresentation[] = editionPresentations,
 ): EditionScoreboard | null {
   const edition = db.editions.find((item) => item.id === editionId);
   if (!edition) return null;
@@ -125,7 +125,7 @@ export function buildEditionScoreboard(
   const teams = new Map(db.teams.map((item) => [item.id, item]));
   const universities = new Map(db.universities.map((item) => [item.id, item]));
   const athletes = new Map(db.athletes.map((item) => [item.id, item]));
-  const sourceMap = new Map(db.sources.map((item) => [item.id, item]));
+  const sourceMap = new Map(allSources(db).map((item) => [item.id, item]));
   const sectionMap = new Map(sections.map((item) => [item.id, item]));
   const results = db.results.filter((result) => entryMap.has(result.entryId));
   const resultBySlot = new Map(
@@ -134,8 +134,8 @@ export function buildEditionScoreboard(
   const officialEntries = entries.filter((entry) =>
     eligible(entry, teams.get(entry.teamId)!),
   );
-  const hasOfficial =
-    editionId === aj2024.editionId && sourceMap.has(aj2024.sourceId);
+  const supplement = supplements.find((item) => item.editionId === editionId);
+  const hasOfficial = !!supplement?.cumulative.length;
   const canCalculate =
     !hasOfficial &&
     ["all-japan", "izumo"].includes(race.id) &&
@@ -168,7 +168,7 @@ export function buildEditionScoreboard(
 
   if (hasOfficial) {
     const points = new Map(
-      aj2024.cumulative.map((point) => [point.resultId, point]),
+      supplement!.cumulative.map((point) => [point.resultId, point]),
     );
     for (const leg of sections) {
       const legResults = results.filter(
@@ -182,7 +182,7 @@ export function buildEditionScoreboard(
         const point = points.get(result.id);
         if (
           !point ||
-          !["finished", "reference"].includes(entry.status) ||
+          !["finished", "reference", "did-not-finish"].includes(entry.status) ||
           (result.status && !["finished", "reference"].includes(result.status))
         )
           continue;
@@ -197,7 +197,7 @@ export function buildEditionScoreboard(
           : undefined;
         const ranked =
           eligible(entry, teams.get(entry.teamId)!) &&
-          entry.status === "finished";
+          ["finished", "did-not-finish"].includes(entry.status);
         cumulative.set(result.id, {
           timeSeconds: point.timeSeconds,
           rank: ranked ? point.rank : null,
@@ -209,7 +209,7 @@ export function buildEditionScoreboard(
               ? point.timeSeconds - leader.timeSeconds
               : null,
           mode: "official",
-          sourceId: aj2024.sourceId,
+          sourceId: point.sourceId,
           locator: point.locator,
         });
       }
@@ -330,7 +330,8 @@ export function buildEditionScoreboard(
       entry.totalTimeSourceId,
       ...(entry.stages ?? []).map((stage) => stage.sourceId),
     ]),
-    ...(hasOfficial ? [aj2024.sourceId] : []),
+    ...(supplement?.cumulative.map((point) => point.sourceId) ?? []),
+    ...(supplement?.honors.map((fact) => fact.sourceId) ?? []),
   ]);
   return {
     edition,
@@ -340,17 +341,17 @@ export function buildEditionScoreboard(
     rows,
     finalRows,
     specialRows,
-    cumulativeMode,
-    cumulativeLabel: hasOfficial
+    cumulativeMode: hasOfficial && !rows.some((row) => row.cumulative.mode === "official") ? "unavailable" : cumulativeMode,
+    cumulativeLabel: hasOfficial && rows.some((row) => row.cumulative.mode === "official")
       ? "官方累计成绩"
       : canCalculate
         ? "按区间用时计算"
         : "累计成绩尚待核验",
-    sources: db.sources.filter((source) => sourceIds.has(source.id)),
+    sources: allSources(db).filter((source) => sourceIds.has(source.id)),
     notes: [
       ...(hasOfficial
         ? [
-            "累计时间与综合顺位采用第56回官方成绩表第2页；顺位变化和领先差由这些官方累计值计算。参考队保留官方累计用时，不赋予综合顺位。",
+            "累计时间与综合顺位采用已核验的官方资料；顺位变化和领先差仅由相同口径的官方值计算。参考队不赋予综合顺位，未核验站点留空；有效累计用时不等同于赛道上的通过顺序。",
           ]
         : []),
       ...(canCalculate
@@ -365,7 +366,8 @@ export function buildEditionScoreboard(
               : "本届存在特殊结果状态或累计核验资料不全，暂不推算累计顺位与时间。",
           ]
         : []),
-      "区間賞与区間新仅显示已逐项核验的官方认定；本轮覆盖2024年第56回全日本，其余届次未标记不代表没有获奖或纪录。",
+      ...(supplement?.notes ?? []),
+      "区間賞、区間新及区間タイ仅显示有明确来源的认定；未标记不代表没有获奖或纪录。",
     ],
   };
 }

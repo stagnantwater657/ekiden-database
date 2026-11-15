@@ -1,3 +1,4 @@
+import { allSources, honorFacts } from "./presentation.ts";
 import { database as dataset } from "../data/index.ts";
 import { seasonYearFor } from "./seasons.ts";
 import { validateIdentity, normalizeName } from "./identity.ts";
@@ -262,6 +263,7 @@ export function createFileRepository(db: Database) {
             row.entry.finalRankSourceId,
             row.entry.totalTimeSourceId,
             row.participationSourceId ?? null,
+            ...honorFacts(row.id).map((fact) => fact.sourceId),
           ])
           .filter((id): id is string => id !== null),
       );
@@ -285,7 +287,7 @@ export function createFileRepository(db: Database) {
         ),
         total: matched.length,
         editions,
-        sources: db.sources.filter((source) => sourceIds.has(source.id)),
+        sources: allSources(db).filter((source) => sourceIds.has(source.id)),
         page,
         pageCount,
       };

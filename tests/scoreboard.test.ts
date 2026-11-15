@@ -11,7 +11,7 @@ import {
 import type { Database } from "../lib/model.ts";
 
 const scoreboard = (edition = "all-japan-2024", section = 1, db = database) =>
-  buildEditionScoreboard(db, edition, section)!;
+  buildEditionScoreboard(db, edition, section, db === database ? undefined : [])!;
 
 test("official cumulative supplement covers all 216 existing records with traceable sources, no new athletes or results", () => {
   const original = JSON.stringify(database);
@@ -184,7 +184,6 @@ test("ordinary complete editions derive explicit calculated cumulative totals, t
 
 test("missing or abnormal results and Hakone never enter the ordinary cumulative calculation", () => {
   for (const edition of [
-    "all-japan-2023",
     "izumo-2023",
     "hakone-2024",
     "hakone-2025",
@@ -257,8 +256,7 @@ test("only explicit verified official awards and records produce badges, includi
     assert.match(honor.locator, /^p\.1 区間賞/);
   }
   assert.equal(getResultHonors("unknown"), null);
-  for (const row of scoreboard("all-japan-2025", 1).rows)
-    assert.equal(getResultHonors(row.id), null);
+  assert.equal(scoreboard("all-japan-2025", 1).rows.filter((row) => getResultHonors(row.id)?.sectionAward).length, 1);
 });
 
 test("scoreboard section sort and navigation fallback are stable and all 11 editions remain available", () => {

@@ -1,0 +1,2022 @@
+{
+  "editionId": "all-japan-2023",
+  "reviewedAt": "2026-11-14",
+  "revision": "2023/11/13 8:38",
+  "sourceId": "iuau-aj23-results",
+  "cumulativeRankingBasis": "official-overall-elapsed",
+  "cumulative": [
+    {
+      "resultId": "aj23-result-01-1",
+      "entryId": "aj23-entry-01",
+      "timeSeconds": 1639,
+      "rank": 1,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.1; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-01-2",
+      "entryId": "aj23-entry-01",
+      "timeSeconds": 3500,
+      "rank": 1,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.1; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-01-3",
+      "entryId": "aj23-entry-01",
+      "timeSeconds": 5519,
+      "rank": 1,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.1; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-01-4",
+      "entryId": "aj23-entry-01",
+      "timeSeconds": 7585,
+      "rank": 1,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.1; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-01-5",
+      "entryId": "aj23-entry-01",
+      "timeSeconds": 9741,
+      "rank": 1,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.1; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-01-6",
+      "entryId": "aj23-entry-01",
+      "timeSeconds": 11977,
+      "rank": 1,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.1; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-01-7",
+      "entryId": "aj23-entry-01",
+      "timeSeconds": 15050,
+      "rank": 1,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.1; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-01-8",
+      "entryId": "aj23-entry-01",
+      "timeSeconds": 18540,
+      "rank": 1,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.1; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-03-1",
+      "entryId": "aj23-entry-03",
+      "timeSeconds": 1647,
+      "rank": 8,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.3; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-03-2",
+      "entryId": "aj23-entry-03",
+      "timeSeconds": 3516,
+      "rank": 2,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.3; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-03-3",
+      "entryId": "aj23-entry-03",
+      "timeSeconds": 5579,
+      "rank": 2,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.3; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-03-4",
+      "entryId": "aj23-entry-03",
+      "timeSeconds": 7684,
+      "rank": 4,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.3; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-03-5",
+      "entryId": "aj23-entry-03",
+      "timeSeconds": 9856,
+      "rank": 2,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.3; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-03-6",
+      "entryId": "aj23-entry-03",
+      "timeSeconds": 12118,
+      "rank": 2,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.3; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-03-7",
+      "entryId": "aj23-entry-03",
+      "timeSeconds": 15219,
+      "rank": 2,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.3; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-03-8",
+      "entryId": "aj23-entry-03",
+      "timeSeconds": 18754,
+      "rank": 2,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.3; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-02-1",
+      "entryId": "aj23-entry-02",
+      "timeSeconds": 1646,
+      "rank": 6,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.2; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-02-2",
+      "entryId": "aj23-entry-02",
+      "timeSeconds": 3588,
+      "rank": 10,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.2; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-02-3",
+      "entryId": "aj23-entry-02",
+      "timeSeconds": 5629,
+      "rank": 9,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.2; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-02-4",
+      "entryId": "aj23-entry-02",
+      "timeSeconds": 7702,
+      "rank": 6,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.2; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-02-5",
+      "entryId": "aj23-entry-02",
+      "timeSeconds": 9870,
+      "rank": 3,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.2; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-02-6",
+      "entryId": "aj23-entry-02",
+      "timeSeconds": 12161,
+      "rank": 4,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.2; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-02-7",
+      "entryId": "aj23-entry-02",
+      "timeSeconds": 15228,
+      "rank": 4,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.2; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-02-8",
+      "entryId": "aj23-entry-02",
+      "timeSeconds": 18759,
+      "rank": 3,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.2; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-07-1",
+      "entryId": "aj23-entry-07",
+      "timeSeconds": 1642,
+      "rank": 3,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.7; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-07-2",
+      "entryId": "aj23-entry-07",
+      "timeSeconds": 3534,
+      "rank": 5,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.7; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-07-3",
+      "entryId": "aj23-entry-07",
+      "timeSeconds": 5607,
+      "rank": 7,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.7; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-07-4",
+      "entryId": "aj23-entry-07",
+      "timeSeconds": 7679,
+      "rank": 3,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.7; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-07-5",
+      "entryId": "aj23-entry-07",
+      "timeSeconds": 9877,
+      "rank": 4,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.7; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-07-6",
+      "entryId": "aj23-entry-07",
+      "timeSeconds": 12155,
+      "rank": 3,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.7; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-07-7",
+      "entryId": "aj23-entry-07",
+      "timeSeconds": 15227,
+      "rank": 3,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.7; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-07-8",
+      "entryId": "aj23-entry-07",
+      "timeSeconds": 18769,
+      "rank": 4,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.7; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-11-1",
+      "entryId": "aj23-entry-11",
+      "timeSeconds": 1689,
+      "rank": 17,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.11; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-11-2",
+      "entryId": "aj23-entry-11",
+      "timeSeconds": 3627,
+      "rank": 13,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.11; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-11-3",
+      "entryId": "aj23-entry-11",
+      "timeSeconds": 5627,
+      "rank": 8,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.11; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-11-4",
+      "entryId": "aj23-entry-11",
+      "timeSeconds": 7667,
+      "rank": 2,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.11; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-11-5",
+      "entryId": "aj23-entry-11",
+      "timeSeconds": 9894,
+      "rank": 5,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.11; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-11-6",
+      "entryId": "aj23-entry-11",
+      "timeSeconds": 12219,
+      "rank": 5,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.11; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-11-7",
+      "entryId": "aj23-entry-11",
+      "timeSeconds": 15452,
+      "rank": 6,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.11; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-11-8",
+      "entryId": "aj23-entry-11",
+      "timeSeconds": 19043,
+      "rank": 5,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.11; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-05-1",
+      "entryId": "aj23-entry-05",
+      "timeSeconds": 1645,
+      "rank": 4,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.5; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-05-2",
+      "entryId": "aj23-entry-05",
+      "timeSeconds": 3604,
+      "rank": 11,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.5; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-05-3",
+      "entryId": "aj23-entry-05",
+      "timeSeconds": 5691,
+      "rank": 13,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.5; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-05-4",
+      "entryId": "aj23-entry-05",
+      "timeSeconds": 7870,
+      "rank": 13,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.5; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-05-5",
+      "entryId": "aj23-entry-05",
+      "timeSeconds": 9988,
+      "rank": 9,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.5; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-05-6",
+      "entryId": "aj23-entry-05",
+      "timeSeconds": 12385,
+      "rank": 11,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.5; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-05-7",
+      "entryId": "aj23-entry-05",
+      "timeSeconds": 15479,
+      "rank": 9,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.5; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-05-8",
+      "entryId": "aj23-entry-05",
+      "timeSeconds": 19101,
+      "rank": 6,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.5; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-12-1",
+      "entryId": "aj23-entry-12",
+      "timeSeconds": 1646,
+      "rank": 5,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.12; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-12-2",
+      "entryId": "aj23-entry-12",
+      "timeSeconds": 3588,
+      "rank": 9,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.12; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-12-3",
+      "entryId": "aj23-entry-12",
+      "timeSeconds": 5657,
+      "rank": 10,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.12; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-12-4",
+      "entryId": "aj23-entry-12",
+      "timeSeconds": 7772,
+      "rank": 9,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.12; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-12-5",
+      "entryId": "aj23-entry-12",
+      "timeSeconds": 9987,
+      "rank": 8,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.12; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-12-6",
+      "entryId": "aj23-entry-12",
+      "timeSeconds": 12246,
+      "rank": 6,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.12; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-12-7",
+      "entryId": "aj23-entry-12",
+      "timeSeconds": 15447,
+      "rank": 5,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.12; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-12-8",
+      "entryId": "aj23-entry-12",
+      "timeSeconds": 19161,
+      "rank": 7,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.12; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-14-1",
+      "entryId": "aj23-entry-14",
+      "timeSeconds": 1647,
+      "rank": 7,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.14; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-14-2",
+      "entryId": "aj23-entry-14",
+      "timeSeconds": 3534,
+      "rank": 6,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.14; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-14-3",
+      "entryId": "aj23-entry-14",
+      "timeSeconds": 5589,
+      "rank": 4,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.14; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-14-4",
+      "entryId": "aj23-entry-14",
+      "timeSeconds": 7711,
+      "rank": 7,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.14; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-14-5",
+      "entryId": "aj23-entry-14",
+      "timeSeconds": 9946,
+      "rank": 6,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.14; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-14-6",
+      "entryId": "aj23-entry-14",
+      "timeSeconds": 12248,
+      "rank": 7,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.14; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-14-7",
+      "entryId": "aj23-entry-14",
+      "timeSeconds": 15475,
+      "rank": 7,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.14; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-14-8",
+      "entryId": "aj23-entry-14",
+      "timeSeconds": 19205,
+      "rank": 8,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.14; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-13-1",
+      "entryId": "aj23-entry-13",
+      "timeSeconds": 1674,
+      "rank": 15,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.13; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-13-2",
+      "entryId": "aj23-entry-13",
+      "timeSeconds": 3610,
+      "rank": 12,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.13; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-13-3",
+      "entryId": "aj23-entry-13",
+      "timeSeconds": 5683,
+      "rank": 12,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.13; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-13-4",
+      "entryId": "aj23-entry-13",
+      "timeSeconds": 7804,
+      "rank": 10,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.13; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-13-5",
+      "entryId": "aj23-entry-13",
+      "timeSeconds": 10067,
+      "rank": 12,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.13; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-13-6",
+      "entryId": "aj23-entry-13",
+      "timeSeconds": 12381,
+      "rank": 10,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.13; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-13-7",
+      "entryId": "aj23-entry-13",
+      "timeSeconds": 15572,
+      "rank": 10,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.13; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-13-8",
+      "entryId": "aj23-entry-13",
+      "timeSeconds": 19314,
+      "rank": 9,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.13; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-06-1",
+      "entryId": "aj23-entry-06",
+      "timeSeconds": 1640,
+      "rank": 2,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.6; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-06-2",
+      "entryId": "aj23-entry-06",
+      "timeSeconds": 3520,
+      "rank": 3,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.6; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-06-3",
+      "entryId": "aj23-entry-06",
+      "timeSeconds": 5580,
+      "rank": 3,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.6; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-06-4",
+      "entryId": "aj23-entry-06",
+      "timeSeconds": 7716,
+      "rank": 8,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.6; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-06-5",
+      "entryId": "aj23-entry-06",
+      "timeSeconds": 9985,
+      "rank": 7,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.6; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-06-6",
+      "entryId": "aj23-entry-06",
+      "timeSeconds": 12318,
+      "rank": 8,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.6; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-06-7",
+      "entryId": "aj23-entry-06",
+      "timeSeconds": 15475,
+      "rank": 8,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.6; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-06-8",
+      "entryId": "aj23-entry-06",
+      "timeSeconds": 19356,
+      "rank": 10,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.6; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-04-1",
+      "entryId": "aj23-entry-04",
+      "timeSeconds": 1662,
+      "rank": 13,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.4; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-04-2",
+      "entryId": "aj23-entry-04",
+      "timeSeconds": 3586,
+      "rank": 8,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.4; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-04-3",
+      "entryId": "aj23-entry-04",
+      "timeSeconds": 5678,
+      "rank": 11,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.4; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-04-4",
+      "entryId": "aj23-entry-04",
+      "timeSeconds": 7804,
+      "rank": 11,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.4; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-04-5",
+      "entryId": "aj23-entry-04",
+      "timeSeconds": 10131,
+      "rank": 13,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.4; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-04-6",
+      "entryId": "aj23-entry-04",
+      "timeSeconds": 12494,
+      "rank": 14,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.4; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-04-7",
+      "entryId": "aj23-entry-04",
+      "timeSeconds": 15763,
+      "rank": 13,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.4; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-04-8",
+      "entryId": "aj23-entry-04",
+      "timeSeconds": 19370,
+      "rank": 11,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.4; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-16-1",
+      "entryId": "aj23-entry-16",
+      "timeSeconds": 1650,
+      "rank": 9,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.16; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-16-2",
+      "entryId": "aj23-entry-16",
+      "timeSeconds": 3542,
+      "rank": 7,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.16; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-16-3",
+      "entryId": "aj23-entry-16",
+      "timeSeconds": 5598,
+      "rank": 5,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.16; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-16-4",
+      "entryId": "aj23-entry-16",
+      "timeSeconds": 7832,
+      "rank": 12,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.16; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-16-5",
+      "entryId": "aj23-entry-16",
+      "timeSeconds": 10053,
+      "rank": 11,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.16; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-16-6",
+      "entryId": "aj23-entry-16",
+      "timeSeconds": 12362,
+      "rank": 9,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.16; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-16-7",
+      "entryId": "aj23-entry-16",
+      "timeSeconds": 15703,
+      "rank": 12,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.16; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-16-8",
+      "entryId": "aj23-entry-16",
+      "timeSeconds": 19447,
+      "rank": 12,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.16; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-15-1",
+      "entryId": "aj23-entry-15",
+      "timeSeconds": 1659,
+      "rank": 10,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.15; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-15-2",
+      "entryId": "aj23-entry-15",
+      "timeSeconds": 3530,
+      "rank": 4,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.15; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-15-3",
+      "entryId": "aj23-entry-15",
+      "timeSeconds": 5602,
+      "rank": 6,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.15; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-15-4",
+      "entryId": "aj23-entry-15",
+      "timeSeconds": 7701,
+      "rank": 5,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.15; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-15-5",
+      "entryId": "aj23-entry-15",
+      "timeSeconds": 10001,
+      "rank": 10,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.15; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-15-6",
+      "entryId": "aj23-entry-15",
+      "timeSeconds": 12388,
+      "rank": 12,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.15; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-15-7",
+      "entryId": "aj23-entry-15",
+      "timeSeconds": 15632,
+      "rank": 11,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.15; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-15-8",
+      "entryId": "aj23-entry-15",
+      "timeSeconds": 19522,
+      "rank": 13,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.15; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-08-1",
+      "entryId": "aj23-entry-08",
+      "timeSeconds": 1659,
+      "rank": 11,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.8; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-08-2",
+      "entryId": "aj23-entry-08",
+      "timeSeconds": 3641,
+      "rank": 14,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.8; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-08-3",
+      "entryId": "aj23-entry-08",
+      "timeSeconds": 5771,
+      "rank": 15,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.8; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-08-4",
+      "entryId": "aj23-entry-08",
+      "timeSeconds": 7912,
+      "rank": 15,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.8; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-08-5",
+      "entryId": "aj23-entry-08",
+      "timeSeconds": 10171,
+      "rank": 14,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.8; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-08-6",
+      "entryId": "aj23-entry-08",
+      "timeSeconds": 12473,
+      "rank": 13,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.8; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-08-7",
+      "entryId": "aj23-entry-08",
+      "timeSeconds": 15859,
+      "rank": 14,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.8; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-08-8",
+      "entryId": "aj23-entry-08",
+      "timeSeconds": 19593,
+      "rank": 14,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.8; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-17-1",
+      "entryId": "aj23-entry-17",
+      "timeSeconds": 1678,
+      "rank": 16,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.17; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-17-2",
+      "entryId": "aj23-entry-17",
+      "timeSeconds": 3645,
+      "rank": 15,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.17; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-17-3",
+      "entryId": "aj23-entry-17",
+      "timeSeconds": 5757,
+      "rank": 14,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.17; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-17-4",
+      "entryId": "aj23-entry-17",
+      "timeSeconds": 7892,
+      "rank": 14,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.17; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-17-5",
+      "entryId": "aj23-entry-17",
+      "timeSeconds": 10292,
+      "rank": 15,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.17; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-17-6",
+      "entryId": "aj23-entry-17",
+      "timeSeconds": 12689,
+      "rank": 15,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.17; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-17-7",
+      "entryId": "aj23-entry-17",
+      "timeSeconds": 16075,
+      "rank": 15,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.17; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-17-8",
+      "entryId": "aj23-entry-17",
+      "timeSeconds": 19892,
+      "rank": 15,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.17; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-20-1",
+      "entryId": "aj23-entry-20",
+      "timeSeconds": 1662,
+      "rank": 12,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.20; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-20-2",
+      "entryId": "aj23-entry-20",
+      "timeSeconds": 3714,
+      "rank": 18,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.20; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-20-3",
+      "entryId": "aj23-entry-20",
+      "timeSeconds": 5879,
+      "rank": 18,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.20; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-20-4",
+      "entryId": "aj23-entry-20",
+      "timeSeconds": 8049,
+      "rank": 16,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.20; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-20-5",
+      "entryId": "aj23-entry-20",
+      "timeSeconds": 10377,
+      "rank": 16,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.20; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-20-6",
+      "entryId": "aj23-entry-20",
+      "timeSeconds": 12804,
+      "rank": 16,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.20; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-20-7",
+      "entryId": "aj23-entry-20",
+      "timeSeconds": 16137,
+      "rank": 16,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.20; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-20-8",
+      "entryId": "aj23-entry-20",
+      "timeSeconds": 19923,
+      "rank": 16,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.20; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-23-1",
+      "entryId": "aj23-entry-23",
+      "timeSeconds": 1699,
+      "rank": 18,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.23; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-23-2",
+      "entryId": "aj23-entry-23",
+      "timeSeconds": 3768,
+      "rank": 19,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.23; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-23-3",
+      "entryId": "aj23-entry-23",
+      "timeSeconds": 5941,
+      "rank": 19,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.23; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-23-4",
+      "entryId": "aj23-entry-23",
+      "timeSeconds": 8184,
+      "rank": 19,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.23; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-23-5",
+      "entryId": "aj23-entry-23",
+      "timeSeconds": 10522,
+      "rank": 19,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.23; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-23-6",
+      "entryId": "aj23-entry-23",
+      "timeSeconds": 13019,
+      "rank": 20,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.23; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-23-7",
+      "entryId": "aj23-entry-23",
+      "timeSeconds": 16416,
+      "rank": 20,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.23; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-23-8",
+      "entryId": "aj23-entry-23",
+      "timeSeconds": 20041,
+      "rank": 17,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.23; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-22-1",
+      "entryId": "aj23-entry-22",
+      "timeSeconds": 1711,
+      "rank": 20,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.22; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-22-2",
+      "entryId": "aj23-entry-22",
+      "timeSeconds": 3678,
+      "rank": 17,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.22; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-22-3",
+      "entryId": "aj23-entry-22",
+      "timeSeconds": 5859,
+      "rank": 17,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.22; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-22-4",
+      "entryId": "aj23-entry-22",
+      "timeSeconds": 8061,
+      "rank": 17,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.22; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-22-5",
+      "entryId": "aj23-entry-22",
+      "timeSeconds": 10435,
+      "rank": 18,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.22; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-22-6",
+      "entryId": "aj23-entry-22",
+      "timeSeconds": 12847,
+      "rank": 17,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.22; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-22-7",
+      "entryId": "aj23-entry-22",
+      "timeSeconds": 16288,
+      "rank": 19,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.22; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-22-8",
+      "entryId": "aj23-entry-22",
+      "timeSeconds": 20078,
+      "rank": 18,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.22; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-19-1",
+      "entryId": "aj23-entry-19",
+      "timeSeconds": 1768,
+      "rank": 24,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.19; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-19-2",
+      "entryId": "aj23-entry-19",
+      "timeSeconds": 3827,
+      "rank": 22,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.19; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-19-3",
+      "entryId": "aj23-entry-19",
+      "timeSeconds": 6032,
+      "rank": 22,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.19; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-19-4",
+      "entryId": "aj23-entry-19",
+      "timeSeconds": 8229,
+      "rank": 20,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.19; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-19-5",
+      "entryId": "aj23-entry-19",
+      "timeSeconds": 10552,
+      "rank": 20,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.19; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-19-6",
+      "entryId": "aj23-entry-19",
+      "timeSeconds": 12933,
+      "rank": 19,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.19; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-19-7",
+      "entryId": "aj23-entry-19",
+      "timeSeconds": 16214,
+      "rank": 17,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.19; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-19-8",
+      "entryId": "aj23-entry-19",
+      "timeSeconds": 20214,
+      "rank": 19,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.19; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-21-1",
+      "entryId": "aj23-entry-21",
+      "timeSeconds": 1668,
+      "rank": 14,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.21; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-21-2",
+      "entryId": "aj23-entry-21",
+      "timeSeconds": 3661,
+      "rank": 16,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.21; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-21-3",
+      "entryId": "aj23-entry-21",
+      "timeSeconds": 5858,
+      "rank": 16,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.21; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-21-4",
+      "entryId": "aj23-entry-21",
+      "timeSeconds": 8064,
+      "rank": 18,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.21; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-21-5",
+      "entryId": "aj23-entry-21",
+      "timeSeconds": 10412,
+      "rank": 17,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.21; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-21-6",
+      "entryId": "aj23-entry-21",
+      "timeSeconds": 12901,
+      "rank": 18,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.21; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-21-7",
+      "entryId": "aj23-entry-21",
+      "timeSeconds": 16236,
+      "rank": 18,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.21; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-21-8",
+      "entryId": "aj23-entry-21",
+      "timeSeconds": 20274,
+      "rank": 20,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.21; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-25-1",
+      "entryId": "aj23-entry-25",
+      "timeSeconds": 1755,
+      "rank": 23,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.25; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-25-2",
+      "entryId": "aj23-entry-25",
+      "timeSeconds": 3862,
+      "rank": 24,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.25; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-25-3",
+      "entryId": "aj23-entry-25",
+      "timeSeconds": 6026,
+      "rank": 21,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.25; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-25-4",
+      "entryId": "aj23-entry-25",
+      "timeSeconds": 8234,
+      "rank": 21,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.25; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-25-5",
+      "entryId": "aj23-entry-25",
+      "timeSeconds": 10588,
+      "rank": 21,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.25; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-25-6",
+      "entryId": "aj23-entry-25",
+      "timeSeconds": 13115,
+      "rank": 21,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.25; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-25-7",
+      "entryId": "aj23-entry-25",
+      "timeSeconds": 16577,
+      "rank": 22,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.25; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-25-8",
+      "entryId": "aj23-entry-25",
+      "timeSeconds": 20425,
+      "rank": 21,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.25; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-09-1",
+      "entryId": "aj23-entry-09",
+      "timeSeconds": 1700,
+      "rank": 19,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.9; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-09-2",
+      "entryId": "aj23-entry-09",
+      "timeSeconds": 3780,
+      "rank": 20,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.9; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-09-3",
+      "entryId": "aj23-entry-09",
+      "timeSeconds": 5977,
+      "rank": 20,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.9; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-09-4",
+      "entryId": "aj23-entry-09",
+      "timeSeconds": 8268,
+      "rank": 22,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.9; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-09-5",
+      "entryId": "aj23-entry-09",
+      "timeSeconds": 10625,
+      "rank": 22,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.9; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-09-6",
+      "entryId": "aj23-entry-09",
+      "timeSeconds": 13180,
+      "rank": 22,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.9; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-09-7",
+      "entryId": "aj23-entry-09",
+      "timeSeconds": 16571,
+      "rank": 21,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.9; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-09-8",
+      "entryId": "aj23-entry-09",
+      "timeSeconds": 20473,
+      "rank": 22,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.9; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-24-1",
+      "entryId": "aj23-entry-24",
+      "timeSeconds": 1730,
+      "rank": 21,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.24; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-24-2",
+      "entryId": "aj23-entry-24",
+      "timeSeconds": 3845,
+      "rank": 23,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.24; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-24-3",
+      "entryId": "aj23-entry-24",
+      "timeSeconds": 6078,
+      "rank": 23,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.24; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-24-4",
+      "entryId": "aj23-entry-24",
+      "timeSeconds": 8336,
+      "rank": 23,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.24; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-24-5",
+      "entryId": "aj23-entry-24",
+      "timeSeconds": 10748,
+      "rank": 23,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.24; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-24-6",
+      "entryId": "aj23-entry-24",
+      "timeSeconds": 13191,
+      "rank": 23,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.24; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-24-7",
+      "entryId": "aj23-entry-24",
+      "timeSeconds": 16950,
+      "rank": 23,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.24; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-24-8",
+      "entryId": "aj23-entry-24",
+      "timeSeconds": 20901,
+      "rank": 23,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.24; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-18-1",
+      "entryId": "aj23-entry-18",
+      "timeSeconds": 1737,
+      "rank": 22,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.18; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-18-2",
+      "entryId": "aj23-entry-18",
+      "timeSeconds": 3812,
+      "rank": 21,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.18; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-18-3",
+      "entryId": "aj23-entry-18",
+      "timeSeconds": 6149,
+      "rank": 24,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.18; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-18-4",
+      "entryId": "aj23-entry-18",
+      "timeSeconds": 8488,
+      "rank": 24,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.18; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-18-5",
+      "entryId": "aj23-entry-18",
+      "timeSeconds": 10944,
+      "rank": 24,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.18; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-18-6",
+      "entryId": "aj23-entry-18",
+      "timeSeconds": 13476,
+      "rank": 24,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.18; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-18-7",
+      "entryId": "aj23-entry-18",
+      "timeSeconds": 17032,
+      "rank": 24,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.18; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-18-8",
+      "entryId": "aj23-entry-18",
+      "timeSeconds": 20932,
+      "rank": 24,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.18; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-26-1",
+      "entryId": "aj23-entry-26",
+      "timeSeconds": 1666,
+      "rank": null,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.26; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-26-2",
+      "entryId": "aj23-entry-26",
+      "timeSeconds": 3658,
+      "rank": null,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.26; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-26-3",
+      "entryId": "aj23-entry-26",
+      "timeSeconds": 5699,
+      "rank": null,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.26; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-26-4",
+      "entryId": "aj23-entry-26",
+      "timeSeconds": 7799,
+      "rank": null,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.26; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-26-5",
+      "entryId": "aj23-entry-26",
+      "timeSeconds": 10120,
+      "rank": null,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.26; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-26-6",
+      "entryId": "aj23-entry-26",
+      "timeSeconds": 12493,
+      "rank": null,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.26; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-26-7",
+      "entryId": "aj23-entry-26",
+      "timeSeconds": 15871,
+      "rank": null,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.26; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-26-8",
+      "entryId": "aj23-entry-26",
+      "timeSeconds": 19604,
+      "rank": null,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.26; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-27-1",
+      "entryId": "aj23-entry-27",
+      "timeSeconds": 1726,
+      "rank": null,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.27; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-27-2",
+      "entryId": "aj23-entry-27",
+      "timeSeconds": 3748,
+      "rank": null,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.27; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-27-3",
+      "entryId": "aj23-entry-27",
+      "timeSeconds": 6028,
+      "rank": null,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.27; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-27-4",
+      "entryId": "aj23-entry-27",
+      "timeSeconds": 8231,
+      "rank": null,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.27; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-27-5",
+      "entryId": "aj23-entry-27",
+      "timeSeconds": 10594,
+      "rank": null,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.27; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-27-6",
+      "entryId": "aj23-entry-27",
+      "timeSeconds": 13032,
+      "rank": null,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.27; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-27-7",
+      "entryId": "aj23-entry-27",
+      "timeSeconds": 16556,
+      "rank": null,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.27; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-27-8",
+      "entryId": "aj23-entry-27",
+      "timeSeconds": 20851,
+      "rank": null,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.27; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "resultId": "aj23-result-10-1",
+      "entryId": "aj23-entry-10",
+      "timeSeconds": 1817,
+      "rank": 25,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.10; section 1; official cumulative before withdrawal; no final rank",
+      "revision": "2023/11/13 8:38",
+      "rankingScope": "checkpoint-before-withdrawal"
+    },
+    {
+      "resultId": "aj23-result-10-2",
+      "entryId": "aj23-entry-10",
+      "timeSeconds": 3964,
+      "rank": 25,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.10; section 2; official cumulative before withdrawal; no final rank",
+      "revision": "2023/11/13 8:38",
+      "rankingScope": "checkpoint-before-withdrawal"
+    },
+    {
+      "resultId": "aj23-result-10-3",
+      "entryId": "aj23-entry-10",
+      "timeSeconds": 6295,
+      "rank": 25,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.10; section 3; official cumulative before withdrawal; no final rank",
+      "revision": "2023/11/13 8:38",
+      "rankingScope": "checkpoint-before-withdrawal"
+    },
+    {
+      "resultId": "aj23-result-10-4",
+      "entryId": "aj23-entry-10",
+      "timeSeconds": 8703,
+      "rank": 25,
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.10; section 4; official cumulative before withdrawal; no final rank",
+      "revision": "2023/11/13 8:38",
+      "rankingScope": "checkpoint-before-withdrawal"
+    }
+  ],
+  "honors": [
+    {
+      "id": "aj23-result-01-1/section-award",
+      "resultId": "aj23-result-01-1",
+      "type": "section-award",
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.1 区間賞; section 1; 赤津 勇進 27:19",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "id": "aj23-result-01-2/section-award",
+      "resultId": "aj23-result-01-2",
+      "type": "section-award",
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.1 区間賞; section 2; 佐藤 圭汰 31:01",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "id": "aj23-result-11-3/section-award",
+      "resultId": "aj23-result-11-3",
+      "type": "section-award",
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.1 区間賞; section 3; ヴィクター キムタイ 33:20",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "id": "aj23-result-11-4/section-award",
+      "resultId": "aj23-result-11-4",
+      "type": "section-award",
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.1 区間賞; section 4; 斎藤 将也 34:00",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "id": "aj23-result-05-5/section-award",
+      "resultId": "aj23-result-05-5",
+      "type": "section-award",
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.1 区間賞; section 5; 吉田 響 35:18",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "id": "aj23-result-01-6/section-award",
+      "resultId": "aj23-result-01-6",
+      "type": "section-award",
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.1 区間賞; section 6; 安原 太陽 37:16",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "id": "aj23-result-02-7/section-award",
+      "resultId": "aj23-result-02-7",
+      "type": "section-award",
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.1 区間賞; section 7; 平林 清澄 51:07",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "id": "aj23-result-01-8/section-award",
+      "resultId": "aj23-result-01-8",
+      "type": "section-award",
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.1 区間賞; section 8; 山川 拓馬 58:10",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "id": "aj23-result-01-2/section-record",
+      "resultId": "aj23-result-01-2",
+      "type": "section-record",
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.1; section 2; lower section row; official ◎ marker; detail p.4",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "id": "aj23-result-03-2/section-record",
+      "resultId": "aj23-result-03-2",
+      "type": "section-record",
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.3; section 2; lower section row; official ◎ marker; detail p.4",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "id": "aj23-result-05-5/section-record",
+      "resultId": "aj23-result-05-5",
+      "type": "section-record",
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.5; section 5; lower section row; official ◎ marker; detail p.7",
+      "revision": "2023/11/13 8:38"
+    },
+    {
+      "id": "aj23-result-15-2/section-record",
+      "resultId": "aj23-result-15-2",
+      "type": "section-record",
+      "sourceId": "iuau-aj23-results",
+      "locator": "p.2; No.15; section 2; lower section row; official ◎ marker; detail p.4",
+      "revision": "2023/11/13 8:38"
+    }
+  ],
+  "notes": [
+    "東北学院大途中棄権：仅保留官方已公布的第1—4区累计顺位；第5—8区累计缺失，不生成最终综合排名。"
+  ]
+}

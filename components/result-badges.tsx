@@ -15,6 +15,9 @@ export function ResultBadges({ resultId }: { resultId: string }) {
           区間新
         </span>
       )}
+      {honors.sectionRecordTie && (
+        <span className="result-badge result-badge--tie" lang="ja">区間タイ</span>
+      )}
     </span>
   );
 }

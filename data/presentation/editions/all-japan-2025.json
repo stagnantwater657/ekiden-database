@@ -1,0 +1,2044 @@
+{
+  "editionId": "all-japan-2025",
+  "reviewedAt": "2026-11-14",
+  "revision": "Document footer 2025/11/5 16:07",
+  "sourceId": "iuau-aj2025-results",
+  "cumulativeRankingBasis": "official-overall-elapsed",
+  "cumulative": [
+    {
+      "resultId": "aj25-result-02-1",
+      "entryId": "aj25-entry-02",
+      "timeSeconds": 1641,
+      "rank": 4,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.2; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-02-2",
+      "entryId": "aj25-entry-02",
+      "timeSeconds": 3515,
+      "rank": 3,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.2; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-02-3",
+      "entryId": "aj25-entry-02",
+      "timeSeconds": 5533,
+      "rank": 1,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.2; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-02-4",
+      "entryId": "aj25-entry-02",
+      "timeSeconds": 7601,
+      "rank": 4,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.2; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-02-5",
+      "entryId": "aj25-entry-02",
+      "timeSeconds": 9702,
+      "rank": 1,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.2; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-02-6",
+      "entryId": "aj25-entry-02",
+      "timeSeconds": 11944,
+      "rank": 1,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.2; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-02-7",
+      "entryId": "aj25-entry-02",
+      "timeSeconds": 14970,
+      "rank": 1,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.2; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-02-8",
+      "entryId": "aj25-entry-02",
+      "timeSeconds": 18413,
+      "rank": 1,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.2; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-11-1",
+      "entryId": "aj25-entry-11",
+      "timeSeconds": 1645,
+      "rank": 8,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.11; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-11-2",
+      "entryId": "aj25-entry-11",
+      "timeSeconds": 3512,
+      "rank": 1,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.11; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-11-3",
+      "entryId": "aj25-entry-11",
+      "timeSeconds": 5534,
+      "rank": 3,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.11; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-11-4",
+      "entryId": "aj25-entry-11",
+      "timeSeconds": 7566,
+      "rank": 1,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.11; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-11-5",
+      "entryId": "aj25-entry-11",
+      "timeSeconds": 9759,
+      "rank": 3,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.11; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-11-6",
+      "entryId": "aj25-entry-11",
+      "timeSeconds": 12008,
+      "rank": 2,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.11; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-11-7",
+      "entryId": "aj25-entry-11",
+      "timeSeconds": 15111,
+      "rank": 3,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.11; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-11-8",
+      "entryId": "aj25-entry-11",
+      "timeSeconds": 18534,
+      "rank": 2,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.11; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-03-1",
+      "entryId": "aj25-entry-03",
+      "timeSeconds": 1648,
+      "rank": 11,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.3; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-03-2",
+      "entryId": "aj25-entry-03",
+      "timeSeconds": 3564,
+      "rank": 10,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.3; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-03-3",
+      "entryId": "aj25-entry-03",
+      "timeSeconds": 5598,
+      "rank": 8,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.3; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-03-4",
+      "entryId": "aj25-entry-03",
+      "timeSeconds": 7682,
+      "rank": 7,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.3; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-03-5",
+      "entryId": "aj25-entry-03",
+      "timeSeconds": 9876,
+      "rank": 7,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.3; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-03-6",
+      "entryId": "aj25-entry-03",
+      "timeSeconds": 12116,
+      "rank": 5,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.3; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-03-7",
+      "entryId": "aj25-entry-03",
+      "timeSeconds": 15087,
+      "rank": 2,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.3; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-03-8",
+      "entryId": "aj25-entry-03",
+      "timeSeconds": 18568,
+      "rank": 3,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.3; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-01-1",
+      "entryId": "aj25-entry-01",
+      "timeSeconds": 1641,
+      "rank": 3,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.1; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-01-2",
+      "entryId": "aj25-entry-01",
+      "timeSeconds": 3543,
+      "rank": 7,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.1; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-01-3",
+      "entryId": "aj25-entry-01",
+      "timeSeconds": 5534,
+      "rank": 2,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.1; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-01-4",
+      "entryId": "aj25-entry-01",
+      "timeSeconds": 7568,
+      "rank": 2,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.1; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-01-5",
+      "entryId": "aj25-entry-01",
+      "timeSeconds": 9754,
+      "rank": 2,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.1; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-01-6",
+      "entryId": "aj25-entry-01",
+      "timeSeconds": 12009,
+      "rank": 3,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.1; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-01-7",
+      "entryId": "aj25-entry-01",
+      "timeSeconds": 15140,
+      "rank": 4,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.1; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-01-8",
+      "entryId": "aj25-entry-01",
+      "timeSeconds": 18585,
+      "rank": 4,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.1; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-05-1",
+      "entryId": "aj25-entry-05",
+      "timeSeconds": 1640,
+      "rank": 2,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.5; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-05-2",
+      "entryId": "aj25-entry-05",
+      "timeSeconds": 3515,
+      "rank": 4,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.5; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-05-3",
+      "entryId": "aj25-entry-05",
+      "timeSeconds": 5594,
+      "rank": 7,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.5; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-05-4",
+      "entryId": "aj25-entry-05",
+      "timeSeconds": 7671,
+      "rank": 6,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.5; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-05-5",
+      "entryId": "aj25-entry-05",
+      "timeSeconds": 9874,
+      "rank": 6,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.5; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-05-6",
+      "entryId": "aj25-entry-05",
+      "timeSeconds": 12150,
+      "rank": 7,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.5; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-05-7",
+      "entryId": "aj25-entry-05",
+      "timeSeconds": 15207,
+      "rank": 6,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.5; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-05-8",
+      "entryId": "aj25-entry-05",
+      "timeSeconds": 18621,
+      "rank": 5,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.5; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-08-1",
+      "entryId": "aj25-entry-08",
+      "timeSeconds": 1652,
+      "rank": 12,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.8; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-08-2",
+      "entryId": "aj25-entry-08",
+      "timeSeconds": 3513,
+      "rank": 2,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.8; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-08-3",
+      "entryId": "aj25-entry-08",
+      "timeSeconds": 5548,
+      "rank": 4,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.8; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-08-4",
+      "entryId": "aj25-entry-08",
+      "timeSeconds": 7588,
+      "rank": 3,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.8; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-08-5",
+      "entryId": "aj25-entry-08",
+      "timeSeconds": 9803,
+      "rank": 4,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.8; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-08-6",
+      "entryId": "aj25-entry-08",
+      "timeSeconds": 12079,
+      "rank": 4,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.8; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-08-7",
+      "entryId": "aj25-entry-08",
+      "timeSeconds": 15156,
+      "rank": 5,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.8; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-08-8",
+      "entryId": "aj25-entry-08",
+      "timeSeconds": 18656,
+      "rank": 6,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.8; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-04-1",
+      "entryId": "aj25-entry-04",
+      "timeSeconds": 1645,
+      "rank": 7,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.4; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-04-2",
+      "entryId": "aj25-entry-04",
+      "timeSeconds": 3527,
+      "rank": 5,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.4; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-04-3",
+      "entryId": "aj25-entry-04",
+      "timeSeconds": 5551,
+      "rank": 6,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.4; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-04-4",
+      "entryId": "aj25-entry-04",
+      "timeSeconds": 7602,
+      "rank": 5,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.4; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-04-5",
+      "entryId": "aj25-entry-04",
+      "timeSeconds": 9804,
+      "rank": 5,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.4; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-04-6",
+      "entryId": "aj25-entry-04",
+      "timeSeconds": 12120,
+      "rank": 6,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.4; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-04-7",
+      "entryId": "aj25-entry-04",
+      "timeSeconds": 15243,
+      "rank": 7,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.4; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-04-8",
+      "entryId": "aj25-entry-04",
+      "timeSeconds": 18716,
+      "rank": 7,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.4; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-13-1",
+      "entryId": "aj25-entry-13",
+      "timeSeconds": 1644,
+      "rank": 6,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.13; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-13-2",
+      "entryId": "aj25-entry-13",
+      "timeSeconds": 3544,
+      "rank": 8,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.13; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-13-3",
+      "entryId": "aj25-entry-13",
+      "timeSeconds": 5632,
+      "rank": 11,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.13; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-13-4",
+      "entryId": "aj25-entry-13",
+      "timeSeconds": 7728,
+      "rank": 10,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.13; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-13-5",
+      "entryId": "aj25-entry-13",
+      "timeSeconds": 9923,
+      "rank": 9,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.13; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-13-6",
+      "entryId": "aj25-entry-13",
+      "timeSeconds": 12186,
+      "rank": 8,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.13; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-13-7",
+      "entryId": "aj25-entry-13",
+      "timeSeconds": 15367,
+      "rank": 9,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.13; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-13-8",
+      "entryId": "aj25-entry-13",
+      "timeSeconds": 18873,
+      "rank": 8,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.13; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-06-1",
+      "entryId": "aj25-entry-06",
+      "timeSeconds": 1665,
+      "rank": 14,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.6; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-06-2",
+      "entryId": "aj25-entry-06",
+      "timeSeconds": 3624,
+      "rank": 13,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.6; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-06-3",
+      "entryId": "aj25-entry-06",
+      "timeSeconds": 5616,
+      "rank": 10,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.6; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-06-4",
+      "entryId": "aj25-entry-06",
+      "timeSeconds": 7730,
+      "rank": 11,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.6; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-06-5",
+      "entryId": "aj25-entry-06",
+      "timeSeconds": 9953,
+      "rank": 11,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.6; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-06-6",
+      "entryId": "aj25-entry-06",
+      "timeSeconds": 12241,
+      "rank": 10,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.6; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-06-7",
+      "entryId": "aj25-entry-06",
+      "timeSeconds": 15474,
+      "rank": 12,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.6; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-06-8",
+      "entryId": "aj25-entry-06",
+      "timeSeconds": 18926,
+      "rank": 9,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.6; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-14-1",
+      "entryId": "aj25-entry-14",
+      "timeSeconds": 1648,
+      "rank": 10,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.14; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-14-2",
+      "entryId": "aj25-entry-14",
+      "timeSeconds": 3590,
+      "rank": 11,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.14; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-14-3",
+      "entryId": "aj25-entry-14",
+      "timeSeconds": 5690,
+      "rank": 14,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.14; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-14-4",
+      "entryId": "aj25-entry-14",
+      "timeSeconds": 7823,
+      "rank": 13,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.14; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-14-5",
+      "entryId": "aj25-entry-14",
+      "timeSeconds": 10094,
+      "rank": 14,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.14; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-14-6",
+      "entryId": "aj25-entry-14",
+      "timeSeconds": 12415,
+      "rank": 14,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.14; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-14-7",
+      "entryId": "aj25-entry-14",
+      "timeSeconds": 15432,
+      "rank": 10,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.14; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-14-8",
+      "entryId": "aj25-entry-14",
+      "timeSeconds": 18937,
+      "rank": 10,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.14; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-17-1",
+      "entryId": "aj25-entry-17",
+      "timeSeconds": 1642,
+      "rank": 5,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.17; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-17-2",
+      "entryId": "aj25-entry-17",
+      "timeSeconds": 3527,
+      "rank": 6,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.17; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-17-3",
+      "entryId": "aj25-entry-17",
+      "timeSeconds": 5551,
+      "rank": 5,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.17; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-17-4",
+      "entryId": "aj25-entry-17",
+      "timeSeconds": 7683,
+      "rank": 8,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.17; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-17-5",
+      "entryId": "aj25-entry-17",
+      "timeSeconds": 9894,
+      "rank": 8,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.17; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-17-6",
+      "entryId": "aj25-entry-17",
+      "timeSeconds": 12233,
+      "rank": 9,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.17; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-17-7",
+      "entryId": "aj25-entry-17",
+      "timeSeconds": 15356,
+      "rank": 8,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.17; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-17-8",
+      "entryId": "aj25-entry-17",
+      "timeSeconds": 18951,
+      "rank": 11,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.17; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-15-1",
+      "entryId": "aj25-entry-15",
+      "timeSeconds": 1675,
+      "rank": 17,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.15; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-15-2",
+      "entryId": "aj25-entry-15",
+      "timeSeconds": 3559,
+      "rank": 9,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.15; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-15-3",
+      "entryId": "aj25-entry-15",
+      "timeSeconds": 5600,
+      "rank": 9,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.15; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-15-4",
+      "entryId": "aj25-entry-15",
+      "timeSeconds": 7719,
+      "rank": 9,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.15; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-15-5",
+      "entryId": "aj25-entry-15",
+      "timeSeconds": 9947,
+      "rank": 10,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.15; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-15-6",
+      "entryId": "aj25-entry-15",
+      "timeSeconds": 12309,
+      "rank": 11,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.15; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-15-7",
+      "entryId": "aj25-entry-15",
+      "timeSeconds": 15443,
+      "rank": 11,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.15; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-15-8",
+      "entryId": "aj25-entry-15",
+      "timeSeconds": 19036,
+      "rank": 12,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.15; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-12-1",
+      "entryId": "aj25-entry-12",
+      "timeSeconds": 1683,
+      "rank": 20,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.12; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-12-2",
+      "entryId": "aj25-entry-12",
+      "timeSeconds": 3611,
+      "rank": 12,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.12; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-12-3",
+      "entryId": "aj25-entry-12",
+      "timeSeconds": 5680,
+      "rank": 13,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.12; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-12-4",
+      "entryId": "aj25-entry-12",
+      "timeSeconds": 7783,
+      "rank": 12,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.12; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-12-5",
+      "entryId": "aj25-entry-12",
+      "timeSeconds": 10059,
+      "rank": 12,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.12; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-12-6",
+      "entryId": "aj25-entry-12",
+      "timeSeconds": 12402,
+      "rank": 13,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.12; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-12-7",
+      "entryId": "aj25-entry-12",
+      "timeSeconds": 15568,
+      "rank": 14,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.12; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-12-8",
+      "entryId": "aj25-entry-12",
+      "timeSeconds": 19107,
+      "rank": 13,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.12; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-07-1",
+      "entryId": "aj25-entry-07",
+      "timeSeconds": 1669,
+      "rank": 15,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.7; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-07-2",
+      "entryId": "aj25-entry-07",
+      "timeSeconds": 3630,
+      "rank": 14,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.7; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-07-3",
+      "entryId": "aj25-entry-07",
+      "timeSeconds": 5784,
+      "rank": 15,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.7; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-07-4",
+      "entryId": "aj25-entry-07",
+      "timeSeconds": 7927,
+      "rank": 15,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.7; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-07-5",
+      "entryId": "aj25-entry-07",
+      "timeSeconds": 10166,
+      "rank": 15,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.7; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-07-6",
+      "entryId": "aj25-entry-07",
+      "timeSeconds": 12453,
+      "rank": 15,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.7; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-07-7",
+      "entryId": "aj25-entry-07",
+      "timeSeconds": 15588,
+      "rank": 15,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.7; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-07-8",
+      "entryId": "aj25-entry-07",
+      "timeSeconds": 19131,
+      "rank": 14,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.7; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-16-1",
+      "entryId": "aj25-entry-16",
+      "timeSeconds": 1670,
+      "rank": 16,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.16; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-16-2",
+      "entryId": "aj25-entry-16",
+      "timeSeconds": 3634,
+      "rank": 16,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.16; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-16-3",
+      "entryId": "aj25-entry-16",
+      "timeSeconds": 5676,
+      "rank": 12,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.16; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-16-4",
+      "entryId": "aj25-entry-16",
+      "timeSeconds": 7825,
+      "rank": 14,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.16; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-16-5",
+      "entryId": "aj25-entry-16",
+      "timeSeconds": 10073,
+      "rank": 13,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.16; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-16-6",
+      "entryId": "aj25-entry-16",
+      "timeSeconds": 12397,
+      "rank": 12,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.16; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-16-7",
+      "entryId": "aj25-entry-16",
+      "timeSeconds": 15567,
+      "rank": 13,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.16; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-16-8",
+      "entryId": "aj25-entry-16",
+      "timeSeconds": 19192,
+      "rank": 15,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.16; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-21-1",
+      "entryId": "aj25-entry-21",
+      "timeSeconds": 1678,
+      "rank": 19,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.21; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-21-2",
+      "entryId": "aj25-entry-21",
+      "timeSeconds": 3658,
+      "rank": 19,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.21; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-21-3",
+      "entryId": "aj25-entry-21",
+      "timeSeconds": 5877,
+      "rank": 19,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.21; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-21-4",
+      "entryId": "aj25-entry-21",
+      "timeSeconds": 8065,
+      "rank": 18,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.21; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-21-5",
+      "entryId": "aj25-entry-21",
+      "timeSeconds": 10377,
+      "rank": 18,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.21; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-21-6",
+      "entryId": "aj25-entry-21",
+      "timeSeconds": 12754,
+      "rank": 16,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.21; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-21-7",
+      "entryId": "aj25-entry-21",
+      "timeSeconds": 16074,
+      "rank": 17,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.21; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-21-8",
+      "entryId": "aj25-entry-21",
+      "timeSeconds": 19712,
+      "rank": 16,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.21; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-22-1",
+      "entryId": "aj25-entry-22",
+      "timeSeconds": 1646,
+      "rank": 9,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.22; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-22-2",
+      "entryId": "aj25-entry-22",
+      "timeSeconds": 3654,
+      "rank": 18,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.22; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-22-3",
+      "entryId": "aj25-entry-22",
+      "timeSeconds": 5806,
+      "rank": 17,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.22; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-22-4",
+      "entryId": "aj25-entry-22",
+      "timeSeconds": 7987,
+      "rank": 16,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.22; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-22-5",
+      "entryId": "aj25-entry-22",
+      "timeSeconds": 10300,
+      "rank": 16,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.22; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-22-6",
+      "entryId": "aj25-entry-22",
+      "timeSeconds": 12793,
+      "rank": 17,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.22; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-22-7",
+      "entryId": "aj25-entry-22",
+      "timeSeconds": 16022,
+      "rank": 16,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.22; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-22-8",
+      "entryId": "aj25-entry-22",
+      "timeSeconds": 19778,
+      "rank": 17,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.22; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-23-1",
+      "entryId": "aj25-entry-23",
+      "timeSeconds": 1663,
+      "rank": 13,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.23; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-23-2",
+      "entryId": "aj25-entry-23",
+      "timeSeconds": 3633,
+      "rank": 15,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.23; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-23-3",
+      "entryId": "aj25-entry-23",
+      "timeSeconds": 5791,
+      "rank": 16,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.23; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-23-4",
+      "entryId": "aj25-entry-23",
+      "timeSeconds": 8007,
+      "rank": 17,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.23; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-23-5",
+      "entryId": "aj25-entry-23",
+      "timeSeconds": 10371,
+      "rank": 17,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.23; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-23-6",
+      "entryId": "aj25-entry-23",
+      "timeSeconds": 12825,
+      "rank": 18,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.23; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-23-7",
+      "entryId": "aj25-entry-23",
+      "timeSeconds": 16169,
+      "rank": 19,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.23; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-23-8",
+      "entryId": "aj25-entry-23",
+      "timeSeconds": 19805,
+      "rank": 18,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.23; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-09-1",
+      "entryId": "aj25-entry-09",
+      "timeSeconds": 1752,
+      "rank": 25,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.9; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-09-2",
+      "entryId": "aj25-entry-09",
+      "timeSeconds": 3748,
+      "rank": 21,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.9; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-09-3",
+      "entryId": "aj25-entry-09",
+      "timeSeconds": 5932,
+      "rank": 20,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.9; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-09-4",
+      "entryId": "aj25-entry-09",
+      "timeSeconds": 8155,
+      "rank": 20,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.9; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-09-5",
+      "entryId": "aj25-entry-09",
+      "timeSeconds": 10494,
+      "rank": 19,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.9; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-09-6",
+      "entryId": "aj25-entry-09",
+      "timeSeconds": 12899,
+      "rank": 19,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.9; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-09-7",
+      "entryId": "aj25-entry-09",
+      "timeSeconds": 16168,
+      "rank": 18,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.9; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-09-8",
+      "entryId": "aj25-entry-09",
+      "timeSeconds": 19838,
+      "rank": 19,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.9; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-19-1",
+      "entryId": "aj25-entry-19",
+      "timeSeconds": 1697,
+      "rank": 21,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.19; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-19-2",
+      "entryId": "aj25-entry-19",
+      "timeSeconds": 3768,
+      "rank": 22,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.19; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-19-3",
+      "entryId": "aj25-entry-19",
+      "timeSeconds": 6020,
+      "rank": 23,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.19; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-19-4",
+      "entryId": "aj25-entry-19",
+      "timeSeconds": 8225,
+      "rank": 22,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.19; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-19-5",
+      "entryId": "aj25-entry-19",
+      "timeSeconds": 10606,
+      "rank": 22,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.19; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-19-6",
+      "entryId": "aj25-entry-19",
+      "timeSeconds": 13039,
+      "rank": 20,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.19; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-19-7",
+      "entryId": "aj25-entry-19",
+      "timeSeconds": 16394,
+      "rank": 20,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.19; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-19-8",
+      "entryId": "aj25-entry-19",
+      "timeSeconds": 19945,
+      "rank": 20,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.19; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-20-1",
+      "entryId": "aj25-entry-20",
+      "timeSeconds": 1700,
+      "rank": 23,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.20; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-20-2",
+      "entryId": "aj25-entry-20",
+      "timeSeconds": 3769,
+      "rank": 23,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.20; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-20-3",
+      "entryId": "aj25-entry-20",
+      "timeSeconds": 5999,
+      "rank": 22,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.20; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-20-4",
+      "entryId": "aj25-entry-20",
+      "timeSeconds": 8256,
+      "rank": 23,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.20; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-20-5",
+      "entryId": "aj25-entry-20",
+      "timeSeconds": 10623,
+      "rank": 23,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.20; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-20-6",
+      "entryId": "aj25-entry-20",
+      "timeSeconds": 13069,
+      "rank": 21,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.20; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-20-7",
+      "entryId": "aj25-entry-20",
+      "timeSeconds": 16439,
+      "rank": 22,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.20; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-20-8",
+      "entryId": "aj25-entry-20",
+      "timeSeconds": 20027,
+      "rank": 21,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.20; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-25-1",
+      "entryId": "aj25-entry-25",
+      "timeSeconds": 1640,
+      "rank": 1,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.25; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-25-2",
+      "entryId": "aj25-entry-25",
+      "timeSeconds": 3641,
+      "rank": 17,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.25; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-25-3",
+      "entryId": "aj25-entry-25",
+      "timeSeconds": 5832,
+      "rank": 18,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.25; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-25-4",
+      "entryId": "aj25-entry-25",
+      "timeSeconds": 8144,
+      "rank": 19,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.25; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-25-5",
+      "entryId": "aj25-entry-25",
+      "timeSeconds": 10559,
+      "rank": 21,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.25; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-25-6",
+      "entryId": "aj25-entry-25",
+      "timeSeconds": 13255,
+      "rank": 24,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.25; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-25-7",
+      "entryId": "aj25-entry-25",
+      "timeSeconds": 16502,
+      "rank": 23,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.25; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-25-8",
+      "entryId": "aj25-entry-25",
+      "timeSeconds": 20167,
+      "rank": 22,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.25; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-18-1",
+      "entryId": "aj25-entry-18",
+      "timeSeconds": 1699,
+      "rank": 22,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.18; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-18-2",
+      "entryId": "aj25-entry-18",
+      "timeSeconds": 3823,
+      "rank": 25,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.18; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-18-3",
+      "entryId": "aj25-entry-18",
+      "timeSeconds": 6047,
+      "rank": 24,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.18; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-18-4",
+      "entryId": "aj25-entry-18",
+      "timeSeconds": 8358,
+      "rank": 24,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.18; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-18-5",
+      "entryId": "aj25-entry-18",
+      "timeSeconds": 10731,
+      "rank": 24,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.18; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-18-6",
+      "entryId": "aj25-entry-18",
+      "timeSeconds": 13173,
+      "rank": 23,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.18; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-18-7",
+      "entryId": "aj25-entry-18",
+      "timeSeconds": 16552,
+      "rank": 24,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.18; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-18-8",
+      "entryId": "aj25-entry-18",
+      "timeSeconds": 20171,
+      "rank": 23,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.18; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-24-1",
+      "entryId": "aj25-entry-24",
+      "timeSeconds": 1676,
+      "rank": 18,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.24; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-24-2",
+      "entryId": "aj25-entry-24",
+      "timeSeconds": 3709,
+      "rank": 20,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.24; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-24-3",
+      "entryId": "aj25-entry-24",
+      "timeSeconds": 5939,
+      "rank": 21,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.24; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-24-4",
+      "entryId": "aj25-entry-24",
+      "timeSeconds": 8181,
+      "rank": 21,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.24; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-24-5",
+      "entryId": "aj25-entry-24",
+      "timeSeconds": 10553,
+      "rank": 20,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.24; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-24-6",
+      "entryId": "aj25-entry-24",
+      "timeSeconds": 13078,
+      "rank": 22,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.24; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-24-7",
+      "entryId": "aj25-entry-24",
+      "timeSeconds": 16428,
+      "rank": 21,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.24; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-24-8",
+      "entryId": "aj25-entry-24",
+      "timeSeconds": 20257,
+      "rank": 24,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.24; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-10-1",
+      "entryId": "aj25-entry-10",
+      "timeSeconds": 1713,
+      "rank": 24,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.10; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-10-2",
+      "entryId": "aj25-entry-10",
+      "timeSeconds": 3814,
+      "rank": 24,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.10; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-10-3",
+      "entryId": "aj25-entry-10",
+      "timeSeconds": 6079,
+      "rank": 25,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.10; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-10-4",
+      "entryId": "aj25-entry-10",
+      "timeSeconds": 8497,
+      "rank": 25,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.10; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-10-5",
+      "entryId": "aj25-entry-10",
+      "timeSeconds": 10960,
+      "rank": 25,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.10; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-10-6",
+      "entryId": "aj25-entry-10",
+      "timeSeconds": 13486,
+      "rank": 25,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.10; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-10-7",
+      "entryId": "aj25-entry-10",
+      "timeSeconds": 17242,
+      "rank": 25,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.10; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-10-8",
+      "entryId": "aj25-entry-10",
+      "timeSeconds": 21242,
+      "rank": 25,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.10; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-26-1",
+      "entryId": "aj25-entry-26",
+      "timeSeconds": 1645,
+      "rank": null,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.26; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-26-2",
+      "entryId": "aj25-entry-26",
+      "timeSeconds": 3616,
+      "rank": null,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.26; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-26-3",
+      "entryId": "aj25-entry-26",
+      "timeSeconds": 5685,
+      "rank": null,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.26; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-26-4",
+      "entryId": "aj25-entry-26",
+      "timeSeconds": 7832,
+      "rank": null,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.26; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-26-5",
+      "entryId": "aj25-entry-26",
+      "timeSeconds": 10122,
+      "rank": null,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.26; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-26-6",
+      "entryId": "aj25-entry-26",
+      "timeSeconds": 12453,
+      "rank": null,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.26; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-26-7",
+      "entryId": "aj25-entry-26",
+      "timeSeconds": 15790,
+      "rank": null,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.26; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-26-8",
+      "entryId": "aj25-entry-26",
+      "timeSeconds": 19399,
+      "rank": null,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.26; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-27-1",
+      "entryId": "aj25-entry-27",
+      "timeSeconds": 1706,
+      "rank": null,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.27; section 1; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-27-2",
+      "entryId": "aj25-entry-27",
+      "timeSeconds": 3759,
+      "rank": null,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.27; section 2; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-27-3",
+      "entryId": "aj25-entry-27",
+      "timeSeconds": 5917,
+      "rank": null,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.27; section 3; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-27-4",
+      "entryId": "aj25-entry-27",
+      "timeSeconds": 8134,
+      "rank": null,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.27; section 4; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-27-5",
+      "entryId": "aj25-entry-27",
+      "timeSeconds": 10572,
+      "rank": null,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.27; section 5; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-27-6",
+      "entryId": "aj25-entry-27",
+      "timeSeconds": 13007,
+      "rank": null,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.27; section 6; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-27-7",
+      "entryId": "aj25-entry-27",
+      "timeSeconds": 16423,
+      "rank": null,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.27; section 7; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "resultId": "aj25-result-27-8",
+      "entryId": "aj25-entry-27",
+      "timeSeconds": 20212,
+      "rank": null,
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.27; section 8; upper cumulative row (official elapsed ranking, not road arrival order)",
+      "revision": "Document footer 2025/11/5 16:07"
+    }
+  ],
+  "honors": [
+    {
+      "id": "aj25-result-25-1/section-award",
+      "resultId": "aj25-result-25-1",
+      "type": "section-award",
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.1 区間賞; section 1; 中村 晃斗 27:20",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "id": "aj25-result-08-2/section-award",
+      "resultId": "aj25-result-08-2",
+      "type": "section-award",
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.1 区間賞; section 2; 楠岡 由浩 31:01",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "id": "aj25-result-01-3/section-award",
+      "resultId": "aj25-result-01-3",
+      "type": "section-award",
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.1 区間賞; section 3; 野中 恒亨 33:11",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "id": "aj25-result-11-4/section-award",
+      "resultId": "aj25-result-11-4",
+      "type": "section-award",
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.1 区間賞; section 4; 柴田 大地 33:52",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "id": "aj25-result-02-5/section-award",
+      "resultId": "aj25-result-02-5",
+      "type": "section-award",
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.1 区間賞; section 5; 伊藤 蒼唯 35:01",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "id": "aj25-result-03-6/section-award",
+      "resultId": "aj25-result-03-6",
+      "type": "section-award",
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.1 区間賞; section 6; 飯田 翔大 37:20",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "id": "aj25-result-03-7/section-award",
+      "resultId": "aj25-result-03-7",
+      "type": "section-award",
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.1 区間賞; section 7; 黒田 朝日 49:31",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "id": "aj25-result-05-8/section-award",
+      "resultId": "aj25-result-05-8",
+      "type": "section-award",
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.1 区間賞; section 8; 工藤 慎作 56:54",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "id": "aj25-result-02-5/section-record",
+      "resultId": "aj25-result-02-5",
+      "type": "section-record",
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.2; section 5; lower section row; official ◎ marker; detail p.7",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "id": "aj25-result-03-7/section-record",
+      "resultId": "aj25-result-03-7",
+      "type": "section-record",
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.3; section 7; lower section row; official ◎ marker; detail p.9",
+      "revision": "Document footer 2025/11/5 16:07"
+    },
+    {
+      "id": "aj25-result-08-2/section-record-tie",
+      "resultId": "aj25-result-08-2",
+      "type": "section-record-tie",
+      "sourceId": "iuau-aj2025-results",
+      "locator": "p.2; No.8; section 2; lower section row; official ○ marker; detail p.4",
+      "revision": "Document footer 2025/11/5 16:07"
+    }
+  ],
+  "notes": []
+}

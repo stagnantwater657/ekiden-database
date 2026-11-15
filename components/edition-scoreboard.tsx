@@ -1,3 +1,6 @@
+import { parseScoreboardSort, scoreboardHref, sortScoreboardRows, type ScoreboardSort } from "../lib/scoreboard-sort";
+import type { QueryParams } from "../lib/query";
+import { getResultHonors } from "../lib/scoreboard";
 import Link from "next/link";
 import type {
   EditionScoreboard as Scoreboard,
@@ -53,8 +56,10 @@ function TeamLink({ row }: { row: FinalStanding }) {
 export function SectionSwitcher({
   board,
   final,
+  query = {},
 }: {
   board: Scoreboard;
+  query?: QueryParams;
   final: boolean;
 }) {
   return (
@@ -62,7 +67,7 @@ export function SectionSwitcher({
       {board.sections.map((section) => (
         <Link
           key={section.id}
-          href={`/editions/${board.edition.id}?section=${section.number}`}
+          href={scoreboardHref(board.edition.id, query, {section: String(section.number)})}
           aria-current={
             !final && board.section.id === section.id ? "page" : undefined
           }
@@ -71,7 +76,7 @@ export function SectionSwitcher({
         </Link>
       ))}
       <Link
-        href={`/editions/${board.edition.id}?section=final`}
+        href={scoreboardHref(board.edition.id, query, {section: "final"})}
         aria-current={final ? "page" : undefined}
       >
         最终综合
@@ -211,10 +216,23 @@ function FinalResults({ board }: { board: Scoreboard }) {
 export function EditionScoreboard({
   board,
   final = false,
+  query = {},
 }: {
   board: Scoreboard;
   final?: boolean;
+  query?: QueryParams;
 }) {
+  const order = parseScoreboardSort(query);
+  const rows = sortScoreboardRows(board.rows, order);
+  const winners = board.rows.filter((row) => getResultHonors(row.id)?.sectionAward);
+  const sortHeader = (key: ScoreboardSort["sort"], label: string) => (
+    <th scope="col" aria-sort={order.sort === key ? (order.direction === "asc" ? "ascending" : "descending") : "none"}>
+      <Link className="score-sort" href={scoreboardHref(board.edition.id, query, {section:String(board.section.number), sort:key, direction:order.sort === key && order.direction === "asc" ? "desc" : "asc"})}>
+        {label}<span aria-hidden="true" className="sort-arrow">{order.sort === key ? (order.direction === "asc" ? "↑" : "↓") : "↕"}</span>
+        <span className="sr-only">，切换为{order.sort === key && order.direction === "asc" ? "降序" : "升序"}</span>
+      </Link>
+    </th>
+  );
   const champion = board.finalRows.find((row) => row.entry.finalRank === 1);
   const isCalculated = board.cumulativeMode === "calculated";
   return (
@@ -261,7 +279,7 @@ export function EditionScoreboard({
           </div>
         </div>
       </header>
-      <SectionSwitcher board={board} final={final} />
+      <SectionSwitcher board={board} final={final} query={query} />
       {final ? (
         <FinalResults board={board} />
       ) : (
@@ -273,7 +291,7 @@ export function EditionScoreboard({
                 {board.section.distanceKm ?? "—"} km
               </span>
             </h2>
-            <p>{board.rows.length} 条区间记录 · 按官方区间顺位排列</p>
+            <p>{board.rows.length} 条区间记录 · 按{order.sort === "rank" ? "区间顺位" : order.sort === "cumulative" ? "累计用时" : "顺位变化"}{order.direction === "asc" ? "升序" : "降序"}排列</p>
           </div>
           <div className="mb-4 flex flex-wrap justify-between gap-3">
             <p className="source-note">
@@ -289,6 +307,24 @@ export function EditionScoreboard({
               在高级检索中查看 ↗
             </Link>
           </div>
+          <section className="section-overview" aria-label="本区间成绩概览">
+            <div>
+              <h3>区间赏</h3>
+              {winners.length ? winners.map((row) => (
+                <p key={row.id}>
+                  <Link className="archive-link" href={`/athletes/${row.athlete.id}`}>{row.athlete.name}</Link>
+                  {" · "}<TeamLink row={{entry:row.entry,team:row.team,university:row.university,gapSeconds:null}} />
+                  {" · "}<span className="time">{formatTime(row.timeSeconds)}</span>
+                  <ResultBadges resultId={row.id} />
+                </p>
+              )) : <p className="source-note">区间赏尚待核验</p>}
+            </div>
+            <div>
+              <h3>区间纪录</h3>
+              <p className="source-note">赛前纪录尚待核验</p>
+              <p className="source-note">暂无本届对应路线的已核验赛前纪录资料。</p>
+            </div>
+          </section>
           {board.rows.length ? (
             <div
               className="table-scroll"
@@ -303,18 +339,18 @@ export function EditionScoreboard({
                 </caption>
                 <thead>
                   <tr>
-                    <th>区间顺位</th>
+                    {sortHeader("rank", "区间顺位")}
                     <th>大学 / 队伍</th>
                     <th>选手</th>
                     <th>区间成绩</th>
-                    <th>{isCalculated ? "计算综合顺位" : "累计综合顺位"}</th>
-                    <th>顺位变化</th>
-                    <th>{isCalculated ? "计算累计用时" : "累计用时"}</th>
+                    <th>{isCalculated ? "计算综合顺位" : "综合顺位"}</th>
+                    {sortHeader("movement", "顺位变化")}
+                    {sortHeader("cumulative", isCalculated ? "计算累计用时" : "累计用时")}
                     <th>与领先队差</th>
                   </tr>
                 </thead>
                 <tbody>
-                  {board.rows.map((row) => (
+                  {rows.map((row) => (
                     <tr key={row.id} data-result-id={row.id}>
                       <td>
                         <span

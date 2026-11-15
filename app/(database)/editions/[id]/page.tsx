@@ -20,5 +20,5 @@ export default async function Page({
     : query.section;
   const board = buildEditionScoreboard(db, id, Number(selection) || 1);
   if (!board) notFound();
-  return <EditionScoreboard board={board} final={selection === "final"} />;
+  return <EditionScoreboard board={board} final={selection === "final"} query={query} />;
 }

@@ -80,3 +80,48 @@ test("Izumo uses revised ranks, explicit awards and every new/tied record includ
     assert.equal(reference.cumulative.rank,null);
   }
 });
+
+test("Hakone sourced stage endpoints never imply intermediate passage order; reference performances gain no official record badge", () => {
+  for (const [year, points, awards, records] of [[2024,46,10,2],[2025,42,10,6],[2026,42,10,6]]) {
+    const supplement = editionPresentations.find((e) => e.editionId === `hakone-${year}`)!;
+    assert.equal(supplement.cumulative.length,points);
+    assert.equal(supplement.honors.filter((h) => h.type === "section-award").length,awards);
+    assert.equal(supplement.honors.filter((h) => h.type === "section-record").length,records);
+    const outbound = buildEditionScoreboard(database, `hakone-${year}`,5)!;
+    assert.equal(outbound.cumulativeMode,"official");
+    for (const row of outbound.rows) {
+      assert.equal(row.cumulative.timeSeconds,row.entry.stages!.find((s) => s.kind === "outbound")!.timeSeconds);
+      assert.equal(row.cumulative.rank,null);
+      assert.equal(row.cumulative.movement,null);
+      assert.equal(row.cumulative.gapSeconds,null);
+    }
+    const middle = buildEditionScoreboard(database,`hakone-${year}`,6)!;
+    assert.equal(middle.cumulativeMode,"unavailable");
+    assert.ok(middle.rows.every((r) => r.cumulative.timeSeconds === null));
+    const finish = buildEditionScoreboard(database,`hakone-${year}`,10)!;
+    assert.ok(finish.rows.every((r) => r.cumulative.rank === r.entry.finalRank && r.cumulative.timeSeconds === r.entry.totalTimeSeconds));
+  }
+  assert.equal(getResultHonors("hk26-result-05-1")!.sectionRecord,true);
+  assert.equal(getResultHonors("hk26-result-05-1")!.sectionAward,false);
+  assert.equal(getResultHonors("hk26-result-21-1"),null); // Kawasaki: reference time, not official record.
+});
+
+test("published raw editions, registry and identity decisions remain byte-for-byte identical to PR15 main", async () => {
+  const { readFileSync } = await import("node:fs");
+  const { createHash } = await import("node:crypto");
+  const baseline = JSON.parse(readFileSync(new URL("../data/presentation/baseline.json",import.meta.url),"utf8"));
+  for (const item of baseline.files) {
+    assert.equal(createHash("sha256").update(readFileSync(new URL(`../${item.path}`,import.meta.url))).digest("hex"),item.sha256,item.path);
+  }
+  assert.equal(database.editions.length,11);
+  assert.equal(database.results.length,2030);
+});
+
+test("committed coverage report is reproducible and every result is counted once", async () => {
+  const { readFileSync } = await import("node:fs");
+  const { presentationReport } = await import("../lib/presentation-report.ts");
+  const report = presentationReport(database);
+  assert.deepEqual(JSON.parse(readFileSync(new URL("../data/reports/presentation.json",import.meta.url),"utf8")),report);
+  assert.deepEqual(report.totals,{editions:11,results:2030,officialCumulative:1494,calculatedCumulative:0,missingCumulative:536,sectionAwards:87,sectionRecords:39,sectionRecordTies:2});
+  for (const row of report.editions) assert.equal(row.cumulative.official+row.cumulative.calculated+row.cumulative.missing,row.results);
+});

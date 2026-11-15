@@ -1,3 +1,6 @@
+import hk2024 from "./editions/hakone-2024.json" with { type: "json" };
+import hk2025 from "./editions/hakone-2025.json" with { type: "json" };
+import hk2026 from "./editions/hakone-2026.json" with { type: "json" };
 import iz2023 from "./editions/izumo-2023.json" with { type: "json" };
 import iz2024 from "./editions/izumo-2024.json" with { type: "json" };
 import iz2025 from "./editions/izumo-2025.json" with { type: "json" };
@@ -33,5 +36,5 @@ const legacy: EditionPresentation = {
   ),
   notes: [],
 };
-export const editionPresentations = [aj2023, legacy, aj2025, aj2026, iz2023, iz2024, iz2025, iz2026] as EditionPresentation[];
+export const editionPresentations = [aj2023, legacy, aj2025, aj2026, iz2023, iz2024, iz2025, iz2026, hk2024, hk2025, hk2026] as EditionPresentation[];
 export const presentationSources = extraSources as Source[];

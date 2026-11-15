@@ -28,5 +28,110 @@
       "basis": "Site policy protects articles, photographs, design and other content and prohibits unauthorized republication. Only independently structured, bounded objective award facts are recorded; no article, image, layout or raw page is republished. No written permission claimed; no access-control bypass or crawling.",
       "permissionReference": null
     }
+  },
+  {
+    "id": "kgrr-hk24-awards",
+    "title": "関東学連 第100回箱根 区間賞一覧 総合",
+    "url": "https://www.kgrr.org/files/competition/23/40/kukansyouichiran.PDF",
+    "collectedAt": "2026-11-15",
+    "locator": "p.1",
+    "coverage": "区間賞一覧 総合",
+    "revision": "Post-race official 区間賞一覧 総合, reviewed 2026-11-15",
+    "usage": {
+      "policyUrl": "https://www.kgrr.org/competition/?id=23",
+      "reviewedAt": "2026-11-15",
+      "basis": "Competition page and published PDF reviewed. No explicit automated-access restriction found on these pages. Only objective award/record facts independently structured; no PDF/page/image republished. Public access is not a permission grant.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "kgrr-hk24-section-5",
+    "title": "関東学連 第100回箱根 第5区 新記録標記",
+    "url": "https://www.kgrr.org/files/competition/23/40/5kukukankiroku.PDF",
+    "collectedAt": "2026-11-15",
+    "locator": "p.1",
+    "coverage": "第5区 新記録標記",
+    "revision": "Published section sheet labelled 速報; marker checked with final archived elapsed result; not used for final cumulative ranks",
+    "usage": {
+      "policyUrl": "https://www.kgrr.org/competition/?id=23",
+      "reviewedAt": "2026-11-15",
+      "basis": "Competition page and published PDF reviewed. No explicit automated-access restriction found on these pages. Only objective award/record facts independently structured; no PDF/page/image republished. Public access is not a permission grant.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "kgrr-hk25-awards",
+    "title": "関東学連 第101回箱根 区間賞一覧 総合",
+    "url": "https://www.kgrr.org/files/competition/106/40/kukannsyouitirann.PDF",
+    "collectedAt": "2026-11-15",
+    "locator": "p.1",
+    "coverage": "区間賞一覧 総合",
+    "revision": "Post-race official 区間賞一覧 総合, reviewed 2026-11-15",
+    "usage": {
+      "policyUrl": "https://www.kgrr.org/competition/?id=106",
+      "reviewedAt": "2026-11-15",
+      "basis": "Competition page and published PDF reviewed. No explicit automated-access restriction found on these pages. Only objective award/record facts independently structured; no PDF/page/image republished. Public access is not a permission grant.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "kgrr-hk25-section-2",
+    "title": "関東学連 第101回箱根 第2区 新記録標記",
+    "url": "https://www.kgrr.org/files/competition/106/40/niku.PDF",
+    "collectedAt": "2026-11-15",
+    "locator": "p.1",
+    "coverage": "第2区 新記録標記",
+    "revision": "Published section sheet labelled 速報; marker checked with final archived elapsed result; not used for final cumulative ranks",
+    "usage": {
+      "policyUrl": "https://www.kgrr.org/competition/?id=106",
+      "reviewedAt": "2026-11-15",
+      "basis": "Competition page and published PDF reviewed. No explicit automated-access restriction found on these pages. Only objective award/record facts independently structured; no PDF/page/image republished. Public access is not a permission grant.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "kgrr-hk26-awards",
+    "title": "関東学連 第102回箱根 区間賞一覧 総合",
+    "url": "https://www.kgrr.org/files/competition/125/40/hukurokukannsyou.PDF",
+    "collectedAt": "2026-11-15",
+    "locator": "p.1",
+    "coverage": "区間賞一覧 総合",
+    "revision": "Post-race official 区間賞一覧 総合, reviewed 2026-11-15",
+    "usage": {
+      "policyUrl": "https://www.kgrr.org/competition/?id=125",
+      "reviewedAt": "2026-11-15",
+      "basis": "Competition page and published PDF reviewed. No explicit automated-access restriction found on these pages. Only objective award/record facts independently structured; no PDF/page/image republished. Public access is not a permission grant.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "kgrr-hk26-section-1",
+    "title": "関東学連 第102回箱根 第1区 新記録標記",
+    "url": "https://www.kgrr.org/files/competition/125/40/1%E5%8C%BA%E5%8C%BA%E9%96%93%E8%A8%98%E9%8C%B2.PDF",
+    "collectedAt": "2026-11-15",
+    "locator": "p.1",
+    "coverage": "第1区 新記録標記",
+    "revision": "Published section sheet labelled 速報; marker checked with final archived elapsed result; not used for final cumulative ranks",
+    "usage": {
+      "policyUrl": "https://www.kgrr.org/competition/?id=125",
+      "reviewedAt": "2026-11-15",
+      "basis": "Competition page and published PDF reviewed. No explicit automated-access restriction found on these pages. Only objective award/record facts independently structured; no PDF/page/image republished. Public access is not a permission grant.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "ntv-hakone-current-records-102",
+    "title": "日本テレビ 箱根駅伝 大会記録（第102回終了時）",
+    "url": "https://www.ntv.co.jp/hakone/record/",
+    "collectedAt": "2026-11-14",
+    "locator": "区間記録 table, sections 1–10; route-change notes",
+    "coverage": "Current official section-record facts through edition 102; no page/article/image republication",
+    "revision": "第102回（2026）終了時; checked 2026-11-14",
+    "usage": {
+      "policyUrl": "https://www.ntv.co.jp/ntv_notice/rights.html",
+      "reviewedAt": "2026-11-15",
+      "basis": "Reviewed rights and terms pages. They protect broadcasts, photographs, text, logos and other copyrighted expression and prohibit unauthorized republication. Only independently structured objective record facts are retained, not page content, imagery or layout; no claim of permission and no access restriction bypass.",
+      "permissionReference": null
+    }
   }
 ]

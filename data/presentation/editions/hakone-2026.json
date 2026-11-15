@@ -1,0 +1,522 @@
+{
+  "editionId": "hakone-2026",
+  "reviewedAt": "2026-11-15",
+  "revision": "Historical official archive as retrieved 2026-11-13",
+  "sourceId": "hakone-26-archive",
+  "cumulativeRankingBasis": "official-overall-elapsed",
+  "cumulative": [
+    {
+      "resultId": "hk26-result-01-5",
+      "entryId": "hk26-entry-01",
+      "timeSeconds": 19088,
+      "rank": null,
+      "sourceId": "hakone-26-archive",
+      "locator": "Detail table: 青山学院大学, outbound time; stage rank not provided here; outbound final, not road passage order",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-01-10",
+      "entryId": "hk26-entry-01",
+      "timeSeconds": 38254,
+      "rank": 1,
+      "sourceId": "hakone-26-archive",
+      "locator": "Official archive final overall result row; team team-aoyama-gakuin; final elapsed/rank (not return-only or road order)",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-02-5",
+      "entryId": "hk26-entry-02",
+      "timeSeconds": 19202,
+      "rank": null,
+      "sourceId": "hakone-26-archive",
+      "locator": "Detail table: 國學院大學, outbound time; stage rank not provided here; outbound final, not road passage order",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-02-10",
+      "entryId": "hk26-entry-02",
+      "timeSeconds": 38407,
+      "rank": 2,
+      "sourceId": "hakone-26-archive",
+      "locator": "Official archive final overall result row; team team-kokugakuin; final elapsed/rank (not return-only or road order)",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-03-5",
+      "entryId": "hk26-entry-03",
+      "timeSeconds": 19309,
+      "rank": null,
+      "sourceId": "hakone-26-archive",
+      "locator": "Detail table: 順天堂大学, outbound time; stage rank not provided here; outbound final, not road passage order",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-03-10",
+      "entryId": "hk26-entry-03",
+      "timeSeconds": 38635,
+      "rank": 3,
+      "sourceId": "hakone-26-archive",
+      "locator": "Official archive final overall result row; team team-juntendo; final elapsed/rank (not return-only or road order)",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-04-5",
+      "entryId": "hk26-entry-04",
+      "timeSeconds": 19106,
+      "rank": null,
+      "sourceId": "hakone-26-archive",
+      "locator": "Detail table: 早稲田大学, outbound time; stage rank not provided here; outbound final, not road passage order",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-04-10",
+      "entryId": "hk26-entry-04",
+      "timeSeconds": 38669,
+      "rank": 4,
+      "sourceId": "hakone-26-archive",
+      "locator": "Official archive final overall result row; team team-waseda; final elapsed/rank (not return-only or road order)",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-05-5",
+      "entryId": "hk26-entry-05",
+      "timeSeconds": 19184,
+      "rank": null,
+      "sourceId": "hakone-26-archive",
+      "locator": "Detail table: 中央大学, outbound time; stage rank not provided here; outbound final, not road passage order",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-05-10",
+      "entryId": "hk26-entry-05",
+      "timeSeconds": 38671,
+      "rank": 5,
+      "sourceId": "hakone-26-archive",
+      "locator": "Official archive final overall result row; team team-chuo; final elapsed/rank (not return-only or road order)",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-06-5",
+      "entryId": "hk26-entry-06",
+      "timeSeconds": 19380,
+      "rank": null,
+      "sourceId": "hakone-26-archive",
+      "locator": "Detail table: 駒澤大学, outbound time; stage rank not provided here; outbound final, not road passage order",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-06-10",
+      "entryId": "hk26-entry-06",
+      "timeSeconds": 38690,
+      "rank": 6,
+      "sourceId": "hakone-26-archive",
+      "locator": "Official archive final overall result row; team team-komazawa; final elapsed/rank (not return-only or road order)",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-07-5",
+      "entryId": "hk26-entry-07",
+      "timeSeconds": 19220,
+      "rank": null,
+      "sourceId": "hakone-26-archive",
+      "locator": "Detail table: 城西大学, outbound time; stage rank not provided here; outbound final, not road passage order",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-07-10",
+      "entryId": "hk26-entry-07",
+      "timeSeconds": 38777,
+      "rank": 7,
+      "sourceId": "hakone-26-archive",
+      "locator": "Official archive final overall result row; team team-josai; final elapsed/rank (not return-only or road order)",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-08-5",
+      "entryId": "hk26-entry-08",
+      "timeSeconds": 19442,
+      "rank": null,
+      "sourceId": "hakone-26-archive",
+      "locator": "Detail table: 創価大学, outbound time; stage rank not provided here; outbound final, not road passage order",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-08-10",
+      "entryId": "hk26-entry-08",
+      "timeSeconds": 39100,
+      "rank": 8,
+      "sourceId": "hakone-26-archive",
+      "locator": "Official archive final overall result row; team team-soka; final elapsed/rank (not return-only or road order)",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-09-5",
+      "entryId": "hk26-entry-09",
+      "timeSeconds": 19825,
+      "rank": null,
+      "sourceId": "hakone-26-archive",
+      "locator": "Detail table: 帝京大学, outbound time; stage rank not provided here; outbound final, not road passage order",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-09-10",
+      "entryId": "hk26-entry-09",
+      "timeSeconds": 39195,
+      "rank": 9,
+      "sourceId": "hakone-26-archive",
+      "locator": "Official archive final overall result row; team team-teikyo; final elapsed/rank (not return-only or road order)",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-10-5",
+      "entryId": "hk26-entry-10",
+      "timeSeconds": 19500,
+      "rank": null,
+      "sourceId": "hakone-26-archive",
+      "locator": "Detail table: 日本大学, outbound time; stage rank not provided here; outbound final, not road passage order",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-10-10",
+      "entryId": "hk26-entry-10",
+      "timeSeconds": 39236,
+      "rank": 10,
+      "sourceId": "hakone-26-archive",
+      "locator": "Official archive final overall result row; team team-nihon; final elapsed/rank (not return-only or road order)",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-11-5",
+      "entryId": "hk26-entry-11",
+      "timeSeconds": 19582,
+      "rank": null,
+      "sourceId": "hakone-26-archive",
+      "locator": "Detail table: 中央学院大学, outbound time; stage rank not provided here; outbound final, not road passage order",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-11-10",
+      "entryId": "hk26-entry-11",
+      "timeSeconds": 39291,
+      "rank": 11,
+      "sourceId": "hakone-26-archive",
+      "locator": "Official archive final overall result row; team team-chuo-gakuin; final elapsed/rank (not return-only or road order)",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-12-5",
+      "entryId": "hk26-entry-12",
+      "timeSeconds": 19570,
+      "rank": null,
+      "sourceId": "hakone-26-archive",
+      "locator": "Detail table: 東海大学, outbound time; stage rank not provided here; outbound final, not road passage order",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-12-10",
+      "entryId": "hk26-entry-12",
+      "timeSeconds": 39301,
+      "rank": 12,
+      "sourceId": "hakone-26-archive",
+      "locator": "Official archive final overall result row; team team-tokai; final elapsed/rank (not return-only or road order)",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-13-5",
+      "entryId": "hk26-entry-13",
+      "timeSeconds": 19705,
+      "rank": null,
+      "sourceId": "hakone-26-archive",
+      "locator": "Detail table: 神奈川大学, outbound time; stage rank not provided here; outbound final, not road passage order",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-13-10",
+      "entryId": "hk26-entry-13",
+      "timeSeconds": 39309,
+      "rank": 13,
+      "sourceId": "hakone-26-archive",
+      "locator": "Official archive final overall result row; team team-kanagawa; final elapsed/rank (not return-only or road order)",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-14-5",
+      "entryId": "hk26-entry-14",
+      "timeSeconds": 19735,
+      "rank": null,
+      "sourceId": "hakone-26-archive",
+      "locator": "Detail table: 東洋大学, outbound time; stage rank not provided here; outbound final, not road passage order",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-14-10",
+      "entryId": "hk26-entry-14",
+      "timeSeconds": 39387,
+      "rank": 14,
+      "sourceId": "hakone-26-archive",
+      "locator": "Official archive final overall result row; team team-toyo; final elapsed/rank (not return-only or road order)",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-15-5",
+      "entryId": "hk26-entry-15",
+      "timeSeconds": 19804,
+      "rank": null,
+      "sourceId": "hakone-26-archive",
+      "locator": "Detail table: 日本体育大学, outbound time; stage rank not provided here; outbound final, not road passage order",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-15-10",
+      "entryId": "hk26-entry-15",
+      "timeSeconds": 39402,
+      "rank": 15,
+      "sourceId": "hakone-26-archive",
+      "locator": "Official archive final overall result row; team team-nippon-sport-science; final elapsed/rank (not return-only or road order)",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-16-5",
+      "entryId": "hk26-entry-16",
+      "timeSeconds": 19845,
+      "rank": null,
+      "sourceId": "hakone-26-archive",
+      "locator": "Detail table: 東京国際大学, outbound time; stage rank not provided here; outbound final, not road passage order",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-16-10",
+      "entryId": "hk26-entry-16",
+      "timeSeconds": 39496,
+      "rank": 16,
+      "sourceId": "hakone-26-archive",
+      "locator": "Official archive final overall result row; team team-tokyo-international; final elapsed/rank (not return-only or road order)",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-17-5",
+      "entryId": "hk26-entry-17",
+      "timeSeconds": 19648,
+      "rank": null,
+      "sourceId": "hakone-26-archive",
+      "locator": "Detail table: 山梨学院大学, outbound time; stage rank not provided here; outbound final, not road passage order",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-17-10",
+      "entryId": "hk26-entry-17",
+      "timeSeconds": 39500,
+      "rank": 17,
+      "sourceId": "hakone-26-archive",
+      "locator": "Official archive final overall result row; team team-university-ae98ed970e35; final elapsed/rank (not return-only or road order)",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-18-5",
+      "entryId": "hk26-entry-18",
+      "timeSeconds": 19682,
+      "rank": null,
+      "sourceId": "hakone-26-archive",
+      "locator": "Detail table: 東京農業大学, outbound time; stage rank not provided here; outbound final, not road passage order",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-18-10",
+      "entryId": "hk26-entry-18",
+      "timeSeconds": 39672,
+      "rank": 18,
+      "sourceId": "hakone-26-archive",
+      "locator": "Official archive final overall result row; team team-university-dfbc7ad54b3f; final elapsed/rank (not return-only or road order)",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-19-5",
+      "entryId": "hk26-entry-19",
+      "timeSeconds": 19843,
+      "rank": null,
+      "sourceId": "hakone-26-archive",
+      "locator": "Detail table: 大東文化大学, outbound time; stage rank not provided here; outbound final, not road passage order",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-19-10",
+      "entryId": "hk26-entry-19",
+      "timeSeconds": 39897,
+      "rank": 19,
+      "sourceId": "hakone-26-archive",
+      "locator": "Official archive final overall result row; team team-daito-bunka; final elapsed/rank (not return-only or road order)",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-20-5",
+      "entryId": "hk26-entry-20",
+      "timeSeconds": 19985,
+      "rank": null,
+      "sourceId": "hakone-26-archive",
+      "locator": "Detail table: 立教大学, outbound time; stage rank not provided here; outbound final, not road passage order",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-20-10",
+      "entryId": "hk26-entry-20",
+      "timeSeconds": 39958,
+      "rank": 20,
+      "sourceId": "hakone-26-archive",
+      "locator": "Official archive final overall result row; team team-rikkyo; final elapsed/rank (not return-only or road order)",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-21-5",
+      "entryId": "hk26-entry-21",
+      "timeSeconds": 19922,
+      "rank": null,
+      "sourceId": "hakone-26-archive",
+      "locator": "Detail table: 関東学生連合, outbound time; stage rank not provided here; outbound final, not road passage order",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    },
+    {
+      "resultId": "hk26-result-21-10",
+      "entryId": "hk26-entry-21",
+      "timeSeconds": 39455,
+      "rank": null,
+      "sourceId": "hakone-26-archive",
+      "locator": "Official archive final overall result row; team team-kanto-selection; final elapsed/rank (not return-only or road order)",
+      "revision": "Historical official archive as retrieved 2026-11-13"
+    }
+  ],
+  "honors": [
+    {
+      "id": "hk26-result-02-1/section-award",
+      "resultId": "hk26-result-02-1",
+      "type": "section-award",
+      "sourceId": "kgrr-hk26-awards",
+      "locator": "p.1 区間賞一覧 総合; section 1; university kokugakuin; printed elapsed 3628s",
+      "revision": "Official post-race award list; reviewed 2026-11-15"
+    },
+    {
+      "id": "hk26-result-02-1/section-record",
+      "resultId": "hk26-result-02-1",
+      "type": "section-record",
+      "sourceId": "kgrr-hk26-awards",
+      "locator": "p.1 区間賞一覧 総合; section 1; explicit ◎ new-record marker",
+      "revision": "Official post-race award list; reviewed 2026-11-15"
+    },
+    {
+      "id": "hk26-result-07-2/section-award",
+      "resultId": "hk26-result-07-2",
+      "type": "section-award",
+      "sourceId": "kgrr-hk26-awards",
+      "locator": "p.1 区間賞一覧 総合; section 2; university josai; printed elapsed 3909s",
+      "revision": "Official post-race award list; reviewed 2026-11-15"
+    },
+    {
+      "id": "hk26-result-07-2/section-record",
+      "resultId": "hk26-result-07-2",
+      "type": "section-record",
+      "sourceId": "kgrr-hk26-awards",
+      "locator": "p.1 区間賞一覧 総合; section 2; explicit ◎ new-record marker",
+      "revision": "Official post-race award list; reviewed 2026-11-15"
+    },
+    {
+      "id": "hk26-result-05-3/section-award",
+      "resultId": "hk26-result-05-3",
+      "type": "section-award",
+      "sourceId": "kgrr-hk26-awards",
+      "locator": "p.1 区間賞一覧 総合; section 3; university chuo; printed elapsed 3608s",
+      "revision": "Official post-race award list; reviewed 2026-11-15"
+    },
+    {
+      "id": "hk26-result-04-4/section-award",
+      "resultId": "hk26-result-04-4",
+      "type": "section-award",
+      "sourceId": "kgrr-hk26-awards",
+      "locator": "p.1 区間賞一覧 総合; section 4; university waseda; printed elapsed 3601s",
+      "revision": "Official post-race award list; reviewed 2026-11-15"
+    },
+    {
+      "id": "hk26-result-01-5/section-award",
+      "resultId": "hk26-result-01-5",
+      "type": "section-award",
+      "sourceId": "kgrr-hk26-awards",
+      "locator": "p.1 区間賞一覧 総合; section 5; university aoyama-gakuin; printed elapsed 4036s",
+      "revision": "Official post-race award list; reviewed 2026-11-15"
+    },
+    {
+      "id": "hk26-result-01-5/section-record",
+      "resultId": "hk26-result-01-5",
+      "type": "section-record",
+      "sourceId": "kgrr-hk26-awards",
+      "locator": "p.1 区間賞一覧 総合; section 5; explicit ◎ new-record marker",
+      "revision": "Official post-race award list; reviewed 2026-11-15"
+    },
+    {
+      "id": "hk26-result-08-6/section-award",
+      "resultId": "hk26-result-08-6",
+      "type": "section-award",
+      "sourceId": "kgrr-hk26-awards",
+      "locator": "p.1 区間賞一覧 総合; section 6; university soka; printed elapsed 3408s",
+      "revision": "Official post-race award list; reviewed 2026-11-15"
+    },
+    {
+      "id": "hk26-result-02-7/section-award",
+      "resultId": "hk26-result-02-7",
+      "type": "section-award",
+      "sourceId": "kgrr-hk26-awards",
+      "locator": "p.1 区間賞一覧 総合; section 7; university kokugakuin; printed elapsed 3654s",
+      "revision": "Official post-race award list; reviewed 2026-11-15"
+    },
+    {
+      "id": "hk26-result-01-8/section-award",
+      "resultId": "hk26-result-01-8",
+      "type": "section-award",
+      "sourceId": "kgrr-hk26-awards",
+      "locator": "p.1 区間賞一覧 総合; section 8; university aoyama-gakuin; printed elapsed 3825s",
+      "revision": "Official post-race award list; reviewed 2026-11-15"
+    },
+    {
+      "id": "hk26-result-01-8/section-record",
+      "resultId": "hk26-result-01-8",
+      "type": "section-record",
+      "sourceId": "kgrr-hk26-awards",
+      "locator": "p.1 区間賞一覧 総合; section 8; explicit ◎ new-record marker",
+      "revision": "Official post-race award list; reviewed 2026-11-15"
+    },
+    {
+      "id": "hk26-result-01-9/section-award",
+      "resultId": "hk26-result-01-9",
+      "type": "section-award",
+      "sourceId": "kgrr-hk26-awards",
+      "locator": "p.1 区間賞一覧 総合; section 9; university aoyama-gakuin; printed elapsed 4058s",
+      "revision": "Official post-race award list; reviewed 2026-11-15"
+    },
+    {
+      "id": "hk26-result-06-10/section-award",
+      "resultId": "hk26-result-06-10",
+      "type": "section-award",
+      "sourceId": "kgrr-hk26-awards",
+      "locator": "p.1 区間賞一覧 総合; section 10; university komazawa; printed elapsed 4051s",
+      "revision": "Official post-race award list; reviewed 2026-11-15"
+    },
+    {
+      "id": "hk26-result-06-10/section-record",
+      "resultId": "hk26-result-06-10",
+      "type": "section-record",
+      "sourceId": "kgrr-hk26-awards",
+      "locator": "p.1 区間賞一覧 総合; section 10; explicit ◎ new-record marker",
+      "revision": "Official post-race award list; reviewed 2026-11-15"
+    },
+    {
+      "id": "hk26-result-05-1/section-record",
+      "resultId": "hk26-result-05-1",
+      "type": "section-record",
+      "sourceId": "kgrr-hk26-section-1",
+      "locator": "p.1; explicit ◎ in section-record column; 1区, 藤田大智, 中央大, 1:00:37; final elapsed matches existing verified SectionResult",
+      "revision": "KGRR published section sheet (速報); final elapsed independently confirmed by archived result source ntv-hk26-05"
+    }
+  ],
+  "notes": [
+    "箱根仅补入官方档案明确提供的5区往路完赛用时与10区最终综合用时/顺位。往路官方顺位尚未充分核验，保持空值。",
+    "其余中继站缺少可可靠读取并核验的赛后官方累计表；不使用区间求和、速報通过次序或复路走行顺伪装官方综合排名。",
+    "1区関東学生連合川崎楓1:00:38为参考成绩；未获得官方区间纪录资格，不标区間新。"
+  ]
+}

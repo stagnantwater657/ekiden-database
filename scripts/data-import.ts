@@ -3,6 +3,7 @@ import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { validateSectionRecords } from "../lib/race-profile.ts";
 import { validatePresentation } from "../lib/presentation.ts";
+import { validateAthleteProfiles } from "../lib/athlete-facts.ts";
 import { assembleDatabase } from "../lib/data-assembly.ts";
 import { validateDatabase } from "../lib/repository.ts";
 import {
@@ -85,6 +86,7 @@ import { assembleDatabase } from '../lib/data-assembly.ts';\nimport type { Regis
 }
 validateDatabase(database);
 validatePresentation(database);
+validateAthleteProfiles(database);
 validateSectionRecords(database);
 for (const batch of batches) validateImport(registry, batches, batch);
 const reports = database.editions.map((e) => importReport(database, e.id));

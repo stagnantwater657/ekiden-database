@@ -3,6 +3,7 @@ import type { Source } from "../lib/model";
 import type { AthleteArchive } from "../lib/profiles";
 import { yearRange } from "../lib/profiles";
 import { formatTime, queryHref } from "../lib/query";
+import { formatPersonalBest, type PersonalBestEvent } from "../lib/athlete-facts";
 import { ResultBadges } from "./result-badges";
 
 export function ProfileSources({ sources }: { sources: Source[] }) {
@@ -37,6 +38,11 @@ export function ProfileSources({ sources }: { sources: Source[] }) {
 
 export function AthleteProfile({ profile }: { profile: AthleteArchive }) {
   const { athlete } = profile;
+  const pbEvents: { id: PersonalBestEvent; label: string }[] = [
+    { id: "5000m", label: "5000m" },
+    { id: "10000m", label: "10000m" },
+    { id: "half-marathon", label: "半程马拉松" },
+  ];
   return (
     <>
       <header className="archive-header">
@@ -97,11 +103,11 @@ export function AthleteProfile({ profile }: { profile: AthleteArchive }) {
           </div>
           <div>
             <dt>出生日期</dt>
-            <dd>{athlete.birthDate ?? "尚未收录"}</dd>
+            <dd>{profile.supplement?.birthDate?.value ?? athlete.birthDate ?? "尚未收录"}</dd>
           </div>
           <div>
             <dt>出身高中</dt>
-            <dd>尚未收录</dd>
+            <dd>{profile.supplement?.highSchool?.value ?? "尚未收录"}</dd>
           </div>
           <div>
             <dt>当前所属大学</dt>
@@ -156,22 +162,40 @@ export function AthleteProfile({ profile }: { profile: AthleteArchive }) {
             独立项目成绩 · 不以驿传区间用时推算
           </p>
         </div>
-        <div className="grid grid-cols-3 divide-x divide-[var(--line)] border-y border-[var(--line)]">
-          {["5000m", "10000m", "半程马拉松"].map((event) => (
-            <div key={event} className="px-3 py-5 sm:px-5 first:pl-0">
-              <h3 className="text-sm font-semibold">{event}</h3>
-              <p
-                className="mt-2 font-mono text-3xl tabular-nums"
-                aria-label={`${event} 成绩尚未收录`}
-              >
-                —
-              </p>
-              <p className="mt-2 text-xs text-[var(--muted)]">尚未收录</p>
-            </div>
-          ))}
+        <div className="grid grid-cols-1 divide-y divide-[var(--line)] border-y border-[var(--line)] sm:grid-cols-3 sm:divide-x sm:divide-y-0">
+          {pbEvents.map((event) => {
+            const pb = profile.supplement?.personalBests.find((item) => item.event === event.id);
+            const source = pb && profile.sources.find((item) => item.id === pb.sourceId);
+            return (
+              <div key={event.id} className="min-w-0 px-3 py-5 first:pl-0 sm:px-5">
+                <h3 className="text-sm font-semibold">{event.label}</h3>
+                <p
+                  className="mt-2 font-mono text-2xl tabular-nums sm:text-3xl"
+                  aria-label={pb ? `${event.label} 个人最佳 ${formatPersonalBest(pb)}` : `${event.label} 成绩尚未收录`}
+                >
+                  {pb ? formatPersonalBest(pb) : "—"}
+                </p>
+                {pb ? (
+                  <>
+                    <p className="mt-2 text-xs text-[var(--muted)]">
+                      <time dateTime={pb.achievedOn}>{pb.achievedOn}</time>
+                    </p>
+                    <p className="mt-1 break-words text-xs text-[var(--muted)]">{pb.meet}</p>
+                    {source && (
+                      <a className="archive-link mt-2 inline-block text-xs" href={source.url}>
+                        成绩来源 ↗
+                      </a>
+                    )}
+                  </>
+                ) : (
+                  <p className="mt-2 text-xs text-[var(--muted)]">尚未收录</p>
+                )}
+              </div>
+            );
+          })}
         </div>
         <p className="mt-3 text-xs text-[var(--muted)]">
-          后续补录将同时列出创造日期、赛事与成绩来源。
+          仅展示已核实的独立项目成绩，不使用驿传区间用时推算；缺失项目不代表选手没有参赛。
         </p>
       </section>
       <section className="archive-section" aria-labelledby="athlete-history">

@@ -139,7 +139,7 @@
     "title": "日本テレビ 箱根駅伝 記録速報 第100回 各区間終点（中継所）",
     "url": "https://www.ntv.co.jp/hakone/assets_data/100/Sokuhou_020.json",
     "collectedAt": "2026-11-15",
-    "locator": "Sokuhou_020 / 030 / 040 / 050 / 060 / 070 / 080 / 090 / 100 / 110.json (10 中継所), SOGOU array",
+    "locator": "Sokuhou_020 / 030 / 040 / 050 / 060 / 070 / 080 / 090 / 100 / 110.json (10 中継所, SOGOU array); human pages /hakone/backnumber/100/tsuka/<中継所>.html",
     "coverage": "箱根駅伝 第100回 23校・10中継所 総合順位・総合タイム・繰り上げフラグのみ。走行順（TSUKA）は採用せず、PDF・画像・番組映像は保存しない。",
     "revision": "記録速報 last updated 2024/01/03 14:12:01",
     "usage": {
@@ -154,7 +154,7 @@
     "title": "日本テレビ 箱根駅伝 記録速報 第101回 各区間終点（中継所）",
     "url": "https://www.ntv.co.jp/hakone/assets_data/101/Sokuhou_020.json",
     "collectedAt": "2026-11-15",
-    "locator": "Sokuhou_020 / 030 / 040 / 050 / 060 / 070 / 080 / 090 / 100 / 110.json (10 中継所), SOGOU array",
+    "locator": "Sokuhou_020 / 030 / 040 / 050 / 060 / 070 / 080 / 090 / 100 / 110.json (10 中継所, SOGOU array); human pages /hakone/backnumber/101/tsuka/<中継所>.html",
     "coverage": "箱根駅伝 第101回 20校＋関東学生連合・10中継所 総合順位・総合タイム・繰り上げフラグのみ。走行順（TSUKA）は採用せず、PDF・画像・番組映像は保存しない。",
     "revision": "記録速報 last updated 2025/01/03 13:49:40",
     "usage": {
@@ -169,7 +169,7 @@
     "title": "日本テレビ 箱根駅伝 記録速報 第102回 各区間終点（中継所）",
     "url": "https://www.ntv.co.jp/hakone/assets_data/102/Sokuhou_020.json",
     "collectedAt": "2026-11-15",
-    "locator": "Sokuhou_020 / 030 / 040 / 050 / 060 / 070 / 080 / 090 / 100 / 110.json (10 中継所), SOGOU array",
+    "locator": "Sokuhou_020 / 030 / 040 / 050 / 060 / 070 / 080 / 090 / 100 / 110.json (10 中継所, SOGOU array); human pages /hakone/backnumber/102/tsuka/<中継所>.html",
     "coverage": "箱根駅伝 第102回 20校＋関東学生連合・10中継所 総合順位・総合タイム・繰り上げフラグのみ。走行順（TSUKA）は採用せず、PDF・画像・番組映像は保存しない。",
     "revision": "記録速報 last updated 2026/01/03 16:30:37",
     "usage": {

@@ -11,7 +11,7 @@
       "timeSeconds": 3771,
       "rank": 10,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第1区終点 鶴見中継所: printed 総合順位 10 and 総合タイム 1:02:51; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第1区終点 鶴見中継所 (Sokuhou_020.json, /backnumber/101/tsuka/020.html): printed 総合順位 10 and 総合タイム 1:02:51; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (020)"
     },
     {
@@ -20,7 +20,7 @@
       "timeSeconds": 7715,
       "rank": 3,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第2区終点 戸塚中継所: printed 総合順位 3 and 総合タイム 2:08:35; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第2区終点 戸塚中継所 (Sokuhou_030.json, /backnumber/101/tsuka/030.html): printed 総合順位 3 and 総合タイム 2:08:35; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (030)"
     },
     {
@@ -29,7 +29,7 @@
       "timeSeconds": 11426,
       "rank": 3,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第3区終点 平塚中継所: printed 総合順位 3 and 総合タイム 3:10:26; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第3区終点 平塚中継所 (Sokuhou_040.json, /backnumber/101/tsuka/040.html): printed 総合順位 3 and 総合タイム 3:10:26; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (040)"
     },
     {
@@ -38,7 +38,7 @@
       "timeSeconds": 15050,
       "rank": 2,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第4区終点 小田原中継所: printed 総合順位 2 and 総合タイム 4:10:50; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第4区終点 小田原中継所 (Sokuhou_050.json, /backnumber/101/tsuka/050.html): printed 総合順位 2 and 総合タイム 4:10:50; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (050)"
     },
     {
@@ -47,7 +47,7 @@
       "timeSeconds": 19201,
       "rank": 1,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖: printed 総合順位 1 and 総合タイム 5:20:01; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖 (Sokuhou_060.json, /backnumber/101/tsuka/060.html): printed 総合順位 1 and 総合タイム 5:20:01; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (060)"
     },
     {
@@ -56,7 +56,7 @@
       "timeSeconds": 22608,
       "rank": 1,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所: printed 総合順位 1 and 総合タイム 6:16:48; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所 (Sokuhou_070.json, /backnumber/101/tsuka/070.html): printed 総合順位 1 and 総合タイム 6:16:48; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (070)"
     },
     {
@@ -65,7 +65,7 @@
       "timeSeconds": 26398,
       "rank": 1,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第7区終点 平塚中継所: printed 総合順位 1 and 総合タイム 7:19:58; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第7区終点 平塚中継所 (Sokuhou_080.json, /backnumber/101/tsuka/080.html): printed 総合順位 1 and 総合タイム 7:19:58; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (080)"
     },
     {
@@ -74,7 +74,7 @@
       "timeSeconds": 30252,
       "rank": 1,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第8区終点 戸塚中継所: printed 総合順位 1 and 総合タイム 8:24:12; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第8区終点 戸塚中継所 (Sokuhou_090.json, /backnumber/101/tsuka/090.html): printed 総合順位 1 and 総合タイム 8:24:12; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (090)"
     },
     {
@@ -83,7 +83,7 @@
       "timeSeconds": 34372,
       "rank": 1,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第9区終点 鶴見中継所: printed 総合順位 1 and 総合タイム 9:32:52; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第9区終点 鶴見中継所 (Sokuhou_100.json, /backnumber/101/tsuka/100.html): printed 総合順位 1 and 総合タイム 9:32:52; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (100)"
     },
     {
@@ -92,7 +92,7 @@
       "timeSeconds": 38479,
       "rank": 1,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第10区終点 大手町: printed 総合順位 1 and 総合タイム 10:41:19; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第10区終点 大手町 (Sokuhou_110.json, /backnumber/101/tsuka/110.html): printed 総合順位 1 and 総合タイム 10:41:19; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (110)"
     },
     {
@@ -101,7 +101,7 @@
       "timeSeconds": 3759,
       "rank": 2,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第1区終点 鶴見中継所: printed 総合順位 2 and 総合タイム 1:02:39; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第1区終点 鶴見中継所 (Sokuhou_020.json, /backnumber/101/tsuka/020.html): printed 総合順位 2 and 総合タイム 1:02:39; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (020)"
     },
     {
@@ -110,7 +110,7 @@
       "timeSeconds": 7733,
       "rank": 5,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第2区終点 戸塚中継所: printed 総合順位 5 and 総合タイム 2:08:53; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第2区終点 戸塚中継所 (Sokuhou_030.json, /backnumber/101/tsuka/030.html): printed 総合順位 5 and 総合タイム 2:08:53; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (030)"
     },
     {
@@ -119,7 +119,7 @@
       "timeSeconds": 11458,
       "rank": 4,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第3区終点 平塚中継所: printed 総合順位 4 and 総合タイム 3:10:58; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第3区終点 平塚中継所 (Sokuhou_040.json, /backnumber/101/tsuka/040.html): printed 総合順位 4 and 総合タイム 3:10:58; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (040)"
     },
     {
@@ -128,7 +128,7 @@
       "timeSeconds": 15142,
       "rank": 4,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第4区終点 小田原中継所: printed 総合順位 4 and 総合タイム 4:12:22; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第4区終点 小田原中継所 (Sokuhou_050.json, /backnumber/101/tsuka/050.html): printed 総合順位 4 and 総合タイム 4:12:22; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (050)"
     },
     {
@@ -137,7 +137,7 @@
       "timeSeconds": 19397,
       "rank": 4,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖: printed 総合順位 4 and 総合タイム 5:23:17; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖 (Sokuhou_060.json, /backnumber/101/tsuka/060.html): printed 総合順位 4 and 総合タイム 5:23:17; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (060)"
     },
     {
@@ -146,7 +146,7 @@
       "timeSeconds": 22855,
       "rank": 3,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所: printed 総合順位 3 and 総合タイム 6:20:55; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所 (Sokuhou_070.json, /backnumber/101/tsuka/070.html): printed 総合順位 3 and 総合タイム 6:20:55; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (070)"
     },
     {
@@ -155,7 +155,7 @@
       "timeSeconds": 26498,
       "rank": 2,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第7区終点 平塚中継所: printed 総合順位 2 and 総合タイム 7:21:38; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第7区終点 平塚中継所 (Sokuhou_080.json, /backnumber/101/tsuka/080.html): printed 総合順位 2 and 総合タイム 7:21:38; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (080)"
     },
     {
@@ -164,7 +164,7 @@
       "timeSeconds": 30369,
       "rank": 2,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第8区終点 戸塚中継所: printed 総合順位 2 and 総合タイム 8:26:09; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第8区終点 戸塚中継所 (Sokuhou_090.json, /backnumber/101/tsuka/090.html): printed 総合順位 2 and 総合タイム 8:26:09; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (090)"
     },
     {
@@ -173,7 +173,7 @@
       "timeSeconds": 34513,
       "rank": 2,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第9区終点 鶴見中継所: printed 総合順位 2 and 総合タイム 9:35:13; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第9区終点 鶴見中継所 (Sokuhou_100.json, /backnumber/101/tsuka/100.html): printed 総合順位 2 and 総合タイム 9:35:13; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (100)"
     },
     {
@@ -182,7 +182,7 @@
       "timeSeconds": 38647,
       "rank": 2,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第10区終点 大手町: printed 総合順位 2 and 総合タイム 10:44:07; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第10区終点 大手町 (Sokuhou_110.json, /backnumber/101/tsuka/110.html): printed 総合順位 2 and 総合タイム 10:44:07; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (110)"
     },
     {
@@ -191,7 +191,7 @@
       "timeSeconds": 3767,
       "rank": 6,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第1区終点 鶴見中継所: printed 総合順位 6 and 総合タイム 1:02:47; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第1区終点 鶴見中継所 (Sokuhou_020.json, /backnumber/101/tsuka/020.html): printed 総合順位 6 and 総合タイム 1:02:47; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (020)"
     },
     {
@@ -200,7 +200,7 @@
       "timeSeconds": 7765,
       "rank": 8,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第2区終点 戸塚中継所: printed 総合順位 8 and 総合タイム 2:09:25; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第2区終点 戸塚中継所 (Sokuhou_030.json, /backnumber/101/tsuka/030.html): printed 総合順位 8 and 総合タイム 2:09:25; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (030)"
     },
     {
@@ -209,7 +209,7 @@
       "timeSeconds": 11479,
       "rank": 6,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第3区終点 平塚中継所: printed 総合順位 6 and 総合タイム 3:11:19; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第3区終点 平塚中継所 (Sokuhou_040.json, /backnumber/101/tsuka/040.html): printed 総合順位 6 and 総合タイム 3:11:19; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (040)"
     },
     {
@@ -218,7 +218,7 @@
       "timeSeconds": 15148,
       "rank": 5,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第4区終点 小田原中継所: printed 総合順位 5 and 総合タイム 4:12:28; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第4区終点 小田原中継所 (Sokuhou_050.json, /backnumber/101/tsuka/050.html): printed 総合順位 5 and 総合タイム 4:12:28; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (050)"
     },
     {
@@ -227,7 +227,7 @@
       "timeSeconds": 19526,
       "rank": 6,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖: printed 総合順位 6 and 総合タイム 5:25:26; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖 (Sokuhou_060.json, /backnumber/101/tsuka/060.html): printed 総合順位 6 and 総合タイム 5:25:26; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (060)"
     },
     {
@@ -236,7 +236,7 @@
       "timeSeconds": 23107,
       "rank": 7,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所: printed 総合順位 7 and 総合タイム 6:25:07; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所 (Sokuhou_070.json, /backnumber/101/tsuka/070.html): printed 総合順位 7 and 総合タイム 6:25:07; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (070)"
     },
     {
@@ -245,7 +245,7 @@
       "timeSeconds": 26848,
       "rank": 6,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第7区終点 平塚中継所: printed 総合順位 6 and 総合タイム 7:27:28; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第7区終点 平塚中継所 (Sokuhou_080.json, /backnumber/101/tsuka/080.html): printed 総合順位 6 and 総合タイム 7:27:28; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (080)"
     },
     {
@@ -254,7 +254,7 @@
       "timeSeconds": 30734,
       "rank": 5,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第8区終点 戸塚中継所: printed 総合順位 5 and 総合タイム 8:32:14; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第8区終点 戸塚中継所 (Sokuhou_090.json, /backnumber/101/tsuka/090.html): printed 総合順位 5 and 総合タイム 8:32:14; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (090)"
     },
     {
@@ -263,7 +263,7 @@
       "timeSeconds": 34882,
       "rank": 4,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第9区終点 鶴見中継所: printed 総合順位 4 and 総合タイム 9:41:22; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第9区終点 鶴見中継所 (Sokuhou_100.json, /backnumber/101/tsuka/100.html): printed 総合順位 4 and 総合タイム 9:41:22; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (100)"
     },
     {
@@ -272,7 +272,7 @@
       "timeSeconds": 39047,
       "rank": 3,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第10区終点 大手町: printed 総合順位 3 and 総合タイム 10:50:47; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第10区終点 大手町 (Sokuhou_110.json, /backnumber/101/tsuka/110.html): printed 総合順位 3 and 総合タイム 10:50:47; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (110)"
     },
     {
@@ -281,7 +281,7 @@
       "timeSeconds": 3763,
       "rank": 4,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第1区終点 鶴見中継所: printed 総合順位 4 and 総合タイム 1:02:43; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第1区終点 鶴見中継所 (Sokuhou_020.json, /backnumber/101/tsuka/020.html): printed 総合順位 4 and 総合タイム 1:02:43; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (020)"
     },
     {
@@ -290,7 +290,7 @@
       "timeSeconds": 7784,
       "rank": 11,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第2区終点 戸塚中継所: printed 総合順位 11 and 総合タイム 2:09:44; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第2区終点 戸塚中継所 (Sokuhou_030.json, /backnumber/101/tsuka/030.html): printed 総合順位 11 and 総合タイム 2:09:44; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (030)"
     },
     {
@@ -299,7 +299,7 @@
       "timeSeconds": 11459,
       "rank": 5,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第3区終点 平塚中継所: printed 総合順位 5 and 総合タイム 3:10:59; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第3区終点 平塚中継所 (Sokuhou_040.json, /backnumber/101/tsuka/040.html): printed 総合順位 5 and 総合タイム 3:10:59; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (040)"
     },
     {
@@ -308,7 +308,7 @@
       "timeSeconds": 15179,
       "rank": 6,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第4区終点 小田原中継所: printed 総合順位 6 and 総合タイム 4:12:59; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第4区終点 小田原中継所 (Sokuhou_050.json, /backnumber/101/tsuka/050.html): printed 総合順位 6 and 総合タイム 4:12:59; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (050)"
     },
     {
@@ -317,7 +317,7 @@
       "timeSeconds": 19350,
       "rank": 3,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖: printed 総合順位 3 and 総合タイム 5:22:30; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖 (Sokuhou_060.json, /backnumber/101/tsuka/060.html): printed 総合順位 3 and 総合タイム 5:22:30; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (060)"
     },
     {
@@ -326,7 +326,7 @@
       "timeSeconds": 22875,
       "rank": 4,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所: printed 総合順位 4 and 総合タイム 6:21:15; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所 (Sokuhou_070.json, /backnumber/101/tsuka/070.html): printed 総合順位 4 and 総合タイム 6:21:15; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (070)"
     },
     {
@@ -335,7 +335,7 @@
       "timeSeconds": 26691,
       "rank": 4,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第7区終点 平塚中継所: printed 総合順位 4 and 総合タイム 7:24:51; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第7区終点 平塚中継所 (Sokuhou_080.json, /backnumber/101/tsuka/080.html): printed 総合順位 4 and 総合タイム 7:24:51; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (080)"
     },
     {
@@ -344,7 +344,7 @@
       "timeSeconds": 30645,
       "rank": 3,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第8区終点 戸塚中継所: printed 総合順位 3 and 総合タイム 8:30:45; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第8区終点 戸塚中継所 (Sokuhou_090.json, /backnumber/101/tsuka/090.html): printed 総合順位 3 and 総合タイム 8:30:45; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (090)"
     },
     {
@@ -353,7 +353,7 @@
       "timeSeconds": 34881,
       "rank": 3,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第9区終点 鶴見中継所: printed 総合順位 3 and 総合タイム 9:41:21; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第9区終点 鶴見中継所 (Sokuhou_100.json, /backnumber/101/tsuka/100.html): printed 総合順位 3 and 総合タイム 9:41:21; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (100)"
     },
     {
@@ -362,7 +362,7 @@
       "timeSeconds": 39057,
       "rank": 4,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第10区終点 大手町: printed 総合順位 4 and 総合タイム 10:50:57; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第10区終点 大手町 (Sokuhou_110.json, /backnumber/101/tsuka/110.html): printed 総合順位 4 and 総合タイム 10:50:57; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (110)"
     },
     {
@@ -371,7 +371,7 @@
       "timeSeconds": 3667,
       "rank": 1,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第1区終点 鶴見中継所: printed 総合順位 1 and 総合タイム 1:01:07; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第1区終点 鶴見中継所 (Sokuhou_020.json, /backnumber/101/tsuka/020.html): printed 総合順位 1 and 総合タイム 1:01:07; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (020)"
     },
     {
@@ -380,7 +380,7 @@
       "timeSeconds": 7666,
       "rank": 1,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第2区終点 戸塚中継所: printed 総合順位 1 and 総合タイム 2:07:46; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第2区終点 戸塚中継所 (Sokuhou_030.json, /backnumber/101/tsuka/030.html): printed 総合順位 1 and 総合タイム 2:07:46; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (030)"
     },
     {
@@ -389,7 +389,7 @@
       "timeSeconds": 11282,
       "rank": 1,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第3区終点 平塚中継所: printed 総合順位 1 and 総合タイム 3:08:02; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第3区終点 平塚中継所 (Sokuhou_040.json, /backnumber/101/tsuka/040.html): printed 総合順位 1 and 総合タイム 3:08:02; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (040)"
     },
     {
@@ -398,7 +398,7 @@
       "timeSeconds": 15005,
       "rank": 1,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第4区終点 小田原中継所: printed 総合順位 1 and 総合タイム 4:10:05; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第4区終点 小田原中継所 (Sokuhou_050.json, /backnumber/101/tsuka/050.html): printed 総合順位 1 and 総合タイム 4:10:05; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (050)"
     },
     {
@@ -407,7 +407,7 @@
       "timeSeconds": 19308,
       "rank": 2,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖: printed 総合順位 2 and 総合タイム 5:21:48; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖 (Sokuhou_060.json, /backnumber/101/tsuka/060.html): printed 総合順位 2 and 総合タイム 5:21:48; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (060)"
     },
     {
@@ -416,7 +416,7 @@
       "timeSeconds": 22837,
       "rank": 2,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所: printed 総合順位 2 and 総合タイム 6:20:37; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所 (Sokuhou_070.json, /backnumber/101/tsuka/070.html): printed 総合順位 2 and 総合タイム 6:20:37; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (070)"
     },
     {
@@ -425,7 +425,7 @@
       "timeSeconds": 26624,
       "rank": 3,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第7区終点 平塚中継所: printed 総合順位 3 and 総合タイム 7:23:44; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第7区終点 平塚中継所 (Sokuhou_080.json, /backnumber/101/tsuka/080.html): printed 総合順位 3 and 総合タイム 7:23:44; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (080)"
     },
     {
@@ -434,7 +434,7 @@
       "timeSeconds": 30815,
       "rank": 6,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第8区終点 戸塚中継所: printed 総合順位 6 and 総合タイム 8:33:35; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第8区終点 戸塚中継所 (Sokuhou_090.json, /backnumber/101/tsuka/090.html): printed 総合順位 6 and 総合タイム 8:33:35; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (090)"
     },
     {
@@ -443,7 +443,7 @@
       "timeSeconds": 35001,
       "rank": 6,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第9区終点 鶴見中継所: printed 総合順位 6 and 総合タイム 9:43:21; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第9区終点 鶴見中継所 (Sokuhou_100.json, /backnumber/101/tsuka/100.html): printed 総合順位 6 and 総合タイム 9:43:21; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (100)"
     },
     {
@@ -452,7 +452,7 @@
       "timeSeconds": 39169,
       "rank": 5,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第10区終点 大手町: printed 総合順位 5 and 総合タイム 10:52:49; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第10区終点 大手町 (Sokuhou_110.json, /backnumber/101/tsuka/110.html): printed 総合順位 5 and 総合タイム 10:52:49; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (110)"
     },
     {
@@ -461,7 +461,7 @@
       "timeSeconds": 3771,
       "rank": 9,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第1区終点 鶴見中継所: printed 総合順位 9 and 総合タイム 1:02:51; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第1区終点 鶴見中継所 (Sokuhou_020.json, /backnumber/101/tsuka/020.html): printed 総合順位 9 and 総合タイム 1:02:51; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (020)"
     },
     {
@@ -470,7 +470,7 @@
       "timeSeconds": 7786,
       "rank": 12,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第2区終点 戸塚中継所: printed 総合順位 12 and 総合タイム 2:09:46; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第2区終点 戸塚中継所 (Sokuhou_030.json, /backnumber/101/tsuka/030.html): printed 総合順位 12 and 総合タイム 2:09:46; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (030)"
     },
     {
@@ -479,7 +479,7 @@
       "timeSeconds": 11534,
       "rank": 8,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第3区終点 平塚中継所: printed 総合順位 8 and 総合タイム 3:12:14; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第3区終点 平塚中継所 (Sokuhou_040.json, /backnumber/101/tsuka/040.html): printed 総合順位 8 and 総合タイム 3:12:14; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (040)"
     },
     {
@@ -488,7 +488,7 @@
       "timeSeconds": 15308,
       "rank": 8,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第4区終点 小田原中継所: printed 総合順位 8 and 総合タイム 4:15:08; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第4区終点 小田原中継所 (Sokuhou_050.json, /backnumber/101/tsuka/050.html): printed 総合順位 8 and 総合タイム 4:15:08; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (050)"
     },
     {
@@ -497,7 +497,7 @@
       "timeSeconds": 19558,
       "rank": 7,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖: printed 総合順位 7 and 総合タイム 5:25:58; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖 (Sokuhou_060.json, /backnumber/101/tsuka/060.html): printed 総合順位 7 and 総合タイム 5:25:58; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (060)"
     },
     {
@@ -506,7 +506,7 @@
       "timeSeconds": 23044,
       "rank": 6,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所: printed 総合順位 6 and 総合タイム 6:24:04; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所 (Sokuhou_070.json, /backnumber/101/tsuka/070.html): printed 総合順位 6 and 総合タイム 6:24:04; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (070)"
     },
     {
@@ -515,7 +515,7 @@
       "timeSeconds": 26913,
       "rank": 7,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第7区終点 平塚中継所: printed 総合順位 7 and 総合タイム 7:28:33; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第7区終点 平塚中継所 (Sokuhou_080.json, /backnumber/101/tsuka/080.html): printed 総合順位 7 and 総合タイム 7:28:33; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (080)"
     },
     {
@@ -524,7 +524,7 @@
       "timeSeconds": 30894,
       "rank": 7,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第8区終点 戸塚中継所: printed 総合順位 7 and 総合タイム 8:34:54; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第8区終点 戸塚中継所 (Sokuhou_090.json, /backnumber/101/tsuka/090.html): printed 総合順位 7 and 総合タイム 8:34:54; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (090)"
     },
     {
@@ -533,7 +533,7 @@
       "timeSeconds": 35001,
       "rank": 7,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第9区終点 鶴見中継所: printed 総合順位 7 and 総合タイム 9:43:21; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第9区終点 鶴見中継所 (Sokuhou_100.json, /backnumber/101/tsuka/100.html): printed 総合順位 7 and 総合タイム 9:43:21; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (100)"
     },
     {
@@ -542,7 +542,7 @@
       "timeSeconds": 39189,
       "rank": 6,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第10区終点 大手町: printed 総合順位 6 and 総合タイム 10:53:09; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第10区終点 大手町 (Sokuhou_110.json, /backnumber/101/tsuka/110.html): printed 総合順位 6 and 総合タイム 10:53:09; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (110)"
     },
     {
@@ -551,7 +551,7 @@
       "timeSeconds": 3782,
       "rank": 17,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第1区終点 鶴見中継所: printed 総合順位 17 and 総合タイム 1:03:02; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第1区終点 鶴見中継所 (Sokuhou_020.json, /backnumber/101/tsuka/020.html): printed 総合順位 17 and 総合タイム 1:03:02; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (020)"
     },
     {
@@ -560,7 +560,7 @@
       "timeSeconds": 7725,
       "rank": 4,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第2区終点 戸塚中継所: printed 総合順位 4 and 総合タイム 2:08:45; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第2区終点 戸塚中継所 (Sokuhou_030.json, /backnumber/101/tsuka/030.html): printed 総合順位 4 and 総合タイム 2:08:45; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (030)"
     },
     {
@@ -569,7 +569,7 @@
       "timeSeconds": 11376,
       "rank": 2,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第3区終点 平塚中継所: printed 総合順位 2 and 総合タイム 3:09:36; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第3区終点 平塚中継所 (Sokuhou_040.json, /backnumber/101/tsuka/040.html): printed 総合順位 2 and 総合タイム 3:09:36; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (040)"
     },
     {
@@ -578,7 +578,7 @@
       "timeSeconds": 15080,
       "rank": 3,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第4区終点 小田原中継所: printed 総合順位 3 and 総合タイム 4:11:20; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第4区終点 小田原中継所 (Sokuhou_050.json, /backnumber/101/tsuka/050.html): printed 総合順位 3 and 総合タイム 4:11:20; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (050)"
     },
     {
@@ -587,7 +587,7 @@
       "timeSeconds": 19418,
       "rank": 5,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖: printed 総合順位 5 and 総合タイム 5:23:38; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖 (Sokuhou_060.json, /backnumber/101/tsuka/060.html): printed 総合順位 5 and 総合タイム 5:23:38; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (060)"
     },
     {
@@ -596,7 +596,7 @@
       "timeSeconds": 22991,
       "rank": 5,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所: printed 総合順位 5 and 総合タイム 6:23:11; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所 (Sokuhou_070.json, /backnumber/101/tsuka/070.html): printed 総合順位 5 and 総合タイム 6:23:11; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (070)"
     },
     {
@@ -605,7 +605,7 @@
       "timeSeconds": 26780,
       "rank": 5,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第7区終点 平塚中継所: printed 総合順位 5 and 総合タイム 7:26:20; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第7区終点 平塚中継所 (Sokuhou_080.json, /backnumber/101/tsuka/080.html): printed 総合順位 5 and 総合タイム 7:26:20; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (080)"
     },
     {
@@ -614,7 +614,7 @@
       "timeSeconds": 30734,
       "rank": 4,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第8区終点 戸塚中継所: printed 総合順位 4 and 総合タイム 8:32:14; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第8区終点 戸塚中継所 (Sokuhou_090.json, /backnumber/101/tsuka/090.html): printed 総合順位 4 and 総合タイム 8:32:14; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (090)"
     },
     {
@@ -623,7 +623,7 @@
       "timeSeconds": 34954,
       "rank": 5,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第9区終点 鶴見中継所: printed 総合順位 5 and 総合タイム 9:42:34; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第9区終点 鶴見中継所 (Sokuhou_100.json, /backnumber/101/tsuka/100.html): printed 総合順位 5 and 総合タイム 9:42:34; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (100)"
     },
     {
@@ -632,7 +632,7 @@
       "timeSeconds": 39215,
       "rank": 7,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第10区終点 大手町: printed 総合順位 7 and 総合タイム 10:53:35; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第10区終点 大手町 (Sokuhou_110.json, /backnumber/101/tsuka/110.html): printed 総合順位 7 and 総合タイム 10:53:35; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (110)"
     },
     {
@@ -641,7 +641,7 @@
       "timeSeconds": 3775,
       "rank": 14,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第1区終点 鶴見中継所: printed 総合順位 14 and 総合タイム 1:02:55; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第1区終点 鶴見中継所 (Sokuhou_020.json, /backnumber/101/tsuka/020.html): printed 総合順位 14 and 総合タイム 1:02:55; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (020)"
     },
     {
@@ -650,7 +650,7 @@
       "timeSeconds": 7706,
       "rank": 2,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第2区終点 戸塚中継所: printed 総合順位 2 and 総合タイム 2:08:26; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第2区終点 戸塚中継所 (Sokuhou_030.json, /backnumber/101/tsuka/030.html): printed 総合順位 2 and 総合タイム 2:08:26; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (030)"
     },
     {
@@ -659,7 +659,7 @@
       "timeSeconds": 11515,
       "rank": 7,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第3区終点 平塚中継所: printed 総合順位 7 and 総合タイム 3:11:55; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第3区終点 平塚中継所 (Sokuhou_040.json, /backnumber/101/tsuka/040.html): printed 総合順位 7 and 総合タイム 3:11:55; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (040)"
     },
     {
@@ -668,7 +668,7 @@
       "timeSeconds": 15270,
       "rank": 7,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第4区終点 小田原中継所: printed 総合順位 7 and 総合タイム 4:14:30; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第4区終点 小田原中継所 (Sokuhou_050.json, /backnumber/101/tsuka/050.html): printed 総合順位 7 and 総合タイム 4:14:30; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (050)"
     },
     {
@@ -677,7 +677,7 @@
       "timeSeconds": 19714,
       "rank": 11,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖: printed 総合順位 11 and 総合タイム 5:28:34; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖 (Sokuhou_060.json, /backnumber/101/tsuka/060.html): printed 総合順位 11 and 総合タイム 5:28:34; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (060)"
     },
     {
@@ -686,7 +686,7 @@
       "timeSeconds": 23254,
       "rank": 10,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所: printed 総合順位 10 and 総合タイム 6:27:34; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所 (Sokuhou_070.json, /backnumber/101/tsuka/070.html): printed 総合順位 10 and 総合タイム 6:27:34; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (070)"
     },
     {
@@ -695,7 +695,7 @@
       "timeSeconds": 27004,
       "rank": 9,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第7区終点 平塚中継所: printed 総合順位 9 and 総合タイム 7:30:04; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第7区終点 平塚中継所 (Sokuhou_080.json, /backnumber/101/tsuka/080.html): printed 総合順位 9 and 総合タイム 7:30:04; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (080)"
     },
     {
@@ -704,7 +704,7 @@
       "timeSeconds": 30976,
       "rank": 12,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第8区終点 戸塚中継所: printed 総合順位 12 and 総合タイム 8:36:16; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第8区終点 戸塚中継所 (Sokuhou_090.json, /backnumber/101/tsuka/090.html): printed 総合順位 12 and 総合タイム 8:36:16; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (090)"
     },
     {
@@ -713,7 +713,7 @@
       "timeSeconds": 35117,
       "rank": 11,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第9区終点 鶴見中継所: printed 総合順位 11 and 総合タイム 9:45:17; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第9区終点 鶴見中継所 (Sokuhou_100.json, /backnumber/101/tsuka/100.html): printed 総合順位 11 and 総合タイム 9:45:17; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (100)"
     },
     {
@@ -722,7 +722,7 @@
       "timeSeconds": 39295,
       "rank": 8,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第10区終点 大手町: printed 総合順位 8 and 総合タイム 10:54:55; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第10区終点 大手町 (Sokuhou_110.json, /backnumber/101/tsuka/110.html): printed 総合順位 8 and 総合タイム 10:54:55; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (110)"
     },
     {
@@ -731,7 +731,7 @@
       "timeSeconds": 3772,
       "rank": 11,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第1区終点 鶴見中継所: printed 総合順位 11 and 総合タイム 1:02:52; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第1区終点 鶴見中継所 (Sokuhou_020.json, /backnumber/101/tsuka/020.html): printed 総合順位 11 and 総合タイム 1:02:52; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (020)"
     },
     {
@@ -740,7 +740,7 @@
       "timeSeconds": 7902,
       "rank": 19,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第2区終点 戸塚中継所: printed 総合順位 19 and 総合タイム 2:11:42; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第2区終点 戸塚中継所 (Sokuhou_030.json, /backnumber/101/tsuka/030.html): printed 総合順位 19 and 総合タイム 2:11:42; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (030)"
     },
     {
@@ -749,7 +749,7 @@
       "timeSeconds": 11662,
       "rank": 16,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第3区終点 平塚中継所: printed 総合順位 16 and 総合タイム 3:14:22; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第3区終点 平塚中継所 (Sokuhou_040.json, /backnumber/101/tsuka/040.html): printed 総合順位 16 and 総合タイム 3:14:22; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (040)"
     },
     {
@@ -758,7 +758,7 @@
       "timeSeconds": 15337,
       "rank": 9,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第4区終点 小田原中継所: printed 総合順位 9 and 総合タイム 4:15:37; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第4区終点 小田原中継所 (Sokuhou_050.json, /backnumber/101/tsuka/050.html): printed 総合順位 9 and 総合タイム 4:15:37; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (050)"
     },
     {
@@ -767,7 +767,7 @@
       "timeSeconds": 19673,
       "rank": 9,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖: printed 総合順位 9 and 総合タイム 5:27:53; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖 (Sokuhou_060.json, /backnumber/101/tsuka/060.html): printed 総合順位 9 and 総合タイム 5:27:53; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (060)"
     },
     {
@@ -776,7 +776,7 @@
       "timeSeconds": 23209,
       "rank": 9,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所: printed 総合順位 9 and 総合タイム 6:26:49; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所 (Sokuhou_070.json, /backnumber/101/tsuka/070.html): printed 総合順位 9 and 総合タイム 6:26:49; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (070)"
     },
     {
@@ -785,7 +785,7 @@
       "timeSeconds": 27065,
       "rank": 12,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第7区終点 平塚中継所: printed 総合順位 12 and 総合タイム 7:31:05; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第7区終点 平塚中継所 (Sokuhou_080.json, /backnumber/101/tsuka/080.html): printed 総合順位 12 and 総合タイム 7:31:05; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (080)"
     },
     {
@@ -794,7 +794,7 @@
       "timeSeconds": 30923,
       "rank": 10,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第8区終点 戸塚中継所: printed 総合順位 10 and 総合タイム 8:35:23; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第8区終点 戸塚中継所 (Sokuhou_090.json, /backnumber/101/tsuka/090.html): printed 総合順位 10 and 総合タイム 8:35:23; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (090)"
     },
     {
@@ -803,7 +803,7 @@
       "timeSeconds": 35085,
       "rank": 8,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第9区終点 鶴見中継所: printed 総合順位 8 and 総合タイム 9:44:45; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第9区終点 鶴見中継所 (Sokuhou_100.json, /backnumber/101/tsuka/100.html): printed 総合順位 8 and 総合タイム 9:44:45; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (100)"
     },
     {
@@ -812,7 +812,7 @@
       "timeSeconds": 39296,
       "rank": 9,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第10区終点 大手町: printed 総合順位 9 and 総合タイム 10:54:56; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第10区終点 大手町 (Sokuhou_110.json, /backnumber/101/tsuka/110.html): printed 総合順位 9 and 総合タイム 10:54:56; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (110)"
     },
     {
@@ -821,7 +821,7 @@
       "timeSeconds": 3765,
       "rank": 5,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第1区終点 鶴見中継所: printed 総合順位 5 and 総合タイム 1:02:45; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第1区終点 鶴見中継所 (Sokuhou_020.json, /backnumber/101/tsuka/020.html): printed 総合順位 5 and 総合タイム 1:02:45; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (020)"
     },
     {
@@ -830,7 +830,7 @@
       "timeSeconds": 7747,
       "rank": 6,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第2区終点 戸塚中継所: printed 総合順位 6 and 総合タイム 2:09:07; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第2区終点 戸塚中継所 (Sokuhou_030.json, /backnumber/101/tsuka/030.html): printed 総合順位 6 and 総合タイム 2:09:07; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (030)"
     },
     {
@@ -839,7 +839,7 @@
       "timeSeconds": 11583,
       "rank": 10,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第3区終点 平塚中継所: printed 総合順位 10 and 総合タイム 3:13:03; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第3区終点 平塚中継所 (Sokuhou_040.json, /backnumber/101/tsuka/040.html): printed 総合順位 10 and 総合タイム 3:13:03; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (040)"
     },
     {
@@ -848,7 +848,7 @@
       "timeSeconds": 15379,
       "rank": 13,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第4区終点 小田原中継所: printed 総合順位 13 and 総合タイム 4:16:19; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第4区終点 小田原中継所 (Sokuhou_050.json, /backnumber/101/tsuka/050.html): printed 総合順位 13 and 総合タイム 4:16:19; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (050)"
     },
     {
@@ -857,7 +857,7 @@
       "timeSeconds": 19768,
       "rank": 14,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖: printed 総合順位 14 and 総合タイム 5:29:28; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖 (Sokuhou_060.json, /backnumber/101/tsuka/060.html): printed 総合順位 14 and 総合タイム 5:29:28; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (060)"
     },
     {
@@ -866,7 +866,7 @@
       "timeSeconds": 23261,
       "rank": 12,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所: printed 総合順位 12 and 総合タイム 6:27:41; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所 (Sokuhou_070.json, /backnumber/101/tsuka/070.html): printed 総合順位 12 and 総合タイム 6:27:41; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (070)"
     },
     {
@@ -875,7 +875,7 @@
       "timeSeconds": 27060,
       "rank": 11,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第7区終点 平塚中継所: printed 総合順位 11 and 総合タイム 7:31:00; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第7区終点 平塚中継所 (Sokuhou_080.json, /backnumber/101/tsuka/080.html): printed 総合順位 11 and 総合タイム 7:31:00; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (080)"
     },
     {
@@ -884,7 +884,7 @@
       "timeSeconds": 30947,
       "rank": 11,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第8区終点 戸塚中継所: printed 総合順位 11 and 総合タイム 8:35:47; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第8区終点 戸塚中継所 (Sokuhou_090.json, /backnumber/101/tsuka/090.html): printed 総合順位 11 and 総合タイム 8:35:47; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (090)"
     },
     {
@@ -893,7 +893,7 @@
       "timeSeconds": 35090,
       "rank": 9,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第9区終点 鶴見中継所: printed 総合順位 9 and 総合タイム 9:44:50; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第9区終点 鶴見中継所 (Sokuhou_100.json, /backnumber/101/tsuka/100.html): printed 総合順位 9 and 総合タイム 9:44:50; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (100)"
     },
     {
@@ -902,7 +902,7 @@
       "timeSeconds": 39298,
       "rank": 10,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第10区終点 大手町: printed 総合順位 10 and 総合タイム 10:54:58; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第10区終点 大手町 (Sokuhou_110.json, /backnumber/101/tsuka/110.html): printed 総合順位 10 and 総合タイム 10:54:58; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (110)"
     },
     {
@@ -911,7 +911,7 @@
       "timeSeconds": 3772,
       "rank": 12,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第1区終点 鶴見中継所: printed 総合順位 12 and 総合タイム 1:02:52; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第1区終点 鶴見中継所 (Sokuhou_020.json, /backnumber/101/tsuka/020.html): printed 総合順位 12 and 総合タイム 1:02:52; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (020)"
     },
     {
@@ -920,7 +920,7 @@
       "timeSeconds": 7874,
       "rank": 16,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第2区終点 戸塚中継所: printed 総合順位 16 and 総合タイム 2:11:14; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第2区終点 戸塚中継所 (Sokuhou_030.json, /backnumber/101/tsuka/030.html): printed 総合順位 16 and 総合タイム 2:11:14; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (030)"
     },
     {
@@ -929,7 +929,7 @@
       "timeSeconds": 11640,
       "rank": 12,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第3区終点 平塚中継所: printed 総合順位 12 and 総合タイム 3:14:00; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第3区終点 平塚中継所 (Sokuhou_040.json, /backnumber/101/tsuka/040.html): printed 総合順位 12 and 総合タイム 3:14:00; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (040)"
     },
     {
@@ -938,7 +938,7 @@
       "timeSeconds": 15348,
       "rank": 11,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第4区終点 小田原中継所: printed 総合順位 11 and 総合タイム 4:15:48; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第4区終点 小田原中継所 (Sokuhou_050.json, /backnumber/101/tsuka/050.html): printed 総合順位 11 and 総合タイム 4:15:48; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (050)"
     },
     {
@@ -947,7 +947,7 @@
       "timeSeconds": 19720,
       "rank": 13,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖: printed 総合順位 13 and 総合タイム 5:28:40; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖 (Sokuhou_060.json, /backnumber/101/tsuka/060.html): printed 総合順位 13 and 総合タイム 5:28:40; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (060)"
     },
     {
@@ -956,7 +956,7 @@
       "timeSeconds": 23255,
       "rank": 11,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所: printed 総合順位 11 and 総合タイム 6:27:35; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所 (Sokuhou_070.json, /backnumber/101/tsuka/070.html): printed 総合順位 11 and 総合タイム 6:27:35; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (070)"
     },
     {
@@ -965,7 +965,7 @@
       "timeSeconds": 26996,
       "rank": 8,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第7区終点 平塚中継所: printed 総合順位 8 and 総合タイム 7:29:56; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第7区終点 平塚中継所 (Sokuhou_080.json, /backnumber/101/tsuka/080.html): printed 総合順位 8 and 総合タイム 7:29:56; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (080)"
     },
     {
@@ -974,7 +974,7 @@
       "timeSeconds": 30910,
       "rank": 8,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第8区終点 戸塚中継所: printed 総合順位 8 and 総合タイム 8:35:10; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第8区終点 戸塚中継所 (Sokuhou_090.json, /backnumber/101/tsuka/090.html): printed 総合順位 8 and 総合タイム 8:35:10; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (090)"
     },
     {
@@ -983,7 +983,7 @@
       "timeSeconds": 35096,
       "rank": 10,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第9区終点 鶴見中継所: printed 総合順位 10 and 総合タイム 9:44:56; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第9区終点 鶴見中継所 (Sokuhou_100.json, /backnumber/101/tsuka/100.html): printed 総合順位 10 and 総合タイム 9:44:56; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (100)"
     },
     {
@@ -992,7 +992,7 @@
       "timeSeconds": 39305,
       "rank": 11,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第10区終点 大手町: printed 総合順位 11 and 総合タイム 10:55:05; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第10区終点 大手町 (Sokuhou_110.json, /backnumber/101/tsuka/110.html): printed 総合順位 11 and 総合タイム 10:55:05; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (110)"
     },
     {
@@ -1001,7 +1001,7 @@
       "timeSeconds": 3760,
       "rank": 3,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第1区終点 鶴見中継所: printed 総合順位 3 and 総合タイム 1:02:40; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第1区終点 鶴見中継所 (Sokuhou_020.json, /backnumber/101/tsuka/020.html): printed 総合順位 3 and 総合タイム 1:02:40; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (020)"
     },
     {
@@ -1010,7 +1010,7 @@
       "timeSeconds": 7884,
       "rank": 18,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第2区終点 戸塚中継所: printed 総合順位 18 and 総合タイム 2:11:24; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第2区終点 戸塚中継所 (Sokuhou_030.json, /backnumber/101/tsuka/030.html): printed 総合順位 18 and 総合タイム 2:11:24; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (030)"
     },
     {
@@ -1019,7 +1019,7 @@
       "timeSeconds": 11649,
       "rank": 14,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第3区終点 平塚中継所: printed 総合順位 14 and 総合タイム 3:14:09; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第3区終点 平塚中継所 (Sokuhou_040.json, /backnumber/101/tsuka/040.html): printed 総合順位 14 and 総合タイム 3:14:09; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (040)"
     },
     {
@@ -1028,7 +1028,7 @@
       "timeSeconds": 15344,
       "rank": 10,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第4区終点 小田原中継所: printed 総合順位 10 and 総合タイム 4:15:44; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第4区終点 小田原中継所 (Sokuhou_050.json, /backnumber/101/tsuka/050.html): printed 総合順位 10 and 総合タイム 4:15:44; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (050)"
     },
     {
@@ -1037,7 +1037,7 @@
       "timeSeconds": 19683,
       "rank": 10,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖: printed 総合順位 10 and 総合タイム 5:28:03; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖 (Sokuhou_060.json, /backnumber/101/tsuka/060.html): printed 総合順位 10 and 総合タイム 5:28:03; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (060)"
     },
     {
@@ -1046,7 +1046,7 @@
       "timeSeconds": 23275,
       "rank": 14,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所: printed 総合順位 14 and 総合タイム 6:27:55; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所 (Sokuhou_070.json, /backnumber/101/tsuka/070.html): printed 総合順位 14 and 総合タイム 6:27:55; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (070)"
     },
     {
@@ -1055,7 +1055,7 @@
       "timeSeconds": 27051,
       "rank": 10,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第7区終点 平塚中継所: printed 総合順位 10 and 総合タイム 7:30:51; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第7区終点 平塚中継所 (Sokuhou_080.json, /backnumber/101/tsuka/080.html): printed 総合順位 10 and 総合タイム 7:30:51; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (080)"
     },
     {
@@ -1064,7 +1064,7 @@
       "timeSeconds": 30923,
       "rank": 9,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第8区終点 戸塚中継所: printed 総合順位 9 and 総合タイム 8:35:23; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第8区終点 戸塚中継所 (Sokuhou_090.json, /backnumber/101/tsuka/090.html): printed 総合順位 9 and 総合タイム 8:35:23; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (090)"
     },
     {
@@ -1073,7 +1073,7 @@
       "timeSeconds": 35122,
       "rank": 12,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第9区終点 鶴見中継所: printed 総合順位 12 and 総合タイム 9:45:22; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第9区終点 鶴見中継所 (Sokuhou_100.json, /backnumber/101/tsuka/100.html): printed 総合順位 12 and 総合タイム 9:45:22; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (100)"
     },
     {
@@ -1082,7 +1082,7 @@
       "timeSeconds": 39382,
       "rank": 12,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第10区終点 大手町: printed 総合順位 12 and 総合タイム 10:56:22; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第10区終点 大手町 (Sokuhou_110.json, /backnumber/101/tsuka/110.html): printed 総合順位 12 and 総合タイム 10:56:22; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (110)"
     },
     {
@@ -1091,7 +1091,7 @@
       "timeSeconds": 3776,
       "rank": 16,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第1区終点 鶴見中継所: printed 総合順位 16 and 総合タイム 1:02:56; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第1区終点 鶴見中継所 (Sokuhou_020.json, /backnumber/101/tsuka/020.html): printed 総合順位 16 and 総合タイム 1:02:56; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (020)"
     },
     {
@@ -1100,7 +1100,7 @@
       "timeSeconds": 7768,
       "rank": 9,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第2区終点 戸塚中継所: printed 総合順位 9 and 総合タイム 2:09:28; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第2区終点 戸塚中継所 (Sokuhou_030.json, /backnumber/101/tsuka/030.html): printed 総合順位 9 and 総合タイム 2:09:28; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (030)"
     },
     {
@@ -1109,7 +1109,7 @@
       "timeSeconds": 11569,
       "rank": 9,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第3区終点 平塚中継所: printed 総合順位 9 and 総合タイム 3:12:49; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第3区終点 平塚中継所 (Sokuhou_040.json, /backnumber/101/tsuka/040.html): printed 総合順位 9 and 総合タイム 3:12:49; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (040)"
     },
     {
@@ -1118,7 +1118,7 @@
       "timeSeconds": 15358,
       "rank": 12,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第4区終点 小田原中継所: printed 総合順位 12 and 総合タイム 4:15:58; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第4区終点 小田原中継所 (Sokuhou_050.json, /backnumber/101/tsuka/050.html): printed 総合順位 12 and 総合タイム 4:15:58; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (050)"
     },
     {
@@ -1127,7 +1127,7 @@
       "timeSeconds": 19647,
       "rank": 8,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖: printed 総合順位 8 and 総合タイム 5:27:27; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖 (Sokuhou_060.json, /backnumber/101/tsuka/060.html): printed 総合順位 8 and 総合タイム 5:27:27; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (060)"
     },
     {
@@ -1136,7 +1136,7 @@
       "timeSeconds": 23206,
       "rank": 8,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所: printed 総合順位 8 and 総合タイム 6:26:46; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所 (Sokuhou_070.json, /backnumber/101/tsuka/070.html): printed 総合順位 8 and 総合タイム 6:26:46; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (070)"
     },
     {
@@ -1145,7 +1145,7 @@
       "timeSeconds": 27100,
       "rank": 13,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第7区終点 平塚中継所: printed 総合順位 13 and 総合タイム 7:31:40; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第7区終点 平塚中継所 (Sokuhou_080.json, /backnumber/101/tsuka/080.html): printed 総合順位 13 and 総合タイム 7:31:40; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (080)"
     },
     {
@@ -1154,7 +1154,7 @@
       "timeSeconds": 30981,
       "rank": 13,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第8区終点 戸塚中継所: printed 総合順位 13 and 総合タイム 8:36:21; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第8区終点 戸塚中継所 (Sokuhou_090.json, /backnumber/101/tsuka/090.html): printed 総合順位 13 and 総合タイム 8:36:21; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (090)"
     },
     {
@@ -1163,7 +1163,7 @@
       "timeSeconds": 35187,
       "rank": 13,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第9区終点 鶴見中継所: printed 総合順位 13 and 総合タイム 9:46:27; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第9区終点 鶴見中継所 (Sokuhou_100.json, /backnumber/101/tsuka/100.html): printed 総合順位 13 and 総合タイム 9:46:27; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (100)"
     },
     {
@@ -1172,7 +1172,7 @@
       "timeSeconds": 39501,
       "rank": 13,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第10区終点 大手町: printed 総合順位 13 and 総合タイム 10:58:21; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第10区終点 大手町 (Sokuhou_110.json, /backnumber/101/tsuka/110.html): printed 総合順位 13 and 総合タイム 10:58:21; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (110)"
     },
     {
@@ -1181,7 +1181,7 @@
       "timeSeconds": 3773,
       "rank": 13,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第1区終点 鶴見中継所: printed 総合順位 13 and 総合タイム 1:02:53; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第1区終点 鶴見中継所 (Sokuhou_020.json, /backnumber/101/tsuka/020.html): printed 総合順位 13 and 総合タイム 1:02:53; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (020)"
     },
     {
@@ -1190,7 +1190,7 @@
       "timeSeconds": 7757,
       "rank": 7,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第2区終点 戸塚中継所: printed 総合順位 7 and 総合タイム 2:09:17; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第2区終点 戸塚中継所 (Sokuhou_030.json, /backnumber/101/tsuka/030.html): printed 総合順位 7 and 総合タイム 2:09:17; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (030)"
     },
     {
@@ -1199,7 +1199,7 @@
       "timeSeconds": 11599,
       "rank": 11,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第3区終点 平塚中継所: printed 総合順位 11 and 総合タイム 3:13:19; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第3区終点 平塚中継所 (Sokuhou_040.json, /backnumber/101/tsuka/040.html): printed 総合順位 11 and 総合タイム 3:13:19; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (040)"
     },
     {
@@ -1208,7 +1208,7 @@
       "timeSeconds": 15410,
       "rank": 14,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第4区終点 小田原中継所: printed 総合順位 14 and 総合タイム 4:16:50; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第4区終点 小田原中継所 (Sokuhou_050.json, /backnumber/101/tsuka/050.html): printed 総合順位 14 and 総合タイム 4:16:50; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (050)"
     },
     {
@@ -1217,7 +1217,7 @@
       "timeSeconds": 19717,
       "rank": 12,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖: printed 総合順位 12 and 総合タイム 5:28:37; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖 (Sokuhou_060.json, /backnumber/101/tsuka/060.html): printed 総合順位 12 and 総合タイム 5:28:37; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (060)"
     },
     {
@@ -1226,7 +1226,7 @@
       "timeSeconds": 23264,
       "rank": 13,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所: printed 総合順位 13 and 総合タイム 6:27:44; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所 (Sokuhou_070.json, /backnumber/101/tsuka/070.html): printed 総合順位 13 and 総合タイム 6:27:44; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (070)"
     },
     {
@@ -1235,7 +1235,7 @@
       "timeSeconds": 27134,
       "rank": 14,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第7区終点 平塚中継所: printed 総合順位 14 and 総合タイム 7:32:14; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第7区終点 平塚中継所 (Sokuhou_080.json, /backnumber/101/tsuka/080.html): printed 総合順位 14 and 総合タイム 7:32:14; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (080)"
     },
     {
@@ -1244,7 +1244,7 @@
       "timeSeconds": 31082,
       "rank": 14,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第8区終点 戸塚中継所: printed 総合順位 14 and 総合タイム 8:38:02; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第8区終点 戸塚中継所 (Sokuhou_090.json, /backnumber/101/tsuka/090.html): printed 総合順位 14 and 総合タイム 8:38:02; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (090)"
     },
     {
@@ -1253,7 +1253,7 @@
       "timeSeconds": 35376,
       "rank": 14,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第9区終点 鶴見中継所: printed 総合順位 14 and 総合タイム 9:49:36; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第9区終点 鶴見中継所 (Sokuhou_100.json, /backnumber/101/tsuka/100.html): printed 総合順位 14 and 総合タイム 9:49:36; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (100)"
     },
     {
@@ -1262,7 +1262,7 @@
       "timeSeconds": 39613,
       "rank": 14,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第10区終点 大手町: printed 総合順位 14 and 総合タイム 11:00:13; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第10区終点 大手町 (Sokuhou_110.json, /backnumber/101/tsuka/110.html): printed 総合順位 14 and 総合タイム 11:00:13; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (110)"
     },
     {
@@ -1271,7 +1271,7 @@
       "timeSeconds": 3775,
       "rank": 15,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第1区終点 鶴見中継所: printed 総合順位 15 and 総合タイム 1:02:55; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第1区終点 鶴見中継所 (Sokuhou_020.json, /backnumber/101/tsuka/020.html): printed 総合順位 15 and 総合タイム 1:02:55; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (020)"
     },
     {
@@ -1280,7 +1280,7 @@
       "timeSeconds": 7852,
       "rank": 14,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第2区終点 戸塚中継所: printed 総合順位 14 and 総合タイム 2:10:52; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第2区終点 戸塚中継所 (Sokuhou_030.json, /backnumber/101/tsuka/030.html): printed 総合順位 14 and 総合タイム 2:10:52; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (030)"
     },
     {
@@ -1289,7 +1289,7 @@
       "timeSeconds": 11671,
       "rank": 18,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第3区終点 平塚中継所: printed 総合順位 18 and 総合タイム 3:14:31; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第3区終点 平塚中継所 (Sokuhou_040.json, /backnumber/101/tsuka/040.html): printed 総合順位 18 and 総合タイム 3:14:31; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (040)"
     },
     {
@@ -1298,7 +1298,7 @@
       "timeSeconds": 15522,
       "rank": 16,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第4区終点 小田原中継所: printed 総合順位 16 and 総合タイム 4:18:42; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第4区終点 小田原中継所 (Sokuhou_050.json, /backnumber/101/tsuka/050.html): printed 総合順位 16 and 総合タイム 4:18:42; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (050)"
     },
     {
@@ -1307,7 +1307,7 @@
       "timeSeconds": 19885,
       "rank": 16,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖: printed 総合順位 16 and 総合タイム 5:31:25; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖 (Sokuhou_060.json, /backnumber/101/tsuka/060.html): printed 総合順位 16 and 総合タイム 5:31:25; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (060)"
     },
     {
@@ -1316,7 +1316,7 @@
       "timeSeconds": 23476,
       "rank": 15,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所: printed 総合順位 15 and 総合タイム 6:31:16; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所 (Sokuhou_070.json, /backnumber/101/tsuka/070.html): printed 総合順位 15 and 総合タイム 6:31:16; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (070)"
     },
     {
@@ -1325,7 +1325,7 @@
       "timeSeconds": 27256,
       "rank": 15,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第7区終点 平塚中継所: printed 総合順位 15 and 総合タイム 7:34:16; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 第7区終点 平塚中継所 (Sokuhou_080.json, /backnumber/101/tsuka/080.html): printed 総合順位 15 and 総合タイム 7:34:16; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (080)"
     },
     {
@@ -1334,7 +1334,7 @@
       "timeSeconds": 31222,
       "rank": 15,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第8区終点 戸塚中継所: printed 総合順位 15 and 総合タイム 8:40:22; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 第8区終点 戸塚中継所 (Sokuhou_090.json, /backnumber/101/tsuka/090.html): printed 総合順位 15 and 総合タイム 8:40:22; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (090)"
     },
     {
@@ -1343,7 +1343,7 @@
       "timeSeconds": 35442,
       "rank": 15,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第9区終点 鶴見中継所: printed 総合順位 15 and 総合タイム 9:50:42; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 第9区終点 鶴見中継所 (Sokuhou_100.json, /backnumber/101/tsuka/100.html): printed 総合順位 15 and 総合タイム 9:50:42; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (100)"
     },
     {
@@ -1352,7 +1352,7 @@
       "timeSeconds": 39796,
       "rank": 15,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第10区終点 大手町: printed 総合順位 15 and 総合タイム 11:03:16; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 第10区終点 大手町 (Sokuhou_110.json, /backnumber/101/tsuka/110.html): printed 総合順位 15 and 総合タイム 11:03:16; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (110)"
     },
     {
@@ -1361,7 +1361,7 @@
       "timeSeconds": 3831,
       "rank": 20,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第1区終点 鶴見中継所: printed 総合順位 20 and 総合タイム 1:03:51; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第1区終点 鶴見中継所 (Sokuhou_020.json, /backnumber/101/tsuka/020.html): printed 総合順位 20 and 総合タイム 1:03:51; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (020)"
     },
     {
@@ -1370,7 +1370,7 @@
       "timeSeconds": 7940,
       "rank": 20,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第2区終点 戸塚中継所: printed 総合順位 20 and 総合タイム 2:12:20; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第2区終点 戸塚中継所 (Sokuhou_030.json, /backnumber/101/tsuka/030.html): printed 総合順位 20 and 総合タイム 2:12:20; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (030)"
     },
     {
@@ -1379,7 +1379,7 @@
       "timeSeconds": 11771,
       "rank": 20,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第3区終点 平塚中継所: printed 総合順位 20 and 総合タイム 3:16:11; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第3区終点 平塚中継所 (Sokuhou_040.json, /backnumber/101/tsuka/040.html): printed 総合順位 20 and 総合タイム 3:16:11; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (040)"
     },
     {
@@ -1388,7 +1388,7 @@
       "timeSeconds": 15632,
       "rank": 20,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第4区終点 小田原中継所: printed 総合順位 20 and 総合タイム 4:20:32; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第4区終点 小田原中継所 (Sokuhou_050.json, /backnumber/101/tsuka/050.html): printed 総合順位 20 and 総合タイム 4:20:32; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (050)"
     },
     {
@@ -1397,7 +1397,7 @@
       "timeSeconds": 20019,
       "rank": 18,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖: printed 総合順位 18 and 総合タイム 5:33:39; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖 (Sokuhou_060.json, /backnumber/101/tsuka/060.html): printed 総合順位 18 and 総合タイム 5:33:39; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (060)"
     },
     {
@@ -1406,7 +1406,7 @@
       "timeSeconds": 23548,
       "rank": 16,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所: printed 総合順位 16 and 総合タイム 6:32:28; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所 (Sokuhou_070.json, /backnumber/101/tsuka/070.html): printed 総合順位 16 and 総合タイム 6:32:28; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (070)"
     },
     {
@@ -1415,7 +1415,7 @@
       "timeSeconds": 27471,
       "rank": 17,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第7区終点 平塚中継所: printed 総合順位 17 and 総合タイム 7:37:51; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 第7区終点 平塚中継所 (Sokuhou_080.json, /backnumber/101/tsuka/080.html): printed 総合順位 17 and 総合タイム 7:37:51; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (080)"
     },
     {
@@ -1424,7 +1424,7 @@
       "timeSeconds": 31457,
       "rank": 17,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第8区終点 戸塚中継所: printed 総合順位 17 and 総合タイム 8:44:17; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 第8区終点 戸塚中継所 (Sokuhou_090.json, /backnumber/101/tsuka/090.html): printed 総合順位 17 and 総合タイム 8:44:17; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (090)"
     },
     {
@@ -1433,7 +1433,7 @@
       "timeSeconds": 35664,
       "rank": 16,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第9区終点 鶴見中継所: printed 総合順位 16 and 総合タイム 9:54:24; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 第9区終点 鶴見中継所 (Sokuhou_100.json, /backnumber/101/tsuka/100.html): printed 総合順位 16 and 総合タイム 9:54:24; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (100)"
     },
     {
@@ -1442,7 +1442,7 @@
       "timeSeconds": 40048,
       "rank": 16,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第10区終点 大手町: printed 総合順位 16 and 総合タイム 11:07:28; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 第10区終点 大手町 (Sokuhou_110.json, /backnumber/101/tsuka/110.html): printed 総合順位 16 and 総合タイム 11:07:28; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (110)"
     },
     {
@@ -1451,7 +1451,7 @@
       "timeSeconds": 3812,
       "rank": 19,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第1区終点 鶴見中継所: printed 総合順位 19 and 総合タイム 1:03:32; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第1区終点 鶴見中継所 (Sokuhou_020.json, /backnumber/101/tsuka/020.html): printed 総合順位 19 and 総合タイム 1:03:32; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (020)"
     },
     {
@@ -1460,7 +1460,7 @@
       "timeSeconds": 7861,
       "rank": 15,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第2区終点 戸塚中継所: printed 総合順位 15 and 総合タイム 2:11:01; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第2区終点 戸塚中継所 (Sokuhou_030.json, /backnumber/101/tsuka/030.html): printed 総合順位 15 and 総合タイム 2:11:01; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (030)"
     },
     {
@@ -1469,7 +1469,7 @@
       "timeSeconds": 11651,
       "rank": 15,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第3区終点 平塚中継所: printed 総合順位 15 and 総合タイム 3:14:11; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第3区終点 平塚中継所 (Sokuhou_040.json, /backnumber/101/tsuka/040.html): printed 総合順位 15 and 総合タイム 3:14:11; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (040)"
     },
     {
@@ -1478,7 +1478,7 @@
       "timeSeconds": 15542,
       "rank": 18,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第4区終点 小田原中継所: printed 総合順位 18 and 総合タイム 4:19:02; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第4区終点 小田原中継所 (Sokuhou_050.json, /backnumber/101/tsuka/050.html): printed 総合順位 18 and 総合タイム 4:19:02; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (050)"
     },
     {
@@ -1487,7 +1487,7 @@
       "timeSeconds": 20210,
       "rank": 20,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖: printed 総合順位 20 and 総合タイム 5:36:50; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖 (Sokuhou_060.json, /backnumber/101/tsuka/060.html): printed 総合順位 20 and 総合タイム 5:36:50; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (060)"
     },
     {
@@ -1496,7 +1496,7 @@
       "timeSeconds": 23786,
       "rank": 20,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所: printed 総合順位 20 and 総合タイム 6:36:26; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所 (Sokuhou_070.json, /backnumber/101/tsuka/070.html): printed 総合順位 20 and 総合タイム 6:36:26; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (070)"
     },
     {
@@ -1505,7 +1505,7 @@
       "timeSeconds": 27652,
       "rank": 19,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第7区終点 平塚中継所: printed 総合順位 19 and 総合タイム 7:40:52; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 第7区終点 平塚中継所 (Sokuhou_080.json, /backnumber/101/tsuka/080.html): printed 総合順位 19 and 総合タイム 7:40:52; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (080)"
     },
     {
@@ -1514,7 +1514,7 @@
       "timeSeconds": 31627,
       "rank": 19,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第8区終点 戸塚中継所: printed 総合順位 19 and 総合タイム 8:47:07; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 第8区終点 戸塚中継所 (Sokuhou_090.json, /backnumber/101/tsuka/090.html): printed 総合順位 19 and 総合タイム 8:47:07; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (090)"
     },
     {
@@ -1523,7 +1523,7 @@
       "timeSeconds": 35863,
       "rank": 18,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第9区終点 鶴見中継所: printed 総合順位 18 and 総合タイム 9:57:43; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 第9区終点 鶴見中継所 (Sokuhou_100.json, /backnumber/101/tsuka/100.html): printed 総合順位 18 and 総合タイム 9:57:43; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (100)"
     },
     {
@@ -1532,7 +1532,7 @@
       "timeSeconds": 40133,
       "rank": 17,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第10区終点 大手町: printed 総合順位 17 and 総合タイム 11:08:53; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 第10区終点 大手町 (Sokuhou_110.json, /backnumber/101/tsuka/110.html): printed 総合順位 17 and 総合タイム 11:08:53; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (110)"
     },
     {
@@ -1541,7 +1541,7 @@
       "timeSeconds": 3768,
       "rank": 7,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第1区終点 鶴見中継所: printed 総合順位 7 and 総合タイム 1:02:48; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第1区終点 鶴見中継所 (Sokuhou_020.json, /backnumber/101/tsuka/020.html): printed 総合順位 7 and 総合タイム 1:02:48; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (020)"
     },
     {
@@ -1550,7 +1550,7 @@
       "timeSeconds": 7783,
       "rank": 10,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第2区終点 戸塚中継所: printed 総合順位 10 and 総合タイム 2:09:43; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第2区終点 戸塚中継所 (Sokuhou_030.json, /backnumber/101/tsuka/030.html): printed 総合順位 10 and 総合タイム 2:09:43; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (030)"
     },
     {
@@ -1559,7 +1559,7 @@
       "timeSeconds": 11643,
       "rank": 13,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第3区終点 平塚中継所: printed 総合順位 13 and 総合タイム 3:14:03; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第3区終点 平塚中継所 (Sokuhou_040.json, /backnumber/101/tsuka/040.html): printed 総合順位 13 and 総合タイム 3:14:03; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (040)"
     },
     {
@@ -1568,7 +1568,7 @@
       "timeSeconds": 15540,
       "rank": 17,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第4区終点 小田原中継所: printed 総合順位 17 and 総合タイム 4:19:00; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第4区終点 小田原中継所 (Sokuhou_050.json, /backnumber/101/tsuka/050.html): printed 総合順位 17 and 総合タイム 4:19:00; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (050)"
     },
     {
@@ -1577,7 +1577,7 @@
       "timeSeconds": 19863,
       "rank": 15,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖: printed 総合順位 15 and 総合タイム 5:31:03; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖 (Sokuhou_060.json, /backnumber/101/tsuka/060.html): printed 総合順位 15 and 総合タイム 5:31:03; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (060)"
     },
     {
@@ -1586,7 +1586,7 @@
       "timeSeconds": 23557,
       "rank": 17,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所: printed 総合順位 17 and 総合タイム 6:32:37; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所 (Sokuhou_070.json, /backnumber/101/tsuka/070.html): printed 総合順位 17 and 総合タイム 6:32:37; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (070)"
     },
     {
@@ -1595,7 +1595,7 @@
       "timeSeconds": 27445,
       "rank": 16,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第7区終点 平塚中継所: printed 総合順位 16 and 総合タイム 7:37:25; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 第7区終点 平塚中継所 (Sokuhou_080.json, /backnumber/101/tsuka/080.html): printed 総合順位 16 and 総合タイム 7:37:25; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (080)"
     },
     {
@@ -1604,7 +1604,7 @@
       "timeSeconds": 31310,
       "rank": 16,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第8区終点 戸塚中継所: printed 総合順位 16 and 総合タイム 8:41:50; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 第8区終点 戸塚中継所 (Sokuhou_090.json, /backnumber/101/tsuka/090.html): printed 総合順位 16 and 総合タイム 8:41:50; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (090)"
     },
     {
@@ -1613,7 +1613,7 @@
       "timeSeconds": 35702,
       "rank": 17,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第9区終点 鶴見中継所: printed 総合順位 17 and 総合タイム 9:55:02; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 第9区終点 鶴見中継所 (Sokuhou_100.json, /backnumber/101/tsuka/100.html): printed 総合順位 17 and 総合タイム 9:55:02; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (100)"
     },
     {
@@ -1622,7 +1622,7 @@
       "timeSeconds": 40180,
       "rank": 18,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第10区終点 大手町: printed 総合順位 18 and 総合タイム 11:09:40; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 第10区終点 大手町 (Sokuhou_110.json, /backnumber/101/tsuka/110.html): printed 総合順位 18 and 総合タイム 11:09:40; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (110)"
     },
     {
@@ -1631,7 +1631,7 @@
       "timeSeconds": 3769,
       "rank": 8,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第1区終点 鶴見中継所: printed 総合順位 8 and 総合タイム 1:02:49; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第1区終点 鶴見中継所 (Sokuhou_020.json, /backnumber/101/tsuka/020.html): printed 総合順位 8 and 総合タイム 1:02:49; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (020)"
     },
     {
@@ -1640,7 +1640,7 @@
       "timeSeconds": 7878,
       "rank": 17,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第2区終点 戸塚中継所: printed 総合順位 17 and 総合タイム 2:11:18; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第2区終点 戸塚中継所 (Sokuhou_030.json, /backnumber/101/tsuka/030.html): printed 総合順位 17 and 総合タイム 2:11:18; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (030)"
     },
     {
@@ -1649,7 +1649,7 @@
       "timeSeconds": 11664,
       "rank": 17,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第3区終点 平塚中継所: printed 総合順位 17 and 総合タイム 3:14:24; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第3区終点 平塚中継所 (Sokuhou_040.json, /backnumber/101/tsuka/040.html): printed 総合順位 17 and 総合タイム 3:14:24; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (040)"
     },
     {
@@ -1658,7 +1658,7 @@
       "timeSeconds": 15495,
       "rank": 15,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第4区終点 小田原中継所: printed 総合順位 15 and 総合タイム 4:18:15; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第4区終点 小田原中継所 (Sokuhou_050.json, /backnumber/101/tsuka/050.html): printed 総合順位 15 and 総合タイム 4:18:15; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (050)"
     },
     {
@@ -1667,7 +1667,7 @@
       "timeSeconds": 20024,
       "rank": 19,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖: printed 総合順位 19 and 総合タイム 5:33:44; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖 (Sokuhou_060.json, /backnumber/101/tsuka/060.html): printed 総合順位 19 and 総合タイム 5:33:44; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (060)"
     },
     {
@@ -1676,7 +1676,7 @@
       "timeSeconds": 23601,
       "rank": 18,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所: printed 総合順位 18 and 総合タイム 6:33:21; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所 (Sokuhou_070.json, /backnumber/101/tsuka/070.html): printed 総合順位 18 and 総合タイム 6:33:21; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (070)"
     },
     {
@@ -1685,7 +1685,7 @@
       "timeSeconds": 27610,
       "rank": 18,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第7区終点 平塚中継所: printed 総合順位 18 and 総合タイム 7:40:10; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 第7区終点 平塚中継所 (Sokuhou_080.json, /backnumber/101/tsuka/080.html): printed 総合順位 18 and 総合タイム 7:40:10; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (080)"
     },
     {
@@ -1694,7 +1694,7 @@
       "timeSeconds": 31612,
       "rank": 18,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第8区終点 戸塚中継所: printed 総合順位 18 and 総合タイム 8:46:52; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 第8区終点 戸塚中継所 (Sokuhou_090.json, /backnumber/101/tsuka/090.html): printed 総合順位 18 and 総合タイム 8:46:52; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (090)"
     },
     {
@@ -1703,7 +1703,7 @@
       "timeSeconds": 35935,
       "rank": 19,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第9区終点 鶴見中継所: printed 総合順位 19 and 総合タイム 9:58:55; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 第9区終点 鶴見中継所 (Sokuhou_100.json, /backnumber/101/tsuka/100.html): printed 総合順位 19 and 総合タイム 9:58:55; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (100)"
     },
     {
@@ -1712,7 +1712,7 @@
       "timeSeconds": 40238,
       "rank": 19,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第10区終点 大手町: printed 総合順位 19 and 総合タイム 11:10:38; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 第10区終点 大手町 (Sokuhou_110.json, /backnumber/101/tsuka/110.html): printed 総合順位 19 and 総合タイム 11:10:38; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (110)"
     },
     {
@@ -1721,7 +1721,7 @@
       "timeSeconds": 3797,
       "rank": 18,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第1区終点 鶴見中継所: printed 総合順位 18 and 総合タイム 1:03:17; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第1区終点 鶴見中継所 (Sokuhou_020.json, /backnumber/101/tsuka/020.html): printed 総合順位 18 and 総合タイム 1:03:17; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (020)"
     },
     {
@@ -1730,7 +1730,7 @@
       "timeSeconds": 7848,
       "rank": 13,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第2区終点 戸塚中継所: printed 総合順位 13 and 総合タイム 2:10:48; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第2区終点 戸塚中継所 (Sokuhou_030.json, /backnumber/101/tsuka/030.html): printed 総合順位 13 and 総合タイム 2:10:48; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (030)"
     },
     {
@@ -1739,7 +1739,7 @@
       "timeSeconds": 11748,
       "rank": 19,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第3区終点 平塚中継所: printed 総合順位 19 and 総合タイム 3:15:48; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第3区終点 平塚中継所 (Sokuhou_040.json, /backnumber/101/tsuka/040.html): printed 総合順位 19 and 総合タイム 3:15:48; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (040)"
     },
     {
@@ -1748,7 +1748,7 @@
       "timeSeconds": 15601,
       "rank": 19,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第4区終点 小田原中継所: printed 総合順位 19 and 総合タイム 4:20:01; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第4区終点 小田原中継所 (Sokuhou_050.json, /backnumber/101/tsuka/050.html): printed 総合順位 19 and 総合タイム 4:20:01; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (050)"
     },
     {
@@ -1757,7 +1757,7 @@
       "timeSeconds": 19984,
       "rank": 17,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖: printed 総合順位 17 and 総合タイム 5:33:04; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖 (Sokuhou_060.json, /backnumber/101/tsuka/060.html): printed 総合順位 17 and 総合タイム 5:33:04; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (060)"
     },
     {
@@ -1766,7 +1766,7 @@
       "timeSeconds": 23634,
       "rank": 19,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所: printed 総合順位 19 and 総合タイム 6:33:54; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所 (Sokuhou_070.json, /backnumber/101/tsuka/070.html): printed 総合順位 19 and 総合タイム 6:33:54; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (070)"
     },
     {
@@ -1775,7 +1775,7 @@
       "timeSeconds": 27666,
       "rank": 20,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第7区終点 平塚中継所: printed 総合順位 20 and 総合タイム 7:41:06; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 第7区終点 平塚中継所 (Sokuhou_080.json, /backnumber/101/tsuka/080.html): printed 総合順位 20 and 総合タイム 7:41:06; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (080)"
     },
     {
@@ -1784,7 +1784,7 @@
       "timeSeconds": 31699,
       "rank": 20,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第8区終点 戸塚中継所: printed 総合順位 20 and 総合タイム 8:48:19; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 第8区終点 戸塚中継所 (Sokuhou_090.json, /backnumber/101/tsuka/090.html): printed 総合順位 20 and 総合タイム 8:48:19; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (090)"
     },
     {
@@ -1793,7 +1793,7 @@
       "timeSeconds": 36036,
       "rank": 20,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第9区終点 鶴見中継所: printed 総合順位 20 and 総合タイム 10:00:36; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 第9区終点 鶴見中継所 (Sokuhou_100.json, /backnumber/101/tsuka/100.html): printed 総合順位 20 and 総合タイム 10:00:36; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (100)"
     },
     {
@@ -1802,7 +1802,7 @@
       "timeSeconds": 40310,
       "rank": 20,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第10区終点 大手町: printed 総合順位 20 and 総合タイム 11:11:50; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 第10区終点 大手町 (Sokuhou_110.json, /backnumber/101/tsuka/110.html): printed 総合順位 20 and 総合タイム 11:11:50; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (110)"
     },
     {
@@ -1811,7 +1811,7 @@
       "timeSeconds": 3776,
       "rank": null,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第1区終点 鶴見中継所: printed 総合順位 OP and 総合タイム 1:02:56; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第1区終点 鶴見中継所 (Sokuhou_020.json, /backnumber/101/tsuka/020.html): printed 総合順位 OP and 総合タイム 1:02:56; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (020)"
     },
     {
@@ -1820,7 +1820,7 @@
       "timeSeconds": 7914,
       "rank": null,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第2区終点 戸塚中継所: printed 総合順位 OP and 総合タイム 2:11:54; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第2区終点 戸塚中継所 (Sokuhou_030.json, /backnumber/101/tsuka/030.html): printed 総合順位 OP and 総合タイム 2:11:54; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (030)"
     },
     {
@@ -1829,7 +1829,7 @@
       "timeSeconds": 11689,
       "rank": null,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第3区終点 平塚中継所: printed 総合順位 OP and 総合タイム 3:14:49; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第3区終点 平塚中継所 (Sokuhou_040.json, /backnumber/101/tsuka/040.html): printed 総合順位 OP and 総合タイム 3:14:49; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (040)"
     },
     {
@@ -1838,7 +1838,7 @@
       "timeSeconds": 15523,
       "rank": null,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第4区終点 小田原中継所: printed 総合順位 OP and 総合タイム 4:18:43; elapsed-time overall standing (SOGOU), not road order",
+      "locator": "NTV 記録速報 第4区終点 小田原中継所 (Sokuhou_050.json, /backnumber/101/tsuka/050.html): printed 総合順位 OP and 総合タイム 4:18:43; elapsed-time overall standing (SOGOU), not road order",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (050)"
     },
     {
@@ -1847,7 +1847,7 @@
       "timeSeconds": 19985,
       "rank": null,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖: printed 総合順位 OP and 総合タイム 5:33:05; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 往路・第5区終点 箱根・芦ノ湖 (Sokuhou_060.json, /backnumber/101/tsuka/060.html): printed 総合順位 OP and 総合タイム 5:33:05; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (060)"
     },
     {
@@ -1856,7 +1856,7 @@
       "timeSeconds": 23563,
       "rank": null,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所: printed 総合順位 OP and 総合タイム 6:32:43; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 復路・第6区終点 小田原中継所 (Sokuhou_070.json, /backnumber/101/tsuka/070.html): printed 総合順位 OP and 総合タイム 6:32:43; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (070)"
     },
     {
@@ -1865,7 +1865,7 @@
       "timeSeconds": 27439,
       "rank": null,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第7区終点 平塚中継所: printed 総合順位 OP and 総合タイム 7:37:19; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 第7区終点 平塚中継所 (Sokuhou_080.json, /backnumber/101/tsuka/080.html): printed 総合順位 OP and 総合タイム 7:37:19; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (080)"
     },
     {
@@ -1874,7 +1874,7 @@
       "timeSeconds": 31324,
       "rank": null,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第8区終点 戸塚中継所: printed 総合順位 OP and 総合タイム 8:42:04; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 第8区終点 戸塚中継所 (Sokuhou_090.json, /backnumber/101/tsuka/090.html): printed 総合順位 OP and 総合タイム 8:42:04; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (090)"
     },
     {
@@ -1883,7 +1883,7 @@
       "timeSeconds": 35636,
       "rank": null,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第9区終点 鶴見中継所: printed 総合順位 OP and 総合タイム 9:53:56; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 第9区終点 鶴見中継所 (Sokuhou_100.json, /backnumber/101/tsuka/100.html): printed 総合順位 OP and 総合タイム 9:53:56; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (100)"
     },
     {
@@ -1892,7 +1892,7 @@
       "timeSeconds": 40013,
       "rank": null,
       "sourceId": "ntv-hk25-sokuhou",
-      "locator": "NTV 記録速報 第10区終点 大手町: printed 総合順位 OP and 総合タイム 11:06:53; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
+      "locator": "NTV 記録速報 第10区終点 大手町 (Sokuhou_110.json, /backnumber/101/tsuka/110.html): printed 総合順位 OP and 総合タイム 11:06:53; elapsed-time overall standing (SOGOU), not road order; 繰り上げスタート flagged, so road order differs from this standing",
       "revision": "記録速報 last updated 2025/01/03 13:49:40 (110)"
     }
   ],
@@ -2027,7 +2027,7 @@
     }
   ],
   "notes": [
-    "累计用时与综合顺位取自日本テレビ「記録速報」第101回回各区间终点数据（10个中继所），为按有效累计比赛用时排列的综合顺位；与繰り上げスタート后的走行順不同。",
+    "累计用时与综合顺位取自日本テレビ「記録速報」第101回各区间终点数据（10个中继所），为按有效累计比赛用时排列的综合顺位；与繰り上げスタート后的走行順不同。",
     "各站累计用时与官方区间用时逐队求和一致，并与已核验的第5区往路用时、第10区最终用时逐队相符；未使用区间用时反推名次。",
     "関東学生連合为参考成绩，保留累计用时但不赋予综合顺位。",
     "区间赏与区间新仅标注有明确来源的认定；未标记不代表没有获奖或纪录。"

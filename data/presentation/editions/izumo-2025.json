@@ -1,0 +1,1256 @@
+{
+  "editionId": "izumo-2025",
+  "reviewedAt": "2026-11-15",
+  "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded",
+  "sourceId": "iuau-iz25-results",
+  "cumulativeRankingBasis": "official-overall-elapsed",
+  "cumulative": [
+    {
+      "resultId": "iz25-result-06-1",
+      "entryId": "iz25-entry-06",
+      "timeSeconds": 1422,
+      "rank": 5,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.6; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-06-2",
+      "entryId": "iz25-entry-06",
+      "timeSeconds": 2412,
+      "rank": 5,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.6; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-06-3",
+      "entryId": "iz25-entry-06",
+      "timeSeconds": 3841,
+      "rank": 2,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.6; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-06-4",
+      "entryId": "iz25-entry-06",
+      "timeSeconds": 4881,
+      "rank": 1,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.6; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-06-5",
+      "entryId": "iz25-entry-06",
+      "timeSeconds": 5959,
+      "rank": 1,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.6; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-06-6",
+      "entryId": "iz25-entry-06",
+      "timeSeconds": 7752,
+      "rank": 1,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.6; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-07-1",
+      "entryId": "iz25-entry-07",
+      "timeSeconds": 1431,
+      "rank": 10,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.7; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-07-2",
+      "entryId": "iz25-entry-07",
+      "timeSeconds": 2388,
+      "rank": 1,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.7; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-07-3",
+      "entryId": "iz25-entry-07",
+      "timeSeconds": 3844,
+      "rank": 3,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.7; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-07-4",
+      "entryId": "iz25-entry-07",
+      "timeSeconds": 4904,
+      "rank": 2,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.7; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-07-5",
+      "entryId": "iz25-entry-07",
+      "timeSeconds": 6002,
+      "rank": 3,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.7; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-07-6",
+      "entryId": "iz25-entry-07",
+      "timeSeconds": 7790,
+      "rank": 2,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.7; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-10-1",
+      "entryId": "iz25-entry-10",
+      "timeSeconds": 1421,
+      "rank": 4,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.10; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-10-2",
+      "entryId": "iz25-entry-10",
+      "timeSeconds": 2409,
+      "rank": 3,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.10; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-10-3",
+      "entryId": "iz25-entry-10",
+      "timeSeconds": 3865,
+      "rank": 6,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.10; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-10-4",
+      "entryId": "iz25-entry-10",
+      "timeSeconds": 4917,
+      "rank": 5,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.10; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-10-5",
+      "entryId": "iz25-entry-10",
+      "timeSeconds": 6006,
+      "rank": 4,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.10; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-10-6",
+      "entryId": "iz25-entry-10",
+      "timeSeconds": 7805,
+      "rank": 3,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.10; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-21-1",
+      "entryId": "iz25-entry-21",
+      "timeSeconds": 1429,
+      "rank": 9,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.21; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-21-2",
+      "entryId": "iz25-entry-21",
+      "timeSeconds": 2414,
+      "rank": 6,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.21; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-21-3",
+      "entryId": "iz25-entry-21",
+      "timeSeconds": 3853,
+      "rank": 4,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.21; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-21-4",
+      "entryId": "iz25-entry-21",
+      "timeSeconds": 4908,
+      "rank": 3,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.21; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-21-5",
+      "entryId": "iz25-entry-21",
+      "timeSeconds": 5998,
+      "rank": 2,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.21; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-21-6",
+      "entryId": "iz25-entry-21",
+      "timeSeconds": 7812,
+      "rank": 4,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.21; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-05-1",
+      "entryId": "iz25-entry-05",
+      "timeSeconds": 1410,
+      "rank": 2,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.5; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-05-2",
+      "entryId": "iz25-entry-05",
+      "timeSeconds": 2393,
+      "rank": 2,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.5; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-05-3",
+      "entryId": "iz25-entry-05",
+      "timeSeconds": 3898,
+      "rank": 7,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.5; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-05-4",
+      "entryId": "iz25-entry-05",
+      "timeSeconds": 4947,
+      "rank": 6,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.5; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-05-5",
+      "entryId": "iz25-entry-05",
+      "timeSeconds": 6049,
+      "rank": 6,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.5; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-05-6",
+      "entryId": "iz25-entry-05",
+      "timeSeconds": 7827,
+      "rank": 5,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.5; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-09-1",
+      "entryId": "iz25-entry-09",
+      "timeSeconds": 1427,
+      "rank": 7,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.9; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-09-2",
+      "entryId": "iz25-entry-09",
+      "timeSeconds": 2416,
+      "rank": 7,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.9; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-09-3",
+      "entryId": "iz25-entry-09",
+      "timeSeconds": 3836,
+      "rank": 1,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.9; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-09-4",
+      "entryId": "iz25-entry-09",
+      "timeSeconds": 4909,
+      "rank": 4,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.9; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-09-5",
+      "entryId": "iz25-entry-09",
+      "timeSeconds": 6028,
+      "rank": 5,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.9; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-09-6",
+      "entryId": "iz25-entry-09",
+      "timeSeconds": 7841,
+      "rank": 6,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.9; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-04-1",
+      "entryId": "iz25-entry-04",
+      "timeSeconds": 1426,
+      "rank": 6,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.4; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-04-2",
+      "entryId": "iz25-entry-04",
+      "timeSeconds": 2442,
+      "rank": 11,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.4; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-04-3",
+      "entryId": "iz25-entry-04",
+      "timeSeconds": 3959,
+      "rank": 11,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.4; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-04-4",
+      "entryId": "iz25-entry-04",
+      "timeSeconds": 5023,
+      "rank": 11,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.4; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-04-5",
+      "entryId": "iz25-entry-04",
+      "timeSeconds": 6097,
+      "rank": 10,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.4; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-04-6",
+      "entryId": "iz25-entry-04",
+      "timeSeconds": 7852,
+      "rank": 7,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.4; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-13-1",
+      "entryId": "iz25-entry-13",
+      "timeSeconds": 1416,
+      "rank": 3,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.13; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-13-2",
+      "entryId": "iz25-entry-13",
+      "timeSeconds": 2409,
+      "rank": 4,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.13; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-13-3",
+      "entryId": "iz25-entry-13",
+      "timeSeconds": 3927,
+      "rank": 8,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.13; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-13-4",
+      "entryId": "iz25-entry-13",
+      "timeSeconds": 4986,
+      "rank": 8,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.13; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-13-5",
+      "entryId": "iz25-entry-13",
+      "timeSeconds": 6078,
+      "rank": 8,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.13; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-13-6",
+      "entryId": "iz25-entry-13",
+      "timeSeconds": 7892,
+      "rank": 8,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.13; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-12-1",
+      "entryId": "iz25-entry-12",
+      "timeSeconds": 1431,
+      "rank": 11,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.12; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-12-2",
+      "entryId": "iz25-entry-12",
+      "timeSeconds": 2433,
+      "rank": 9,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.12; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-12-3",
+      "entryId": "iz25-entry-12",
+      "timeSeconds": 3929,
+      "rank": 9,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.12; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-12-4",
+      "entryId": "iz25-entry-12",
+      "timeSeconds": 5012,
+      "rank": 10,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.12; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-12-5",
+      "entryId": "iz25-entry-12",
+      "timeSeconds": 6120,
+      "rank": 11,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.12; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-12-6",
+      "entryId": "iz25-entry-12",
+      "timeSeconds": 7926,
+      "rank": 9,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.12; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-08-1",
+      "entryId": "iz25-entry-08",
+      "timeSeconds": 1408,
+      "rank": 1,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.8; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-08-2",
+      "entryId": "iz25-entry-08",
+      "timeSeconds": 2441,
+      "rank": 10,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.8; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-08-3",
+      "entryId": "iz25-entry-08",
+      "timeSeconds": 3931,
+      "rank": 10,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.8; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-08-4",
+      "entryId": "iz25-entry-08",
+      "timeSeconds": 4994,
+      "rank": 9,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.8; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-08-5",
+      "entryId": "iz25-entry-08",
+      "timeSeconds": 6081,
+      "rank": 9,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.8; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-08-6",
+      "entryId": "iz25-entry-08",
+      "timeSeconds": 7963,
+      "rank": 10,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.8; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-11-1",
+      "entryId": "iz25-entry-11",
+      "timeSeconds": 1428,
+      "rank": 8,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.11; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-11-2",
+      "entryId": "iz25-entry-11",
+      "timeSeconds": 2429,
+      "rank": 8,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.11; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-11-3",
+      "entryId": "iz25-entry-11",
+      "timeSeconds": 3863,
+      "rank": 5,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.11; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-11-4",
+      "entryId": "iz25-entry-11",
+      "timeSeconds": 4953,
+      "rank": 7,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.11; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-11-5",
+      "entryId": "iz25-entry-11",
+      "timeSeconds": 6078,
+      "rank": 7,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.11; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-11-6",
+      "entryId": "iz25-entry-11",
+      "timeSeconds": 8193,
+      "rank": 11,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.11; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-18-1",
+      "entryId": "iz25-entry-18",
+      "timeSeconds": 1465,
+      "rank": 15,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.18; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-18-2",
+      "entryId": "iz25-entry-18",
+      "timeSeconds": 2512,
+      "rank": 14,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.18; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-18-3",
+      "entryId": "iz25-entry-18",
+      "timeSeconds": 4091,
+      "rank": 14,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.18; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-18-4",
+      "entryId": "iz25-entry-18",
+      "timeSeconds": 5196,
+      "rank": 14,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.18; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-18-5",
+      "entryId": "iz25-entry-18",
+      "timeSeconds": 6381,
+      "rank": 14,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.18; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-18-6",
+      "entryId": "iz25-entry-18",
+      "timeSeconds": 8286,
+      "rank": 12,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.18; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-01-1",
+      "entryId": "iz25-entry-01",
+      "timeSeconds": 1481,
+      "rank": 17,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.1; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-01-2",
+      "entryId": "iz25-entry-01",
+      "timeSeconds": 2539,
+      "rank": 16,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.1; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-01-3",
+      "entryId": "iz25-entry-01",
+      "timeSeconds": 4148,
+      "rank": 16,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.1; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-01-4",
+      "entryId": "iz25-entry-01",
+      "timeSeconds": 5272,
+      "rank": 15,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.1; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-01-5",
+      "entryId": "iz25-entry-01",
+      "timeSeconds": 6417,
+      "rank": 15,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.1; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-01-6",
+      "entryId": "iz25-entry-01",
+      "timeSeconds": 8304,
+      "rank": 13,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.1; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-14-1",
+      "entryId": "iz25-entry-14",
+      "timeSeconds": 1459,
+      "rank": 14,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.14; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-14-2",
+      "entryId": "iz25-entry-14",
+      "timeSeconds": 2512,
+      "rank": 13,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.14; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-14-3",
+      "entryId": "iz25-entry-14",
+      "timeSeconds": 4043,
+      "rank": 12,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.14; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-14-4",
+      "entryId": "iz25-entry-14",
+      "timeSeconds": 5163,
+      "rank": 13,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.14; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-14-5",
+      "entryId": "iz25-entry-14",
+      "timeSeconds": 6347,
+      "rank": 13,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.14; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-14-6",
+      "entryId": "iz25-entry-14",
+      "timeSeconds": 8319,
+      "rank": 14,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.14; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-20-1",
+      "entryId": "iz25-entry-20",
+      "timeSeconds": 1441,
+      "rank": 13,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.20; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-20-2",
+      "entryId": "iz25-entry-20",
+      "timeSeconds": 2523,
+      "rank": 15,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.20; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-20-3",
+      "entryId": "iz25-entry-20",
+      "timeSeconds": 4110,
+      "rank": 15,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.20; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-20-4",
+      "entryId": "iz25-entry-20",
+      "timeSeconds": 5284,
+      "rank": 16,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.20; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-20-5",
+      "entryId": "iz25-entry-20",
+      "timeSeconds": 6448,
+      "rank": 16,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.20; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-20-6",
+      "entryId": "iz25-entry-20",
+      "timeSeconds": 8371,
+      "rank": 15,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.20; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-19-1",
+      "entryId": "iz25-entry-19",
+      "timeSeconds": 1438,
+      "rank": 12,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.19; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-19-2",
+      "entryId": "iz25-entry-19",
+      "timeSeconds": 2478,
+      "rank": 12,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.19; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-19-3",
+      "entryId": "iz25-entry-19",
+      "timeSeconds": 4064,
+      "rank": 13,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.19; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-19-4",
+      "entryId": "iz25-entry-19",
+      "timeSeconds": 5163,
+      "rank": 12,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.19; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-19-5",
+      "entryId": "iz25-entry-19",
+      "timeSeconds": 6334,
+      "rank": 12,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.19; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-19-6",
+      "entryId": "iz25-entry-19",
+      "timeSeconds": 8398,
+      "rank": 16,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.19; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-16-1",
+      "entryId": "iz25-entry-16",
+      "timeSeconds": 1527,
+      "rank": 20,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.16; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-16-2",
+      "entryId": "iz25-entry-16",
+      "timeSeconds": 2577,
+      "rank": 19,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.16; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-16-3",
+      "entryId": "iz25-entry-16",
+      "timeSeconds": 4215,
+      "rank": 18,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.16; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-16-4",
+      "entryId": "iz25-entry-16",
+      "timeSeconds": 5337,
+      "rank": 17,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.16; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-16-5",
+      "entryId": "iz25-entry-16",
+      "timeSeconds": 6514,
+      "rank": 18,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.16; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-16-6",
+      "entryId": "iz25-entry-16",
+      "timeSeconds": 8408,
+      "rank": 17,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.16; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-22-1",
+      "entryId": "iz25-entry-22",
+      "timeSeconds": 1493,
+      "rank": null,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.22; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-22-2",
+      "entryId": "iz25-entry-22",
+      "timeSeconds": 2581,
+      "rank": null,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.22; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-22-3",
+      "entryId": "iz25-entry-22",
+      "timeSeconds": 4143,
+      "rank": null,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.22; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-22-4",
+      "entryId": "iz25-entry-22",
+      "timeSeconds": 5309,
+      "rank": null,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.22; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-22-5",
+      "entryId": "iz25-entry-22",
+      "timeSeconds": 6453,
+      "rank": null,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.22; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-22-6",
+      "entryId": "iz25-entry-22",
+      "timeSeconds": 8460,
+      "rank": null,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.22; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-17-1",
+      "entryId": "iz25-entry-17",
+      "timeSeconds": 1503,
+      "rank": 18,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.17; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-17-2",
+      "entryId": "iz25-entry-17",
+      "timeSeconds": 2561,
+      "rank": 18,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.17; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-17-3",
+      "entryId": "iz25-entry-17",
+      "timeSeconds": 4245,
+      "rank": 19,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.17; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-17-4",
+      "entryId": "iz25-entry-17",
+      "timeSeconds": 5361,
+      "rank": 18,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.17; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-17-5",
+      "entryId": "iz25-entry-17",
+      "timeSeconds": 6510,
+      "rank": 17,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.17; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-17-6",
+      "entryId": "iz25-entry-17",
+      "timeSeconds": 8472,
+      "rank": 18,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.17; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-15-1",
+      "entryId": "iz25-entry-15",
+      "timeSeconds": 1474,
+      "rank": 16,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.15; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-15-2",
+      "entryId": "iz25-entry-15",
+      "timeSeconds": 2549,
+      "rank": 17,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.15; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-15-3",
+      "entryId": "iz25-entry-15",
+      "timeSeconds": 4154,
+      "rank": 17,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.15; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-15-4",
+      "entryId": "iz25-entry-15",
+      "timeSeconds": 5368,
+      "rank": 19,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.15; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-15-5",
+      "entryId": "iz25-entry-15",
+      "timeSeconds": 6543,
+      "rank": 19,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.15; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-15-6",
+      "entryId": "iz25-entry-15",
+      "timeSeconds": 8542,
+      "rank": 19,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.15; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-03-1",
+      "entryId": "iz25-entry-03",
+      "timeSeconds": 1520,
+      "rank": 19,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.3; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-03-2",
+      "entryId": "iz25-entry-03",
+      "timeSeconds": 2626,
+      "rank": 20,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.3; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-03-3",
+      "entryId": "iz25-entry-03",
+      "timeSeconds": 4246,
+      "rank": 20,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.3; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-03-4",
+      "entryId": "iz25-entry-03",
+      "timeSeconds": 5400,
+      "rank": 20,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.3; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-03-5",
+      "entryId": "iz25-entry-03",
+      "timeSeconds": 6611,
+      "rank": 20,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.3; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-03-6",
+      "entryId": "iz25-entry-03",
+      "timeSeconds": 8557,
+      "rank": 20,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.3; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-02-1",
+      "entryId": "iz25-entry-02",
+      "timeSeconds": 1545,
+      "rank": 21,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.2; section 1; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-02-2",
+      "entryId": "iz25-entry-02",
+      "timeSeconds": 2657,
+      "rank": 21,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.2; section 2; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-02-3",
+      "entryId": "iz25-entry-02",
+      "timeSeconds": 4366,
+      "rank": 21,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.2; section 3; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-02-4",
+      "entryId": "iz25-entry-02",
+      "timeSeconds": 5552,
+      "rank": 21,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.2; section 4; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-02-5",
+      "entryId": "iz25-entry-02",
+      "timeSeconds": 6789,
+      "rank": 21,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.2; section 5; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "resultId": "iz25-result-02-6",
+      "entryId": "iz25-entry-02",
+      "timeSeconds": 8895,
+      "rank": 21,
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.2; section 6; upper official cumulative elapsed time/rank",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    }
+  ],
+  "honors": [
+    {
+      "id": "iz25-result-06-4/section-record",
+      "resultId": "iz25-result-06-4",
+      "type": "section-record",
+      "sourceId": "iuau-iz25-results",
+      "locator": "p.2; No.6; section 4; lower row explicit 区間新 marker",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "id": "iz25-result-08-1/section-award",
+      "resultId": "iz25-result-08-1",
+      "type": "section-award",
+      "sourceId": "iuau-iz25-results",
+      "locator": "区間賞 explicit list; section 1; No.8; 23:28; eligibility cross-checked with adopted IUAU final/revised PDF",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "id": "iz25-result-07-2/section-award",
+      "resultId": "iz25-result-07-2",
+      "type": "section-award",
+      "sourceId": "iuau-iz25-results",
+      "locator": "区間賞 explicit list; section 2; No.7; 15:57; eligibility cross-checked with adopted IUAU final/revised PDF",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "id": "iz25-result-09-3/section-award",
+      "resultId": "iz25-result-09-3",
+      "type": "section-award",
+      "sourceId": "iuau-iz25-results",
+      "locator": "区間賞 explicit list; section 3; No.9; 23:40; eligibility cross-checked with adopted IUAU final/revised PDF",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "id": "iz25-result-06-4/section-award",
+      "resultId": "iz25-result-06-4",
+      "type": "section-award",
+      "sourceId": "iuau-iz25-results",
+      "locator": "区間賞 explicit list; section 4; No.6; 17:20; eligibility cross-checked with adopted IUAU final/revised PDF",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "id": "iz25-result-04-5/section-award",
+      "resultId": "iz25-result-04-5",
+      "type": "section-award",
+      "sourceId": "iuau-iz25-results",
+      "locator": "区間賞 explicit list; section 5; No.4; 17:54; eligibility cross-checked with adopted IUAU final/revised PDF",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    },
+    {
+      "id": "iz25-result-04-6/section-award",
+      "resultId": "iz25-result-04-6",
+      "type": "section-award",
+      "sourceId": "iuau-iz25-results",
+      "locator": "区間賞 explicit list; section 6; No.4; 29:15; eligibility cross-checked with adopted IUAU final/revised PDF",
+      "revision": "IUAU result publication retrieved 2026-11-13; official cumulative and section columns reconciled; historical record header excluded"
+    }
+  ],
+  "notes": []
+}

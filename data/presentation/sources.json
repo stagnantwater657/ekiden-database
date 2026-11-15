@@ -1,0 +1,32 @@
+[
+  {
+    "id": "getsuriku-iz23-awards",
+    "title": "月陸Online 第35回出雲 区間賞報道（事実照合）",
+    "url": "https://www.rikujyokyogi.co.jp/archives/116531",
+    "collectedAt": "2026-11-15",
+    "locator": "区間賞 list",
+    "coverage": "Only award identity facts cross-checked against adopted IUAU results; article text/images/layout excluded",
+    "revision": "2023-10-09 published report; final eligibility checked against 2024-02-21 revised results",
+    "usage": {
+      "policyUrl": "https://www.rikujyokyogi.co.jp/サイトポリシー",
+      "reviewedAt": "2026-11-15",
+      "basis": "Site policy protects articles, photographs, design and other content and prohibits unauthorized republication. Only independently structured, bounded objective award facts are recorded; no article, image, layout or raw page is republished. No written permission claimed; no access-control bypass or crawling.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "getsuriku-iz26-awards",
+    "title": "月陸Online 第38回出雲 区間賞報道（事実照合）",
+    "url": "https://www.rikujyokyogi.co.jp/archives/219067",
+    "collectedAt": "2026-11-15",
+    "locator": "区間賞 list",
+    "coverage": "Only award identity facts cross-checked against adopted IUAU results; article text/images/layout excluded",
+    "revision": "2026-10-12 published result report",
+    "usage": {
+      "policyUrl": "https://www.rikujyokyogi.co.jp/サイトポリシー",
+      "reviewedAt": "2026-11-15",
+      "basis": "Site policy protects articles, photographs, design and other content and prohibits unauthorized republication. Only independently structured, bounded objective award facts are recorded; no article, image, layout or raw page is republished. No written permission claimed; no access-control bypass or crawling.",
+      "permissionReference": null
+    }
+  }
+]

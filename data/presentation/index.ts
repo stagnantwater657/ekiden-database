@@ -1,3 +1,8 @@
+import iz2023 from "./editions/izumo-2023.json" with { type: "json" };
+import iz2024 from "./editions/izumo-2024.json" with { type: "json" };
+import iz2025 from "./editions/izumo-2025.json" with { type: "json" };
+import iz2026 from "./editions/izumo-2026.json" with { type: "json" };
+import extraSources from "./sources.json" with { type: "json" };
 import aj2024 from "./all-japan-2024.json" with { type: "json" };
 import aj2023 from "./editions/all-japan-2023.json" with { type: "json" };
 import aj2025 from "./editions/all-japan-2025.json" with { type: "json" };
@@ -28,5 +33,5 @@ const legacy: EditionPresentation = {
   ),
   notes: [],
 };
-export const editionPresentations = [aj2023, legacy, aj2025, aj2026] as EditionPresentation[];
-export const presentationSources: Source[] = [];
+export const editionPresentations = [aj2023, legacy, aj2025, aj2026, iz2023, iz2024, iz2025, iz2026] as EditionPresentation[];
+export const presentationSources = extraSources as Source[];

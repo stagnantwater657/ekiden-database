@@ -184,7 +184,6 @@ test("ordinary complete editions derive explicit calculated cumulative totals, t
 
 test("missing or abnormal results and Hakone never enter the ordinary cumulative calculation", () => {
   for (const edition of [
-    "izumo-2023",
     "hakone-2024",
     "hakone-2025",
     "hakone-2026",

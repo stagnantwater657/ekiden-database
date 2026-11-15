@@ -55,3 +55,28 @@ test("supplement validation rejects wrong links, times, ranks, duplicates, prove
   data = copy(); data[0].cumulative.find((p) => p.entryId === "aj23-entry-26")!.rank = 1;
   assert.throws(() => validatePresentation(database, data), /reference/);
 });
+
+test("Izumo uses revised ranks, explicit awards and every new/tied record including overseas non-winners", () => {
+  for (const [year, points, awards, records, ties] of [[2023,114,6,0,0],[2024,126,6,0,0],[2025,132,6,1,0],[2026,132,6,10,1]]) {
+    const data = editionPresentations.find((e) => e.editionId === `izumo-${year}`)!;
+    assert.equal(data.cumulative.length, points);
+    assert.deepEqual(["section-award", "section-record", "section-record-tie"].map((type) => data.honors.filter((h) => h.type === type).length), [awards, records, ties]);
+  }
+  // Corrected individual rank alone cannot establish a re-awarded prize.
+  assert.equal(getResultHonors("iz23-result-03-5"), null);
+  assert.equal(getResultHonors("iz23-result-03-2")!.sectionAward, true);
+  assert.equal(getResultHonors("iz23-result-05-2")!.sectionAward, true);
+  assert.equal(getResultHonors("iz26-result-21-5")!.sectionRecord, true);
+  assert.equal(getResultHonors("iz26-result-21-5")!.sectionAward, false);
+  assert.equal(getResultHonors("iz26-result-08-3")!.sectionRecordTie, true);
+  for (const leg of [1,2,3,4,5,6]) {
+    for (const row of buildEditionScoreboard(database,"izumo-2023",leg)!.rows.filter((r) => ["disqualified","did-not-finish"].includes(r.entry.status))) {
+      assert.equal(row.cumulative.timeSeconds,null);
+      assert.equal(row.cumulative.rank,null);
+      assert.equal(getResultHonors(row.id),null);
+    }
+    const reference = buildEditionScoreboard(database,"izumo-2026",leg)!.rows.find((r) => r.entry.rankingEligibility === "reference")!;
+    assert.equal(reference.cumulative.mode,"official");
+    assert.equal(reference.cumulative.rank,null);
+  }
+});

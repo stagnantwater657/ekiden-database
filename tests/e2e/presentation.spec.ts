@@ -41,14 +41,16 @@ test("current course records retain co-holders, university and edition links on 
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 });
 
-test("official cumulative coverage respects Hakone gaps and revised/disqualified entries", async ({page}) => {
+test("official Hakone checkpoint standings replace the former gap and keep revised/disqualified entries intact", async ({page}) => {
   await page.goto("/editions/hakone-2026?section=5");
   await expect(page.locator("main")).toContainText("官方累计成绩");
   await expect(page.locator('tr[data-result-id="hk26-result-01-5"]')).toContainText("5:18:08");
   await page.getByRole("navigation",{name:"区间导航"}).getByRole("link",{name:"6区",exact:true}).click();
-  await expect(page.locator("main")).toContainText("累计成绩尚待核验");
+  await expect(page.locator("main")).toContainText("官方累计成绩");
+  await expect(page.locator('tr[data-result-id="hk26-result-01-6"]')).toContainText("6:15:23");
   await page.reload();
-  await expect(page.locator("main")).toContainText("累计成绩尚待核验");
+  await expect(page.locator("main")).toContainText("官方累计成绩");
+  await expect(page.locator('tr[data-result-id="hk26-result-01-6"]')).toContainText("6:15:23");
   await page.goto("/editions/izumo-2023?section=5");
   await expect(page.locator('tr[data-result-id="iz23-result-03-5"] .result-badge--award')).toHaveCount(0);
   await expect(page.locator('tr[data-result-id="iz23-result-10-5"] .result-badge')).toHaveCount(0);

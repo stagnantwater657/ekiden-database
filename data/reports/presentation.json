@@ -101,25 +101,21 @@
       "editionNumber": 100,
       "results": 230,
       "cumulative": {
-        "official": 46,
+        "official": 230,
         "calculated": 0,
-        "missing": 184,
-        "officialTimeWithoutRank": 23
+        "missing": 0,
+        "officialTimeWithoutRank": 0
       },
       "sectionAwards": 10,
       "sectionRecords": 2,
       "sectionRecordTies": 0,
       "gaps": [
-        "箱根仅补入官方档案明确提供的5区往路完赛用时与10区最终综合用时/顺位。往路官方顺位尚未充分核验，保持空值。",
-        "其余中继站缺少可可靠读取并核验的赛后官方累计表；不使用区间求和、速報通过次序或复路走行顺伪装官方综合排名。"
+        "累计用时与综合顺位取自日本テレビ「記録速報」第100回回各区间终点数据（10个中继所），为按有效累计比赛用时排列的综合顺位；与繰り上げスタート后的走行順不同。",
+        "各站累计用时与官方区间用时逐队求和一致，并与已核验的第5区往路用时、第10区最终用时逐队相符；未使用区间用时反推名次。",
+        "関東学生連合为参考成绩，保留累计用时但不赋予综合顺位。",
+        "区间赏与区间新仅标注有明确来源的认定；未标记不代表没有获奖或纪录。"
       ],
       "sources": [
-        {
-          "id": "hakone-24-archive",
-          "url": "https://www.hakone-ekiden.jp/record/tournament-detail.php?tn=103",
-          "revision": "Historical official archive as retrieved 2026-11-13",
-          "locator": "大会記録 total/outbound/return columns; linked university records"
-        },
         {
           "id": "kgrr-hk24-awards",
           "url": "https://www.kgrr.org/files/competition/23/40/kukansyouichiran.PDF",
@@ -131,6 +127,12 @@
           "url": "https://www.kgrr.org/files/competition/23/40/5kukukankiroku.PDF",
           "revision": "Published section sheet labelled 速報; marker checked with final archived elapsed result; not used for final cumulative ranks",
           "locator": "p.1"
+        },
+        {
+          "id": "ntv-hk24-sokuhou",
+          "url": "https://www.ntv.co.jp/hakone/assets_data/100/Sokuhou_020.json",
+          "revision": "記録速報 last updated 2024/01/03 14:12:01",
+          "locator": "Sokuhou_020 / 030 / 040 / 050 / 060 / 070 / 080 / 090 / 100 / 110.json (10 中継所), SOGOU array"
         }
       ]
     },
@@ -139,25 +141,21 @@
       "editionNumber": 101,
       "results": 210,
       "cumulative": {
-        "official": 42,
+        "official": 210,
         "calculated": 0,
-        "missing": 168,
-        "officialTimeWithoutRank": 22
+        "missing": 0,
+        "officialTimeWithoutRank": 10
       },
       "sectionAwards": 10,
       "sectionRecords": 6,
       "sectionRecordTies": 0,
       "gaps": [
-        "箱根仅补入官方档案明确提供的5区往路完赛用时与10区最终综合用时/顺位。往路官方顺位尚未充分核验，保持空值。",
-        "其余中继站缺少可可靠读取并核验的赛后官方累计表；不使用区间求和、速報通过次序或复路走行顺伪装官方综合排名。"
+        "累计用时与综合顺位取自日本テレビ「記録速報」第101回回各区间终点数据（10个中继所），为按有效累计比赛用时排列的综合顺位；与繰り上げスタート后的走行順不同。",
+        "各站累计用时与官方区间用时逐队求和一致，并与已核验的第5区往路用时、第10区最终用时逐队相符；未使用区间用时反推名次。",
+        "関東学生連合为参考成绩，保留累计用时但不赋予综合顺位。",
+        "区间赏与区间新仅标注有明确来源的认定；未标记不代表没有获奖或纪录。"
       ],
       "sources": [
-        {
-          "id": "hakone-25-archive",
-          "url": "https://www.hakone-ekiden.jp/record/tournament-detail.php?tn=104",
-          "revision": "Historical official archive as retrieved 2026-11-13",
-          "locator": "大会記録 total/outbound/return columns; linked university records"
-        },
         {
           "id": "kgrr-hk25-awards",
           "url": "https://www.kgrr.org/files/competition/106/40/kukannsyouitirann.PDF",
@@ -169,6 +167,12 @@
           "url": "https://www.kgrr.org/files/competition/106/40/niku.PDF",
           "revision": "Published section sheet labelled 速報; marker checked with final archived elapsed result; not used for final cumulative ranks",
           "locator": "p.1"
+        },
+        {
+          "id": "ntv-hk25-sokuhou",
+          "url": "https://www.ntv.co.jp/hakone/assets_data/101/Sokuhou_020.json",
+          "revision": "記録速報 last updated 2025/01/03 13:49:40",
+          "locator": "Sokuhou_020 / 030 / 040 / 050 / 060 / 070 / 080 / 090 / 100 / 110.json (10 中継所), SOGOU array"
         }
       ]
     },
@@ -177,26 +181,21 @@
       "editionNumber": 102,
       "results": 210,
       "cumulative": {
-        "official": 42,
+        "official": 210,
         "calculated": 0,
-        "missing": 168,
-        "officialTimeWithoutRank": 22
+        "missing": 0,
+        "officialTimeWithoutRank": 10
       },
       "sectionAwards": 10,
       "sectionRecords": 6,
       "sectionRecordTies": 0,
       "gaps": [
-        "箱根仅补入官方档案明确提供的5区往路完赛用时与10区最终综合用时/顺位。往路官方顺位尚未充分核验，保持空值。",
-        "其余中继站缺少可可靠读取并核验的赛后官方累计表；不使用区间求和、速報通过次序或复路走行顺伪装官方综合排名。",
+        "累计用时与综合顺位取自日本テレビ「記録速報」第102回回各区间终点数据（10个中继所），为按有效累计比赛用时排列的综合顺位；与繰り上げスタート后的走行順不同。",
+        "各站累计用时与官方区间用时逐队求和一致，并与已核验的第5区往路用时、第10区最终用时逐队相符；未使用区间用时反推名次。",
+        "関東学生連合为参考成绩，保留累计用时但不赋予综合顺位。",
         "1区関東学生連合川崎楓1:00:38为参考成绩；未获得官方区间纪录资格，不标区間新。"
       ],
       "sources": [
-        {
-          "id": "hakone-26-archive",
-          "url": "https://www.hakone-ekiden.jp/record/tournament-detail.php?tn=106",
-          "revision": "Historical official archive as retrieved 2026-11-13",
-          "locator": "大会記録 total/outbound/return columns; linked university records"
-        },
         {
           "id": "kgrr-hk26-awards",
           "url": "https://www.kgrr.org/files/competition/125/40/hukurokukannsyou.PDF",
@@ -208,6 +207,12 @@
           "url": "https://www.kgrr.org/files/competition/125/40/1%E5%8C%BA%E5%8C%BA%E9%96%93%E8%A8%98%E9%8C%B2.PDF",
           "revision": "Published section sheet labelled 速報; marker checked with final archived elapsed result; not used for final cumulative ranks",
           "locator": "p.1"
+        },
+        {
+          "id": "ntv-hk26-sokuhou",
+          "url": "https://www.ntv.co.jp/hakone/assets_data/102/Sokuhou_020.json",
+          "revision": "記録速報 last updated 2026/01/03 16:30:37",
+          "locator": "Sokuhou_020 / 030 / 040 / 050 / 060 / 070 / 080 / 090 / 100 / 110.json (10 中継所), SOGOU array"
         }
       ]
     },
@@ -354,9 +359,9 @@
   "totals": {
     "editions": 11,
     "results": 2030,
-    "officialCumulative": 1494,
+    "officialCumulative": 2014,
     "calculatedCumulative": 0,
-    "missingCumulative": 536,
+    "missingCumulative": 16,
     "sectionAwards": 87,
     "sectionRecords": 39,
     "sectionRecordTies": 2

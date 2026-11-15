@@ -133,5 +133,50 @@
       "basis": "Reviewed rights and terms pages. They protect broadcasts, photographs, text, logos and other copyrighted expression and prohibit unauthorized republication. Only independently structured objective record facts are retained, not page content, imagery or layout; no claim of permission and no access restriction bypass.",
       "permissionReference": null
     }
+  },
+  {
+    "id": "ntv-hk24-sokuhou",
+    "title": "日本テレビ 箱根駅伝 記録速報 第100回 各区間終点（中継所）",
+    "url": "https://www.ntv.co.jp/hakone/assets_data/100/Sokuhou_020.json",
+    "collectedAt": "2026-11-15",
+    "locator": "Sokuhou_020 / 030 / 040 / 050 / 060 / 070 / 080 / 090 / 100 / 110.json (10 中継所), SOGOU array",
+    "coverage": "箱根駅伝 第100回 23校・10中継所 総合順位・総合タイム・繰り上げフラグのみ。走行順（TSUKA）は採用せず、PDF・画像・番組映像は保存しない。",
+    "revision": "記録速報 last updated 2024/01/03 14:12:01",
+    "usage": {
+      "policyUrl": "https://www.ntv.co.jp/ntv_notice/terms.html",
+      "reviewedAt": "2026-11-15",
+      "basis": "Reviewed NTV terms and rights notices: programme content, articles, imagery and layout are protected. Only independently structured objective record facts (per-team checkpoint elapsed time and elapsed-time ranking) are retained; no text, image, layout or programme material is copied, and no access control is bypassed. No written permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "ntv-hk25-sokuhou",
+    "title": "日本テレビ 箱根駅伝 記録速報 第101回 各区間終点（中継所）",
+    "url": "https://www.ntv.co.jp/hakone/assets_data/101/Sokuhou_020.json",
+    "collectedAt": "2026-11-15",
+    "locator": "Sokuhou_020 / 030 / 040 / 050 / 060 / 070 / 080 / 090 / 100 / 110.json (10 中継所), SOGOU array",
+    "coverage": "箱根駅伝 第101回 20校＋関東学生連合・10中継所 総合順位・総合タイム・繰り上げフラグのみ。走行順（TSUKA）は採用せず、PDF・画像・番組映像は保存しない。",
+    "revision": "記録速報 last updated 2025/01/03 13:49:40",
+    "usage": {
+      "policyUrl": "https://www.ntv.co.jp/ntv_notice/terms.html",
+      "reviewedAt": "2026-11-15",
+      "basis": "Reviewed NTV terms and rights notices: programme content, articles, imagery and layout are protected. Only independently structured objective record facts (per-team checkpoint elapsed time and elapsed-time ranking) are retained; no text, image, layout or programme material is copied, and no access control is bypassed. No written permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "ntv-hk26-sokuhou",
+    "title": "日本テレビ 箱根駅伝 記録速報 第102回 各区間終点（中継所）",
+    "url": "https://www.ntv.co.jp/hakone/assets_data/102/Sokuhou_020.json",
+    "collectedAt": "2026-11-15",
+    "locator": "Sokuhou_020 / 030 / 040 / 050 / 060 / 070 / 080 / 090 / 100 / 110.json (10 中継所), SOGOU array",
+    "coverage": "箱根駅伝 第102回 20校＋関東学生連合・10中継所 総合順位・総合タイム・繰り上げフラグのみ。走行順（TSUKA）は採用せず、PDF・画像・番組映像は保存しない。",
+    "revision": "記録速報 last updated 2026/01/03 16:30:37",
+    "usage": {
+      "policyUrl": "https://www.ntv.co.jp/ntv_notice/terms.html",
+      "reviewedAt": "2026-11-15",
+      "basis": "Reviewed NTV terms and rights notices: programme content, articles, imagery and layout are protected. Only independently structured objective record facts (per-team checkpoint elapsed time and elapsed-time ranking) are retained; no text, image, layout or programme material is copied, and no access control is bypassed. No written permission is claimed.",
+      "permissionReference": null
+    }
   }
 ]

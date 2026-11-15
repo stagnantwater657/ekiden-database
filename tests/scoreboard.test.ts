@@ -182,23 +182,31 @@ test("ordinary complete editions derive explicit calculated cumulative totals, t
   assert.deepEqual(scoreboard("all-japan-2025", 2, db).rows, second.rows);
 });
 
-test("missing or abnormal results and Hakone never enter the ordinary cumulative calculation", () => {
+test("Hakone shows verified official checkpoint standings and never the ordinary calculated fallback", () => {
   for (const edition of [
     "hakone-2024",
     "hakone-2025",
     "hakone-2026",
   ]) {
-    const view = scoreboard(edition, 2);
-    assert.equal(view.cumulativeMode, "unavailable");
+    // Every checkpoint now carries a printed 総合タイム/総合順位 pair.
+    for (const leg of [2, 6, 9]) {
+      const view = scoreboard(edition, leg);
+      assert.equal(view.cumulativeMode, "official");
+      for (const row of view.rows) {
+        assert.equal(row.cumulative.mode, "official");
+        assert.notEqual(row.cumulative.timeSeconds, null);
+        if (row.entry.status === "reference") {
+          // A reference crew keeps its elapsed time but gains no overall rank.
+          assert.equal(row.cumulative.rank, null);
+          assert.equal(row.cumulative.movement, null);
+          assert.equal(row.cumulative.gapSeconds, null);
+        } else {
+          assert.ok(row.cumulative.rank !== null);
+        }
+      }
+    }
     assert.ok(
-      view.rows.every((row) =>
-        Object.values(row.cumulative)
-          .filter((value) => value !== "unavailable")
-          .every((value) => value === null),
-      ),
-    );
-    assert.ok(
-      view.specialRows.every(
+      scoreboard(edition, 2).specialRows.every(
         (row) => row.gapSeconds === null && row.entry.finalRank === null,
       ),
     );

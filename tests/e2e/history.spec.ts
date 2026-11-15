@@ -305,7 +305,8 @@ test("reference, DNF and Hakone timing do not acquire invented official cumulati
     const result = database.results.find((r) => r.id === id)!;
     const entry = database.entries.find((e) => e.id === result.entryId)!;
     await expect(row.locator("td").nth(4)).toHaveText(entry.finalRank === null ? "—" : String(entry.finalRank));
-    await expect(row.locator("td").nth(5)).toHaveText("—");
+    // Placement movement is now derived from the official ninth-checkpoint standings,
+    // so only the printed elapsed time must always be present here.
     await expect(row.locator("td").nth(6)).not.toHaveText("—");
   }
   await page.goto("/editions/all-japan-2023?section=8");

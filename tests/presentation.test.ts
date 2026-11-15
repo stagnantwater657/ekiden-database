@@ -1,4 +1,4 @@
-import test from "node:test";
+﻿import test from "node:test";
 import assert from "node:assert/strict";
 import { database } from "../data/index.ts";
 import { editionPresentations, validatePresentation } from "../lib/presentation.ts";
@@ -83,25 +83,34 @@ test("Izumo uses revised ranks, explicit awards and every new/tied record includ
   }
 });
 
-test("Hakone sourced stage endpoints never imply intermediate passage order; reference performances gain no official record badge", () => {
-  for (const [year, points, awards, records] of [[2024,46,10,2],[2025,42,10,6],[2026,42,10,6]]) {
+test("Hakone checkpoint standings use the NTV 記録速報 総合 values, never road order or a section-time guess", () => {
+  for (const [year, points, ranked, awards, records] of [[2024,230,230,10,2],[2025,210,200,10,6],[2026,210,200,10,6]] as const) {
     const supplement = editionPresentations.find((e) => e.editionId === `hakone-${year}`)!;
     assert.equal(supplement.cumulative.length,points);
+    assert.equal(supplement.cumulative.filter((point) => point.rank !== null).length,ranked);
+    assert.ok(supplement.cumulative.every((point) => point.sourceId === `ntv-hk${String(year).slice(2)}-sokuhou`));
+    assert.ok(supplement.cumulative.every((point) => point.locator.includes("総合順位") && point.locator.includes("not road order")));
     assert.equal(supplement.honors.filter((h) => h.type === "section-award").length,awards);
     assert.equal(supplement.honors.filter((h) => h.type === "section-record").length,records);
-    const outbound = buildEditionScoreboard(database, `hakone-${year}`,5)!;
-    assert.equal(outbound.cumulativeMode,"official");
-    for (const row of outbound.rows) {
-      assert.equal(row.cumulative.timeSeconds,row.entry.stages!.find((s) => s.kind === "outbound")!.timeSeconds);
-      assert.equal(row.cumulative.rank,null);
-      assert.equal(row.cumulative.movement,null);
-      assert.equal(row.cumulative.gapSeconds,null);
+    for (const leg of [1,2,5,6,9,10]) {
+      const view = buildEditionScoreboard(database, `hakone-${year}`,leg)!;
+      assert.equal(view.cumulativeMode,"official");
+      for (const row of view.rows) {
+        assert.ok(row.cumulative.timeSeconds !== null);
+        if (row.entry.status === "reference") {
+          // Official elapsed time is kept; the reference crew gains no overall rank.
+          assert.equal(row.cumulative.rank,null);
+          assert.equal(row.cumulative.movement,null);
+          assert.equal(row.cumulative.gapSeconds,null);
+        } else {
+          assert.ok(row.cumulative.rank !== null);
+        }
+      }
     }
-    const middle = buildEditionScoreboard(database,`hakone-${year}`,6)!;
-    assert.equal(middle.cumulativeMode,"unavailable");
-    assert.ok(middle.rows.every((r) => r.cumulative.timeSeconds === null));
     const finish = buildEditionScoreboard(database,`hakone-${year}`,10)!;
     assert.ok(finish.rows.every((r) => r.cumulative.rank === r.entry.finalRank && r.cumulative.timeSeconds === r.entry.totalTimeSeconds));
+    const outbound = buildEditionScoreboard(database,`hakone-${year}`,5)!;
+    assert.ok(outbound.rows.every((r) => r.cumulative.timeSeconds === r.entry.stages!.find((s) => s.kind === "outbound")!.timeSeconds));
   }
   assert.equal(getResultHonors("hk26-result-05-1")!.sectionRecord,true);
   assert.equal(getResultHonors("hk26-result-05-1")!.sectionAward,false);
@@ -124,6 +133,6 @@ test("committed coverage report is reproducible and every result is counted once
   const { presentationReport } = await import("../lib/presentation-report.ts");
   const report = presentationReport(database);
   assert.deepEqual(JSON.parse(readFileSync(new URL("../data/reports/presentation.json",import.meta.url),"utf8")),report);
-  assert.deepEqual(report.totals,{editions:11,results:2030,officialCumulative:1494,calculatedCumulative:0,missingCumulative:536,sectionAwards:87,sectionRecords:39,sectionRecordTies:2});
+  assert.deepEqual(report.totals,{editions:11,results:2030,officialCumulative:2014,calculatedCumulative:0,missingCumulative:16,sectionAwards:87,sectionRecords:39,sectionRecordTies:2});
   for (const row of report.editions) assert.equal(row.cumulative.official+row.cumulative.calculated+row.cumulative.missing,row.results);
 });

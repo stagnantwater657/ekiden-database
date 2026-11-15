@@ -44,17 +44,15 @@ export function validatePresentation(db: Database, bundles: EditionPresentation[
       } else if (point.rankingScope) fail("unexpected pre-withdrawal scope");
       const finalSection = Math.max(...db.sections.filter((leg) => leg.editionId === bundle.editionId).map((leg) => leg.number));
       if (section!.number === finalSection && (point.timeSeconds !== entry!.totalTimeSeconds || point.rank !== entry!.finalRank)) fail("inconsistent official final time/rank");
-      // Compare to section elapsed times, never to on-road clocks. Hakone archive
-      // contains documented official rounding differences; only its explicitly
-      // sourced stage/final times are checked here, never inferred arrival ranks.
+      // Every cumulative time must equal the sum of the official section elapsed
+      // times up to that checkpoint, never an on-road clock. Hakone's 総合タイム is
+      // also additive across its ten stages (verified against the printed 往路 and
+      // 最終 times), while 繰り上げスタート only reorders the road, not this standing.
       const race = db.editions.find((edition) => edition.id === bundle.editionId)!.raceId;
-      if (race !== "hakone") {
-        const preceding = db.results.filter((row) => row.entryId === entry!.id && sections.get(row.sectionId)!.number <= section!.number);
-        if (preceding.length !== section!.number || preceding.some((row) => row.timeSeconds === null) || preceding.reduce((sum, row) => sum + row.timeSeconds!, 0) !== point.timeSeconds) fail(`inconsistent cumulative time ${point.resultId}`);
-      } else {
-        const last = Math.max(...db.sections.filter((s) => s.editionId === bundle.editionId).map((s) => s.number));
+      const preceding = db.results.filter((row) => row.entryId === entry!.id && sections.get(row.sectionId)!.number <= section!.number);
+      if (preceding.length !== section!.number || preceding.some((row) => row.timeSeconds === null) || preceding.reduce((sum, row) => sum + row.timeSeconds!, 0) !== point.timeSeconds) fail(`inconsistent cumulative time ${point.resultId}`);
+      if (race === "hakone") {
         const stage = entry!.stages?.find((s) => s.firstSection === 1 && s.lastSection === section!.number);
-        if (section!.number === last && (point.timeSeconds !== entry!.totalTimeSeconds || point.rank !== entry!.finalRank)) fail("inconsistent official Hakone final");
         if (stage && point.timeSeconds !== stage.timeSeconds) fail("inconsistent official Hakone outbound");
       }
       if (point.rank !== null) ranks.set(section!.id, [...(ranks.get(section!.id) ?? []), {time: point.timeSeconds, rank: point.rank}]);

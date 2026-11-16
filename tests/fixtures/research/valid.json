@@ -8,7 +8,12 @@
       "athleteId": "athlete-aj24-05-8",
       "athleteName": "工藤 慎作",
       "field": "10000m",
-      "scope": "current-pb-as-of-2026-11-16",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
       "pbScope": "current",
       "status": "candidate",
       "candidates": [

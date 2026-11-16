@@ -13,6 +13,7 @@ import invalidCases from "./fixtures/research/invalid-cases.json" with { type: "
 
 const context: ResearchContext = {
   athletes: database.athletes,
+  editions: database.editions,
   sources: [...database.sources, ...presentationSources],
   uncertainAthleteIds: database.identities.filter((i) => i.status === "needs-review").map((i) => i.athleteId),
 };
@@ -106,7 +107,7 @@ test("dates, types, enum values and explicit source references fail closed", () 
     ["search chronology", (b) => { b.records[0].searches[0].checkedAt="2026-11-17"; }, /search after review/],
     ["invalid leap day", (b) => { b.reviewedAt="2025-02-29"; }, /invalid calendar date/],
     ["field", (b) => { b.records[0].field="10km" as never; }, /invalid enum/],
-    ["scope", (b) => { b.records[0].scope=""; }, /non-empty string/],
+    ["scope", (b) => { b.records[0].scope="" as never; }, /expected object/],
     ["PB scope", (b) => { b.records[0].pbScope=null; }, /invalid enum/],
     ["boolean", (b) => { b.records[0].updateCheck.checked="yes" as never; }, /must be boolean/],
     ["cutoff", (b) => { b.records[0].updateCheck.asOf="2026-11-16"; }, /unchecked update/],
@@ -146,10 +147,92 @@ test("same-batch duplicate final conclusions are rejected regardless of order; d
   assert.throws(() => validateResearchBatch(b, testContext), /duplicate subject/);
   b.records.reverse();
   assert.throws(() => validateResearchBatch(b, testContext), /duplicate subject/);
-  b.records[0].scope="historical-2023-04-22";
+  b.records[0].scope.asOf="2023-04-22";
   b.records[0].pbScope="historical";
   b.records[0].updateCheck.asOf="2023-04-22";
   validateResearchBatch(b, testContext);
+});
+
+test("structured scope cannot disguise duplicate PB conclusions with wording, label or object key order", () => {
+  const b = verifiedFixture();
+  const duplicate = structuredClone(b.records[0]);
+  duplicate.pbScope = "historical";
+  duplicate.scope = {sectionNumber:null, courseVersion:null, editionId:null, asOf:"2026-11-16"};
+  duplicate.final!.value = "synthetic conflicting value";
+  duplicate.candidates[0].value = duplicate.final!.value;
+  b.records.push(duplicate);
+  assert.throws(() => validateResearchBatch(b, testContext), /duplicate subject/);
+  b.records.reverse();
+  assert.throws(() => validateResearchBatch(b, testContext), /duplicate subject/);
+  for (const scope of ["new wording for the same cutoff", {...fixture().records[0].scope,label:"different description"}]) {
+    const bad = fixture(); bad.records[0].scope = scope as never;
+    assert.throws(() => validateResearchBatch(bad, context), /expected object|unknown field/);
+  }
+});
+
+test("scope validates cutoff, event identity and canonical route/section without weakening historical PBs", () => {
+  const b = fixture();
+  b.records[0].field = "section-record";
+  b.records[0].pbScope = null;
+  b.records[0].scope = {asOf:"2026-11-16",editionId:"all-japan-2024",courseVersion:"fixture-route-v1",sectionNumber:1};
+  // Synthetic scopes only: distinct editions, route versions and sections remain representable.
+  for (const overrides of [{editionId:"all-japan-2025"}, {courseVersion:"fixture-route-v2"}, {sectionNumber:2}]) {
+    const other = structuredClone(b.records[0]); Object.assign(other.scope, overrides); b.records.push(other);
+  }
+  validateResearchBatch(b, context);
+  const invalidScopes = [
+    {asOf:"2026-02-30"}, {asOf:"2026-11-17"}, {editionId:"unknown-edition"},
+    {courseVersion:" Fixture-Route-V1 "}, {sectionNumber:"1"}, {sectionNumber:0},
+    {sectionNumber:1.5}, {courseVersion:null}, {sectionNumber:null},
+  ];
+  for (const change of invalidScopes) {
+    const bad = structuredClone(b); bad.records = [bad.records[0]];
+    Object.assign(bad.records[0].scope, change);
+    assert.throws(() => validateResearchBatch(bad, context), /Research/);
+  }
+  for (const change of [{editionId:"all-japan-2024"}, {courseVersion:"fixture-route-v1"}, {sectionNumber:1}]) {
+    const pb = fixture(); Object.assign(pb.records[0].scope, change);
+    assert.throws(() => validateResearchBatch(pb, context), /must not contain event qualifiers/);
+  }
+  const mismatch = verifiedFixture(); mismatch.records[0].updateCheck.asOf = "2026-11-15";
+  assert.throws(() => validateResearchBatch(mismatch, testContext), /must match scope cutoff/);
+  const missing = fixture(); delete (missing.records[0].scope as Partial<ResearchBatch["records"][number]["scope"]>).asOf;
+  assert.throws(() => validateResearchBatch(missing, context), /required field/);
+});
+
+test("cloud credentials are rejected, including encoded/case-variant keys and every source reference path", () => {
+  const keys = ["sig", "q-signature", "Q-Signature", "%73ig", "X-Amz-Signature", "X-Amz-Credential",
+    "X-Amz-Security-Token", "X-Goog-Signature", "X-Goog-Credential", "X-Oss-Signature",
+    "x-oss-security-token", "x-cos-security-token", "q-ak", "q-key-time", "q-sign-time",
+    "AWSAccessKeyId", "GoogleAccessId", "OSSAccessKeyId", "SecurityToken", "Key-Pair-Id", "Policy",
+    "refresh_token", "id_token", "auth_key", "access_token"];
+  for (const key of keys) {
+    const b = fixture();
+    b.records[0].searches[0].sources[0].url = `https://waseda-ac.jp/result?id=42&${key}=synthetic-secret&${key}=other`;
+    assert.throws(() => validateResearchBatch(b, context), (error: unknown) =>
+      error instanceof Error && /source URL/.test(error.message) && !error.message.includes("synthetic-secret"), key);
+  }
+  const candidate = fixture(); candidate.records[0].candidates[0].sourceUrl = "https://waseda-ac.jp/?sig=synthetic-secret";
+  assert.throws(() => validateResearchBatch(candidate, context), /source URL/);
+  const signedContext = {...testContext,sources:testContext.sources.map((source) => source.id === "fixture-waseda-history"
+    ? {...source,url:`${archiveUrl}?q-signature=synthetic-secret`} : source)};
+  assert.throws(() => validateResearchBatch(verifiedFixture(), signedContext), /source URL/);
+});
+
+test("ordinary public result query parameters and PDF locators remain valid", () => {
+  // Validation fixtures, not claims of new visits to these pages.
+  for (const url of [
+    "https://www.kgrr.org/competition/?id=33&year=2022",
+    "https://runnet.jp/record/smp/raceresultshow.do?numberCard=306&raceId=363374",
+    "https://www.susono-rk.com/results/?mobile=1&page=2&sort=time&order=asc",
+    "https://waseda-ac.jp/results.pdf?download=1#page=2",
+  ]) {
+    const b = verifiedFixture();
+    b.records[0].searches[1].sources[0].url = url;
+    b.records[0].candidates[0].sourceUrl = url;
+    const publicContext = {...testContext,sources:testContext.sources.map((source) => source.id === "fixture-waseda-history" ? {...source,url} : source)};
+    validateResearchBatch(b, publicContext);
+  }
 });
 
 test("directory validator is offline/read-only, handles invalid JSON, filename and batch collisions, and permits legacy absence of logs", () => {

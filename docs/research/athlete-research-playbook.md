@@ -62,6 +62,6 @@
 
 研究执行者在 `data/research/batches/<batchId>.json` 保存实际过程（[字段说明](audit-log.md)）；只记录摘要，不保存网页全文。候选来源可仅登记 URL，最终采用须指向现有 Source ID；新增 Source 和正式事实应在各自数据 PR 中一同提交。
 
-运行 research:validate、data:validate、Node、类型检查、Lint、构建及 E2E。生产原始成绩、身份和来源不得被日志工具改写。PR 列出新增事实、未核实字段、修订/冲突、实际覆盖、回归案例评估和规则建议。
+运行 research:validate、data:validate、Node、类型检查、Lint、构建及 E2E。生产原始成绩、身份和来源不得被日志工具改写。PR 列出新增事实、未核实字段、修订/冲突、实际覆盖、回归案例评估和规则建议，并逐项填写[资料审核清单](audit-log.md#pr-资料审核清单逐事实填写)，建立每项生产事实到 batchId / athleteId / field / scope 的对应关系。
 
 独立复核者（另一位维护者/研究者，不能由执行者自批）重新打开关键一手来源，检查身份、最新候选、时间/距离/赛事届数、空缺分类；每批核查所有新增/更改事实，并用适用回归案例检查检索能力。规则变更按[改进流程](lessons-learned.md)单列评审。CI 不联网，不能证明网页已访问、来源内容支持断言或 PB 最新；不得用测试通过替代复核。

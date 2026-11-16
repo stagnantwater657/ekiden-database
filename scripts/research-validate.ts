@@ -6,6 +6,7 @@ import { validateResearchDirectory } from "../lib/research-files.ts";
 if (process.argv.length !== 2) throw new Error("Usage: npm run research:validate (read-only; no arguments)");
 const batches = validateResearchDirectory(fileURLToPath(new URL("../data/research/batches/", import.meta.url)), {
   athletes: database.athletes,
+  editions: database.editions,
   sources: [...database.sources, ...presentationSources],
   uncertainAthleteIds: database.identities.filter((i) => i.status === "needs-review").map((i) => i.athleteId),
 });

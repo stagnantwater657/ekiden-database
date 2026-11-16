@@ -37,7 +37,7 @@ export interface ResearchMeet {
 }
 export interface PerformanceCandidate {
   id: string;
-  /** Exact candidate string; structured fields below are checked, never parsed from prose. */
+  /** Exact candidate string: normalized time, optionally followed by semicolon-delimited context. */
   value: string;
   timeMilliseconds: number;
   precision: "second" | "centisecond";
@@ -79,6 +79,22 @@ export interface ResearchAudit {
     foundFaster: boolean | null;
     decision: string;
   } | null;
+}
+
+/** Only the explicit leading mark is parsed; dates/meet text after a semicolon are untouched. */
+function validatePerformanceMark(value: string, milliseconds: number, precision: unknown, path: string): void {
+  const mark = value.split(";", 1)[0].trim();
+  const parts = /^(\d+):([0-5]\d)(?::([0-5]\d))?(?:\.(\d{2}))?$/.exec(mark);
+  if (!parts) c.fail(path, "performance value must start with a normalized M:SS or H:MM:SS mark, optionally .cc and semicolon context");
+  const [, first, second, third, hundredths] = parts!;
+  if ((hundredths === undefined ? "second" : "centisecond") !== precision)
+    c.fail(path, "performance value precision mismatch");
+  const seconds = third === undefined
+    ? Number(first) * 60 + Number(second)
+    : Number(first) * 3600 + Number(second) * 60 + Number(third);
+  const parsed = seconds * 1000 + (hundredths === undefined ? 0 : Number(hundredths) * 10);
+  if (!Number.isSafeInteger(parsed) || parsed !== milliseconds)
+    c.fail(path, "performance value and timeMilliseconds mismatch");
 }
 
 /** Validate known metadata independently of a candidate. No year-to-edition arithmetic. */
@@ -200,6 +216,7 @@ export function validateResearchAudit(input: unknown, record: ResearchRecord, co
     c.oneOf(perf.eligibility, ["eligible", "excluded", "unconfirmed"], path);
     c.oneOf(perf.precision, ["second", "centisecond"], path);
     if (!Number.isSafeInteger(perf.timeMilliseconds) || (perf.timeMilliseconds as number) <= 0 || (perf.timeMilliseconds as number) % (perf.precision === "second" ? 1000 : 10)) fail("invalid performance time/precision");
+    validatePerformanceMark(value, perf.timeMilliseconds as number, perf.precision, path);
     const achieved = c.date(perf.achievedOn, path);
     if (achieved > record.scope.asOf) fail("performance after research cutoff");
     const pe = refs(perf.evidenceIds, perf.eligibility === "eligible");
@@ -223,7 +240,7 @@ export function validateResearchAudit(input: unknown, record: ResearchRecord, co
     // Explicit IDs or the exact metadata source URL, never name similarity or inferred year.
     const matched = meets.filter((m) => ee.some((e) => c.url(sources.get(e.sourceId)!.url, path) === c.url(m.sourceUrl, path)));
     for (const known of new Set([...(linked ? [linked] : []), ...matched])) {
-      if (event.name !== known.name || (event.edition !== null && event.edition !== known.edition) || start !== known.startsOn || end !== known.endsOn || event.discipline !== known.discipline)
+      if (event.editionStatus !== "verified" || event.name !== known.name || event.edition !== known.edition || start !== known.startsOn || end !== known.endsOn || event.discipline !== known.discipline)
         fail("event conflicts with known meet metadata");
     }
     performances.set(id, perf as unknown as PerformanceCandidate);

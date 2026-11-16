@@ -72,12 +72,12 @@
         "status": "verified",
         "candidates": [
           {
-            "value": "SYNTHETIC old mark",
+            "value": "15:00.00; SYNTHETIC old mark",
             "sourceUrl": "https://synthetic-research-fixture.org/fixture-university",
             "locator": "Synthetic mark table"
           },
           {
-            "value": "SYNTHETIC new mark",
+            "value": "14:30.00; SYNTHETIC new mark",
             "sourceUrl": "https://synthetic-research-fixture.org/fixture-employer",
             "locator": "Synthetic mark table"
           }
@@ -145,7 +145,7 @@
           }
         ],
         "final": {
-          "value": "SYNTHETIC new mark",
+          "value": "14:30.00; SYNTHETIC new mark",
           "sourceIds": [
             "fixture-employer",
             "fixture-event"
@@ -273,7 +273,7 @@
           "performances": [
             {
               "id": "old",
-              "value": "SYNTHETIC old mark",
+              "value": "15:00.00; SYNTHETIC old mark",
               "timeMilliseconds": 900000,
               "precision": "centisecond",
               "achievedOn": "2024-04-01",
@@ -299,7 +299,7 @@
             },
             {
               "id": "new",
-              "value": "SYNTHETIC new mark",
+              "value": "14:30.00; SYNTHETIC new mark",
               "timeMilliseconds": 870000,
               "precision": "centisecond",
               "achievedOn": "2025-06-02",

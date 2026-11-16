@@ -19,6 +19,14 @@ const reject = (change: (d: ReturnType<typeof fresh>) => void, error: RegExp) =>
   const d = fresh(); change(d); assert.throws(() => accept(d), error);
 };
 
+// Change all references together so tests exercise numeric/event checks, not a broken candidate link.
+function setMark(d: ReturnType<typeof fresh>, index: number, value: string, milliseconds: number, precision: "second" | "centisecond") {
+  const r = d.batch.records[0], p = r.audit!.performances[index], oldValue = p.value;
+  p.value = value; p.timeMilliseconds = milliseconds; p.precision = precision;
+  r.candidates.filter((v) => v.value === oldValue).forEach((v) => {v.value = value;});
+  if (r.final?.value === oldValue) r.final.value = value;
+}
+
 test("v2 synthetic fixture validates offline without mutation; v1 remains readable but not equivalent assurance", () => {
   const d = fresh(), before = JSON.stringify(d);
   accept(d); assert.equal(JSON.stringify(d), before);
@@ -35,7 +43,7 @@ test("R9/R12: later faster eligible mark prevents publishing an earlier real mar
   reject((d) => {d.batch.records[0].audit!.pbUpdate!.foundFaster = false;}, /foundFaster conflicts/);
   const d = fresh();
   const a = d.batch.records[0].audit!;
-  a.performances[0].timeMilliseconds = 860000;
+  setMark(d, 0, "14:20.00; SYNTHETIC excluded mark", 860000, "centisecond");
   a.performances[0].eligibility = "excluded";
   a.performances[0].reason = "SYNTHETIC disqualified race; not comparable official PB";
   a.pbUpdate!.foundFaster = false;
@@ -105,11 +113,58 @@ test("R13: known metadata rejects wrong edition/date/ID; no fuzzy name or year i
   assert.throws(() => validateResearchMeets([...meets,...meets]), /duplicate meet/);
 });
 
+test("known edition cannot be hidden as pending/null through metadata ID or exact official source", () => {
+  for (const route of ["id-only", "source-only", "both"] as const) {
+    reject((d) => {
+      const e = d.batch.records[0].audit!.performances[1].event;
+      e.edition = null; e.editionStatus = "pending";
+      if (route === "source-only") e.metadataId = null;
+      if (route === "id-only") d.context.meets = d.context.meets!.map((m) => ({...m,sourceUrl:"https://synthetic-research-fixture.org/other-official-page"}));
+      d.batch.records[0].audit!.limitations.push("Synthetic attempt to hide known edition");
+    }, /conflicts with known meet metadata/);
+  }
+});
+
+test("normalized marks agree with integer milliseconds and precision, retaining descriptive context", () => {
+  for (const [mark, milliseconds, precision] of [
+    ["14:30.00", 870000, "centisecond"],
+    ["14:30.12; 2025-06-02; SYNTHETIC meet; start 18:05", 870120, "centisecond"],
+    ["1:00:00", 3600000, "second"],
+    ["59:30; 2025-06-02; SYNTHETIC half", 3570000, "second"],
+    ["1:03:45; SYNTHETIC half", 3825000, "second"],
+    [" 01:03:45.00 ; SYNTHETIC context", 3825000, "centisecond"],
+  ] as const) {
+    const d = fresh();
+    // Keep initial slower than selected so the separate PB-selection check remains meaningful.
+    setMark(d, 0, "120:00.00; SYNTHETIC baseline", 7200000, "centisecond");
+    setMark(d, 1, mark, milliseconds, precision);
+    accept(d);
+  }
+  for (const [mark, milliseconds, precision, error] of [
+    ["14:30.00; SYNTHETIC meet", 869000, "centisecond", /timeMilliseconds mismatch/],
+    ["14:30.12", 870130, "centisecond", /timeMilliseconds mismatch/],
+    ["1:03:45; SYNTHETIC half", 3824000, "second", /timeMilliseconds mismatch/],
+    ["14:30.00", 870000, "second", /precision mismatch/],
+    ["14:30", 870000, "centisecond", /precision mismatch/],
+    ["14:30.1", 870100, "centisecond", /normalized/],
+    ["14:30.000", 870000, "centisecond", /normalized/],
+    ["14:60.00", 900000, "centisecond", /normalized/],
+    ["1:60:00", 7200000, "second", /normalized/],
+    ["PB 14:30.00", 870000, "centisecond", /normalized/],
+    ["14:30.00 competition", 870000, "centisecond", /normalized/],
+    ["999999999999999999999:00", 870000, "second", /timeMilliseconds mismatch/],
+  ] as const) {
+    reject((d) => setMark(d, 1, mark, milliseconds, precision), error);
+  }
+  // A changed integer alone must fail even though its precision/divisibility is still valid.
+  reject((d) => {d.batch.records[0].audit!.performances[1].timeMilliseconds = 860000;}, /timeMilliseconds mismatch/);
+});
+
 test("R13 limited real meet catalog catches 77 to 76 without asserting any real athlete mark", () => {
   const d=fresh(), r=d.batch.records[0], known=validateResearchMeets(meets)[0];
   d.context.meets=[known];r.field="half-marathon";
-  for (const p of r.audit!.performances) {
-    p.timeMilliseconds *= 4;p.precision="second";
+  for (const [index, p] of r.audit!.performances.entries()) {
+    setMark(d, index, index === 0 ? "1:00:00; SYNTHETIC old half" : "58:00; SYNTHETIC new half", p.timeMilliseconds * 4, "second");
     p.event.discipline="half-marathon";p.event.distanceMetres=21097.5;
   }
   const p=r.audit!.performances[1];p.achievedOn=known.startsOn;

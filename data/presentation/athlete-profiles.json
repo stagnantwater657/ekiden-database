@@ -31,7 +31,13 @@
           "locator": "記事タイトル「19歳佐藤圭汰が衝撃の27分28秒50！初1万mでU20日本新」",
           "revision": "2023.11.25 配信; retrieved 2026-11-16"
         }
-      ]
+      ],
+      "highSchool": {
+        "value": "洛南高（京都府）",
+        "sourceId": "joqr-102-hakone-highschools",
+        "locator": "「◆ 洛南 11人」佐藤圭汰 駒澤大学4年",
+        "revision": "2025.12.10 配信; retrieved 2026-11-16"
+      }
     },
     {
       "athleteId": "athlete-aj24-03-4",
@@ -73,7 +79,13 @@
           "locator": "Profile → Personal Bests → Half Marathon; competition 76th Kagawa Marugame International Half Marathon; date 04 FEB 2024",
           "revision": "World Athletics profile retrieved 2026-11-16"
         }
-      ]
+      ],
+      "highSchool": {
+        "value": "玉野光南高（岡山県）",
+        "sourceId": "tbs-kuroda-highschool",
+        "locator": "本文「黒田朝日選手の母校・玉野光南高校です」",
+        "revision": "2026.04.04 配信; retrieved 2026-11-16"
+      }
     },
     {
       "athleteId": "athlete-aj24-02-3",
@@ -115,7 +127,13 @@
           "locator": "Profile → Personal Bests → Half Marathon; competition 76th Kagawa Marugame International Half Marathon; date 04 FEB 2024",
           "revision": "World Athletics profile retrieved 2026-11-16"
         }
-      ]
+      ],
+      "highSchool": {
+        "value": "出雲工業高（島根県）",
+        "sourceId": "izumo-tech-izuko-topics-134",
+        "locator": "「電気科卒業生（R3）陸上競技部 駒澤大学 伊藤蒼唯さん」",
+        "revision": "2024-10-29 発行; retrieved 2026-11-16"
+      }
     },
     {
       "athleteId": "athlete-aj24-05-2",
@@ -205,7 +223,13 @@
           "locator": "記事本文「溜池一太（SGホールディングス）が1時間0分13秒で日本勢トップの5位」",
           "revision": "2026.10.18 配信; retrieved 2026-11-16"
         }
-      ]
+      ],
+      "highSchool": {
+        "value": "洛南高（京都府）",
+        "sourceId": "joqr-102-hakone-highschools",
+        "locator": "「◆ 洛南 11人」溜池一太 中央大学4年",
+        "revision": "2025.12.10 配信; retrieved 2026-11-16"
+      }
     }
   ]
 }

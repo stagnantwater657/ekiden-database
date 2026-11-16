@@ -112,7 +112,16 @@ test("first batch publishes only sourced facts with exact hundredths and whole-s
     athleteProfileSupplements.reduce((n, profile) => n + profile.personalBests.length, 0),
     14,
   );
-  assert.equal(byId.get("athlete-aj24-05-2")!.highSchool!.value, "学法石川高（福島県）");
+  assert.deepEqual(
+    [...byId.entries()].map(([, profile]) => profile.highSchool!.value).sort(),
+    [
+      "出雲工業高（島根県）",
+      "学法石川高（福島県）",
+      "洛南高（京都府）",
+      "洛南高（京都府）",
+      "玉野光南高（岡山県）",
+    ],
+  );
   for (const profile of athleteProfileSupplements) {
     assert.ok(profile.birthDate, `${profile.athleteId} lacks a sourced birth date`);
     for (const pb of profile.personalBests) {

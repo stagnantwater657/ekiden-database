@@ -463,5 +463,50 @@
       "basis": "News article reviewed. Only the objective result facts (athlete, meet, date, time) are recorded; no article text, image or layout is republished. No permission claimed.",
       "permissionReference": null
     }
+  },
+  {
+    "id": "joqr-102-hakone-highschools",
+    "title": "文化放送 第102回箱根駅伝エントリー選手 出身高校別（京都府）",
+    "url": "https://www.joqr.co.jp/qr/article/166081/",
+    "collectedAt": "2026-11-16",
+    "locator": "「◆ 洛南 11人」: 佐藤圭汰（駒澤大学4年）、溜池一太（中央大学4年）",
+    "coverage": "京都府出身选手按出身高校分类的名单",
+    "revision": "2025.12.10 配信; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.joqr.co.jp/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Broadcaster entry-list page reviewed. Only objective facts (athlete, university, high school) are recorded; no article text, image or layout is republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "tbs-kuroda-highschool",
+    "title": "TBS NEWS DIG（RSK山陽放送）黒田朝日選手 高校の恩師が語る",
+    "url": "https://newsdig.tbs.co.jp/articles/-/2562196",
+    "collectedAt": "2026-11-16",
+    "locator": "本文「黒田朝日選手の母校・玉野光南高校です」",
+    "coverage": "黒田朝日の出身高校",
+    "revision": "2026.04.04 配信; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://newsdig.tbs.co.jp/",
+      "reviewedAt": "2026-11-16",
+      "basis": "News article reviewed. Only the objective high-school fact is recorded; no article text, image or layout is republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "izumo-tech-izuko-topics-134",
+    "title": "出雲工業高等学校 IZUKO TOPICS 第134号",
+    "url": "https://www.izumo-th.ed.jp/files/original/2024102915390188209b4ca76.pdf",
+    "collectedAt": "2026-11-16",
+    "locator": "「卒業生も活躍しています！」電気科卒業生（R3）陸上競技部 駒澤大学 伊藤蒼唯さん",
+    "coverage": "伊藤蒼唯の出身高校（出雲工業高校）と卒業学科",
+    "revision": "2024-10-29 発行; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.izumo-th.ed.jp/",
+      "reviewedAt": "2026-11-16",
+      "basis": "School newsletter PDF reviewed. Only the objective school/graduation fact is recorded; no PDF or image is republished. No permission claimed.",
+      "permissionReference": null
+    }
   }
 ]

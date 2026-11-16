@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-11-16-kudo-reverse-audit",
+  "researcher": "TEST FIXTURE: copy of the real 2026-11-16 candidate audit; not an additional research visit",
+  "reviewedAt": "2026-11-16",
+  "records": [
+    {
+      "athleteId": "athlete-aj24-05-8",
+      "athleteName": "工藤 慎作",
+      "field": "10000m",
+      "scope": "current-pb-as-of-2026-11-16",
+      "pbScope": "current",
+      "status": "candidate",
+      "candidates": [
+        {
+          "value": "28:31.87; 2023-04-22; 第304回日体大長距離競技会; 男子10000m9組12着",
+          "sourceUrl": "https://www.waseda-ac.org/result/sfs2_diary/sfs2_diary/202304.html",
+          "locator": "第304回; 10000m (22日); 9組; 1レーン 工藤慎作(1)"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "site.waseda-ac.org 工藤 慎作 28:31.87",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://waseda-ac.jp/team/member/detail/168",
+              "section": "部員紹介 工藤慎作 / 自己最高記録",
+              "access": "read",
+              "finding": "官方选手页给出10000m 28分31秒87。"
+            }
+          ],
+          "result": "发现名册中的候选值；该条目不提供比赛定位。"
+        },
+        {
+          "stage": "reverse",
+          "query": "工藤 慎作 \"28:31.87\" 日体大",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.waseda-ac.org/result/sfs2_diary/sfs2_diary/202304.html",
+              "section": "2023年4月; 第304回日本体育大学長距離競技会; 10000m (22日) 9組",
+              "access": "read",
+              "finding": "月报载工藤慎作(1)28分31秒87、12着、自己新；比赛日2023-04-22。"
+            }
+          ],
+          "result": "反向检索找到大学历史比赛结果，补充日期及组别。"
+        },
+        {
+          "stage": "verification",
+          "query": "日本体育大学長距離競技会 公式 結果 2023 304回",
+          "checkedAt": "2026-11-16",
+          "outcome": "inaccessible",
+          "sources": [
+            {
+              "url": "https://ld.nssu-athletic.com/uploads/2023/2023-04-22_result.pdf",
+              "section": "第304回2023-04-22正式结果PDF",
+              "access": "unavailable",
+              "finding": "网页打开返回502，未声称已读PDF原件。"
+            }
+          ],
+          "result": "找到官方文件URL，但直接阅读失败。"
+        },
+        {
+          "stage": "verification",
+          "query": "site:ld.nssu-athletic.com \"28:31.87\"",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://ld.nssu-athletic.com/uploads/2023/2023-04-22_result.pdf",
+              "section": "男子10000m Final 9; BIB1246; KUDO Shinsaku",
+              "access": "search-snippet",
+              "finding": "搜索索引显示早稲田大学工藤慎作(1)、12位、28:31.87，与大学月报一致。"
+            }
+          ],
+          "result": "索引只能补充线索，原件与最新PB尚需负责者复核。"
+        }
+      ],
+      "final": null,
+      "identityEvidence": "registry 中 athlete-aj24-05-8 为工藤 慎作；大学官方档案与2023月报均指向早稲田选手。此样本不新增身份决定，正式采用前交独立复核者确认归属。",
+      "updateCheck": {
+        "checked": false,
+        "asOf": null,
+        "summary": "本次只复查回归案例和反查入口，未完成截至2026-11-16的全面最新PB检索。"
+      },
+      "unresolved": [
+        "待实际读取日体大正式原件并独立复核身份与PB更新。",
+        "Source登记和生产事实更新属于PR #19，本PR不写入，因此未形成可发布的final。"
+      ],
+      "reviewedAt": "2026-11-16"
+    }
+  ]
+}

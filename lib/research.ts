@@ -1,0 +1,193 @@
+import type { Athlete, Source } from "./model.ts";
+
+export const researchStatuses = ["verified", "verified-absent", "candidate", "not-found", "conflict"] as const;
+export const researchFields = ["birthDate", "highSchool", "affiliation", "5000m", "10000m", "half-marathon", "race-result", "section-record", "award", "statistic"] as const;
+export type ResearchStatus = typeof researchStatuses[number];
+export type ResearchField = typeof researchFields[number];
+export interface ResearchVisit {
+  url: string;
+  section: string;
+  access: "read" | "search-snippet" | "unavailable";
+  finding: string;
+}
+export interface ResearchSearch {
+  stage: "discovery" | "reverse" | "verification";
+  query: string;
+  checkedAt: string;
+  outcome: "found" | "not-found" | "inaccessible" | "conflict";
+  sources: ResearchVisit[];
+  result: string;
+}
+export interface ResearchRecord {
+  athleteId: string;
+  athleteName: string;
+  field: ResearchField;
+  /** Same subject may have distinct historical cutoffs or edition/course contexts. */
+  scope: string;
+  pbScope: "current" | "historical" | null;
+  status: ResearchStatus;
+  candidates: { value: string; sourceUrl: string; locator: string }[];
+  searches: ResearchSearch[];
+  final: { value: string; sourceIds: string[]; locator: string; revision: string } | null;
+  identityEvidence: string;
+  updateCheck: { checked: boolean; asOf: string | null; summary: string };
+  unresolved: string[];
+  reviewedAt: string;
+}
+export interface ResearchBatch {
+  schemaVersion: 1;
+  batchId: string;
+  researcher: string;
+  reviewedAt: string;
+  records: ResearchRecord[];
+}
+export interface ResearchContext {
+  athletes: readonly Athlete[];
+  sources: readonly Source[];
+  uncertainAthleteIds: readonly string[];
+}
+
+// No network, repository mutation, or assertion that a researcher really read a page.
+export function validateResearchBatch(input: unknown, context: ResearchContext): ResearchBatch {
+  const fail = (path: string, reason: string): never => { throw new Error(`Research ${path}: ${reason}`); };
+  const obj = (value: unknown, keys: string[], path: string): Record<string, unknown> => {
+    if (!value || typeof value !== "object" || Array.isArray(value)) return fail(path, "expected object");
+    const record = value as Record<string, unknown>;
+    if (Object.keys(record).some((key) => !keys.includes(key))) fail(path, "unknown field (do not store secrets or page dumps)");
+    for (const key of keys) if (!(key in record)) fail(`${path}.${key}`, "required field");
+    return record;
+  };
+  const str = (value: unknown, path: string): string => {
+    if (typeof value !== "string" || !value.trim()) return fail(path, "non-empty string required");
+    if (/\b(?:Bearer\s+[\w.-]{8,}|gh[pousr]_[\w]{10,}|github_pat_[\w]{10,})/i.test(value)) fail(path, "possible credential");
+    return value;
+  };
+  const arr = (value: unknown, path: string): unknown[] => {
+    if (!Array.isArray(value)) return fail(path, "array required");
+    return value;
+  };
+  const date = (value: unknown, path: string): string => {
+    const s = str(value, path);
+    const timestamp = Date.parse(`${s}T00:00:00Z`);
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(s) || !Number.isFinite(timestamp) || new Date(timestamp).toISOString().slice(0, 10) !== s)
+      fail(path, "invalid calendar date");
+    return s;
+  };
+  const oneOf = (value: unknown, choices: readonly unknown[], path: string) => {
+    if (!choices.includes(value)) fail(path, "invalid enum");
+  };
+  const url = (value: unknown, path: string): string => {
+    const s = str(value, path);
+    let u: URL;
+    try { u = new URL(s); } catch { return fail(path, "invalid public source URL"); }
+    if (!["https:", "http:"].includes(u.protocol) || u.username || u.password || !u.hostname.includes(".") ||
+        /(^|\.)(?:localhost|example\.(?:com|org|net))$/.test(u.hostname) || /\.(?:invalid|test|local)$/.test(u.hostname) ||
+        /^\[|^\d+\.\d+\.\d+\.\d+$/.test(u.hostname) ||
+        [...u.searchParams.keys()].some((key) => /^(?:access_token|token|api_key|apikey|password|cookie|authorization|signature|x-amz-signature)$/i.test(key)))
+      fail(path, "invalid public source URL or credential parameter");
+    // Fragments are locators, not a different source document.
+    u.hash = "";
+    return u.href;
+  };
+  const batch = obj(input, ["schemaVersion", "batchId", "researcher", "reviewedAt", "records"], "batch");
+  if (batch.schemaVersion !== 1) fail("schemaVersion", "unsupported version");
+  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(str(batch.batchId, "batchId"))) fail("batchId", "invalid ID");
+  str(batch.researcher, "researcher");
+  const batchDate = date(batch.reviewedAt, "reviewedAt");
+  const records = arr(batch.records, "records");
+  if (!records.length) fail("records", "empty batch; do not fabricate completed research");
+  const athletes = new Map(context.athletes.map((a) => [a.id, a]));
+  const sources = new Map(context.sources.map((s) => [s.id, s]));
+  const seen = new Set<string>();
+  for (const [i, raw] of records.entries()) {
+    const p = `records[${i}]`;
+    const r = obj(raw, ["athleteId", "athleteName", "field", "scope", "pbScope", "status", "candidates", "searches", "final", "identityEvidence", "updateCheck", "unresolved", "reviewedAt"], p);
+    const athleteId = str(r.athleteId, `${p}.athleteId`);
+    const athlete = athletes.get(athleteId);
+    if (!athlete) fail(p, "unknown athleteId");
+    const name = str(r.athleteName, `${p}.athleteName`);
+    // Explicit aliases are permitted; normalization alone is not an identity decision.
+    if (![athlete!.name, ...(athlete!.aliases ?? [])].includes(name)) fail(p, "athlete name does not match registry or registered alias");
+    oneOf(r.field, researchFields, `${p}.field`);
+    oneOf(r.status, researchStatuses, `${p}.status`);
+    const scope = str(r.scope, `${p}.scope`);
+    const key = JSON.stringify([athleteId, r.field, scope]);
+    if (seen.has(key)) fail(p, "duplicate subject in batch; consolidate conflicting conclusions into one conflict record");
+    seen.add(key);
+    const reviewedAt = date(r.reviewedAt, `${p}.reviewedAt`);
+    if (reviewedAt > batchDate) fail(p, "record review exceeds batch date");
+    str(r.identityEvidence, `${p}.identityEvidence`);
+    const isPB = ["5000m", "10000m", "half-marathon"].includes(String(r.field));
+    oneOf(r.pbScope, isPB ? ["current", "historical"] : [null], `${p}.pbScope`);
+    const searches = arr(r.searches, `${p}.searches`);
+    if (!searches.length) fail(p, "at least one actual search is required");
+    const visited = new Set<string>();
+    const read = new Set<string>();
+    const stages = new Set<unknown>();
+    for (const [j, search] of searches.entries()) {
+      const q = `${p}.searches[${j}]`;
+      const s = obj(search, ["stage", "query", "checkedAt", "outcome", "sources", "result"], q);
+      oneOf(s.stage, ["discovery", "reverse", "verification"], `${q}.stage`);
+      stages.add(s.stage);
+      str(s.query, `${q}.query`);
+      if (date(s.checkedAt, `${q}.checkedAt`) > reviewedAt) fail(q, "search after review");
+      oneOf(s.outcome, ["found", "not-found", "inaccessible", "conflict"], `${q}.outcome`);
+      str(s.result, `${q}.result`);
+      const visits = arr(s.sources, `${q}.sources`);
+      if (s.outcome !== "not-found" && !visits.length) fail(q, "source references required for this outcome");
+      for (const [k, visit] of visits.entries()) {
+        const vpath = `${q}.sources[${k}]`;
+        const v = obj(visit, ["url", "section", "access", "finding"], vpath);
+        const sourceUrl = url(v.url, `${vpath}.url`);
+        visited.add(sourceUrl);
+        str(v.section, `${vpath}.section`);
+        str(v.finding, `${vpath}.finding`);
+        oneOf(v.access, ["read", "search-snippet", "unavailable"], `${vpath}.access`);
+        if (v.access === "read") read.add(sourceUrl);
+      }
+    }
+    const candidates = arr(r.candidates, `${p}.candidates`);
+    const values = new Set<string>();
+    for (const [j, candidate] of candidates.entries()) {
+      const cpath = `${p}.candidates[${j}]`;
+      const c = obj(candidate, ["value", "sourceUrl", "locator"], cpath);
+      values.add(str(c.value, `${cpath}.value`));
+      str(c.locator, `${cpath}.locator`);
+      if (!visited.has(url(c.sourceUrl, `${cpath}.sourceUrl`))) fail(cpath, "candidate source absent from search log");
+    }
+    const update = obj(r.updateCheck, ["checked", "asOf", "summary"], `${p}.updateCheck`);
+    if (typeof update.checked !== "boolean") fail(p, "update checked must be boolean");
+    str(update.summary, `${p}.updateCheck.summary`);
+    if (update.checked) {
+      if (date(update.asOf, `${p}.updateCheck.asOf`) > reviewedAt) fail(p, "update cutoff after review");
+    } else if (update.asOf !== null) fail(p, "unchecked update must have null cutoff");
+    const issues = arr(r.unresolved, `${p}.unresolved`);
+    issues.forEach((issue, j) => str(issue, `${p}.unresolved[${j}]`));
+    const verified = r.status === "verified" || r.status === "verified-absent";
+    if (verified) {
+      if (context.uncertainAthleteIds.includes(athleteId)) fail(p, "unresolved identity cannot be verified");
+      if (stages.size !== 3) fail(p, "verified conclusion requires all three research stages");
+      if (isPB && !update.checked) fail(p, "verified PB requires an explicit update check and cutoff");
+      if (r.status === "verified-absent" && (!isPB || candidates.length)) fail(p, "absence is only for PB without unresolved candidates");
+      if (issues.length) fail(p, "verified conclusion still has unresolved issues");
+      const f = obj(r.final, ["value", "sourceIds", "locator", "revision"], `${p}.final`);
+      const value = str(f.value, `${p}.final.value`);
+      if (r.status === "verified" && !values.has(value)) fail(p, "final value must match a recorded candidate");
+      str(f.locator, `${p}.final.locator`);
+      str(f.revision, `${p}.final.revision`);
+      const ids = arr(f.sourceIds, `${p}.final.sourceIds`);
+      if (!ids.length || new Set(ids).size !== ids.length) fail(p, "distinct adopted Source IDs required");
+      for (const id of ids) {
+        const source = sources.get(str(id, `${p}.final.sourceIds`));
+        if (!source) fail(p, "unknown adopted Source ID");
+        if (!read.has(url(source!.url, `${p}.adoptedSource.url`))) fail(p, "adopted Source must have a read document in the log");
+      }
+    } else {
+      if (r.final !== null) fail(p, "unverified conclusion cannot adopt a final fact");
+      if (!issues.length) fail(p, "unverified status requires unresolved reasons");
+      if ((r.status === "candidate" || r.status === "conflict") && !candidates.length) fail(p, "candidate/conflict needs candidate evidence");
+      if (r.status === "not-found" && candidates.length) fail(p, "not-found cannot hide known candidates");
+    }
+  }
+  return input as ResearchBatch;
+}

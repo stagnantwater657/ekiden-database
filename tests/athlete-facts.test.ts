@@ -131,7 +131,6 @@ test("repeated IDs, empty profiles and unresolved identity links never get publi
 });
 
 test("first batch publishes only sourced facts with exact hundredths and whole-second half", () => {
-  assert.equal(athleteProfileSupplements.length, 10);
   const byId = new Map(athleteProfileSupplements.map((item) => [item.athleteId, item]));
   const marks = (id: string) => byId.get(id)!.personalBests.map(formatPersonalBest);
   assert.deepEqual(marks("athlete-aj25-02-7"), ["13:09.45", "27:28.50"]);
@@ -139,10 +138,6 @@ test("first batch publishes only sourced facts with exact hundredths and whole-s
   assert.deepEqual(marks("athlete-aj24-02-3"), ["13:32.88", "27:56.85", "1:01:16"]);
   assert.deepEqual(marks("athlete-aj24-05-2"), ["13:16.38", "27:52.37", "1:01:16"]);
   assert.deepEqual(marks("athlete-aj24-12-1"), ["13:19.24", "27:52.38", "1:00:13"]);
-  assert.equal(
-    athleteProfileSupplements.reduce((n, profile) => n + profile.personalBests.length, 0),
-    29,
-  );
   const sato = byId.get("athlete-aj25-02-7")!;
   assert.equal(personalBestStatus(sato, "half-marathon"), "verified-absent");
   assert.equal(sato.personalBests.find((pb) => pb.event === "5000m")!.indoor, true);
@@ -198,4 +193,47 @@ test("batch-2 round 1 publishes only sourced facts and keeps unresolved fields e
   assert.deepEqual(marks("athlete-aj24-06-4"), ["13:33.32", "27:45.12", "1:03:18"]);
   assert.equal(personalBestStatus(byId.get("athlete-aj24-06-4")!, "5000m"), "published");
   assert.equal(personalBestStatus(byId.get("athlete-aj24-06-4")!, "half-marathon"), "published");
+});
+
+test("batch-2 round 2 publishes sourced facts and leaves unverified fields empty", () => {
+  const byId = new Map(athleteProfileSupplements.map((item) => [item.athleteId, item]));
+  const marks = (id: string) => byId.get(id)!.personalBests.map(formatPersonalBest);
+  // 青木 瑠郁: birth/school from the official entry PDF, only the dated half is published
+  assert.equal(byId.get("athlete-aj24-01-2")!.birthDate!.value, "2004-03-31");
+  assert.equal(byId.get("athlete-aj24-01-2")!.highSchool!.value, "健大高崎高（群馬県）");
+  assert.deepEqual(marks("athlete-aj24-01-2"), ["1:00:45"]);
+  assert.equal(personalBestStatus(byId.get("athlete-aj24-01-2")!, "5000m"), "missing");
+  assert.equal(personalBestStatus(byId.get("athlete-aj24-01-2")!, "10000m"), "missing");
+  // 吉居 駿恭
+  assert.equal(byId.get("athlete-aj24-12-7")!.birthDate!.value, "2003-04-08");
+  assert.equal(byId.get("athlete-aj24-12-7")!.highSchool!.value, "仙台育英高（宮城県）");
+  assert.deepEqual(marks("athlete-aj24-12-7"), ["13:22.01", "27:44.48"]);
+  assert.equal(personalBestStatus(byId.get("athlete-aj24-12-7")!, "half-marathon"), "missing");
+  // 楠岡 由浩
+  assert.equal(byId.get("athlete-aj24-08-6")!.birthDate!.value, "2004-04-16");
+  assert.equal(byId.get("athlete-aj24-08-6")!.highSchool!.value, "慶誠高（熊本県）");
+  assert.deepEqual(marks("athlete-aj24-08-6"), ["13:26.92", "27:52.09", "1:01:43"]);
+  // 塩出 翔太
+  assert.equal(byId.get("athlete-aj24-03-8")!.birthDate!.value, "2003-09-11");
+  assert.equal(byId.get("athlete-aj24-03-8")!.highSchool!.value, "世羅高（広島県）");
+  assert.deepEqual(marks("athlete-aj24-03-8"), ["28:55.81", "1:00:55"]);
+  assert.equal(personalBestStatus(byId.get("athlete-aj24-03-8")!, "5000m"), "missing");
+  // 篠原 倖太朗
+  assert.equal(byId.get("athlete-aj24-02-7")!.birthDate!.value, "2002-09-03");
+  assert.equal(byId.get("athlete-aj24-02-7")!.highSchool!.value, "富里高（千葉県）");
+  assert.deepEqual(marks("athlete-aj24-02-7"), ["13:15.70", "27:35.05", "59:30"]);
+});
+
+test("every published supplement carries at least one sourced fact", () => {
+  for (const profile of athleteProfileSupplements) {
+    assert.ok(
+      profile.birthDate || profile.highSchool || profile.personalBests.length > 0,
+      `${profile.athleteId} has an empty supplement`,
+    );
+    for (const pb of profile.personalBests) {
+      assert.ok(pb.meet.trim(), `${profile.athleteId} ${pb.event} lacks a meet`);
+      assert.ok(pb.locator.trim(), `${profile.athleteId} ${pb.event} lacks a locator`);
+      assert.ok(pb.achievedOn < profile.reviewedAt, `${profile.athleteId} ${pb.event} date not in the past`);
+    }
+  }
 });

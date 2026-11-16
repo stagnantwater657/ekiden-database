@@ -808,5 +808,260 @@
       "basis": "Corporate team announcement reviewed. Only objective profile facts are recorded; no page content republished. No permission claimed.",
       "permissionReference": null
     }
+  },
+  {
+    "id": "wa-shunsuke-yoshii",
+    "title": "World Athletics 選手プロフィール 吉居 駿恭（Shunsuke YOSHII）",
+    "url": "https://worldathletics.org/athletes/japan/shunsuke-yoshii-14900218",
+    "collectedAt": "2026-11-16",
+    "locator": "Profile: basic data (date of birth); Personal Bests",
+    "coverage": "出生日期与 5000m 日期",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://worldathletics.org/terms-of-use",
+      "reviewedAt": "2026-11-16",
+      "basis": "Public athlete database. Only objective facts (date of birth, event, mark, date, venue, competition) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "wa-yoshihiro-kusuoka",
+    "title": "World Athletics 選手プロフィール 楠岡 由浩（Yosihiro KUSUOKA）",
+    "url": "https://worldathletics.org/athletes/_/14979888",
+    "collectedAt": "2026-11-16",
+    "locator": "Profile: basic data (date of birth); Personal Bests",
+    "coverage": "出生日期与 5000m/10000m/半马 日期",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://worldathletics.org/terms-of-use",
+      "reviewedAt": "2026-11-16",
+      "basis": "Public athlete database. Only objective facts (date of birth, event, mark, date, venue, competition) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "wa-shota-shiode",
+    "title": "World Athletics 選手プロフィール 塩出 翔太（Shota SHIODE）",
+    "url": "https://worldathletics.org/athletes/japan/shota-shiode-14895660",
+    "collectedAt": "2026-11-16",
+    "locator": "Profile: basic data (date of birth); Personal Bests",
+    "coverage": "出生日期与 5000m/半马 日期",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://worldathletics.org/terms-of-use",
+      "reviewedAt": "2026-11-16",
+      "basis": "Public athlete database. Only objective facts (date of birth, event, mark, date, venue, competition) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "wa-kotaro-shinohara",
+    "title": "World Athletics 選手プロフィール 篠原 倖太朗（Kotaro SHINOHARA）",
+    "url": "https://worldathletics.org/athletes/japan/kotaro-shinohara-14895798",
+    "collectedAt": "2026-11-16",
+    "locator": "Profile: basic data (date of birth); Personal Bests",
+    "coverage": "出生日期与 5000m/10000m/半马 日期",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://worldathletics.org/terms-of-use",
+      "reviewedAt": "2026-11-16",
+      "basis": "Public athlete database. Only objective facts (date of birth, event, mark, date, venue, competition) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hakone-2025-entry-list",
+    "title": "関東学生陸上競技連盟 第102回箱根駅伝 チームエントリー",
+    "url": "https://www.hakone-ekiden.jp/_assets/2025/5b0fad63e259a678d2b6ee1c282cb4d3f550b08e.pdf",
+    "collectedAt": "2026-11-16",
+    "locator": "p.3 3.國學院大學 青木瑠郁: 生年月日 2004/3/31、登録陸協 群馬、出身校 健大高崎、5000m 13:30.42、10000m 28:02.00、半马 1:00:45",
+    "coverage": "青木瑠郁的出生日期、出身校与记录值",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.hakone-ekiden.jp/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Official race entry PDF reviewed (text layer). Only objective facts are recorded; no PDF republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-yoshii",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 吉居 駿恭",
+    "url": "https://hochi.news/hakone/member/?school=chuo&player=68",
+    "collectedAt": "2026-11-16",
+    "locator": "選手名鑑: 学年4年・登録陸協 愛知・出身校 仙台育英・10000m公認 27:44.48",
+    "coverage": "出身高中与记录交叉",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-kusuoka",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 楠岡 由浩",
+    "url": "https://hochi.news/hakone/member/?school=teikyo&player=153",
+    "collectedAt": "2026-11-16",
+    "locator": "選手名鑑: 学年3年・登録陸協 熊本・出身校 慶誠・10000m公認 27:52.09・半马 1:01:43",
+    "coverage": "出身高中与记录交叉",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-shiode",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 塩出 翔太",
+    "url": "https://hochi.news/hakone/member/?school=aoyamagakuin&player=5",
+    "collectedAt": "2026-11-16",
+    "locator": "選手名鑑: 学年4年・登録陸協 広島・出身校 世羅",
+    "coverage": "出身高中",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "yomiuri-shinohara",
+    "title": "読売新聞 箱根駅伝2025 選手プロフィル 篠原 倖太朗",
+    "url": "https://www.yomiuri.co.jp/hakone-ekiden/2025/teams/2/00089173735",
+    "collectedAt": "2026-11-16",
+    "locator": "プロフィル: 登録陸協 千葉・出身校 富里・5000m公認 13:15.70・10000m公認 27:35.05",
+    "coverage": "出身高中与记录交叉",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.yomiuri.co.jp/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Profile page reviewed. Only objective facts recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "getsuriku-aoki-ageo-half-2025",
+    "title": "月陸Online 國學院大・青木瑠郁が1時間0分45秒で競り勝つ／上尾ハーフ",
+    "url": "https://www.rikujyokyogi.co.jp/archives/190433",
+    "collectedAt": "2026-11-16",
+    "locator": "記事本文「第38回上尾シティハーフマラソン…青木瑠郁（國學院大）が1時間0分45秒」",
+    "coverage": "青木 half PB 的赛事与日期",
+    "revision": "2025.11.16 配信; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.rikujyokyogi.co.jp/サイトポリシー",
+      "reviewedAt": "2026-11-16",
+      "basis": "Site policy protects articles, photographs and layout and prohibits unauthorised republication. Only independently structured objective facts are recorded; no article text, image or layout is republished. No written permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "getsuriku-yoshii-niigata-5000-2023",
+    "title": "月陸Online 吉居駿恭5000m13分22秒01／新潟ACC",
+    "url": "https://www.rikujyokyogi.co.jp/archives/115544",
+    "collectedAt": "2026-11-16",
+    "locator": "記事本文「アスレチックスチャレンジカップ（9月30日～10月1日／新潟市・デンカビッグスワンスタジアム）…吉居駿恭（中大）…13分22秒01」",
+    "coverage": "吉居 5000m PB 的赛事与日期",
+    "revision": "2023.10.01 配信; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.rikujyokyogi.co.jp/サイトポリシー",
+      "reviewedAt": "2026-11-16",
+      "basis": "Site policy protects articles, photographs and layout and prohibits unauthorised republication. Only independently structured objective facts are recorded; no article text, image or layout is republished. No written permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "getsuriku-yoshii-march-10000-2024",
+    "title": "月陸Online 吉居駿恭が27分44秒48の大学新記録／MARCH対抗戦",
+    "url": "https://www.rikujyokyogi.co.jp/archives/153949",
+    "collectedAt": "2026-11-16",
+    "locator": "記事本文「MARCH対抗戦2024（11月23日／町田GIONスタジアム）…中大・吉居駿恭（3年）は27分44秒48」",
+    "coverage": "吉居 10000m PB 的赛事与日期",
+    "revision": "2024.11.23 配信; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.rikujyokyogi.co.jp/サイトポリシー",
+      "reviewedAt": "2026-11-16",
+      "basis": "Site policy protects articles, photographs and layout and prohibits unauthorised republication. Only independently structured objective facts are recorded; no article text, image or layout is republished. No written permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "getsuriku-kusuoka-nittaidai-10000-2025",
+    "title": "月陸Online 楠岡由浩が1万m27分52秒09／日体大長距離競技会",
+    "url": "https://www.rikujyokyogi.co.jp/archives/190413",
+    "collectedAt": "2026-11-16",
+    "locator": "記事本文「第324回日体大長距離競技会兼第18回NCG…楠岡由浩（帝京大）が27分52秒09」",
+    "coverage": "楠岡 10000m PB 的赛事与日期",
+    "revision": "2025.11.15 配信; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.rikujyokyogi.co.jp/サイトポリシー",
+      "reviewedAt": "2026-11-16",
+      "basis": "Site policy protects articles, photographs and layout and prohibits unauthorised republication. Only independently structured objective facts are recorded; no article text, image or layout is republished. No written permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "getsuriku-shiode-nittaidai-10000-2025",
+    "title": "月陸Online 青学大・塩出翔太が10000m28分55秒81の自己新／日体大長距離競技会",
+    "url": "https://www.rikujyokyogi.co.jp/archives/173748",
+    "collectedAt": "2026-11-16",
+    "locator": "記事本文「第322回日本体育大学長距離競技会兼第16回NCG…6月14日…塩出翔太（青学大）が28分55秒81の自己新」",
+    "coverage": "塩出 10000m PB 的赛事与日期",
+    "revision": "2025.06.15 配信; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.rikujyokyogi.co.jp/サイトポリシー",
+      "reviewedAt": "2026-11-16",
+      "basis": "Site policy protects articles, photographs and layout and prohibits unauthorised republication. Only independently structured objective facts are recorded; no article text, image or layout is republished. No written permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "kraftia-108th-10000m-2024",
+    "title": "クラフティア 第108回日本陸上競技選手権大会・10000m 大会成績",
+    "url": "https://www.kraftia.co.jp/marathon/result/2024/0503_004143.html",
+    "collectedAt": "2026-11-16",
+    "locator": "男子10000m: 6位 篠原倖太朗 駒澤大 27分35秒05; 期日2024年5月3日/静岡・袋井エコパスタジアム",
+    "coverage": "篠原 10000m PB 的赛事与日期",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.kraftia.co.jp/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Official meet result page reviewed. Only objective result facts recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "tbs-shinohara-marugame-2025",
+    "title": "TBS NEWS DIG 篠原倖太朗 インタビュー（東日本実業団駅伝）",
+    "url": "https://newsdig.tbs.co.jp/articles/-/2259994",
+    "collectedAt": "2026-11-16",
+    "locator": "本文「今年2月の丸亀国際ハーフマラソンでは59分30秒の学生新で4位」",
+    "coverage": "篠原 半马 PB 的赛事与成绩",
+    "revision": "2025.10.31 配信; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://newsdig.tbs.co.jp/",
+      "reviewedAt": "2026-11-16",
+      "basis": "News article reviewed. Only objective result facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "getsuriku-shinohara-acc-5000-2024",
+    "title": "月陸Online 篠原倖太朗が13分15秒70／ACC新潟",
+    "url": "https://www.rikujyokyogi.co.jp/archives/147618",
+    "collectedAt": "2026-11-16",
+    "locator": "記事本文「篠原倖太朗が13分15秒70…／ACC新潟」",
+    "coverage": "篠原 5000m PB 的赛事与日期",
+    "revision": "2024.09.28 配信; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.rikujyokyogi.co.jp/サイトポリシー",
+      "reviewedAt": "2026-11-16",
+      "basis": "Site policy protects articles, photographs and layout and prohibits unauthorised republication. Only independently structured objective facts are recorded; no article text, image or layout is republished. No written permission is claimed.",
+      "permissionReference": null
+    }
   }
 ]

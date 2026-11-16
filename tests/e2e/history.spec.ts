@@ -62,7 +62,7 @@ test("athlete archive retains verified cross-year identities and separates missi
   await expect(pb).toContainText("27:36.64");
   await expect(pb).toContainText("1:00:51");
   // A runner without a reviewed supplement still shows the unfound state.
-  await page.goto("/athletes/athlete-aj24-01-2");
+  await page.goto("/athletes/athlete-aj24-01-1");
   const emptyPb = page.getByRole("region", { name: /个人最佳/ });
   await expect(emptyPb).toContainText("尚未收录");
   await expect(emptyPb).not.toContainText(/\d+:\d{2}/);

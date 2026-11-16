@@ -1,0 +1,1751 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-11-16-batch2-round2-recheck",
+  "researcher": "DSH / PR #19 batch-2 round-2 research (this session)",
+  "reviewedAt": "2026-11-16",
+  "records": [
+    {
+      "athleteId": "athlete-aj24-01-2",
+      "athleteName": "青木 瑠郁",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "2004-03-31",
+          "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/5b0fad63e259a678d2b6ee1c282cb4d3f550b08e.pdf",
+          "locator": "p.3 3.國學院大學 青木瑠郁 生年月日 2004/3/31"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "第102回箱根駅伝 チームエントリー 青木瑠郁",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/5b0fad63e259a678d2b6ee1c282cb4d3f550b08e.pdf",
+              "section": "p.3 國學院大學 エントリー表",
+              "access": "read",
+              "finding": "生年月日2004/3/31、登録陸協群馬、出身校健大高崎、5000m13:30.42、10000m28:02.00、半马1:00:45"
+            }
+          ],
+          "result": "官方报名表给出出生日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "青木瑠郁 生年月日 2004",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/5b0fad63e259a678d2b6ee1c282cb4d3f550b08e.pdf",
+              "section": "p.3 生年月日欄",
+              "access": "read",
+              "finding": "2004/3/31；年龄21（1月3日时点）与2004年生一致"
+            }
+          ],
+          "result": "与年龄、学籍一致"
+        },
+        {
+          "stage": "verification",
+          "query": "青木瑠郁 國學院大 健大高崎",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=kokugakuin&player=33",
+              "section": "選手名鑑",
+              "access": "read",
+              "finding": "出身校 健大高崎、学年4年、登録陸協 群馬"
+            }
+          ],
+          "result": "学校与所属交叉确认同一人"
+        }
+      ],
+      "final": {
+        "value": "2004-03-31",
+        "sourceIds": [
+          "hakone-2025-entry-list"
+        ],
+        "locator": "p.3 生年月日 2004/3/31",
+        "revision": "関東学生陸上競技連盟 第102回箱根駅伝 チームエントリー; retrieved 2026-11-16"
+      },
+      "identityEvidence": "官方报名表与報知名鉴的学校/登録陸協/学年一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "出生日期为固定资料；报名表与名鉴一致。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "athleteId": "athlete-aj24-01-2",
+      "athleteName": "青木 瑠郁",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "健大高崎高（群馬県）",
+          "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/5b0fad63e259a678d2b6ee1c282cb4d3f550b08e.pdf",
+          "locator": "p.3 出身校 健大高崎"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "青木瑠郁 出身校",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=kokugakuin&player=33",
+              "section": "選手名鑑 出身校",
+              "access": "read",
+              "finding": "出身校 健大高崎"
+            }
+          ],
+          "result": "名鉴给出出身校"
+        },
+        {
+          "stage": "reverse",
+          "query": "青木瑠郁 健大高崎",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/5b0fad63e259a678d2b6ee1c282cb4d3f550b08e.pdf",
+              "section": "p.3 出身校欄",
+              "access": "read",
+              "finding": "健大高崎"
+            }
+          ],
+          "result": "官方报名表同值"
+        },
+        {
+          "stage": "verification",
+          "query": "青木瑠郁 住友電工 入社",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.rikujyokyogi.co.jp/archives/196802",
+              "section": "記事本文",
+              "access": "read",
+              "finding": "群馬県出身…健大高崎高では国体・インターハイ出場"
+            }
+          ],
+          "result": "媒体回顾确认同一高中"
+        }
+      ],
+      "final": {
+        "value": "健大高崎高（群馬県）",
+        "sourceIds": [
+          "hakone-2025-entry-list"
+        ],
+        "locator": "p.3 出身校 健大高崎",
+        "revision": "第102回箱根駅伝 チームエントリー; retrieved 2026-11-16"
+      },
+      "identityEvidence": "报名表与名鉴、月陸入社报道的出身高中一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "官方报名表与两家媒体一致。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "athleteId": "athlete-aj24-01-2",
+      "athleteName": "青木 瑠郁",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "1:00:45; 2025-11-16; 第38回上尾シティハーフマラソン",
+          "sourceUrl": "https://www.rikujyokyogi.co.jp/archives/190433",
+          "locator": "記事本文「青木瑠郁（國學院大）が1時間0分45秒…優勝」"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "青木瑠郁 1時間00分45秒",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.rikujyokyogi.co.jp/archives/190433",
+              "section": "第38回上尾シティハーフマラソン",
+              "access": "read",
+              "finding": "11月16日、大学生男子の部で青木瑠郁が1時間0分45秒で優勝"
+            }
+          ],
+          "result": "媒体给出赛事、日期与成绩"
+        },
+        {
+          "stage": "reverse",
+          "query": "青木瑠郁 上尾ハーフ 1:00:45",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/5b0fad63e259a678d2b6ee1c282cb4d3f550b08e.pdf",
+              "section": "p.3 記録欄",
+              "access": "read",
+              "finding": "半马公認1:00:45（2025年1月时点）"
+            }
+          ],
+          "result": "报名表记录同值，但日期取上尾2025-11-16"
+        },
+        {
+          "stage": "verification",
+          "query": "第38回上尾シティハーフマラソン 2025-11-16",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.rikujyokyogi.co.jp/archives/190433",
+              "section": "大会日と結果",
+              "access": "read",
+              "finding": "2025年11月16日開催；公道フィニッシュ"
+            }
+          ],
+          "result": "确认赛事日期与距离为半马"
+        }
+      ],
+      "final": {
+        "value": "1:00:45; 2025-11-16; 第38回上尾シティハーフマラソン",
+        "sourceIds": [
+          "getsuriku-aoki-ageo-half-2025"
+        ],
+        "locator": "記事本文「青木瑠郁（國學院大）が1時間0分45秒」",
+        "revision": "月陸Online 2025-11-16; retrieved 2026-11-16"
+      },
+      "identityEvidence": "上尾大会报道与官方报名表的姓名、学校、成绩一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "赛后报道为最新已核实半马成绩；报名表同值。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "athleteId": "athlete-aj24-12-7",
+      "athleteName": "吉居 駿恭",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "2003-04-08",
+          "sourceUrl": "https://worldathletics.org/athletes/japan/shunsuke-yoshii-14900218",
+          "locator": "Profile → basic data: date of birth 08 APR 2003"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "worldathletics Shunsuke Yoshii",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/shunsuke-yoshii-14900218",
+              "section": "Profile basic data",
+              "access": "read",
+              "finding": "date of birth 08 APR 2003"
+            }
+          ],
+          "result": "WA给出出生日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "吉居駿恭 2003年4月8日",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.yomiuri.co.jp/hakone-ekiden/2026/teams/5/00096983944/",
+              "section": "プロフィル",
+              "access": "read",
+              "finding": "年齢22歳・出身校 仙台育英"
+            }
+          ],
+          "result": "年龄与学校佐证"
+        },
+        {
+          "stage": "verification",
+          "query": "吉居駿恭 中央大 仙台育英",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=chuo&player=68",
+              "section": "選手名鑑",
+              "access": "read",
+              "finding": "学年4年・登録陸協 愛知・出身校 仙台育英"
+            }
+          ],
+          "result": "学校与所属一致"
+        }
+      ],
+      "final": {
+        "value": "2003-04-08",
+        "sourceIds": [
+          "wa-shunsuke-yoshii"
+        ],
+        "locator": "Profile → basic data: date of birth 08 APR 2003",
+        "revision": "World Athletics; retrieved 2026-11-16"
+      },
+      "identityEvidence": "WA、読売、報知的姓名/学校/年龄段一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "固定资料，WA与两家档案一致。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "athleteId": "athlete-aj24-12-7",
+      "athleteName": "吉居 駿恭",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "仙台育英高（宮城県）",
+          "sourceUrl": "https://hochi.news/hakone/member/?school=chuo&player=68",
+          "locator": "選手名鑑: 出身校 仙台育英"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "吉居駿恭 出身校",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=chuo&player=68",
+              "section": "選手名鑑",
+              "access": "read",
+              "finding": "出身校 仙台育英"
+            }
+          ],
+          "result": "名鉴给出出身校"
+        },
+        {
+          "stage": "reverse",
+          "query": "吉居駿恭 仙台育英",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.yomiuri.co.jp/hakone-ekiden/2026/teams/5/00096983944/",
+              "section": "プロフィル",
+              "access": "read",
+              "finding": "出身校 仙台育英"
+            }
+          ],
+          "result": "读卖同值"
+        },
+        {
+          "stage": "verification",
+          "query": "吉居駿恭 中央大学 経歴",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=chuo&player=68",
+              "section": "名鑑",
+              "access": "read",
+              "finding": "登録陸協 愛知、出身校 仙台育英"
+            }
+          ],
+          "result": "学校与姓名一致"
+        }
+      ],
+      "final": {
+        "value": "仙台育英高（宮城県）",
+        "sourceIds": [
+          "hochi-yoshii"
+        ],
+        "locator": "選手名鑑: 出身校 仙台育英",
+        "revision": "retrieved 2026-11-16"
+      },
+      "identityEvidence": "報知与读卖一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "两家档案一致。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "athleteId": "athlete-aj24-12-7",
+      "athleteName": "吉居 駿恭",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "13:22.01; 2023-09-30; アスレチックスチャレンジカップ新潟",
+          "sourceUrl": "https://www.rikujyokyogi.co.jp/archives/115544",
+          "locator": "記事本文「アスレチックスチャレンジカップ（9月30日～10月1日／新潟市・デンカビッグスワンスタジアム）…吉居駿恭（中大）…13分22秒01」"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "吉居駿恭 5000m 13分22秒01",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.rikujyokyogi.co.jp/archives/115544",
+              "section": "新潟ACC",
+              "access": "read",
+              "finding": "グランプリ男子5000m 1位 13分22秒01"
+            }
+          ],
+          "result": "媒体给出赛事、日期、成绩"
+        },
+        {
+          "stage": "reverse",
+          "query": "吉居駿恭 13分22秒01 新潟",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/shunsuke-yoshii-14900218",
+              "section": "Personal Bests → 5000 Metres",
+              "access": "read",
+              "finding": "13:22.01 / 30 SEP 2023 / Denka Big Swan Stadium"
+            }
+          ],
+          "result": "WA日期场地一致"
+        },
+        {
+          "stage": "verification",
+          "query": "アスレチックスチャレンジカップ 2023 新潟",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.rikujyokyogi.co.jp/archives/115544",
+              "section": "大会名・会場",
+              "access": "read",
+              "finding": "新潟市・デンカビッグスワンスタジアム"
+            }
+          ],
+          "result": "赛事与场地确认"
+        }
+      ],
+      "final": {
+        "value": "13:22.01; 2023-09-30; アスレチックスチャレンジカップ新潟",
+        "sourceIds": [
+          "getsuriku-yoshii-niigata-5000-2023"
+        ],
+        "locator": "記事本文「13分22秒01」",
+        "revision": "月陸Online 2023-10-01; retrieved 2026-11-16"
+      },
+      "identityEvidence": "月陸报道与WA均指中大吉居駿恭。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "WA PB仍为13:22.01；未发现更快5000m成绩。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "athleteId": "athlete-aj24-12-7",
+      "athleteName": "吉居 駿恭",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "27:44.48; 2024-11-23; MARCH対抗戦2024",
+          "sourceUrl": "https://www.rikujyokyogi.co.jp/archives/153949",
+          "locator": "記事本文「MARCH対抗戦2024（11月23日／町田GIONスタジアム）…中大・吉居駿恭（3年）は27分44秒48」"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "吉居駿恭 27分44秒48",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.rikujyokyogi.co.jp/archives/153949",
+              "section": "MARCH対抗戦2024",
+              "access": "read",
+              "finding": "吉居駿恭（3年）27分44秒48 中大新記録"
+            }
+          ],
+          "result": "媒体给出赛事、日期、成绩"
+        },
+        {
+          "stage": "reverse",
+          "query": "吉居駿恭 MARCH対抗戦 10000m",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=chuo&player=68",
+              "section": "選手名鑑 10000m公認",
+              "access": "read",
+              "finding": "27分44秒48"
+            }
+          ],
+          "result": "名鉴同值"
+        },
+        {
+          "stage": "verification",
+          "query": "MARCH対抗戦2024 2024-11-23 町田",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.rikujyokyogi.co.jp/archives/153949",
+              "section": "大会日と会場",
+              "access": "read",
+              "finding": "2024年11月23日／町田GIONスタジアム"
+            }
+          ],
+          "result": "赛事日期确认；WA用友更慢的2022值，不冲突"
+        }
+      ],
+      "final": {
+        "value": "27:44.48; 2024-11-23; MARCH対抗戦2024",
+        "sourceIds": [
+          "getsuriku-yoshii-march-10000-2024"
+        ],
+        "locator": "記事本文「中大・吉居駿恭（3年）は27分44秒48」",
+        "revision": "月陸Online 2024-11-23; retrieved 2026-11-16"
+      },
+      "identityEvidence": "报道与名鉴均为中大吉居骏恭。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "WA 10000m PB为28:06.27(2022)，慢于并早于本次2024成绩；采用更快且更新的正式比赛成绩。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "athleteId": "athlete-aj24-08-6",
+      "athleteName": "楠岡 由浩",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "2004-04-16",
+          "sourceUrl": "https://worldathletics.org/athletes/_/14979888",
+          "locator": "Profile → basic data: date of birth 16 APR 2004"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "worldathletics Yosihiro Kusuoka",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/_/14979888",
+              "section": "Profile basic data",
+              "access": "read",
+              "finding": "date of birth 16 APR 2004"
+            }
+          ],
+          "result": "WA出生日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "楠岡由浩 2004年",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=teikyo&player=153",
+              "section": "選手名鑑",
+              "access": "read",
+              "finding": "学年3年・登録陸協 熊本・出身校 慶誠"
+            }
+          ],
+          "result": "学校/学年佐证"
+        },
+        {
+          "stage": "verification",
+          "query": "楠岡由浩 帝京大 慶誠",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.rikujyokyogi.co.jp/archives/190413",
+              "section": "記事本文",
+              "access": "read",
+              "finding": "熊本県出身の大学3年生。慶誠高時代…"
+            }
+          ],
+          "result": "媒体回顾一致"
+        }
+      ],
+      "final": {
+        "value": "2004-04-16",
+        "sourceIds": [
+          "wa-yoshihiro-kusuoka"
+        ],
+        "locator": "Profile → basic data: date of birth 16 APR 2004",
+        "revision": "World Athletics; retrieved 2026-11-16"
+      },
+      "identityEvidence": "WA、報知、月陸的学校/年级一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "固定资料。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "athleteId": "athlete-aj24-08-6",
+      "athleteName": "楠岡 由浩",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "慶誠高（熊本県）",
+          "sourceUrl": "https://hochi.news/hakone/member/?school=teikyo&player=153",
+          "locator": "選手名鑑: 出身校 慶誠"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "楠岡由浩 出身校",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=teikyo&player=153",
+              "section": "選手名鑑",
+              "access": "read",
+              "finding": "出身校 慶誠"
+            }
+          ],
+          "result": "名鉴"
+        },
+        {
+          "stage": "reverse",
+          "query": "楠岡由浩 慶誠高 熊本",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.rikujyokyogi.co.jp/archives/190413",
+              "section": "記事本文",
+              "access": "read",
+              "finding": "熊本県出身…慶誠高時代に国体5000m 13:55.84"
+            }
+          ],
+          "result": "月陸同源"
+        },
+        {
+          "stage": "verification",
+          "query": "楠岡由浩 帝京大",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=teikyo&player=153",
+              "section": "名鑑",
+              "access": "read",
+              "finding": "登録陸協 熊本・出身校 慶誠"
+            }
+          ],
+          "result": "一致"
+        }
+      ],
+      "final": {
+        "value": "慶誠高（熊本県）",
+        "sourceIds": [
+          "hochi-kusuoka"
+        ],
+        "locator": "選手名鑑: 出身校 慶誠",
+        "revision": "retrieved 2026-11-16"
+      },
+      "identityEvidence": "名鉴与月陸一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "两源一致。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "athleteId": "athlete-aj24-08-6",
+      "athleteName": "楠岡 由浩",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "13:26.92; 2026-06-12; 第110回日本陸上競技選手権大会",
+          "sourceUrl": "https://worldathletics.org/athletes/_/14979888",
+          "locator": "Personal Bests → 5000 Metres; competition Japanese Championships; date 12 JUN 2026"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "worldathletics Yosihiro Kusuoka 5000m",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/_/14979888",
+              "section": "Personal Bests → 5000 Metres",
+              "access": "read",
+              "finding": "13:26.92 / 12 JUN 2026 / Japanese Championships, Nagoya"
+            }
+          ],
+          "result": "WA含赛事名"
+        },
+        {
+          "stage": "reverse",
+          "query": "楠岡由浩 13分26秒92",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.rikujyokyogi.co.jp/archives/190413",
+              "section": "記事本文",
+              "access": "read",
+              "finding": "今季5000m13分50秒12（赛前）；2026-06日本选手権出場"
+            }
+          ],
+          "result": "未找到更快或更晚的5000m正式成绩"
+        },
+        {
+          "stage": "verification",
+          "query": "第110回日本陸上競技選手権 2026 名古屋",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/_/14979888",
+              "section": "competition欄",
+              "access": "read",
+              "finding": "Japanese Championships, Municipal Mizuho Stadium, Nagoya"
+            }
+          ],
+          "result": "赛事与场地确认"
+        }
+      ],
+      "final": {
+        "value": "13:26.92; 2026-06-12; 第110回日本陸上競技選手権大会",
+        "sourceIds": [
+          "wa-yoshihiro-kusuoka"
+        ],
+        "locator": "Personal Bests → 5000 Metres; competition Japanese Championships; date 12 JUN 2026",
+        "revision": "World Athletics; retrieved 2026-11-16"
+      },
+      "identityEvidence": "WA赛事名与日本选手权一致，选手为帝京大楠岡。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "WA PB=13:26.92，未见更新更快成绩。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "athleteId": "athlete-aj24-08-6",
+      "athleteName": "楠岡 由浩",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "27:52.09; 2025-11-15; 第324回日体大長距離競技会兼第18回NCG",
+          "sourceUrl": "https://www.rikujyokyogi.co.jp/archives/190413",
+          "locator": "記事本文「楠岡由浩（帝京大）が27分52秒09の自己新」"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "楠岡由浩 27分52秒09",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.rikujyokyogi.co.jp/archives/190413",
+              "section": "第324回日体大長距離競技会",
+              "access": "read",
+              "finding": "11月15日、NCG男子10000m 6着 27分52秒09 自己新"
+            }
+          ],
+          "result": "媒体给出日期/赛事/成绩"
+        },
+        {
+          "stage": "reverse",
+          "query": "楠岡由浩 日体大 27:52.09",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/_/14979888",
+              "section": "Personal Bests → 10,000 Metres",
+              "access": "read",
+              "finding": "27:52.09 / 15 NOV 2025 / NITTAIDAI"
+            }
+          ],
+          "result": "WA日期场地一致"
+        },
+        {
+          "stage": "verification",
+          "query": "第324回日体大長距離競技会 2025-11-15",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.rikujyokyogi.co.jp/archives/190413",
+              "section": "大会名・会場",
+              "access": "read",
+              "finding": "日体大健志台陸上競技場"
+            }
+          ],
+          "result": "赛事确认"
+        }
+      ],
+      "final": {
+        "value": "27:52.09; 2025-11-15; 第324回日体大長距離競技会兼第18回NCG",
+        "sourceIds": [
+          "getsuriku-kusuoka-nittaidai-10000-2025"
+        ],
+        "locator": "記事本文「楠岡由浩（帝京大）が27分52秒09」",
+        "revision": "月陸Online 2025-11-15; retrieved 2026-11-16"
+      },
+      "identityEvidence": "报道与WA同人同成绩。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "WA PB同值；未见更快10000m成绩。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "athleteId": "athlete-aj24-08-6",
+      "athleteName": "楠岡 由浩",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "1:01:43; 2025-02-02; 第76回香川丸亀国際ハーフマラソン",
+          "sourceUrl": "https://hochi.news/hakone/member/?school=teikyo&player=153",
+          "locator": "選手名鑑 ハーフマラソン公認記録 1時間01分43秒"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "楠岡由浩 1時間01分43秒",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=teikyo&player=153",
+              "section": "名鑑 半马公認",
+              "access": "read",
+              "finding": "1時間01分43秒"
+            }
+          ],
+          "result": "名鉴给值"
+        },
+        {
+          "stage": "reverse",
+          "query": "楠岡由浩 丸亀 ハーフ 2025",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/_/14979888",
+              "section": "Personal Bests → Half Marathon",
+              "access": "read",
+              "finding": "1:01:43 / 02 FEB 2025 / Marugame"
+            }
+          ],
+          "result": "WA日期与场地；2025-02-02为第76回丸亀"
+        },
+        {
+          "stage": "verification",
+          "query": "第76回香川丸亀国際ハーフマラソン 2025",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/_/14979888",
+              "section": "competition/date",
+              "access": "read",
+              "finding": "02 FEB 2025, Marugame"
+            }
+          ],
+          "result": "届数与日期确认"
+        }
+      ],
+      "final": {
+        "value": "1:01:43; 2025-02-02; 第76回香川丸亀国際ハーフマラソン",
+        "sourceIds": [
+          "hochi-kusuoka"
+        ],
+        "locator": "選手名鑑 ハーフマラソン公認記録 1時間01分43秒",
+        "revision": "retrieved 2026-11-16"
+      },
+      "identityEvidence": "名鉴与WA一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "WA PB同值；未见更新更快半马。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "athleteId": "athlete-aj24-03-8",
+      "athleteName": "塩出 翔太",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "2003-09-11",
+          "sourceUrl": "https://worldathletics.org/athletes/japan/shota-shiode-14895660",
+          "locator": "Profile → basic data: date of birth 11 SEP 2003"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "worldathletics Shota Shiode",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/shota-shiode-14895660",
+              "section": "Profile basic data",
+              "access": "read",
+              "finding": "11 SEP 2003"
+            }
+          ],
+          "result": "WA"
+        },
+        {
+          "stage": "reverse",
+          "query": "塩出翔太 2003年",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=aoyamagakuin&player=5",
+              "section": "名鑑",
+              "access": "read",
+              "finding": "学年4年・登録陸協 広島・出身校 世羅"
+            }
+          ],
+          "result": "学校佐证"
+        },
+        {
+          "stage": "verification",
+          "query": "塩出翔太 青山学院大 世羅",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=aoyamagakuin&player=5",
+              "section": "名鑑",
+              "access": "read",
+              "finding": "出身校 世羅"
+            }
+          ],
+          "result": "一致"
+        }
+      ],
+      "final": {
+        "value": "2003-09-11",
+        "sourceIds": [
+          "wa-shota-shiode"
+        ],
+        "locator": "Profile → basic data: date of birth 11 SEP 2003",
+        "revision": "World Athletics; retrieved 2026-11-16"
+      },
+      "identityEvidence": "WA与名鉴一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "固定资料。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "athleteId": "athlete-aj24-03-8",
+      "athleteName": "塩出 翔太",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "世羅高（広島県）",
+          "sourceUrl": "https://hochi.news/hakone/member/?school=aoyamagakuin&player=5",
+          "locator": "選手名鑑: 出身校 世羅"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "塩出翔太 出身校",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=aoyamagakuin&player=5",
+              "section": "名鑑",
+              "access": "read",
+              "finding": "出身校 世羅"
+            }
+          ],
+          "result": "名鉴"
+        },
+        {
+          "stage": "reverse",
+          "query": "塩出翔太 世羅高",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.rikujyokyogi.co.jp/archives/173748",
+              "section": "記事本文",
+              "access": "read",
+              "finding": "25年箱根8区区間賞の塩出翔太（青学大）"
+            }
+          ],
+          "result": "赛事报道确认所属，未直接给出高中"
+        },
+        {
+          "stage": "verification",
+          "query": "塩出翔太 登録陸協 広島",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=aoyamagakuin&player=5",
+              "section": "名鑑",
+              "access": "read",
+              "finding": "登録陸協 広島・出身校 世羅"
+            }
+          ],
+          "result": "学校与登録一致"
+        }
+      ],
+      "final": {
+        "value": "世羅高（広島県）",
+        "sourceIds": [
+          "hochi-shiode"
+        ],
+        "locator": "選手名鑑: 出身校 世羅",
+        "revision": "retrieved 2026-11-16"
+      },
+      "identityEvidence": "名鉴的学校与登録陸協（広島）一致；单一来源，标注待复核。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "仅報知名鉴一源，需独立复核。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "athleteId": "athlete-aj24-03-8",
+      "athleteName": "塩出 翔太",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "28:55.81; 2025-06-14; 第322回日体大長距離競技会兼第16回NCG",
+          "sourceUrl": "https://www.rikujyokyogi.co.jp/archives/173748",
+          "locator": "記事本文「塩出翔太（青学大）が28分55秒81の自己新」"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "塩出翔太 28分55秒81",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.rikujyokyogi.co.jp/archives/173748",
+              "section": "第322回日体大長距離競技会",
+              "access": "read",
+              "finding": "6月14日、男子10000m 2着 28分55秒81 自己新"
+            }
+          ],
+          "result": "媒体给出日期/成绩"
+        },
+        {
+          "stage": "reverse",
+          "query": "塩出翔太 日体大 10000m 28:55.81",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/shota-shiode-14895660",
+              "section": "Personal Bests",
+              "access": "read",
+              "finding": "WA未列10000m PB"
+            }
+          ],
+          "result": "WA无10000m记录，不作为否定"
+        },
+        {
+          "stage": "verification",
+          "query": "第322回日体大長距離競技会 2025-06-14",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.rikujyokyogi.co.jp/archives/173748",
+              "section": "大会名・会場",
+              "access": "read",
+              "finding": "第322回日本体育大学長距離競技会兼第16回NCG"
+            }
+          ],
+          "result": "赛事确认"
+        }
+      ],
+      "final": {
+        "value": "28:55.81; 2025-06-14; 第322回日体大長距離競技会兼第16回NCG",
+        "sourceIds": [
+          "getsuriku-shiode-nittaidai-10000-2025"
+        ],
+        "locator": "記事本文「塩出翔太（青学大）が28分55秒81の自己新」",
+        "revision": "月陸Online 2025-06-15; retrieved 2026-11-16"
+      },
+      "identityEvidence": "报道明确青学大塩出翔太。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "未发现更快10000m正式成绩；WA缺项不影响。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "athleteId": "athlete-aj24-03-8",
+      "athleteName": "塩出 翔太",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "1:00:55; 2026-10-18; 東京レガシーハーフマラソン2026",
+          "sourceUrl": "https://worldathletics.org/athletes/japan/shota-shiode-14895660",
+          "locator": "Personal Bests → Half Marathon; competition Tokyo Legacy Half Marathon 2026; date 18 OCT 2026"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "塩出翔太 東京レガシー 1:00:55",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/shota-shiode-14895660",
+              "section": "Personal Bests → Half Marathon",
+              "access": "read",
+              "finding": "1:00:55 / 18 OCT 2026 / Tokyo Legacy Half Marathon"
+            }
+          ],
+          "result": "WA"
+        },
+        {
+          "stage": "reverse",
+          "query": "塩出翔太 ハーフマラソン 2026",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=aoyamagakuin&player=5",
+              "section": "名鑑",
+              "access": "read",
+              "finding": "半马公認1:01:54（2025年末旧值）"
+            }
+          ],
+          "result": "确认旧值已被2026更新"
+        },
+        {
+          "stage": "verification",
+          "query": "東京レガシーハーフマラソン2026 2026-10-18",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/shota-shiode-14895660",
+              "section": "competition欄",
+              "access": "read",
+              "finding": "Tokyo Legacy Half Marathon 2026, Tokyo"
+            }
+          ],
+          "result": "赛事与日期确认"
+        }
+      ],
+      "final": {
+        "value": "1:00:55; 2026-10-18; 東京レガシーハーフマラソン2026",
+        "sourceIds": [
+          "wa-shota-shiode"
+        ],
+        "locator": "Personal Bests → Half Marathon; competition Tokyo Legacy Half Marathon 2026; date 18 OCT 2026",
+        "revision": "World Athletics; retrieved 2026-11-16"
+      },
+      "identityEvidence": "WA的选手为青学大塩出翔太，赛事名与国内报道一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "新于報知名鉴的1:01:54；采用1:00:55。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "athleteId": "athlete-aj24-02-7",
+      "athleteName": "篠原 倖太朗",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "2002-09-03",
+          "sourceUrl": "https://worldathletics.org/athletes/japan/kotaro-shinohara-14895798",
+          "locator": "Profile → basic data: date of birth 03 SEP 2002"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "worldathletics Kotaro Shinohara",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/kotaro-shinohara-14895798",
+              "section": "Profile basic data",
+              "access": "read",
+              "finding": "03 SEP 2002"
+            }
+          ],
+          "result": "WA"
+        },
+        {
+          "stage": "reverse",
+          "query": "篠原倖太朗 2002年",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.yomiuri.co.jp/hakone-ekiden/2025/teams/2/00089173735",
+              "section": "プロフィル",
+              "access": "read",
+              "finding": "学年4年・年齢22歳・登録陸協 千葉・出身校 富里"
+            }
+          ],
+          "result": "年龄/学校佐证"
+        },
+        {
+          "stage": "verification",
+          "query": "篠原倖太朗 駒澤大",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.yomiuri.co.jp/hakone-ekiden/2025/teams/2/00089173735",
+              "section": "プロフィル",
+              "access": "read",
+              "finding": "駒澤大学"
+            }
+          ],
+          "result": "一致"
+        }
+      ],
+      "final": {
+        "value": "2002-09-03",
+        "sourceIds": [
+          "wa-kotaro-shinohara"
+        ],
+        "locator": "Profile → basic data: date of birth 03 SEP 2002",
+        "revision": "World Athletics; retrieved 2026-11-16"
+      },
+      "identityEvidence": "WA与读卖档案一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "固定资料。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "athleteId": "athlete-aj24-02-7",
+      "athleteName": "篠原 倖太朗",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "富里高（千葉県）",
+          "sourceUrl": "https://www.yomiuri.co.jp/hakone-ekiden/2025/teams/2/00089173735",
+          "locator": "プロフィル: 登録陸協 千葉・出身校 富里"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "篠原倖太朗 出身校",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.yomiuri.co.jp/hakone-ekiden/2025/teams/2/00089173735",
+              "section": "プロフィル 出身校",
+              "access": "read",
+              "finding": "登録陸協 千葉・出身校 富里"
+            }
+          ],
+          "result": "读卖档案"
+        },
+        {
+          "stage": "reverse",
+          "query": "篠原倖太朗 富里 高校",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.chiba-tv.com/info/detail/115516",
+              "section": "地元・千葉の記事",
+              "access": "read",
+              "finding": "千葉県山武市出身"
+            }
+          ],
+          "result": "地元千葉与出身校富里一致"
+        },
+        {
+          "stage": "verification",
+          "query": "篠原倖太朗 駒澤大学 主将",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.yomiuri.co.jp/hakone-ekiden/2025/teams/2/00089173735",
+              "section": "プロフィル",
+              "access": "read",
+              "finding": "駒澤大学 4年"
+            }
+          ],
+          "result": "一致"
+        }
+      ],
+      "final": {
+        "value": "富里高（千葉県）",
+        "sourceIds": [
+          "yomiuri-shinohara"
+        ],
+        "locator": "プロフィル: 出身校 富里",
+        "revision": "retrieved 2026-11-16"
+      },
+      "identityEvidence": "读卖档案的登録陸協（千葉）与地元报道一致；单一学校来源，待复核。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "读卖档案 + 地元报道，学校字段待独立复核。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "athleteId": "athlete-aj24-02-7",
+      "athleteName": "篠原 倖太朗",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "13:15.70; 2024-09-28; アスレチックスチャレンジカップ新潟",
+          "sourceUrl": "https://www.rikujyokyogi.co.jp/archives/147618",
+          "locator": "記事本文「篠原倖太朗が13分15秒70」"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "篠原倖太朗 13分15秒70",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.rikujyokyogi.co.jp/archives/147618",
+              "section": "ACC新潟",
+              "access": "read",
+              "finding": "13分15秒70 屋外日本人学生最高"
+            }
+          ],
+          "result": "媒体给出赛事与成绩"
+        },
+        {
+          "stage": "reverse",
+          "query": "篠原倖太朗 13:15.70 新潟",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/kotaro-shinohara-14895798",
+              "section": "Personal Bests → 5000 Metres",
+              "access": "read",
+              "finding": "13:15.70 / 28 SEP 2024 / Denka Big Swan Stadium"
+            }
+          ],
+          "result": "WA日期场地一致"
+        },
+        {
+          "stage": "verification",
+          "query": "アスレチックスチャレンジカップ 2024 新潟",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.rikujyokyogi.co.jp/archives/147618",
+              "section": "大会名",
+              "access": "read",
+              "finding": "ACC新潟"
+            }
+          ],
+          "result": "赛事确认"
+        }
+      ],
+      "final": {
+        "value": "13:15.70; 2024-09-28; アスレチックスチャレンジカップ新潟",
+        "sourceIds": [
+          "getsuriku-shinohara-acc-5000-2024"
+        ],
+        "locator": "記事本文「篠原倖太朗が13分15秒70」",
+        "revision": "月陸Online 2024-09-28; retrieved 2026-11-16"
+      },
+      "identityEvidence": "报道与WA同人。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "WA PB同值；未见更快。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "athleteId": "athlete-aj24-02-7",
+      "athleteName": "篠原 倖太朗",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "27:35.05; 2024-05-03; 第108回日本陸上競技選手権大会・10000m",
+          "sourceUrl": "https://www.kraftia.co.jp/marathon/result/2024/0503_004143.html",
+          "locator": "男子10000m 6位 篠原倖太朗 駒澤大 27分35秒05"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "篠原倖太朗 27分35秒05",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kraftia.co.jp/marathon/result/2024/0503_004143.html",
+              "section": "第108回日本選手権10000m 結果",
+              "access": "read",
+              "finding": "6位 篠原倖太朗 駒澤大 27分35秒05; 期日2024年5月3日/袋井エコパ"
+            }
+          ],
+          "result": "正式结果"
+        },
+        {
+          "stage": "reverse",
+          "query": "篠原倖太朗 27:35.05 袋井",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/kotaro-shinohara-14895798",
+              "section": "Personal Bests → 10,000 Metres",
+              "access": "read",
+              "finding": "27:35.05 / 03 MAY 2024 / Fukuroi"
+            }
+          ],
+          "result": "WA一致"
+        },
+        {
+          "stage": "verification",
+          "query": "第108回日本陸上競技選手権 10000m 2024",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kraftia.co.jp/marathon/result/2024/0503_004143.html",
+              "section": "大会名・期日",
+              "access": "read",
+              "finding": "2024年5月3日 静岡県袋井市"
+            }
+          ],
+          "result": "赛事确认"
+        }
+      ],
+      "final": {
+        "value": "27:35.05; 2024-05-03; 第108回日本陸上競技選手権大会・10000m",
+        "sourceIds": [
+          "kraftia-108th-10000m-2024"
+        ],
+        "locator": "男子10000m 6位 篠原倖太朗 駒澤大 27分35秒05",
+        "revision": "retrieved 2026-11-16"
+      },
+      "identityEvidence": "正式结果页与WA一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "正式结果与WA同值；未见更快。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "athleteId": "athlete-aj24-02-7",
+      "athleteName": "篠原 倖太朗",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "59:30; 2025-02-02; 第76回香川丸亀国際ハーフマラソン",
+          "sourceUrl": "https://newsdig.tbs.co.jp/articles/-/2259994",
+          "locator": "本文「今年2月の丸亀国際ハーフマラソンでは59分30秒の学生新で4位」"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "篠原倖太朗 59分30秒",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://newsdig.tbs.co.jp/articles/-/2259994",
+              "section": "インタビュー記事",
+              "access": "read",
+              "finding": "今年2月の丸亀国際ハーフマラソンでは59分30秒の学生新で4位"
+            }
+          ],
+          "result": "媒体给出赛事与成绩"
+        },
+        {
+          "stage": "reverse",
+          "query": "篠原倖太朗 丸亀 59:30",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/kotaro-shinohara-14895798",
+              "section": "Personal Bests → Half Marathon",
+              "access": "read",
+              "finding": "59:30 / 02 FEB 2025 / Marugame"
+            }
+          ],
+          "result": "WA日期场地一致"
+        },
+        {
+          "stage": "verification",
+          "query": "第76回香川丸亀国際ハーフマラソン 2025-02-02",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/kotaro-shinohara-14895798",
+              "section": "competition/date",
+              "access": "read",
+              "finding": "02 FEB 2025, Marugame"
+            }
+          ],
+          "result": "赛事确认"
+        }
+      ],
+      "final": {
+        "value": "59:30; 2025-02-02; 第76回香川丸亀国際ハーフマラソン",
+        "sourceIds": [
+          "tbs-shinohara-marugame-2025"
+        ],
+        "locator": "本文「今年2月の丸亀国際ハーフマラソンでは59分30秒の学生新で4位」",
+        "revision": "TBS NEWS DIG 2025-10-31; retrieved 2026-11-16"
+      },
+      "identityEvidence": "报道与WA同人同成绩。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "WA PB=59:30(2025-02-02)；未见更新更快半马。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    }
+  ]
+}

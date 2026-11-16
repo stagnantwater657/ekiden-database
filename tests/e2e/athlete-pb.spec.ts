@@ -74,3 +74,17 @@ test("batch-2 round 1 renders sourced marks and leaves unresolved events as 尚�
   await page.goto("/athletes/athlete-aj24-01-5");
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 });
+
+test("round-2 athletes render sourced marks and the missing state where unverified", async ({ page }) => {
+  await page.goto("/athletes/athlete-aj24-08-6");
+  const kusuoka = page.locator("section").filter({ has: page.getByRole("heading", { name: /个人最佳/ }) });
+  await expect(kusuoka).toContainText("13:26.92");
+  await expect(kusuoka).toContainText("27:52.09");
+  await expect(kusuoka).toContainText("1:01:43");
+  await page.goto("/athletes/athlete-aj24-01-2");
+  const aoki = page.locator("section").filter({ has: page.getByRole("heading", { name: /个人最佳/ }) });
+  await expect(aoki).toContainText("1:00:45");
+  const aokiFive = aoki.getByRole("heading", { name: "5000m", exact: true }).locator("..");
+  await expect(aokiFive).toContainText("尚未收录");
+  await expect(aokiFive).not.toContainText("暂无正式成绩");
+});

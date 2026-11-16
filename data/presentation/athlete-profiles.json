@@ -477,6 +477,206 @@
         "locator": "プロフィール: 2003年10月22日生まれ",
         "revision": "retrieved 2026-11-16"
       }
+    },
+    {
+      "athleteId": "athlete-aj24-01-2",
+      "reviewedAt": "2026-11-16",
+      "personalBests": [
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3645000,
+          "precision": "second",
+          "achievedOn": "2025-11-16",
+          "meet": "第38回上尾シティハーフマラソン（上尾）",
+          "sourceId": "getsuriku-aoki-ageo-half-2025",
+          "locator": "記事本文「青木瑠郁（國學院大）が1時間0分45秒」",
+          "revision": "2025.11.16 配信; retrieved 2026-11-16"
+        }
+      ],
+      "birthDate": {
+        "value": "2004-03-31",
+        "sourceId": "hakone-2025-entry-list",
+        "locator": "p.3 3.國學院大學 青木瑠郁 生年月日 2004/3/31",
+        "revision": "retrieved 2026-11-16"
+      },
+      "highSchool": {
+        "value": "健大高崎高（群馬県）",
+        "sourceId": "hakone-2025-entry-list",
+        "locator": "p.3 出身校 健大高崎",
+        "revision": "retrieved 2026-11-16"
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-12-7",
+      "reviewedAt": "2026-11-16",
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 802010,
+          "precision": "centisecond",
+          "achievedOn": "2023-09-30",
+          "meet": "アスレチックスチャレンジカップ新潟（デンカビッグスワンスタジアム）",
+          "sourceId": "getsuriku-yoshii-niigata-5000-2023",
+          "locator": "記事本文「13分22秒01」",
+          "revision": "2023.10.01 配信; retrieved 2026-11-16"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1664480,
+          "precision": "centisecond",
+          "achievedOn": "2024-11-23",
+          "meet": "MARCH対抗戦2024（町田GIONスタジアム）",
+          "sourceId": "getsuriku-yoshii-march-10000-2024",
+          "locator": "記事本文「中大・吉居駿恭（3年）は27分44秒48」",
+          "revision": "2024.11.23 配信; retrieved 2026-11-16"
+        }
+      ],
+      "birthDate": {
+        "value": "2003-04-08",
+        "sourceId": "wa-shunsuke-yoshii",
+        "locator": "Profile → basic data: date of birth 08 APR 2003",
+        "revision": "World Athletics profile retrieved 2026-11-16"
+      },
+      "highSchool": {
+        "value": "仙台育英高（宮城県）",
+        "sourceId": "hochi-yoshii",
+        "locator": "選手名鑑: 出身校 仙台育英",
+        "revision": "retrieved 2026-11-16"
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-08-6",
+      "reviewedAt": "2026-11-16",
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 806920,
+          "precision": "centisecond",
+          "achievedOn": "2026-06-12",
+          "meet": "第110回日本陸上競技選手権大会（名古屋・瑞穂公園陸上競技場）",
+          "sourceId": "wa-yoshihiro-kusuoka",
+          "locator": "Profile → Personal Bests → 5000 Metres; competition Japanese Championships; date 12 JUN 2026",
+          "revision": "World Athletics profile retrieved 2026-11-16"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1672090,
+          "precision": "centisecond",
+          "achievedOn": "2025-11-15",
+          "meet": "第324回日体大長距離競技会兼第18回NCG（日体大健志台）",
+          "sourceId": "getsuriku-kusuoka-nittaidai-10000-2025",
+          "locator": "記事本文「楠岡由浩（帝京大）が27分52秒09」",
+          "revision": "2025.11.15 配信; retrieved 2026-11-16"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3703000,
+          "precision": "second",
+          "achievedOn": "2025-02-02",
+          "meet": "第76回香川丸亀国際ハーフマラソン（丸亀）",
+          "sourceId": "hochi-kusuoka",
+          "locator": "選手名鑑 ハーフマラソン公認記録 1時間01分43秒（WA PB同日）",
+          "revision": "retrieved 2026-11-16"
+        }
+      ],
+      "birthDate": {
+        "value": "2004-04-16",
+        "sourceId": "wa-yoshihiro-kusuoka",
+        "locator": "Profile → basic data: date of birth 16 APR 2004",
+        "revision": "World Athletics profile retrieved 2026-11-16"
+      },
+      "highSchool": {
+        "value": "慶誠高（熊本県）",
+        "sourceId": "hochi-kusuoka",
+        "locator": "選手名鑑: 出身校 慶誠",
+        "revision": "retrieved 2026-11-16"
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-03-8",
+      "reviewedAt": "2026-11-16",
+      "personalBests": [
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1735810,
+          "precision": "centisecond",
+          "achievedOn": "2025-06-14",
+          "meet": "第322回日本体育大学長距離競技会兼第16回NCG（日体大健志台）",
+          "sourceId": "getsuriku-shiode-nittaidai-10000-2025",
+          "locator": "記事本文「塩出翔太（青学大）が28分55秒81の自己新」",
+          "revision": "2025.06.15 配信; retrieved 2026-11-16"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3655000,
+          "precision": "second",
+          "achievedOn": "2026-10-18",
+          "meet": "東京レガシーハーフマラソン2026（国立競技場発着）",
+          "sourceId": "wa-shota-shiode",
+          "locator": "Profile → Personal Bests → Half Marathon; competition Tokyo Legacy Half Marathon 2026; date 18 OCT 2026",
+          "revision": "World Athletics profile retrieved 2026-11-16"
+        }
+      ],
+      "birthDate": {
+        "value": "2003-09-11",
+        "sourceId": "wa-shota-shiode",
+        "locator": "Profile → basic data: date of birth 11 SEP 2003",
+        "revision": "World Athletics profile retrieved 2026-11-16"
+      },
+      "highSchool": {
+        "value": "世羅高（広島県）",
+        "sourceId": "hochi-shiode",
+        "locator": "選手名鑑: 出身校 世羅",
+        "revision": "retrieved 2026-11-16"
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-02-7",
+      "reviewedAt": "2026-11-16",
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 795700,
+          "precision": "centisecond",
+          "achievedOn": "2024-09-28",
+          "meet": "アスレチックスチャレンジカップ新潟（デンカビッグスワンスタジアム）",
+          "sourceId": "getsuriku-shinohara-acc-5000-2024",
+          "locator": "記事本文「篠原倖太朗が13分15秒70」",
+          "revision": "2024.09.28 配信; retrieved 2026-11-16"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1655050,
+          "precision": "centisecond",
+          "achievedOn": "2024-05-03",
+          "meet": "第108回日本陸上競技選手権大会・10000m（静岡・袋井エコパスタジアム）",
+          "sourceId": "kraftia-108th-10000m-2024",
+          "locator": "男子10000m 6位 篠原倖太朗 駒澤大 27分35秒05",
+          "revision": "retrieved 2026-11-16"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3570000,
+          "precision": "second",
+          "achievedOn": "2025-02-02",
+          "meet": "第76回香川丸亀国際ハーフマラソン（丸亀）",
+          "sourceId": "tbs-shinohara-marugame-2025",
+          "locator": "本文「今年2月の丸亀国際ハーフマラソンでは59分30秒の学生新で4位」",
+          "revision": "2025.10.31 配信; retrieved 2026-11-16"
+        }
+      ],
+      "birthDate": {
+        "value": "2002-09-03",
+        "sourceId": "wa-kotaro-shinohara",
+        "locator": "Profile → basic data: date of birth 03 SEP 2002",
+        "revision": "World Athletics profile retrieved 2026-11-16"
+      },
+      "highSchool": {
+        "value": "富里高（千葉県）",
+        "sourceId": "yomiuri-shinohara",
+        "locator": "プロフィル: 登録陸協 千葉・出身校 富里",
+        "revision": "retrieved 2026-11-16"
+      }
     }
   ]
 }

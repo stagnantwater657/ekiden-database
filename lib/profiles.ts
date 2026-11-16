@@ -1,4 +1,9 @@
 import { allSources } from "./presentation.ts";
+import {
+  athleteSupplementFor,
+  athleteSupplementSourceIds,
+  type AthleteProfileSupplement,
+} from "./athlete-facts.ts";
 import type {
   Athlete,
   Database,
@@ -73,6 +78,7 @@ export function representedUniversityId(row: ResultRow): string | null {
 
 export interface AthleteArchive {
   athlete: Athlete;
+  supplement: AthleteProfileSupplement | null;
   groups: { race: Race; rows: ResultRow[] }[];
   universities: { university: University; years: number[]; starts: number }[];
   starts: number;
@@ -88,6 +94,7 @@ export function athleteArchive(
 ): AthleteArchive | null {
   const athlete = db.athletes.find((item) => item.id === athleteId);
   if (!athlete) return null;
+  const supplement = athleteSupplementFor(athleteId);
   const rows = historyRows(db).filter((row) => row.athleteId === athleteId);
   const universities = db.universities
     .flatMap((university) => {
@@ -118,6 +125,7 @@ export function athleteArchive(
   });
   return {
     athlete,
+    supplement,
     groups: races.map((race) => ({
       race,
       rows: rows.filter((row) => row.race.id === race.id),
@@ -134,7 +142,11 @@ export function athleteArchive(
       (identity) =>
         identity.athleteId === athleteId && identity.status === "needs-review",
     ),
-    sources: sourceReferences(db, [athlete.sourceId, ...rowSourceIds(rows)]),
+    sources: sourceReferences(db, [
+      athlete.sourceId,
+      ...rowSourceIds(rows),
+      ...athleteSupplementSourceIds(supplement),
+    ]),
   };
 }
 

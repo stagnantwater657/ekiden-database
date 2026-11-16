@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "profiles": [
+    {
+      "athleteId": "athlete-aj25-02-7",
+      "reviewedAt": "2026-11-16",
+      "birthDate": {
+        "value": "2004-01-22",
+        "sourceId": "wa-keita-sato",
+        "locator": "Profile → basic data: date of birth 22 JAN 2004",
+        "revision": "World Athletics profile retrieved 2026-11-16"
+      },
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 789450,
+          "precision": "centisecond",
+          "achievedOn": "2024-01-26",
+          "meet": "ジョン・トーマス・テリア・クラシック（ボストン大学・200mトラック）",
+          "sourceId": "getsuriku-sato-boston-5000-2024",
+          "locator": "記事本文「13分09秒45をマーク…1周200mで行われるショートトラックでの日本最高記録」",
+          "revision": "2024.01.27 配信; retrieved 2026-11-16",
+          "indoor": true
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1648500,
+          "precision": "centisecond",
+          "achievedOn": "2023-11-25",
+          "meet": "2023八王子ロングディスタンス（上柚木公園陸上競技場）",
+          "sourceId": "getsuriku-sato-hachioji-10000-2023",
+          "locator": "記事タイトル「19歳佐藤圭汰が衝撃の27分28秒50！初1万mでU20日本新」",
+          "revision": "2023.11.25 配信; retrieved 2026-11-16"
+        }
+      ],
+      "highSchool": {
+        "value": "洛南高（京都府）",
+        "sourceId": "joqr-102-hakone-highschools",
+        "locator": "「◆ 洛南 11人」佐藤圭汰 駒澤大学4年",
+        "revision": "2025.12.10 配信; retrieved 2026-11-16"
+      },
+      "absentEvents": [
+        {
+          "event": "half-marathon",
+          "note": "经项目负责人确认，本人没有正式半马成绩；字段保持空值，不作缺失缺口。"
+        }
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-03-4",
+      "reviewedAt": "2026-11-16",
+      "birthDate": {
+        "value": "2004-03-10",
+        "sourceId": "wa-asahi-kuroda",
+        "locator": "Profile → basic data: date of birth 10 MAR 2004",
+        "revision": "World Athletics profile retrieved 2026-11-16"
+      },
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 809560,
+          "precision": "centisecond",
+          "achievedOn": "2024-06-02",
+          "meet": "第314回日体大長距離競技会（日体大健志台競技場・5000m NCG1組）",
+          "sourceId": "getsuriku-kuroda-nittaidai-5000-2024",
+          "locator": "記事本文「黒田朝日（青学大3）が13分29秒56とこちらも自己新」",
+          "revision": "2024.06.03 配信; retrieved 2026-11-16"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1657620,
+          "precision": "centisecond",
+          "achievedOn": "2025-11-22",
+          "meet": "MARCH対抗戦2025（東京・町田GIONスタジアム）",
+          "sourceId": "getsuriku-kuroda-march-10000-2025",
+          "locator": "記事本文「黒田朝日（青学大）が27分37秒62で全体トップ」",
+          "revision": "2025.11.22 配信; retrieved 2026-11-16"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3699000,
+          "precision": "second",
+          "achievedOn": "2024-02-04",
+          "meet": "第76回香川丸亀国際ハーフマラソン（丸亀）",
+          "sourceId": "wa-asahi-kuroda",
+          "locator": "Profile → Personal Bests → Half Marathon; competition 76th Kagawa Marugame International Half Marathon; date 04 FEB 2024",
+          "revision": "World Athletics profile retrieved 2026-11-16"
+        }
+      ],
+      "highSchool": {
+        "value": "玉野光南高（岡山県）",
+        "sourceId": "tbs-kuroda-highschool",
+        "locator": "本文「黒田朝日選手の母校・玉野光南高校です」",
+        "revision": "2026.04.04 配信; retrieved 2026-11-16"
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-02-3",
+      "reviewedAt": "2026-11-16",
+      "birthDate": {
+        "value": "2004-01-12",
+        "sourceId": "wa-aoi-ito",
+        "locator": "Profile → basic data: date of birth 12 JAN 2004",
+        "revision": "World Athletics profile retrieved 2026-11-16"
+      },
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 812880,
+          "precision": "centisecond",
+          "achievedOn": "2025-05-04",
+          "meet": "ゴールデンゲームズinのべおか（延岡市西階陸上競技場）",
+          "sourceId": "iza-ito-ggn-5000-2025",
+          "locator": "記事本文「伊藤蒼唯（4年）は13分32秒88で4位。いずれも自己ベストを更新」",
+          "revision": "2025/5/4 20:34 配信; retrieved 2026-11-16"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1676850,
+          "precision": "centisecond",
+          "achievedOn": "2026-10-24",
+          "meet": "第252回東海大学長距離競技会（東海大学湘南校舎陸上競技場・平塚）",
+          "sourceId": "wa-aoi-ito",
+          "locator": "Profile → Personal Bests → 10,000 Metres; competition 252nd Tokai University Long Distance Competition; date 24 OCT 2026",
+          "revision": "World Athletics profile retrieved 2026-11-16"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3676000,
+          "precision": "second",
+          "achievedOn": "2024-02-04",
+          "meet": "第76回香川丸亀国際ハーフマラソン（丸亀）",
+          "sourceId": "wa-aoi-ito",
+          "locator": "Profile → Personal Bests → Half Marathon; competition 76th Kagawa Marugame International Half Marathon; date 04 FEB 2024",
+          "revision": "World Athletics profile retrieved 2026-11-16"
+        }
+      ],
+      "highSchool": {
+        "value": "出雲工業高（島根県）",
+        "sourceId": "izumo-tech-izuko-topics-134",
+        "locator": "「電気科卒業生（R3）陸上競技部 駒澤大学 伊藤蒼唯さん」",
+        "revision": "2024-10-29 発行; retrieved 2026-11-16"
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-05-2",
+      "reviewedAt": "2026-11-16",
+      "birthDate": {
+        "value": "2003-04-13",
+        "sourceId": "wa-tomonori-yamaguchi",
+        "locator": "Profile → basic data: date of birth 13 APR 2003",
+        "revision": "World Athletics profile retrieved 2026-11-16"
+      },
+      "highSchool": {
+        "value": "学法石川高（福島県）",
+        "sourceId": "getsuriku-yamaguchi-profile",
+        "locator": "選手名鑑「銚子二中（千葉）→学法石川高（福島）→早大」",
+        "revision": "2026.06.18 更新; retrieved 2026-11-16"
+      },
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 796380,
+          "precision": "centisecond",
+          "achievedOn": "2026-04-11",
+          "meet": "第34回金栗記念選抜陸上中長距離大会（熊本・えがお健康スタジアム）",
+          "sourceId": "getsuriku-yamaguchi-kumamoto-5000-2026",
+          "locator": "記事本文「13分16秒38の自己新をマークした山口智規（SGホールディングス）」",
+          "revision": "2026.04.11 配信; retrieved 2026-11-16"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1672370,
+          "precision": "centisecond",
+          "achievedOn": "2024-11-09",
+          "meet": "日体大長距離競技会兼NITTAIDAI Challenge Games（日体大健志台競技場）",
+          "sourceId": "getsuriku-yamaguchi-ncg-10000-2024",
+          "locator": "記事本文「NCG男子10000mでは山口智規（早大3）が27分52秒37をマークした」",
+          "revision": "2024.11.10 配信; retrieved 2026-11-16"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3676000,
+          "precision": "second",
+          "achievedOn": "2023-11-19",
+          "meet": "第36回2023上尾シティハーフマラソン（上尾）",
+          "sourceId": "getsuriku-yamaguchi-ageo-half-2023",
+          "locator": "記事本文「3位には1時間1分16秒で山口智規（早大2）が入った」",
+          "revision": "2023.11.19 配信; retrieved 2026-11-16"
+        }
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-12-1",
+      "reviewedAt": "2026-11-16",
+      "birthDate": {
+        "value": "2003-09-23",
+        "sourceId": "wa-itta-tameike",
+        "locator": "Profile → basic data: date of birth 23 SEP 2003",
+        "revision": "World Athletics profile retrieved 2026-11-16"
+      },
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 799240,
+          "precision": "centisecond",
+          "achievedOn": "2026-05-23",
+          "meet": "LA Track Festival（Drake Stadium, Los Angeles）",
+          "sourceId": "wa-itta-tameike",
+          "locator": "Profile → Personal Bests → 5000 Metres; competition LA Track Festival; date 23 MAY 2026",
+          "revision": "World Athletics profile retrieved 2026-11-16"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1672380,
+          "precision": "centisecond",
+          "achievedOn": "2024-07-10",
+          "meet": "ホクレン・ディスタンスチャレンジ網走大会（網走市営陸上競技場）",
+          "sourceId": "hochi-tameike-abashiri-10000-2024",
+          "locator": "記事本文「中大の溜池一太（3年）は27分52秒38で走破」",
+          "revision": "2024年7月10日 20:46 配信; retrieved 2026-11-16"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3613000,
+          "precision": "second",
+          "achievedOn": "2026-10-18",
+          "meet": "東京レガシーハーフマラソン2026（国立競技場発着）",
+          "sourceId": "joc-tameike-tokyo-legacy-half-2026",
+          "locator": "記事本文「溜池一太（SGホールディングス）が1時間0分13秒で日本勢トップの5位」",
+          "revision": "2026.10.18 配信; retrieved 2026-11-16"
+        }
+      ],
+      "highSchool": {
+        "value": "洛南高（京都府）",
+        "sourceId": "joqr-102-hakone-highschools",
+        "locator": "「◆ 洛南 11人」溜池一太 中央大学4年",
+        "revision": "2025.12.10 配信; retrieved 2026-11-16"
+      }
+    }
+  ]
+}

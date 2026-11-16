@@ -237,6 +237,180 @@
         "locator": "「◆ 洛南 11人」溜池一太 中央大学4年",
         "revision": "2025.12.10 配信; retrieved 2026-11-16"
       }
+    },
+    {
+      "athleteId": "athlete-aj24-05-8",
+      "reviewedAt": "2026-11-16",
+      "birthDate": {
+        "value": "2004-11-10",
+        "sourceId": "waseda-kudo-profile",
+        "locator": "選手紹介: 生年月日 2004/11/10",
+        "revision": "retrieved 2026-11-16"
+      },
+      "highSchool": {
+        "value": "八千代松陰高（千葉県）",
+        "sourceId": "waseda-kudo-profile",
+        "locator": "選手紹介: 出身校 八千代松陰高校",
+        "revision": "retrieved 2026-11-16"
+      },
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 818670,
+          "precision": "centisecond",
+          "achievedOn": "2026-05-24",
+          "meet": "第105回関東学生対校選手権（宇都宮・関石スタジアム）",
+          "sourceId": "wa-shinsaku-kudo",
+          "locator": "Profile → Personal Bests → 5000 Metres; competition The 105th Kanto Inter-University Track & Field Championships; date 24 MAY 2026",
+          "revision": "World Athletics profile retrieved 2026-11-16"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3606000,
+          "precision": "second",
+          "achievedOn": "2025-02-02",
+          "meet": "第76回香川丸亀国際ハーフマラソン（丸亀）",
+          "sourceId": "wa-shinsaku-kudo",
+          "locator": "Profile → Personal Bests → Half Marathon; venue Marugame; date 02 FEB 2025",
+          "revision": "World Athletics profile retrieved 2026-11-16"
+        }
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-02-8",
+      "reviewedAt": "2026-11-16",
+      "birthDate": {
+        "value": "2003-07-30",
+        "sourceId": "wa-takuma-yamakawa",
+        "locator": "Profile → basic data: date of birth 30 JUL 2003",
+        "revision": "World Athletics profile retrieved 2026-11-16"
+      },
+      "highSchool": {
+        "value": "上伊那農高（長野県）",
+        "sourceId": "hochi-yamakawa",
+        "locator": "選手名鑑: 出身校 上伊那農",
+        "revision": "retrieved 2026-11-16"
+      },
+      "personalBests": [
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1716980,
+          "precision": "centisecond",
+          "achievedOn": "2024-07-14",
+          "meet": "ホクレン・ディスタンスチャレンジ網走大会（網走市営陸上競技場）",
+          "sourceId": "wa-takuma-yamakawa",
+          "locator": "Profile → Personal Bests → 10,000 Metres; venue Athletic Track, Abashiri; date 14 JUL 2024",
+          "revision": "World Athletics profile retrieved 2026-11-16"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3685000,
+          "precision": "second",
+          "achievedOn": "2025-06-29",
+          "meet": "2025函館マラソン（ハーフ・函館）",
+          "sourceId": "komazawa-hakodate-half-2025",
+          "locator": "試合結果: ハーフ 3位 山川拓馬(4) 1時間01分25秒 ※PB!",
+          "revision": "2025.06.29; retrieved 2026-11-16"
+        }
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-01-5",
+      "reviewedAt": "2026-11-16",
+      "birthDate": {
+        "value": "2005-02-16",
+        "sourceId": "wa-hiromichi-nonaka",
+        "locator": "Profile → basic data: date of birth 16 FEB 2005",
+        "revision": "World Athletics profile retrieved 2026-11-16"
+      },
+      "highSchool": {
+        "value": "浜松工高（静岡県）",
+        "sourceId": "hochi-nonaka",
+        "locator": "選手名鑑: 出身校 浜松工",
+        "revision": "retrieved 2026-11-16"
+      },
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 808470,
+          "precision": "centisecond",
+          "achievedOn": "2026-05-04",
+          "meet": "第37回ゴールデンゲームズinのべおか（延岡市西階陸上競技場）",
+          "sourceId": "wa-hiromichi-nonaka",
+          "locator": "Profile → Personal Bests → 5000 Metres; competition 37th Golden Games in Nobeoka; date 04 MAY 2026",
+          "revision": "World Athletics profile retrieved 2026-11-16"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1656640,
+          "precision": "centisecond",
+          "achievedOn": "2025-11-22",
+          "meet": "2025八王子ロングディスタンス（上柚木公園陸上競技場）",
+          "sourceId": "getsuriku-nonaka-hachioji-10000-2025",
+          "locator": "記事本文「野中恒亨（國學院大）が…27分36秒64をマーク」",
+          "revision": "2025.11.22 配信; retrieved 2026-11-16"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3651000,
+          "precision": "second",
+          "achievedOn": "2026-02-01",
+          "meet": "第78回香川丸亀国際ハーフマラソン（丸亀）",
+          "sourceId": "wa-hiromichi-nonaka",
+          "locator": "Profile → Personal Bests → Half Marathon; competition 78th Kagawa Marugame International Half Marathon; date 01 FEB 2026",
+          "revision": "World Athletics profile retrieved 2026-11-16"
+        }
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-06-3",
+      "reviewedAt": "2026-11-16",
+      "birthDate": {
+        "value": "2000-10-20",
+        "sourceId": "wa-victor-kimutai",
+        "locator": "Profile → basic data: date of birth 20 OCT 2000",
+        "revision": "World Athletics profile retrieved 2026-11-16"
+      },
+      "highSchool": {
+        "value": "マウ（ケニア）",
+        "sourceId": "hochi-kimutai",
+        "locator": "選手名鑑: 出身校 マウ(ケニア)",
+        "revision": "retrieved 2026-11-16"
+      },
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 789380,
+          "precision": "centisecond",
+          "achievedOn": "2026-07-04",
+          "meet": "ホクレン・ディスタンスチャレンジ千歳大会（青葉公園陸上競技場）",
+          "sourceId": "wa-victor-kimutai",
+          "locator": "Profile → Personal Bests → 5000 Metres; competition HOKUREN Distance Challenge in Chitose; date 04 JUL 2026",
+          "revision": "World Athletics profile retrieved 2026-11-16"
+        }
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-06-4",
+      "reviewedAt": "2026-11-16",
+      "highSchool": {
+        "value": "敦賀気比高（福井県）",
+        "sourceId": "hochi-saito",
+        "locator": "選手名鑑: 出身校 敦賀気比",
+        "revision": "retrieved 2026-11-16"
+      },
+      "personalBests": [
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1665120,
+          "precision": "centisecond",
+          "achievedOn": "2024-11-23",
+          "meet": "2024八王子ロングディスタンス（上柚木公園陸上競技場）",
+          "sourceId": "ntv-saito-hachioji-10000-2024",
+          "locator": "記事本文「27分45秒12の自己ベストをマーク」",
+          "revision": "2024.11.23 公開; retrieved 2026-11-16"
+        }
+      ]
     }
   ]
 }

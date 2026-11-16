@@ -58,8 +58,15 @@ test("athlete archive retains verified cross-year identities and separates missi
   const pb = page.getByRole("region", { name: /个人最佳/ });
   for (const event of ["5000m", "10000m", "半程马拉松"])
     await expect(pb).toContainText(event);
-  await expect(pb).toContainText("尚未收录");
-  await expect(pb).not.toContainText(/\d+:\d{2}/);
+  await expect(pb).toContainText("13:28.47");
+  await expect(pb).toContainText("27:36.64");
+  await expect(pb).toContainText("1:00:51");
+  // A runner without a reviewed supplement still shows the unfound state.
+  await page.goto("/athletes/athlete-aj24-01-2");
+  const emptyPb = page.getByRole("region", { name: /个人最佳/ });
+  await expect(emptyPb).toContainText("尚未收录");
+  await expect(emptyPb).not.toContainText(/\d+:\d{2}/);
+  await page.goBack();
   await page
     .locator(
       'tr[data-result-id="aj25-result-01-3"] a[href="/editions/all-japan-2025?section=3"]',

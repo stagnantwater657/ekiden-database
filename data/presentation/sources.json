@@ -1063,5 +1063,185 @@
       "basis": "Site policy protects articles, photographs and layout and prohibits unauthorised republication. Only independently structured objective facts are recorded; no article text, image or layout is republished. No written permission is claimed.",
       "permissionReference": null
     }
+  },
+  {
+    "id": "sei-aoki-profile",
+    "title": "住友電工 陸上競技部 選手紹介 青木 瑠郁",
+    "url": "https://sei.co.jp/trackfield/profile/aoki.html",
+    "collectedAt": "2026-11-16",
+    "locator": "ベスト記録: 3000m 8'07\"63、5000m 13'25\"62、10000m 28'02\"00、ハーフマラソン 1°00'45\"",
+    "coverage": "青木瑠郁的当前 PB 值",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://sei.co.jp/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Only objective facts (values, dates, places, editions) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "sei-2026-jaaf-result-report",
+    "title": "住友電工 陸上競技部 第110回日本陸上競技選手権大会 結果のご報告",
+    "url": "https://sei.co.jp/trackfield/news/209.html",
+    "collectedAt": "2026-11-16",
+    "locator": "「ルーキーの青木瑠郁（5000m）は終盤に先頭に立つ積極性を見せ、自己新記録で5位入賞を果たしました」",
+    "coverage": "青木 5000m 2026 日本選手権 決勝 5位・自己新",
+    "revision": "2026.6.26; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://sei.co.jp/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Only objective facts (values, dates, places, editions) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "jaaf-110-5000-prelim",
+    "title": "日本陸上競技連盟 第110回日本選手権 男子5000m 予選2組",
+    "url": "https://www.jaaf.or.jp/gallery/article/23562/",
+    "collectedAt": "2026-11-16",
+    "locator": "2026.06.12 男子5000m 予選2組: 4着 青木瑠郁（住友電工）13分27秒88 Q;「決勝は6月14日18:05～」",
+    "coverage": "青木 5000m 決勝的比赛日与出场",
+    "revision": "2026.06.12; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.jaaf.or.jp/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Only objective facts (values, dates, places, editions) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "koku-2024-setagaya-10000",
+    "title": "國學院大學 陸上競技部 第1回世田谷陸上競技会 結果",
+    "url": "https://www.kokugakuin.com/result/1734/",
+    "collectedAt": "2026-11-16",
+    "locator": "2024.04.07: 第1回世田谷陸上競技会（6日開催）男子10000m 2組 青木 瑠郁 3年 28'02\"00（自己ベスト・國學院歴代2位）",
+    "coverage": "青木 10000m 的赛事、日期与成绩",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.kokugakuin.com/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Only objective facts (values, dates, places, editions) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "koku-10000-top10",
+    "title": "國學院大學 陸上競技部 10000m 歴代10傑",
+    "url": "https://www.kokugakuin.com/top10/426/",
+    "collectedAt": "2026-11-16",
+    "locator": "4位 28'02\"00 青木 瑠郁 世田谷陸上競技会 令和6年4月6日",
+    "coverage": "青木 10000m 的历史排名与日期交叉",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.kokugakuin.com/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Only objective facts (values, dates, places, editions) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "chuo-yoshii-player",
+    "title": "中央大学 長距離ブロック 吉居 駿恭 選手成績・自己ベスト",
+    "url": "https://chuo-ldt.net/player/?p_name=22_Yoshii_Shunsuke",
+    "collectedAt": "2026-11-16",
+    "locator": "現在のPB…Half 1:03:45(在学中)…最新は2024年12月",
+    "coverage": "吉居 half PB 与更新时间",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://chuo-ldt.net/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Only objective facts (values, dates, places, editions) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "chuo-ldt-2024-12-01",
+    "title": "中央大学 長距離ブロック 2024-12-01 試合結果",
+    "url": "https://chuo-ldt.net/2024/12/01/241201result/",
+    "collectedAt": "2026-11-16",
+    "locator": "THE DISTANCE GAMES ARAKAWA in 2024-4(12/1): 8位 吉居 駿恭 (3) 1:03:45 PB",
+    "coverage": "吉居 half 的赛事、日期、名次与成绩",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://chuo-ldt.net/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Only objective facts (values, dates, places, editions) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "sportsentry-arakawa-4-2024",
+    "title": "スポーツエントリー THE DISTANCE GAMES ARAKAWA 4 in 2024",
+    "url": "https://www.sportsentry.ne.jp/event/t/97948",
+    "collectedAt": "2026-11-16",
+    "locator": "開催日 2024年12月1日(日)…ハーフマラソン…日本陸連公認レース（荒川河川敷）",
+    "coverage": "参赛项目的距离类别与日期",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.sportsentry.ne.jp/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Only objective facts (values, dates, places, editions) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "aogaku-2025-results",
+    "title": "青山学院大学陸上競技部 2025年 試合結果",
+    "url": "https://aogaku-tf.com/results-2025.html",
+    "collectedAt": "2026-11-16",
+    "locator": "9月 第16回絆記録挑戦会 09.24 町田GIONスタジアム: 5000m 6組 14 塩出 翔太 4年 13:49.56 PB",
+    "coverage": "塩出 5000m 的赛事、日期、组别与成绩",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://aogaku-tf.com/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Only objective facts (values, dates, places, editions) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "asahi-shiode-profile",
+    "title": "旭化成 陸上競技部 選手紹介 塩出 翔太",
+    "url": "https://www.asahi-kasei.com/jp/sports-event/track-field/member/shiode",
+    "collectedAt": "2026-11-16",
+    "locator": "自己記録: 5000m 13分49秒56、10000m 28分55秒81、ハーフマラソン 1時間00分55秒",
+    "coverage": "塩出当前 PB 值",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.asahi-kasei.com/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Only objective facts (values, dates, places, editions) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "jaaf-77-marugame",
+    "title": "日本陸上競技連盟 第77回香川丸亀国際ハーフマラソン",
+    "url": "https://www.jaaf.or.jp/competition/detail/1910/",
+    "collectedAt": "2026-11-16",
+    "locator": "第77回香川丸亀国際ハーフマラソン／開催日 2025年2月2日（日）／会場 香川・丸亀",
+    "coverage": "2025-02-02 丸亀半马的正式届数",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.jaaf.or.jp/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Only objective facts (values, dates, places, editions) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "runnet-77-marugame-shinohara",
+    "title": "RUNNET 第77回香川丸亀国際ハーフマラソン 個人記録 ナンバー74",
+    "url": "https://runnet.jp/record/smp/raceresultshow.do?numberCard=74&raceId=363374",
+    "collectedAt": "2026-11-16",
+    "locator": "第77回…ナンバー74 種目ハーフマラソン登録男子 20歳代／距離21.0975km／グロス0:59:30／ネット0:59:29／総合4位",
+    "coverage": "篠原 half 的届数、距离、成绩与名次",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://runnet.jp/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Only objective facts (values, dates, places, editions) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
   }
 ]

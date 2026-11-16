@@ -483,6 +483,26 @@
       "reviewedAt": "2026-11-16",
       "personalBests": [
         {
+          "event": "5000m",
+          "timeMilliseconds": 805620,
+          "precision": "centisecond",
+          "achievedOn": "2026-06-14",
+          "meet": "第110回日本陸上競技選手権大会 男子5000m 決勝（名古屋・瑞穂公園陸上競技場）",
+          "sourceId": "sei-aoki-profile",
+          "locator": "ベスト記録 5000m 13'25\"62（決勝5位・自己新は住友電工結果報告、決勝日はJAAF予選記事）",
+          "revision": "retrieved 2026-11-16"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1682000,
+          "precision": "centisecond",
+          "achievedOn": "2024-04-06",
+          "meet": "第1回世田谷陸上競技会 男子10000m 2組（世田谷）",
+          "sourceId": "koku-2024-setagaya-10000",
+          "locator": "男子10000m 2組 青木 瑠郁 3年 28'02\"00（自己ベスト・國學院歴代2位）",
+          "revision": "retrieved 2026-11-16"
+        },
+        {
           "event": "half-marathon",
           "timeMilliseconds": 3645000,
           "precision": "second",
@@ -529,6 +549,16 @@
           "sourceId": "getsuriku-yoshii-march-10000-2024",
           "locator": "記事本文「中大・吉居駿恭（3年）は27分44秒48」",
           "revision": "2024.11.23 配信; retrieved 2026-11-16"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3825000,
+          "precision": "second",
+          "achievedOn": "2024-12-01",
+          "meet": "THE DISTANCE GAMES ARAKAWA in 2024-4（荒川河川敷・ハーフマラソン）",
+          "sourceId": "chuo-ldt-2024-12-01",
+          "locator": "THE DISTANCE GAMES ARAKAWA in 2024-4(12/1) 8位 吉居 駿恭 (3) 1:03:45 PB",
+          "revision": "retrieved 2026-11-16"
         }
       ],
       "birthDate": {
@@ -573,9 +603,9 @@
           "timeMilliseconds": 3703000,
           "precision": "second",
           "achievedOn": "2025-02-02",
-          "meet": "第76回香川丸亀国際ハーフマラソン（丸亀）",
+          "meet": "第77回香川丸亀国際ハーフマラソン（丸亀）",
           "sourceId": "hochi-kusuoka",
-          "locator": "選手名鑑 ハーフマラソン公認記録 1時間01分43秒（WA PB同日）",
+          "locator": "選手名鑑 ハーフマラソン公認記録 1時間01分43秒；第77回・2025-02-02（JAAF大会ページ）",
           "revision": "retrieved 2026-11-16"
         }
       ],
@@ -596,6 +626,16 @@
       "athleteId": "athlete-aj24-03-8",
       "reviewedAt": "2026-11-16",
       "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 829560,
+          "precision": "centisecond",
+          "achievedOn": "2025-09-24",
+          "meet": "第16回絆記録挑戦会 男子5000m 6組（町田GIONスタジアム）",
+          "sourceId": "aogaku-2025-results",
+          "locator": "9月 第16回絆記録挑戦会 09.24 … 6組 14 塩出 翔太 4年 13:49.56 PB",
+          "revision": "retrieved 2026-11-16"
+        },
         {
           "event": "10000m",
           "timeMilliseconds": 1735810,
@@ -659,9 +699,9 @@
           "timeMilliseconds": 3570000,
           "precision": "second",
           "achievedOn": "2025-02-02",
-          "meet": "第76回香川丸亀国際ハーフマラソン（丸亀）",
-          "sourceId": "tbs-shinohara-marugame-2025",
-          "locator": "本文「今年2月の丸亀国際ハーフマラソンでは59分30秒の学生新で4位」",
+          "meet": "第77回香川丸亀国際ハーフマラソン（丸亀）",
+          "sourceId": "runnet-77-marugame-shinohara",
+          "locator": "第77回…ナンバー74 距離21.0975km グロス0:59:30 総合4位",
           "revision": "2025.10.31 配信; retrieved 2026-11-16"
         }
       ],

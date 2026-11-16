@@ -201,14 +201,11 @@ test("batch-2 round 2 publishes sourced facts and leaves unverified fields empty
   // 青木 瑠郁: birth/school from the official entry PDF, only the dated half is published
   assert.equal(byId.get("athlete-aj24-01-2")!.birthDate!.value, "2004-03-31");
   assert.equal(byId.get("athlete-aj24-01-2")!.highSchool!.value, "健大高崎高（群馬県）");
-  assert.deepEqual(marks("athlete-aj24-01-2"), ["1:00:45"]);
-  assert.equal(personalBestStatus(byId.get("athlete-aj24-01-2")!, "5000m"), "missing");
-  assert.equal(personalBestStatus(byId.get("athlete-aj24-01-2")!, "10000m"), "missing");
+  assert.deepEqual(marks("athlete-aj24-01-2"), ["13:25.62", "28:02.00", "1:00:45"]);
   // 吉居 駿恭
   assert.equal(byId.get("athlete-aj24-12-7")!.birthDate!.value, "2003-04-08");
   assert.equal(byId.get("athlete-aj24-12-7")!.highSchool!.value, "仙台育英高（宮城県）");
-  assert.deepEqual(marks("athlete-aj24-12-7"), ["13:22.01", "27:44.48"]);
-  assert.equal(personalBestStatus(byId.get("athlete-aj24-12-7")!, "half-marathon"), "missing");
+  assert.deepEqual(marks("athlete-aj24-12-7"), ["13:22.01", "27:44.48", "1:03:45"]);
   // 楠岡 由浩
   assert.equal(byId.get("athlete-aj24-08-6")!.birthDate!.value, "2004-04-16");
   assert.equal(byId.get("athlete-aj24-08-6")!.highSchool!.value, "慶誠高（熊本県）");
@@ -216,8 +213,7 @@ test("batch-2 round 2 publishes sourced facts and leaves unverified fields empty
   // 塩出 翔太
   assert.equal(byId.get("athlete-aj24-03-8")!.birthDate!.value, "2003-09-11");
   assert.equal(byId.get("athlete-aj24-03-8")!.highSchool!.value, "世羅高（広島県）");
-  assert.deepEqual(marks("athlete-aj24-03-8"), ["28:55.81", "1:00:55"]);
-  assert.equal(personalBestStatus(byId.get("athlete-aj24-03-8")!, "5000m"), "missing");
+  assert.deepEqual(marks("athlete-aj24-03-8"), ["13:49.56", "28:55.81", "1:00:55"]);
   // 篠原 倖太朗
   assert.equal(byId.get("athlete-aj24-02-7")!.birthDate!.value, "2002-09-03");
   assert.equal(byId.get("athlete-aj24-02-7")!.highSchool!.value, "富里高（千葉県）");

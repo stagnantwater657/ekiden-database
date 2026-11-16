@@ -50,7 +50,7 @@ test("PB cells separate a confirmed absence from an unfound record, and indoor m
   const half = section.getByRole("heading", { name: "半程马拉松", exact: true }).locator("..");
   await expect(half).toContainText("暂无正式成绩");
   await expect(half).not.toContainText("尚未收录");
-  await page.goto("/athletes/athlete-aj24-01-2");
+  await page.goto("/athletes/athlete-aj24-01-1");
   const empty = page.locator("section").filter({ has: page.getByRole("heading", { name: /个人最佳/ }) });
   const emptyFive = empty.getByRole("heading", { name: "5000m", exact: true }).locator("..");
   await expect(emptyFive).toContainText("尚未收录");
@@ -83,8 +83,12 @@ test("round-2 athletes render sourced marks and the missing state where unverifi
   await expect(kusuoka).toContainText("1:01:43");
   await page.goto("/athletes/athlete-aj24-01-2");
   const aoki = page.locator("section").filter({ has: page.getByRole("heading", { name: /个人最佳/ }) });
+  await expect(aoki).toContainText("13:25.62");
+  await expect(aoki).toContainText("28:02.00");
   await expect(aoki).toContainText("1:00:45");
-  const aokiFive = aoki.getByRole("heading", { name: "5000m", exact: true }).locator("..");
-  await expect(aokiFive).toContainText("尚未收录");
-  await expect(aokiFive).not.toContainText("暂无正式成绩");
+  await page.goto("/athletes/athlete-aj24-01-1");
+  const empty = page.locator("section").filter({ has: page.getByRole("heading", { name: /个人最佳/ }) });
+  const emptyFive = empty.getByRole("heading", { name: "5000m", exact: true }).locator("..");
+  await expect(emptyFive).toContainText("尚未收录");
+  await expect(emptyFive).not.toContainText("暂无正式成绩");
 });

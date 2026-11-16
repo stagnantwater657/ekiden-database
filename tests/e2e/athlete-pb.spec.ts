@@ -41,3 +41,18 @@ test("published first-batch PBs render mark, date, meet and source link", async 
   await page.goto("/athletes/athlete-aj25-02-7");
   await expect(page.locator("section").filter({ has: page.getByRole("heading", { name: /个人最佳/ }) })).toContainText("27:28.50");
 });
+
+test("PB cells separate a confirmed absence from an unfound record, and indoor marks get a tag", async ({ page }) => {
+  await page.goto("/athletes/athlete-aj25-02-7");
+  const section = page.locator("section").filter({ has: page.getByRole("heading", { name: /个人最佳/ }) });
+  await expect(section).toContainText("13:09.45");
+  await expect(section.getByText("室内", { exact: true })).toBeVisible();
+  const half = section.getByRole("heading", { name: "半程马拉松", exact: true }).locator("..");
+  await expect(half).toContainText("暂无正式成绩");
+  await expect(half).not.toContainText("尚未收录");
+  await page.goto("/athletes/athlete-aj24-01-2");
+  const empty = page.locator("section").filter({ has: page.getByRole("heading", { name: /个人最佳/ }) });
+  const emptyFive = empty.getByRole("heading", { name: "5000m", exact: true }).locator("..");
+  await expect(emptyFive).toContainText("尚未收录");
+  await expect(emptyFive).not.toContainText("暂无正式成绩");
+});

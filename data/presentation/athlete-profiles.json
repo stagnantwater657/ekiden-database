@@ -16,10 +16,11 @@
           "timeMilliseconds": 789450,
           "precision": "centisecond",
           "achievedOn": "2024-01-26",
-          "meet": "ジョン・トーマス・テリア・クラシック（ボストン大学・室内 200mトラック）",
+          "meet": "ジョン・トーマス・テリア・クラシック（ボストン大学・200mトラック）",
           "sourceId": "getsuriku-sato-boston-5000-2024",
           "locator": "記事本文「13分09秒45をマーク…1周200mで行われるショートトラックでの日本最高記録」",
-          "revision": "2024.01.27 配信; retrieved 2026-11-16"
+          "revision": "2024.01.27 配信; retrieved 2026-11-16",
+          "indoor": true
         },
         {
           "event": "10000m",
@@ -37,7 +38,13 @@
         "sourceId": "joqr-102-hakone-highschools",
         "locator": "「◆ 洛南 11人」佐藤圭汰 駒澤大学4年",
         "revision": "2025.12.10 配信; retrieved 2026-11-16"
-      }
+      },
+      "absentEvents": [
+        {
+          "event": "half-marathon",
+          "note": "经项目负责人确认，本人没有正式半马成绩；字段保持空值，不作缺失缺口。"
+        }
+      ]
     },
     {
       "athleteId": "athlete-aj24-03-4",

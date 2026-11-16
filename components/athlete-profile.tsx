@@ -3,7 +3,7 @@ import type { Source } from "../lib/model";
 import type { AthleteArchive } from "../lib/profiles";
 import { yearRange } from "../lib/profiles";
 import { formatTime, queryHref } from "../lib/query";
-import { formatPersonalBest, type PersonalBestEvent } from "../lib/athlete-facts";
+import { formatPersonalBest, personalBestStatus, type PersonalBestEvent } from "../lib/athlete-facts";
 import { ResultBadges } from "./result-badges";
 
 export function ProfileSources({ sources }: { sources: Source[] }) {
@@ -166,14 +166,26 @@ export function AthleteProfile({ profile }: { profile: AthleteArchive }) {
           {pbEvents.map((event) => {
             const pb = profile.supplement?.personalBests.find((item) => item.event === event.id);
             const source = pb && profile.sources.find((item) => item.id === pb.sourceId);
+            const status = personalBestStatus(profile.supplement, event.id);
             return (
               <div key={event.id} className="min-w-0 px-3 py-5 first:pl-0 sm:px-5">
                 <h3 className="text-sm font-semibold">{event.label}</h3>
                 <p
                   className="mt-2 font-mono text-2xl tabular-nums sm:text-3xl"
-                  aria-label={pb ? `${event.label} 个人最佳 ${formatPersonalBest(pb)}` : `${event.label} 成绩尚未收录`}
+                  aria-label={
+                    pb
+                      ? `${event.label} 个人最佳 ${formatPersonalBest(pb)}${pb.indoor ? "（室内）" : ""}`
+                      : status === "verified-absent"
+                        ? `${event.label} 暂无正式成绩`
+                        : `${event.label} 成绩尚未收录`
+                  }
                 >
                   {pb ? formatPersonalBest(pb) : "—"}
+                  {pb?.indoor && (
+                    <span className="ml-2 rounded-sm border border-[var(--line)] px-1 py-0.5 align-middle font-sans text-[10px] font-normal text-[var(--muted)]">
+                      室内
+                    </span>
+                  )}
                 </p>
                 {pb ? (
                   <>
@@ -187,6 +199,8 @@ export function AthleteProfile({ profile }: { profile: AthleteArchive }) {
                       </a>
                     )}
                   </>
+                ) : status === "verified-absent" ? (
+                  <p className="mt-2 text-xs text-[var(--muted)]">暂无正式成绩</p>
                 ) : (
                   <p className="mt-2 text-xs text-[var(--muted)]">尚未收录</p>
                 )}
@@ -195,7 +209,7 @@ export function AthleteProfile({ profile }: { profile: AthleteArchive }) {
           })}
         </div>
         <p className="mt-3 text-xs text-[var(--muted)]">
-          仅展示已核实的独立项目成绩，不使用驿传区间用时推算；缺失项目不代表选手没有参赛。
+          仅展示已核实的独立项目成绩，不使用驿传区间用时推算；「尚未收录」表示尚未找到可核实资料，「暂无正式成绩」表示已确认没有正式成绩。
         </p>
       </section>
       <section className="archive-section" aria-labelledby="athlete-history">

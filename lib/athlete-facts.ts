@@ -19,9 +19,17 @@ export interface PersonalBest {
   precision: PersonalBestPrecision;
   achievedOn: string;
   meet: string;
+  /** Indoor track performance; rendered as an explicit badge, never inferred from meet text. */
+  indoor?: boolean;
   sourceId: string;
   locator: string;
   revision: string;
+}
+
+/** A confirmed absence is a fact, not a gap (e.g. a runner with no official half). */
+export interface VerifiedAbsentEvent {
+  event: PersonalBestEvent;
+  note: string;
 }
 
 export interface AthleteProfileSupplement {
@@ -30,7 +38,10 @@ export interface AthleteProfileSupplement {
   birthDate?: SourcedProfileFact;
   highSchool?: SourcedProfileFact;
   personalBests: PersonalBest[];
+  absentEvents?: VerifiedAbsentEvent[];
 }
+
+export type PersonalBestStatus = "published" | "verified-absent" | "missing";
 
 const rawData = supplementData as {
   schemaVersion: number;
@@ -110,9 +121,31 @@ export function validateAthleteProfiles(
       if (!dateValid(pb.achievedOn) || pb.achievedOn > profile.reviewedAt)
         fail(`${profile.athleteId} ${pb.event}: invalid performance date`);
       if (!pb.meet?.trim()) fail(`${profile.athleteId} ${pb.event}: missing meet`);
+      if (pb.indoor !== undefined && typeof pb.indoor !== "boolean")
+        fail(`${profile.athleteId} ${pb.event}: invalid indoor flag`);
       checkProvenance(pb, `${profile.athleteId} ${pb.event}`);
     }
+    const absent = new Set<PersonalBestEvent>();
+    for (const item of profile.absentEvents ?? []) {
+      if (!["5000m", "10000m", "half-marathon"].includes(item.event))
+        fail(`${profile.athleteId}: invalid absent event`);
+      if (absent.has(item.event)) fail(`${profile.athleteId}: duplicate absent event ${item.event}`);
+      if (events.has(item.event)) fail(`${profile.athleteId}: absent event also has a PB ${item.event}`);
+      if (!item.note?.trim()) fail(`${profile.athleteId} ${item.event}: absent event needs a note`);
+      absent.add(item.event);
+    }
   }
+}
+
+/** published = sourced mark; verified-absent = confirmed none; missing = not found yet. */
+export function personalBestStatus(
+  profile: AthleteProfileSupplement | null,
+  event: PersonalBestEvent,
+): PersonalBestStatus {
+  if (!profile) return "missing";
+  if (profile.personalBests.some((pb) => pb.event === event)) return "published";
+  if (profile.absentEvents?.some((item) => item.event === event)) return "verified-absent";
+  return "missing";
 }
 
 export function formatPersonalBest(pb: PersonalBest): string {

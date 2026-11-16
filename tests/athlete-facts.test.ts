@@ -6,6 +6,7 @@ import {
   athleteSupplementFor,
   athleteSupplementSourceIds,
   formatPersonalBest,
+  personalBestStatus,
   validateAthleteProfiles,
   type AthleteProfileSupplement,
 } from "../lib/athlete-facts.ts";
@@ -83,6 +84,36 @@ test("PB validation rejects missing provenance, invalid dates and fabricated pre
   check((p) => { p.birthDate!.value = "2025-02-30"; }, /birth date/);
   check((p) => { p.highSchool!.value = " "; }, /high school/);
   check((p) => { p.athleteId = "not-an-athlete"; }, /unknown athlete/);
+  check((p) => { p.personalBests[0].indoor = "yes" as unknown as boolean; }, /indoor flag/);
+  check((p) => {
+    p.personalBests = p.personalBests.filter((pb) => pb.event !== "half-marathon");
+    p.absentEvents = [{ event: "half-marathon", note: " " }];
+  }, /absent event needs a note/);
+  check((p) => { p.absentEvents = [{ event: "marathon" as never, note: "x" }]; }, /invalid absent event/);
+  check((p) => { p.absentEvents = [{ event: "5000m", note: "x" }]; }, /absent event also has a PB/);
+  check((p) => {
+    p.personalBests = p.personalBests.filter((pb) => pb.event !== "half-marathon");
+    p.absentEvents = [
+      { event: "half-marathon", note: "x" },
+      { event: "half-marathon", note: "y" },
+    ];
+  }, /duplicate absent event/);
+});
+
+test("missing marks distinguish a confirmed absence from an unfound record", () => {
+  const profile = fixture();
+  profile.personalBests = profile.personalBests.filter((pb) => pb.event !== "half-marathon");
+  profile.absentEvents = [{ event: "half-marathon", note: "confirmed none" }];
+  validateAthleteProfiles(database, [profile]);
+  assert.equal(personalBestStatus(profile, "half-marathon"), "verified-absent");
+  assert.equal(personalBestStatus(profile, "5000m"), "published");
+  assert.equal(personalBestStatus(profile, "10000m"), "published");
+  assert.equal(personalBestStatus(null, "5000m"), "missing");
+
+  const partial = fixture();
+  partial.personalBests = partial.personalBests.filter((pb) => pb.event === "5000m");
+  assert.equal(personalBestStatus(partial, "half-marathon"), "missing");
+  assert.equal(personalBestStatus(partial, "5000m"), "published");
 });
 
 test("repeated IDs, empty profiles and unresolved identity links never get published", () => {
@@ -112,6 +143,10 @@ test("first batch publishes only sourced facts with exact hundredths and whole-s
     athleteProfileSupplements.reduce((n, profile) => n + profile.personalBests.length, 0),
     14,
   );
+  const sato = byId.get("athlete-aj25-02-7")!;
+  assert.equal(personalBestStatus(sato, "half-marathon"), "verified-absent");
+  assert.equal(sato.personalBests.find((pb) => pb.event === "5000m")!.indoor, true);
+  assert.equal(personalBestStatus(byId.get("athlete-aj24-03-4")!, "half-marathon"), "published");
   assert.deepEqual(
     [...byId.entries()].map(([, profile]) => profile.highSchool!.value).sort(),
     [

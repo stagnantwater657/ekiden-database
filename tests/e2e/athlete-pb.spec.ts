@@ -66,12 +66,10 @@ test("batch-2 round 1 renders sourced marks and leaves unresolved events as 尚�
   await expect(nonaka).toContainText("2026-05-04");
   await page.goto("/athletes/athlete-aj24-06-4");
   const saito = page.locator("section").filter({ has: page.getByRole("heading", { name: /个人最佳/ }) });
+  await expect(saito).toContainText("13:33.32");
   await expect(saito).toContainText("27:45.12");
-  const saito5000 = saito.getByRole("heading", { name: "5000m", exact: true }).locator("..");
-  await expect(saito5000).toContainText("尚未收录");
-  await expect(saito5000).not.toContainText("暂无正式成绩");
-  const saitoHalf = saito.getByRole("heading", { name: "半程马拉松", exact: true }).locator("..");
-  await expect(saitoHalf).toContainText("尚未收录");
+  await expect(saito).toContainText("1:03:18");
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText("斎藤 将也");
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto("/athletes/athlete-aj24-01-5");
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);

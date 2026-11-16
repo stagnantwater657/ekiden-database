@@ -141,7 +141,7 @@ test("first batch publishes only sourced facts with exact hundredths and whole-s
   assert.deepEqual(marks("athlete-aj24-12-1"), ["13:19.24", "27:52.38", "1:00:13"]);
   assert.equal(
     athleteProfileSupplements.reduce((n, profile) => n + profile.personalBests.length, 0),
-    23,
+    29,
   );
   const sato = byId.get("athlete-aj25-02-7")!;
   assert.equal(personalBestStatus(sato, "half-marathon"), "verified-absent");
@@ -181,21 +181,21 @@ test("batch-2 round 1 publishes only sourced facts and keeps unresolved fields e
   // 工藤 慎作
   assert.equal(byId.get("athlete-aj24-05-8")!.birthDate!.value, "2004-11-10");
   assert.equal(byId.get("athlete-aj24-05-8")!.highSchool!.value, "八千代松陰高（千葉県）");
-  assert.deepEqual(marks("athlete-aj24-05-8"), ["13:38.67", "1:00:06"]);
+  assert.deepEqual(marks("athlete-aj24-05-8"), ["13:38.67", "28:31.87", "1:00:06"]);
   // 山川 拓馬
   assert.equal(byId.get("athlete-aj24-02-8")!.birthDate!.value, "2003-07-30");
-  assert.deepEqual(marks("athlete-aj24-02-8"), ["28:36.98", "1:01:25"]);
+  assert.deepEqual(marks("athlete-aj24-02-8"), ["13:56.92", "28:36.98", "1:01:25"]);
   // 野中 恒亨
   assert.equal(byId.get("athlete-aj24-01-5")!.birthDate!.value, "2005-02-16");
   assert.deepEqual(marks("athlete-aj24-01-5"), ["13:28.47", "27:36.64", "1:00:51"]);
   // ヴィクター・キムタイ
   assert.equal(byId.get("athlete-aj24-06-3")!.birthDate!.value, "2000-10-20");
   assert.equal(byId.get("athlete-aj24-06-3")!.highSchool!.value, "マウ（ケニア）");
-  assert.deepEqual(marks("athlete-aj24-06-3"), ["13:09.38"]);
-  // 斎藤 将也: birth unknown, only the dated 10000m is published
-  assert.equal(byId.get("athlete-aj24-06-4")!.birthDate, undefined);
+  assert.deepEqual(marks("athlete-aj24-06-3"), ["13:09.38", "27:41.04", "1:02:21"]);
+  // 斎藤 将也: birth date from the corporate profile; all three PBs now sourced
+  assert.equal(byId.get("athlete-aj24-06-4")!.birthDate!.value, "2003-10-22");
   assert.equal(byId.get("athlete-aj24-06-4")!.highSchool!.value, "敦賀気比高（福井県）");
-  assert.deepEqual(marks("athlete-aj24-06-4"), ["27:45.12"]);
-  assert.equal(personalBestStatus(byId.get("athlete-aj24-06-4")!, "5000m"), "missing");
-  assert.equal(personalBestStatus(byId.get("athlete-aj24-06-4")!, "half-marathon"), "missing");
+  assert.deepEqual(marks("athlete-aj24-06-4"), ["13:33.32", "27:45.12", "1:03:18"]);
+  assert.equal(personalBestStatus(byId.get("athlete-aj24-06-4")!, "5000m"), "published");
+  assert.equal(personalBestStatus(byId.get("athlete-aj24-06-4")!, "half-marathon"), "published");
 });

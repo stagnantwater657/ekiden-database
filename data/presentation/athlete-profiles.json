@@ -265,14 +265,24 @@
           "revision": "World Athletics profile retrieved 2026-11-16"
         },
         {
+          "event": "10000m",
+          "timeMilliseconds": 1711870,
+          "precision": "centisecond",
+          "achievedOn": "2023-04-22",
+          "meet": "第304回日本体育大学長距離競技会 兼 第1回NITTAIDAI Challenge Games（日体大健志台）",
+          "sourceId": "waseda-2023-04-results",
+          "locator": "10000m(22日) 9組 1レーン 工藤慎作(1) 28分31秒87(12着) 自己新記録",
+          "revision": "2023-04 月报; retrieved 2026-11-16"
+        },
+        {
           "event": "half-marathon",
           "timeMilliseconds": 3606000,
           "precision": "second",
           "achievedOn": "2025-02-02",
-          "meet": "第76回香川丸亀国際ハーフマラソン（丸亀）",
-          "sourceId": "wa-shinsaku-kudo",
-          "locator": "Profile → Personal Bests → Half Marathon; venue Marugame; date 02 FEB 2025",
-          "revision": "World Athletics profile retrieved 2026-11-16"
+          "meet": "第77回香川丸亀国際ハーフマラソン 兼 第28回日本学生ハーフマラソン選手権大会（丸亀）",
+          "sourceId": "waseda-kumamme-2025",
+          "locator": "男子ハーフマラソン: 工藤慎作(2) 1:00:06 PB 総合5位/日本学生選手権1位",
+          "revision": "retrieved 2026-11-16"
         }
       ]
     },
@@ -292,6 +302,16 @@
         "revision": "retrieved 2026-11-16"
       },
       "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 836920,
+          "precision": "centisecond",
+          "achievedOn": "2023-07-15",
+          "meet": "第2回富士裾野トラックミート（裾野市運動公園陸上競技場・5000m 5組）",
+          "sourceId": "susono-2023-5000m",
+          "locator": "男子5000m 5組 決勝 <07/15>: 1位 13:56.92 山川拓馬 大2 駒澤大学・長野県",
+          "revision": "retrieved 2026-11-16"
+        },
         {
           "event": "10000m",
           "timeMilliseconds": 1716980,
@@ -387,6 +407,26 @@
           "sourceId": "wa-victor-kimutai",
           "locator": "Profile → Personal Bests → 5000 Metres; competition HOKUREN Distance Challenge in Chitose; date 04 JUL 2026",
           "revision": "World Athletics profile retrieved 2026-11-16"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1661040,
+          "precision": "centisecond",
+          "achievedOn": "2023-11-11",
+          "meet": "日体大長距離競技会（日体大健志台）",
+          "sourceId": "josai-all-time-records",
+          "locator": "歴代最高記録 10000m(国際記録): 27分41秒04 Victor Kimutai 2023.11.11 日体大長距離競技会 日体大健志台",
+          "revision": "retrieved 2026-11-16"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3741000,
+          "precision": "second",
+          "achievedOn": "2022-10-15",
+          "meet": "第99回東京箱根間往復大学駅伝競走予選会（21.0975km・立川）",
+          "sourceId": "kgrr-hk99-qualifier-results",
+          "locator": "p.1 6位 No.207 ヴィクター・キムタイ 城西大学 1:02:21（21.0975km, 2022-10-15）",
+          "revision": "retrieved 2026-11-16"
         }
       ]
     },
@@ -401,6 +441,16 @@
       },
       "personalBests": [
         {
+          "event": "5000m",
+          "timeMilliseconds": 813320,
+          "precision": "centisecond",
+          "achievedOn": "2026-07-04",
+          "meet": "ホクレン・ディスタンスチャレンジ2026千歳大会（青葉公園陸上競技場・5000m B組）",
+          "sourceId": "subaru-chitose-2026",
+          "locator": "5000m B組8着 斎藤将也 13分33秒32（自己新）",
+          "revision": "retrieved 2026-11-16"
+        },
+        {
           "event": "10000m",
           "timeMilliseconds": 1665120,
           "precision": "centisecond",
@@ -409,8 +459,24 @@
           "sourceId": "ntv-saito-hachioji-10000-2024",
           "locator": "記事本文「27分45秒12の自己ベストをマーク」",
           "revision": "2024.11.23 公開; retrieved 2026-11-16"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3798000,
+          "precision": "second",
+          "achievedOn": "2022-10-15",
+          "meet": "第99回東京箱根間往復大学駅伝競走予選会（21.0975km・立川）",
+          "sourceId": "kgrr-hk99-qualifier-results",
+          "locator": "p.2 27位 No.209 斎藤将也 城西大学 1:03:18（21.0975km, 2022-10-15）",
+          "revision": "retrieved 2026-11-16"
         }
-      ]
+      ],
+      "birthDate": {
+        "value": "2003-10-22",
+        "sourceId": "subaru-saito-profile",
+        "locator": "プロフィール: 2003年10月22日生まれ",
+        "revision": "retrieved 2026-11-16"
+      }
     }
   ]
 }

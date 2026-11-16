@@ -12,6 +12,16 @@
       },
       "personalBests": [
         {
+          "event": "5000m",
+          "timeMilliseconds": 789450,
+          "precision": "centisecond",
+          "achievedOn": "2024-01-26",
+          "meet": "ジョン・トーマス・テリア・クラシック（ボストン大学・室内 200mトラック）",
+          "sourceId": "getsuriku-sato-boston-5000-2024",
+          "locator": "記事本文「13分09秒45をマーク…1周200mで行われるショートトラックでの日本最高記録」",
+          "revision": "2024.01.27 配信; retrieved 2026-11-16"
+        },
+        {
           "event": "10000m",
           "timeMilliseconds": 1648500,
           "precision": "centisecond",
@@ -34,6 +44,16 @@
       },
       "personalBests": [
         {
+          "event": "5000m",
+          "timeMilliseconds": 809560,
+          "precision": "centisecond",
+          "achievedOn": "2024-06-02",
+          "meet": "第314回日体大長距離競技会（日体大健志台競技場・5000m NCG1組）",
+          "sourceId": "getsuriku-kuroda-nittaidai-5000-2024",
+          "locator": "記事本文「黒田朝日（青学大3）が13分29秒56とこちらも自己新」",
+          "revision": "2024.06.03 配信; retrieved 2026-11-16"
+        },
+        {
           "event": "10000m",
           "timeMilliseconds": 1657620,
           "precision": "centisecond",
@@ -42,6 +62,16 @@
           "sourceId": "getsuriku-kuroda-march-10000-2025",
           "locator": "記事本文「黒田朝日（青学大）が27分37秒62で全体トップ」",
           "revision": "2025.11.22 配信; retrieved 2026-11-16"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3699000,
+          "precision": "second",
+          "achievedOn": "2024-02-04",
+          "meet": "第76回香川丸亀国際ハーフマラソン（丸亀）",
+          "sourceId": "wa-asahi-kuroda",
+          "locator": "Profile → Personal Bests → Half Marathon; competition 76th Kagawa Marugame International Half Marathon; date 04 FEB 2024",
+          "revision": "World Athletics profile retrieved 2026-11-16"
         }
       ]
     },
@@ -64,6 +94,26 @@
           "sourceId": "iza-ito-ggn-5000-2025",
           "locator": "記事本文「伊藤蒼唯（4年）は13分32秒88で4位。いずれも自己ベストを更新」",
           "revision": "2025/5/4 20:34 配信; retrieved 2026-11-16"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1676850,
+          "precision": "centisecond",
+          "achievedOn": "2026-10-24",
+          "meet": "第252回東海大学長距離競技会（東海大学湘南校舎陸上競技場・平塚）",
+          "sourceId": "wa-aoi-ito",
+          "locator": "Profile → Personal Bests → 10,000 Metres; competition 252nd Tokai University Long Distance Competition; date 24 OCT 2026",
+          "revision": "World Athletics profile retrieved 2026-11-16"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3676000,
+          "precision": "second",
+          "achievedOn": "2024-02-04",
+          "meet": "第76回香川丸亀国際ハーフマラソン（丸亀）",
+          "sourceId": "wa-aoi-ito",
+          "locator": "Profile → Personal Bests → Half Marathon; competition 76th Kagawa Marugame International Half Marathon; date 04 FEB 2024",
+          "revision": "World Athletics profile retrieved 2026-11-16"
         }
       ]
     },
@@ -92,6 +142,26 @@
           "sourceId": "getsuriku-yamaguchi-kumamoto-5000-2026",
           "locator": "記事本文「13分16秒38の自己新をマークした山口智規（SGホールディングス）」",
           "revision": "2026.04.11 配信; retrieved 2026-11-16"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1672370,
+          "precision": "centisecond",
+          "achievedOn": "2024-11-09",
+          "meet": "日体大長距離競技会兼NITTAIDAI Challenge Games（日体大健志台競技場）",
+          "sourceId": "getsuriku-yamaguchi-ncg-10000-2024",
+          "locator": "記事本文「NCG男子10000mでは山口智規（早大3）が27分52秒37をマークした」",
+          "revision": "2024.11.10 配信; retrieved 2026-11-16"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3676000,
+          "precision": "second",
+          "achievedOn": "2023-11-19",
+          "meet": "第36回2023上尾シティハーフマラソン（上尾）",
+          "sourceId": "getsuriku-yamaguchi-ageo-half-2023",
+          "locator": "記事本文「3位には1時間1分16秒で山口智規（早大2）が入った」",
+          "revision": "2023.11.19 配信; retrieved 2026-11-16"
         }
       ]
     },
@@ -105,6 +175,26 @@
         "revision": "World Athletics profile retrieved 2026-11-16"
       },
       "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 799240,
+          "precision": "centisecond",
+          "achievedOn": "2026-05-23",
+          "meet": "LA Track Festival（Drake Stadium, Los Angeles）",
+          "sourceId": "wa-itta-tameike",
+          "locator": "Profile → Personal Bests → 5000 Metres; competition LA Track Festival; date 23 MAY 2026",
+          "revision": "World Athletics profile retrieved 2026-11-16"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1672380,
+          "precision": "centisecond",
+          "achievedOn": "2024-07-10",
+          "meet": "ホクレン・ディスタンスチャレンジ網走大会（網走市営陸上競技場）",
+          "sourceId": "hochi-tameike-abashiri-10000-2024",
+          "locator": "記事本文「中大の溜池一太（3年）は27分52秒38で走破」",
+          "revision": "2024年7月10日 20:46 配信; retrieved 2026-11-16"
+        },
         {
           "event": "half-marathon",
           "timeMilliseconds": 3613000,

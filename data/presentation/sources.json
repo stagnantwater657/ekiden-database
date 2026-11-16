@@ -388,5 +388,80 @@
       "basis": "Official Olympic committee news page reviewed. Only objective result facts are recorded; no article text, image or layout is republished. No permission claimed.",
       "permissionReference": null
     }
+  },
+  {
+    "id": "getsuriku-sato-boston-5000-2024",
+    "title": "月陸Online 佐藤圭汰が室内5000mで13分09秒45／ジョン・トーマス・テリア・クラシック",
+    "url": "https://www.rikujyokyogi.co.jp/archives/126977",
+    "collectedAt": "2026-11-16",
+    "locator": "記事本文（男子5000m）",
+    "coverage": "佐藤圭汰 13:09.45（2024-01-26 ボストン大学 室内競技会ジョン・トーマス・テリア・クラシック）",
+    "revision": "2024.01.27 配信; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.rikujyokyogi.co.jp/サイトポリシー",
+      "reviewedAt": "2026-11-16",
+      "basis": "Site policy protects articles, photographs and layout and prohibits unauthorised republication. Only independently structured objective facts (athlete, event, mark, date, meet) are recorded; no article text, image or layout is republished. No written permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "getsuriku-kuroda-nittaidai-5000-2024",
+    "title": "月陸Online 鶴川正也13分24秒90 黒田朝日らも自己新／日体大長距離競技会",
+    "url": "https://www.rikujyokyogi.co.jp/archives/137211",
+    "collectedAt": "2026-11-16",
+    "locator": "記事本文（男子5000m NCG1組）",
+    "coverage": "黒田朝日 13:29.56 自己新（2024-06-02 第314回日体大長距離競技会、日体大健志台競技場）",
+    "revision": "2024.06.03 配信; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.rikujyokyogi.co.jp/サイトポリシー",
+      "reviewedAt": "2026-11-16",
+      "basis": "Site policy protects articles, photographs and layout and prohibits unauthorised republication. Only independently structured objective facts (athlete, event, mark, date, meet) are recorded; no article text, image or layout is republished. No written permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "getsuriku-yamaguchi-ncg-10000-2024",
+    "title": "月陸Online 早大・山口智規が27分52秒37の自己新／日体大長距離競技会",
+    "url": "https://www.rikujyokyogi.co.jp/archives/152056",
+    "collectedAt": "2026-11-16",
+    "locator": "記事本文（NCG男子10000m）",
+    "coverage": "山口智規 27:52.37 自己新（2024-11-09 日体大長距離競技会兼NITTAIDAI Challenge Games）",
+    "revision": "2024.11.10 配信; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.rikujyokyogi.co.jp/サイトポリシー",
+      "reviewedAt": "2026-11-16",
+      "basis": "Site policy protects articles, photographs and layout and prohibits unauthorised republication. Only independently structured objective facts (athlete, event, mark, date, meet) are recorded; no article text, image or layout is republished. No written permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "getsuriku-yamaguchi-ageo-half-2023",
+    "title": "月陸Online 早大・山口智規が日本人トップ3位 1時間1分16秒／上尾ハーフ",
+    "url": "https://www.rikujyokyogi.co.jp/archives/119856",
+    "collectedAt": "2026-11-16",
+    "locator": "記事本文（男子ハーフマラソン）",
+    "coverage": "山口智規 1:01:16（2023-11-19 第36回2023上尾シティハーフマラソン）",
+    "revision": "2023.11.19 配信; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.rikujyokyogi.co.jp/サイトポリシー",
+      "reviewedAt": "2026-11-16",
+      "basis": "Site policy protects articles, photographs and layout and prohibits unauthorised republication. Only independently structured objective facts (athlete, event, mark, date, meet) are recorded; no article text, image or layout is republished. No written permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-tameike-abashiri-10000-2024",
+    "title": "スポーツ報知 溜池一太が中大初の27分台で日本人学生トップ／ホクレンDC網走",
+    "url": "https://hochi.news/articles/20240710-OHT1T51223.html",
+    "collectedAt": "2026-11-16",
+    "locator": "記事本文（男子10000m A組）",
+    "coverage": "溜池一太 27:52.38（2024-07-10 ホクレン・ディスタンスチャレンジ網走大会、網走市営陸上競技場）",
+    "revision": "2024年7月10日 20:46 配信; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-16",
+      "basis": "News article reviewed. Only the objective result facts (athlete, meet, date, time) are recorded; no article text, image or layout is republished. No permission claimed.",
+      "permissionReference": null
+    }
   }
 ]

@@ -102,35 +102,15 @@ test("repeated IDs, empty profiles and unresolved identity links never get publi
 test("first batch publishes only sourced facts with exact hundredths and whole-second half", () => {
   assert.equal(athleteProfileSupplements.length, 5);
   const byId = new Map(athleteProfileSupplements.map((item) => [item.athleteId, item]));
-  assert.deepEqual(
-    [...byId.keys()].sort(),
-    [
-      "athlete-aj24-02-3",
-      "athlete-aj24-03-4",
-      "athlete-aj24-05-2",
-      "athlete-aj24-12-1",
-      "athlete-aj25-02-7",
-    ],
-  );
-  assert.deepEqual(
-    byId.get("athlete-aj25-02-7")!.personalBests.map(formatPersonalBest),
-    ["27:28.50"],
-  );
-  assert.deepEqual(
-    byId.get("athlete-aj24-03-4")!.personalBests.map(formatPersonalBest),
-    ["27:37.62"],
-  );
-  assert.deepEqual(
-    byId.get("athlete-aj24-02-3")!.personalBests.map(formatPersonalBest),
-    ["13:32.88"],
-  );
-  assert.deepEqual(
-    byId.get("athlete-aj24-05-2")!.personalBests.map(formatPersonalBest),
-    ["13:16.38"],
-  );
-  assert.deepEqual(
-    byId.get("athlete-aj24-12-1")!.personalBests.map(formatPersonalBest),
-    ["1:00:13"],
+  const marks = (id: string) => byId.get(id)!.personalBests.map(formatPersonalBest);
+  assert.deepEqual(marks("athlete-aj25-02-7"), ["13:09.45", "27:28.50"]);
+  assert.deepEqual(marks("athlete-aj24-03-4"), ["13:29.56", "27:37.62", "1:01:39"]);
+  assert.deepEqual(marks("athlete-aj24-02-3"), ["13:32.88", "27:56.85", "1:01:16"]);
+  assert.deepEqual(marks("athlete-aj24-05-2"), ["13:16.38", "27:52.37", "1:01:16"]);
+  assert.deepEqual(marks("athlete-aj24-12-1"), ["13:19.24", "27:52.38", "1:00:13"]);
+  assert.equal(
+    athleteProfileSupplements.reduce((n, profile) => n + profile.personalBests.length, 0),
+    14,
   );
   assert.equal(byId.get("athlete-aj24-05-2")!.highSchool!.value, "学法石川高（福島県）");
   for (const profile of athleteProfileSupplements) {

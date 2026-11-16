@@ -101,7 +101,7 @@ test("verified facts require complete stages, provenance, a known read Source, u
 test("dates, types, enum values and explicit source references fail closed", () => {
   const bad: Array<[string, (b: ResearchBatch) => void, RegExp]> = [
     ["empty records", (b) => { b.records=[]; }, /empty batch/],
-    ["version", (b) => { b.schemaVersion=2 as 1; }, /unsupported version/],
+    ["version", (b) => { b.schemaVersion=3 as 1; }, /unsupported version/],
     ["wrong name", (b) => { b.records[0].athleteName="a different person"; }, /name does not match/],
     ["review chronology", (b) => { b.records[0].reviewedAt="2026-11-17"; }, /exceeds batch date/],
     ["search chronology", (b) => { b.records[0].searches[0].checkedAt="2026-11-17"; }, /search after review/],

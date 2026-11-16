@@ -1,0 +1,359 @@
+{
+  "notice": "SYNTHETIC FIXTURE ONLY: fake athlete, meets, searches and observations; never register as production data or real research",
+  "context": {
+    "athletes": [
+      {
+        "id": "fixture-athlete",
+        "name": "合成選手",
+        "birthDate": null,
+        "sourceId": "fixture-university"
+      }
+    ],
+    "editions": [],
+    "sources": [
+      {
+        "id": "fixture-university",
+        "title": "SYNTHETIC TEST ONLY fixture-university",
+        "url": "https://synthetic-research-fixture.org/fixture-university",
+        "collectedAt": "2026-11-16",
+        "locator": "synthetic fixture",
+        "coverage": "unit tests only; no visits claimed"
+      },
+      {
+        "id": "fixture-employer",
+        "title": "SYNTHETIC TEST ONLY fixture-employer",
+        "url": "https://synthetic-research-fixture.org/fixture-employer",
+        "collectedAt": "2026-11-16",
+        "locator": "synthetic fixture",
+        "coverage": "unit tests only; no visits claimed"
+      },
+      {
+        "id": "fixture-event",
+        "title": "SYNTHETIC TEST ONLY fixture-event",
+        "url": "https://synthetic-research-fixture.org/fixture-event",
+        "collectedAt": "2026-11-16",
+        "locator": "synthetic fixture",
+        "coverage": "unit tests only; no visits claimed"
+      }
+    ],
+    "uncertainAthleteIds": [],
+    "meets": [
+      {
+        "id": "fixture-meet-2",
+        "name": "Fixture meet two",
+        "edition": 2,
+        "startsOn": "2025-06-01",
+        "endsOn": "2025-06-02",
+        "discipline": "5000m",
+        "sourceUrl": "https://synthetic-research-fixture.org/fixture-event",
+        "locator": "Synthetic official header",
+        "revision": "synthetic-v1",
+        "reviewedAt": "2026-11-16"
+      }
+    ]
+  },
+  "batch": {
+    "schemaVersion": 2,
+    "batchId": "synthetic-v2-example",
+    "researcher": "UNIT TEST; no actual visits",
+    "reviewedAt": "2026-11-16",
+    "records": [
+      {
+        "athleteId": "fixture-athlete",
+        "athleteName": "合成選手",
+        "field": "5000m",
+        "scope": {
+          "asOf": "2026-11-16",
+          "editionId": null,
+          "courseVersion": null,
+          "sectionNumber": null
+        },
+        "pbScope": "current",
+        "status": "verified",
+        "candidates": [
+          {
+            "value": "SYNTHETIC old mark",
+            "sourceUrl": "https://synthetic-research-fixture.org/fixture-university",
+            "locator": "Synthetic mark table"
+          },
+          {
+            "value": "SYNTHETIC new mark",
+            "sourceUrl": "https://synthetic-research-fixture.org/fixture-employer",
+            "locator": "Synthetic mark table"
+          }
+        ],
+        "searches": [
+          {
+            "stage": "discovery",
+            "query": "SYNTHETIC query; no network performed",
+            "checkedAt": "2026-11-16",
+            "outcome": "found",
+            "sources": [
+              {
+                "url": "https://synthetic-research-fixture.org/fixture-university",
+                "section": "synthetic table",
+                "access": "read",
+                "finding": "Synthetic observation, NOT a real visit"
+              }
+            ],
+            "result": "Synthetic result"
+          },
+          {
+            "stage": "reverse",
+            "query": "SYNTHETIC query; no network performed",
+            "checkedAt": "2026-11-16",
+            "outcome": "found",
+            "sources": [
+              {
+                "url": "https://synthetic-research-fixture.org/fixture-event",
+                "section": "synthetic table",
+                "access": "read",
+                "finding": "Synthetic observation, NOT a real visit"
+              }
+            ],
+            "result": "Synthetic result"
+          },
+          {
+            "stage": "verification",
+            "query": "SYNTHETIC query; no network performed",
+            "checkedAt": "2026-11-16",
+            "outcome": "found",
+            "sources": [
+              {
+                "url": "https://synthetic-research-fixture.org/fixture-university",
+                "section": "synthetic table",
+                "access": "read",
+                "finding": "Synthetic observation, NOT a real visit"
+              }
+            ],
+            "result": "Synthetic result"
+          },
+          {
+            "stage": "verification",
+            "query": "SYNTHETIC query; no network performed",
+            "checkedAt": "2026-11-16",
+            "outcome": "found",
+            "sources": [
+              {
+                "url": "https://synthetic-research-fixture.org/fixture-employer",
+                "section": "synthetic table",
+                "access": "read",
+                "finding": "Synthetic observation, NOT a real visit"
+              }
+            ],
+            "result": "Synthetic result"
+          }
+        ],
+        "final": {
+          "value": "SYNTHETIC new mark",
+          "sourceIds": [
+            "fixture-employer",
+            "fixture-event"
+          ],
+          "locator": "Legacy summary; per-source attribution is in audit.evidence",
+          "revision": "synthetic-v1"
+        },
+        "identityEvidence": "Synthetic identity only",
+        "updateCheck": {
+          "checked": true,
+          "asOf": "2026-11-16",
+          "summary": "Synthetic check declaration; detailed proof below is required"
+        },
+        "unresolved": [],
+        "reviewedAt": "2026-11-16",
+        "audit": {
+          "evidence": [
+            {
+              "id": "baseline",
+              "sourceId": "fixture-university",
+              "role": "primary",
+              "supports": [
+                "value",
+                "achievedOn",
+                "meet",
+                "edition",
+                "distance",
+                "affiliation",
+                "pb-update"
+              ],
+              "locator": "Synthetic table for baseline",
+              "revision": "synthetic-v1",
+              "status": "verified",
+              "checkedAt": "2026-11-16",
+              "originKey": "fixture-university",
+              "independenceNote": "Synthetic distinct publisher for validator tests only"
+            },
+            {
+              "id": "mark",
+              "sourceId": "fixture-employer",
+              "role": "primary",
+              "supports": [
+                "value",
+                "affiliation",
+                "pb-update"
+              ],
+              "locator": "Synthetic table for mark",
+              "revision": "synthetic-v1",
+              "status": "verified",
+              "checkedAt": "2026-11-16",
+              "originKey": "fixture-employer",
+              "independenceNote": "Synthetic distinct publisher for validator tests only"
+            },
+            {
+              "id": "event",
+              "sourceId": "fixture-event",
+              "role": "event",
+              "supports": [
+                "achievedOn",
+                "meet",
+                "edition",
+                "distance"
+              ],
+              "locator": "Synthetic table for event",
+              "revision": "synthetic-v1",
+              "status": "verified",
+              "checkedAt": "2026-11-16",
+              "originKey": "fixture-event",
+              "independenceNote": "Synthetic distinct publisher for validator tests only"
+            }
+          ],
+          "adoptedEvidenceIds": [
+            "mark",
+            "event"
+          ],
+          "coverage": [
+            {
+              "category": "university",
+              "status": "checked",
+              "searchIndexes": [
+                2
+              ],
+              "reason": "Synthetic coverage state, not actual research"
+            },
+            {
+              "category": "employer",
+              "status": "checked",
+              "searchIndexes": [
+                3
+              ],
+              "reason": "Synthetic coverage state, not actual research"
+            },
+            {
+              "category": "official",
+              "status": "checked",
+              "searchIndexes": [
+                1
+              ],
+              "reason": "Synthetic coverage state, not actual research"
+            },
+            {
+              "category": "database",
+              "status": "not-checked",
+              "searchIndexes": [],
+              "reason": "Synthetic coverage state, not actual research"
+            },
+            {
+              "category": "media",
+              "status": "not-checked",
+              "searchIndexes": [],
+              "reason": "Synthetic coverage state, not actual research"
+            }
+          ],
+          "limitations": [
+            "Synthetic test; database and media not checked; no independent external fact review"
+          ],
+          "affiliation": {
+            "stage": "graduated",
+            "organization": "Fixture employer",
+            "evidenceIds": [
+              "mark"
+            ],
+            "reason": "Synthetic affiliation evidence"
+          },
+          "performances": [
+            {
+              "id": "old",
+              "value": "SYNTHETIC old mark",
+              "timeMilliseconds": 900000,
+              "precision": "centisecond",
+              "achievedOn": "2024-04-01",
+              "evidenceIds": [
+                "baseline"
+              ],
+              "eligibility": "eligible",
+              "reason": "Synthetic official old mark",
+              "event": {
+                "metadataId": null,
+                "name": "Fixture old meet",
+                "edition": 1,
+                "startsOn": "2024-04-01",
+                "endsOn": "2024-04-01",
+                "competedOn": "2024-04-01",
+                "discipline": "5000m",
+                "distanceMetres": 5000,
+                "editionStatus": "verified",
+                "evidenceIds": [
+                  "baseline"
+                ]
+              }
+            },
+            {
+              "id": "new",
+              "value": "SYNTHETIC new mark",
+              "timeMilliseconds": 870000,
+              "precision": "centisecond",
+              "achievedOn": "2025-06-02",
+              "evidenceIds": [
+                "mark"
+              ],
+              "eligibility": "eligible",
+              "reason": "Synthetic official faster mark",
+              "event": {
+                "metadataId": "fixture-meet-2",
+                "name": "Fixture meet two",
+                "edition": 2,
+                "startsOn": "2025-06-01",
+                "endsOn": "2025-06-02",
+                "competedOn": "2025-06-02",
+                "discipline": "5000m",
+                "distanceMetres": 5000,
+                "editionStatus": "verified",
+                "evidenceIds": [
+                  "event"
+                ]
+              }
+            }
+          ],
+          "pbUpdate": {
+            "initialId": "old",
+            "selectedId": "new",
+            "checks": [
+              {
+                "searchIndex": 2,
+                "from": "2024-04-01",
+                "through": "2026-11-16",
+                "evidenceIds": [
+                  "baseline"
+                ],
+                "outcome": "no-faster-found",
+                "note": "Synthetic subsequent records range"
+              },
+              {
+                "searchIndex": 3,
+                "from": "2024-04-01",
+                "through": "2026-11-16",
+                "evidenceIds": [
+                  "mark"
+                ],
+                "outcome": "faster-found",
+                "note": "Synthetic subsequent records range"
+              }
+            ],
+            "foundFaster": true,
+            "decision": "Synthetic faster eligible mark selected"
+          }
+        }
+      }
+    ]
+  }
+}

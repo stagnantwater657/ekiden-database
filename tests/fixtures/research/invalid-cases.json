@@ -1,0 +1,37 @@
+[
+  {
+    "name": "unknown-athlete",
+    "recordOverrides": {
+      "athleteId": "not-an-athlete"
+    },
+    "expectedError": "unknown athleteId"
+  },
+  {
+    "name": "invalid-status",
+    "recordOverrides": {
+      "status": "no-result"
+    },
+    "expectedError": "invalid enum"
+  },
+  {
+    "name": "invalid-calendar",
+    "recordOverrides": {
+      "reviewedAt": "2026-02-30"
+    },
+    "expectedError": "invalid calendar date"
+  },
+  {
+    "name": "unexplained-gap",
+    "recordOverrides": {
+      "unresolved": []
+    },
+    "expectedError": "unverified status requires unresolved reasons"
+  },
+  {
+    "name": "hidden-candidate",
+    "recordOverrides": {
+      "status": "not-found"
+    },
+    "expectedError": "not-found cannot hide known candidates"
+  }
+]

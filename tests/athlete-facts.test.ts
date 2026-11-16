@@ -98,3 +98,47 @@ test("repeated IDs, empty profiles and unresolved identity links never get publi
   b.athleteId = uncertain!.athleteId;
   assert.throws(() => validateAthleteProfiles(database, [b]), /unresolved identity/);
 });
+
+test("first batch publishes only sourced facts with exact hundredths and whole-second half", () => {
+  assert.equal(athleteProfileSupplements.length, 5);
+  const byId = new Map(athleteProfileSupplements.map((item) => [item.athleteId, item]));
+  assert.deepEqual(
+    [...byId.keys()].sort(),
+    [
+      "athlete-aj24-02-3",
+      "athlete-aj24-03-4",
+      "athlete-aj24-05-2",
+      "athlete-aj24-12-1",
+      "athlete-aj25-02-7",
+    ],
+  );
+  assert.deepEqual(
+    byId.get("athlete-aj25-02-7")!.personalBests.map(formatPersonalBest),
+    ["27:28.50"],
+  );
+  assert.deepEqual(
+    byId.get("athlete-aj24-03-4")!.personalBests.map(formatPersonalBest),
+    ["27:37.62"],
+  );
+  assert.deepEqual(
+    byId.get("athlete-aj24-02-3")!.personalBests.map(formatPersonalBest),
+    ["13:32.88"],
+  );
+  assert.deepEqual(
+    byId.get("athlete-aj24-05-2")!.personalBests.map(formatPersonalBest),
+    ["13:16.38"],
+  );
+  assert.deepEqual(
+    byId.get("athlete-aj24-12-1")!.personalBests.map(formatPersonalBest),
+    ["1:00:13"],
+  );
+  assert.equal(byId.get("athlete-aj24-05-2")!.highSchool!.value, "学法石川高（福島県）");
+  for (const profile of athleteProfileSupplements) {
+    assert.ok(profile.birthDate, `${profile.athleteId} lacks a sourced birth date`);
+    for (const pb of profile.personalBests) {
+      assert.ok(pb.meet.trim());
+      assert.ok(pb.locator.trim());
+      assert.ok(pb.achievedOn < profile.reviewedAt);
+    }
+  }
+});

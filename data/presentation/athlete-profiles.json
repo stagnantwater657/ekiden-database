@@ -1,4 +1,121 @@
 {
   "schemaVersion": 1,
-  "profiles": []
+  "profiles": [
+    {
+      "athleteId": "athlete-aj25-02-7",
+      "reviewedAt": "2026-11-16",
+      "birthDate": {
+        "value": "2004-01-22",
+        "sourceId": "wa-keita-sato",
+        "locator": "Profile → basic data: date of birth 22 JAN 2004",
+        "revision": "World Athletics profile retrieved 2026-11-16"
+      },
+      "personalBests": [
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1648500,
+          "precision": "centisecond",
+          "achievedOn": "2023-11-25",
+          "meet": "2023八王子ロングディスタンス（上柚木公園陸上競技場）",
+          "sourceId": "getsuriku-sato-hachioji-10000-2023",
+          "locator": "記事タイトル「19歳佐藤圭汰が衝撃の27分28秒50！初1万mでU20日本新」",
+          "revision": "2023.11.25 配信; retrieved 2026-11-16"
+        }
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-03-4",
+      "reviewedAt": "2026-11-16",
+      "birthDate": {
+        "value": "2004-03-10",
+        "sourceId": "wa-asahi-kuroda",
+        "locator": "Profile → basic data: date of birth 10 MAR 2004",
+        "revision": "World Athletics profile retrieved 2026-11-16"
+      },
+      "personalBests": [
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1657620,
+          "precision": "centisecond",
+          "achievedOn": "2025-11-22",
+          "meet": "MARCH対抗戦2025（東京・町田GIONスタジアム）",
+          "sourceId": "getsuriku-kuroda-march-10000-2025",
+          "locator": "記事本文「黒田朝日（青学大）が27分37秒62で全体トップ」",
+          "revision": "2025.11.22 配信; retrieved 2026-11-16"
+        }
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-02-3",
+      "reviewedAt": "2026-11-16",
+      "birthDate": {
+        "value": "2004-01-12",
+        "sourceId": "wa-aoi-ito",
+        "locator": "Profile → basic data: date of birth 12 JAN 2004",
+        "revision": "World Athletics profile retrieved 2026-11-16"
+      },
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 812880,
+          "precision": "centisecond",
+          "achievedOn": "2025-05-04",
+          "meet": "ゴールデンゲームズinのべおか（延岡市西階陸上競技場）",
+          "sourceId": "iza-ito-ggn-5000-2025",
+          "locator": "記事本文「伊藤蒼唯（4年）は13分32秒88で4位。いずれも自己ベストを更新」",
+          "revision": "2025/5/4 20:34 配信; retrieved 2026-11-16"
+        }
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-05-2",
+      "reviewedAt": "2026-11-16",
+      "birthDate": {
+        "value": "2003-04-13",
+        "sourceId": "wa-tomonori-yamaguchi",
+        "locator": "Profile → basic data: date of birth 13 APR 2003",
+        "revision": "World Athletics profile retrieved 2026-11-16"
+      },
+      "highSchool": {
+        "value": "学法石川高（福島県）",
+        "sourceId": "getsuriku-yamaguchi-profile",
+        "locator": "選手名鑑「銚子二中（千葉）→学法石川高（福島）→早大」",
+        "revision": "2026.06.18 更新; retrieved 2026-11-16"
+      },
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 796380,
+          "precision": "centisecond",
+          "achievedOn": "2026-04-11",
+          "meet": "第34回金栗記念選抜陸上中長距離大会（熊本・えがお健康スタジアム）",
+          "sourceId": "getsuriku-yamaguchi-kumamoto-5000-2026",
+          "locator": "記事本文「13分16秒38の自己新をマークした山口智規（SGホールディングス）」",
+          "revision": "2026.04.11 配信; retrieved 2026-11-16"
+        }
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-12-1",
+      "reviewedAt": "2026-11-16",
+      "birthDate": {
+        "value": "2003-09-23",
+        "sourceId": "wa-itta-tameike",
+        "locator": "Profile → basic data: date of birth 23 SEP 2003",
+        "revision": "World Athletics profile retrieved 2026-11-16"
+      },
+      "personalBests": [
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3613000,
+          "precision": "second",
+          "achievedOn": "2026-10-18",
+          "meet": "東京レガシーハーフマラソン2026（国立競技場発着）",
+          "sourceId": "joc-tameike-tokyo-legacy-half-2026",
+          "locator": "記事本文「溜池一太（SGホールディングス）が1時間0分13秒で日本勢トップの5位」",
+          "revision": "2026.10.18 配信; retrieved 2026-11-16"
+        }
+      ]
+    }
+  ]
 }

@@ -26,3 +26,18 @@ test("PB cards stay legible at phone width without horizontal page overflow", as
   await expect(page.getByRole("heading", { name: /个人最佳/ })).toBeVisible();
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 });
+
+test("published first-batch PBs render mark, date, meet and source link", async ({ page }) => {
+  await page.goto("/athletes/athlete-aj24-05-2");
+  const section = page.locator("section").filter({ has: page.getByRole("heading", { name: /个人最佳/ }) });
+  await expect(section).toContainText("13:16.38");
+  await expect(section).toContainText("2026-04-11");
+  await expect(section).toContainText("金栗記念");
+  await expect(section.locator('a[href="https://www.rikujyokyogi.co.jp/archives/204717"]')).toBeVisible();
+  await page.goto("/athletes/athlete-aj24-12-1");
+  const half = page.locator("section").filter({ has: page.getByRole("heading", { name: /个人最佳/ }) });
+  await expect(half).toContainText("1:00:13");
+  await expect(half).toContainText("東京レガシーハーフ");
+  await page.goto("/athletes/athlete-aj25-02-7");
+  await expect(page.locator("section").filter({ has: page.getByRole("heading", { name: /个人最佳/ }) })).toContainText("27:28.50");
+});

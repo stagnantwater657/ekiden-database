@@ -223,5 +223,170 @@
       "basis": "Competition page and published PDF reviewed. No explicit automated-access restriction found on these pages. Only objective record facts (time, holder, university, year) are independently structured; no PDF/page/image or table layout is republished. Public access is not a permission grant.",
       "permissionReference": null
     }
+  },
+  {
+    "id": "wa-keita-sato",
+    "title": "World Athletics 選手プロフィール 佐藤 圭汰（Keita SATOH）",
+    "url": "https://worldathletics.org/athletes/japan/keita-sato-14954502",
+    "collectedAt": "2026-11-16",
+    "locator": "Profile: basic data (date of birth); Personal Bests",
+    "coverage": "出生日期等选手基本信息",
+    "revision": "World Athletics profile retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://worldathletics.org/terms-of-use",
+      "reviewedAt": "2026-11-16",
+      "basis": "Public athlete database. Only objective facts (date of birth, event, mark, date, venue) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "wa-asahi-kuroda",
+    "title": "World Athletics 選手プロフィール 黒田 朝日（Asahi KURODA）",
+    "url": "https://worldathletics.org/athletes/japan/asahi-kuroda-14956041",
+    "collectedAt": "2026-11-16",
+    "locator": "Profile: basic data (date of birth); Personal Bests",
+    "coverage": "出生日期等选手基本信息",
+    "revision": "World Athletics profile retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://worldathletics.org/terms-of-use",
+      "reviewedAt": "2026-11-16",
+      "basis": "Public athlete database. Only objective facts (date of birth, event, mark, date, venue) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "wa-aoi-ito",
+    "title": "World Athletics 選手プロフィール 伊藤 蒼唯（Aoi ITO）",
+    "url": "https://worldathletics.org/athletes/japan/aoi-ito-14895657",
+    "collectedAt": "2026-11-16",
+    "locator": "Profile: basic data (date of birth); Personal Bests",
+    "coverage": "出生日期等选手基本信息",
+    "revision": "World Athletics profile retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://worldathletics.org/terms-of-use",
+      "reviewedAt": "2026-11-16",
+      "basis": "Public athlete database. Only objective facts (date of birth, event, mark, date, venue) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "wa-tomonori-yamaguchi",
+    "title": "World Athletics 選手プロフィール 山口 智規（Tomonori YAMAGUCHI）",
+    "url": "https://worldathletics.org/athletes/-/14962831",
+    "collectedAt": "2026-11-16",
+    "locator": "Profile: basic data (date of birth); Personal Bests",
+    "coverage": "出生日期等选手基本信息",
+    "revision": "World Athletics profile retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://worldathletics.org/terms-of-use",
+      "reviewedAt": "2026-11-16",
+      "basis": "Public athlete database. Only objective facts (date of birth, event, mark, date, venue) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "wa-itta-tameike",
+    "title": "World Athletics 選手プロフィール 溜池 一太（Itta TAMEIKE）",
+    "url": "https://worldathletics.org/athletes/japan/itta-tameike-14921572",
+    "collectedAt": "2026-11-16",
+    "locator": "Profile: basic data (date of birth); Personal Bests",
+    "coverage": "出生日期等选手基本信息",
+    "revision": "World Athletics profile retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://worldathletics.org/terms-of-use",
+      "reviewedAt": "2026-11-16",
+      "basis": "Public athlete database. Only objective facts (date of birth, event, mark, date, venue) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "getsuriku-sato-hachioji-10000-2023",
+    "title": "月陸Online 19歳佐藤圭汰 27分28秒50 U20日本新／八王子ロングディスタンス",
+    "url": "https://www.rikujyokyogi.co.jp/archives/120970",
+    "collectedAt": "2026-11-16",
+    "locator": "記事タイトル・本文（男子10000m）",
+    "coverage": "佐藤圭汰 27:28.50（2023-11-25 八王子ロングディスタンス、上柚木公園）",
+    "revision": "2023.11.25 配信; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.rikujyokyogi.co.jp/サイトポリシー",
+      "reviewedAt": "2026-11-16",
+      "basis": "Site policy protects articles, photographs and layout and prohibits unauthorised republication. Only independently structured objective facts (athlete, event, mark, date, meet) are recorded; no article text, image or layout is republished. No written permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "getsuriku-kuroda-march-10000-2025",
+    "title": "月陸Online 青学大・黒田朝日が27分37秒62／MARCH対抗戦",
+    "url": "https://www.rikujyokyogi.co.jp/archives/191658",
+    "collectedAt": "2026-11-16",
+    "locator": "記事本文（男子10000m）",
+    "coverage": "黒田朝日 27:37.62（2025-11-22 MARCH対抗戦2025、町田GIONスタジアム）",
+    "revision": "2025.11.22 配信; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.rikujyokyogi.co.jp/サイトポリシー",
+      "reviewedAt": "2026-11-16",
+      "basis": "Site policy protects articles, photographs and layout and prohibits unauthorised republication. Only independently structured objective facts (athlete, event, mark, date, meet) are recorded; no article text, image or layout is republished. No written permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "getsuriku-yamaguchi-kumamoto-5000-2026",
+    "title": "月陸Online 5000m・山口智規が自己新の13分16秒38／金栗記念",
+    "url": "https://www.rikujyokyogi.co.jp/archives/204717",
+    "collectedAt": "2026-11-16",
+    "locator": "記事本文（男子5000m）",
+    "coverage": "山口智規 13:16.38 自己新（2026-04-11 第34回金栗記念、熊本・えがお健康スタジアム）",
+    "revision": "2026.04.11 配信; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.rikujyokyogi.co.jp/サイトポリシー",
+      "reviewedAt": "2026-11-16",
+      "basis": "Site policy protects articles, photographs and layout and prohibits unauthorised republication. Only independently structured objective facts (athlete, event, mark, date, meet) are recorded; no article text, image or layout is republished. No written permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "getsuriku-yamaguchi-profile",
+    "title": "月陸Online 選手名鑑 山口 智規",
+    "url": "https://www.rikujyokyogi.co.jp/archives/210411",
+    "collectedAt": "2026-11-16",
+    "locator": "選手名鑑: 生年月日・出身校",
+    "coverage": "山口智規 2003-04-13、銚子二中（千葉）→学法石川高（福島）→早大",
+    "revision": "2026.06.18 更新; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.rikujyokyogi.co.jp/サイトポリシー",
+      "reviewedAt": "2026-11-16",
+      "basis": "Site policy protects articles, photographs and layout and prohibits unauthorised republication. Only independently structured objective facts (athlete, event, mark, date, meet) are recorded; no article text, image or layout is republished. No written permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "iza-ito-ggn-5000-2025",
+    "title": "iza 男子5000mD組は中大・吉中祐太がトップ 駒大・伊藤蒼唯もPB／GGN",
+    "url": "https://www.iza.ne.jp/article/20250504-67HZ53QFQZF6DI2HW6ABDUJ3NU/",
+    "collectedAt": "2026-11-16",
+    "locator": "記事本文（男子5000m D組）",
+    "coverage": "伊藤蒼唯 13:32.88 自己ベスト更新（2025-05-04 ゴールデンゲームズinのべおか、延岡市西階陸上競技場）",
+    "revision": "2025/5/4 20:34 配信; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.iza.ne.jp/",
+      "reviewedAt": "2026-11-16",
+      "basis": "News article reviewed. Only the objective result facts (athlete, meet, date, time, PB note) are recorded; no article text, image or layout is republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "joc-tameike-tokyo-legacy-half-2026",
+    "title": "JOC 溜池、日本勢トップの5位 東京レガシーハーフ",
+    "url": "https://joc.or.jp/news/20261018039044.html",
+    "collectedAt": "2026-11-16",
+    "locator": "記事本文（男子ハーフマラソン）",
+    "coverage": "溜池一太 1:00:13（2026-10-18 東京レガシーハーフマラソン、国立競技場発着）",
+    "revision": "2026.10.18 配信; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.joc.or.jp/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Official Olympic committee news page reviewed. Only objective result facts are recorded; no article text, image or layout is republished. No permission claimed.",
+      "permissionReference": null
+    }
   }
 ]

@@ -9,6 +9,7 @@ npm run dev
 
 检查：`npm run typecheck`、`npm run lint`、`npm test`、`python3 tests/deployment_test.py`、`npm run build`。
 
+- [AI 协作与资料研究入口](AGENTS.md) · [研究手册](docs/research/athlete-research-playbook.md) · `npm run research:validate`
 - [管理员初始化、部署权限与回滚说明](docs/DEPLOYMENT.md)
 - [历史赛事数据模型、验证及导入步骤](docs/historical-data-import.md)
 - [2025官方来源与数据核查说明](docs/data-sources.md)

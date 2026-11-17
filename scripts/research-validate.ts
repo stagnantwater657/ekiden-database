@@ -14,14 +14,15 @@ if ((!completionMode && process.argv.length !== 2) || (completionMode && process
 const authorization=withAuthorization ? readResearchAuthorization(process.argv[5],process.argv[7]) : undefined;
 if (authorization && authorization.batchId!==process.argv[3]) throw new Error("Authorization does not match requested batch");
 if (authorization) console.log(`Authorization SHA-256 (expected input; independently confirm task-owner approval): ${process.argv[7]}; authority/reference authenticity requires independent review`);
-const batches = validateResearchDirectory(fileURLToPath(new URL("../data/research/batches/", import.meta.url)), createResearchContext(), legacyHashes);
+const context=createResearchContext();
+const batches = validateResearchDirectory(fileURLToPath(new URL("../data/research/batches/", import.meta.url)), context, legacyHashes);
 console.log(`Research audit: ${batches.length} batch(es), ${batches.reduce((n, b) => n + b.records.length, 0)} record(s) valid.`);
 console.log("Offline structure/reference checks only; independent review must verify visits, evidence and latest PBs. Legacy facts are not required to have retroactive logs.");
 
 for (const batch of batches) for (const record of batch.records)
   console.log(`${batch.batchId} / ${record.athleteId} / ${record.field}: ${researchAuditSummary(record)}`);
 
-const plans=readCompletionPlans(fileURLToPath(new URL("../data/research/completion/",import.meta.url)),batches,authorization);
+const plans=readCompletionPlans(fileURLToPath(new URL("../data/research/completion/",import.meta.url)),batches,authorization,context);
 for (const {plan,report} of plans) {
   console.log(`${plan.batchId}: steps ${report.stepsComplete ? "COMPLETE" : "INCOMPLETE"}; declaration ${report.readyForReview ? "READY FOR REVIEW" : "NOT SUBMITTED"}; authorization ${report.authorizationComplete ? "MATCHED" : "NOT ASSESSED / MISMATCH"}; exit ${report.exitAllowed ? "ALLOWED (independent evidence review still required)" : "DENIED"}`);
   for (const f of [...report.findings,...report.authorizationFindings]) console.log(`  ${f.subject}: ${f.code}: ${f.detail}`);

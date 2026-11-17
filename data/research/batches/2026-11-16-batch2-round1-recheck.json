@@ -1,0 +1,720 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-11-16-batch2-round1-recheck",
+  "researcher": "DSH / PR #19 batch-2 round-1 re-verification (this session)",
+  "reviewedAt": "2026-11-16",
+  "records": [
+    {
+      "athleteId": "athlete-aj24-05-8",
+      "athleteName": "工藤 慎作",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "28:31.87; 2023-04-22; 第304回日本体育大学長距離競技会 兼 第1回NITTAIDAI Challenge Games; 10000m 9組 12着",
+          "sourceUrl": "https://www.waseda-ac.org/result/sfs2_diary/sfs2_diary/202304.html",
+          "locator": "第304回; 10000m(22日) 9組; 工藤慎作(1) 28分31秒87(12着)"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "waseda-ac.jp 工藤慎作 自己最高記録 10000m",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://waseda-ac.jp/team/member/detail/168",
+              "section": "選手紹介 自己最高記録",
+              "access": "read",
+              "finding": "10000m 28分31秒87；页面不提供赛事与日期"
+            }
+          ],
+          "result": "名册给出候选值但缺赛事定位"
+        },
+        {
+          "stage": "reverse",
+          "query": "工藤慎作 28分31秒87 第304回",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.waseda-ac.org/result/sfs2_diary/sfs2_diary/202304.html",
+              "section": "2023年4月 第304回日体大長距離競技会 10000m(22日) 9組",
+              "access": "read",
+              "finding": "工藤慎作(1) 28分31秒87(12着) 自己新記録；比赛日2023-04-22"
+            }
+          ],
+          "result": "旧站月报定位到赛事、日期与组别"
+        },
+        {
+          "stage": "verification",
+          "query": "工藤慎作 28:31.87 World Athletics 10000m",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/_/14955200",
+              "section": "Profile → Personal Bests → 10,000 Metres",
+              "access": "read",
+              "finding": "WA记28:35.76（2023-05-11，相模原），晚于且慢于4月成绩，不构成冲突"
+            },
+            {
+              "url": "https://www.waseda-ac.jp/team/member/detail/168",
+              "section": "選手紹介 自己最高記録",
+              "access": "read",
+              "finding": "2026-11-16仍记10000m 28分31秒87，为当前自己最高"
+            }
+          ],
+          "result": "确认4月成绩为当前PB，WA未收录该场"
+        }
+      ],
+      "final": {
+        "value": "28:31.87; 2023-04-22; 第304回日本体育大学長距離競技会 兼 第1回NITTAIDAI Challenge Games; 10000m 9組 12着",
+        "sourceIds": [
+          "waseda-2023-04-results"
+        ],
+        "locator": "第304回; 10000m(22日) 9組; 工藤慎作(1) 28分31秒87(12着)",
+        "revision": "早稲田大学競走部 2023年4月 試合結果; retrieved 2026-11-16"
+      },
+      "identityEvidence": "athlete-aj24-05-8 为工藤慎作；早稲田官方选手页与2023年4月月报同指早大选手，姓名、学年(1年)与赛事一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "核对早稲田自己最高記録（仍为28:31.87）、WA（28:35.76为更晚更慢成绩）及检索结果，未发现更快正式成绩。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "athleteId": "athlete-aj24-05-8",
+      "athleteName": "工藤 慎作",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "1:00:06; 第77回香川丸亀国際ハーフマラソン 兼 第28回日本学生ハーフマラソン選手権大会; 2025-02-02; gross",
+          "sourceUrl": "https://waseda-ac.jp/competition/detail/464",
+          "locator": "男子ハーフマラソン 工藤慎作(2) 1:00:06 PB 総合5位"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "早稲田 工藤慎作 丸亀 ハーフ 1:00:06",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://waseda-ac.jp/competition/detail/464",
+              "section": "第77回香川丸亀国際ハーフマラソン 兼 第28回日本学生ハーフマラソン選手権大会",
+              "access": "read",
+              "finding": "期日2025年2月1-2日；工藤慎作(2) 1:00:06 PB 総合5位"
+            }
+          ],
+          "result": "大学官方赛事报告给出届数、日期与成绩"
+        },
+        {
+          "stage": "reverse",
+          "query": "第76回 第77回 香川丸亀国際ハーフマラソン 2025 工藤",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://runnet.jp/record/smp/raceresultshow.do?numberCard=306&raceId=363374",
+              "section": "第77回大会 個人記録詳細",
+              "access": "read",
+              "finding": "ナンバー306 工藤慎作；距離21.0975km；グロス1:00:06、ネット1:00:03、総合5位"
+            }
+          ],
+          "result": "官方计时服务确认届数、距离与gross成绩；旧数据的第76回为错误届数"
+        },
+        {
+          "stage": "verification",
+          "query": "第77回香川丸亀国際ハーフマラソン 期日 2025-02-02",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://waseda-ac.jp/competition/detail/464",
+              "section": "期日欄",
+              "access": "read",
+              "finding": "2025年2月1日(土)～2日(日)"
+            },
+            {
+              "url": "https://www.kgrr.org/files/competition/33/40/kojinseiseki.pdf",
+              "section": "（不适用于半马PB，仅用于确认箱根予選会不同赛事）",
+              "access": "read",
+              "finding": "该PDF为2022年箱根予選会，与丸亀无关"
+            }
+          ],
+          "result": "届数77、比赛日2025-02-02、正式半马21.0975km与gross口径确认"
+        }
+      ],
+      "final": {
+        "value": "1:00:06; 第77回香川丸亀国際ハーフマラソン 兼 第28回日本学生ハーフマラソン選手権大会; 2025-02-02; gross",
+        "sourceIds": [
+          "waseda-kumamme-2025"
+        ],
+        "locator": "男子ハーフマラソン 工藤慎作(2) 1:00:06 PB 総合5位",
+        "revision": "早稲田大学競走部 第77回大会报告; retrieved 2026-11-16"
+      },
+      "identityEvidence": "早稲田官方报告、RUNNET计时与WA PB（1:00:06/2025-02-02）一致指向同一场比赛与同一人。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "WA PB仍为1:00:06(2025-02-02)；大学官方页与RUNNET届数/日期一致；未发现更快半马成绩。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "athleteId": "athlete-aj24-02-8",
+      "athleteName": "山川 拓馬",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "13:56.92; 2023-07-15; 第2回富士裾野トラックミート; 5000m 5組 1着",
+          "sourceUrl": "https://www.susono-rk.com/富士裾野トラックミート/第2回富士裾野トラックミート-過去大会/招待レース-記録/?mobile=1",
+          "locator": "男子5000m 5組 決勝 <07/15> 1位 13:56.92 山川拓馬 大2 駒澤大学・長野県"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "山川拓馬 5000m 13:56.92 駒澤",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.yomiuri.co.jp/hakone-ekiden/2026/teams/2/00103212211/",
+              "section": "選手プロフィル 記録",
+              "access": "read",
+              "finding": "5000m公認 13分56秒92（2026箱根エントリー時）"
+            }
+          ],
+          "result": "读卖选手档案给出5000m公認值，但无赛事"
+        },
+        {
+          "stage": "reverse",
+          "query": "山川拓馬 13:56.92 富士裾野",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.susono-rk.com/富士裾野トラックミート/第2回富士裾野トラックミート-過去大会/招待レース-記録/?mobile=1",
+              "section": "男子5000m 5組 決勝 <07/15>",
+              "access": "read",
+              "finding": "1位 13:56.92 大会新 山川拓馬 大2 駒澤大学・長野県；大会[2023/07/15]"
+            }
+          ],
+          "result": "地方陆协正式结果定位到赛事、日期、组别"
+        },
+        {
+          "stage": "verification",
+          "query": "山川拓馬 5000m 2025 2026 駒澤",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/-/14921561",
+              "section": "Profile → Personal Bests → 5000 Metres",
+              "access": "read",
+              "finding": "WA仅记14:10.48(2020)，未收录大学期间成绩"
+            },
+            {
+              "url": "https://komazawa-ekiden.com/record/record-komadai",
+              "section": "駒大ランキング 5000m",
+              "access": "read",
+              "finding": "前十未见山川，无法提供更新值"
+            }
+          ],
+          "result": "未发现更快正式成绩；WA缺项不作为否定依据"
+        }
+      ],
+      "final": {
+        "value": "13:56.92; 2023-07-15; 第2回富士裾野トラックミート; 5000m 5組 1着",
+        "sourceIds": [
+          "susono-2023-5000m"
+        ],
+        "locator": "男子5000m 5組 決勝 <07/15> 1位 13:56.92 山川拓馬 大2 駒澤大学",
+        "revision": "裾野市陸上競技協会 招待レース記録; retrieved 2026-11-16"
+      },
+      "identityEvidence": "结果页写明大2、駒澤大学・長野県，与注册选手的大学/出身县一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "WA仅有2020旧值；读卖公認值13:56.92与2023地方陆协结果一致；检索未见更快正式成绩。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "athleteId": "athlete-aj24-06-3",
+      "athleteName": "ヴィクター キムタイ",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "27:41.04; 2023-11-11; 日体大長距離競技会（日体大健志台）",
+          "sourceUrl": "https://www.josai.ac.jp/tjp/club/dansiekiden/",
+          "locator": "歴代最高記録 10000m(国際記録): 27分41秒04 Victor Kimutai 2023.11.11 日体大長距離競技会 日体大健志台"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "城西大学 歴代記録 キムタイ 10000m",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.josai.ac.jp/tjp/club/dansiekiden/",
+              "section": "歴代最高記録 10000m(国際記録)",
+              "access": "read",
+              "finding": "27分41秒04 Victor Kimutai 2023.11.11 日体大長距離競技会 日体大健志台"
+            }
+          ],
+          "result": "学校历代记录表同时给出成绩、日期、赛事与地点"
+        },
+        {
+          "stage": "reverse",
+          "query": "キムタイ 27分41秒04 日体大",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=josai&player=83",
+              "section": "選手名鑑 1万メートル公認記録",
+              "access": "read",
+              "finding": "27分41秒04"
+            },
+            {
+              "url": "https://www.josai.ac.jp/tjp/club/dansiekiden/",
+              "section": "10000m 10傑",
+              "access": "read",
+              "finding": "1位 27分41秒04 Victor Kimutai 2023.11.11"
+            }
+          ],
+          "result": "名鉴与学校10杰一致"
+        },
+        {
+          "stage": "verification",
+          "query": "Victor Kimutai 27:41.04 World Athletics",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/kenya/victor-kimutai-15031040",
+              "section": "Profile → Personal Bests → 10,000 Metres",
+              "access": "read",
+              "finding": "27:41.04；11 NOV 2023；NITTAIDAI Athletic Stadium"
+            }
+          ],
+          "result": "WA日期与场地与学校记录一致，确认赛事"
+        }
+      ],
+      "final": {
+        "value": "27:41.04; 2023-11-11; 日体大長距離競技会（日体大健志台）",
+        "sourceIds": [
+          "josai-all-time-records"
+        ],
+        "locator": "歴代最高記録 10000m(国際記録): 27分41秒04 Victor Kimutai 2023.11.11",
+        "revision": "城西大学男子駅伝部 歴代記録表; retrieved 2026-11-16"
+      },
+      "identityEvidence": "学校记录表与WA均指 Victor Kimutai（城西大学/肯尼亚），姓名与学校一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "WA PB仍为27:41.04；学校历代表与10杰一致；未发现更快10000m成绩。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "athleteId": "athlete-aj24-06-3",
+      "athleteName": "ヴィクター キムタイ",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "1:02:21; 2022-10-15; 第99回東京箱根間往復大学駅伝競走予選会; 21.0975km",
+          "sourceUrl": "https://www.kgrr.org/files/competition/33/40/kojinseiseki.pdf",
+          "locator": "p.1 6位 No.207 ヴィクター・キムタイ 城西大学 1:02:21"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "城西大学 ハーフマラソン 歴代 キムタイ 1:02:21",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.josai.ac.jp/tjp/club/dansiekiden/",
+              "section": "ハーフマラソン 10傑",
+              "access": "read",
+              "finding": "10位 1時間02分21秒 Victor Kimutai 2022.10.15 箱根駅伝予選会"
+            },
+            {
+              "url": "https://hochi.news/hakone/member/?school=josai&player=83",
+              "section": "選手名鑑 ハーフマラソン公認記録",
+              "access": "read",
+              "finding": "1時間02分21秒"
+            }
+          ],
+          "result": "学校10杰给出日期/赛事；名鉴给出同值"
+        },
+        {
+          "stage": "reverse",
+          "query": "キムタイ 1時間02分21秒 箱根駅伝予選会",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kgrr.org/files/competition/33/40/kojinseiseki.pdf",
+              "section": "第99回箱根予選会 個人成績 p.1",
+              "access": "read",
+              "finding": "6位 No.207 ヴィクター・キムタイ 城西大学 1:02:21；表頭21.0975km；2022-10-15 09:35"
+            }
+          ],
+          "result": "关东学连正式PDF定位到号码、名次与距离"
+        },
+        {
+          "stage": "verification",
+          "query": "第99回箱根駅伝予選会 2022-10-15 21.0975km 記録",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kgrr.org/files/competition/33/40/kojinseiseki.pdf",
+              "section": "p.1 表頭と記録列",
+              "access": "read",
+              "finding": "コース21.0975km；記録列1:02:21（20km通過59:12，不取20km值）"
+            }
+          ],
+          "result": "确认取21.0975km最终记录而非中间计时"
+        }
+      ],
+      "final": {
+        "value": "1:02:21; 2022-10-15; 第99回東京箱根間往復大学駅伝競走予選会; 21.0975km",
+        "sourceIds": [
+          "kgrr-hk99-qualifier-results"
+        ],
+        "locator": "p.1 6位 No.207 ヴィクター・キムタイ 城西大学 1:02:21",
+        "revision": "関東学生陸上競技連盟 第99回予選会 個人成績; retrieved 2026-11-16"
+      },
+      "identityEvidence": "PDF行给出城西大学、号码207与姓名；学校10杰同值同赛事。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "学校半马10杰与关东学连PDF一致；未发现更快半马正式成绩；WA无半马PB不影响。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "athleteId": "athlete-aj24-06-4",
+      "athleteName": "斎藤 将也",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "13:33.32; 2026-07-04; ホクレン・ディスタンスチャレンジ2026千歳大会; 5000m B組",
+          "sourceUrl": "https://www.subaru.co.jp/sports/athletics/race/2026_07_06_125556/",
+          "locator": "5000m B組8着 斎藤将也 13分33秒32（自己新）"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "斎藤将也 5000m 自己新 千歳 2026",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.subaru.co.jp/sports/athletics/race/2026_07_06_125556/",
+              "section": "ホクレン・ディスタンスチャレンジ2026千歳大会",
+              "access": "read",
+              "finding": "日時2026年7月4日；5000m B組8着 13分33秒32（自己新）"
+            }
+          ],
+          "result": "实业团官方比赛报告给出毕业后新PB"
+        },
+        {
+          "stage": "reverse",
+          "query": "斎藤将也 13分33秒39 13分33秒32",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.josai.ac.jp/tjp/club/dansiekiden/",
+              "section": "5000m 10傑",
+              "access": "read",
+              "finding": "4位 13分33秒39 斎藤将也 2024.6.2 日体大長距離競技会（在校时纪录）"
+            }
+          ],
+          "result": "确认旧值13:33.39为2024年学校纪录，非当前PB"
+        },
+        {
+          "stage": "verification",
+          "query": "ホクレンDC 2026千歳 斎藤将也 13:33.32",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.subaru.co.jp/sports/athletics/race/2026_07_06_125556/",
+              "section": "種目・選手名・順位・タイム表",
+              "access": "read",
+              "finding": "5000m B組8着 13分33秒32（自己新）；会場 青葉陸上競技場"
+            },
+            {
+              "url": "https://www.josai.ac.jp/tjp/club/dansiekiden/",
+              "section": "5000m 歴代",
+              "access": "read",
+              "finding": "学校表尚未列入2026-07-04成绩"
+            }
+          ],
+          "result": "确认赛事日期与组别；学校表滞后不否定实业团官方成绩"
+        }
+      ],
+      "final": {
+        "value": "13:33.32; 2026-07-04; ホクレン・ディスタンスチャレンジ2026千歳大会; 5000m B組",
+        "sourceIds": [
+          "subaru-chitose-2026"
+        ],
+        "locator": "5000m B組8着 斎藤将也 13分33秒32（自己新）",
+        "revision": "SUBARU陸上競技部 大会報告; retrieved 2026-11-16"
+      },
+      "identityEvidence": "SUBARU为斎藤毕业后所属；报告同时列城西出身与姓名，身份连续。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "毕业后官方报告13:33.32晚于学校13:33.39/2024-06-02；未见更快5000m成绩。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "athleteId": "athlete-aj24-06-4",
+      "athleteName": "斎藤 将也",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "1:03:18; 2022-10-15; 第99回東京箱根間往復大学駅伝競走予選会; 21.0975km",
+          "sourceUrl": "https://www.kgrr.org/files/competition/33/40/kojinseiseki.pdf",
+          "locator": "p.2 27位 No.209 斎藤将也 城西大学 1:03:18"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "斎藤将也 ハーフマラソン 1:03:18",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=josai&player=85",
+              "section": "選手名鑑 ハーフマラソン公認記録",
+              "access": "read",
+              "finding": "1時間03分18秒"
+            },
+            {
+              "url": "https://www.yomiuri.co.jp/hakone-ekiden/2026/teams/6/00200191412/",
+              "section": "プロフィル 記録",
+              "access": "read",
+              "finding": "ハーフマラソン公認 1時間03分18秒"
+            }
+          ],
+          "result": "名鉴与读卖档案给出同值，但无赛事"
+        },
+        {
+          "stage": "reverse",
+          "query": "斎藤将也 1時間03分18秒 箱根駅伝予選会",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kgrr.org/files/competition/33/40/kojinseiseki.pdf",
+              "section": "第99回箱根予選会 個人成績 p.2",
+              "access": "read",
+              "finding": "27位 No.209 斎藤将也 城西大学 1:03:18；表頭21.0975km；2022-10-15"
+            }
+          ],
+          "result": "关东学连PDF定位到赛事、日期与正式距离"
+        },
+        {
+          "stage": "verification",
+          "query": "第99回箱根予選会 2022 斎藤 209",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kgrr.org/files/competition/33/40/kojinseiseki.pdf",
+              "section": "p.2 記録列",
+              "access": "read",
+              "finding": "1:03:18（20km通過1:00:02，不取20km值）"
+            }
+          ],
+          "result": "确认取21.0975km最终记录"
+        }
+      ],
+      "final": {
+        "value": "1:03:18; 2022-10-15; 第99回東京箱根間往復大学駅伝競走予選会; 21.0975km",
+        "sourceIds": [
+          "kgrr-hk99-qualifier-results"
+        ],
+        "locator": "p.2 27位 No.209 斎藤将也 城西大学 1:03:18",
+        "revision": "関東学生陸上競技連盟 第99回予選会 個人成績; retrieved 2026-11-16"
+      },
+      "identityEvidence": "PDF行给出城西大学、号码209与姓名，与名鉴/读卖一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "未发现更快半马正式成绩；箱根予選会为21.0975km正式距离；SUBARU资料未列出更快半马。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "athleteId": "athlete-aj24-06-4",
+      "athleteName": "斎藤 将也",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "2003-10-22",
+          "sourceUrl": "https://www.subaru.co.jp/sports/athletics/news/2025_12_25_095129/",
+          "locator": "プロフィール: 2003年10月22日生まれ"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "斎藤将也 生年月日 2003 SUBARU",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.subaru.co.jp/sports/athletics/news/2025_12_25_095129/",
+              "section": "2026年度新戦力 プロフィール",
+              "access": "read",
+              "finding": "2003年10月22日生まれ；福井県出身／敦賀気比高校→城西大学"
+            }
+          ],
+          "result": "实业团新人介绍给出出生日期与学籍"
+        },
+        {
+          "stage": "reverse",
+          "query": "斎藤将也 2003年10月22日 敦賀気比",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=josai&player=85",
+              "section": "選手名鑑",
+              "access": "read",
+              "finding": "出身校 敦賀気比；学年/年龄与出生年份一致"
+            },
+            {
+              "url": "https://www.yomiuri.co.jp/hakone-ekiden/2026/teams/6/00200191412/",
+              "section": "プロフィル",
+              "access": "read",
+              "finding": "年齢22歳；出身校 敦賀気比"
+            }
+          ],
+          "result": "学校与年龄交叉，支持同一人"
+        },
+        {
+          "stage": "verification",
+          "query": "SUBARU 斎藤将也 プロフィール 生年月日",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.subaru.co.jp/sports/athletics/news/2026_04_14_161351/",
+              "section": "2026新戦力 記事",
+              "access": "read",
+              "finding": "同一选手介绍，继续使用其城西大学经历"
+            }
+          ],
+          "result": "实业团后续介绍保持同一身份"
+        }
+      ],
+      "final": {
+        "value": "2003-10-22",
+        "sourceIds": [
+          "subaru-saito-profile"
+        ],
+        "locator": "プロフィール: 2003年10月22日生まれ",
+        "revision": "SUBARU運動部 2025-12-25; retrieved 2026-11-16"
+      },
+      "identityEvidence": "SUBARU新人介绍与報知/读卖档案的姓名、出身校、年龄段一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "出生日期为本人固定资料，实业团官方介绍与后续报道一致。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    }
+  ]
+}

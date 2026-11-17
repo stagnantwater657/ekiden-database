@@ -508,5 +508,1085 @@
       "basis": "School newsletter PDF reviewed. Only the objective school/graduation fact is recorded; no PDF or image is republished. No permission claimed.",
       "permissionReference": null
     }
+  },
+  {
+    "id": "wa-shinsaku-kudo",
+    "title": "World Athletics 選手プロフィール 工藤 慎作（Shinsaku KUDO）",
+    "url": "https://worldathletics.org/athletes/_/14955200",
+    "collectedAt": "2026-11-16",
+    "locator": "Profile: basic data (date of birth); Personal Bests",
+    "coverage": "出生日期与 5000m/10000m/半马 PB 的日期、场地与赛事",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://worldathletics.org/terms-of-use",
+      "reviewedAt": "2026-11-16",
+      "basis": "Public athlete database. Only objective facts (date of birth, event, mark, date, venue, competition) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "wa-takuma-yamakawa",
+    "title": "World Athletics 選手プロフィール 山川 拓馬（Takuma YAMAKAWA）",
+    "url": "https://worldathletics.org/athletes/-/14921561",
+    "collectedAt": "2026-11-16",
+    "locator": "Profile: basic data (date of birth); Personal Bests",
+    "coverage": "出生日期与 10000m/半马 PB 的日期、场地",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://worldathletics.org/terms-of-use",
+      "reviewedAt": "2026-11-16",
+      "basis": "Public athlete database. Only objective facts (date of birth, event, mark, date, venue, competition) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "wa-hiromichi-nonaka",
+    "title": "World Athletics 選手プロフィール 野中 恒亨（Hiromichi NONAKA）",
+    "url": "https://worldathletics.org/athletes/_/14963045",
+    "collectedAt": "2026-11-16",
+    "locator": "Profile: basic data (date of birth); Personal Bests",
+    "coverage": "出生日期与 5000m/10000m/半马 PB 的日期、场地与赛事",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://worldathletics.org/terms-of-use",
+      "reviewedAt": "2026-11-16",
+      "basis": "Public athlete database. Only objective facts (date of birth, event, mark, date, venue, competition) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "wa-victor-kimutai",
+    "title": "World Athletics 選手プロフィール ヴィクター・キムタイ（Victor KIMUTAI）",
+    "url": "https://worldathletics.org/athletes/kenya/victor-kimutai-15031040",
+    "collectedAt": "2026-11-16",
+    "locator": "Profile: basic data (date of birth); Personal Bests",
+    "coverage": "出生日期与 5000m PB 的日期、场地与赛事",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://worldathletics.org/terms-of-use",
+      "reviewedAt": "2026-11-16",
+      "basis": "Public athlete database. Only objective facts (date of birth, event, mark, date, venue, competition) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "waseda-kudo-profile",
+    "title": "早稲田大学競走部 選手紹介 工藤 慎作",
+    "url": "https://waseda-ac.jp/team/member/detail/168",
+    "collectedAt": "2026-11-16",
+    "locator": "選手紹介: 生年月日 2004/11/10、出身校 八千代松陰高校、自己最高記録 5000m 13分38秒67・10000m 28分31秒87・ハーフ 1時間00分06秒",
+    "coverage": "大学公式の生年月日・出身校・自己最高記録",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://waseda-ac.jp/",
+      "reviewedAt": "2026-11-16",
+      "basis": "University track-team profile reviewed. Only objective facts are recorded; no page content or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-kudo",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 工藤 慎作",
+    "url": "https://hochi.news/hakone/member/?school=waseda&player=53",
+    "collectedAt": "2026-11-16",
+    "locator": "選手名鑑: 学年3年・登録陸協 千葉・出身校 八千代松陰",
+    "coverage": "出身高中与所属的交叉核验",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Tournament guide page reviewed. Only objective facts are recorded; no article text, image or layout republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-yamakawa",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 山川 拓馬",
+    "url": "https://hochi.news/hakone/member/?school=komazawa&player=21",
+    "collectedAt": "2026-11-16",
+    "locator": "選手名鑑: 学年4年・登録陸協 長野・出身校 上伊那農",
+    "coverage": "出身高中与所属",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Tournament guide page reviewed. Only objective facts are recorded; no article text, image or layout republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-nonaka",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 野中 恒亨",
+    "url": "https://hochi.news/hakone/member/?school=kokugakuin&player=40",
+    "collectedAt": "2026-11-16",
+    "locator": "選手名鑑: 学年3年・登録陸協 静岡・出身校 浜松工",
+    "coverage": "出身高中与所属",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Tournament guide page reviewed. Only objective facts are recorded; no article text, image or layout republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-kimutai",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 ヴィクター・キムタイ",
+    "url": "https://hochi.news/hakone/member/?school=josai&player=83",
+    "collectedAt": "2026-11-16",
+    "locator": "選手名鑑: 学年4年・登録陸協 学連・出身校 マウ(ケニア)",
+    "coverage": "出身学校与所属",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Tournament guide page reviewed. Only objective facts are recorded; no article text, image or layout republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-saito",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 斎藤 将也",
+    "url": "https://hochi.news/hakone/member/?school=josai&player=85",
+    "collectedAt": "2026-11-16",
+    "locator": "選手名鑑: 学年4年・登録陸協 福井・出身校 敦賀気比",
+    "coverage": "出身高中与所属",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Tournament guide page reviewed. Only objective facts are recorded; no article text, image or layout republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "komazawa-hakodate-half-2025",
+    "title": "駒澤大学陸上競技部 試合結果 2025函館マラソン",
+    "url": "http://komazawa-ekiden.com/results/6%e6%9c%8829%e6%97%a5%e6%97%a52025%e5%87%bd%e9%a4%a8%e3%83%9e%e3%83%a9%e3%82%bd%e3%83%b3/",
+    "collectedAt": "2026-11-16",
+    "locator": "ハーフ 男子招待・実業団学連登録: 3位 山川拓馬(4) 1時間01分25秒 ※PB!",
+    "coverage": "大学公式の試合結果による半马 PB",
+    "revision": "2025.06.29; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "http://komazawa-ekiden.com/",
+      "reviewedAt": "2026-11-16",
+      "basis": "University track-team result page reviewed. Only objective result facts are recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "getsuriku-nonaka-hachioji-10000-2025",
+    "title": "月陸Online 國學院大・野中恒亨が27分36秒64／八王子LD",
+    "url": "https://www.rikujyokyogi.co.jp/archives/191630",
+    "collectedAt": "2026-11-16",
+    "locator": "記事本文「野中恒亨（國學院大）が…27分36秒64をマーク」",
+    "coverage": "10000m PB 的赛事与成绩",
+    "revision": "2025.11.22 配信; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.rikujyokyogi.co.jp/サイトポリシー",
+      "reviewedAt": "2026-11-16",
+      "basis": "Site policy protects articles, photographs and layout and prohibits unauthorised republication. Only independently structured objective facts are recorded; no article text, image or layout is republished. No written permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "ntv-saito-hachioji-10000-2024",
+    "title": "日本テレビ 箱根駅伝サイト 【陸上・八王子LD】城西大・斎藤将也が自己新",
+    "url": "https://www.ntv.co.jp/hakone/articles/3758pibz71nad1ci0fln.html",
+    "collectedAt": "2026-11-16",
+    "locator": "記事本文「27分45秒12の自己ベストをマーク」",
+    "coverage": "10000m PB 的赛事与成绩",
+    "revision": "2024.11.23 公開; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.ntv.co.jp/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Broadcaster article reviewed. Only objective result facts are recorded; no article text, image or layout republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "waseda-2023-04-results",
+    "title": "早稲田大学競走部 2023年4月 試合結果（旧サイト）",
+    "url": "https://www.waseda-ac.org/result/sfs2_diary/sfs2_diary/202304.html",
+    "collectedAt": "2026-11-16",
+    "locator": "第304回日本体育大学長距離競技会 兼 第1回NITTAIDAI Challenge Games; 10000m(22日) 9組 工藤慎作(1) 28分31秒87(12着,自己新)",
+    "coverage": "工藤慎作 10000m 28:31.87 的赛事、日期与组别",
+    "revision": "2023-04 月报; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.waseda-ac.org/",
+      "reviewedAt": "2026-11-16",
+      "basis": "University track-team monthly results page reviewed. Only objective result facts are recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "waseda-kumamme-2025",
+    "title": "早稲田大学競走部 第77回香川丸亀国際ハーフマラソン 兼 第28回日本学生ハーフマラソン選手権大会",
+    "url": "https://waseda-ac.jp/competition/detail/464",
+    "collectedAt": "2026-11-16",
+    "locator": "男子ハーフマラソン: 工藤慎作(2) 1:00:06 PB 総合5位/日本学生選手権1位; 期日2025年2月1-2日",
+    "coverage": "工藤慎作 半马 1:00:06 的赛事届数、日期与名次",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://waseda-ac.jp/",
+      "reviewedAt": "2026-11-16",
+      "basis": "University competition page reviewed. Only objective result facts are recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "susono-2023-5000m",
+    "title": "裾野市陸上競技協会 第2回富士裾野トラックミート 招待レース記録",
+    "url": "https://www.susono-rk.com/富士裾野トラックミート/第2回富士裾野トラックミート-過去大会/招待レース-記録/?mobile=1",
+    "collectedAt": "2026-11-16",
+    "locator": "男子5000m 5組 決勝 <07/15>: 1位 13:56.92 山川拓馬 大2 駒澤大学・長野県; 大会 [2023/07/15 裾野市運動公園陸上競技場]",
+    "coverage": "山川拓馬 5000m 13:56.92 的赛事、日期与组别",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.susono-rk.com/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Local athletics association results page reviewed. Only objective result facts are recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "josai-all-time-records",
+    "title": "城西大学男子駅伝部 歴代記録表",
+    "url": "https://www.josai.ac.jp/tjp/club/dansiekiden/",
+    "collectedAt": "2026-11-16",
+    "locator": "10000m(国際記録): 27分41秒04 Victor Kimutai 2023.11.11 日体大長距離競技会 日体大健志台; ハーフマラソン10傑: 1時間02分21秒 Victor Kimutai 2022.10.15 箱根駅伝予選会",
+    "coverage": "キムタイの 10000m/半马 记录、日期与赛事",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.josai.ac.jp/",
+      "reviewedAt": "2026-11-16",
+      "basis": "University team record page reviewed. Only objective record facts are recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "kgrr-hk99-qualifier-results",
+    "title": "関東学生陸上競技連盟 第99回東京箱根間往復大学駅伝競走予選会 個人成績",
+    "url": "https://www.kgrr.org/files/competition/33/40/kojinseiseki.pdf",
+    "collectedAt": "2026-11-16",
+    "locator": "p.1 6位 No.207 ヴィクター・キムタイ 城西大学 1:02:21; p.2 27位 No.209 斎藤将也 城西大学 1:03:18; 表頭 21.0975km, 2022-10-15 09:35",
+    "coverage": "キムタイ半马 1:02:21 与斎藤半马 1:03:18 的正式赛事、距离与日期",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.kgrr.org/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Official Kanto federation result PDF reviewed (text layer). Only objective result facts are recorded; no PDF republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "subaru-chitose-2026",
+    "title": "SUBARU陸上競技部 ホクレン・ディスタンスチャレンジ2026千歳大会",
+    "url": "https://www.subaru.co.jp/sports/athletics/race/2026_07_06_125556/",
+    "collectedAt": "2026-11-16",
+    "locator": "5000m B組8着 斎藤将也 13分33秒32（自己新）; 日時 2026年7月4日 北海道千歳市・青葉陸上競技場",
+    "coverage": "斎藤将也 5000m 13:33.32 的赛事、日期与组别",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.subaru.co.jp/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Corporate team race report reviewed. Only objective result facts are recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "subaru-saito-profile",
+    "title": "SUBARU運動部 2026年度新戦力 城西大・斎藤将也選手 プロフィール",
+    "url": "https://www.subaru.co.jp/sports/athletics/news/2025_12_25_095129/",
+    "collectedAt": "2026-11-16",
+    "locator": "プロフィール: 2003年10月22日生まれ 福井県出身／敦賀気比高校 → 城西大学",
+    "coverage": "斎藤将也的出生日期与出身高中",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.subaru.co.jp/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Corporate team announcement reviewed. Only objective profile facts are recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "wa-shunsuke-yoshii",
+    "title": "World Athletics 選手プロフィール 吉居 駿恭（Shunsuke YOSHII）",
+    "url": "https://worldathletics.org/athletes/japan/shunsuke-yoshii-14900218",
+    "collectedAt": "2026-11-16",
+    "locator": "Profile: basic data (date of birth); Personal Bests",
+    "coverage": "出生日期与 5000m 日期",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://worldathletics.org/terms-of-use",
+      "reviewedAt": "2026-11-16",
+      "basis": "Public athlete database. Only objective facts (date of birth, event, mark, date, venue, competition) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "wa-yoshihiro-kusuoka",
+    "title": "World Athletics 選手プロフィール 楠岡 由浩（Yosihiro KUSUOKA）",
+    "url": "https://worldathletics.org/athletes/_/14979888",
+    "collectedAt": "2026-11-16",
+    "locator": "Profile: basic data (date of birth); Personal Bests",
+    "coverage": "出生日期与 5000m/10000m/半马 日期",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://worldathletics.org/terms-of-use",
+      "reviewedAt": "2026-11-16",
+      "basis": "Public athlete database. Only objective facts (date of birth, event, mark, date, venue, competition) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "wa-shota-shiode",
+    "title": "World Athletics 選手プロフィール 塩出 翔太（Shota SHIODE）",
+    "url": "https://worldathletics.org/athletes/japan/shota-shiode-14895660",
+    "collectedAt": "2026-11-16",
+    "locator": "Profile: basic data (date of birth); Personal Bests",
+    "coverage": "出生日期与 5000m/半马 日期",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://worldathletics.org/terms-of-use",
+      "reviewedAt": "2026-11-16",
+      "basis": "Public athlete database. Only objective facts (date of birth, event, mark, date, venue, competition) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "wa-kotaro-shinohara",
+    "title": "World Athletics 選手プロフィール 篠原 倖太朗（Kotaro SHINOHARA）",
+    "url": "https://worldathletics.org/athletes/japan/kotaro-shinohara-14895798",
+    "collectedAt": "2026-11-16",
+    "locator": "Profile: basic data (date of birth); Personal Bests",
+    "coverage": "出生日期与 5000m/10000m/半马 日期",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://worldathletics.org/terms-of-use",
+      "reviewedAt": "2026-11-16",
+      "basis": "Public athlete database. Only objective facts (date of birth, event, mark, date, venue, competition) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hakone-2025-entry-list",
+    "title": "関東学生陸上競技連盟 第102回箱根駅伝 チームエントリー",
+    "url": "https://www.hakone-ekiden.jp/_assets/2025/5b0fad63e259a678d2b6ee1c282cb4d3f550b08e.pdf",
+    "collectedAt": "2026-11-16",
+    "locator": "p.3 3.國學院大學 青木瑠郁: 生年月日 2004/3/31、登録陸協 群馬、出身校 健大高崎、5000m 13:30.42、10000m 28:02.00、半马 1:00:45",
+    "coverage": "青木瑠郁的出生日期、出身校与记录值",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.hakone-ekiden.jp/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Official race entry PDF reviewed (text layer). Only objective facts are recorded; no PDF republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-yoshii",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 吉居 駿恭",
+    "url": "https://hochi.news/hakone/member/?school=chuo&player=68",
+    "collectedAt": "2026-11-16",
+    "locator": "選手名鑑: 学年4年・登録陸協 愛知・出身校 仙台育英・10000m公認 27:44.48",
+    "coverage": "出身高中与记录交叉",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-kusuoka",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 楠岡 由浩",
+    "url": "https://hochi.news/hakone/member/?school=teikyo&player=153",
+    "collectedAt": "2026-11-16",
+    "locator": "選手名鑑: 学年3年・登録陸協 熊本・出身校 慶誠・10000m公認 27:52.09・半马 1:01:43",
+    "coverage": "出身高中与记录交叉",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-shiode",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 塩出 翔太",
+    "url": "https://hochi.news/hakone/member/?school=aoyamagakuin&player=5",
+    "collectedAt": "2026-11-16",
+    "locator": "選手名鑑: 学年4年・登録陸協 広島・出身校 世羅",
+    "coverage": "出身高中",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "yomiuri-shinohara",
+    "title": "読売新聞 箱根駅伝2025 選手プロフィル 篠原 倖太朗",
+    "url": "https://www.yomiuri.co.jp/hakone-ekiden/2025/teams/2/00089173735",
+    "collectedAt": "2026-11-16",
+    "locator": "プロフィル: 登録陸協 千葉・出身校 富里・5000m公認 13:15.70・10000m公認 27:35.05",
+    "coverage": "出身高中与记录交叉",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.yomiuri.co.jp/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Profile page reviewed. Only objective facts recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "getsuriku-aoki-ageo-half-2025",
+    "title": "月陸Online 國學院大・青木瑠郁が1時間0分45秒で競り勝つ／上尾ハーフ",
+    "url": "https://www.rikujyokyogi.co.jp/archives/190433",
+    "collectedAt": "2026-11-16",
+    "locator": "記事本文「第38回上尾シティハーフマラソン…青木瑠郁（國學院大）が1時間0分45秒」",
+    "coverage": "青木 half PB 的赛事与日期",
+    "revision": "2025.11.16 配信; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.rikujyokyogi.co.jp/サイトポリシー",
+      "reviewedAt": "2026-11-16",
+      "basis": "Site policy protects articles, photographs and layout and prohibits unauthorised republication. Only independently structured objective facts are recorded; no article text, image or layout is republished. No written permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "getsuriku-yoshii-niigata-5000-2023",
+    "title": "月陸Online 吉居駿恭5000m13分22秒01／新潟ACC",
+    "url": "https://www.rikujyokyogi.co.jp/archives/115544",
+    "collectedAt": "2026-11-16",
+    "locator": "記事本文「アスレチックスチャレンジカップ（9月30日～10月1日／新潟市・デンカビッグスワンスタジアム）…吉居駿恭（中大）…13分22秒01」",
+    "coverage": "吉居 5000m PB 的赛事与日期",
+    "revision": "2023.10.01 配信; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.rikujyokyogi.co.jp/サイトポリシー",
+      "reviewedAt": "2026-11-16",
+      "basis": "Site policy protects articles, photographs and layout and prohibits unauthorised republication. Only independently structured objective facts are recorded; no article text, image or layout is republished. No written permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "getsuriku-yoshii-march-10000-2024",
+    "title": "月陸Online 吉居駿恭が27分44秒48の大学新記録／MARCH対抗戦",
+    "url": "https://www.rikujyokyogi.co.jp/archives/153949",
+    "collectedAt": "2026-11-16",
+    "locator": "記事本文「MARCH対抗戦2024（11月23日／町田GIONスタジアム）…中大・吉居駿恭（3年）は27分44秒48」",
+    "coverage": "吉居 10000m PB 的赛事与日期",
+    "revision": "2024.11.23 配信; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.rikujyokyogi.co.jp/サイトポリシー",
+      "reviewedAt": "2026-11-16",
+      "basis": "Site policy protects articles, photographs and layout and prohibits unauthorised republication. Only independently structured objective facts are recorded; no article text, image or layout is republished. No written permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "getsuriku-kusuoka-nittaidai-10000-2025",
+    "title": "月陸Online 楠岡由浩が1万m27分52秒09／日体大長距離競技会",
+    "url": "https://www.rikujyokyogi.co.jp/archives/190413",
+    "collectedAt": "2026-11-16",
+    "locator": "記事本文「第324回日体大長距離競技会兼第18回NCG…楠岡由浩（帝京大）が27分52秒09」",
+    "coverage": "楠岡 10000m PB 的赛事与日期",
+    "revision": "2025.11.15 配信; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.rikujyokyogi.co.jp/サイトポリシー",
+      "reviewedAt": "2026-11-16",
+      "basis": "Site policy protects articles, photographs and layout and prohibits unauthorised republication. Only independently structured objective facts are recorded; no article text, image or layout is republished. No written permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "getsuriku-shiode-nittaidai-10000-2025",
+    "title": "月陸Online 青学大・塩出翔太が10000m28分55秒81の自己新／日体大長距離競技会",
+    "url": "https://www.rikujyokyogi.co.jp/archives/173748",
+    "collectedAt": "2026-11-16",
+    "locator": "記事本文「第322回日本体育大学長距離競技会兼第16回NCG…6月14日…塩出翔太（青学大）が28分55秒81の自己新」",
+    "coverage": "塩出 10000m PB 的赛事与日期",
+    "revision": "2025.06.15 配信; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.rikujyokyogi.co.jp/サイトポリシー",
+      "reviewedAt": "2026-11-16",
+      "basis": "Site policy protects articles, photographs and layout and prohibits unauthorised republication. Only independently structured objective facts are recorded; no article text, image or layout is republished. No written permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "kraftia-108th-10000m-2024",
+    "title": "クラフティア 第108回日本陸上競技選手権大会・10000m 大会成績",
+    "url": "https://www.kraftia.co.jp/marathon/result/2024/0503_004143.html",
+    "collectedAt": "2026-11-16",
+    "locator": "男子10000m: 6位 篠原倖太朗 駒澤大 27分35秒05; 期日2024年5月3日/静岡・袋井エコパスタジアム",
+    "coverage": "篠原 10000m PB 的赛事与日期",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.kraftia.co.jp/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Official meet result page reviewed. Only objective result facts recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "tbs-shinohara-marugame-2025",
+    "title": "TBS NEWS DIG 篠原倖太朗 インタビュー（東日本実業団駅伝）",
+    "url": "https://newsdig.tbs.co.jp/articles/-/2259994",
+    "collectedAt": "2026-11-16",
+    "locator": "本文「今年2月の丸亀国際ハーフマラソンでは59分30秒の学生新で4位」",
+    "coverage": "篠原 半马 PB 的赛事与成绩",
+    "revision": "2025.10.31 配信; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://newsdig.tbs.co.jp/",
+      "reviewedAt": "2026-11-16",
+      "basis": "News article reviewed. Only objective result facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "getsuriku-shinohara-acc-5000-2024",
+    "title": "月陸Online 篠原倖太朗が13分15秒70／ACC新潟",
+    "url": "https://www.rikujyokyogi.co.jp/archives/147618",
+    "collectedAt": "2026-11-16",
+    "locator": "記事本文「篠原倖太朗が13分15秒70…／ACC新潟」",
+    "coverage": "篠原 5000m PB 的赛事与日期",
+    "revision": "2024.09.28 配信; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.rikujyokyogi.co.jp/サイトポリシー",
+      "reviewedAt": "2026-11-16",
+      "basis": "Site policy protects articles, photographs and layout and prohibits unauthorised republication. Only independently structured objective facts are recorded; no article text, image or layout is republished. No written permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "sei-aoki-profile",
+    "title": "住友電工 陸上競技部 選手紹介 青木 瑠郁",
+    "url": "https://sei.co.jp/trackfield/profile/aoki.html",
+    "collectedAt": "2026-11-16",
+    "locator": "ベスト記録: 3000m 8'07\"63、5000m 13'25\"62、10000m 28'02\"00、ハーフマラソン 1°00'45\"",
+    "coverage": "青木瑠郁的当前 PB 值",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://sei.co.jp/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Only objective facts (values, dates, places, editions) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "sei-2026-jaaf-result-report",
+    "title": "住友電工 陸上競技部 第110回日本陸上競技選手権大会 結果のご報告",
+    "url": "https://sei.co.jp/trackfield/news/209.html",
+    "collectedAt": "2026-11-16",
+    "locator": "「ルーキーの青木瑠郁（5000m）は終盤に先頭に立つ積極性を見せ、自己新記録で5位入賞を果たしました」",
+    "coverage": "青木 5000m 2026 日本選手権 決勝 5位・自己新",
+    "revision": "2026.6.26; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://sei.co.jp/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Only objective facts (values, dates, places, editions) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "jaaf-110-5000-prelim",
+    "title": "日本陸上競技連盟 第110回日本選手権 男子5000m 予選2組",
+    "url": "https://www.jaaf.or.jp/gallery/article/23562/",
+    "collectedAt": "2026-11-16",
+    "locator": "2026.06.12 男子5000m 予選2組: 4着 青木瑠郁（住友電工）13分27秒88 Q;「決勝は6月14日18:05～」",
+    "coverage": "青木 5000m 決勝的比赛日与出场",
+    "revision": "2026.06.12; retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.jaaf.or.jp/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Only objective facts (values, dates, places, editions) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "koku-2024-setagaya-10000",
+    "title": "國學院大學 陸上競技部 第1回世田谷陸上競技会 結果",
+    "url": "https://www.kokugakuin.com/result/1734/",
+    "collectedAt": "2026-11-16",
+    "locator": "2024.04.07: 第1回世田谷陸上競技会（6日開催）男子10000m 2組 青木 瑠郁 3年 28'02\"00（自己ベスト・國學院歴代2位）",
+    "coverage": "青木 10000m 的赛事、日期与成绩",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.kokugakuin.com/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Only objective facts (values, dates, places, editions) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "koku-10000-top10",
+    "title": "國學院大學 陸上競技部 10000m 歴代10傑",
+    "url": "https://www.kokugakuin.com/top10/426/",
+    "collectedAt": "2026-11-16",
+    "locator": "4位 28'02\"00 青木 瑠郁 世田谷陸上競技会 令和6年4月6日",
+    "coverage": "青木 10000m 的历史排名与日期交叉",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.kokugakuin.com/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Only objective facts (values, dates, places, editions) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "chuo-yoshii-player",
+    "title": "中央大学 長距離ブロック 吉居 駿恭 選手成績・自己ベスト",
+    "url": "https://chuo-ldt.net/player/?p_name=22_Yoshii_Shunsuke",
+    "collectedAt": "2026-11-16",
+    "locator": "現在のPB…Half 1:03:45(在学中)…最新は2024年12月",
+    "coverage": "吉居 half PB 与更新时间",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://chuo-ldt.net/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Only objective facts (values, dates, places, editions) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "chuo-ldt-2024-12-01",
+    "title": "中央大学 長距離ブロック 2024-12-01 試合結果",
+    "url": "https://chuo-ldt.net/2024/12/01/241201result/",
+    "collectedAt": "2026-11-16",
+    "locator": "THE DISTANCE GAMES ARAKAWA in 2024-4(12/1): 8位 吉居 駿恭 (3) 1:03:45 PB",
+    "coverage": "吉居 half 的赛事、日期、名次与成绩",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://chuo-ldt.net/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Only objective facts (values, dates, places, editions) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "sportsentry-arakawa-4-2024",
+    "title": "スポーツエントリー THE DISTANCE GAMES ARAKAWA 4 in 2024",
+    "url": "https://www.sportsentry.ne.jp/event/t/97948",
+    "collectedAt": "2026-11-16",
+    "locator": "開催日 2024年12月1日(日)…ハーフマラソン…日本陸連公認レース（荒川河川敷）",
+    "coverage": "参赛项目的距离类别与日期",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.sportsentry.ne.jp/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Only objective facts (values, dates, places, editions) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "aogaku-2025-results",
+    "title": "青山学院大学陸上競技部 2025年 試合結果",
+    "url": "https://aogaku-tf.com/results-2025.html",
+    "collectedAt": "2026-11-16",
+    "locator": "9月 第16回絆記録挑戦会 09.24 町田GIONスタジアム: 5000m 6組 14 塩出 翔太 4年 13:49.56 PB",
+    "coverage": "塩出 5000m 的赛事、日期、组别与成绩",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://aogaku-tf.com/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Only objective facts (values, dates, places, editions) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "asahi-shiode-profile",
+    "title": "旭化成 陸上競技部 選手紹介 塩出 翔太",
+    "url": "https://www.asahi-kasei.com/jp/sports-event/track-field/member/shiode",
+    "collectedAt": "2026-11-16",
+    "locator": "自己記録: 5000m 13分49秒56、10000m 28分55秒81、ハーフマラソン 1時間00分55秒",
+    "coverage": "塩出当前 PB 值",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.asahi-kasei.com/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Only objective facts (values, dates, places, editions) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "jaaf-77-marugame",
+    "title": "日本陸上競技連盟 第77回香川丸亀国際ハーフマラソン",
+    "url": "https://www.jaaf.or.jp/competition/detail/1910/",
+    "collectedAt": "2026-11-16",
+    "locator": "第77回香川丸亀国際ハーフマラソン／開催日 2025年2月2日（日）／会場 香川・丸亀",
+    "coverage": "2025-02-02 丸亀半马的正式届数",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://www.jaaf.or.jp/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Only objective facts (values, dates, places, editions) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "runnet-77-marugame-shinohara",
+    "title": "RUNNET 第77回香川丸亀国際ハーフマラソン 個人記録 ナンバー74",
+    "url": "https://runnet.jp/record/smp/raceresultshow.do?numberCard=74&raceId=363374",
+    "collectedAt": "2026-11-16",
+    "locator": "第77回…ナンバー74 種目ハーフマラソン登録男子 20歳代／距離21.0975km／グロス0:59:30／ネット0:59:29／総合4位",
+    "coverage": "篠原 half 的届数、距离、成绩与名次",
+    "revision": "retrieved 2026-11-16",
+    "usage": {
+      "policyUrl": "https://runnet.jp/",
+      "reviewedAt": "2026-11-16",
+      "basis": "Only objective facts (values, dates, places, editions) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "wa-riki-koike",
+    "title": "World Athletics 選手プロフィール 小池 莉希（Riki KOIKE）",
+    "url": "https://worldathletics.org/athletes/japan/riki-koike-15004091",
+    "collectedAt": "2026-11-17",
+    "locator": "Profile: date of birth 26 NOV 2004; Personal Bests: 5000m 13:28.80 (12 JUN 2026, Japanese Championships), 10000m 27:52.43 (21 MAY 2026, 105th Kanto IC), Half 1:02:21 (02 FEB 2025, Marugame)",
+    "coverage": "小池莉希的出生日期与三项 PB 的日期/赛事",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://worldathletics.org/terms-of-use",
+      "reviewedAt": "2026-11-17",
+      "basis": "Public athlete database. Only objective facts are recorded; no page content republished and no permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "wa-shumpei-yamaguchi",
+    "title": "World Athletics 選手プロフィール 山口 竣平（Shumpei YAMAGUCHI）",
+    "url": "https://worldathletics.org/athletes/japan/shumpei-yamaguchi-14995762",
+    "collectedAt": "2026-11-17",
+    "locator": "Profile: date of birth 15 JAN 2006; Personal Bests: 5000m 13:17.19 (04 JUL 2026, HOKUREN Chitose), 10000m 27:59.47 (24 APR 2026, All Japan University Track & Field Challenge)",
+    "coverage": "山口竣平的出生日期与 5000m/10000m PB",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://worldathletics.org/terms-of-use",
+      "reviewedAt": "2026-11-17",
+      "basis": "Public athlete database. Only objective facts are recorded; no page content republished and no permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "wa-hiroto-yoshioka",
+    "title": "World Athletics 選手プロフィール 吉岡 大翔（Hiroto YOSHIOKA）",
+    "url": "https://worldathletics.org/athletes/japan/hiroto-yoshioka-14954030",
+    "collectedAt": "2026-11-17",
+    "locator": "Profile: date of birth 18 MAY 2004; Personal Bests: 5000m 13:22.99 (13 NOV 2022), 10000m 28:12.22 (24 APR 2026, All Japan University Track & Field Challenge), Half 1:02:25 (04 FEB 2024, Marugame)",
+    "coverage": "吉岡大翔的出生日期与三项 PB 的日期/赛事",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://worldathletics.org/terms-of-use",
+      "reviewedAt": "2026-11-17",
+      "basis": "Public athlete database. Only objective facts are recorded; no page content republished and no permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-koike",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 小池 莉希",
+    "url": "https://hochi.news/hakone/member/?school=soka&player=102",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年3年・登録陸協 学連・出身校 佐久長聖・10000m公認 28:26.33・半马 1:02:21",
+    "coverage": "小池莉希的出身高中与记录交叉",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-yamaguchi-shumpei",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 山口 竣平",
+    "url": "https://hochi.news/hakone/member/?school=waseda&player=59",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年2年・登録陸協 長野・出身校 佐久長聖・10000m公認 29:11.26",
+    "coverage": "山口竣平的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-yoshioka",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 吉岡 大翔",
+    "url": "https://hochi.news/hakone/member/?school=juntendo&player=184",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年3年・登録陸協 長野・出身校 佐久長聖・10000m公認 28:08.02・半马 1:02:25",
+    "coverage": "吉岡大翔的出身高中与记录交叉",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hibiki-yoshida-official",
+    "title": "プロランナー吉田響 オフィシャルサイト プロフィール",
+    "url": "https://hibiki-yoshida.jp/about",
+    "collectedAt": "2026-11-17",
+    "locator": "【生年月日】2002年8月20日／【所 属】サンベルクス／【出身校】創価大学／自己ベスト 5000m 13分39秒94(2024)、10000m 28分12秒01(2024)、ハーフ 1時間01分45秒(2024)；高校は東海大付属静岡翔洋高",
+    "coverage": "吉田響的出生日期、出身高中与 PB 值",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hibiki-yoshida.jp/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Athlete's official site reviewed. Only objective facts recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "yomiuri-yoshida-2024",
+    "title": "読売新聞 箱根駅伝2024 選手プロフィル 吉田 響",
+    "url": "https://www.yomiuri.co.jp/hakone-ekiden/2024/teams/8/00164747231",
+    "collectedAt": "2026-11-17",
+    "locator": "プロフィル: 登録陸協 学連・出身校 東海大静岡翔洋・5000m公認 13分59秒44・10000m公認 28分59秒50・半马 1時間03分18秒",
+    "coverage": "吉田響的出身高中与当时记录",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://www.yomiuri.co.jp/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Profile page reviewed. Only objective facts recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "yomiuri-ota-2024",
+    "title": "読売新聞 箱根駅伝2024 選手プロフィル 太田 蒼生",
+    "url": "https://www.yomiuri.co.jp/hakone-ekiden/2024/teams/3/00100740315",
+    "collectedAt": "2026-11-17",
+    "locator": "プロフィル: 学年3年・登録陸協 福岡・出身校 大牟田・5000m公認 13分53秒10・10000m公認 28分20秒63",
+    "coverage": "太田蒼生的出身高中与当时记录",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://www.yomiuri.co.jp/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Profile page reviewed. Only objective facts recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "waseda-record-ranking",
+    "title": "早稲田大学競走部 男子歴代ランキング",
+    "url": "https://waseda-ac.jp/record/detail/2",
+    "collectedAt": "2026-11-17",
+    "locator": "5000m 2位 13:17.19 山口竣平 2026；10000m 9位 27:59.47 山口竣平 2026",
+    "coverage": "山口竣平的大学历代排名与 PB 交叉",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://waseda-ac.jp/",
+      "reviewedAt": "2026-11-17",
+      "basis": "University track-team ranking page reviewed. Only objective facts recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "soka-ekiden-alltime",
+    "title": "創価大学駅伝部 歴代ベスト記録",
+    "url": "https://soka-ekiden.com/play/?page_id=269",
+    "collectedAt": "2026-11-17",
+    "locator": "5000m: 吉田響 13:39.94 2024/7/17 ホクレンDC深川；小池莉希 13:28.80 2026/6/12 日本選手権；10000m: 吉田響 28:12.01 2024/5/9 関東インカレ；小池莉希 27:52.43 2026/5/21；半马: 吉田響 1:01:45 2024/6/30 函館マラソン",
+    "coverage": "創価大选手的历代记录（值、日期、赛事、场地）",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://soka-ekiden.com/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "aogaku-2023-results",
+    "title": "青山学院大学陸上競技部 2023年 試合結果",
+    "url": "https://aogaku-tf.com/results-2023.html",
+    "collectedAt": "2026-11-17",
+    "locator": "第10回絆記録挑戦会 09.24: 5000m 3組 20 太田蒼生 3年 13:53.10 PB；MARCH対抗戦2023 11.22: 10000m 4組 5 太田蒼生 3年 28:20.63 PB",
+    "coverage": "太田蒼生的 5000m/10000m 赛事、日期、组别与成绩",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://aogaku-tf.com/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "aogaku-2024-results",
+    "title": "青山学院大学陸上競技部 2024年 試合結果",
+    "url": "https://aogaku-tf.com/results-2024.html",
+    "collectedAt": "2026-11-17",
+    "locator": "上海ハーフマラソン 04.21: ハーフマラソン決勝 男子 8 太田蒼生 4年 1:02:30 初レース",
+    "coverage": "太田蒼生 半马 的赛事、日期、名次与成绩",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://aogaku-tf.com/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "gmo-ota-2025-join",
+    "title": "GMOインターネットグループ 2025年度 加入選手プロフィール 太田蒼生",
+    "url": "https://athletes.gmo.jp/news/6213/",
+    "collectedAt": "2026-11-17",
+    "locator": "【加入選手プロフィール】名前 太田蒼生／出身地 福岡県糟屋郡／生年月日 2002年8月26日／主な実績 第98-101回箱根駅伝",
+    "coverage": "太田蒼生的出生日期与身份",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://athletes.gmo.jp/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "nagano-hs-records",
+    "title": "長野県陸上競技協会 長野県高校記録（男子）",
+    "url": "https://nrk-dir.jp/nrk_record/nrk_hsrecordm",
+    "collectedAt": "2026-11-17",
+    "locator": "5000m 13:22.99 吉岡大翔 佐久長聖 2022/11/13 健志台・日体大長距離",
+    "coverage": "吉岡大翔 5000m 的成绩、日期、场地与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://nrk-dir.jp/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "juntendo-325th-nittaidai",
+    "title": "順天堂大学駅伝 第325回日本体育大学長距離競技会 結果",
+    "url": "http://juntendo-longdistance.com/result/%e7%ac%ac325%e5%9b%9e%e6%97%a5%e6%9c%ac%e4%bd%93%e8%82%b2%e5%a4%a7%e5%ad%a6%e9%95%b7%e8%b7%9d%e9%9b%a2%e7%ab%b6%e6%8a%80%e4%bc%9a%ef%bc%88%e6%97%a5%e6%9c%ac%e4%bd%93%e8%82%b2%e5%a4%a7%e5%ad%a6/",
+    "collectedAt": "2026-11-17",
+    "locator": "男子10000m14組目 4 吉岡大翔 3 28'08\"02 PB 順大歴代3位（2025-11-29、日体大健志台）",
+    "coverage": "吉岡大翔 10000m 的赛事、日期、组别与成绩",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "http://juntendo-longdistance.com/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "runnet-hakodate-2024",
+    "title": "RUNNET 2024函館マラソン 個人記録 ナンバー164",
+    "url": "https://runnet.jp/record/smp/raceresultshow.do?raceId=345214&numberCard=164",
+    "collectedAt": "2026-11-17",
+    "locator": "氏名 吉田響／種目 ハーフ 男子招待・実業団学連登録／距離21.0975km／グロス1:01:45／ネット1:01:44／種目別1位",
+    "coverage": "吉田響 半马 的赛事、距离、成绩与名次",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://runnet.jp/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "gmo-koike-offer-2026",
+    "title": "GMOインターネットグループ 小池選手所属内定のお知らせ",
+    "url": "https://athletes.gmo.jp/news/6720/",
+    "collectedAt": "2026-11-17",
+    "locator": "2026.07.31: 小池莉希（現：創価大学4年生）の所属内定（2027年4月1日入社予定）",
+    "coverage": "小池莉希的当前在校身份与未来入队日",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://athletes.gmo.jp/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Employer announcement reviewed. Only objective facts recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "gmo-record-db",
+    "title": "GMOインターネットグループ 陸上部 記録（スケジュール／結果）",
+    "url": "https://athletes.gmo.jp/record/",
+    "collectedAt": "2026-11-17",
+    "locator": "太田蒼生: ハーフ 1:03:06 2025/04/20 上海ハーフマラソン; 10000m 28'25\"01 2025/11/22 八王子LD; フル 2:10:07 2026/03/01 東京マラソン2026 など（5000m/10000m/半馬に本成绩より速い記載なし）",
+    "coverage": "太田蒼生毕业后的比赛结果",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://athletes.gmo.jp/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Employer result database reviewed. Only objective facts recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "soka-roster-top",
+    "title": "創価大学駅伝部 公式サイト（エントリーメンバー紹介）",
+    "url": "https://soka-ekiden.com/",
+    "collectedAt": "2026-11-17",
+    "locator": "エントリーメンバー紹介: 小池 莉希 RIKI KOIKE (4年)",
+    "coverage": "小池莉希 2026 年度的在校身份",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://soka-ekiden.com/",
+      "reviewedAt": "2026-11-17",
+      "basis": "University roster reviewed. Only objective facts recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "waseda-aj58-2026",
+    "title": "早稲田大学競走部 秩父宮賜杯第58回全日本大学駅伝対校選手権大会",
+    "url": "https://waseda-ac.jp/competition/detail/1066",
+    "collectedAt": "2026-11-17",
+    "locator": "7区(17.6km) 山口竣平(3) 50:58 区間3位／総合1位",
+    "coverage": "山口竣平 2026 年度的在校身份与学年",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://waseda-ac.jp/",
+      "reviewedAt": "2026-11-17",
+      "basis": "University competition page reviewed. Only objective facts recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "juntendo-team-roster",
+    "title": "順天堂大学駅伝 チーム・部員紹介",
+    "url": "https://juntendo-longdistance.com/team",
+    "collectedAt": "2026-11-17",
+    "locator": "よしおか ひろと 吉岡 大翔 2004.05.18 スポーツ健康科学部／出身高校 長野県 佐久長聖高校／自己ベスト 5000m-13:22.99 10000m-28:08.02 ハーフ-",
+    "coverage": "吉岡大翔的在校身份、生日、出身高中与 PB",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "http://juntendo-longdistance.com/",
+      "reviewedAt": "2026-11-17",
+      "basis": "University roster reviewed. Only objective facts recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "asahi-fukagawa-2024-report",
+    "title": "旭化成 陸上競技部 ホクレンディスタンスチャレンジ2024 第4戦深川大会",
+    "url": "https://www.asahi-kasei.com/jp/sports-event/track-field/schedule/2024/0717",
+    "collectedAt": "2026-11-17",
+    "locator": "7月17日 深川市陸上競技場; 18時15分 男子5000m B: 吉田響選手（創価大学）がペースアップ",
+    "coverage": "吉田響 5000m 2024-07-17 深川大会的报告佐证",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://www.asahi-kasei.com/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Corporate team race report reviewed. Only objective facts recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
   }
 ]

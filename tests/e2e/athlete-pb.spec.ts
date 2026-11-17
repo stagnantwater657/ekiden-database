@@ -50,7 +50,43 @@ test("PB cells separate a confirmed absence from an unfound record, and indoor m
   const half = section.getByRole("heading", { name: "半程马拉松", exact: true }).locator("..");
   await expect(half).toContainText("暂无正式成绩");
   await expect(half).not.toContainText("尚未收录");
+  await page.goto("/athletes/athlete-aj24-01-1");
+  const empty = page.locator("section").filter({ has: page.getByRole("heading", { name: /个人最佳/ }) });
+  const emptyFive = empty.getByRole("heading", { name: "5000m", exact: true }).locator("..");
+  await expect(emptyFive).toContainText("尚未收录");
+  await expect(emptyFive).not.toContainText("暂无正式成绩");
+});
+
+test("batch-2 round 1 renders sourced marks and leaves unresolved events as 尚未收录", async ({ page }) => {
+  await page.goto("/athletes/athlete-aj24-01-5");
+  const nonaka = page.locator("section").filter({ has: page.getByRole("heading", { name: /个人最佳/ }) });
+  await expect(nonaka).toContainText("13:28.47");
+  await expect(nonaka).toContainText("27:36.64");
+  await expect(nonaka).toContainText("1:00:51");
+  await expect(nonaka).toContainText("2026-05-04");
+  await page.goto("/athletes/athlete-aj24-06-4");
+  const saito = page.locator("section").filter({ has: page.getByRole("heading", { name: /个人最佳/ }) });
+  await expect(saito).toContainText("13:33.32");
+  await expect(saito).toContainText("27:45.12");
+  await expect(saito).toContainText("1:03:18");
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText("斎藤 将也");
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto("/athletes/athlete-aj24-01-5");
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+});
+
+test("round-2 athletes render sourced marks and the missing state where unverified", async ({ page }) => {
+  await page.goto("/athletes/athlete-aj24-08-6");
+  const kusuoka = page.locator("section").filter({ has: page.getByRole("heading", { name: /个人最佳/ }) });
+  await expect(kusuoka).toContainText("13:26.92");
+  await expect(kusuoka).toContainText("27:52.09");
+  await expect(kusuoka).toContainText("1:01:43");
   await page.goto("/athletes/athlete-aj24-01-2");
+  const aoki = page.locator("section").filter({ has: page.getByRole("heading", { name: /个人最佳/ }) });
+  await expect(aoki).toContainText("13:25.62");
+  await expect(aoki).toContainText("28:02.00");
+  await expect(aoki).toContainText("1:00:45");
+  await page.goto("/athletes/athlete-aj24-01-1");
   const empty = page.locator("section").filter({ has: page.getByRole("heading", { name: /个人最佳/ }) });
   const emptyFive = empty.getByRole("heading", { name: "5000m", exact: true }).locator("..");
   await expect(emptyFive).toContainText("尚未收录");

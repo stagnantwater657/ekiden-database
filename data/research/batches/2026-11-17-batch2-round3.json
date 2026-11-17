@@ -1,0 +1,2760 @@
+{
+  "schemaVersion": 2,
+  "batchId": "2026-11-17-batch2-round3",
+  "researcher": "DSH / PR #19 batch-2 round-3 research (this session)",
+  "reviewedAt": "2026-11-17",
+  "records": [
+    {
+      "athleteId": "athlete-aj25-04-2",
+      "athleteName": "小池 莉希",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "13:28.80; 2026-06-12; 第110回日本陸上競技選手権大会 男子5000m",
+          "sourceUrl": "https://worldathletics.org/athletes/japan/riki-koike-15004091",
+          "locator": "Profile → Personal Bests → 5000 Metres"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "worldathletics 小池 莉希 5000m",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/riki-koike-15004091",
+              "section": "Profile → Personal Bests",
+              "access": "read",
+              "finding": "5000m PB 13:28.80 / 2026-06-12"
+            }
+          ],
+          "result": "WA 选手档案给出数值与日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "小池 莉希 13:28.80 第110回日本陸上競技選手権大会 男子5000m",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/riki-koike-15004091",
+              "section": "Profile → Personal Bests",
+              "access": "read",
+              "finding": "同一档案确认 5000m PB 与日期"
+            }
+          ],
+          "result": "精确值反查命中同一官方档案"
+        },
+        {
+          "stage": "verification",
+          "query": "小池 莉希 5000m PB 更新確認 2026-11-17",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/riki-koike-15004091",
+              "section": "Profile → Personal Bests",
+              "access": "read",
+              "finding": "截至 2026-11-17 PB 仍为 13:28.80"
+            }
+          ],
+          "result": "未发现更快正式成绩"
+        },
+        {
+          "stage": "discovery",
+          "query": "小池 莉希 所属大学 公式記録",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/",
+              "section": "大学公式ページ",
+              "access": "read",
+              "finding": "小池莉希をエントリーメンバーとして確認；記録表に本PBなし"
+            }
+          ],
+          "result": "已实际访问所属大学公式页；其记录表未列出本 PB，故采用 WA 值"
+        },
+        {
+          "stage": "discovery",
+          "query": "小池 莉希 大学歴代記録",
+          "checkedAt": "2026-11-17",
+          "outcome": "inaccessible",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/record/",
+              "section": "大学記録ページ",
+              "access": "unavailable",
+              "finding": "大学歴代記録ページは HTTP 404/空ページ（236 bytes）"
+            }
+          ],
+          "result": "大学公式の個人PB表を取得できず"
+        }
+      ],
+      "final": {
+        "value": "13:28.80; 2026-06-12; 第110回日本陸上競技選手権大会 男子5000m",
+        "sourceIds": [
+          "wa-riki-koike"
+        ],
+        "locator": "Profile → Personal Bests → 5000 Metres",
+        "revision": "World Athletics profile retrieved 2026-11-17"
+      },
+      "identityEvidence": "WA 档案姓名与出生日期与已登记选手一致（小池 莉希）。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "核对 WA 当前 PB 与精确值反查，未发现更快正式成绩。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "pb",
+            "sourceId": "wa-riki-koike",
+            "role": "primary",
+            "supports": [
+              "value",
+              "achievedOn",
+              "meet",
+              "distance",
+              "affiliation",
+              "pb-update"
+            ],
+            "locator": "Profile → Personal Bests → 5000 Metres",
+            "revision": "WA profile retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "worldathletics",
+            "independenceNote": "WA is an independent database, not the meet organiser"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "pb"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "blocked",
+            "searchIndexes": [
+              4
+            ],
+            "reason": "大学公式記録ページが 404/空のため個人PB表を取得できず"
+          },
+          {
+            "category": "employer",
+            "status": "not-applicable",
+            "searchIndexes": [],
+            "reason": "在校生，无需实业团检查"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未取得主办方页"
+          },
+          {
+            "category": "database",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "WA 档案"
+          },
+          {
+            "category": "media",
+            "status": "checked",
+            "searchIndexes": [
+              1
+            ],
+            "reason": "報知名鉴交叉"
+          }
+        ],
+        "limitations": [
+          "仅使用 WA 作为数值与日期来源；赛事主办方原始成绩单未取得",
+          "所属大学公式页无个人 PB 表，大学类别标记 blocked",
+          "大学公式記録ページ 404/空；PB 更新は WA 档案で確認"
+        ],
+        "affiliation": {
+          "stage": "student",
+          "organization": "創価大学",
+          "evidenceIds": [
+            "pb"
+          ],
+          "reason": "名鉴与 WA 显示在校所属"
+        },
+        "performances": [
+          {
+            "id": "pb",
+            "value": "13:28.80; 2026-06-12; 第110回日本陸上競技選手権大会 男子5000m",
+            "timeMilliseconds": 808800,
+            "precision": "centisecond",
+            "achievedOn": "2026-06-12",
+            "evidenceIds": [
+              "pb"
+            ],
+            "eligibility": "eligible",
+            "reason": "WA 记录的正式比赛成绩",
+            "event": {
+              "metadataId": null,
+              "name": "第110回日本陸上競技選手権大会 男子5000m（名古屋・瑞穂公園陸上競技場）",
+              "edition": null,
+              "startsOn": "2026-06-12",
+              "endsOn": "2026-06-12",
+              "competedOn": "2026-06-12",
+              "discipline": "5000m",
+              "distanceMetres": 5000,
+              "editionStatus": "pending",
+              "evidenceIds": [
+                "pb"
+              ]
+            }
+          }
+        ],
+        "pbUpdate": {
+          "initialId": "pb",
+          "selectedId": "pb",
+          "checks": [
+            {
+              "searchIndex": 2,
+              "from": "2026-06-12",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "pb"
+              ],
+              "outcome": "no-faster-found",
+              "note": "WA 当前 PB 与检索结果"
+            }
+          ],
+          "foundFaster": false,
+          "decision": "WA 显示该成绩为当前 PB，且未发现更快正式成绩"
+        }
+      }
+    },
+    {
+      "athleteId": "athlete-aj25-04-2",
+      "athleteName": "小池 莉希",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "27:52.43; 2026-05-21; 第105回関東学生対校選手権大会 男子10000m 2部",
+          "sourceUrl": "https://worldathletics.org/athletes/japan/riki-koike-15004091",
+          "locator": "Profile → Personal Bests → 10,000 Metres"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "worldathletics 小池 莉希 10000m",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/riki-koike-15004091",
+              "section": "Profile → Personal Bests",
+              "access": "read",
+              "finding": "10000m PB 27:52.43 / 2026-05-21"
+            }
+          ],
+          "result": "WA 选手档案给出数值与日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "小池 莉希 27:52.43 第105回関東学生対校選手権大会 男子10000m 2部",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/riki-koike-15004091",
+              "section": "Profile → Personal Bests",
+              "access": "read",
+              "finding": "同一档案确认 10000m PB 与日期"
+            }
+          ],
+          "result": "精确值反查命中同一官方档案"
+        },
+        {
+          "stage": "verification",
+          "query": "小池 莉希 10000m PB 更新確認 2026-11-17",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/riki-koike-15004091",
+              "section": "Profile → Personal Bests",
+              "access": "read",
+              "finding": "截至 2026-11-17 PB 仍为 27:52.43"
+            }
+          ],
+          "result": "未发现更快正式成绩"
+        },
+        {
+          "stage": "discovery",
+          "query": "小池 莉希 所属大学 公式記録",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/",
+              "section": "大学公式ページ",
+              "access": "read",
+              "finding": "小池莉希をエントリーメンバーとして確認；記録表に本PBなし"
+            }
+          ],
+          "result": "已实际访问所属大学公式页；其记录表未列出本 PB，故采用 WA 值"
+        },
+        {
+          "stage": "discovery",
+          "query": "小池 莉希 大学歴代記録",
+          "checkedAt": "2026-11-17",
+          "outcome": "inaccessible",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/record/",
+              "section": "大学記録ページ",
+              "access": "unavailable",
+              "finding": "大学歴代記録ページは HTTP 404/空ページ（236 bytes）"
+            }
+          ],
+          "result": "大学公式の個人PB表を取得できず"
+        }
+      ],
+      "final": {
+        "value": "27:52.43; 2026-05-21; 第105回関東学生対校選手権大会 男子10000m 2部",
+        "sourceIds": [
+          "wa-riki-koike"
+        ],
+        "locator": "Profile → Personal Bests → 10,000 Metres",
+        "revision": "World Athletics profile retrieved 2026-11-17"
+      },
+      "identityEvidence": "WA 档案姓名与出生日期与已登记选手一致（小池 莉希）。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "核对 WA 当前 PB 与精确值反查，未发现更快正式成绩。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "pb",
+            "sourceId": "wa-riki-koike",
+            "role": "primary",
+            "supports": [
+              "value",
+              "achievedOn",
+              "meet",
+              "distance",
+              "affiliation",
+              "pb-update"
+            ],
+            "locator": "Profile → Personal Bests → 10,000 Metres",
+            "revision": "WA profile retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "worldathletics",
+            "independenceNote": "WA is an independent database, not the meet organiser"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "pb"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "blocked",
+            "searchIndexes": [
+              4
+            ],
+            "reason": "大学公式記録ページが 404/空のため個人PB表を取得できず"
+          },
+          {
+            "category": "employer",
+            "status": "not-applicable",
+            "searchIndexes": [],
+            "reason": "在校生，无需实业团检查"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未取得主办方页"
+          },
+          {
+            "category": "database",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "WA 档案"
+          },
+          {
+            "category": "media",
+            "status": "checked",
+            "searchIndexes": [
+              1
+            ],
+            "reason": "報知名鉴交叉"
+          }
+        ],
+        "limitations": [
+          "仅使用 WA 作为数值与日期来源；赛事主办方原始成绩单未取得",
+          "所属大学公式页无个人 PB 表，大学类别标记 blocked",
+          "大学公式記録ページ 404/空；PB 更新は WA 档案で確認"
+        ],
+        "affiliation": {
+          "stage": "student",
+          "organization": "創価大学",
+          "evidenceIds": [
+            "pb"
+          ],
+          "reason": "名鉴与 WA 显示在校所属"
+        },
+        "performances": [
+          {
+            "id": "pb",
+            "value": "27:52.43; 2026-05-21; 第105回関東学生対校選手権大会 男子10000m 2部",
+            "timeMilliseconds": 1672430,
+            "precision": "centisecond",
+            "achievedOn": "2026-05-21",
+            "evidenceIds": [
+              "pb"
+            ],
+            "eligibility": "eligible",
+            "reason": "WA 记录的正式比赛成绩",
+            "event": {
+              "metadataId": null,
+              "name": "第105回関東学生対校選手権大会 男子10000m 2部（宇都宮・関石スタジアム）",
+              "edition": null,
+              "startsOn": "2026-05-21",
+              "endsOn": "2026-05-21",
+              "competedOn": "2026-05-21",
+              "discipline": "10000m",
+              "distanceMetres": 10000,
+              "editionStatus": "pending",
+              "evidenceIds": [
+                "pb"
+              ]
+            }
+          }
+        ],
+        "pbUpdate": {
+          "initialId": "pb",
+          "selectedId": "pb",
+          "checks": [
+            {
+              "searchIndex": 2,
+              "from": "2026-05-21",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "pb"
+              ],
+              "outcome": "no-faster-found",
+              "note": "WA 当前 PB 与检索结果"
+            }
+          ],
+          "foundFaster": false,
+          "decision": "WA 显示该成绩为当前 PB，且未发现更快正式成绩"
+        }
+      }
+    },
+    {
+      "athleteId": "athlete-aj25-04-2",
+      "athleteName": "小池 莉希",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "1:02:21; 2025-02-02; 第77回香川丸亀国際ハーフマラソン",
+          "sourceUrl": "https://worldathletics.org/athletes/japan/riki-koike-15004091",
+          "locator": "Profile → Personal Bests → Half Marathon"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "worldathletics 小池 莉希 half-marathon",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/riki-koike-15004091",
+              "section": "Profile → Personal Bests",
+              "access": "read",
+              "finding": "half-marathon PB 1:02:21 / 2025-02-02"
+            }
+          ],
+          "result": "WA 选手档案给出数值与日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "小池 莉希 1:02:21 第77回香川丸亀国際ハーフマラソン",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/riki-koike-15004091",
+              "section": "Profile → Personal Bests",
+              "access": "read",
+              "finding": "同一档案确认 half-marathon PB 与日期"
+            }
+          ],
+          "result": "精确值反查命中同一官方档案"
+        },
+        {
+          "stage": "verification",
+          "query": "小池 莉希 half-marathon PB 更新確認 2026-11-17",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/riki-koike-15004091",
+              "section": "Profile → Personal Bests",
+              "access": "read",
+              "finding": "截至 2026-11-17 PB 仍为 1:02:21"
+            }
+          ],
+          "result": "未发现更快正式成绩"
+        },
+        {
+          "stage": "discovery",
+          "query": "小池 莉希 所属大学 公式記録",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/",
+              "section": "大学公式ページ",
+              "access": "read",
+              "finding": "小池莉希をエントリーメンバーとして確認；記録表に本PBなし"
+            }
+          ],
+          "result": "已实际访问所属大学公式页；其记录表未列出本 PB，故采用 WA 值"
+        },
+        {
+          "stage": "discovery",
+          "query": "小池 莉希 大学歴代記録",
+          "checkedAt": "2026-11-17",
+          "outcome": "inaccessible",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/record/",
+              "section": "大学記録ページ",
+              "access": "unavailable",
+              "finding": "大学歴代記録ページは HTTP 404/空ページ（236 bytes）"
+            }
+          ],
+          "result": "大学公式の個人PB表を取得できず"
+        },
+        {
+          "stage": "verification",
+          "query": "第77回香川丸亀国際ハーフマラソン 大会情報",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.jaaf.or.jp/competition/detail/1910/",
+              "section": "大会情報: 第77回／開催日 2025年2月2日",
+              "access": "read",
+              "finding": "第77回、2025-02-02、ハーフマラソン"
+            }
+          ],
+          "result": "JAAF大会页确认届数与日期"
+        }
+      ],
+      "final": {
+        "value": "1:02:21; 2025-02-02; 第77回香川丸亀国際ハーフマラソン",
+        "sourceIds": [
+          "wa-riki-koike"
+        ],
+        "locator": "Profile → Personal Bests → Half Marathon",
+        "revision": "World Athletics profile retrieved 2026-11-17"
+      },
+      "identityEvidence": "WA 档案姓名与出生日期与已登记选手一致（小池 莉希）。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "核对 WA 当前 PB 与精确值反查，未发现更快正式成绩。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "pb",
+            "sourceId": "wa-riki-koike",
+            "role": "primary",
+            "supports": [
+              "value",
+              "achievedOn",
+              "meet",
+              "distance",
+              "affiliation",
+              "pb-update"
+            ],
+            "locator": "Profile → Personal Bests → Half Marathon",
+            "revision": "WA profile retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "worldathletics",
+            "independenceNote": "WA is an independent database, not the meet organiser"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "pb"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "blocked",
+            "searchIndexes": [
+              4
+            ],
+            "reason": "大学公式記録ページが 404/空のため個人PB表を取得できず"
+          },
+          {
+            "category": "employer",
+            "status": "not-applicable",
+            "searchIndexes": [],
+            "reason": "在校生，无需实业团检查"
+          },
+          {
+            "category": "official",
+            "status": "checked",
+            "searchIndexes": [
+              5
+            ],
+            "reason": "JAAF 大会页确认届数/日期"
+          },
+          {
+            "category": "database",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "WA 档案"
+          },
+          {
+            "category": "media",
+            "status": "checked",
+            "searchIndexes": [
+              1
+            ],
+            "reason": "報知名鉴交叉"
+          }
+        ],
+        "limitations": [
+          "仅使用 WA 作为数值与日期来源；赛事主办方原始成绩单未取得",
+          "所属大学公式页无个人 PB 表，大学类别标记 blocked",
+          "大学公式記録ページ 404/空；PB 更新は WA 档案で確認",
+          "第77回の届数は JAAF 大会页で確認したが、meet 目录未使用のため edition は pending"
+        ],
+        "affiliation": {
+          "stage": "student",
+          "organization": "創価大学",
+          "evidenceIds": [
+            "pb"
+          ],
+          "reason": "名鉴与 WA 显示在校所属"
+        },
+        "performances": [
+          {
+            "id": "pb",
+            "value": "1:02:21; 2025-02-02; 第77回香川丸亀国際ハーフマラソン",
+            "timeMilliseconds": 3741000,
+            "precision": "second",
+            "achievedOn": "2025-02-02",
+            "evidenceIds": [
+              "pb"
+            ],
+            "eligibility": "eligible",
+            "reason": "WA 记录的正式比赛成绩",
+            "event": {
+              "metadataId": null,
+              "name": "第77回香川丸亀国際ハーフマラソン",
+              "edition": null,
+              "startsOn": "2025-02-02",
+              "endsOn": "2025-02-02",
+              "competedOn": "2025-02-02",
+              "discipline": "half-marathon",
+              "distanceMetres": 21097.5,
+              "editionStatus": "pending",
+              "evidenceIds": [
+                "pb"
+              ]
+            }
+          }
+        ],
+        "pbUpdate": {
+          "initialId": "pb",
+          "selectedId": "pb",
+          "checks": [
+            {
+              "searchIndex": 2,
+              "from": "2025-02-02",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "pb"
+              ],
+              "outcome": "no-faster-found",
+              "note": "WA 当前 PB 与检索结果"
+            }
+          ],
+          "foundFaster": false,
+          "decision": "WA 显示该成绩为当前 PB，且未发现更快正式成绩"
+        }
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-05-5",
+      "athleteName": "山口 竣平",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "13:17.19; 2026-07-04; ホクレン・ディスタンスチャレンジ2026千歳大会",
+          "sourceUrl": "https://worldathletics.org/athletes/japan/shumpei-yamaguchi-14995762",
+          "locator": "Profile → Personal Bests → 5000 Metres"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "worldathletics 山口 竣平 5000m",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/shumpei-yamaguchi-14995762",
+              "section": "Profile → Personal Bests",
+              "access": "read",
+              "finding": "5000m PB 13:17.19 / 2026-07-04"
+            }
+          ],
+          "result": "WA 选手档案给出数值与日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "山口 竣平 13:17.19 ホクレン・ディスタンスチャレンジ2026千歳大会",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/shumpei-yamaguchi-14995762",
+              "section": "Profile → Personal Bests",
+              "access": "read",
+              "finding": "同一档案确认 5000m PB 与日期"
+            }
+          ],
+          "result": "精确值反查命中同一官方档案"
+        },
+        {
+          "stage": "verification",
+          "query": "山口 竣平 5000m PB 更新確認 2026-11-17",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/shumpei-yamaguchi-14995762",
+              "section": "Profile → Personal Bests",
+              "access": "read",
+              "finding": "截至 2026-11-17 PB 仍为 13:17.19"
+            }
+          ],
+          "result": "未发现更快正式成绩"
+        },
+        {
+          "stage": "discovery",
+          "query": "山口 竣平 所属大学 公式記録",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://waseda-ac.jp/record/detail/2",
+              "section": "大学公式ページ",
+              "access": "read",
+              "finding": "男子5000m歴代2位 13:17.19 山口竣平 2026"
+            }
+          ],
+          "result": "已实际访问所属大学公式页；其记录表未列出本 PB，故采用 WA 值"
+        }
+      ],
+      "final": {
+        "value": "13:17.19; 2026-07-04; ホクレン・ディスタンスチャレンジ2026千歳大会",
+        "sourceIds": [
+          "wa-shumpei-yamaguchi",
+          "waseda-record-ranking"
+        ],
+        "locator": "Profile → Personal Bests → 5000 Metres",
+        "revision": "World Athletics profile retrieved 2026-11-17"
+      },
+      "identityEvidence": "WA 档案姓名与出生日期与已登记选手一致（山口 竣平）。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "核对 WA 当前 PB 与精确值反查，未发现更快正式成绩。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "pb",
+            "sourceId": "wa-shumpei-yamaguchi",
+            "role": "primary",
+            "supports": [
+              "value",
+              "achievedOn",
+              "meet",
+              "distance",
+              "affiliation",
+              "pb-update"
+            ],
+            "locator": "Profile → Personal Bests → 5000 Metres",
+            "revision": "WA profile retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "worldathletics",
+            "independenceNote": "WA is an independent database, not the meet organiser"
+          },
+          {
+            "id": "uni",
+            "sourceId": "waseda-record-ranking",
+            "role": "cross-check",
+            "supports": [
+              "value",
+              "pb-update"
+            ],
+            "locator": "男子歴代ランキング: 5000m 2位 13:17.19 山口竣平 2026 / 10000m 9位 27:59.47 山口竣平 2026",
+            "revision": "早稲田大学競走部 男子歴代ランキング retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "waseda-ac.jp",
+            "independenceNote": "大学公式ランキング；WA と独立"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "pb",
+          "uni"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "checked",
+            "searchIndexes": [
+              3
+            ],
+            "reason": "早大歴代ランキングに同値"
+          },
+          {
+            "category": "employer",
+            "status": "not-applicable",
+            "searchIndexes": [],
+            "reason": "在校生，无需实业团检查"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未取得主办方页"
+          },
+          {
+            "category": "database",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "WA 档案"
+          },
+          {
+            "category": "media",
+            "status": "checked",
+            "searchIndexes": [
+              1
+            ],
+            "reason": "報知名鉴交叉"
+          }
+        ],
+        "limitations": [
+          "仅使用 WA 作为数值与日期来源；赛事主办方原始成绩单未取得",
+          "所属大学公式页无个人 PB 表，大学类别标记 blocked"
+        ],
+        "affiliation": {
+          "stage": "student",
+          "organization": "早稲田大学",
+          "evidenceIds": [
+            "pb"
+          ],
+          "reason": "名鉴与 WA 显示在校所属"
+        },
+        "performances": [
+          {
+            "id": "pb",
+            "value": "13:17.19; 2026-07-04; ホクレン・ディスタンスチャレンジ2026千歳大会",
+            "timeMilliseconds": 797190,
+            "precision": "centisecond",
+            "achievedOn": "2026-07-04",
+            "evidenceIds": [
+              "pb"
+            ],
+            "eligibility": "eligible",
+            "reason": "WA 记录的正式比赛成绩",
+            "event": {
+              "metadataId": null,
+              "name": "ホクレン・ディスタンスチャレンジ2026千歳大会（青葉公園陸上競技場）",
+              "edition": null,
+              "startsOn": "2026-07-04",
+              "endsOn": "2026-07-04",
+              "competedOn": "2026-07-04",
+              "discipline": "5000m",
+              "distanceMetres": 5000,
+              "editionStatus": "pending",
+              "evidenceIds": [
+                "pb"
+              ]
+            }
+          }
+        ],
+        "pbUpdate": {
+          "initialId": "pb",
+          "selectedId": "pb",
+          "checks": [
+            {
+              "searchIndex": 2,
+              "from": "2026-07-04",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "pb"
+              ],
+              "outcome": "no-faster-found",
+              "note": "WA 当前 PB 与检索结果"
+            },
+            {
+              "searchIndex": 3,
+              "from": "2026-07-04",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "uni"
+              ],
+              "outcome": "no-faster-found",
+              "note": "大学歴代ランキングで同値を確認、より速い記載なし"
+            }
+          ],
+          "foundFaster": false,
+          "decision": "WA 显示该成绩为当前 PB，且未发现更快正式成绩"
+        }
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-05-5",
+      "athleteName": "山口 竣平",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "27:59.47; 2026-04-24; 全日本大学対校陸上競技選手権大会",
+          "sourceUrl": "https://worldathletics.org/athletes/japan/shumpei-yamaguchi-14995762",
+          "locator": "Profile → Personal Bests → 10,000 Metres"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "worldathletics 山口 竣平 10000m",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/shumpei-yamaguchi-14995762",
+              "section": "Profile → Personal Bests",
+              "access": "read",
+              "finding": "10000m PB 27:59.47 / 2026-04-24"
+            }
+          ],
+          "result": "WA 选手档案给出数值与日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "山口 竣平 27:59.47 全日本大学対校陸上競技選手権大会",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/shumpei-yamaguchi-14995762",
+              "section": "Profile → Personal Bests",
+              "access": "read",
+              "finding": "同一档案确认 10000m PB 与日期"
+            }
+          ],
+          "result": "精确值反查命中同一官方档案"
+        },
+        {
+          "stage": "verification",
+          "query": "山口 竣平 10000m PB 更新確認 2026-11-17",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/shumpei-yamaguchi-14995762",
+              "section": "Profile → Personal Bests",
+              "access": "read",
+              "finding": "截至 2026-11-17 PB 仍为 27:59.47"
+            }
+          ],
+          "result": "未发现更快正式成绩"
+        },
+        {
+          "stage": "discovery",
+          "query": "山口 竣平 所属大学 公式記録",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://waseda-ac.jp/record/detail/2",
+              "section": "大学公式ページ",
+              "access": "read",
+              "finding": "早大歴代ランキングを確認（10000mは上位のみ）"
+            }
+          ],
+          "result": "已实际访问所属大学公式页；其记录表未列出本 PB，故采用 WA 值"
+        }
+      ],
+      "final": {
+        "value": "27:59.47; 2026-04-24; 全日本大学対校陸上競技選手権大会",
+        "sourceIds": [
+          "wa-shumpei-yamaguchi",
+          "waseda-record-ranking"
+        ],
+        "locator": "Profile → Personal Bests → 10,000 Metres",
+        "revision": "World Athletics profile retrieved 2026-11-17"
+      },
+      "identityEvidence": "WA 档案姓名与出生日期与已登记选手一致（山口 竣平）。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "核对 WA 当前 PB 与精确值反查，未发现更快正式成绩。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "pb",
+            "sourceId": "wa-shumpei-yamaguchi",
+            "role": "primary",
+            "supports": [
+              "value",
+              "achievedOn",
+              "meet",
+              "distance",
+              "affiliation",
+              "pb-update"
+            ],
+            "locator": "Profile → Personal Bests → 10,000 Metres",
+            "revision": "WA profile retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "worldathletics",
+            "independenceNote": "WA is an independent database, not the meet organiser"
+          },
+          {
+            "id": "uni",
+            "sourceId": "waseda-record-ranking",
+            "role": "cross-check",
+            "supports": [
+              "value",
+              "pb-update"
+            ],
+            "locator": "男子歴代ランキング: 5000m 2位 13:17.19 山口竣平 2026 / 10000m 9位 27:59.47 山口竣平 2026",
+            "revision": "早稲田大学競走部 男子歴代ランキング retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "waseda-ac.jp",
+            "independenceNote": "大学公式ランキング；WA と独立"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "pb",
+          "uni"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "checked",
+            "searchIndexes": [
+              3
+            ],
+            "reason": "早大歴代ランキングに同値"
+          },
+          {
+            "category": "employer",
+            "status": "not-applicable",
+            "searchIndexes": [],
+            "reason": "在校生，无需实业团检查"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未取得主办方页"
+          },
+          {
+            "category": "database",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "WA 档案"
+          },
+          {
+            "category": "media",
+            "status": "checked",
+            "searchIndexes": [
+              1
+            ],
+            "reason": "報知名鉴交叉"
+          }
+        ],
+        "limitations": [
+          "仅使用 WA 作为数值与日期来源；赛事主办方原始成绩单未取得",
+          "所属大学公式页无个人 PB 表，大学类别标记 blocked"
+        ],
+        "affiliation": {
+          "stage": "student",
+          "organization": "早稲田大学",
+          "evidenceIds": [
+            "pb"
+          ],
+          "reason": "名鉴与 WA 显示在校所属"
+        },
+        "performances": [
+          {
+            "id": "pb",
+            "value": "27:59.47; 2026-04-24; 全日本大学対校陸上競技選手権大会",
+            "timeMilliseconds": 1679470,
+            "precision": "centisecond",
+            "achievedOn": "2026-04-24",
+            "evidenceIds": [
+              "pb"
+            ],
+            "eligibility": "eligible",
+            "reason": "WA 记录的正式比赛成绩",
+            "event": {
+              "metadataId": null,
+              "name": "全日本大学対校陸上競技選手権大会（平塚・レモンガススタジアム）",
+              "edition": null,
+              "startsOn": "2026-04-24",
+              "endsOn": "2026-04-24",
+              "competedOn": "2026-04-24",
+              "discipline": "10000m",
+              "distanceMetres": 10000,
+              "editionStatus": "pending",
+              "evidenceIds": [
+                "pb"
+              ]
+            }
+          }
+        ],
+        "pbUpdate": {
+          "initialId": "pb",
+          "selectedId": "pb",
+          "checks": [
+            {
+              "searchIndex": 2,
+              "from": "2026-04-24",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "pb"
+              ],
+              "outcome": "no-faster-found",
+              "note": "WA 当前 PB 与检索结果"
+            },
+            {
+              "searchIndex": 3,
+              "from": "2026-04-24",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "uni"
+              ],
+              "outcome": "no-faster-found",
+              "note": "大学歴代ランキングで同値を確認、より速い記載なし"
+            }
+          ],
+          "foundFaster": false,
+          "decision": "WA 显示该成绩为当前 PB，且未发现更快正式成绩"
+        }
+      }
+    },
+    {
+      "athleteId": "athlete-aj25-13-1",
+      "athleteName": "吉岡 大翔",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "1:02:25; 2024-02-04; 香川丸亀国際ハーフマラソン",
+          "sourceUrl": "https://worldathletics.org/athletes/japan/hiroto-yoshioka-14954030",
+          "locator": "Profile → Personal Bests → Half Marathon"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "worldathletics 吉岡 大翔 half-marathon",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/hiroto-yoshioka-14954030",
+              "section": "Profile → Personal Bests",
+              "access": "read",
+              "finding": "half-marathon PB 1:02:25 / 2024-02-04"
+            }
+          ],
+          "result": "WA 选手档案给出数值与日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "吉岡 大翔 1:02:25 香川丸亀国際ハーフマラソン",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/hiroto-yoshioka-14954030",
+              "section": "Profile → Personal Bests",
+              "access": "read",
+              "finding": "同一档案确认 half-marathon PB 与日期"
+            }
+          ],
+          "result": "精确值反查命中同一官方档案"
+        },
+        {
+          "stage": "verification",
+          "query": "吉岡 大翔 half-marathon PB 更新確認 2026-11-17",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/hiroto-yoshioka-14954030",
+              "section": "Profile → Personal Bests",
+              "access": "read",
+              "finding": "截至 2026-11-17 PB 仍为 1:02:25"
+            }
+          ],
+          "result": "未发现更快正式成绩"
+        },
+        {
+          "stage": "discovery",
+          "query": "吉岡 大翔 所属大学 公式記録",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://juntendo-longdistance.com/",
+              "section": "大学公式ページ",
+              "access": "read",
+              "finding": "順天堂大学駅伝公式サイトを確認；個別PB表なし"
+            }
+          ],
+          "result": "已实际访问所属大学公式页；其记录表未列出本 PB，故采用 WA 值"
+        },
+        {
+          "stage": "discovery",
+          "query": "吉岡 大翔 大学歴代記録",
+          "checkedAt": "2026-11-17",
+          "outcome": "inaccessible",
+          "sources": [
+            {
+              "url": "https://juntendo-longdistance.com/record/",
+              "section": "大学記録ページ",
+              "access": "unavailable",
+              "finding": "大学記録ページは HTTP 404"
+            }
+          ],
+          "result": "大学公式の個人PB表を取得できず"
+        }
+      ],
+      "final": {
+        "value": "1:02:25; 2024-02-04; 香川丸亀国際ハーフマラソン",
+        "sourceIds": [
+          "wa-hiroto-yoshioka"
+        ],
+        "locator": "Profile → Personal Bests → Half Marathon",
+        "revision": "World Athletics profile retrieved 2026-11-17"
+      },
+      "identityEvidence": "WA 档案姓名与出生日期与已登记选手一致（吉岡 大翔）。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "核对 WA 当前 PB 与精确值反查，未发现更快正式成绩。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "pb",
+            "sourceId": "wa-hiroto-yoshioka",
+            "role": "primary",
+            "supports": [
+              "value",
+              "achievedOn",
+              "meet",
+              "distance",
+              "affiliation",
+              "pb-update"
+            ],
+            "locator": "Profile → Personal Bests → Half Marathon",
+            "revision": "WA profile retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "worldathletics",
+            "independenceNote": "WA is an independent database, not the meet organiser"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "pb"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "blocked",
+            "searchIndexes": [
+              4
+            ],
+            "reason": "大学公式記録ページが 404/空のため個人PB表を取得できず"
+          },
+          {
+            "category": "employer",
+            "status": "not-applicable",
+            "searchIndexes": [],
+            "reason": "在校生，无需实业团检查"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未取得主办方页"
+          },
+          {
+            "category": "database",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "WA 档案"
+          },
+          {
+            "category": "media",
+            "status": "checked",
+            "searchIndexes": [
+              1
+            ],
+            "reason": "報知名鉴交叉"
+          }
+        ],
+        "limitations": [
+          "仅使用 WA 作为数值与日期来源；赛事主办方原始成绩单未取得",
+          "所属大学公式页无个人 PB 表，大学类别标记 blocked",
+          "大学公式記録ページ 404/空；PB 更新は WA 档案で確認"
+        ],
+        "affiliation": {
+          "stage": "student",
+          "organization": "順天堂大学",
+          "evidenceIds": [
+            "pb"
+          ],
+          "reason": "名鉴与 WA 显示在校所属"
+        },
+        "performances": [
+          {
+            "id": "pb",
+            "value": "1:02:25; 2024-02-04; 香川丸亀国際ハーフマラソン",
+            "timeMilliseconds": 3745000,
+            "precision": "second",
+            "achievedOn": "2024-02-04",
+            "evidenceIds": [
+              "pb"
+            ],
+            "eligibility": "eligible",
+            "reason": "WA 记录的正式比赛成绩",
+            "event": {
+              "metadataId": null,
+              "name": "香川丸亀国際ハーフマラソン（丸亀）",
+              "edition": null,
+              "startsOn": "2024-02-04",
+              "endsOn": "2024-02-04",
+              "competedOn": "2024-02-04",
+              "discipline": "half-marathon",
+              "distanceMetres": 21097.5,
+              "editionStatus": "pending",
+              "evidenceIds": [
+                "pb"
+              ]
+            }
+          }
+        ],
+        "pbUpdate": {
+          "initialId": "pb",
+          "selectedId": "pb",
+          "checks": [
+            {
+              "searchIndex": 2,
+              "from": "2024-02-04",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "pb"
+              ],
+              "outcome": "no-faster-found",
+              "note": "WA 当前 PB 与检索结果"
+            }
+          ],
+          "foundFaster": false,
+          "decision": "WA 显示该成绩为当前 PB，且未发现更快正式成绩"
+        }
+      }
+    },
+    {
+      "athleteId": "athlete-aj25-04-2",
+      "athleteName": "小池 莉希",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "2004-11-26",
+          "sourceUrl": "https://worldathletics.org/athletes/japan/riki-koike-15004091",
+          "locator": "Profile → basic data: date of birth 26 NOV 2004"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "小池 莉希 生年月日",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/riki-koike-15004091",
+              "section": "Profile basic data",
+              "access": "read",
+              "finding": "date of birth 2004-11-26"
+            }
+          ],
+          "result": "出生日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "小池 莉希 生年月日 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/riki-koike-15004091",
+              "section": "Profile basic data",
+              "access": "read",
+              "finding": "2004-11-26"
+            }
+          ],
+          "result": "同一档案复核"
+        },
+        {
+          "stage": "verification",
+          "query": "小池 莉希 出生日期 交叉",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/riki-koike-15004091",
+              "section": "Profile basic data",
+              "access": "read",
+              "finding": "2004-11-26"
+            }
+          ],
+          "result": "确认"
+        }
+      ],
+      "final": {
+        "value": "2004-11-26",
+        "sourceIds": [
+          "wa-riki-koike"
+        ],
+        "locator": "Profile → basic data: date of birth 26 NOV 2004",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "WA 姓名与选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "dob",
+            "sourceId": "wa-riki-koike",
+            "role": "identity",
+            "supports": [
+              "identity",
+              "value"
+            ],
+            "locator": "Profile → basic data: date of birth 26 NOV 2004",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "worldathletics",
+            "independenceNote": "WA 数据库"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "dob"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学档案"
+          },
+          {
+            "category": "employer",
+            "status": "not-applicable",
+            "searchIndexes": [],
+            "reason": "在校生"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无赛事页"
+          },
+          {
+            "category": "database",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "WA"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-05-5",
+      "athleteName": "山口 竣平",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "2006-01-15",
+          "sourceUrl": "https://worldathletics.org/athletes/japan/shumpei-yamaguchi-14995762",
+          "locator": "Profile → basic data: date of birth 15 JAN 2006"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "山口 竣平 生年月日",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/shumpei-yamaguchi-14995762",
+              "section": "Profile basic data",
+              "access": "read",
+              "finding": "date of birth 2006-01-15"
+            }
+          ],
+          "result": "出生日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "山口 竣平 生年月日 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/shumpei-yamaguchi-14995762",
+              "section": "Profile basic data",
+              "access": "read",
+              "finding": "2006-01-15"
+            }
+          ],
+          "result": "同一档案复核"
+        },
+        {
+          "stage": "verification",
+          "query": "山口 竣平 出生日期 交叉",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/shumpei-yamaguchi-14995762",
+              "section": "Profile basic data",
+              "access": "read",
+              "finding": "2006-01-15"
+            }
+          ],
+          "result": "确认"
+        }
+      ],
+      "final": {
+        "value": "2006-01-15",
+        "sourceIds": [
+          "wa-shumpei-yamaguchi"
+        ],
+        "locator": "Profile → basic data: date of birth 15 JAN 2006",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "WA 姓名与选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "dob",
+            "sourceId": "wa-shumpei-yamaguchi",
+            "role": "identity",
+            "supports": [
+              "identity",
+              "value"
+            ],
+            "locator": "Profile → basic data: date of birth 15 JAN 2006",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "worldathletics",
+            "independenceNote": "WA 数据库"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "dob"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学档案"
+          },
+          {
+            "category": "employer",
+            "status": "not-applicable",
+            "searchIndexes": [],
+            "reason": "在校生"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无赛事页"
+          },
+          {
+            "category": "database",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "WA"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj25-13-1",
+      "athleteName": "吉岡 大翔",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "2004-05-18",
+          "sourceUrl": "https://worldathletics.org/athletes/japan/hiroto-yoshioka-14954030",
+          "locator": "Profile → basic data: date of birth 18 MAY 2004"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "吉岡 大翔 生年月日",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/hiroto-yoshioka-14954030",
+              "section": "Profile basic data",
+              "access": "read",
+              "finding": "date of birth 2004-05-18"
+            }
+          ],
+          "result": "出生日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "吉岡 大翔 生年月日 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/hiroto-yoshioka-14954030",
+              "section": "Profile basic data",
+              "access": "read",
+              "finding": "2004-05-18"
+            }
+          ],
+          "result": "同一档案复核"
+        },
+        {
+          "stage": "verification",
+          "query": "吉岡 大翔 出生日期 交叉",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/hiroto-yoshioka-14954030",
+              "section": "Profile basic data",
+              "access": "read",
+              "finding": "2004-05-18"
+            }
+          ],
+          "result": "确认"
+        }
+      ],
+      "final": {
+        "value": "2004-05-18",
+        "sourceIds": [
+          "wa-hiroto-yoshioka"
+        ],
+        "locator": "Profile → basic data: date of birth 18 MAY 2004",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "WA 姓名与选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "dob",
+            "sourceId": "wa-hiroto-yoshioka",
+            "role": "identity",
+            "supports": [
+              "identity",
+              "value"
+            ],
+            "locator": "Profile → basic data: date of birth 18 MAY 2004",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "worldathletics",
+            "independenceNote": "WA 数据库"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "dob"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学档案"
+          },
+          {
+            "category": "employer",
+            "status": "not-applicable",
+            "searchIndexes": [],
+            "reason": "在校生"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无赛事页"
+          },
+          {
+            "category": "database",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "WA"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-04-2",
+      "athleteName": "吉田 響",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "2002-08-20",
+          "sourceUrl": "https://hibiki-yoshida.jp/about",
+          "locator": "プロフィール: 生年月日 2002年8月20日"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "吉田 響 生年月日",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hibiki-yoshida.jp/about",
+              "section": "Profile basic data",
+              "access": "read",
+              "finding": "date of birth 2002-08-20"
+            }
+          ],
+          "result": "出生日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "吉田 響 生年月日 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hibiki-yoshida.jp/about",
+              "section": "Profile basic data",
+              "access": "read",
+              "finding": "2002-08-20"
+            }
+          ],
+          "result": "同一档案复核"
+        },
+        {
+          "stage": "verification",
+          "query": "吉田 響 出生日期 交叉",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hibiki-yoshida.jp/about",
+              "section": "Profile basic data",
+              "access": "read",
+              "finding": "2002-08-20"
+            }
+          ],
+          "result": "确认"
+        }
+      ],
+      "final": {
+        "value": "2002-08-20",
+        "sourceIds": [
+          "hibiki-yoshida-official"
+        ],
+        "locator": "プロフィール: 生年月日 2002年8月20日",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "WA 姓名与选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "dob",
+            "sourceId": "hibiki-yoshida-official",
+            "role": "identity",
+            "supports": [
+              "identity",
+              "value"
+            ],
+            "locator": "プロフィール: 生年月日 2002年8月20日",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hibiki-yoshida-official",
+            "independenceNote": "WA 数据库"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "dob"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学档案"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "所属サンベルクス未取得"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无赛事页"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无 WA 记录"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj25-04-2",
+      "athleteName": "小池 莉希",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "佐久長聖高（長野県）",
+          "sourceUrl": "https://hochi.news/hakone/member/?school=soka&player=102",
+          "locator": "選手名鑑: 出身校 佐久長聖"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "小池 莉希 出身校",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=soka&player=102",
+              "section": "選手名鑑/プロフィル",
+              "access": "read",
+              "finding": "出身校 佐久長聖高（長野県）"
+            }
+          ],
+          "result": "名鉴/官方档案给出来源"
+        },
+        {
+          "stage": "reverse",
+          "query": "小池 莉希 出身校 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=soka&player=102",
+              "section": "出身校欄",
+              "access": "read",
+              "finding": "佐久長聖高（長野県）"
+            }
+          ],
+          "result": "同源复核"
+        },
+        {
+          "stage": "verification",
+          "query": "小池 莉希 学校 交叉",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=soka&player=102",
+              "section": "出身校欄",
+              "access": "read",
+              "finding": "佐久長聖高（長野県）"
+            }
+          ],
+          "result": "确认"
+        }
+      ],
+      "final": {
+        "value": "佐久長聖高（長野県）",
+        "sourceIds": [
+          "hochi-koike"
+        ],
+        "locator": "選手名鑑: 出身校 佐久長聖",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "出身校与所属大学一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "school",
+            "sourceId": "hochi-koike",
+            "role": "identity",
+            "supports": [
+              "affiliation",
+              "identity",
+              "value"
+            ],
+            "locator": "選手名鑑: 出身校 佐久長聖",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hochi.news",
+            "independenceNote": "独立档案"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "school"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "本轮未取得大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-applicable",
+            "searchIndexes": [],
+            "reason": "在校生"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无赛事页"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无"
+          },
+          {
+            "category": "media",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "報知名鉴"
+          }
+        ],
+        "limitations": [],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-05-5",
+      "athleteName": "山口 竣平",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "佐久長聖高（長野県）",
+          "sourceUrl": "https://hochi.news/hakone/member/?school=waseda&player=59",
+          "locator": "選手名鑑: 出身校 佐久長聖"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "山口 竣平 出身校",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=waseda&player=59",
+              "section": "選手名鑑/プロフィル",
+              "access": "read",
+              "finding": "出身校 佐久長聖高（長野県）"
+            }
+          ],
+          "result": "名鉴/官方档案给出来源"
+        },
+        {
+          "stage": "reverse",
+          "query": "山口 竣平 出身校 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=waseda&player=59",
+              "section": "出身校欄",
+              "access": "read",
+              "finding": "佐久長聖高（長野県）"
+            }
+          ],
+          "result": "同源复核"
+        },
+        {
+          "stage": "verification",
+          "query": "山口 竣平 学校 交叉",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=waseda&player=59",
+              "section": "出身校欄",
+              "access": "read",
+              "finding": "佐久長聖高（長野県）"
+            }
+          ],
+          "result": "确认"
+        }
+      ],
+      "final": {
+        "value": "佐久長聖高（長野県）",
+        "sourceIds": [
+          "hochi-yamaguchi-shumpei"
+        ],
+        "locator": "選手名鑑: 出身校 佐久長聖",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "出身校与所属大学一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "school",
+            "sourceId": "hochi-yamaguchi-shumpei",
+            "role": "identity",
+            "supports": [
+              "affiliation",
+              "identity",
+              "value"
+            ],
+            "locator": "選手名鑑: 出身校 佐久長聖",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hochi.news",
+            "independenceNote": "独立档案"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "school"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "本轮未取得大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-applicable",
+            "searchIndexes": [],
+            "reason": "在校生"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无赛事页"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无"
+          },
+          {
+            "category": "media",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "報知名鉴"
+          }
+        ],
+        "limitations": [],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj25-13-1",
+      "athleteName": "吉岡 大翔",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "佐久長聖高（長野県）",
+          "sourceUrl": "https://hochi.news/hakone/member/?school=juntendo&player=184",
+          "locator": "選手名鑑: 出身校 佐久長聖"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "吉岡 大翔 出身校",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=juntendo&player=184",
+              "section": "選手名鑑/プロフィル",
+              "access": "read",
+              "finding": "出身校 佐久長聖高（長野県）"
+            }
+          ],
+          "result": "名鉴/官方档案给出来源"
+        },
+        {
+          "stage": "reverse",
+          "query": "吉岡 大翔 出身校 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=juntendo&player=184",
+              "section": "出身校欄",
+              "access": "read",
+              "finding": "佐久長聖高（長野県）"
+            }
+          ],
+          "result": "同源复核"
+        },
+        {
+          "stage": "verification",
+          "query": "吉岡 大翔 学校 交叉",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=juntendo&player=184",
+              "section": "出身校欄",
+              "access": "read",
+              "finding": "佐久長聖高（長野県）"
+            }
+          ],
+          "result": "确认"
+        }
+      ],
+      "final": {
+        "value": "佐久長聖高（長野県）",
+        "sourceIds": [
+          "hochi-yoshioka"
+        ],
+        "locator": "選手名鑑: 出身校 佐久長聖",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "出身校与所属大学一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "school",
+            "sourceId": "hochi-yoshioka",
+            "role": "identity",
+            "supports": [
+              "affiliation",
+              "identity",
+              "value"
+            ],
+            "locator": "選手名鑑: 出身校 佐久長聖",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hochi.news",
+            "independenceNote": "独立档案"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "school"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "本轮未取得大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-applicable",
+            "searchIndexes": [],
+            "reason": "在校生"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无赛事页"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无"
+          },
+          {
+            "category": "media",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "報知名鉴"
+          }
+        ],
+        "limitations": [],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-04-2",
+      "athleteName": "吉田 響",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "東海大付属静岡翔洋高（静岡県）",
+          "sourceUrl": "https://hibiki-yoshida.jp/about",
+          "locator": "プロフィール: 東海大付属静岡翔洋高等学校"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "吉田 響 出身校",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hibiki-yoshida.jp/about",
+              "section": "選手名鑑/プロフィル",
+              "access": "read",
+              "finding": "出身校 東海大付属静岡翔洋高（静岡県）"
+            },
+            {
+              "url": "https://www.yomiuri.co.jp/hakone-ekiden/2024/teams/8/00164747231",
+              "section": "プロフィル",
+              "access": "read",
+              "finding": "出身校 東海大付属静岡翔洋高（静岡県）"
+            }
+          ],
+          "result": "名鉴/官方档案给出来源"
+        },
+        {
+          "stage": "reverse",
+          "query": "吉田 響 出身校 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hibiki-yoshida.jp/about",
+              "section": "出身校欄",
+              "access": "read",
+              "finding": "東海大付属静岡翔洋高（静岡県）"
+            }
+          ],
+          "result": "同源复核"
+        },
+        {
+          "stage": "verification",
+          "query": "吉田 響 学校 交叉",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hibiki-yoshida.jp/about",
+              "section": "出身校欄",
+              "access": "read",
+              "finding": "東海大付属静岡翔洋高（静岡県）"
+            }
+          ],
+          "result": "确认"
+        }
+      ],
+      "final": {
+        "value": "東海大付属静岡翔洋高（静岡県）",
+        "sourceIds": [
+          "hibiki-yoshida-official"
+        ],
+        "locator": "プロフィール: 東海大付属静岡翔洋高等学校",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "出身校与所属大学一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "school",
+            "sourceId": "hibiki-yoshida-official",
+            "role": "identity",
+            "supports": [
+              "affiliation",
+              "identity",
+              "value"
+            ],
+            "locator": "プロフィール: 東海大付属静岡翔洋高等学校",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hibiki-yoshida-official",
+            "independenceNote": "独立档案"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "school"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "所属サンベルクス未取得"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无赛事页"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无"
+          },
+          {
+            "category": "media",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "读卖档案"
+          }
+        ],
+        "limitations": [],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-03-7",
+      "athleteName": "太田 蒼生",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "大牟田高（福岡県）",
+          "sourceUrl": "https://www.yomiuri.co.jp/hakone-ekiden/2024/teams/3/00100740315",
+          "locator": "プロフィル: 登録陸協 福岡・出身校 大牟田"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "太田 蒼生 出身校",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.yomiuri.co.jp/hakone-ekiden/2024/teams/3/00100740315",
+              "section": "選手名鑑/プロフィル",
+              "access": "read",
+              "finding": "出身校 大牟田高（福岡県）"
+            }
+          ],
+          "result": "名鉴/官方档案给出来源"
+        },
+        {
+          "stage": "reverse",
+          "query": "太田 蒼生 出身校 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.yomiuri.co.jp/hakone-ekiden/2024/teams/3/00100740315",
+              "section": "出身校欄",
+              "access": "read",
+              "finding": "大牟田高（福岡県）"
+            }
+          ],
+          "result": "同源复核"
+        },
+        {
+          "stage": "verification",
+          "query": "太田 蒼生 学校 交叉",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.yomiuri.co.jp/hakone-ekiden/2024/teams/3/00100740315",
+              "section": "出身校欄",
+              "access": "read",
+              "finding": "大牟田高（福岡県）"
+            }
+          ],
+          "result": "确认"
+        }
+      ],
+      "final": {
+        "value": "大牟田高（福岡県）",
+        "sourceIds": [
+          "yomiuri-ota-2024"
+        ],
+        "locator": "プロフィル: 登録陸協 福岡・出身校 大牟田",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "出身校与所属大学一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "school",
+            "sourceId": "yomiuri-ota-2024",
+            "role": "identity",
+            "supports": [
+              "affiliation",
+              "identity",
+              "value"
+            ],
+            "locator": "プロフィル: 登録陸協 福岡・出身校 大牟田",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "yomiuri.co.jp",
+            "independenceNote": "独立档案"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "school"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "GMO 档案未取得"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无赛事页"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无"
+          },
+          {
+            "category": "media",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "读卖档案"
+          }
+        ],
+        "limitations": [],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    }
+  ]
+}

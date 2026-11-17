@@ -1,0 +1,550 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-11-16-batch2-round2-fixes",
+  "researcher": "DSH / PR #19 round-2 unified fixes (this session)",
+  "reviewedAt": "2026-11-16",
+  "records": [
+    {
+      "athleteId": "athlete-aj24-01-2",
+      "athleteName": "青木 瑠郁",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "13:25.62; 2026-06-14; 第110回日本陸上競技選手権大会 男子5000m 決勝; 5位; 住友電工",
+          "sourceUrl": "https://sei.co.jp/trackfield/profile/aoki.html",
+          "locator": "ベスト記録 5000m 13'25\"62"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "青木瑠郁 5000m 自己ベスト 住友電工",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://sei.co.jp/trackfield/profile/aoki.html",
+              "section": "選手紹介 ベスト記録",
+              "access": "read",
+              "finding": "5000m 13'25\"62（住友電工）"
+            }
+          ],
+          "result": "实业团官方档案给出当前 PB 值"
+        },
+        {
+          "stage": "reverse",
+          "query": "青木瑠郁 13分25秒62 日本選手権 決勝",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://sei.co.jp/trackfield/news/209.html",
+              "section": "第110回日本選手権 結果のご報告",
+              "access": "read",
+              "finding": "ルーキーの青木瑠郁（5000m）は…自己新記録で5位入賞"
+            },
+            {
+              "url": "https://www.jaaf.or.jp/gallery/article/23562/",
+              "section": "2026.06.12 男子5000m 予選2組",
+              "access": "read",
+              "finding": "4着 青木瑠郁（住友電工）13分27秒88 Q／決勝は6月14日"
+            }
+          ],
+          "result": "结果报告确认5位·自己新；JAAF确认决赛日2026-06-14"
+        },
+        {
+          "stage": "verification",
+          "query": "青木 13:25.62 更新確認 2026",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://sei.co.jp/trackfield/profile/aoki.html",
+              "section": "ベスト記録",
+              "access": "read",
+              "finding": "2026-11-16仍为13'25\"62，未出现更快成绩"
+            },
+            {
+              "url": "https://www.kokugakuin.com/top10/426/",
+              "section": "10000m/5000m 歴代",
+              "access": "read",
+              "finding": "大学时代旧纪录13'30.42（2025-06-11 深川）"
+            }
+          ],
+          "result": "确认旧值13:30.42为历史PB，新值13:25.62为当前PB"
+        }
+      ],
+      "final": {
+        "value": "13:25.62; 2026-06-14; 第110回日本陸上競技選手権大会 男子5000m 決勝; 5位; 住友電工",
+        "sourceIds": [
+          "sei-aoki-profile",
+          "sei-2026-jaaf-result-report",
+          "jaaf-110-5000-prelim"
+        ],
+        "locator": "ベスト記録 5000m 13'25\"62；結果報告「自己新記録で5位入賞」；JAAF予選記事「決勝は6月14日」",
+        "revision": "retrieved 2026-11-16"
+      },
+      "identityEvidence": "住友電工档案、结果报告与JAAF均指向同一选手（原國學院大→住友電工）。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "实业团档案截至2026-11-16仍为13'25\"62；未发现更快5000m正式成绩。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "athleteId": "athlete-aj24-01-2",
+      "athleteName": "青木 瑠郁",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "28:02.00; 2024-04-06; 第1回世田谷陸上競技会 男子10000m 2組; 國學院大學",
+          "sourceUrl": "https://www.kokugakuin.com/result/1734/",
+          "locator": "男子10000m 2組 青木 瑠郁 3年 28'02\"00（自己ベスト・國學院歴代2位）"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "青木瑠郁 10000m 28分02秒00 世田谷",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kokugakuin.com/result/1734/",
+              "section": "2024.04.07 第1回世田谷陸上競技会 結果",
+              "access": "read",
+              "finding": "6日開催；2組 青木瑠郁 3年 28'02\"00 自己ベスト"
+            }
+          ],
+          "result": "大学官方结果给出赛事、日期、组别与成绩"
+        },
+        {
+          "stage": "reverse",
+          "query": "青木瑠郁 28:02.00 國學院",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kokugakuin.com/top10/426/",
+              "section": "10000m 歴代10傑",
+              "access": "read",
+              "finding": "4位 28'02\"00 青木瑠郁 世田谷陸上競技会 令和6年4月6日"
+            }
+          ],
+          "result": "历代表确认日期与赛事"
+        },
+        {
+          "stage": "verification",
+          "query": "青木瑠郁 10000m 更新確認 2026",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://sei.co.jp/trackfield/profile/aoki.html",
+              "section": "ベスト記録 10000m",
+              "access": "read",
+              "finding": "2026-11-16仍为28'02\"00"
+            }
+          ],
+          "result": "确认无更新更快成绩"
+        }
+      ],
+      "final": {
+        "value": "28:02.00; 2024-04-06; 第1回世田谷陸上競技会 男子10000m 2組; 國學院大學",
+        "sourceIds": [
+          "koku-2024-setagaya-10000",
+          "koku-10000-top10"
+        ],
+        "locator": "2組 青木 瑠郁 3年 28'02\"00；历代表「世田谷陸上競技会 令和6年4月6日」",
+        "revision": "retrieved 2026-11-16"
+      },
+      "identityEvidence": "國學院大学官方结果与历代表一致，选手为该校青木瑠郁。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "实业团档案仍为28'02\"00；未发现更快10000m成绩。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "athleteId": "athlete-aj24-12-7",
+      "athleteName": "吉居 駿恭",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "1:03:45; 2024-12-01; THE DISTANCE GAMES ARAKAWA in 2024-4; 21.0975km; 8位; 中央大学",
+          "sourceUrl": "https://chuo-ldt.net/2024/12/01/241201result/",
+          "locator": "8位 吉居 駿恭 (3) 1:03:45 PB"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "吉居駿恭 ハーフマラソン 1:03:45",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://chuo-ldt.net/player/?p_name=22_Yoshii_Shunsuke",
+              "section": "選手成績・自己ベスト",
+              "access": "read",
+              "finding": "Half 1:03:45(在学中)、最新は2024年12月"
+            },
+            {
+              "url": "https://chuo-ldt.net/2024/12/01/241201result/",
+              "section": "2024-12-01 試合結果",
+              "access": "read",
+              "finding": "THE DISTANCE GAMES ARAKAWA in 2024-4(12/1) 8位 吉居 駿恭 (3) 1:03:45 PB"
+            }
+          ],
+          "result": "大学官方站点给出PB与赛事结果"
+        },
+        {
+          "stage": "reverse",
+          "query": "THE DISTANCE GAMES ARAKAWA 4 in 2024 ハーフマラソン",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.sportsentry.ne.jp/event/t/97948",
+              "section": "大会情報",
+              "access": "read",
+              "finding": "開催日2024年12月1日、ハーフマラソン、日本陸連公認レース（荒川河川敷）"
+            }
+          ],
+          "result": "确认赛事日期与项目距离类别"
+        },
+        {
+          "stage": "verification",
+          "query": "吉居駿恭 ハーフ 更新確認 2026",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://chuo-ldt.net/player/?p_name=22_Yoshii_Shunsuke",
+              "section": "自己ベスト",
+              "access": "read",
+              "finding": "Half PB仍为1:03:45，最新更新2024年12月"
+            },
+            {
+              "url": "https://worldathletics.org/athletes/japan/shunsuke-yoshii-14900218",
+              "section": "Personal Bests",
+              "access": "read",
+              "finding": "WA未列半马PB"
+            }
+          ],
+          "result": "未发现更快半马正式成绩；WA缺项不否定"
+        }
+      ],
+      "final": {
+        "value": "1:03:45; 2024-12-01; THE DISTANCE GAMES ARAKAWA in 2024-4; 21.0975km; 8位; 中央大学",
+        "sourceIds": [
+          "chuo-ldt-2024-12-01",
+          "chuo-yoshii-player",
+          "sportsentry-arakawa-4-2024"
+        ],
+        "locator": "8位 吉居 駿恭 (3) 1:03:45 PB；大会情報 ハーフマラソン／2024-12-01",
+        "revision": "retrieved 2026-11-16"
+      },
+      "identityEvidence": "中大官方PB页与赛事结果页为同一选手（3年、2024年12月）。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "大学PB页显示1:03:45(在学中)且最新更新2024年12月；未发现更快半马。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "athleteId": "athlete-aj24-03-8",
+      "athleteName": "塩出 翔太",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "13:49.56; 2025-09-24; 第16回絆記録挑戦会 男子5000m 6組; 14位; 青山学院大学",
+          "sourceUrl": "https://aogaku-tf.com/results-2025.html",
+          "locator": "第16回絆記録挑戦会 09.24 町田GIONスタジアム 6組 14 塩出 翔太 4年 13:49.56 PB"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "塩出翔太 5000m 13分49秒56",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.asahi-kasei.com/jp/sports-event/track-field/member/shiode",
+              "section": "選手紹介 自己記録",
+              "access": "read",
+              "finding": "5000m 13分49秒56（旭化成）"
+            }
+          ],
+          "result": "实业团官方档案给出当前PB"
+        },
+        {
+          "stage": "reverse",
+          "query": "塩出翔太 13:49.56 絆記録挑戦会",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://aogaku-tf.com/results-2025.html",
+              "section": "2025年 試合結果 9月",
+              "access": "read",
+              "finding": "第16回絆記録挑戦会 09.24 … 6組 14 塩出 翔太 4年 13:49.56 PB"
+            }
+          ],
+          "result": "大学官方结果给出赛事、日期与组别"
+        },
+        {
+          "stage": "verification",
+          "query": "塩出翔太 5000m 更新確認 2026",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.asahi-kasei.com/jp/sports-event/track-field/member/shiode",
+              "section": "自己記録",
+              "access": "read",
+              "finding": "2026-11-16仍为13分49秒56"
+            },
+            {
+              "url": "https://worldathletics.org/athletes/japan/shota-shiode-14895660",
+              "section": "Personal Bests",
+              "access": "read",
+              "finding": "WA 5000m PB为13:51.38(2025-06-01)，较旧"
+            }
+          ],
+          "result": "确认13:51.38为旧值，采用13:49.56"
+        }
+      ],
+      "final": {
+        "value": "13:49.56; 2025-09-24; 第16回絆記録挑戦会 男子5000m 6組; 14位; 青山学院大学",
+        "sourceIds": [
+          "aogaku-2025-results",
+          "asahi-shiode-profile"
+        ],
+        "locator": "6組 14 塩出 翔太 4年 13:49.56 PB；旭化成自己記録 13分49秒56",
+        "revision": "retrieved 2026-11-16"
+      },
+      "identityEvidence": "青山学院大学官方结果与旭化成档案一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "旭化成档案仍为13:49.56；未发现更快5000m成绩。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "athleteId": "athlete-aj24-08-6",
+      "athleteName": "楠岡 由浩",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "1:01:43; 2025-02-02; 第77回香川丸亀国際ハーフマラソン",
+          "sourceUrl": "https://www.jaaf.or.jp/competition/detail/1910/",
+          "locator": "第77回香川丸亀国際ハーフマラソン／開催日 2025年2月2日"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "第77回 香川丸亀国際ハーフマラソン 2025-02-02",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.jaaf.or.jp/competition/detail/1910/",
+              "section": "大会情報",
+              "access": "read",
+              "finding": "第77回、開催日2025年2月2日、香川・丸亀"
+            }
+          ],
+          "result": "JAAF确认届数与日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "楠岡由浩 1時間01分43秒 丸亀",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=teikyo&player=153",
+              "section": "選手名鑑 半马公認",
+              "access": "read",
+              "finding": "1時間01分43秒"
+            },
+            {
+              "url": "https://worldathletics.org/athletes/_/14979888",
+              "section": "Personal Bests → Half Marathon",
+              "access": "read",
+              "finding": "1:01:43 / 02 FEB 2025 / Marugame"
+            }
+          ],
+          "result": "成绩与日期交叉一致"
+        },
+        {
+          "stage": "verification",
+          "query": "第77回 丸亀 2025 開催日",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.jaaf.or.jp/competition/detail/1910/",
+              "section": "開催日欄",
+              "access": "read",
+              "finding": "2025年2月2日（日）"
+            }
+          ],
+          "result": "确认届数修正为第77回，成绩不变"
+        }
+      ],
+      "final": {
+        "value": "1:01:43; 2025-02-02; 第77回香川丸亀国際ハーフマラソン",
+        "sourceIds": [
+          "jaaf-77-marugame",
+          "hochi-kusuoka"
+        ],
+        "locator": "第77回／2025-02-02；半马公認1時間01分43秒",
+        "revision": "retrieved 2026-11-16"
+      },
+      "identityEvidence": "JAAF大会页与名鉴成绩一致；只修正届数，成绩不变。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "届数由第76回更正为第77回；成绩1:01:43保留。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    },
+    {
+      "athleteId": "athlete-aj24-02-7",
+      "athleteName": "篠原 倖太朗",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-16",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "59:30; 2025-02-02; 第77回香川丸亀国際ハーフマラソン; 21.0975km; 4位",
+          "sourceUrl": "https://runnet.jp/record/smp/raceresultshow.do?numberCard=74&raceId=363374",
+          "locator": "第77回…ナンバー74 距離21.0975km グロス0:59:30 総合4位"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "篠原倖太朗 59分30秒 丸亀 2025",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://runnet.jp/record/smp/raceresultshow.do?numberCard=74&raceId=363374",
+              "section": "個人記録詳細",
+              "access": "read",
+              "finding": "第77回、21.0975km、グロス0:59:30、総合4位"
+            }
+          ],
+          "result": "官方计时服务给出届数、距离与成绩"
+        },
+        {
+          "stage": "reverse",
+          "query": "第77回 丸亀 2025 開催日",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.jaaf.or.jp/competition/detail/1910/",
+              "section": "大会情報",
+              "access": "read",
+              "finding": "第77回、開催日2025年2月2日"
+            }
+          ],
+          "result": "JAAF确认届数与日期"
+        },
+        {
+          "stage": "verification",
+          "query": "篠原倖太朗 ハーフ 更新確認 2026",
+          "checkedAt": "2026-11-16",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://worldathletics.org/athletes/japan/kotaro-shinohara-14895798",
+              "section": "Personal Bests → Half Marathon",
+              "access": "read",
+              "finding": "59:30 / 02 FEB 2025 / Marugame"
+            }
+          ],
+          "result": "WA同值；未见更快半马"
+        }
+      ],
+      "final": {
+        "value": "59:30; 2025-02-02; 第77回香川丸亀国際ハーフマラソン; 21.0975km; 4位",
+        "sourceIds": [
+          "runnet-77-marugame-shinohara",
+          "jaaf-77-marugame"
+        ],
+        "locator": "ナンバー74、21.0975km、グロス0:59:30、総合4位；第77回/2025-02-02",
+        "revision": "retrieved 2026-11-16"
+      },
+      "identityEvidence": "RUNNET官方计时与JAAF大会页一致；只修正届数，成绩不变。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-16",
+        "summary": "届数由第76回更正为第77回；成绩59:30保留。"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-16"
+    }
+  ]
+}

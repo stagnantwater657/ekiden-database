@@ -1,7 +1,7 @@
 {
   "batchId": "2026-11-17-batch2-round3-repair",
   "readyForReview": false,
-  "scopeNote": "按独立授权范围（五位选手×五个字段，asOf 2026-11-17）逐字段记录。9项修复已核验入库；16项复核结论亦入记录。organizer-results 对多数 PB 尚未取得主办方原件，故 readyForReview=false，等待授权文件与独立复核。",
+  "scopeNote": "授权范围：五位选手×五个字段，asOf 2026-11-17。已补在校生enrollment时点证据、主办方真实检索与毕业后实业团结果检查；仍缺主办方原件与吉田实业团结果，未声明送审。",
   "subjects": [
     {
       "athleteId": "athlete-aj25-04-2",
@@ -60,25 +60,29 @@
         },
         {
           "kind": "organizer-results",
-          "status": "not-started",
-          "searchIndexes": [],
-          "alternativeSearchIndexes": [],
-          "reason": "未取得主办方原始成绩单"
+          "status": "blocked",
+          "searchIndexes": [
+            6
+          ],
+          "alternativeSearchIndexes": [
+            0
+          ],
+          "reason": "主办方公开结果未取得/不可访问，已执行真实检索并以大学记录替代"
         },
         {
           "kind": "employer-profile",
           "status": "not-applicable",
           "searchIndexes": [
-            0
+            4
           ],
           "alternativeSearchIndexes": [],
-          "reason": "在校生，无需实业团档案"
+          "reason": "在校生（enrollment asOf 2026-11-17），有官方名册与（如适用）内定公告"
         },
         {
           "kind": "employer-results",
           "status": "not-applicable",
           "searchIndexes": [
-            0
+            4
           ],
           "alternativeSearchIndexes": [],
           "reason": "在校生，无实业团比赛结果"
@@ -145,25 +149,29 @@
         },
         {
           "kind": "organizer-results",
-          "status": "not-started",
-          "searchIndexes": [],
-          "alternativeSearchIndexes": [],
-          "reason": "未取得主办方原始成绩单"
+          "status": "blocked",
+          "searchIndexes": [
+            6
+          ],
+          "alternativeSearchIndexes": [
+            0
+          ],
+          "reason": "主办方公开结果未取得/不可访问，已执行真实检索并以大学记录替代"
         },
         {
           "kind": "employer-profile",
           "status": "not-applicable",
           "searchIndexes": [
-            0
+            4
           ],
           "alternativeSearchIndexes": [],
-          "reason": "在校生，无需实业团档案"
+          "reason": "在校生（enrollment asOf 2026-11-17），有官方名册与（如适用）内定公告"
         },
         {
           "kind": "employer-results",
           "status": "not-applicable",
           "searchIndexes": [
-            0
+            4
           ],
           "alternativeSearchIndexes": [],
           "reason": "在校生，无实业团比赛结果"
@@ -219,7 +227,7 @@
           "alternativeSearchIndexes": [
             0
           ],
-          "reason": "大学历代表页面404/空，以WA档案替代"
+          "reason": "大学历代表页面404，以官方记录替代"
         },
         {
           "kind": "university-results",
@@ -230,29 +238,33 @@
           "alternativeSearchIndexes": [
             0
           ],
-          "reason": "大学记录页面404/空，以WA档案替代"
+          "reason": "大学记录页面404，以官方记录替代"
         },
         {
           "kind": "organizer-results",
-          "status": "not-started",
-          "searchIndexes": [],
-          "alternativeSearchIndexes": [],
-          "reason": "未取得主办方原始成绩单"
+          "status": "blocked",
+          "searchIndexes": [
+            8
+          ],
+          "alternativeSearchIndexes": [
+            0
+          ],
+          "reason": "主办方公开结果未取得/不可访问，已执行真实检索并以大学记录替代"
         },
         {
           "kind": "employer-profile",
           "status": "not-applicable",
           "searchIndexes": [
-            0
+            6
           ],
           "alternativeSearchIndexes": [],
-          "reason": "在校生，无需实业团档案"
+          "reason": "在校生（enrollment asOf 2026-11-17），有官方名册与（如适用）内定公告"
         },
         {
           "kind": "employer-results",
           "status": "not-applicable",
           "searchIndexes": [
-            0
+            6
           ],
           "alternativeSearchIndexes": [],
           "reason": "在校生，无实业团比赛结果"
@@ -319,25 +331,29 @@
         },
         {
           "kind": "organizer-results",
-          "status": "not-started",
-          "searchIndexes": [],
-          "alternativeSearchIndexes": [],
-          "reason": "未取得主办方原始成绩单"
+          "status": "blocked",
+          "searchIndexes": [
+            5
+          ],
+          "alternativeSearchIndexes": [
+            0
+          ],
+          "reason": "主办方公开结果未取得/不可访问，已执行真实检索并以大学记录替代"
         },
         {
           "kind": "employer-profile",
           "status": "not-applicable",
           "searchIndexes": [
-            0
+            4
           ],
           "alternativeSearchIndexes": [],
-          "reason": "在校生，无需实业团档案"
+          "reason": "在校生（enrollment asOf 2026-11-17），有官方名册与（如适用）内定公告"
         },
         {
           "kind": "employer-results",
           "status": "not-applicable",
           "searchIndexes": [
-            0
+            4
           ],
           "alternativeSearchIndexes": [],
           "reason": "在校生，无实业团比赛结果"
@@ -404,25 +420,29 @@
         },
         {
           "kind": "organizer-results",
-          "status": "not-started",
-          "searchIndexes": [],
-          "alternativeSearchIndexes": [],
-          "reason": "未取得主办方原始成绩单"
+          "status": "blocked",
+          "searchIndexes": [
+            5
+          ],
+          "alternativeSearchIndexes": [
+            0
+          ],
+          "reason": "主办方公开结果未取得/不可访问，已执行真实检索并以大学记录替代"
         },
         {
           "kind": "employer-profile",
           "status": "not-applicable",
           "searchIndexes": [
-            0
+            4
           ],
           "alternativeSearchIndexes": [],
-          "reason": "在校生，无需实业团档案"
+          "reason": "在校生（enrollment asOf 2026-11-17），有官方名册与（如适用）内定公告"
         },
         {
           "kind": "employer-results",
           "status": "not-applicable",
           "searchIndexes": [
-            0
+            4
           ],
           "alternativeSearchIndexes": [],
           "reason": "在校生，无实业团比赛结果"
@@ -478,7 +498,7 @@
           "alternativeSearchIndexes": [
             0
           ],
-          "reason": "大学历代表页面404/空，以WA档案替代"
+          "reason": "大学历代表页面404，以官方记录替代"
         },
         {
           "kind": "university-results",
@@ -489,29 +509,33 @@
           "alternativeSearchIndexes": [
             0
           ],
-          "reason": "大学记录页面404/空，以WA档案替代"
+          "reason": "大学记录页面404，以官方记录替代"
         },
         {
           "kind": "organizer-results",
-          "status": "not-started",
-          "searchIndexes": [],
-          "alternativeSearchIndexes": [],
-          "reason": "未取得主办方原始成绩单"
+          "status": "blocked",
+          "searchIndexes": [
+            6
+          ],
+          "alternativeSearchIndexes": [
+            0
+          ],
+          "reason": "主办方公开结果未取得/不可访问，已执行真实检索并以大学记录替代"
         },
         {
           "kind": "employer-profile",
           "status": "not-applicable",
           "searchIndexes": [
-            0
+            5
           ],
           "alternativeSearchIndexes": [],
-          "reason": "在校生，无需实业团档案"
+          "reason": "在校生（enrollment asOf 2026-11-17），有官方名册与（如适用）内定公告"
         },
         {
           "kind": "employer-results",
           "status": "not-applicable",
           "searchIndexes": [
-            0
+            5
           ],
           "alternativeSearchIndexes": [],
           "reason": "在校生，无实业团比赛结果"
@@ -578,25 +602,29 @@
         },
         {
           "kind": "organizer-results",
-          "status": "not-started",
-          "searchIndexes": [],
-          "alternativeSearchIndexes": [],
-          "reason": "未取得主办方原始成绩单"
+          "status": "blocked",
+          "searchIndexes": [
+            5
+          ],
+          "alternativeSearchIndexes": [
+            0
+          ],
+          "reason": "主办方公开结果未取得/不可访问，已执行真实检索并以大学记录替代"
         },
         {
           "kind": "employer-profile",
           "status": "not-applicable",
           "searchIndexes": [
-            0
+            4
           ],
           "alternativeSearchIndexes": [],
-          "reason": "在校生，无需实业团档案"
+          "reason": "在校生（enrollment asOf 2026-11-17），有官方名册与（如适用）内定公告"
         },
         {
           "kind": "employer-results",
           "status": "not-applicable",
           "searchIndexes": [
-            0
+            4
           ],
           "alternativeSearchIndexes": [],
           "reason": "在校生，无实业团比赛结果"
@@ -652,7 +680,7 @@
           "alternativeSearchIndexes": [
             0
           ],
-          "reason": "大学历代表页面404/空，以WA档案替代"
+          "reason": "大学历代表页面404，以官方记录替代"
         },
         {
           "kind": "university-results",
@@ -663,29 +691,33 @@
           "alternativeSearchIndexes": [
             0
           ],
-          "reason": "大学记录页面404/空，以WA档案替代"
+          "reason": "大学记录页面404，以官方记录替代"
         },
         {
           "kind": "organizer-results",
-          "status": "not-started",
-          "searchIndexes": [],
-          "alternativeSearchIndexes": [],
-          "reason": "未取得主办方原始成绩单"
+          "status": "blocked",
+          "searchIndexes": [
+            6
+          ],
+          "alternativeSearchIndexes": [
+            0
+          ],
+          "reason": "主办方公开结果未取得/不可访问，已执行真实检索并以大学记录替代"
         },
         {
           "kind": "employer-profile",
           "status": "not-applicable",
           "searchIndexes": [
-            0
+            5
           ],
           "alternativeSearchIndexes": [],
-          "reason": "在校生，无需实业团档案"
+          "reason": "在校生（enrollment asOf 2026-11-17），有官方名册与（如适用）内定公告"
         },
         {
           "kind": "employer-results",
           "status": "not-applicable",
           "searchIndexes": [
-            0
+            5
           ],
           "alternativeSearchIndexes": [],
           "reason": "在校生，无实业团比赛结果"
@@ -752,10 +784,14 @@
         },
         {
           "kind": "organizer-results",
-          "status": "not-started",
-          "searchIndexes": [],
-          "alternativeSearchIndexes": [],
-          "reason": "未取得主办方原始成绩单"
+          "status": "blocked",
+          "searchIndexes": [
+            6
+          ],
+          "alternativeSearchIndexes": [
+            0
+          ],
+          "reason": "主办方公开结果未取得/不可访问，已执行真实检索并以大学记录替代"
         },
         {
           "kind": "employer-profile",
@@ -764,16 +800,20 @@
             5
           ],
           "alternativeSearchIndexes": [
-            0
+            4
           ],
-          "reason": "实业团页面不可访问，以本人/大学档案替代"
+          "reason": "实业团页面不可访问，以本人官网替代"
         },
         {
           "kind": "employer-results",
-          "status": "not-started",
-          "searchIndexes": [],
-          "alternativeSearchIndexes": [],
-          "reason": "未取得实业团历年比赛结果"
+          "status": "blocked",
+          "searchIndexes": [
+            5
+          ],
+          "alternativeSearchIndexes": [
+            4
+          ],
+          "reason": "实业团结果页不可访问；毕业后更新未能完整确认"
         }
       ],
       "nextActions": [
@@ -837,10 +877,14 @@
         },
         {
           "kind": "organizer-results",
-          "status": "not-started",
-          "searchIndexes": [],
-          "alternativeSearchIndexes": [],
-          "reason": "未取得主办方原始成绩单"
+          "status": "blocked",
+          "searchIndexes": [
+            6
+          ],
+          "alternativeSearchIndexes": [
+            0
+          ],
+          "reason": "主办方公开结果未取得/不可访问，已执行真实检索并以大学记录替代"
         },
         {
           "kind": "employer-profile",
@@ -849,16 +893,20 @@
             5
           ],
           "alternativeSearchIndexes": [
-            0
+            4
           ],
-          "reason": "实业团页面不可访问，以本人/大学档案替代"
+          "reason": "实业团页面不可访问，以本人官网替代"
         },
         {
           "kind": "employer-results",
-          "status": "not-started",
-          "searchIndexes": [],
-          "alternativeSearchIndexes": [],
-          "reason": "未取得实业团历年比赛结果"
+          "status": "blocked",
+          "searchIndexes": [
+            5
+          ],
+          "alternativeSearchIndexes": [
+            4
+          ],
+          "reason": "实业团结果页不可访问；毕业后更新未能完整确认"
         }
       ],
       "nextActions": [
@@ -927,7 +975,7 @@
             6
           ],
           "alternativeSearchIndexes": [],
-          "reason": "主办方/计时成绩已读"
+          "reason": "主办方/计时最终成绩已读（results）"
         },
         {
           "kind": "employer-profile",
@@ -936,16 +984,20 @@
             5
           ],
           "alternativeSearchIndexes": [
-            0
+            4
           ],
-          "reason": "实业团页面不可访问，以本人/大学档案替代"
+          "reason": "实业团页面不可访问，以本人官网替代"
         },
         {
           "kind": "employer-results",
-          "status": "not-started",
-          "searchIndexes": [],
-          "alternativeSearchIndexes": [],
-          "reason": "未取得实业团历年比赛结果"
+          "status": "blocked",
+          "searchIndexes": [
+            5
+          ],
+          "alternativeSearchIndexes": [
+            4
+          ],
+          "reason": "实业团结果页不可访问；毕业后更新未能完整确认"
         }
       ],
       "nextActions": [
@@ -1009,10 +1061,14 @@
         },
         {
           "kind": "organizer-results",
-          "status": "not-started",
-          "searchIndexes": [],
-          "alternativeSearchIndexes": [],
-          "reason": "未取得主办方原始成绩单"
+          "status": "blocked",
+          "searchIndexes": [
+            6
+          ],
+          "alternativeSearchIndexes": [
+            0
+          ],
+          "reason": "主办方公开结果未取得/不可访问，已执行真实检索并以大学记录替代"
         },
         {
           "kind": "employer-profile",
@@ -1021,14 +1077,16 @@
             4
           ],
           "alternativeSearchIndexes": [],
-          "reason": "实业团/本人档案已读"
+          "reason": "实业团官方档案已读"
         },
         {
           "kind": "employer-results",
-          "status": "not-started",
-          "searchIndexes": [],
+          "status": "searched",
+          "searchIndexes": [
+            7
+          ],
           "alternativeSearchIndexes": [],
-          "reason": "未取得实业团历年比赛结果"
+          "reason": "实业团官方成绩库已读，至截止日无更快同项目成绩"
         }
       ],
       "nextActions": [
@@ -1092,10 +1150,14 @@
         },
         {
           "kind": "organizer-results",
-          "status": "not-started",
-          "searchIndexes": [],
-          "alternativeSearchIndexes": [],
-          "reason": "未取得主办方原始成绩单"
+          "status": "blocked",
+          "searchIndexes": [
+            6
+          ],
+          "alternativeSearchIndexes": [
+            0
+          ],
+          "reason": "主办方公开结果未取得/不可访问，已执行真实检索并以大学记录替代"
         },
         {
           "kind": "employer-profile",
@@ -1104,14 +1166,16 @@
             4
           ],
           "alternativeSearchIndexes": [],
-          "reason": "实业团/本人档案已读"
+          "reason": "实业团官方档案已读"
         },
         {
           "kind": "employer-results",
-          "status": "not-started",
-          "searchIndexes": [],
+          "status": "searched",
+          "searchIndexes": [
+            7
+          ],
           "alternativeSearchIndexes": [],
-          "reason": "未取得实业团历年比赛结果"
+          "reason": "实业团官方成绩库已读，至截止日无更快同项目成绩"
         }
       ],
       "nextActions": [
@@ -1175,10 +1239,14 @@
         },
         {
           "kind": "organizer-results",
-          "status": "not-started",
-          "searchIndexes": [],
-          "alternativeSearchIndexes": [],
-          "reason": "未取得主办方原始成绩单"
+          "status": "blocked",
+          "searchIndexes": [
+            6
+          ],
+          "alternativeSearchIndexes": [
+            0
+          ],
+          "reason": "主办方公开结果未取得/不可访问，已执行真实检索并以大学记录替代"
         },
         {
           "kind": "employer-profile",
@@ -1187,14 +1255,16 @@
             4
           ],
           "alternativeSearchIndexes": [],
-          "reason": "实业团/本人档案已读"
+          "reason": "实业团官方档案已读"
         },
         {
           "kind": "employer-results",
-          "status": "not-started",
-          "searchIndexes": [],
+          "status": "searched",
+          "searchIndexes": [
+            7
+          ],
           "alternativeSearchIndexes": [],
-          "reason": "未取得实业团历年比赛结果"
+          "reason": "实业团官方成绩库已读，至截止日无更快同项目成绩"
         }
       ],
       "nextActions": [
@@ -1240,7 +1310,7 @@
         }
       ],
       "nextActions": [
-        "独立复核者重开一手档案核对"
+        "独立复核者重开一手来源核对身份、日期与最新PB"
       ]
     },
     {
@@ -1282,7 +1352,7 @@
         }
       ],
       "nextActions": [
-        "独立复核者重开一手档案核对"
+        "独立复核者重开一手来源核对身份、日期与最新PB"
       ]
     },
     {
@@ -1324,7 +1394,7 @@
         }
       ],
       "nextActions": [
-        "独立复核者重开一手档案核对"
+        "独立复核者重开一手来源核对身份、日期与最新PB"
       ]
     },
     {
@@ -1366,7 +1436,7 @@
         }
       ],
       "nextActions": [
-        "独立复核者重开一手档案核对"
+        "独立复核者重开一手来源核对身份、日期与最新PB"
       ]
     },
     {
@@ -1408,7 +1478,7 @@
         }
       ],
       "nextActions": [
-        "独立复核者重开一手档案核对"
+        "独立复核者重开一手来源核对身份、日期与最新PB"
       ]
     },
     {
@@ -1450,7 +1520,7 @@
         }
       ],
       "nextActions": [
-        "独立复核者重开一手档案核对"
+        "独立复核者重开一手来源核对身份、日期与最新PB"
       ]
     },
     {
@@ -1494,7 +1564,7 @@
         }
       ],
       "nextActions": [
-        "独立复核者重开一手档案核对"
+        "独立复核者重开一手来源核对身份、日期与最新PB"
       ]
     },
     {
@@ -1538,7 +1608,7 @@
         }
       ],
       "nextActions": [
-        "独立复核者重开一手档案核对"
+        "独立复核者重开一手来源核对身份、日期与最新PB"
       ]
     },
     {
@@ -1580,7 +1650,7 @@
         }
       ],
       "nextActions": [
-        "独立复核者重开一手档案核对"
+        "独立复核者重开一手来源核对身份、日期与最新PB"
       ]
     },
     {
@@ -1622,7 +1692,7 @@
         }
       ],
       "nextActions": [
-        "独立复核者重开一手档案核对"
+        "独立复核者重开一手来源核对身份、日期与最新PB"
       ]
     },
     {
@@ -1655,10 +1725,14 @@
         },
         {
           "kind": "organizer-results",
-          "status": "not-started",
-          "searchIndexes": [],
-          "alternativeSearchIndexes": [],
-          "reason": "未取得主办方半马成绩单"
+          "status": "blocked",
+          "searchIndexes": [
+            4
+          ],
+          "alternativeSearchIndexes": [
+            2
+          ],
+          "reason": "主办方/计时检索失败，以大学历代表为替代"
         },
         {
           "kind": "event-year",
@@ -1668,10 +1742,28 @@
           ],
           "alternativeSearchIndexes": [],
           "reason": "姓名+半马+年份查询已执行"
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            3
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "在校生（官方大会页 3年）"
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            3
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "在校生，无实业团比赛结果"
         }
       ],
       "nextActions": [
-        "独立复核者确认 not-found 检索范围是否足够"
+        "独立复核者重开一手来源核对身份、日期与最新PB"
       ]
     }
   ]

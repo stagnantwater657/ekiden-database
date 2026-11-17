@@ -1498,5 +1498,95 @@
       "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
       "permissionReference": null
     }
+  },
+  {
+    "id": "gmo-koike-offer-2026",
+    "title": "GMOインターネットグループ 小池選手所属内定のお知らせ",
+    "url": "https://athletes.gmo.jp/news/6720/",
+    "collectedAt": "2026-11-17",
+    "locator": "2026.07.31: 小池莉希（現：創価大学4年生）の所属内定（2027年4月1日入社予定）",
+    "coverage": "小池莉希的当前在校身份与未来入队日",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://athletes.gmo.jp/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Employer announcement reviewed. Only objective facts recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "gmo-record-db",
+    "title": "GMOインターネットグループ 陸上部 記録（スケジュール／結果）",
+    "url": "https://athletes.gmo.jp/record/",
+    "collectedAt": "2026-11-17",
+    "locator": "太田蒼生: ハーフ 1:03:06 2025/04/20 上海ハーフマラソン; 10000m 28'25\"01 2025/11/22 八王子LD; フル 2:10:07 2026/03/01 東京マラソン2026 など（5000m/10000m/半馬に本成绩より速い記載なし）",
+    "coverage": "太田蒼生毕业后的比赛结果",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://athletes.gmo.jp/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Employer result database reviewed. Only objective facts recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "soka-roster-top",
+    "title": "創価大学駅伝部 公式サイト（エントリーメンバー紹介）",
+    "url": "https://soka-ekiden.com/",
+    "collectedAt": "2026-11-17",
+    "locator": "エントリーメンバー紹介: 小池 莉希 RIKI KOIKE (4年)",
+    "coverage": "小池莉希 2026 年度的在校身份",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://soka-ekiden.com/",
+      "reviewedAt": "2026-11-17",
+      "basis": "University roster reviewed. Only objective facts recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "waseda-aj58-2026",
+    "title": "早稲田大学競走部 秩父宮賜杯第58回全日本大学駅伝対校選手権大会",
+    "url": "https://waseda-ac.jp/competition/detail/1066",
+    "collectedAt": "2026-11-17",
+    "locator": "7区(17.6km) 山口竣平(3) 50:58 区間3位／総合1位",
+    "coverage": "山口竣平 2026 年度的在校身份与学年",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://waseda-ac.jp/",
+      "reviewedAt": "2026-11-17",
+      "basis": "University competition page reviewed. Only objective facts recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "juntendo-team-roster",
+    "title": "順天堂大学駅伝 チーム・部員紹介",
+    "url": "https://juntendo-longdistance.com/team",
+    "collectedAt": "2026-11-17",
+    "locator": "よしおか ひろと 吉岡 大翔 2004.05.18 スポーツ健康科学部／出身高校 長野県 佐久長聖高校／自己ベスト 5000m-13:22.99 10000m-28:08.02 ハーフ-",
+    "coverage": "吉岡大翔的在校身份、生日、出身高中与 PB",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "http://juntendo-longdistance.com/",
+      "reviewedAt": "2026-11-17",
+      "basis": "University roster reviewed. Only objective facts recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "asahi-fukagawa-2024-report",
+    "title": "旭化成 陸上競技部 ホクレンディスタンスチャレンジ2024 第4戦深川大会",
+    "url": "https://www.asahi-kasei.com/jp/sports-event/track-field/schedule/2024/0717",
+    "collectedAt": "2026-11-17",
+    "locator": "7月17日 深川市陸上競技場; 18時15分 男子5000m B: 吉田響選手（創価大学）がペースアップ",
+    "coverage": "吉田響 5000m 2024-07-17 深川大会的报告佐证",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://www.asahi-kasei.com/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Corporate team race report reviewed. Only objective facts recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
   }
 ]

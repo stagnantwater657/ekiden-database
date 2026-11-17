@@ -295,3 +295,50 @@ PR #18 首批：佐藤圭汰、黒田朝日、伊藤蒼唯、山口智規、溜�
   - 主要 findings：多数 PB 的 organizer-results 未取得主办方原始成绩单（not-started）；吉田/太田 employer-results not-started；学生 PB 的 employer-profile/results N/A 被程序要求雇主类别证据（unrelated-waiver）。
   - 51 项 MANUAL CHECK REQUIRED（blocked/N/A 的语义相关性待人工复核）。
 - 独立授权文件（SHA-256 e06f086a…）**未收到**：按派工要求停止严格完成度验收，未以自行生成或新摘要放行。
+
+## 第 3 轮最终收尾（2026-11-17，整合 PR #23 在校豁免/主办方受阻/毕业后检查）
+
+整合 main `b183282`（PR #23）。本轮未新增生产事实，仅补强研究记录与完成清单：
+
+### 任务 A：在校生时点证据（16 条 N/A 已补 evidence）
+
+- 小池莉希：創価大官方名册「エントリーメンバー紹介 小池莉希(4年)」+ GMO 内定公告（2026-07-31、**2027年4月1日入社予定**）→ `enrollment {asOf: 2026-11-17, employerStartsOn: "2027-04-01"}`。
+- 山口竣平：早大官方第58回全日本大学駅伝页「7区(17.6km) 山口竣平(3)」→ `enrollment {asOf, null}`。
+- 吉岡大翔：順大官方部員介绍页「吉岡大翔 2004.05.18 スポーツ健康科学部」→ `enrollment {asOf, null}`。
+- 三条选手的 8 项 PB 记录均把身份/所属证据（documentType profile/announcement）挂到 affiliation.evidenceIds。
+
+### 任务 B：14 项主办方检索（全部实际执行）
+
+| 字段 | 尝试 | 结果 |
+|---|---|---|
+| 小池 5000m | JAAF 第110回 live 页 | 读（JS壳，无文本成绩）→ blocked |
+| 小池 10000m | 関東学連 archive | 读（公开PDF未定位）→ blocked |
+| 小池 半马 | RUNNET 检索 | HTTP 400 → blocked |
+| 山口 5000m | JAAF 千歳页 | 404 → blocked |
+| 山口 10000m | JAAF 全日本対校页 | 404 → blocked |
+| 山口 半马 | RUNNET 检索 | 400 → blocked |
+| 吉岡 5000m | 日体大官方PDF | 000 → blocked |
+| 吉岡 10000m | 日体大官方PDF | 000 → blocked（替代：順大官方结果 results） |
+| 吉岡 半马 | RUNNET 检索 | 400 → blocked |
+| 吉田 5000m | JAAF 大会页 | ID不匹配 → blocked（另读旭化成深川报告） |
+| 吉田 10000m | 関東学連 archive | 未定位 → blocked |
+| 吉田 半马 | RUNNET bib164 | **searched**（results：21.0975km、gross 1:01:45、種目別1位；documentType=results） |
+| 太田 5000m/10000m | 関東学連 archive | 未定位 → blocked（替代：青学 2023 结果 results） |
+| 太田 半马 | 上海マラソン官网 2024 | JS壳 → blocked（替代：青学 2024 结果 results） |
+
+### 任务 C：毕业后实业团结果（6 项）
+
+- 太田蒼生（GMO）：官方成绩库已读 — 半馬1:03:06（2025-04-20 上海）、10000m 28'25"01（2025-11-22 八王子LD）、フル 2:10:07（2026-03-01 東京）、仙台ハーフ DNS（2026-05-10）；**无更快 5000m/10000m/半馬** → 3 项 employer-results searched。
+- 吉田響（サンベルクス）：官网 HTTP 000 不可访问；毕业后 5000m/10000m/半馬正式成绩未能确认 → 3 项 employer-results **blocked**（真实局限保留，不宣称最新 PB 已确认）。
+
+### 任务 D：三个新增缺口
+
+- D1 吉田半馬：RUNNET 结果页重读，`documentType=results`，证据 role=primary、支持 value/achievedOn/meet/distance ✓。
+- D2/D3 山口半馬 not-found：employer-profile/results 两项 N/A 已用早大官方大会页（3年）与 enrollment 支撑 ✓；organizer-results 记录真实失败（RUNNET 400）→ blocked。
+
+### 完成度结论（授权文件仍未收到）
+
+- `research:validate`：7 批 78 条通过。
+- `research:complete`（无授权）：**steps INCOMPLETE；NOT SUBMITTED；authorization NOT ASSESSED；exit DENIED**。
+- 剩余 6 项真实阻断：小池/吉岡半马 organizer 替代证据仅 WA（无 results 类替代）；吉田 3 项 employer-results（实业团页不可访问且无毕业后独立成绩）；山口半马 organizer 替代（not-found 无成绩证据）。
+- 独立授权文件 `round3-repair-authorization.json` 与预期 SHA-256 `e06f086a…` 仍未收到，不自行生成、不替换摘要。

@@ -35,7 +35,8 @@
               "section": "university: 創価大歴代5000m 2位",
               "access": "read",
               "finding": "創価大歴代5000m 2位",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "大学/协会官方记录给出成绩、日期与赛事"
@@ -51,7 +52,8 @@
               "section": "創価大歴代5000m 2位",
               "access": "read",
               "finding": "創価大歴代5000m 2位",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "精确值反查命中官方记录"
@@ -67,7 +69,8 @@
               "section": "創価大歴代5000m 2位",
               "access": "read",
               "finding": "創価大歴代5000m 2位",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "日文分秒写法反查命中"
@@ -83,10 +86,62 @@
               "section": "Profile → Personal Bests",
               "access": "read",
               "finding": "WA 同值 13:28.80 / 2026-06-12",
-              "category": "database"
+              "category": "database",
+              "documentType": "profile"
             }
           ],
           "result": "WA 日期与场地交叉"
+        },
+        {
+          "stage": "discovery",
+          "query": "小池 莉希 創価大学 名册",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/",
+              "section": "エントリーメンバー紹介",
+              "access": "read",
+              "finding": "小池莉希 (4年)",
+              "category": "university",
+              "documentType": "profile"
+            }
+          ],
+          "result": "大学官方名册确认4年在校"
+        },
+        {
+          "stage": "discovery",
+          "query": "小池 莉希 GMO 内定公告",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://athletes.gmo.jp/news/6720/",
+              "section": "小池選手所属内定のお知らせ",
+              "access": "read",
+              "finding": "現：創価大学4年生、2027年4月1日入社予定",
+              "category": "employer",
+              "documentType": "announcement"
+            }
+          ],
+          "result": "实业团内定公告：入队日在截止日之后"
+        },
+        {
+          "stage": "verification",
+          "query": "主办方・田联 检索 5000m",
+          "checkedAt": "2026-11-17",
+          "outcome": "not-found",
+          "sources": [
+            {
+              "url": "https://www.jaaf.or.jp/live/jch/110/shtml/result/track/20260614_1-6-6-0-1-3-3-0-5_ResultTrackA.html",
+              "section": "第110回日本選手権 5000m 決勝 live 页",
+              "access": "read",
+              "finding": "JS壳，正文无文本成绩表",
+              "category": "federation",
+              "documentType": "results"
+            }
+          ],
+          "result": "官方live页无公开文本结果"
         }
       ],
       "final": {
@@ -143,6 +198,36 @@
             "checkedAt": "2026-11-17",
             "originKey": "worldathletics",
             "independenceNote": "独立数据库"
+          },
+          {
+            "id": "roster",
+            "sourceId": "soka-roster-top",
+            "role": "identity",
+            "supports": [
+              "identity",
+              "affiliation"
+            ],
+            "locator": "エントリーメンバー紹介: 小池 莉希 (4年)",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "university",
+            "independenceNote": "官方名册/公告"
+          },
+          {
+            "id": "offer",
+            "sourceId": "gmo-koike-offer-2026",
+            "role": "identity",
+            "supports": [
+              "identity",
+              "affiliation"
+            ],
+            "locator": "現：創価大学4年生／2027年4月1日入社予定",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "employer",
+            "independenceNote": "实业团官方公告"
           }
         ],
         "adoptedEvidenceIds": [
@@ -186,15 +271,22 @@
           }
         ],
         "limitations": [
-          "主办方原始成绩单未取得"
+          "主办方原始成绩单未取得",
+          "在校身份以官方名册/公告与实业团内定公告为据（截止日）"
         ],
         "affiliation": {
           "stage": "student",
           "organization": "創価大学",
           "evidenceIds": [
-            "uni"
+            "uni",
+            "roster",
+            "offer"
           ],
-          "reason": "大学记录页显示在校所属"
+          "reason": "大学记录页显示在校所属",
+          "enrollment": {
+            "asOf": "2026-11-17",
+            "employerStartsOn": "2027-04-01"
+          }
         },
         "performances": [
           {
@@ -285,7 +377,8 @@
               "section": "university: 創価大歴代10000m 5位",
               "access": "read",
               "finding": "創価大歴代10000m 5位",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "大学/协会官方记录给出成绩、日期与赛事"
@@ -301,7 +394,8 @@
               "section": "創価大歴代10000m 5位",
               "access": "read",
               "finding": "創価大歴代10000m 5位",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "精确值反查命中官方记录"
@@ -317,7 +411,8 @@
               "section": "創価大歴代10000m 5位",
               "access": "read",
               "finding": "創価大歴代10000m 5位",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "日文分秒写法反查命中"
@@ -333,10 +428,62 @@
               "section": "Profile → Personal Bests",
               "access": "read",
               "finding": "WA 同值 27:52.43 / 2026-05-21",
-              "category": "database"
+              "category": "database",
+              "documentType": "profile"
             }
           ],
           "result": "WA 日期与场地交叉"
+        },
+        {
+          "stage": "discovery",
+          "query": "小池 莉希 創価大学 名册",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/",
+              "section": "エントリーメンバー紹介",
+              "access": "read",
+              "finding": "小池莉希 (4年)",
+              "category": "university",
+              "documentType": "profile"
+            }
+          ],
+          "result": "大学官方名册确认4年在校"
+        },
+        {
+          "stage": "discovery",
+          "query": "小池 莉希 GMO 内定公告",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://athletes.gmo.jp/news/6720/",
+              "section": "小池選手所属内定のお知らせ",
+              "access": "read",
+              "finding": "現：創価大学4年生、2027年4月1日入社予定",
+              "category": "employer",
+              "documentType": "announcement"
+            }
+          ],
+          "result": "实业团内定公告：入队日在截止日之后"
+        },
+        {
+          "stage": "verification",
+          "query": "主办方・田联 检索 10000m",
+          "checkedAt": "2026-11-17",
+          "outcome": "not-found",
+          "sources": [
+            {
+              "url": "https://www.kgrr.org/competition/archive/",
+              "section": "関東学連 大会アーカイブ",
+              "access": "read",
+              "finding": "该大会公开结果PDF未定位",
+              "category": "federation",
+              "documentType": "navigation"
+            }
+          ],
+          "result": "学连存档未发现该大会公开结果"
         }
       ],
       "final": {
@@ -393,6 +540,36 @@
             "checkedAt": "2026-11-17",
             "originKey": "worldathletics",
             "independenceNote": "独立数据库"
+          },
+          {
+            "id": "roster",
+            "sourceId": "soka-roster-top",
+            "role": "identity",
+            "supports": [
+              "identity",
+              "affiliation"
+            ],
+            "locator": "エントリーメンバー紹介: 小池 莉希 (4年)",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "university",
+            "independenceNote": "官方名册/公告"
+          },
+          {
+            "id": "offer",
+            "sourceId": "gmo-koike-offer-2026",
+            "role": "identity",
+            "supports": [
+              "identity",
+              "affiliation"
+            ],
+            "locator": "現：創価大学4年生／2027年4月1日入社予定",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "employer",
+            "independenceNote": "实业团官方公告"
           }
         ],
         "adoptedEvidenceIds": [
@@ -436,15 +613,22 @@
           }
         ],
         "limitations": [
-          "主办方原始成绩单未取得"
+          "主办方原始成绩单未取得",
+          "在校身份以官方名册/公告与实业团内定公告为据（截止日）"
         ],
         "affiliation": {
           "stage": "student",
           "organization": "創価大学",
           "evidenceIds": [
-            "uni"
+            "uni",
+            "roster",
+            "offer"
           ],
-          "reason": "大学记录页显示在校所属"
+          "reason": "大学记录页显示在校所属",
+          "enrollment": {
+            "asOf": "2026-11-17",
+            "employerStartsOn": "2027-04-01"
+          }
         },
         "performances": [
           {
@@ -535,7 +719,8 @@
               "section": "database: WA 半马 PB",
               "access": "read",
               "finding": "WA 半马 PB",
-              "category": "database"
+              "category": "database",
+              "documentType": "profile"
             }
           ],
           "result": "大学/协会官方记录给出成绩、日期与赛事"
@@ -551,7 +736,8 @@
               "section": "WA 半马 PB",
               "access": "read",
               "finding": "WA 半马 PB",
-              "category": "database"
+              "category": "database",
+              "documentType": "profile"
             }
           ],
           "result": "精确值反查命中官方记录"
@@ -567,7 +753,8 @@
               "section": "WA 半马 PB",
               "access": "read",
               "finding": "WA 半马 PB",
-              "category": "database"
+              "category": "database",
+              "documentType": "profile"
             }
           ],
           "result": "日文分秒写法反查命中"
@@ -583,7 +770,8 @@
               "section": "WA 半马 PB",
               "access": "read",
               "finding": "WA 半马 PB",
-              "category": "database"
+              "category": "database",
+              "documentType": "profile"
             }
           ],
           "result": "同源复核赛事年份"
@@ -615,10 +803,62 @@
               "section": "JAAF 第77回大会页",
               "access": "read",
               "finding": "JAAF 第77回大会页",
-              "category": "federation"
+              "category": "federation",
+              "documentType": "navigation"
             }
           ],
           "result": "主办方/计时成绩确认"
+        },
+        {
+          "stage": "discovery",
+          "query": "小池 莉希 創価大学 名册",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/",
+              "section": "エントリーメンバー紹介",
+              "access": "read",
+              "finding": "小池莉希 (4年)",
+              "category": "university",
+              "documentType": "profile"
+            }
+          ],
+          "result": "大学官方名册确认4年在校"
+        },
+        {
+          "stage": "discovery",
+          "query": "小池 莉希 GMO 内定公告",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://athletes.gmo.jp/news/6720/",
+              "section": "小池選手所属内定のお知らせ",
+              "access": "read",
+              "finding": "現：創価大学4年生、2027年4月1日入社予定",
+              "category": "employer",
+              "documentType": "announcement"
+            }
+          ],
+          "result": "实业团内定公告：入队日在截止日之后"
+        },
+        {
+          "stage": "verification",
+          "query": "主办方・田联 检索 half-marathon",
+          "checkedAt": "2026-11-17",
+          "outcome": "inaccessible",
+          "sources": [
+            {
+              "url": "https://runnet.jp/record/smp/raceresultsearch.do?raceId=363374&name=%E5%B0%8F%E6%B1%A0",
+              "section": "第77回丸亀 ランナー検索",
+              "access": "unavailable",
+              "finding": "HTTP 400，检索参数被拒",
+              "category": "competition",
+              "documentType": "results"
+            }
+          ],
+          "result": "RUNNET检索失败"
         }
       ],
       "final": {
@@ -674,6 +914,36 @@
             "checkedAt": "2026-11-17",
             "originKey": "federation",
             "independenceNote": "主办方/计时"
+          },
+          {
+            "id": "roster",
+            "sourceId": "soka-roster-top",
+            "role": "identity",
+            "supports": [
+              "identity",
+              "affiliation"
+            ],
+            "locator": "エントリーメンバー紹介: 小池 莉希 (4年)",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "university",
+            "independenceNote": "官方名册/公告"
+          },
+          {
+            "id": "offer",
+            "sourceId": "gmo-koike-offer-2026",
+            "role": "identity",
+            "supports": [
+              "identity",
+              "affiliation"
+            ],
+            "locator": "現：創価大学4年生／2027年4月1日入社予定",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "employer",
+            "independenceNote": "实业团官方公告"
           }
         ],
         "adoptedEvidenceIds": [
@@ -718,15 +988,22 @@
         ],
         "limitations": [
           "主办方原始成绩已读",
-          "大学公式歴代/記録ページが404、PB更新はWAで確認"
+          "大学公式歴代/記録ページが404、PB更新はWAで確認",
+          "在校身份以官方名册/公告与实业团内定公告为据（截止日）"
         ],
         "affiliation": {
           "stage": "student",
           "organization": "創価大学",
           "evidenceIds": [
-            "uni"
+            "uni",
+            "roster",
+            "offer"
           ],
-          "reason": "大学记录页显示在校所属"
+          "reason": "大学记录页显示在校所属",
+          "enrollment": {
+            "asOf": "2026-11-17",
+            "employerStartsOn": "2027-04-01"
+          }
         },
         "performances": [
           {
@@ -808,7 +1085,8 @@
               "section": "university: 早大男子歴代5000m 2位",
               "access": "read",
               "finding": "早大男子歴代5000m 2位",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "大学/协会官方记录给出成绩、日期与赛事"
@@ -824,7 +1102,8 @@
               "section": "早大男子歴代5000m 2位",
               "access": "read",
               "finding": "早大男子歴代5000m 2位",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "精确值反查命中官方记录"
@@ -840,7 +1119,8 @@
               "section": "早大男子歴代5000m 2位",
               "access": "read",
               "finding": "早大男子歴代5000m 2位",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "日文分秒写法反查命中"
@@ -856,10 +1136,45 @@
               "section": "Profile → Personal Bests",
               "access": "read",
               "finding": "WA 同值 13:17.19 / 2026-07-04",
-              "category": "database"
+              "category": "database",
+              "documentType": "profile"
             }
           ],
           "result": "WA 日期与场地交叉"
+        },
+        {
+          "stage": "discovery",
+          "query": "山口 竣平 早稲田大学 名册",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://waseda-ac.jp/competition/detail/1066",
+              "section": "第58回全日本大学駅伝 メンバー",
+              "access": "read",
+              "finding": "7区(17.6km) 山口竣平(3) 50:58",
+              "category": "university",
+              "documentType": "announcement"
+            }
+          ],
+          "result": "大学官方大会页确认3年在校"
+        },
+        {
+          "stage": "verification",
+          "query": "主办方・田联 检索 5000m",
+          "checkedAt": "2026-11-17",
+          "outcome": "inaccessible",
+          "sources": [
+            {
+              "url": "https://www.jaaf.or.jp/competition/detail/",
+              "section": "ホクレン千歳2026 大会情報",
+              "access": "unavailable",
+              "finding": "HTTP 404（ID未定位）",
+              "category": "federation",
+              "documentType": "navigation"
+            }
+          ],
+          "result": "JAAF大会页404"
         }
       ],
       "final": {
@@ -916,6 +1231,21 @@
             "checkedAt": "2026-11-17",
             "originKey": "worldathletics",
             "independenceNote": "独立数据库"
+          },
+          {
+            "id": "roster",
+            "sourceId": "waseda-aj58-2026",
+            "role": "identity",
+            "supports": [
+              "identity",
+              "affiliation"
+            ],
+            "locator": "7区 山口竣平(3)",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "university",
+            "independenceNote": "官方名册/公告"
           }
         ],
         "adoptedEvidenceIds": [
@@ -959,15 +1289,21 @@
           }
         ],
         "limitations": [
-          "主办方原始成绩单未取得"
+          "主办方原始成绩单未取得",
+          "在校身份以官方名册/公告与实业团内定公告为据（截止日）"
         ],
         "affiliation": {
           "stage": "student",
           "organization": "早稲田大学",
           "evidenceIds": [
-            "uni"
+            "uni",
+            "roster"
           ],
-          "reason": "大学记录页显示在校所属"
+          "reason": "大学记录页显示在校所属",
+          "enrollment": {
+            "asOf": "2026-11-17",
+            "employerStartsOn": null
+          }
         },
         "performances": [
           {
@@ -1058,7 +1394,8 @@
               "section": "university: 早大男子歴代10000m 9位",
               "access": "read",
               "finding": "早大男子歴代10000m 9位",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "大学/协会官方记录给出成绩、日期与赛事"
@@ -1074,7 +1411,8 @@
               "section": "早大男子歴代10000m 9位",
               "access": "read",
               "finding": "早大男子歴代10000m 9位",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "精确值反查命中官方记录"
@@ -1090,7 +1428,8 @@
               "section": "早大男子歴代10000m 9位",
               "access": "read",
               "finding": "早大男子歴代10000m 9位",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "日文分秒写法反查命中"
@@ -1106,10 +1445,45 @@
               "section": "Profile → Personal Bests",
               "access": "read",
               "finding": "WA 同值 27:59.47 / 2026-04-24",
-              "category": "database"
+              "category": "database",
+              "documentType": "profile"
             }
           ],
           "result": "WA 日期与场地交叉"
+        },
+        {
+          "stage": "discovery",
+          "query": "山口 竣平 早稲田大学 名册",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://waseda-ac.jp/competition/detail/1066",
+              "section": "第58回全日本大学駅伝 メンバー",
+              "access": "read",
+              "finding": "7区(17.6km) 山口竣平(3) 50:58",
+              "category": "university",
+              "documentType": "announcement"
+            }
+          ],
+          "result": "大学官方大会页确认3年在校"
+        },
+        {
+          "stage": "verification",
+          "query": "主办方・田联 检索 10000m",
+          "checkedAt": "2026-11-17",
+          "outcome": "inaccessible",
+          "sources": [
+            {
+              "url": "https://www.jaaf.or.jp/competition/detail/",
+              "section": "全日本大学対校 大会情報",
+              "access": "unavailable",
+              "finding": "HTTP 404（ID未定位）",
+              "category": "federation",
+              "documentType": "navigation"
+            }
+          ],
+          "result": "JAAF大会页404"
         }
       ],
       "final": {
@@ -1166,6 +1540,21 @@
             "checkedAt": "2026-11-17",
             "originKey": "worldathletics",
             "independenceNote": "独立数据库"
+          },
+          {
+            "id": "roster",
+            "sourceId": "waseda-aj58-2026",
+            "role": "identity",
+            "supports": [
+              "identity",
+              "affiliation"
+            ],
+            "locator": "7区 山口竣平(3)",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "university",
+            "independenceNote": "官方名册/公告"
           }
         ],
         "adoptedEvidenceIds": [
@@ -1209,15 +1598,21 @@
           }
         ],
         "limitations": [
-          "主办方原始成绩单未取得"
+          "主办方原始成绩单未取得",
+          "在校身份以官方名册/公告与实业团内定公告为据（截止日）"
         ],
         "affiliation": {
           "stage": "student",
           "organization": "早稲田大学",
           "evidenceIds": [
-            "uni"
+            "uni",
+            "roster"
           ],
-          "reason": "大学记录页显示在校所属"
+          "reason": "大学记录页显示在校所属",
+          "enrollment": {
+            "asOf": "2026-11-17",
+            "employerStartsOn": null
+          }
         },
         "performances": [
           {
@@ -1308,7 +1703,8 @@
               "section": "federation: 長野県高校記録（現行）",
               "access": "read",
               "finding": "長野県高校記録（現行）",
-              "category": "federation"
+              "category": "federation",
+              "documentType": "results"
             }
           ],
           "result": "大学/协会官方记录给出成绩、日期与赛事"
@@ -1324,7 +1720,8 @@
               "section": "長野県高校記録（現行）",
               "access": "read",
               "finding": "長野県高校記録（現行）",
-              "category": "federation"
+              "category": "federation",
+              "documentType": "results"
             }
           ],
           "result": "精确值反查命中官方记录"
@@ -1340,7 +1737,8 @@
               "section": "長野県高校記録（現行）",
               "access": "read",
               "finding": "長野県高校記録（現行）",
-              "category": "federation"
+              "category": "federation",
+              "documentType": "results"
             }
           ],
           "result": "日文分秒写法反查命中"
@@ -1356,7 +1754,8 @@
               "section": "Profile → Personal Bests",
               "access": "read",
               "finding": "WA 同值 13:22.99 / 2022-11-13",
-              "category": "database"
+              "category": "database",
+              "documentType": "profile"
             }
           ],
           "result": "WA 日期与场地交叉"
@@ -1376,6 +1775,40 @@
             }
           ],
           "result": "大学公式歴代/記録ページを取得できず"
+        },
+        {
+          "stage": "discovery",
+          "query": "吉岡 大翔 順天堂大学 名册",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://juntendo-longdistance.com/team",
+              "section": "部員紹介",
+              "access": "read",
+              "finding": "吉岡 大翔 2004.05.18 スポーツ健康科学部",
+              "category": "university",
+              "documentType": "profile"
+            }
+          ],
+          "result": "大学官方名册确认在校"
+        },
+        {
+          "stage": "verification",
+          "query": "主办方・田联 检索 5000m",
+          "checkedAt": "2026-11-17",
+          "outcome": "inaccessible",
+          "sources": [
+            {
+              "url": "https://ld.nssu-athletic.com/uploads/2022/2022-11-13_result.pdf",
+              "section": "2022-11-13 日体大公式PDF",
+              "access": "unavailable",
+              "finding": "HTTP 000 连接失败",
+              "category": "competition",
+              "documentType": "results"
+            }
+          ],
+          "result": "日体大官方PDF不可访问"
         }
       ],
       "final": {
@@ -1432,6 +1865,21 @@
             "checkedAt": "2026-11-17",
             "originKey": "worldathletics",
             "independenceNote": "独立数据库"
+          },
+          {
+            "id": "roster",
+            "sourceId": "juntendo-team-roster",
+            "role": "identity",
+            "supports": [
+              "identity",
+              "affiliation"
+            ],
+            "locator": "吉岡 大翔 2004.05.18 スポーツ健康科学部",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "university",
+            "independenceNote": "官方名册/公告"
           }
         ],
         "adoptedEvidenceIds": [
@@ -1476,15 +1924,21 @@
         ],
         "limitations": [
           "主办方原始成绩单未取得",
-          "大学公式歴代/記録ページが404、PB更新はWAで確認"
+          "大学公式歴代/記録ページが404、PB更新はWAで確認",
+          "在校身份以官方名册/公告与实业团内定公告为据（截止日）"
         ],
         "affiliation": {
           "stage": "student",
           "organization": "順天堂大学",
           "evidenceIds": [
-            "uni"
+            "uni",
+            "roster"
           ],
-          "reason": "大学记录页显示在校所属"
+          "reason": "大学记录页显示在校所属",
+          "enrollment": {
+            "asOf": "2026-11-17",
+            "employerStartsOn": null
+          }
         },
         "performances": [
           {
@@ -1575,7 +2029,8 @@
               "section": "university: 順大官方结果（2025-11-29）",
               "access": "read",
               "finding": "順大官方结果（2025-11-29）",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "大学/协会官方记录给出成绩、日期与赛事"
@@ -1591,7 +2046,8 @@
               "section": "順大官方结果（2025-11-29）",
               "access": "read",
               "finding": "順大官方结果（2025-11-29）",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "精确值反查命中官方记录"
@@ -1607,7 +2063,8 @@
               "section": "順大官方结果（2025-11-29）",
               "access": "read",
               "finding": "順大官方结果（2025-11-29）",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "日文分秒写法反查命中"
@@ -1623,10 +2080,45 @@
               "section": "Profile → Personal Bests",
               "access": "read",
               "finding": "WA 同值 28:08.02 / 2025-11-29",
-              "category": "database"
+              "category": "database",
+              "documentType": "profile"
             }
           ],
           "result": "WA 日期与场地交叉"
+        },
+        {
+          "stage": "discovery",
+          "query": "吉岡 大翔 順天堂大学 名册",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://juntendo-longdistance.com/team",
+              "section": "部員紹介",
+              "access": "read",
+              "finding": "吉岡 大翔 2004.05.18 スポーツ健康科学部",
+              "category": "university",
+              "documentType": "profile"
+            }
+          ],
+          "result": "大学官方名册确认在校"
+        },
+        {
+          "stage": "verification",
+          "query": "主办方・田联 检索 10000m",
+          "checkedAt": "2026-11-17",
+          "outcome": "inaccessible",
+          "sources": [
+            {
+              "url": "https://ld.nssu-athletic.com/uploads/2025/2025-11-29_result.pdf",
+              "section": "第325回 日体大公式PDF",
+              "access": "unavailable",
+              "finding": "HTTP 000 连接失败",
+              "category": "competition",
+              "documentType": "results"
+            }
+          ],
+          "result": "日体大官方PDF不可访问"
         }
       ],
       "final": {
@@ -1683,6 +2175,21 @@
             "checkedAt": "2026-11-17",
             "originKey": "worldathletics",
             "independenceNote": "独立数据库"
+          },
+          {
+            "id": "roster",
+            "sourceId": "juntendo-team-roster",
+            "role": "identity",
+            "supports": [
+              "identity",
+              "affiliation"
+            ],
+            "locator": "吉岡 大翔 2004.05.18 スポーツ健康科学部",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "university",
+            "independenceNote": "官方名册/公告"
           }
         ],
         "adoptedEvidenceIds": [
@@ -1726,15 +2233,21 @@
           }
         ],
         "limitations": [
-          "主办方原始成绩单未取得"
+          "主办方原始成绩单未取得",
+          "在校身份以官方名册/公告与实业团内定公告为据（截止日）"
         ],
         "affiliation": {
           "stage": "student",
           "organization": "順天堂大学",
           "evidenceIds": [
-            "uni"
+            "uni",
+            "roster"
           ],
-          "reason": "大学记录页显示在校所属"
+          "reason": "大学记录页显示在校所属",
+          "enrollment": {
+            "asOf": "2026-11-17",
+            "employerStartsOn": null
+          }
         },
         "performances": [
           {
@@ -1825,7 +2338,8 @@
               "section": "database: WA 半马 PB",
               "access": "read",
               "finding": "WA 半马 PB",
-              "category": "database"
+              "category": "database",
+              "documentType": "profile"
             }
           ],
           "result": "大学/协会官方记录给出成绩、日期与赛事"
@@ -1841,7 +2355,8 @@
               "section": "WA 半马 PB",
               "access": "read",
               "finding": "WA 半马 PB",
-              "category": "database"
+              "category": "database",
+              "documentType": "profile"
             }
           ],
           "result": "精确值反查命中官方记录"
@@ -1857,7 +2372,8 @@
               "section": "WA 半马 PB",
               "access": "read",
               "finding": "WA 半马 PB",
-              "category": "database"
+              "category": "database",
+              "documentType": "profile"
             }
           ],
           "result": "日文分秒写法反查命中"
@@ -1873,7 +2389,8 @@
               "section": "WA 半马 PB",
               "access": "read",
               "finding": "WA 半马 PB",
-              "category": "database"
+              "category": "database",
+              "documentType": "profile"
             }
           ],
           "result": "同源复核赛事年份"
@@ -1893,6 +2410,40 @@
             }
           ],
           "result": "大学公式歴代/記録ページを取得できず"
+        },
+        {
+          "stage": "discovery",
+          "query": "吉岡 大翔 順天堂大学 名册",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://juntendo-longdistance.com/team",
+              "section": "部員紹介",
+              "access": "read",
+              "finding": "吉岡 大翔 2004.05.18 スポーツ健康科学部",
+              "category": "university",
+              "documentType": "profile"
+            }
+          ],
+          "result": "大学官方名册确认在校"
+        },
+        {
+          "stage": "verification",
+          "query": "主办方・田联 检索 half-marathon",
+          "checkedAt": "2026-11-17",
+          "outcome": "inaccessible",
+          "sources": [
+            {
+              "url": "https://runnet.jp/record/smp/raceresultsearch.do?raceId=356715&name=%E5%90%89%E5%B2%A1",
+              "section": "丸亀2024 ランナー検索",
+              "access": "unavailable",
+              "finding": "HTTP 400，检索参数被拒",
+              "category": "competition",
+              "documentType": "results"
+            }
+          ],
+          "result": "RUNNET检索失败"
         }
       ],
       "final": {
@@ -1931,6 +2482,21 @@
             "checkedAt": "2026-11-17",
             "originKey": "database",
             "independenceNote": "大学/协会官方记录"
+          },
+          {
+            "id": "roster",
+            "sourceId": "juntendo-team-roster",
+            "role": "identity",
+            "supports": [
+              "identity",
+              "affiliation"
+            ],
+            "locator": "吉岡 大翔 2004.05.18 スポーツ健康科学部",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "university",
+            "independenceNote": "官方名册/公告"
           }
         ],
         "adoptedEvidenceIds": [
@@ -1972,15 +2538,21 @@
         ],
         "limitations": [
           "主办方原始成绩单未取得",
-          "大学公式歴代/記録ページが404、PB更新はWAで確認"
+          "大学公式歴代/記録ページが404、PB更新はWAで確認",
+          "在校身份以官方名册/公告与实业团内定公告为据（截止日）"
         ],
         "affiliation": {
           "stage": "student",
           "organization": "順天堂大学",
           "evidenceIds": [
-            "uni"
+            "uni",
+            "roster"
           ],
-          "reason": "大学记录页显示在校所属"
+          "reason": "大学记录页显示在校所属",
+          "enrollment": {
+            "asOf": "2026-11-17",
+            "employerStartsOn": null
+          }
         },
         "performances": [
           {
@@ -2061,7 +2633,8 @@
               "section": "university: 創価大歴代5000m 7位",
               "access": "read",
               "finding": "創価大歴代5000m 7位",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "大学/协会官方记录给出成绩、日期与赛事"
@@ -2077,7 +2650,8 @@
               "section": "創価大歴代5000m 7位",
               "access": "read",
               "finding": "創価大歴代5000m 7位",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "精确值反查命中官方记录"
@@ -2093,7 +2667,8 @@
               "section": "創価大歴代5000m 7位",
               "access": "read",
               "finding": "創価大歴代5000m 7位",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "日文分秒写法反查命中"
@@ -2109,7 +2684,8 @@
               "section": "創価大歴代5000m 7位",
               "access": "read",
               "finding": "創価大歴代5000m 7位",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "同源复核赛事年份"
@@ -2125,7 +2701,8 @@
               "section": "本人官方档案（所属サンベルクス）",
               "access": "read",
               "finding": "本人官方档案（所属サンベルクス）",
-              "category": "athlete"
+              "category": "athlete",
+              "documentType": "profile"
             }
           ],
           "result": "实业团官方档案确认所属"
@@ -2145,6 +2722,40 @@
             }
           ],
           "result": "实业团页面不可访问，记录失败"
+        },
+        {
+          "stage": "verification",
+          "query": "主办方・田联 检索 5000m",
+          "checkedAt": "2026-11-17",
+          "outcome": "not-found",
+          "sources": [
+            {
+              "url": "https://www.jaaf.or.jp/competition/detail/1482/",
+              "section": "JAAF 大会情報",
+              "access": "read",
+              "finding": "该ID为女子駅伝大会，深川2024结果页未定位",
+              "category": "federation",
+              "documentType": "navigation"
+            }
+          ],
+          "result": "JAAF大会页ID不匹配，深川结果页未定位"
+        },
+        {
+          "stage": "verification",
+          "query": "吉田 響 深川 5000m 报告",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.asahi-kasei.com/jp/sports-event/track-field/schedule/2024/0717",
+              "section": "ホクレンDC2024 第4戦深川大会",
+              "access": "read",
+              "finding": "7月17日 深川市陸上競技場; 男子5000m B 吉田響選手（創価大学）",
+              "category": "employer",
+              "documentType": "results"
+            }
+          ],
+          "result": "旭化成大会报告佐证出场与日期"
         }
       ],
       "final": {
@@ -2332,7 +2943,8 @@
               "section": "university: 創価大歴代10000m 7位",
               "access": "read",
               "finding": "創価大歴代10000m 7位",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "大学/协会官方记录给出成绩、日期与赛事"
@@ -2348,7 +2960,8 @@
               "section": "創価大歴代10000m 7位",
               "access": "read",
               "finding": "創価大歴代10000m 7位",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "精确值反查命中官方记录"
@@ -2364,7 +2977,8 @@
               "section": "創価大歴代10000m 7位",
               "access": "read",
               "finding": "創価大歴代10000m 7位",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "日文分秒写法反查命中"
@@ -2380,7 +2994,8 @@
               "section": "創価大歴代10000m 7位",
               "access": "read",
               "finding": "創価大歴代10000m 7位",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "同源复核赛事年份"
@@ -2396,7 +3011,8 @@
               "section": "本人官方档案",
               "access": "read",
               "finding": "本人官方档案",
-              "category": "athlete"
+              "category": "athlete",
+              "documentType": "profile"
             }
           ],
           "result": "实业团官方档案确认所属"
@@ -2416,6 +3032,23 @@
             }
           ],
           "result": "实业团页面不可访问，记录失败"
+        },
+        {
+          "stage": "verification",
+          "query": "主办方・田联 检索 10000m",
+          "checkedAt": "2026-11-17",
+          "outcome": "not-found",
+          "sources": [
+            {
+              "url": "https://www.kgrr.org/competition/archive/",
+              "section": "関東学連 大会アーカイブ",
+              "access": "read",
+              "finding": "関東インカレ2024公开结果PDF未定位",
+              "category": "federation",
+              "documentType": "navigation"
+            }
+          ],
+          "result": "学连存档未发现该大会公开结果"
         }
       ],
       "final": {
@@ -2603,7 +3236,8 @@
               "section": "university: 創価大歴代半马 6位",
               "access": "read",
               "finding": "創価大歴代半马 6位",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "大学/协会官方记录给出成绩、日期与赛事"
@@ -2619,7 +3253,8 @@
               "section": "創価大歴代半马 6位",
               "access": "read",
               "finding": "創価大歴代半马 6位",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "精确值反查命中官方记录"
@@ -2635,7 +3270,8 @@
               "section": "創価大歴代半马 6位",
               "access": "read",
               "finding": "創価大歴代半马 6位",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "日文分秒写法反查命中"
@@ -2651,7 +3287,8 @@
               "section": "創価大歴代半马 6位",
               "access": "read",
               "finding": "創価大歴代半马 6位",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "同源复核赛事年份"
@@ -2667,7 +3304,8 @@
               "section": "本人官方档案",
               "access": "read",
               "finding": "本人官方档案",
-              "category": "athlete"
+              "category": "athlete",
+              "documentType": "profile"
             }
           ],
           "result": "实业团官方档案确认所属"
@@ -2699,7 +3337,8 @@
               "section": "RUNNET 官方计时",
               "access": "read",
               "finding": "RUNNET 官方计时",
-              "category": "competition"
+              "category": "competition",
+              "documentType": "results"
             }
           ],
           "result": "主办方/计时成绩确认"
@@ -2747,10 +3386,11 @@
           {
             "id": "comp",
             "sourceId": "runnet-hakodate-2024",
-            "role": "event",
+            "role": "primary",
             "supports": [
+              "value",
+              "achievedOn",
               "meet",
-              "edition",
               "distance"
             ],
             "locator": "ナンバー164 吉田響 21.0975km グロス1:01:45 種目別1位",
@@ -2911,7 +3551,8 @@
               "section": "university: 青学2023年結果",
               "access": "read",
               "finding": "青学2023年結果",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "大学/协会官方记录给出成绩、日期与赛事"
@@ -2927,7 +3568,8 @@
               "section": "青学2023年結果",
               "access": "read",
               "finding": "青学2023年結果",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "精确值反查命中官方记录"
@@ -2943,7 +3585,8 @@
               "section": "青学2023年結果",
               "access": "read",
               "finding": "青学2023年結果",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "日文分秒写法反查命中"
@@ -2959,7 +3602,8 @@
               "section": "青学2023年結果",
               "access": "read",
               "finding": "青学2023年結果",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "同源复核赛事年份"
@@ -2975,7 +3619,8 @@
               "section": "GMO 官方入队公告",
               "access": "read",
               "finding": "GMO 官方入队公告",
-              "category": "employer"
+              "category": "employer",
+              "documentType": "announcement"
             }
           ],
           "result": "实业团官方档案确认所属"
@@ -2995,6 +3640,40 @@
             }
           ],
           "result": "实业团页面不可访问，记录失败"
+        },
+        {
+          "stage": "verification",
+          "query": "主办方・田联 检索 5000m",
+          "checkedAt": "2026-11-17",
+          "outcome": "not-found",
+          "sources": [
+            {
+              "url": "https://www.kgrr.org/competition/archive/",
+              "section": "関東学連 大会アーカイブ",
+              "access": "read",
+              "finding": "絆記録挑戦会の主办方公开结果未定位",
+              "category": "federation",
+              "documentType": "navigation"
+            }
+          ],
+          "result": "学连存档未发现该大会公开结果"
+        },
+        {
+          "stage": "verification",
+          "query": "太田 蒼生 GMO 記録 2025 2026",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://athletes.gmo.jp/record/",
+              "section": "GMO 記録データベース",
+              "access": "read",
+              "finding": "太田蒼生: 半馬1:03:06(2025/04/20上海)、10000m28'25\"01(2025/11/22八王子LD)、フル2:10:07(2026/03/01東京) など；本PBより速い5000m/10000m/半馬なし",
+              "category": "employer",
+              "documentType": "results"
+            }
+          ],
+          "result": "实业团官方成绩库至截止日无更快相关成绩"
         }
       ],
       "final": {
@@ -3049,6 +3728,21 @@
             "checkedAt": "2026-11-17",
             "originKey": "employer",
             "independenceNote": "实业团官方"
+          },
+          {
+            "id": "gmores",
+            "sourceId": "gmo-record-db",
+            "role": "cross-check",
+            "supports": [
+              "pb-update",
+              "affiliation"
+            ],
+            "locator": "太田蒼生の2025-2026結果一覧（半馬1:03:06/10000m28'25\"01等）",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "employer",
+            "independenceNote": "实业团官方成绩库"
           }
         ],
         "adoptedEvidenceIds": [
@@ -3093,7 +3787,8 @@
         ],
         "limitations": [
           "主办方原始成绩单未取得",
-          "实业团页面不可访问，更新检查由大学记录与 WA 完成"
+          "实业团页面不可访问，更新检查由大学记录与 WA 完成",
+          "毕业后成绩更新以GMO官方成绩库为准；上海/仙台DNS等未产生更快PB"
         ],
         "affiliation": {
           "stage": "graduated",
@@ -3144,6 +3839,16 @@
               ],
               "outcome": "no-faster-found",
               "note": "大学记录表当前仍列该成绩，无更快记载"
+            },
+            {
+              "searchIndex": 7,
+              "from": "2023-09-24",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "gmores"
+              ],
+              "outcome": "no-faster-found",
+              "note": "GMO 成绩库至2026-11-17无更快同项目成绩"
             }
           ],
           "foundFaster": false,
@@ -3182,7 +3887,8 @@
               "section": "university: 青学2023年結果",
               "access": "read",
               "finding": "青学2023年結果",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "大学/协会官方记录给出成绩、日期与赛事"
@@ -3198,7 +3904,8 @@
               "section": "青学2023年結果",
               "access": "read",
               "finding": "青学2023年結果",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "精确值反查命中官方记录"
@@ -3214,7 +3921,8 @@
               "section": "青学2023年結果",
               "access": "read",
               "finding": "青学2023年結果",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "日文分秒写法反查命中"
@@ -3230,7 +3938,8 @@
               "section": "青学2023年結果",
               "access": "read",
               "finding": "青学2023年結果",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "同源复核赛事年份"
@@ -3246,7 +3955,8 @@
               "section": "GMO 官方入队公告",
               "access": "read",
               "finding": "GMO 官方入队公告",
-              "category": "employer"
+              "category": "employer",
+              "documentType": "announcement"
             }
           ],
           "result": "实业团官方档案确认所属"
@@ -3266,6 +3976,40 @@
             }
           ],
           "result": "实业团页面不可访问，记录失败"
+        },
+        {
+          "stage": "verification",
+          "query": "主办方・田联 检索 10000m",
+          "checkedAt": "2026-11-17",
+          "outcome": "not-found",
+          "sources": [
+            {
+              "url": "https://www.kgrr.org/competition/archive/",
+              "section": "関東学連 大会アーカイブ",
+              "access": "read",
+              "finding": "MARCH対抗戦2023の主办方公开结果未定位",
+              "category": "federation",
+              "documentType": "navigation"
+            }
+          ],
+          "result": "学连存档未发现该大会公开结果"
+        },
+        {
+          "stage": "verification",
+          "query": "太田 蒼生 GMO 記録 2025 2026",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://athletes.gmo.jp/record/",
+              "section": "GMO 記録データベース",
+              "access": "read",
+              "finding": "太田蒼生: 半馬1:03:06(2025/04/20上海)、10000m28'25\"01(2025/11/22八王子LD)、フル2:10:07(2026/03/01東京) など；本PBより速い5000m/10000m/半馬なし",
+              "category": "employer",
+              "documentType": "results"
+            }
+          ],
+          "result": "实业团官方成绩库至截止日无更快相关成绩"
         }
       ],
       "final": {
@@ -3320,6 +4064,21 @@
             "checkedAt": "2026-11-17",
             "originKey": "employer",
             "independenceNote": "实业团官方"
+          },
+          {
+            "id": "gmores",
+            "sourceId": "gmo-record-db",
+            "role": "cross-check",
+            "supports": [
+              "pb-update",
+              "affiliation"
+            ],
+            "locator": "太田蒼生の2025-2026結果一覧（半馬1:03:06/10000m28'25\"01等）",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "employer",
+            "independenceNote": "实业团官方成绩库"
           }
         ],
         "adoptedEvidenceIds": [
@@ -3364,7 +4123,8 @@
         ],
         "limitations": [
           "主办方原始成绩单未取得",
-          "实业团页面不可访问，更新检查由大学记录与 WA 完成"
+          "实业团页面不可访问，更新检查由大学记录与 WA 完成",
+          "毕业后成绩更新以GMO官方成绩库为准；上海/仙台DNS等未产生更快PB"
         ],
         "affiliation": {
           "stage": "graduated",
@@ -3415,6 +4175,16 @@
               ],
               "outcome": "no-faster-found",
               "note": "大学记录表当前仍列该成绩，无更快记载"
+            },
+            {
+              "searchIndex": 7,
+              "from": "2023-11-22",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "gmores"
+              ],
+              "outcome": "no-faster-found",
+              "note": "GMO 成绩库至2026-11-17无更快同项目成绩"
             }
           ],
           "foundFaster": false,
@@ -3453,7 +4223,8 @@
               "section": "university: 青学2024年結果",
               "access": "read",
               "finding": "青学2024年結果",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "大学/协会官方记录给出成绩、日期与赛事"
@@ -3469,7 +4240,8 @@
               "section": "青学2024年結果",
               "access": "read",
               "finding": "青学2024年結果",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "精确值反查命中官方记录"
@@ -3485,7 +4257,8 @@
               "section": "青学2024年結果",
               "access": "read",
               "finding": "青学2024年結果",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "日文分秒写法反查命中"
@@ -3501,7 +4274,8 @@
               "section": "青学2024年結果",
               "access": "read",
               "finding": "青学2024年結果",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "同源复核赛事年份"
@@ -3517,7 +4291,8 @@
               "section": "GMO 官方入队公告",
               "access": "read",
               "finding": "GMO 官方入队公告",
-              "category": "employer"
+              "category": "employer",
+              "documentType": "announcement"
             }
           ],
           "result": "实业团官方档案确认所属"
@@ -3537,6 +4312,40 @@
             }
           ],
           "result": "实业团页面不可访问，记录失败"
+        },
+        {
+          "stage": "verification",
+          "query": "主办方・田联 检索 half-marathon",
+          "checkedAt": "2026-11-17",
+          "outcome": "not-found",
+          "sources": [
+            {
+              "url": "https://www.shang-ma.com/2024/",
+              "section": "上海マラソン官网 2024",
+              "access": "read",
+              "finding": "JS壳，2024ハーフ正式结果页未定位",
+              "category": "competition",
+              "documentType": "results"
+            }
+          ],
+          "result": "主办方官网无公开文本结果"
+        },
+        {
+          "stage": "verification",
+          "query": "太田 蒼生 GMO 記録 2025 2026",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://athletes.gmo.jp/record/",
+              "section": "GMO 記録データベース",
+              "access": "read",
+              "finding": "太田蒼生: 半馬1:03:06(2025/04/20上海)、10000m28'25\"01(2025/11/22八王子LD)、フル2:10:07(2026/03/01東京) など；本PBより速い5000m/10000m/半馬なし",
+              "category": "employer",
+              "documentType": "results"
+            }
+          ],
+          "result": "实业团官方成绩库至截止日无更快相关成绩"
         }
       ],
       "final": {
@@ -3591,6 +4400,21 @@
             "checkedAt": "2026-11-17",
             "originKey": "employer",
             "independenceNote": "实业团官方"
+          },
+          {
+            "id": "gmores",
+            "sourceId": "gmo-record-db",
+            "role": "cross-check",
+            "supports": [
+              "pb-update",
+              "affiliation"
+            ],
+            "locator": "太田蒼生の2025-2026結果一覧（半馬1:03:06/10000m28'25\"01等）",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "employer",
+            "independenceNote": "实业团官方成绩库"
           }
         ],
         "adoptedEvidenceIds": [
@@ -3635,7 +4459,8 @@
         ],
         "limitations": [
           "主办方原始成绩单未取得",
-          "实业团页面不可访问，更新检查由大学记录与 WA 完成"
+          "实业团页面不可访问，更新检查由大学记录与 WA 完成",
+          "毕业后成绩更新以GMO官方成绩库为准；上海/仙台DNS等未产生更快PB"
         ],
         "affiliation": {
           "stage": "graduated",
@@ -3686,6 +4511,16 @@
               ],
               "outcome": "no-faster-found",
               "note": "大学记录表当前仍列该成绩，无更快记载"
+            },
+            {
+              "searchIndex": 7,
+              "from": "2024-04-21",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "gmores"
+              ],
+              "outcome": "no-faster-found",
+              "note": "GMO 成绩库至2026-11-17无更快同项目成绩"
             }
           ],
           "foundFaster": false,
@@ -3724,7 +4559,8 @@
               "section": "Profile → basic data: date of birth 26 NOV 2004",
               "access": "read",
               "finding": "WA 出生日期",
-              "category": "database"
+              "category": "database",
+              "documentType": "profile"
             }
           ],
           "result": "官方档案给出该字段"
@@ -3740,7 +4576,8 @@
               "section": "Profile → basic data: date of birth 26 NOV 2004",
               "access": "read",
               "finding": "WA 出生日期",
-              "category": "database"
+              "category": "database",
+              "documentType": "profile"
             }
           ],
           "result": "精确值反查命中同一档案"
@@ -3756,7 +4593,8 @@
               "section": "Profile → basic data: date of birth 26 NOV 2004",
               "access": "read",
               "finding": "WA 出生日期",
-              "category": "database"
+              "category": "database",
+              "documentType": "profile"
             }
           ],
           "result": "档案复核"
@@ -3870,7 +4708,8 @@
               "section": "選手名鑑: 出身校 佐久長聖",
               "access": "read",
               "finding": "報知名鑑 出身校",
-              "category": "media"
+              "category": "media",
+              "documentType": "profile"
             }
           ],
           "result": "官方档案给出该字段"
@@ -3886,7 +4725,8 @@
               "section": "選手名鑑: 出身校 佐久長聖",
               "access": "read",
               "finding": "報知名鑑 出身校",
-              "category": "media"
+              "category": "media",
+              "documentType": "profile"
             }
           ],
           "result": "精确值反查命中同一档案"
@@ -3902,7 +4742,8 @@
               "section": "選手名鑑: 出身校 佐久長聖",
               "access": "read",
               "finding": "報知名鑑 出身校",
-              "category": "media"
+              "category": "media",
+              "documentType": "profile"
             }
           ],
           "result": "档案复核"
@@ -4016,7 +4857,8 @@
               "section": "Profile → basic data: date of birth 15 JAN 2006",
               "access": "read",
               "finding": "WA 出生日期",
-              "category": "database"
+              "category": "database",
+              "documentType": "profile"
             }
           ],
           "result": "官方档案给出该字段"
@@ -4032,7 +4874,8 @@
               "section": "Profile → basic data: date of birth 15 JAN 2006",
               "access": "read",
               "finding": "WA 出生日期",
-              "category": "database"
+              "category": "database",
+              "documentType": "profile"
             }
           ],
           "result": "精确值反查命中同一档案"
@@ -4048,7 +4891,8 @@
               "section": "Profile → basic data: date of birth 15 JAN 2006",
               "access": "read",
               "finding": "WA 出生日期",
-              "category": "database"
+              "category": "database",
+              "documentType": "profile"
             }
           ],
           "result": "档案复核"
@@ -4162,7 +5006,8 @@
               "section": "選手名鑑: 出身校 佐久長聖",
               "access": "read",
               "finding": "報知名鑑 出身校",
-              "category": "media"
+              "category": "media",
+              "documentType": "profile"
             }
           ],
           "result": "官方档案给出该字段"
@@ -4178,7 +5023,8 @@
               "section": "選手名鑑: 出身校 佐久長聖",
               "access": "read",
               "finding": "報知名鑑 出身校",
-              "category": "media"
+              "category": "media",
+              "documentType": "profile"
             }
           ],
           "result": "精确值反查命中同一档案"
@@ -4194,7 +5040,8 @@
               "section": "選手名鑑: 出身校 佐久長聖",
               "access": "read",
               "finding": "報知名鑑 出身校",
-              "category": "media"
+              "category": "media",
+              "documentType": "profile"
             }
           ],
           "result": "档案复核"
@@ -4308,7 +5155,8 @@
               "section": "Profile → basic data: date of birth 18 MAY 2004",
               "access": "read",
               "finding": "WA 出生日期",
-              "category": "database"
+              "category": "database",
+              "documentType": "profile"
             }
           ],
           "result": "官方档案给出该字段"
@@ -4324,7 +5172,8 @@
               "section": "Profile → basic data: date of birth 18 MAY 2004",
               "access": "read",
               "finding": "WA 出生日期",
-              "category": "database"
+              "category": "database",
+              "documentType": "profile"
             }
           ],
           "result": "精确值反查命中同一档案"
@@ -4340,7 +5189,8 @@
               "section": "Profile → basic data: date of birth 18 MAY 2004",
               "access": "read",
               "finding": "WA 出生日期",
-              "category": "database"
+              "category": "database",
+              "documentType": "profile"
             }
           ],
           "result": "档案复核"
@@ -4454,7 +5304,8 @@
               "section": "選手名鑑: 出身校 佐久長聖",
               "access": "read",
               "finding": "報知名鑑 出身校",
-              "category": "media"
+              "category": "media",
+              "documentType": "profile"
             }
           ],
           "result": "官方档案给出该字段"
@@ -4470,7 +5321,8 @@
               "section": "選手名鑑: 出身校 佐久長聖",
               "access": "read",
               "finding": "報知名鑑 出身校",
-              "category": "media"
+              "category": "media",
+              "documentType": "profile"
             }
           ],
           "result": "精确值反查命中同一档案"
@@ -4486,7 +5338,8 @@
               "section": "選手名鑑: 出身校 佐久長聖",
               "access": "read",
               "finding": "報知名鑑 出身校",
-              "category": "media"
+              "category": "media",
+              "documentType": "profile"
             }
           ],
           "result": "档案复核"
@@ -4600,7 +5453,8 @@
               "section": "プロフィール: 生年月日 2002年8月20日",
               "access": "read",
               "finding": "本人官网 出生日期",
-              "category": "athlete"
+              "category": "athlete",
+              "documentType": "profile"
             }
           ],
           "result": "官方档案给出该字段"
@@ -4616,7 +5470,8 @@
               "section": "プロフィール: 生年月日 2002年8月20日",
               "access": "read",
               "finding": "本人官网 出生日期",
-              "category": "athlete"
+              "category": "athlete",
+              "documentType": "profile"
             }
           ],
           "result": "精确值反查命中同一档案"
@@ -4632,7 +5487,8 @@
               "section": "プロフィール: 生年月日 2002年8月20日",
               "access": "read",
               "finding": "本人官网 出生日期",
-              "category": "athlete"
+              "category": "athlete",
+              "documentType": "profile"
             }
           ],
           "result": "档案复核"
@@ -4760,7 +5616,8 @@
               "section": "プロフィール: 東海大付属静岡翔洋高等学校",
               "access": "read",
               "finding": "本人官网 出身高中",
-              "category": "athlete"
+              "category": "athlete",
+              "documentType": "profile"
             }
           ],
           "result": "官方档案给出该字段"
@@ -4776,7 +5633,8 @@
               "section": "プロフィール: 東海大付属静岡翔洋高等学校",
               "access": "read",
               "finding": "本人官网 出身高中",
-              "category": "athlete"
+              "category": "athlete",
+              "documentType": "profile"
             }
           ],
           "result": "精确值反查命中同一档案"
@@ -4792,7 +5650,8 @@
               "section": "プロフィール: 東海大付属静岡翔洋高等学校",
               "access": "read",
               "finding": "本人官网 出身高中",
-              "category": "athlete"
+              "category": "athlete",
+              "documentType": "profile"
             }
           ],
           "result": "档案复核"
@@ -4920,7 +5779,8 @@
               "section": "【加入選手プロフィール】生年月日 2002年8月26日",
               "access": "read",
               "finding": "GMO 官方入队公告 出生日期",
-              "category": "employer"
+              "category": "employer",
+              "documentType": "announcement"
             }
           ],
           "result": "官方档案给出该字段"
@@ -4936,7 +5796,8 @@
               "section": "【加入選手プロフィール】生年月日 2002年8月26日",
               "access": "read",
               "finding": "GMO 官方入队公告 出生日期",
-              "category": "employer"
+              "category": "employer",
+              "documentType": "announcement"
             }
           ],
           "result": "精确值反查命中同一档案"
@@ -4952,7 +5813,8 @@
               "section": "【加入選手プロフィール】生年月日 2002年8月26日",
               "access": "read",
               "finding": "GMO 官方入队公告 出生日期",
-              "category": "employer"
+              "category": "employer",
+              "documentType": "announcement"
             }
           ],
           "result": "档案复核"
@@ -4968,7 +5830,8 @@
               "section": "加入選手プロフィール",
               "access": "read",
               "finding": "GMO 官方入队公告",
-              "category": "employer"
+              "category": "employer",
+              "documentType": "announcement"
             }
           ],
           "result": "实业团官方档案已读"
@@ -5082,7 +5945,8 @@
               "section": "プロフィル: 登録陸協 福岡・出身校 大牟田",
               "access": "read",
               "finding": "読売2024 出身校",
-              "category": "media"
+              "category": "media",
+              "documentType": "profile"
             }
           ],
           "result": "官方档案给出该字段"
@@ -5098,7 +5962,8 @@
               "section": "プロフィル: 登録陸協 福岡・出身校 大牟田",
               "access": "read",
               "finding": "読売2024 出身校",
-              "category": "media"
+              "category": "media",
+              "documentType": "profile"
             }
           ],
           "result": "精确值反查命中同一档案"
@@ -5114,7 +5979,8 @@
               "section": "プロフィル: 登録陸協 福岡・出身校 大牟田",
               "access": "read",
               "finding": "読売2024 出身校",
-              "category": "media"
+              "category": "media",
+              "documentType": "profile"
             }
           ],
           "result": "档案复核"
@@ -5130,7 +5996,8 @@
               "section": "加入選手プロフィール",
               "access": "read",
               "finding": "GMO 官方入队公告",
-              "category": "employer"
+              "category": "employer",
+              "documentType": "announcement"
             }
           ],
           "result": "实业团官方档案已读"
@@ -5238,7 +6105,8 @@
               "section": "選手名鑑",
               "access": "read",
               "finding": "半馬公認欄が空",
-              "category": "media"
+              "category": "media",
+              "documentType": "profile"
             }
           ],
           "result": "名鑑に半馬記録なし"
@@ -5254,7 +6122,8 @@
               "section": "Profile → Personal Bests",
               "access": "read",
               "finding": "WA に半馬 PB なし",
-              "category": "database"
+              "category": "database",
+              "documentType": "profile"
             }
           ],
           "result": "WA に半馬 PB なし"
@@ -5270,10 +6139,45 @@
               "section": "男子歴代ランキング",
               "access": "read",
               "finding": "半馬欄なし（歴代表は5000/10000等）",
-              "category": "university"
+              "category": "university",
+              "documentType": "results"
             }
           ],
           "result": "早大歴代表に半馬欄なし"
+        },
+        {
+          "stage": "discovery",
+          "query": "山口 竣平 早稲田大学 名册",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://waseda-ac.jp/competition/detail/1066",
+              "section": "第58回全日本大学駅伝 メンバー",
+              "access": "read",
+              "finding": "7区(17.6km) 山口竣平(3) 50:58",
+              "category": "university",
+              "documentType": "announcement"
+            }
+          ],
+          "result": "大学官方大会页确认3年在校"
+        },
+        {
+          "stage": "verification",
+          "query": "主办方・田联 检索 half-marathon",
+          "checkedAt": "2026-11-17",
+          "outcome": "inaccessible",
+          "sources": [
+            {
+              "url": "https://runnet.jp/record/smp/raceresultsearch.do?raceId=0&name=%E5%B1%B1%E5%8F%A3",
+              "section": "半马大会検索",
+              "access": "unavailable",
+              "finding": "HTTP 400，检索参数被拒",
+              "category": "competition",
+              "documentType": "results"
+            }
+          ],
+          "result": "主办方/计时检索失败"
         }
       ],
       "final": null,
@@ -5288,7 +6192,23 @@
       ],
       "reviewedAt": "2026-11-17",
       "audit": {
-        "evidence": [],
+        "evidence": [
+          {
+            "id": "roster",
+            "sourceId": "waseda-aj58-2026",
+            "role": "identity",
+            "supports": [
+              "identity",
+              "affiliation"
+            ],
+            "locator": "7区 山口竣平(3)",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "university",
+            "independenceNote": "官方大会页"
+          }
+        ],
         "adoptedEvidenceIds": [],
         "coverage": [
           {
@@ -5329,13 +6249,20 @@
           }
         ],
         "limitations": [
-          "未查全部赛事主办方档案；not-found 不构成“没有成绩”的肯定证据"
+          "未查全部赛事主办方档案；not-found 不构成“没有成绩”的肯定证据",
+          "主办方半马成绩未取得；not-found 不表示没有成绩"
         ],
         "affiliation": {
           "stage": "student",
           "organization": "早稲田大学",
-          "evidenceIds": [],
-          "reason": "名鑑显示在校生"
+          "evidenceIds": [
+            "roster"
+          ],
+          "reason": "名鑑显示在校生",
+          "enrollment": {
+            "asOf": "2026-11-17",
+            "employerStartsOn": null
+          }
         },
         "performances": [],
         "pbUpdate": {

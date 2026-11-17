@@ -1,0 +1,735 @@
+{
+  "schemaVersion": 2,
+  "batchId": "2026-11-17-batch3-kuwata-update",
+  "researcher": "DSH / PR #24 candidate PB update check (this session)",
+  "reviewedAt": "2026-11-17",
+  "records": [
+    {
+      "athleteId": "athlete-aj24-02-2",
+      "athleteName": "桑田 駿介",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "13:29.78; 2026-09-26; Yogibo Athletics Challenge Cup 2026",
+          "sourceUrl": "http://komazawa-ekiden.com/results/9%e6%9c%8826%e6%97%a5%e5%9c%9fyogibo-athletics-challenge-cup-2026/",
+          "locator": "GP男子5000m決勝 4位 桑田駿介(3) 13分29秒78 ※PB！"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "桑田 駿介 5000m PB",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "http://komazawa-ekiden.com/results/9%e6%9c%8826%e6%97%a5%e5%9c%9fyogibo-athletics-challenge-cup-2026/",
+              "section": "GP男子5000m決勝 4位 桑田駿介(3) 13分29秒78 ※PB！",
+              "access": "read",
+              "finding": "GP男子5000m決勝 4位 桑田駿介(3) 13分29秒78 ※PB！",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "官方成绩页给出成绩、日期与赛事"
+        },
+        {
+          "stage": "reverse",
+          "query": "桑田 駿介 13:29.78",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "http://komazawa-ekiden.com/results/9%e6%9c%8826%e6%97%a5%e5%9c%9fyogibo-athletics-challenge-cup-2026/",
+              "section": "GP男子5000m決勝 4位 桑田駿介(3) 13分29秒78 ※PB！",
+              "access": "read",
+              "finding": "GP男子5000m決勝 4位 桑田駿介(3) 13分29秒78 ※PB！",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "reverse",
+          "query": "桑田 駿介 13分29秒78",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "http://komazawa-ekiden.com/results/9%e6%9c%8826%e6%97%a5%e5%9c%9fyogibo-athletics-challenge-cup-2026/",
+              "section": "GP男子5000m決勝 4位 桑田駿介(3) 13分29秒78 ※PB！",
+              "access": "read",
+              "finding": "GP男子5000m決勝 4位 桑田駿介(3) 13分29秒78 ※PB！",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "日文分秒写法反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "桑田 駿介 5000m 更新確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "http://komazawa-ekiden.com/results/9%e6%9c%8826%e6%97%a5%e5%9c%9fyogibo-athletics-challenge-cup-2026/",
+              "section": "GP男子5000m決勝 4位 桑田駿介(3) 13分29秒78 ※PB！",
+              "access": "read",
+              "finding": "GP男子5000m決勝 4位 桑田駿介(3) 13分29秒78 ※PB！",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "该成绩晚于名鑑旧值，为当前PB"
+        }
+      ],
+      "final": {
+        "value": "13:29.78; 2026-09-26; Yogibo Athletics Challenge Cup 2026",
+        "sourceIds": [
+          "komazawa-yogibo-2026"
+        ],
+        "locator": "GP男子5000m決勝 4位 桑田駿介(3) 13分29秒78 ※PB！",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "成绩页姓名（桑田駿介(3)/(2)、駒大）与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "取代名鑑旧值（5000m 13:39.47/10000m 28:12.02/半馬 1:00:48）；駒大現役ランキング同值"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "komazawa-yogibo-2026",
+            "role": "primary",
+            "supports": [
+              "value",
+              "achievedOn",
+              "meet",
+              "distance",
+              "affiliation",
+              "pb-update"
+            ],
+            "locator": "GP男子5000m決勝 4位 桑田駿介(3) 13分29秒78 ※PB！",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "komazawa-ekiden.com",
+            "independenceNote": "官方成绩"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "駒澤大官方成绩页已读"
+          },
+          {
+            "category": "employer",
+            "status": "not-applicable",
+            "searchIndexes": [],
+            "reason": "在校生"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "主办方原件未取得"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [
+          "主办方原始成绩单未取得"
+        ],
+        "affiliation": {
+          "stage": "student",
+          "organization": "駒澤大学",
+          "evidenceIds": [
+            "src"
+          ],
+          "enrollment": {
+            "asOf": "2026-11-17",
+            "employerStartsOn": null
+          },
+          "reason": "成绩页显示在校"
+        },
+        "performances": [
+          {
+            "id": "pb",
+            "value": "13:29.78; 2026-09-26; Yogibo Athletics Challenge Cup 2026",
+            "timeMilliseconds": 809780,
+            "precision": "centisecond",
+            "achievedOn": "2026-09-26",
+            "evidenceIds": [
+              "src"
+            ],
+            "eligibility": "eligible",
+            "reason": "官方正式成绩",
+            "event": {
+              "metadataId": null,
+              "name": "Yogibo Athletics Challenge Cup 2026 GP男子5000m決勝（新潟・デンカビッグスワン）",
+              "edition": null,
+              "startsOn": "2026-09-26",
+              "endsOn": "2026-09-26",
+              "competedOn": "2026-09-26",
+              "discipline": "5000m",
+              "distanceMetres": 5000,
+              "editionStatus": "pending",
+              "evidenceIds": [
+                "src"
+              ]
+            }
+          }
+        ],
+        "pbUpdate": {
+          "initialId": "pb",
+          "selectedId": "pb",
+          "checks": [
+            {
+              "searchIndex": 0,
+              "from": "2026-09-26",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "src"
+              ],
+              "outcome": "no-faster-found",
+              "note": "現役ランキング同值，无更快记载"
+            }
+          ],
+          "foundFaster": false,
+          "decision": "晚于名鑑旧值的更新成绩，官方标注PB"
+        }
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-02-2",
+      "athleteName": "桑田 駿介",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "28:07.63; 2026-05-21; 第105回関東インカレ 男子2部10000m",
+          "sourceUrl": "https://www.kgrr.org/event/event/2026/kan-currywithgyoza/rel086.html",
+          "locator": "9位 ORD.11 No.659 桑田駿介(3) 駒大 28:07.63 PB"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "桑田 駿介 10000m PB",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kgrr.org/event/event/2026/kan-currywithgyoza/rel086.html",
+              "section": "9位 ORD.11 No.659 桑田駿介(3) 駒大 28:07.63 PB",
+              "access": "read",
+              "finding": "9位 ORD.11 No.659 桑田駿介(3) 駒大 28:07.63 PB",
+              "category": "competition",
+              "documentType": "results"
+            }
+          ],
+          "result": "官方成绩页给出成绩、日期与赛事"
+        },
+        {
+          "stage": "reverse",
+          "query": "桑田 駿介 28:07.63",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kgrr.org/event/event/2026/kan-currywithgyoza/rel086.html",
+              "section": "9位 ORD.11 No.659 桑田駿介(3) 駒大 28:07.63 PB",
+              "access": "read",
+              "finding": "9位 ORD.11 No.659 桑田駿介(3) 駒大 28:07.63 PB",
+              "category": "competition",
+              "documentType": "results"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "reverse",
+          "query": "桑田 駿介 28分07秒63",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kgrr.org/event/event/2026/kan-currywithgyoza/rel086.html",
+              "section": "9位 ORD.11 No.659 桑田駿介(3) 駒大 28:07.63 PB",
+              "access": "read",
+              "finding": "9位 ORD.11 No.659 桑田駿介(3) 駒大 28:07.63 PB",
+              "category": "competition",
+              "documentType": "results"
+            }
+          ],
+          "result": "日文分秒写法反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "桑田 駿介 10000m 更新確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kgrr.org/event/event/2026/kan-currywithgyoza/rel086.html",
+              "section": "9位 ORD.11 No.659 桑田駿介(3) 駒大 28:07.63 PB",
+              "access": "read",
+              "finding": "9位 ORD.11 No.659 桑田駿介(3) 駒大 28:07.63 PB",
+              "category": "competition",
+              "documentType": "results"
+            }
+          ],
+          "result": "该成绩晚于名鑑旧值，为当前PB"
+        },
+        {
+          "stage": "discovery",
+          "query": "桑田 駿介 駒澤現役ランキング 10000m",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://komazawa-ekiden.com/record/record-active-player",
+              "section": "現役選手ランキング 10000m",
+              "access": "read",
+              "finding": "1位 桑田駿介(3年生) 28分07秒63",
+              "category": "university",
+              "documentType": "ranking"
+            }
+          ],
+          "result": "駒大現役ランキング同值"
+        }
+      ],
+      "final": {
+        "value": "28:07.63; 2026-05-21; 第105回関東インカレ 男子2部10000m",
+        "sourceIds": [
+          "kgrr-105th-kanto-2026",
+          "komazawa-active-ranking"
+        ],
+        "locator": "9位 ORD.11 No.659 桑田駿介(3) 駒大 28:07.63 PB",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "成绩页姓名（桑田駿介(3)/(2)、駒大）与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "取代名鑑旧值（5000m 13:39.47/10000m 28:12.02/半馬 1:00:48）；駒大現役ランキング同值"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "kgrr-105th-kanto-2026",
+            "role": "primary",
+            "supports": [
+              "value",
+              "achievedOn",
+              "meet",
+              "distance",
+              "affiliation",
+              "pb-update"
+            ],
+            "locator": "9位 ORD.11 No.659 桑田駿介(3) 駒大 28:07.63 PB",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "kgrr.org",
+            "independenceNote": "官方成绩"
+          },
+          {
+            "id": "uni",
+            "sourceId": "komazawa-active-ranking",
+            "role": "cross-check",
+            "supports": [
+              "value",
+              "pb-update"
+            ],
+            "locator": "10000m 1位 桑田駿介(3年生) 28分07秒63",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "komazawa-ekiden.com",
+            "independenceNote": "駒澤大学現役ランキング"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src",
+          "uni"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "checked",
+            "searchIndexes": [
+              4
+            ],
+            "reason": "駒大現役ランキング已读（同值）"
+          },
+          {
+            "category": "employer",
+            "status": "not-applicable",
+            "searchIndexes": [],
+            "reason": "在校生"
+          },
+          {
+            "category": "official",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "関東学連官方成绩已读"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [
+          "仅主办方原件，大学交叉在現役ランキング"
+        ],
+        "affiliation": {
+          "stage": "student",
+          "organization": "駒澤大学",
+          "evidenceIds": [
+            "src"
+          ],
+          "enrollment": {
+            "asOf": "2026-11-17",
+            "employerStartsOn": null
+          },
+          "reason": "成绩页显示在校"
+        },
+        "performances": [
+          {
+            "id": "pb",
+            "value": "28:07.63; 2026-05-21; 第105回関東インカレ 男子2部10000m",
+            "timeMilliseconds": 1687630,
+            "precision": "centisecond",
+            "achievedOn": "2026-05-21",
+            "evidenceIds": [
+              "src"
+            ],
+            "eligibility": "eligible",
+            "reason": "官方正式成绩",
+            "event": {
+              "metadataId": null,
+              "name": "第105回関東学生陸上競技対校選手権大会 男子2部10000m決勝（カンセキスタジアムとちぎ）",
+              "edition": null,
+              "startsOn": "2026-05-21",
+              "endsOn": "2026-05-21",
+              "competedOn": "2026-05-21",
+              "discipline": "10000m",
+              "distanceMetres": 10000,
+              "editionStatus": "pending",
+              "evidenceIds": [
+                "src"
+              ]
+            }
+          }
+        ],
+        "pbUpdate": {
+          "initialId": "pb",
+          "selectedId": "pb",
+          "checks": [
+            {
+              "searchIndex": 0,
+              "from": "2026-05-21",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "src"
+              ],
+              "outcome": "no-faster-found",
+              "note": "現役ランキング同值，无更快记载"
+            },
+            {
+              "searchIndex": 4,
+              "from": "2026-05-21",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "uni"
+              ],
+              "outcome": "no-faster-found",
+              "note": "現役ランキング同值"
+            }
+          ],
+          "foundFaster": false,
+          "decision": "晚于名鑑旧值的更新成绩，官方标注PB"
+        }
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-02-2",
+      "athleteName": "桑田 駿介",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "1:00:13; 2026-03-15; ニューヨークシティハーフマラソン",
+          "sourceUrl": "http://komazawa-ekiden.com/results/3%e6%9c%8815%e6%97%a5%e6%97%a5%e3%83%8b%e3%83%a5%e3%83%bc%e3%83%a8%e3%83%bc%e3%82%af%e3%82%b7%e3%83%86%e3%82%a3%e3%83%8f%e3%83%bc%e3%83%95%e3%83%9e%e3%83%a9%e3%82%bd%e3%83%b3/",
+          "locator": "ハーフマラソン 10位 桑田駿介(2) 1時間00分13秒 ※PB"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "桑田 駿介 half-marathon PB",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "http://komazawa-ekiden.com/results/3%e6%9c%8815%e6%97%a5%e6%97%a5%e3%83%8b%e3%83%a5%e3%83%bc%e3%83%a8%e3%83%bc%e3%82%af%e3%82%b7%e3%83%86%e3%82%a3%e3%83%8f%e3%83%bc%e3%83%95%e3%83%9e%e3%83%a9%e3%82%bd%e3%83%b3/",
+              "section": "ハーフマラソン 10位 桑田駿介(2) 1時間00分13秒 ※PB",
+              "access": "read",
+              "finding": "ハーフマラソン 10位 桑田駿介(2) 1時間00分13秒 ※PB",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "官方成绩页给出成绩、日期与赛事"
+        },
+        {
+          "stage": "reverse",
+          "query": "桑田 駿介 1:00:13",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "http://komazawa-ekiden.com/results/3%e6%9c%8815%e6%97%a5%e6%97%a5%e3%83%8b%e3%83%a5%e3%83%bc%e3%83%a8%e3%83%bc%e3%82%af%e3%82%b7%e3%83%86%e3%82%a3%e3%83%8f%e3%83%bc%e3%83%95%e3%83%9e%e3%83%a9%e3%82%bd%e3%83%b3/",
+              "section": "ハーフマラソン 10位 桑田駿介(2) 1時間00分13秒 ※PB",
+              "access": "read",
+              "finding": "ハーフマラソン 10位 桑田駿介(2) 1時間00分13秒 ※PB",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "reverse",
+          "query": "桑田 駿介 1時間00分13秒",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "http://komazawa-ekiden.com/results/3%e6%9c%8815%e6%97%a5%e6%97%a5%e3%83%8b%e3%83%a5%e3%83%bc%e3%83%a8%e3%83%bc%e3%82%af%e3%82%b7%e3%83%86%e3%82%a3%e3%83%8f%e3%83%bc%e3%83%95%e3%83%9e%e3%83%a9%e3%82%bd%e3%83%b3/",
+              "section": "ハーフマラソン 10位 桑田駿介(2) 1時間00分13秒 ※PB",
+              "access": "read",
+              "finding": "ハーフマラソン 10位 桑田駿介(2) 1時間00分13秒 ※PB",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "日文分秒写法反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "桑田 駿介 half-marathon 更新確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "http://komazawa-ekiden.com/results/3%e6%9c%8815%e6%97%a5%e6%97%a5%e3%83%8b%e3%83%a5%e3%83%bc%e3%83%a8%e3%83%bc%e3%82%af%e3%82%b7%e3%83%86%e3%82%a3%e3%83%8f%e3%83%bc%e3%83%95%e3%83%9e%e3%83%a9%e3%82%bd%e3%83%b3/",
+              "section": "ハーフマラソン 10位 桑田駿介(2) 1時間00分13秒 ※PB",
+              "access": "read",
+              "finding": "ハーフマラソン 10位 桑田駿介(2) 1時間00分13秒 ※PB",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "该成绩晚于名鑑旧值，为当前PB"
+        }
+      ],
+      "final": {
+        "value": "1:00:13; 2026-03-15; ニューヨークシティハーフマラソン",
+        "sourceIds": [
+          "komazawa-nyc-2026"
+        ],
+        "locator": "ハーフマラソン 10位 桑田駿介(2) 1時間00分13秒 ※PB",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "成绩页姓名（桑田駿介(3)/(2)、駒大）与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "取代名鑑旧值（5000m 13:39.47/10000m 28:12.02/半馬 1:00:48）；駒大現役ランキング同值"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "komazawa-nyc-2026",
+            "role": "primary",
+            "supports": [
+              "value",
+              "achievedOn",
+              "meet",
+              "distance",
+              "affiliation",
+              "pb-update"
+            ],
+            "locator": "ハーフマラソン 10位 桑田駿介(2) 1時間00分13秒 ※PB",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "komazawa-ekiden.com",
+            "independenceNote": "官方成绩"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "駒澤大官方成绩页已读"
+          },
+          {
+            "category": "employer",
+            "status": "not-applicable",
+            "searchIndexes": [],
+            "reason": "在校生"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "主办方原件未取得"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [
+          "主办方原始成绩单未取得"
+        ],
+        "affiliation": {
+          "stage": "student",
+          "organization": "駒澤大学",
+          "evidenceIds": [
+            "src"
+          ],
+          "enrollment": {
+            "asOf": "2026-11-17",
+            "employerStartsOn": null
+          },
+          "reason": "成绩页显示在校"
+        },
+        "performances": [
+          {
+            "id": "pb",
+            "value": "1:00:13; 2026-03-15; ニューヨークシティハーフマラソン",
+            "timeMilliseconds": 3613000,
+            "precision": "second",
+            "achievedOn": "2026-03-15",
+            "evidenceIds": [
+              "src"
+            ],
+            "eligibility": "eligible",
+            "reason": "官方正式成绩",
+            "event": {
+              "metadataId": null,
+              "name": "ニューヨークシティハーフマラソン（ニューヨーク）",
+              "edition": null,
+              "startsOn": "2026-03-15",
+              "endsOn": "2026-03-15",
+              "competedOn": "2026-03-15",
+              "discipline": "half-marathon",
+              "distanceMetres": 21097.5,
+              "editionStatus": "pending",
+              "evidenceIds": [
+                "src"
+              ]
+            }
+          }
+        ],
+        "pbUpdate": {
+          "initialId": "pb",
+          "selectedId": "pb",
+          "checks": [
+            {
+              "searchIndex": 0,
+              "from": "2026-03-15",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "src"
+              ],
+              "outcome": "no-faster-found",
+              "note": "現役ランキング同值，无更快记载"
+            }
+          ],
+          "foundFaster": false,
+          "decision": "晚于名鑑旧值的更新成绩，官方标注PB"
+        }
+      }
+    }
+  ]
+}

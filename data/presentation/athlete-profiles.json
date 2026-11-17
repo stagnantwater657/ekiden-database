@@ -947,6 +947,538 @@
         "locator": "【加入選手プロフィール】生年月日 2002年8月26日",
         "revision": "retrieved 2026-11-17"
       }
+    },
+    {
+      "athleteId": "athlete-aj24-01-3",
+      "reviewedAt": "2026-11-17",
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 815300,
+          "precision": "centisecond",
+          "achievedOn": "2025-06-11",
+          "meet": "ホクレン・ディスタンスチャレンジ2025深川大会（深川市陸上競技場）",
+          "sourceId": "kokugakuin-top10",
+          "locator": "5000m 4位 辻原輝 13'35\"30 ホクレンDC深川 令和7年6月11日",
+          "revision": "retrieved 2026-11-17"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1704680,
+          "precision": "centisecond",
+          "achievedOn": "2026-05-21",
+          "meet": "関東学生陸上競技対校選手権大会 男子10000m（カンセキスタジアムとちぎ）",
+          "sourceId": "kokugakuin-top10",
+          "locator": "10000m 10位 辻原輝 28'24\"68 関東インカレ 令和8年5月21日",
+          "revision": "retrieved 2026-11-17"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3633000,
+          "precision": "second",
+          "achievedOn": "2026-03-29",
+          "meet": "ベルリンハーフマラソン（ベルリン）",
+          "sourceId": "kokugakuin-top10",
+          "locator": "半馬 2位 辻原輝 60'33\" ベルリンハーフ 令和8年3月29日",
+          "revision": "retrieved 2026-11-17"
+        }
+      ],
+      "highSchool": {
+        "value": "藤沢翔陵高（神奈川県）",
+        "sourceId": "hochi-tsujihara",
+        "locator": "選手名鑑: 学年3年・登録陸協 神奈川・出身校 藤沢翔陵",
+        "revision": "retrieved 2026-11-17"
+      },
+      "birthDate": {
+        "value": "2004-09-20",
+        "sourceId": "hakone-102-kukan-entry",
+        "locator": "p.3 辻原輝 3年 2004/9/20 文",
+        "revision": "retrieved 2026-11-17"
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-01-8",
+      "reviewedAt": "2026-11-17",
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 825580,
+          "precision": "centisecond",
+          "achievedOn": "2024-04-13",
+          "meet": "日本体育大学長距離競技会（日体大健志台）",
+          "sourceId": "kokugakuin-top10",
+          "locator": "5000m 9位 上原琉翔 13'45\"58 日体大長距離 令和6年4月13日",
+          "revision": "retrieved 2026-11-17"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1696760,
+          "precision": "centisecond",
+          "achievedOn": "2024-05-09",
+          "meet": "関東学生陸上競技対校選手権大会 男子10000m（国立競技場）",
+          "sourceId": "kokugakuin-top10",
+          "locator": "10000m 6位 上原琉翔 28'16\"76 関東インカレ 令和6年5月9日",
+          "revision": "retrieved 2026-11-17"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3630000,
+          "precision": "second",
+          "achievedOn": "2025-02-02",
+          "meet": "第77回香川丸亀国際ハーフマラソン 兼 日本学生ハーフマラソン（丸亀）",
+          "sourceId": "kokugakuin-top10",
+          "locator": "半馬 1位 上原琉翔 60'30\" 日本学生ハーフ 令和7年2月2日",
+          "revision": "retrieved 2026-11-17"
+        }
+      ],
+      "highSchool": {
+        "value": "北山高（沖縄県）",
+        "sourceId": "hochi-uehara",
+        "locator": "選手名鑑: 学年4年(主将)・出身校 北山",
+        "revision": "retrieved 2026-11-17"
+      },
+      "birthDate": {
+        "value": "2003-05-05",
+        "sourceId": "hakone-102-kukan-entry",
+        "locator": "p.3 上原琉翔 4年 2003/5/5 人間開発",
+        "revision": "retrieved 2026-11-17"
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-01-4",
+      "reviewedAt": "2026-11-17",
+      "personalBests": [],
+      "highSchool": {
+        "value": "高川学園高（山口県）",
+        "sourceId": "hochi-takayama",
+        "locator": "選手名鑑: 学年4年・登録陸協 山口・出身校 高川学園",
+        "revision": "retrieved 2026-11-17"
+      },
+      "birthDate": {
+        "value": "2003-07-18",
+        "sourceId": "hakone-102-kukan-entry",
+        "locator": "p.3 高山豪起 4年 2003/7/18 法",
+        "revision": "retrieved 2026-11-17"
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-04-3",
+      "reviewedAt": "2026-11-17",
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 822120,
+          "precision": "centisecond",
+          "achievedOn": "2025-09-24",
+          "meet": "第16回絆記録挑戦会 男子5000m（町田市立陸上競技場）",
+          "sourceId": "soka-ekiden-alltime",
+          "locator": "5000m 8位 石丸惇那 13:42.12 2025/9/24 絆記録挑戦会 町田市立陸上競技場",
+          "revision": "retrieved 2026-11-17"
+        }
+      ],
+      "highSchool": {
+        "value": "出水中央高（鹿児島県）",
+        "sourceId": "hochi-ishimaru",
+        "locator": "選手名鑑: 学年4年・出身校 出水中央",
+        "revision": "retrieved 2026-11-17"
+      },
+      "birthDate": {
+        "value": "2003-08-10",
+        "sourceId": "logisteed-ishimaru",
+        "locator": "生年月日 2003年08月10日",
+        "revision": "retrieved 2026-11-17"
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-04-4",
+      "reviewedAt": "2026-11-17",
+      "personalBests": [
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3646000,
+          "precision": "second",
+          "achievedOn": "2026-04-26",
+          "meet": "高橋尚子杯ぎふ清流ハーフマラソン2026（岐阜）",
+          "sourceId": "gifu-half-2026-results",
+          "locator": "男子登録の部 6位 No.126 山口翔輝 学連・創価大 1:00:46（21.0975km、WA/AIMS/JAAF公認コース）",
+          "revision": "retrieved 2026-11-17"
+        }
+      ],
+      "highSchool": {
+        "value": "大牟田高（福岡県）",
+        "sourceId": "hochi-yamaguchi-shoki",
+        "locator": "選手名鑑: 学年2年・出身校 大牟田",
+        "revision": "retrieved 2026-11-17"
+      },
+      "birthDate": {
+        "value": "2005-05-25",
+        "sourceId": "hakone-102-kukan-entry",
+        "locator": "p.7 山口翔輝 2年 2005/5/25 経営",
+        "revision": "retrieved 2026-11-17"
+      }
+    },
+    {
+      "athleteId": "athlete-aj25-04-4",
+      "reviewedAt": "2026-11-17",
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 822970,
+          "precision": "centisecond",
+          "achievedOn": "2026-07-11",
+          "meet": "ホクレン・ディスタンスチャレンジ2026北見大会（北見市東陵公園陸上競技場）",
+          "sourceId": "soka-ekiden-alltime",
+          "locator": "5000m 9位 織橋巧 13:42.97 2026/7/11 ホクレンDC北見 北見市東稜公園陸上競技場",
+          "revision": "retrieved 2026-11-17"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3676000,
+          "precision": "second",
+          "achievedOn": "2025-02-02",
+          "meet": "第77回香川丸亀国際ハーフマラソン 兼 日本学生ハーフマラソン（丸亀）",
+          "sourceId": "soka-ekiden-alltime",
+          "locator": "ハーフ 3位 織橋巧 1:01:16 2025/2/2 学生ハーフ・丸亀",
+          "revision": "retrieved 2026-11-17"
+        }
+      ],
+      "highSchool": {
+        "value": "中京高（岐阜県）",
+        "sourceId": "hochi-orihashi",
+        "locator": "選手名鑑: 学年3年・出身校 中京",
+        "revision": "retrieved 2026-11-17"
+      },
+      "birthDate": {
+        "value": "2004-10-26",
+        "sourceId": "hakone-102-kukan-entry",
+        "locator": "p.7 織橋巧 3年 2004/10/26 経済",
+        "revision": "retrieved 2026-11-17"
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-04-5",
+      "reviewedAt": "2026-11-17",
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 806700,
+          "precision": "centisecond",
+          "achievedOn": "2025-07-19",
+          "meet": "ホクレン・ディスタンスチャレンジ2025網走大会（網走市営陸上競技場）",
+          "sourceId": "soka-ekiden-alltime",
+          "locator": "5000m 1位 ムチーニ 13:26.70 2025/7/19 ホクレンDC網走 網走市営陸上競技場",
+          "revision": "retrieved 2026-11-17"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3638000,
+          "precision": "second",
+          "achievedOn": "2026-04-26",
+          "meet": "ぎふ清流ハーフマラソン2026（岐阜メモリアルセンター周辺）",
+          "sourceId": "soka-ekiden-alltime",
+          "locator": "ハーフ 1位 ムチーニ 1:00:38 2026/4/26 ぎふ清流ハーフマラソン2026 岐阜メモリアルセンター周辺",
+          "revision": "retrieved 2026-11-17"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1654320,
+          "precision": "centisecond",
+          "achievedOn": "2025-11-22",
+          "meet": "2025八王子ロングディスタンス（上柚木公園陸上競技場）",
+          "sourceId": "soka-ekiden-alltime",
+          "locator": "10000m 1位 ムチーニ 27:34.32 2025/11/22 八王子LD",
+          "revision": "retrieved 2026-11-17"
+        }
+      ],
+      "highSchool": {
+        "value": "ミクユニ（ケニア）",
+        "sourceId": "hochi-muthini",
+        "locator": "選手名鑑: 学年3年・出身校 ミクユニ(ケニア)",
+        "revision": "retrieved 2026-11-17"
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-04-8",
+      "reviewedAt": "2026-11-17",
+      "personalBests": [
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3706000,
+          "precision": "second",
+          "achievedOn": "2024-01-28",
+          "meet": "大阪ハーフマラソン（大阪城公園～ヤンマースタジアム長居）",
+          "sourceId": "soka-ekiden-alltime",
+          "locator": "ハーフ 7位 野沢悠真 1:01:46 2024/1/28 大阪ハーフマラソン",
+          "revision": "retrieved 2026-11-17"
+        }
+      ],
+      "highSchool": {
+        "value": "利府高（宮城県）",
+        "sourceId": "hochi-nozawa",
+        "locator": "選手名鑑: 学年4年・出身校 利府",
+        "revision": "retrieved 2026-11-17"
+      },
+      "birthDate": {
+        "value": "2004-01-20",
+        "sourceId": "hakone-102-kukan-entry",
+        "locator": "p.7 野沢悠真 4年 2004/1/20 経済",
+        "revision": "retrieved 2026-11-17"
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-02-2",
+      "reviewedAt": "2026-11-17",
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 809780,
+          "precision": "centisecond",
+          "achievedOn": "2026-09-26",
+          "meet": "Yogibo Athletics Challenge Cup 2026 GP男子5000m決勝（新潟・デンカビッグスワン）",
+          "sourceId": "komazawa-yogibo-2026",
+          "locator": "GP男子5000m決勝 4位 桑田駿介(3) 13分29秒78 ※PB！",
+          "revision": "retrieved 2026-11-17"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1687630,
+          "precision": "centisecond",
+          "achievedOn": "2026-05-21",
+          "meet": "第105回関東学生陸上競技対校選手権大会 男子2部10000m決勝（カンセキスタジアムとちぎ）",
+          "sourceId": "kgrr-105th-kanto-2026",
+          "locator": "9位 ORD.11 No.659 桑田駿介(3) 駒大 28:07.63 PB",
+          "revision": "retrieved 2026-11-17"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3613000,
+          "precision": "second",
+          "achievedOn": "2026-03-15",
+          "meet": "ニューヨークシティハーフマラソン（ニューヨーク）",
+          "sourceId": "komazawa-nyc-2026",
+          "locator": "ハーフマラソン 10位 桑田駿介(2) 1時間00分13秒 ※PB",
+          "revision": "retrieved 2026-11-17"
+        }
+      ],
+      "highSchool": {
+        "value": "倉敷高（岡山県）",
+        "sourceId": "hochi-kuwata",
+        "locator": "選手名鑑: 学年2年・登録陸協 岡山・出身校 倉敷",
+        "revision": "retrieved 2026-11-17"
+      },
+      "birthDate": {
+        "value": "2005-05-17",
+        "sourceId": "hakone-102-kukan-entry",
+        "locator": "p.2 桑田駿介 2年 2005/5/17 経済",
+        "revision": "retrieved 2026-11-17"
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-05-1",
+      "reviewedAt": "2026-11-17",
+      "personalBests": [],
+      "highSchool": {
+        "value": "鳥栖工高（佐賀県）",
+        "sourceId": "hochi-maseda",
+        "locator": "選手名鑑: 学年4年・登録陸協 佐賀・出身校 鳥栖工",
+        "revision": "retrieved 2026-11-17"
+      },
+      "birthDate": {
+        "value": "2004-02-17",
+        "sourceId": "hakone-102-kukan-entry",
+        "locator": "p.4 間瀬田純平 4年 2004/2/17 ｽﾎﾟｰﾂ科",
+        "revision": "retrieved 2026-11-17"
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-08-1",
+      "reviewedAt": "2026-11-17",
+      "personalBests": [],
+      "highSchool": {
+        "value": "高田高（三重県）",
+        "sourceId": "hochi-shimada",
+        "locator": "選手名鑑: 学年4年・登録陸協 三重・出身校 高田（三重）",
+        "revision": "retrieved 2026-11-17"
+      },
+      "birthDate": {
+        "value": "2004-01-25",
+        "sourceId": "logisteed-shimada",
+        "locator": "生年月日 2004年01月25日",
+        "revision": "retrieved 2026-11-17"
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-08-3",
+      "reviewedAt": "2026-11-17",
+      "personalBests": [],
+      "highSchool": {
+        "value": "東海大福岡高（福岡県）",
+        "sourceId": "hochi-ozaki",
+        "locator": "選手名鑑: 学年4年・登録陸協 福岡・出身校 東海大福岡",
+        "revision": "retrieved 2026-11-17"
+      },
+      "birthDate": {
+        "value": "2004-01-08",
+        "sourceId": "hakone-102-kukan-entry",
+        "locator": "p.10 尾崎仁哉 4年 2004/1/8 経済",
+        "revision": "retrieved 2026-11-17"
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-08-4",
+      "reviewedAt": "2026-11-17",
+      "personalBests": [],
+      "highSchool": {
+        "value": "北海道栄高（北海道）",
+        "sourceId": "hochi-hirota",
+        "locator": "選手名鑑: 学年3年・登録陸協 北海道・出身校 北海道栄",
+        "revision": "retrieved 2026-11-17"
+      },
+      "birthDate": {
+        "value": "2005-01-05",
+        "sourceId": "hakone-102-kukan-entry",
+        "locator": "p.10 廣田陸 3年 2005/1/5 経済",
+        "revision": "retrieved 2026-11-17"
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-08-5",
+      "reviewedAt": "2026-11-17",
+      "personalBests": [],
+      "highSchool": {
+        "value": "大分東明高（大分県）",
+        "sourceId": "hochi-shibako",
+        "locator": "選手名鑑: 学年4年(主将)・登録陸協 大分・出身校 大分東明",
+        "revision": "retrieved 2026-11-17"
+      },
+      "birthDate": {
+        "value": "2003-12-17",
+        "sourceId": "hakone-102-kukan-entry",
+        "locator": "p.10 柴戸遼太 4年 2003/12/17 医療技術",
+        "revision": "retrieved 2026-11-17"
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-12-2",
+      "reviewedAt": "2026-11-17",
+      "personalBests": [],
+      "highSchool": {
+        "value": "洛南高（京都府）",
+        "sourceId": "hochi-okada",
+        "locator": "選手名鑑: 学年2年・登録陸協 大阪・出身校 洛南",
+        "revision": "retrieved 2026-11-17"
+      },
+      "birthDate": {
+        "value": "2005-08-30",
+        "sourceId": "hakone-102-kukan-entry",
+        "locator": "p.5 岡田開成 2年 2005/8/30 法",
+        "revision": "retrieved 2026-11-17"
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-13-7",
+      "reviewedAt": "2026-11-17",
+      "personalBests": [],
+      "highSchool": {
+        "value": "市船橋高（千葉県）",
+        "sourceId": "hochi-ogata",
+        "locator": "選手名鑑: 学年4年・登録陸協 千葉・出身校 市船橋",
+        "revision": "retrieved 2026-11-17"
+      },
+      "birthDate": {
+        "value": "2004-02-07",
+        "sourceId": "logisteed-ogata",
+        "locator": "生年月日 2004年02月07日",
+        "revision": "retrieved 2026-11-17"
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-04-7",
+      "reviewedAt": "2026-11-17",
+      "personalBests": [
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3718000,
+          "precision": "second",
+          "achievedOn": "2024-02-04",
+          "meet": "香川丸亀国際ハーフマラソン（香川県立丸亀競技場周辺）",
+          "sourceId": "soka-ekiden-alltime",
+          "locator": "ハーフ 8位 吉田凌 1:01:58 2024/2/4 香川丸亀国際ハーフマラソン",
+          "revision": "retrieved 2026-11-17"
+        }
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-01-7",
+      "reviewedAt": "2026-11-17",
+      "personalBests": [
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1657130,
+          "precision": "centisecond",
+          "achievedOn": "2025-11-22",
+          "meet": "2025八王子ロングディスタンス（上柚木公園陸上競技場）",
+          "sourceId": "getsuriku-nonaka-hachioji-10000-2025",
+          "locator": "記事本文「27分37秒13で自己新を出した平林」",
+          "revision": "retrieved 2026-11-17"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3683000,
+          "precision": "second",
+          "achievedOn": "2024-04-21",
+          "meet": "上海ハーフマラソン ハーフマラソン決勝（上海）",
+          "sourceId": "kokugakuin-top10",
+          "locator": "半馬 8位 平林清澄 61'23\" 上海ハーフ 令和6年4月21日",
+          "revision": "retrieved 2026-11-17"
+        }
+      ],
+      "birthDate": {
+        "value": "2002-12-04",
+        "sourceId": "logisteed-hirabayashi",
+        "locator": "生年月日 2002年12月04日",
+        "revision": "retrieved 2026-11-17"
+      },
+      "highSchool": {
+        "value": "美方高（福井県）",
+        "sourceId": "logisteed-hirabayashi",
+        "locator": "出身校 福井県立美方高校",
+        "revision": "retrieved 2026-11-17"
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-11-4",
+      "reviewedAt": "2026-11-17",
+      "personalBests": [],
+      "birthDate": {
+        "value": "2003-10-17",
+        "sourceId": "hakone-102-kukan-entry",
+        "locator": "p.18 入濵輝大 4年 2003/10/17 経済",
+        "revision": "retrieved 2026-11-17"
+      },
+      "highSchool": {
+        "value": "瓊浦高（長崎県）",
+        "sourceId": "hakone-102-kukan-entry",
+        "locator": "p.18 入濵輝大 出身校 瓊浦",
+        "revision": "retrieved 2026-11-17"
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-11-1",
+      "reviewedAt": "2026-11-17",
+      "personalBests": [],
+      "birthDate": {
+        "value": "2005-09-02",
+        "sourceId": "hakone-102-kukan-entry",
+        "locator": "p.18 大濱逞真 2年 2005/9/2 経済",
+        "revision": "retrieved 2026-11-17"
+      },
+      "highSchool": {
+        "value": "仙台育英高（宮城県）",
+        "sourceId": "hakone-102-kukan-entry",
+        "locator": "p.18 大濱逞真 出身校 仙台育英",
+        "revision": "retrieved 2026-11-17"
+      }
     }
   ]
 }

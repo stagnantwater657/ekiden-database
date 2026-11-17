@@ -1,0 +1,2895 @@
+{
+  "schemaVersion": 2,
+  "batchId": "2026-11-17-batch3-round2",
+  "researcher": "DSH / 20-athlete batch import round 2 (this session)",
+  "reviewedAt": "2026-11-17",
+  "records": [
+    {
+      "athleteId": "athlete-aj24-04-3",
+      "athleteName": "石丸 惇那",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "2003-08-10",
+          "sourceUrl": "https://www.logisteed.com/jp/profile/running/member/post_29/",
+          "locator": "生年月日 2003年08月10日"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "石丸 惇那 生年月日 LOGISTEED",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.logisteed.com/jp/profile/running/member/post_29/",
+              "section": "生年月日 2003年08月10日",
+              "access": "read",
+              "finding": "生年月日 2003年08月10日",
+              "category": "employer",
+              "documentType": "profile"
+            }
+          ],
+          "result": "实业团官方档案给出出生日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "石丸 惇那 2003-08-10",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.logisteed.com/jp/profile/running/member/post_29/",
+              "section": "生年月日 2003年08月10日",
+              "access": "read",
+              "finding": "生年月日 2003年08月10日",
+              "category": "employer",
+              "documentType": "profile"
+            }
+          ],
+          "result": "精确值反查命中同一档案"
+        },
+        {
+          "stage": "verification",
+          "query": "石丸 惇那 档案 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.logisteed.com/jp/profile/running/member/post_29/",
+              "section": "生年月日 2003年08月10日",
+              "access": "read",
+              "finding": "生年月日 2003年08月10日",
+              "category": "employer",
+              "documentType": "profile"
+            }
+          ],
+          "result": "档案复核"
+        }
+      ],
+      "final": {
+        "value": "2003-08-10",
+        "sourceIds": [
+          "logisteed-ishimaru"
+        ],
+        "locator": "生年月日 2003年08月10日",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "档案姓名、出身校与登记选手（石丸 惇那）一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "logisteed-ishimaru",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "生年月日 2003年08月10日",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "logisteed.com",
+            "independenceNote": "实业团官方档案"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "实业团档案已读"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无赛事页"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-08-1",
+      "athleteName": "島田 晃希",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "2004-01-25",
+          "sourceUrl": "https://www.logisteed.com/jp/profile/running/member/post_30/",
+          "locator": "生年月日 2004年01月25日"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "島田 晃希 生年月日 LOGISTEED",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.logisteed.com/jp/profile/running/member/post_30/",
+              "section": "生年月日 2004年01月25日",
+              "access": "read",
+              "finding": "生年月日 2004年01月25日",
+              "category": "employer",
+              "documentType": "profile"
+            }
+          ],
+          "result": "实业团官方档案给出出生日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "島田 晃希 2004-01-25",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.logisteed.com/jp/profile/running/member/post_30/",
+              "section": "生年月日 2004年01月25日",
+              "access": "read",
+              "finding": "生年月日 2004年01月25日",
+              "category": "employer",
+              "documentType": "profile"
+            }
+          ],
+          "result": "精确值反查命中同一档案"
+        },
+        {
+          "stage": "verification",
+          "query": "島田 晃希 档案 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.logisteed.com/jp/profile/running/member/post_30/",
+              "section": "生年月日 2004年01月25日",
+              "access": "read",
+              "finding": "生年月日 2004年01月25日",
+              "category": "employer",
+              "documentType": "profile"
+            }
+          ],
+          "result": "档案复核"
+        }
+      ],
+      "final": {
+        "value": "2004-01-25",
+        "sourceIds": [
+          "logisteed-shimada"
+        ],
+        "locator": "生年月日 2004年01月25日",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "档案姓名、出身校与登记选手（島田 晃希）一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "logisteed-shimada",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "生年月日 2004年01月25日",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "logisteed.com",
+            "independenceNote": "实业团官方档案"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "实业团档案已读"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无赛事页"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-13-7",
+      "athleteName": "緒方 澪那斗",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "2004-02-07",
+          "sourceUrl": "https://www.logisteed.com/jp/profile/running/member/post_31/",
+          "locator": "生年月日 2004年02月07日"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "緒方 澪那斗 生年月日 LOGISTEED",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.logisteed.com/jp/profile/running/member/post_31/",
+              "section": "生年月日 2004年02月07日",
+              "access": "read",
+              "finding": "生年月日 2004年02月07日",
+              "category": "employer",
+              "documentType": "profile"
+            }
+          ],
+          "result": "实业团官方档案给出出生日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "緒方 澪那斗 2004-02-07",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.logisteed.com/jp/profile/running/member/post_31/",
+              "section": "生年月日 2004年02月07日",
+              "access": "read",
+              "finding": "生年月日 2004年02月07日",
+              "category": "employer",
+              "documentType": "profile"
+            }
+          ],
+          "result": "精确值反查命中同一档案"
+        },
+        {
+          "stage": "verification",
+          "query": "緒方 澪那斗 档案 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.logisteed.com/jp/profile/running/member/post_31/",
+              "section": "生年月日 2004年02月07日",
+              "access": "read",
+              "finding": "生年月日 2004年02月07日",
+              "category": "employer",
+              "documentType": "profile"
+            }
+          ],
+          "result": "档案复核"
+        }
+      ],
+      "final": {
+        "value": "2004-02-07",
+        "sourceIds": [
+          "logisteed-ogata"
+        ],
+        "locator": "生年月日 2004年02月07日",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "档案姓名、出身校与登记选手（緒方 澪那斗）一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "logisteed-ogata",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "生年月日 2004年02月07日",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "logisteed.com",
+            "independenceNote": "实业团官方档案"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "实业团档案已读"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无赛事页"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-01-7",
+      "athleteName": "平林 清澄",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "2002-12-04",
+          "sourceUrl": "https://www.logisteed.com/jp/profile/running/member/post_27/",
+          "locator": "生年月日 2002年12月04日"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "平林 清澄 生年月日 LOGISTEED",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.logisteed.com/jp/profile/running/member/post_27/",
+              "section": "生年月日 2002年12月04日",
+              "access": "read",
+              "finding": "生年月日 2002年12月04日",
+              "category": "employer",
+              "documentType": "profile"
+            }
+          ],
+          "result": "实业团官方档案给出出生日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "平林 清澄 2002-12-04",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.logisteed.com/jp/profile/running/member/post_27/",
+              "section": "生年月日 2002年12月04日",
+              "access": "read",
+              "finding": "生年月日 2002年12月04日",
+              "category": "employer",
+              "documentType": "profile"
+            }
+          ],
+          "result": "精确值反查命中同一档案"
+        },
+        {
+          "stage": "verification",
+          "query": "平林 清澄 档案 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.logisteed.com/jp/profile/running/member/post_27/",
+              "section": "生年月日 2002年12月04日",
+              "access": "read",
+              "finding": "生年月日 2002年12月04日",
+              "category": "employer",
+              "documentType": "profile"
+            }
+          ],
+          "result": "档案复核"
+        }
+      ],
+      "final": {
+        "value": "2002-12-04",
+        "sourceIds": [
+          "logisteed-hirabayashi"
+        ],
+        "locator": "生年月日 2002年12月04日",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "档案姓名、出身校与登记选手（平林 清澄）一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "logisteed-hirabayashi",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "生年月日 2002年12月04日",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "logisteed.com",
+            "independenceNote": "实业团官方档案"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "实业团档案已读"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无赛事页"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-01-3",
+      "athleteName": "辻原 輝",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "13:35.30; 2025-06-11; ホクレンDC深川大会",
+          "sourceUrl": "https://www.kokugakuin.com/top10/426/",
+          "locator": "5000m 4位 辻原輝 13'35\"30 ホクレンDC深川 令和7年6月11日"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "辻原 輝 5000m 記録",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kokugakuin.com/top10/426/",
+              "section": "5000m 4位 辻原輝 13'35\"30 ホクレンDC深川 令和7年6月11日",
+              "access": "read",
+              "finding": "5000m 4位 辻原輝 13'35\"30 ホクレンDC深川 令和7年6月11日",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "官方记录给出成绩、日期与赛事"
+        },
+        {
+          "stage": "reverse",
+          "query": "辻原 輝 13:35.30",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kokugakuin.com/top10/426/",
+              "section": "5000m 4位 辻原輝 13'35\"30 ホクレンDC深川 令和7年6月11日",
+              "access": "read",
+              "finding": "5000m 4位 辻原輝 13'35\"30 ホクレンDC深川 令和7年6月11日",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "辻原 輝 5000m 更新確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kokugakuin.com/top10/426/",
+              "section": "5000m 4位 辻原輝 13'35\"30 ホクレンDC深川 令和7年6月11日",
+              "access": "read",
+              "finding": "5000m 4位 辻原輝 13'35\"30 ホクレンDC深川 令和7年6月11日",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "记录表当前仍列该成绩"
+        }
+      ],
+      "final": {
+        "value": "13:35.30; 2025-06-11; ホクレンDC深川大会",
+        "sourceIds": [
+          "kokugakuin-top10"
+        ],
+        "locator": "5000m 4位 辻原輝 13'35\"30 ホクレンDC深川 令和7年6月11日",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "记录表姓名与登记选手（辻原 輝）一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "记录表当前仍列该成绩；实业团档案同值或未显示更快"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "uni",
+            "sourceId": "kokugakuin-top10",
+            "role": "primary",
+            "supports": [
+              "value",
+              "achievedOn",
+              "meet",
+              "distance",
+              "affiliation",
+              "pb-update"
+            ],
+            "locator": "5000m 4位 辻原輝 13'35\"30 ホクレンDC深川 令和7年6月11日",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "kokugakuin.com",
+            "independenceNote": "官方记录"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "uni"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "大学记录表已读"
+          },
+          {
+            "category": "employer",
+            "status": "not-applicable",
+            "searchIndexes": [],
+            "reason": "在校生"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "主办方原件未取得"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查"
+          }
+        ],
+        "limitations": [
+          "主办方原始成绩单未取得"
+        ],
+        "affiliation": {
+          "stage": "student",
+          "organization": "國學院大學",
+          "evidenceIds": [
+            "uni"
+          ],
+          "reason": "实业团档案/大学记录显示所属",
+          "enrollment": {
+            "asOf": "2026-11-17",
+            "employerStartsOn": null
+          }
+        },
+        "performances": [
+          {
+            "id": "pb",
+            "value": "13:35.30; 2025-06-11; ホクレンDC深川大会",
+            "timeMilliseconds": 815300,
+            "precision": "centisecond",
+            "achievedOn": "2025-06-11",
+            "evidenceIds": [
+              "uni"
+            ],
+            "eligibility": "eligible",
+            "reason": "官方记录表成绩",
+            "event": {
+              "metadataId": null,
+              "name": "ホクレン・ディスタンスチャレンジ2025深川大会（深川市陸上競技場）",
+              "edition": null,
+              "startsOn": "2025-06-11",
+              "endsOn": "2025-06-11",
+              "competedOn": "2025-06-11",
+              "discipline": "5000m",
+              "distanceMetres": 5000,
+              "editionStatus": "pending",
+              "evidenceIds": [
+                "uni"
+              ]
+            }
+          }
+        ],
+        "pbUpdate": {
+          "initialId": "pb",
+          "selectedId": "pb",
+          "checks": [
+            {
+              "searchIndex": 0,
+              "from": "2025-06-11",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "uni"
+              ],
+              "outcome": "no-faster-found",
+              "note": "记录表当前仍列该成绩"
+            }
+          ],
+          "foundFaster": false,
+          "decision": "记录表未显示更快成绩"
+        }
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-01-3",
+      "athleteName": "辻原 輝",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "28:24.68; 2026-05-21; 関東インカレ",
+          "sourceUrl": "https://www.kokugakuin.com/top10/426/",
+          "locator": "10000m 10位 辻原輝 28'24\"68 関東インカレ 令和8年5月21日"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "辻原 輝 10000m 記録",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kokugakuin.com/top10/426/",
+              "section": "10000m 10位 辻原輝 28'24\"68 関東インカレ 令和8年5月21日",
+              "access": "read",
+              "finding": "10000m 10位 辻原輝 28'24\"68 関東インカレ 令和8年5月21日",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "官方记录给出成绩、日期与赛事"
+        },
+        {
+          "stage": "reverse",
+          "query": "辻原 輝 28:24.68",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kokugakuin.com/top10/426/",
+              "section": "10000m 10位 辻原輝 28'24\"68 関東インカレ 令和8年5月21日",
+              "access": "read",
+              "finding": "10000m 10位 辻原輝 28'24\"68 関東インカレ 令和8年5月21日",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "辻原 輝 10000m 更新確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kokugakuin.com/top10/426/",
+              "section": "10000m 10位 辻原輝 28'24\"68 関東インカレ 令和8年5月21日",
+              "access": "read",
+              "finding": "10000m 10位 辻原輝 28'24\"68 関東インカレ 令和8年5月21日",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "记录表当前仍列该成绩"
+        }
+      ],
+      "final": {
+        "value": "28:24.68; 2026-05-21; 関東インカレ",
+        "sourceIds": [
+          "kokugakuin-top10"
+        ],
+        "locator": "10000m 10位 辻原輝 28'24\"68 関東インカレ 令和8年5月21日",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "记录表姓名与登记选手（辻原 輝）一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "记录表当前仍列该成绩；实业团档案同值或未显示更快"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "uni",
+            "sourceId": "kokugakuin-top10",
+            "role": "primary",
+            "supports": [
+              "value",
+              "achievedOn",
+              "meet",
+              "distance",
+              "affiliation",
+              "pb-update"
+            ],
+            "locator": "10000m 10位 辻原輝 28'24\"68 関東インカレ 令和8年5月21日",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "kokugakuin.com",
+            "independenceNote": "官方记录"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "uni"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "大学记录表已读"
+          },
+          {
+            "category": "employer",
+            "status": "not-applicable",
+            "searchIndexes": [],
+            "reason": "在校生"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "主办方原件未取得"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查"
+          }
+        ],
+        "limitations": [
+          "主办方原始成绩单未取得"
+        ],
+        "affiliation": {
+          "stage": "student",
+          "organization": "國學院大學",
+          "evidenceIds": [
+            "uni"
+          ],
+          "reason": "实业团档案/大学记录显示所属",
+          "enrollment": {
+            "asOf": "2026-11-17",
+            "employerStartsOn": null
+          }
+        },
+        "performances": [
+          {
+            "id": "pb",
+            "value": "28:24.68; 2026-05-21; 関東インカレ",
+            "timeMilliseconds": 1704680,
+            "precision": "centisecond",
+            "achievedOn": "2026-05-21",
+            "evidenceIds": [
+              "uni"
+            ],
+            "eligibility": "eligible",
+            "reason": "官方记录表成绩",
+            "event": {
+              "metadataId": null,
+              "name": "関東学生陸上競技対校選手権大会 男子10000m（カンセキスタジアムとちぎ）",
+              "edition": null,
+              "startsOn": "2026-05-21",
+              "endsOn": "2026-05-21",
+              "competedOn": "2026-05-21",
+              "discipline": "10000m",
+              "distanceMetres": 10000,
+              "editionStatus": "pending",
+              "evidenceIds": [
+                "uni"
+              ]
+            }
+          }
+        ],
+        "pbUpdate": {
+          "initialId": "pb",
+          "selectedId": "pb",
+          "checks": [
+            {
+              "searchIndex": 0,
+              "from": "2026-05-21",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "uni"
+              ],
+              "outcome": "no-faster-found",
+              "note": "记录表当前仍列该成绩"
+            }
+          ],
+          "foundFaster": false,
+          "decision": "记录表未显示更快成绩"
+        }
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-01-3",
+      "athleteName": "辻原 輝",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "1:00:33; 2026-03-29; ベルリンハーフマラソン",
+          "sourceUrl": "https://www.kokugakuin.com/top10/426/",
+          "locator": "半馬 2位 辻原輝 60'33\" ベルリンハーフ 令和8年3月29日"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "辻原 輝 half-marathon 記録",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kokugakuin.com/top10/426/",
+              "section": "半馬 2位 辻原輝 60'33\" ベルリンハーフ 令和8年3月29日",
+              "access": "read",
+              "finding": "半馬 2位 辻原輝 60'33\" ベルリンハーフ 令和8年3月29日",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "官方记录给出成绩、日期与赛事"
+        },
+        {
+          "stage": "reverse",
+          "query": "辻原 輝 1:00:33",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kokugakuin.com/top10/426/",
+              "section": "半馬 2位 辻原輝 60'33\" ベルリンハーフ 令和8年3月29日",
+              "access": "read",
+              "finding": "半馬 2位 辻原輝 60'33\" ベルリンハーフ 令和8年3月29日",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "辻原 輝 half-marathon 更新確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kokugakuin.com/top10/426/",
+              "section": "半馬 2位 辻原輝 60'33\" ベルリンハーフ 令和8年3月29日",
+              "access": "read",
+              "finding": "半馬 2位 辻原輝 60'33\" ベルリンハーフ 令和8年3月29日",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "记录表当前仍列该成绩"
+        }
+      ],
+      "final": {
+        "value": "1:00:33; 2026-03-29; ベルリンハーフマラソン",
+        "sourceIds": [
+          "kokugakuin-top10"
+        ],
+        "locator": "半馬 2位 辻原輝 60'33\" ベルリンハーフ 令和8年3月29日",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "记录表姓名与登记选手（辻原 輝）一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "记录表当前仍列该成绩；实业团档案同值或未显示更快"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "uni",
+            "sourceId": "kokugakuin-top10",
+            "role": "primary",
+            "supports": [
+              "value",
+              "achievedOn",
+              "meet",
+              "distance",
+              "affiliation",
+              "pb-update"
+            ],
+            "locator": "半馬 2位 辻原輝 60'33\" ベルリンハーフ 令和8年3月29日",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "kokugakuin.com",
+            "independenceNote": "官方记录"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "uni"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "大学记录表已读"
+          },
+          {
+            "category": "employer",
+            "status": "not-applicable",
+            "searchIndexes": [],
+            "reason": "在校生"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "主办方原件未取得"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查"
+          }
+        ],
+        "limitations": [
+          "主办方原始成绩单未取得"
+        ],
+        "affiliation": {
+          "stage": "student",
+          "organization": "國學院大學",
+          "evidenceIds": [
+            "uni"
+          ],
+          "reason": "实业团档案/大学记录显示所属",
+          "enrollment": {
+            "asOf": "2026-11-17",
+            "employerStartsOn": null
+          }
+        },
+        "performances": [
+          {
+            "id": "pb",
+            "value": "1:00:33; 2026-03-29; ベルリンハーフマラソン",
+            "timeMilliseconds": 3633000,
+            "precision": "second",
+            "achievedOn": "2026-03-29",
+            "evidenceIds": [
+              "uni"
+            ],
+            "eligibility": "eligible",
+            "reason": "官方记录表成绩",
+            "event": {
+              "metadataId": null,
+              "name": "ベルリンハーフマラソン（ベルリン）",
+              "edition": null,
+              "startsOn": "2026-03-29",
+              "endsOn": "2026-03-29",
+              "competedOn": "2026-03-29",
+              "discipline": "half-marathon",
+              "distanceMetres": 21097.5,
+              "editionStatus": "pending",
+              "evidenceIds": [
+                "uni"
+              ]
+            }
+          }
+        ],
+        "pbUpdate": {
+          "initialId": "pb",
+          "selectedId": "pb",
+          "checks": [
+            {
+              "searchIndex": 0,
+              "from": "2026-03-29",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "uni"
+              ],
+              "outcome": "no-faster-found",
+              "note": "记录表当前仍列该成绩"
+            }
+          ],
+          "foundFaster": false,
+          "decision": "记录表未显示更快成绩"
+        }
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-01-8",
+      "athleteName": "上原 琉翔",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "13:45.58; 2024-04-13; 日体大長距離競技会",
+          "sourceUrl": "https://www.kokugakuin.com/top10/426/",
+          "locator": "5000m 9位 上原琉翔 13'45\"58 日体大長距離 令和6年4月13日"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "上原 琉翔 5000m 記録",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kokugakuin.com/top10/426/",
+              "section": "5000m 9位 上原琉翔 13'45\"58 日体大長距離 令和6年4月13日",
+              "access": "read",
+              "finding": "5000m 9位 上原琉翔 13'45\"58 日体大長距離 令和6年4月13日",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "官方记录给出成绩、日期与赛事"
+        },
+        {
+          "stage": "reverse",
+          "query": "上原 琉翔 13:45.58",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kokugakuin.com/top10/426/",
+              "section": "5000m 9位 上原琉翔 13'45\"58 日体大長距離 令和6年4月13日",
+              "access": "read",
+              "finding": "5000m 9位 上原琉翔 13'45\"58 日体大長距離 令和6年4月13日",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "上原 琉翔 5000m 更新確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kokugakuin.com/top10/426/",
+              "section": "5000m 9位 上原琉翔 13'45\"58 日体大長距離 令和6年4月13日",
+              "access": "read",
+              "finding": "5000m 9位 上原琉翔 13'45\"58 日体大長距離 令和6年4月13日",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "记录表当前仍列该成绩"
+        }
+      ],
+      "final": {
+        "value": "13:45.58; 2024-04-13; 日体大長距離競技会",
+        "sourceIds": [
+          "kokugakuin-top10"
+        ],
+        "locator": "5000m 9位 上原琉翔 13'45\"58 日体大長距離 令和6年4月13日",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "记录表姓名与登记选手（上原 琉翔）一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "记录表当前仍列该成绩；实业团档案同值或未显示更快"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "uni",
+            "sourceId": "kokugakuin-top10",
+            "role": "primary",
+            "supports": [
+              "value",
+              "achievedOn",
+              "meet",
+              "distance",
+              "affiliation",
+              "pb-update"
+            ],
+            "locator": "5000m 9位 上原琉翔 13'45\"58 日体大長距離 令和6年4月13日",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "kokugakuin.com",
+            "independenceNote": "官方记录"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "uni"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "大学记录表已读"
+          },
+          {
+            "category": "employer",
+            "status": "not-applicable",
+            "searchIndexes": [],
+            "reason": "在校生"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "主办方原件未取得"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查"
+          }
+        ],
+        "limitations": [
+          "主办方原始成绩单未取得"
+        ],
+        "affiliation": {
+          "stage": "student",
+          "organization": "國學院大學",
+          "evidenceIds": [
+            "uni"
+          ],
+          "reason": "实业团档案/大学记录显示所属",
+          "enrollment": {
+            "asOf": "2026-11-17",
+            "employerStartsOn": null
+          }
+        },
+        "performances": [
+          {
+            "id": "pb",
+            "value": "13:45.58; 2024-04-13; 日体大長距離競技会",
+            "timeMilliseconds": 825580,
+            "precision": "centisecond",
+            "achievedOn": "2024-04-13",
+            "evidenceIds": [
+              "uni"
+            ],
+            "eligibility": "eligible",
+            "reason": "官方记录表成绩",
+            "event": {
+              "metadataId": null,
+              "name": "日本体育大学長距離競技会（日体大健志台）",
+              "edition": null,
+              "startsOn": "2024-04-13",
+              "endsOn": "2024-04-13",
+              "competedOn": "2024-04-13",
+              "discipline": "5000m",
+              "distanceMetres": 5000,
+              "editionStatus": "pending",
+              "evidenceIds": [
+                "uni"
+              ]
+            }
+          }
+        ],
+        "pbUpdate": {
+          "initialId": "pb",
+          "selectedId": "pb",
+          "checks": [
+            {
+              "searchIndex": 0,
+              "from": "2024-04-13",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "uni"
+              ],
+              "outcome": "no-faster-found",
+              "note": "记录表当前仍列该成绩"
+            }
+          ],
+          "foundFaster": false,
+          "decision": "记录表未显示更快成绩"
+        }
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-01-8",
+      "athleteName": "上原 琉翔",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "28:16.76; 2024-05-09; 関東インカレ",
+          "sourceUrl": "https://www.kokugakuin.com/top10/426/",
+          "locator": "10000m 6位 上原琉翔 28'16\"76 関東インカレ 令和6年5月9日"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "上原 琉翔 10000m 記録",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kokugakuin.com/top10/426/",
+              "section": "10000m 6位 上原琉翔 28'16\"76 関東インカレ 令和6年5月9日",
+              "access": "read",
+              "finding": "10000m 6位 上原琉翔 28'16\"76 関東インカレ 令和6年5月9日",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "官方记录给出成绩、日期与赛事"
+        },
+        {
+          "stage": "reverse",
+          "query": "上原 琉翔 28:16.76",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kokugakuin.com/top10/426/",
+              "section": "10000m 6位 上原琉翔 28'16\"76 関東インカレ 令和6年5月9日",
+              "access": "read",
+              "finding": "10000m 6位 上原琉翔 28'16\"76 関東インカレ 令和6年5月9日",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "上原 琉翔 10000m 更新確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kokugakuin.com/top10/426/",
+              "section": "10000m 6位 上原琉翔 28'16\"76 関東インカレ 令和6年5月9日",
+              "access": "read",
+              "finding": "10000m 6位 上原琉翔 28'16\"76 関東インカレ 令和6年5月9日",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "记录表当前仍列该成绩"
+        }
+      ],
+      "final": {
+        "value": "28:16.76; 2024-05-09; 関東インカレ",
+        "sourceIds": [
+          "kokugakuin-top10"
+        ],
+        "locator": "10000m 6位 上原琉翔 28'16\"76 関東インカレ 令和6年5月9日",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "记录表姓名与登记选手（上原 琉翔）一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "记录表当前仍列该成绩；实业团档案同值或未显示更快"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "uni",
+            "sourceId": "kokugakuin-top10",
+            "role": "primary",
+            "supports": [
+              "value",
+              "achievedOn",
+              "meet",
+              "distance",
+              "affiliation",
+              "pb-update"
+            ],
+            "locator": "10000m 6位 上原琉翔 28'16\"76 関東インカレ 令和6年5月9日",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "kokugakuin.com",
+            "independenceNote": "官方记录"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "uni"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "大学记录表已读"
+          },
+          {
+            "category": "employer",
+            "status": "not-applicable",
+            "searchIndexes": [],
+            "reason": "在校生"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "主办方原件未取得"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查"
+          }
+        ],
+        "limitations": [
+          "主办方原始成绩单未取得"
+        ],
+        "affiliation": {
+          "stage": "student",
+          "organization": "國學院大學",
+          "evidenceIds": [
+            "uni"
+          ],
+          "reason": "实业团档案/大学记录显示所属",
+          "enrollment": {
+            "asOf": "2026-11-17",
+            "employerStartsOn": null
+          }
+        },
+        "performances": [
+          {
+            "id": "pb",
+            "value": "28:16.76; 2024-05-09; 関東インカレ",
+            "timeMilliseconds": 1696760,
+            "precision": "centisecond",
+            "achievedOn": "2024-05-09",
+            "evidenceIds": [
+              "uni"
+            ],
+            "eligibility": "eligible",
+            "reason": "官方记录表成绩",
+            "event": {
+              "metadataId": null,
+              "name": "関東学生陸上競技対校選手権大会 男子10000m（国立競技場）",
+              "edition": null,
+              "startsOn": "2024-05-09",
+              "endsOn": "2024-05-09",
+              "competedOn": "2024-05-09",
+              "discipline": "10000m",
+              "distanceMetres": 10000,
+              "editionStatus": "pending",
+              "evidenceIds": [
+                "uni"
+              ]
+            }
+          }
+        ],
+        "pbUpdate": {
+          "initialId": "pb",
+          "selectedId": "pb",
+          "checks": [
+            {
+              "searchIndex": 0,
+              "from": "2024-05-09",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "uni"
+              ],
+              "outcome": "no-faster-found",
+              "note": "记录表当前仍列该成绩"
+            }
+          ],
+          "foundFaster": false,
+          "decision": "记录表未显示更快成绩"
+        }
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-01-8",
+      "athleteName": "上原 琉翔",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "1:00:30; 2025-02-02; 第77回丸亀・日本学生ハーフ",
+          "sourceUrl": "https://www.kokugakuin.com/top10/426/",
+          "locator": "半馬 1位 上原琉翔 60'30\" 日本学生ハーフ 令和7年2月2日"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "上原 琉翔 half-marathon 記録",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kokugakuin.com/top10/426/",
+              "section": "半馬 1位 上原琉翔 60'30\" 日本学生ハーフ 令和7年2月2日",
+              "access": "read",
+              "finding": "半馬 1位 上原琉翔 60'30\" 日本学生ハーフ 令和7年2月2日",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "官方记录给出成绩、日期与赛事"
+        },
+        {
+          "stage": "reverse",
+          "query": "上原 琉翔 1:00:30",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kokugakuin.com/top10/426/",
+              "section": "半馬 1位 上原琉翔 60'30\" 日本学生ハーフ 令和7年2月2日",
+              "access": "read",
+              "finding": "半馬 1位 上原琉翔 60'30\" 日本学生ハーフ 令和7年2月2日",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "上原 琉翔 half-marathon 更新確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kokugakuin.com/top10/426/",
+              "section": "半馬 1位 上原琉翔 60'30\" 日本学生ハーフ 令和7年2月2日",
+              "access": "read",
+              "finding": "半馬 1位 上原琉翔 60'30\" 日本学生ハーフ 令和7年2月2日",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "记录表当前仍列该成绩"
+        }
+      ],
+      "final": {
+        "value": "1:00:30; 2025-02-02; 第77回丸亀・日本学生ハーフ",
+        "sourceIds": [
+          "kokugakuin-top10"
+        ],
+        "locator": "半馬 1位 上原琉翔 60'30\" 日本学生ハーフ 令和7年2月2日",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "记录表姓名与登记选手（上原 琉翔）一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "记录表当前仍列该成绩；实业团档案同值或未显示更快"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "uni",
+            "sourceId": "kokugakuin-top10",
+            "role": "primary",
+            "supports": [
+              "value",
+              "achievedOn",
+              "meet",
+              "distance",
+              "affiliation",
+              "pb-update"
+            ],
+            "locator": "半馬 1位 上原琉翔 60'30\" 日本学生ハーフ 令和7年2月2日",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "kokugakuin.com",
+            "independenceNote": "官方记录"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "uni"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "大学记录表已读"
+          },
+          {
+            "category": "employer",
+            "status": "not-applicable",
+            "searchIndexes": [],
+            "reason": "在校生"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "主办方原件未取得"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查"
+          }
+        ],
+        "limitations": [
+          "主办方原始成绩单未取得"
+        ],
+        "affiliation": {
+          "stage": "student",
+          "organization": "國學院大學",
+          "evidenceIds": [
+            "uni"
+          ],
+          "reason": "实业团档案/大学记录显示所属",
+          "enrollment": {
+            "asOf": "2026-11-17",
+            "employerStartsOn": null
+          }
+        },
+        "performances": [
+          {
+            "id": "pb",
+            "value": "1:00:30; 2025-02-02; 第77回丸亀・日本学生ハーフ",
+            "timeMilliseconds": 3630000,
+            "precision": "second",
+            "achievedOn": "2025-02-02",
+            "evidenceIds": [
+              "uni"
+            ],
+            "eligibility": "eligible",
+            "reason": "官方记录表成绩",
+            "event": {
+              "metadataId": null,
+              "name": "第77回香川丸亀国際ハーフマラソン 兼 日本学生ハーフマラソン（丸亀）",
+              "edition": null,
+              "startsOn": "2025-02-02",
+              "endsOn": "2025-02-02",
+              "competedOn": "2025-02-02",
+              "discipline": "half-marathon",
+              "distanceMetres": 21097.5,
+              "editionStatus": "pending",
+              "evidenceIds": [
+                "uni"
+              ]
+            }
+          }
+        ],
+        "pbUpdate": {
+          "initialId": "pb",
+          "selectedId": "pb",
+          "checks": [
+            {
+              "searchIndex": 0,
+              "from": "2025-02-02",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "uni"
+              ],
+              "outcome": "no-faster-found",
+              "note": "记录表当前仍列该成绩"
+            }
+          ],
+          "foundFaster": false,
+          "decision": "记录表未显示更快成绩"
+        }
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-01-7",
+      "athleteName": "平林 清澄",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "27:37.13; 2025-11-22; 2025八王子LD",
+          "sourceUrl": "https://www.rikujyokyogi.co.jp/archives/191630",
+          "locator": "記事本文「27分37秒13で自己新を出した平林」"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "平林 清澄 10000m 記録",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.rikujyokyogi.co.jp/archives/191630",
+              "section": "記事本文「27分37秒13で自己新を出した平林」",
+              "access": "read",
+              "finding": "記事本文「27分37秒13で自己新を出した平林」",
+              "category": "media",
+              "documentType": "results"
+            }
+          ],
+          "result": "官方记录给出成绩、日期与赛事"
+        },
+        {
+          "stage": "reverse",
+          "query": "平林 清澄 27:37.13",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.rikujyokyogi.co.jp/archives/191630",
+              "section": "記事本文「27分37秒13で自己新を出した平林」",
+              "access": "read",
+              "finding": "記事本文「27分37秒13で自己新を出した平林」",
+              "category": "media",
+              "documentType": "results"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "平林 清澄 10000m 更新確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.rikujyokyogi.co.jp/archives/191630",
+              "section": "記事本文「27分37秒13で自己新を出した平林」",
+              "access": "read",
+              "finding": "記事本文「27分37秒13で自己新を出した平林」",
+              "category": "media",
+              "documentType": "results"
+            }
+          ],
+          "result": "记录表当前仍列该成绩"
+        },
+        {
+          "stage": "discovery",
+          "query": "平林 清澄 國學院大 10傑 10000m",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kokugakuin.com/top10/426/",
+              "section": "10000m 10傑",
+              "access": "read",
+              "finding": "10000m 2位 平林清澄 27'55\"15 ホクレンDC網走 令和5年7月8日（大学時）",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "大学历代表确认其大学时期成绩"
+        }
+      ],
+      "final": {
+        "value": "27:37.13; 2025-11-22; 2025八王子LD",
+        "sourceIds": [
+          "getsuriku-nonaka-hachioji-10000-2025",
+          "kokugakuin-top10"
+        ],
+        "locator": "記事本文「27分37秒13で自己新を出した平林」",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "记录表姓名与登记选手（平林 清澄）一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "记录表当前仍列该成绩；实业团档案同值或未显示更快"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "uni",
+            "sourceId": "getsuriku-nonaka-hachioji-10000-2025",
+            "role": "primary",
+            "supports": [
+              "value",
+              "achievedOn",
+              "meet",
+              "distance",
+              "affiliation",
+              "pb-update"
+            ],
+            "locator": "記事本文「27分37秒13で自己新を出した平林」",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "rikujyokyogi.co.jp",
+            "independenceNote": "官方记录"
+          },
+          {
+            "id": "koku",
+            "sourceId": "kokugakuin-top10",
+            "role": "cross-check",
+            "supports": [
+              "affiliation",
+              "pb-update"
+            ],
+            "locator": "10000m 2位 平林清澄 27'55\"15（大学時）",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "kokugakuin.com",
+            "independenceNote": "國學院大10傑（大学时期成绩，27:37.13为毕业后更新）"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "uni",
+          "koku"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "checked",
+            "searchIndexes": [
+              3
+            ],
+            "reason": "國學院大10傑已读（大学时期成绩）"
+          },
+          {
+            "category": "employer",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "实业团档案已读"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "主办方原件未取得"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "月陸已读"
+          }
+        ],
+        "limitations": [
+          "主办方原始成绩单未取得"
+        ],
+        "affiliation": {
+          "stage": "graduated",
+          "organization": "LOGISTEED",
+          "evidenceIds": [
+            "uni"
+          ],
+          "reason": "实业团档案/大学记录显示所属"
+        },
+        "performances": [
+          {
+            "id": "pb",
+            "value": "27:37.13; 2025-11-22; 2025八王子LD",
+            "timeMilliseconds": 1657130,
+            "precision": "centisecond",
+            "achievedOn": "2025-11-22",
+            "evidenceIds": [
+              "uni"
+            ],
+            "eligibility": "eligible",
+            "reason": "官方记录表成绩",
+            "event": {
+              "metadataId": null,
+              "name": "2025八王子ロングディスタンス（上柚木公園陸上競技場）",
+              "edition": null,
+              "startsOn": "2025-11-22",
+              "endsOn": "2025-11-22",
+              "competedOn": "2025-11-22",
+              "discipline": "10000m",
+              "distanceMetres": 10000,
+              "editionStatus": "pending",
+              "evidenceIds": [
+                "uni"
+              ]
+            }
+          }
+        ],
+        "pbUpdate": {
+          "initialId": "pb",
+          "selectedId": "pb",
+          "checks": [
+            {
+              "searchIndex": 0,
+              "from": "2025-11-22",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "uni"
+              ],
+              "outcome": "no-faster-found",
+              "note": "记录表当前仍列该成绩"
+            },
+            {
+              "searchIndex": 3,
+              "from": "2025-11-22",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "koku"
+              ],
+              "outcome": "no-faster-found",
+              "note": "大学历代表与实业团档案未显示更快"
+            }
+          ],
+          "foundFaster": false,
+          "decision": "记录表未显示更快成绩"
+        }
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-01-7",
+      "athleteName": "平林 清澄",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "1:01:23; 2024-04-21; 上海ハーフマラソン",
+          "sourceUrl": "https://www.kokugakuin.com/top10/426/",
+          "locator": "半馬 8位 平林清澄 61'23\" 上海ハーフ 令和6年4月21日"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "平林 清澄 half-marathon 記録",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kokugakuin.com/top10/426/",
+              "section": "半馬 8位 平林清澄 61'23\" 上海ハーフ 令和6年4月21日",
+              "access": "read",
+              "finding": "半馬 8位 平林清澄 61'23\" 上海ハーフ 令和6年4月21日",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "官方记录给出成绩、日期与赛事"
+        },
+        {
+          "stage": "reverse",
+          "query": "平林 清澄 1:01:23",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kokugakuin.com/top10/426/",
+              "section": "半馬 8位 平林清澄 61'23\" 上海ハーフ 令和6年4月21日",
+              "access": "read",
+              "finding": "半馬 8位 平林清澄 61'23\" 上海ハーフ 令和6年4月21日",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "平林 清澄 half-marathon 更新確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.kokugakuin.com/top10/426/",
+              "section": "半馬 8位 平林清澄 61'23\" 上海ハーフ 令和6年4月21日",
+              "access": "read",
+              "finding": "半馬 8位 平林清澄 61'23\" 上海ハーフ 令和6年4月21日",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "记录表当前仍列该成绩"
+        }
+      ],
+      "final": {
+        "value": "1:01:23; 2024-04-21; 上海ハーフマラソン",
+        "sourceIds": [
+          "kokugakuin-top10"
+        ],
+        "locator": "半馬 8位 平林清澄 61'23\" 上海ハーフ 令和6年4月21日",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "记录表姓名与登记选手（平林 清澄）一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "记录表当前仍列该成绩；实业团档案同值或未显示更快"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "uni",
+            "sourceId": "kokugakuin-top10",
+            "role": "primary",
+            "supports": [
+              "value",
+              "achievedOn",
+              "meet",
+              "distance",
+              "affiliation",
+              "pb-update"
+            ],
+            "locator": "半馬 8位 平林清澄 61'23\" 上海ハーフ 令和6年4月21日",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "kokugakuin.com",
+            "independenceNote": "官方记录"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "uni"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "大学记录表已读"
+          },
+          {
+            "category": "employer",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "实业团档案已读"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "主办方原件未取得"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查"
+          }
+        ],
+        "limitations": [
+          "主办方原始成绩单未取得"
+        ],
+        "affiliation": {
+          "stage": "graduated",
+          "organization": "LOGISTEED",
+          "evidenceIds": [
+            "uni"
+          ],
+          "reason": "实业团档案/大学记录显示所属"
+        },
+        "performances": [
+          {
+            "id": "pb",
+            "value": "1:01:23; 2024-04-21; 上海ハーフマラソン",
+            "timeMilliseconds": 3683000,
+            "precision": "second",
+            "achievedOn": "2024-04-21",
+            "evidenceIds": [
+              "uni"
+            ],
+            "eligibility": "eligible",
+            "reason": "官方记录表成绩",
+            "event": {
+              "metadataId": null,
+              "name": "上海ハーフマラソン ハーフマラソン決勝（上海）",
+              "edition": null,
+              "startsOn": "2024-04-21",
+              "endsOn": "2024-04-21",
+              "competedOn": "2024-04-21",
+              "discipline": "half-marathon",
+              "distanceMetres": 21097.5,
+              "editionStatus": "pending",
+              "evidenceIds": [
+                "uni"
+              ]
+            }
+          }
+        ],
+        "pbUpdate": {
+          "initialId": "pb",
+          "selectedId": "pb",
+          "checks": [
+            {
+              "searchIndex": 0,
+              "from": "2024-04-21",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "uni"
+              ],
+              "outcome": "no-faster-found",
+              "note": "记录表当前仍列该成绩"
+            }
+          ],
+          "foundFaster": false,
+          "decision": "记录表未显示更快成绩"
+        }
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-04-5",
+      "athleteName": "スティーブン ムチーニ",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "27:34.32; 2025-11-22; 2025八王子LD",
+          "sourceUrl": "https://soka-ekiden.com/play/?page_id=269",
+          "locator": "10000m 1位 ムチーニ 27:34.32 2025/11/22 八王子LD"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "スティーブン ムチーニ 10000m 記録",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "section": "10000m 1位 ムチーニ 27:34.32 2025/11/22 八王子LD",
+              "access": "read",
+              "finding": "10000m 1位 ムチーニ 27:34.32 2025/11/22 八王子LD",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "官方记录给出成绩、日期与赛事"
+        },
+        {
+          "stage": "reverse",
+          "query": "スティーブン ムチーニ 27:34.32",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "section": "10000m 1位 ムチーニ 27:34.32 2025/11/22 八王子LD",
+              "access": "read",
+              "finding": "10000m 1位 ムチーニ 27:34.32 2025/11/22 八王子LD",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "スティーブン ムチーニ 10000m 更新確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "section": "10000m 1位 ムチーニ 27:34.32 2025/11/22 八王子LD",
+              "access": "read",
+              "finding": "10000m 1位 ムチーニ 27:34.32 2025/11/22 八王子LD",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "记录表当前仍列该成绩"
+        }
+      ],
+      "final": {
+        "value": "27:34.32; 2025-11-22; 2025八王子LD",
+        "sourceIds": [
+          "soka-ekiden-alltime"
+        ],
+        "locator": "10000m 1位 ムチーニ 27:34.32 2025/11/22 八王子LD",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "记录表姓名与登记选手（スティーブン ムチーニ）一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "记录表当前仍列该成绩；实业团档案同值或未显示更快"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "uni",
+            "sourceId": "soka-ekiden-alltime",
+            "role": "primary",
+            "supports": [
+              "value",
+              "achievedOn",
+              "meet",
+              "distance",
+              "affiliation",
+              "pb-update"
+            ],
+            "locator": "10000m 1位 ムチーニ 27:34.32 2025/11/22 八王子LD",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "soka-ekiden.com",
+            "independenceNote": "官方记录"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "uni"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "大学记录表已读"
+          },
+          {
+            "category": "employer",
+            "status": "not-applicable",
+            "searchIndexes": [],
+            "reason": "在校生"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "主办方原件未取得"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查"
+          }
+        ],
+        "limitations": [
+          "主办方原始成绩单未取得"
+        ],
+        "affiliation": {
+          "stage": "student",
+          "organization": "創価大学",
+          "evidenceIds": [
+            "uni"
+          ],
+          "reason": "实业团档案/大学记录显示所属",
+          "enrollment": {
+            "asOf": "2026-11-17",
+            "employerStartsOn": null
+          }
+        },
+        "performances": [
+          {
+            "id": "pb",
+            "value": "27:34.32; 2025-11-22; 2025八王子LD",
+            "timeMilliseconds": 1654320,
+            "precision": "centisecond",
+            "achievedOn": "2025-11-22",
+            "evidenceIds": [
+              "uni"
+            ],
+            "eligibility": "eligible",
+            "reason": "官方记录表成绩",
+            "event": {
+              "metadataId": null,
+              "name": "2025八王子ロングディスタンス（上柚木公園陸上競技場）",
+              "edition": null,
+              "startsOn": "2025-11-22",
+              "endsOn": "2025-11-22",
+              "competedOn": "2025-11-22",
+              "discipline": "10000m",
+              "distanceMetres": 10000,
+              "editionStatus": "pending",
+              "evidenceIds": [
+                "uni"
+              ]
+            }
+          }
+        ],
+        "pbUpdate": {
+          "initialId": "pb",
+          "selectedId": "pb",
+          "checks": [
+            {
+              "searchIndex": 0,
+              "from": "2025-11-22",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "uni"
+              ],
+              "outcome": "no-faster-found",
+              "note": "记录表当前仍列该成绩"
+            }
+          ],
+          "foundFaster": false,
+          "decision": "记录表未显示更快成绩"
+        }
+      }
+    },
+    {
+      "athleteId": "athlete-aj25-04-4",
+      "athleteName": "織橋 巧",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "1:01:16; 2025-02-02; 第77回丸亀・日本学生ハーフ",
+          "sourceUrl": "https://soka-ekiden.com/play/?page_id=269",
+          "locator": "ハーフ 3位 織橋巧 1:01:16 2025/2/2 学生ハーフ・丸亀"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "織橋 巧 half-marathon 記録",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "section": "ハーフ 3位 織橋巧 1:01:16 2025/2/2 学生ハーフ・丸亀",
+              "access": "read",
+              "finding": "ハーフ 3位 織橋巧 1:01:16 2025/2/2 学生ハーフ・丸亀",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "官方记录给出成绩、日期与赛事"
+        },
+        {
+          "stage": "reverse",
+          "query": "織橋 巧 1:01:16",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "section": "ハーフ 3位 織橋巧 1:01:16 2025/2/2 学生ハーフ・丸亀",
+              "access": "read",
+              "finding": "ハーフ 3位 織橋巧 1:01:16 2025/2/2 学生ハーフ・丸亀",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "織橋 巧 half-marathon 更新確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "section": "ハーフ 3位 織橋巧 1:01:16 2025/2/2 学生ハーフ・丸亀",
+              "access": "read",
+              "finding": "ハーフ 3位 織橋巧 1:01:16 2025/2/2 学生ハーフ・丸亀",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "记录表当前仍列该成绩"
+        }
+      ],
+      "final": {
+        "value": "1:01:16; 2025-02-02; 第77回丸亀・日本学生ハーフ",
+        "sourceIds": [
+          "soka-ekiden-alltime"
+        ],
+        "locator": "ハーフ 3位 織橋巧 1:01:16 2025/2/2 学生ハーフ・丸亀",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "记录表姓名与登记选手（織橋 巧）一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "记录表当前仍列该成绩；实业团档案同值或未显示更快"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "uni",
+            "sourceId": "soka-ekiden-alltime",
+            "role": "primary",
+            "supports": [
+              "value",
+              "achievedOn",
+              "meet",
+              "distance",
+              "affiliation",
+              "pb-update"
+            ],
+            "locator": "ハーフ 3位 織橋巧 1:01:16 2025/2/2 学生ハーフ・丸亀",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "soka-ekiden.com",
+            "independenceNote": "官方记录"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "uni"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "大学记录表已读"
+          },
+          {
+            "category": "employer",
+            "status": "not-applicable",
+            "searchIndexes": [],
+            "reason": "在校生"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "主办方原件未取得"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查"
+          }
+        ],
+        "limitations": [
+          "主办方原始成绩单未取得"
+        ],
+        "affiliation": {
+          "stage": "student",
+          "organization": "創価大学",
+          "evidenceIds": [
+            "uni"
+          ],
+          "reason": "实业团档案/大学记录显示所属",
+          "enrollment": {
+            "asOf": "2026-11-17",
+            "employerStartsOn": null
+          }
+        },
+        "performances": [
+          {
+            "id": "pb",
+            "value": "1:01:16; 2025-02-02; 第77回丸亀・日本学生ハーフ",
+            "timeMilliseconds": 3676000,
+            "precision": "second",
+            "achievedOn": "2025-02-02",
+            "evidenceIds": [
+              "uni"
+            ],
+            "eligibility": "eligible",
+            "reason": "官方记录表成绩",
+            "event": {
+              "metadataId": null,
+              "name": "第77回香川丸亀国際ハーフマラソン 兼 日本学生ハーフマラソン（丸亀）",
+              "edition": null,
+              "startsOn": "2025-02-02",
+              "endsOn": "2025-02-02",
+              "competedOn": "2025-02-02",
+              "discipline": "half-marathon",
+              "distanceMetres": 21097.5,
+              "editionStatus": "pending",
+              "evidenceIds": [
+                "uni"
+              ]
+            }
+          }
+        ],
+        "pbUpdate": {
+          "initialId": "pb",
+          "selectedId": "pb",
+          "checks": [
+            {
+              "searchIndex": 0,
+              "from": "2025-02-02",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "uni"
+              ],
+              "outcome": "no-faster-found",
+              "note": "记录表当前仍列该成绩"
+            }
+          ],
+          "foundFaster": false,
+          "decision": "记录表未显示更快成绩"
+        }
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-01-7",
+      "athleteName": "平林 清澄",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "美方高（福井県）",
+          "sourceUrl": "https://www.logisteed.com/jp/profile/running/member/post_27/",
+          "locator": "出身校 福井県立美方高校"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "平林 清澄 出身校",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.logisteed.com/jp/profile/running/member/post_27/",
+              "section": "プロフィール",
+              "access": "read",
+              "finding": "出身校 福井県立美方高校/國學院大學",
+              "category": "employer",
+              "documentType": "profile"
+            }
+          ],
+          "result": "实业团档案给出出身校"
+        },
+        {
+          "stage": "reverse",
+          "query": "平林 清澄 美方高",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.logisteed.com/jp/profile/running/member/post_27/",
+              "section": "プロフィール",
+              "access": "read",
+              "finding": "出身校 福井県立美方高校/國學院大學",
+              "category": "employer",
+              "documentType": "profile"
+            }
+          ],
+          "result": "同源复核"
+        },
+        {
+          "stage": "verification",
+          "query": "平林 清澄 档案 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.logisteed.com/jp/profile/running/member/post_27/",
+              "section": "プロフィール",
+              "access": "read",
+              "finding": "出身校 福井県立美方高校/國學院大學",
+              "category": "employer",
+              "documentType": "profile"
+            }
+          ],
+          "result": "确认"
+        }
+      ],
+      "final": {
+        "value": "美方高（福井県）",
+        "sourceIds": [
+          "logisteed-hirabayashi"
+        ],
+        "locator": "出身校 福井県立美方高校",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "档案姓名、所属与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "logisteed-hirabayashi",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "出身校 福井県立美方高校",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "logisteed.com",
+            "independenceNote": "实业团官方档案"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "实业团档案已读"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无赛事页"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    }
+  ]
+}

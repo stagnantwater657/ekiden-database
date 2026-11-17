@@ -1588,5 +1588,410 @@
       "basis": "Corporate team race report reviewed. Only objective facts recorded; no page content republished. No permission claimed.",
       "permissionReference": null
     }
+  },
+  {
+    "id": "hochi-tsujihara",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 辻原 輝",
+    "url": "https://hochi.news/hakone/member/?school=kokugakuin&player=38",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年3年・登録陸協 神奈川・出身校 藤沢翔陵",
+    "coverage": "辻原 輝的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-uehara",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 上原 琉翔",
+    "url": "https://hochi.news/hakone/member/?school=kokugakuin&player=34",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年4年(主将)・出身校 北山",
+    "coverage": "上原 琉翔的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-takayama",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 高山 豪起",
+    "url": "https://hochi.news/hakone/member/?school=kokugakuin&player=36",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年4年・登録陸協 山口・出身校 高川学園",
+    "coverage": "高山 豪起的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-ishimaru",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 石丸 惇那",
+    "url": "https://hochi.news/hakone/member/?school=soka&player=97",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年4年・出身校 出水中央",
+    "coverage": "石丸 惇那的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-yamaguchi-shoki",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 山口 翔輝",
+    "url": "https://hochi.news/hakone/member/?school=soka&player=111",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年2年・出身校 大牟田",
+    "coverage": "山口 翔輝的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-orihashi",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 織橋 巧",
+    "url": "https://hochi.news/hakone/member/?school=soka&player=101",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年3年・出身校 中京",
+    "coverage": "織橋 巧的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-muthini",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 スティーブン ムチーニ",
+    "url": "https://hochi.news/hakone/member/?school=soka&player=105",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年3年・出身校 ミクユニ(ケニア)",
+    "coverage": "スティーブン ムチーニ的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-nozawa",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 野沢 悠真",
+    "url": "https://hochi.news/hakone/member/?school=soka&player=100",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年4年・出身校 利府",
+    "coverage": "野沢 悠真的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-kuwata",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 桑田 駿介",
+    "url": "https://hochi.news/hakone/member/?school=komazawa&player=27",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年2年・登録陸協 岡山・出身校 倉敷",
+    "coverage": "桑田 駿介的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-maseda",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 間瀬田 純平",
+    "url": "https://hochi.news/hakone/member/?school=waseda&player=50",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年4年・登録陸協 佐賀・出身校 鳥栖工",
+    "coverage": "間瀬田 純平的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-shimada",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 島田 晃希",
+    "url": "https://hochi.news/hakone/member/?school=teikyo&player=147",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年4年・登録陸協 三重・出身校 高田（三重）",
+    "coverage": "島田 晃希的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-ozaki",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 尾崎 仁哉",
+    "url": "https://hochi.news/hakone/member/?school=teikyo&player=145",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年4年・登録陸協 福岡・出身校 東海大福岡",
+    "coverage": "尾崎 仁哉的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-hirota",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 廣田 陸",
+    "url": "https://hochi.news/hakone/member/?school=teikyo&player=156",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年3年・登録陸協 北海道・出身校 北海道栄",
+    "coverage": "廣田 陸的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-shibako",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 柴戸 遼太",
+    "url": "https://hochi.news/hakone/member/?school=teikyo&player=146",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年4年(主将)・登録陸協 大分・出身校 大分東明",
+    "coverage": "柴戸 遼太的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-okada",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 岡田 開成",
+    "url": "https://hochi.news/hakone/member/?school=chuo&player=74",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年2年・登録陸協 大阪・出身校 洛南",
+    "coverage": "岡田 開成的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-ogata",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 緒方 澪那斗",
+    "url": "https://hochi.news/hakone/member/?school=toyo&player=130",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年4年・登録陸協 千葉・出身校 市船橋",
+    "coverage": "緒方 澪那斗的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "logisteed-ishimaru",
+    "title": "ロジスティード 陸上部 選手紹介 石丸 惇那",
+    "url": "https://www.logisteed.com/jp/profile/running/member/post_29/",
+    "collectedAt": "2026-11-17",
+    "locator": "生年月日 2003年08月10日／出身校 出水中央高校/創価大学／PB 5000m 13分42秒12・10000m 28分21秒48・半馬 1時間02分31秒",
+    "coverage": "石丸惇那的出生日期、出身校与当前 PB",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://www.logisteed.com/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "logisteed-shimada",
+    "title": "ロジスティード 陸上部 選手紹介 島田 晃希",
+    "url": "https://www.logisteed.com/jp/profile/running/member/post_30/",
+    "collectedAt": "2026-11-17",
+    "locator": "生年月日 2004年01月25日／出身校 高田高校/帝京大学／PB 5000m 13分47秒78・10000m 28分29秒53・半馬 1時間00分56秒",
+    "coverage": "島田晃希的出生日期、出身校与当前 PB",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://www.logisteed.com/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "logisteed-ogata",
+    "title": "ロジスティード 陸上部 選手紹介 緒方 澪那斗",
+    "url": "https://www.logisteed.com/jp/profile/running/member/post_31/",
+    "collectedAt": "2026-11-17",
+    "locator": "生年月日 2004年02月07日／出身校 市立船橋高校/東洋大学／PB 5000m 13分46秒19・10000m 28分27秒50・半馬 1時間01分42秒",
+    "coverage": "緒方澪那斗的出生日期、出身校与当前 PB",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://www.logisteed.com/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "logisteed-hirabayashi",
+    "title": "ロジスティード 陸上部 選手紹介 平林 清澄",
+    "url": "https://www.logisteed.com/jp/profile/running/member/post_27/",
+    "collectedAt": "2026-11-17",
+    "locator": "生年月日 2002年12月04日／出身校 福井県立美方高校/國學院大學／PB 10000m 27分37秒13・半馬 1時間01分23秒・マラソン 2時間06分14秒",
+    "coverage": "平林清澄的出生日期、出身校与当前 PB",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://www.logisteed.com/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "kokugakuin-top10",
+    "title": "國學院大學 陸上競技部 競技部10傑（5000m/10000m/半馬）",
+    "url": "https://www.kokugakuin.com/top10/426/",
+    "collectedAt": "2026-11-17",
+    "locator": "5000m 4位 辻原輝 13'35\"30 ホクレンDC深川 令和7年6月11日; 10000m 6位 上原琉翔 28'16\"76 関東インカレ 令和6年5月9日; 10位 辻原輝 28'24\"68 関東インカレ 令和8年5月21日; 半馬 1位 上原琉翔 60'30\" 日本学生ハーフ 令和7年2月2日; 2位 辻原輝 60'33\" ベルリンハーフ 令和8年3月29日; 8位 平林清澄 61'23\" 上海ハーフ 令和6年4月21日",
+    "coverage": "辻原/上原/平林的 PB 成绩、日期与赛事",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://www.kokugakuin.com/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hakone-102-kukan-entry",
+    "title": "第102回東京箱根間往復大学駅伝競走 チームエントリー・区間エントリー（公式）",
+    "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+    "collectedAt": "2026-11-17",
+    "locator": "各チーム選手行：氏名・学年・生年月日・年齢・登録陸協・国籍・学部・出身校・自己記録（5000m/10000m/半馬）",
+    "coverage": "本批选手的出生日期、出身校与自我记录值",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://www.hakone-ekiden.jp/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "gifu-half-2026-results",
+    "title": "高橋尚子杯ぎふ清流ハーフマラソン2026 男子登録の部 公式速報",
+    "url": "https://www.gifu-marathon.jp/sokuhou/rel00105.html",
+    "collectedAt": "2026-11-17",
+    "locator": "6位 No.126 山口翔輝 YAMAGUCHI, Shoki 学連・創価大 1:00:46；5位 ムチーニ 1:00:38；2026年4月26日 9:00；Gifu Half Marathon Course (Certified by WA/AIMS and JAAF)",
+    "coverage": "山口翔輝/ムチーニ 半馬 的正式成绩、日期与身份",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://www.gifu-marathon.jp/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "kgrr-105th-kanto-2026",
+    "title": "関東学生陸上競技連盟 第105回関東学生陸上競技対校選手権大会 男子2部10000m決勝",
+    "url": "https://www.kgrr.org/event/event/2026/kan-currywithgyoza/rel086.html",
+    "collectedAt": "2026-11-17",
+    "locator": "9位 ORD.11 No.659 桑田駿介(3) 駒大 岡山 28:07.63 PB；2026年5月21日、カンセキスタジアムとちぎ",
+    "coverage": "桑田駿介 10000m PB 的正式成绩、日期与赛事",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://www.kgrr.org/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "komazawa-nyc-2026",
+    "title": "駒澤大学陸上競技部 試合結果 ニューヨークシティハーフマラソン（2026-03-15）",
+    "url": "http://komazawa-ekiden.com/results/3%e6%9c%8815%e6%97%a5%e6%97%a5%e3%83%8b%e3%83%a5%e3%83%bc%e3%83%a8%e3%83%bc%e3%82%af%e3%82%b7%e3%83%86%e3%82%a3%e3%83%8f%e3%83%bc%e3%83%95%e3%83%9e%e3%83%a9%e3%82%bd%e3%83%b3/",
+    "collectedAt": "2026-11-17",
+    "locator": "ハーフマラソン 10位 桑田駿介(2) 1時間00分13秒 ※PB",
+    "coverage": "桑田駿介 半馬 PB 的正式成绩、日期与赛事",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "http://komazawa-ekiden.com/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "komazawa-yogibo-2026",
+    "title": "駒澤大学陸上競技部 試合結果 Yogibo Athletics Challenge Cup 2026（2026-09-26）",
+    "url": "http://komazawa-ekiden.com/results/9%e6%9c%8826%e6%97%a5%e5%9c%9fyogibo-athletics-challenge-cup-2026/",
+    "collectedAt": "2026-11-17",
+    "locator": "GP男子5000m決勝 4位 桑田駿介(3) 13分29秒78 ※PB！",
+    "coverage": "桑田駿介 5000m PB 的正式成绩、日期与赛事",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "http://komazawa-ekiden.com/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "komazawa-active-ranking",
+    "title": "駒澤大学陸上競技部 現役選手ランキング",
+    "url": "https://komazawa-ekiden.com/record/record-active-player",
+    "collectedAt": "2026-11-17",
+    "locator": "10000m 1位 桑田駿介(3年生) 28分07秒63；5000m 1位 13分29秒78；半馬 1位 1時間00分13秒",
+    "coverage": "桑田駿介的当前 PB 值交叉",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "http://komazawa-ekiden.com/",
+      "reviewedAt": "2026-11-17",
+      "basis": "University ranking page reviewed. Only objective facts recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
   }
 ]

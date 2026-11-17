@@ -809,16 +809,6 @@
       "reviewedAt": "2026-11-17",
       "personalBests": [
         {
-          "event": "10000m",
-          "timeMilliseconds": 1692220,
-          "precision": "centisecond",
-          "achievedOn": "2026-04-24",
-          "meet": "全日本大学対校陸上競技選手権大会（平塚・レモンガススタジアム）",
-          "sourceId": "wa-hiroto-yoshioka",
-          "locator": "Profile → Personal Bests → 10,000 Metres; competition All Japan University Track & Field Challenge; date 24 APR 2026",
-          "revision": "World Athletics profile retrieved 2026-11-17"
-        },
-        {
           "event": "half-marathon",
           "timeMilliseconds": 3745000,
           "precision": "second",

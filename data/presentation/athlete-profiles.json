@@ -988,6 +988,12 @@
         "sourceId": "hochi-tsujihara",
         "locator": "選手名鑑: 学年3年・登録陸協 神奈川・出身校 藤沢翔陵",
         "revision": "retrieved 2026-11-17"
+      },
+      "birthDate": {
+        "value": "2004-09-20",
+        "sourceId": "hakone-102-kukan-entry",
+        "locator": "p.3 辻原輝 3年 2004/9/20 文",
+        "revision": "retrieved 2026-11-17"
       }
     },
     {
@@ -1030,6 +1036,12 @@
         "sourceId": "hochi-uehara",
         "locator": "選手名鑑: 学年4年(主将)・出身校 北山",
         "revision": "retrieved 2026-11-17"
+      },
+      "birthDate": {
+        "value": "2003-05-05",
+        "sourceId": "hakone-102-kukan-entry",
+        "locator": "p.3 上原琉翔 4年 2003/5/5 人間開発",
+        "revision": "retrieved 2026-11-17"
       }
     },
     {
@@ -1040,6 +1052,12 @@
         "value": "高川学園高（山口県）",
         "sourceId": "hochi-takayama",
         "locator": "選手名鑑: 学年4年・登録陸協 山口・出身校 高川学園",
+        "revision": "retrieved 2026-11-17"
+      },
+      "birthDate": {
+        "value": "2003-07-18",
+        "sourceId": "hakone-102-kukan-entry",
+        "locator": "p.3 高山豪起 4年 2003/7/18 法",
         "revision": "retrieved 2026-11-17"
       }
     },
@@ -1074,11 +1092,28 @@
     {
       "athleteId": "athlete-aj24-04-4",
       "reviewedAt": "2026-11-17",
-      "personalBests": [],
+      "personalBests": [
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3646000,
+          "precision": "second",
+          "achievedOn": "2026-04-26",
+          "meet": "高橋尚子杯ぎふ清流ハーフマラソン2026（岐阜）",
+          "sourceId": "gifu-half-2026-results",
+          "locator": "男子登録の部 6位 No.126 山口翔輝 学連・創価大 1:00:46（21.0975km、WA/AIMS/JAAF公認コース）",
+          "revision": "retrieved 2026-11-17"
+        }
+      ],
       "highSchool": {
         "value": "大牟田高（福岡県）",
         "sourceId": "hochi-yamaguchi-shoki",
         "locator": "選手名鑑: 学年2年・出身校 大牟田",
+        "revision": "retrieved 2026-11-17"
+      },
+      "birthDate": {
+        "value": "2005-05-25",
+        "sourceId": "hakone-102-kukan-entry",
+        "locator": "p.7 山口翔輝 2年 2005/5/25 経営",
         "revision": "retrieved 2026-11-17"
       }
     },
@@ -1111,6 +1146,12 @@
         "value": "中京高（岐阜県）",
         "sourceId": "hochi-orihashi",
         "locator": "選手名鑑: 学年3年・出身校 中京",
+        "revision": "retrieved 2026-11-17"
+      },
+      "birthDate": {
+        "value": "2004-10-26",
+        "sourceId": "hakone-102-kukan-entry",
+        "locator": "p.7 織橋巧 3年 2004/10/26 経済",
         "revision": "retrieved 2026-11-17"
       }
     },
@@ -1176,6 +1217,12 @@
         "sourceId": "hochi-nozawa",
         "locator": "選手名鑑: 学年4年・出身校 利府",
         "revision": "retrieved 2026-11-17"
+      },
+      "birthDate": {
+        "value": "2004-01-20",
+        "sourceId": "hakone-102-kukan-entry",
+        "locator": "p.7 野沢悠真 4年 2004/1/20 経済",
+        "revision": "retrieved 2026-11-17"
       }
     },
     {
@@ -1187,6 +1234,12 @@
         "sourceId": "hochi-kuwata",
         "locator": "選手名鑑: 学年2年・登録陸協 岡山・出身校 倉敷",
         "revision": "retrieved 2026-11-17"
+      },
+      "birthDate": {
+        "value": "2005-05-17",
+        "sourceId": "hakone-102-kukan-entry",
+        "locator": "p.2 桑田駿介 2年 2005/5/17 経済",
+        "revision": "retrieved 2026-11-17"
       }
     },
     {
@@ -1197,6 +1250,12 @@
         "value": "鳥栖工高（佐賀県）",
         "sourceId": "hochi-maseda",
         "locator": "選手名鑑: 学年4年・登録陸協 佐賀・出身校 鳥栖工",
+        "revision": "retrieved 2026-11-17"
+      },
+      "birthDate": {
+        "value": "2004-02-17",
+        "sourceId": "hakone-102-kukan-entry",
+        "locator": "p.4 間瀬田純平 4年 2004/2/17 ｽﾎﾟｰﾂ科",
         "revision": "retrieved 2026-11-17"
       }
     },
@@ -1226,6 +1285,12 @@
         "sourceId": "hochi-ozaki",
         "locator": "選手名鑑: 学年4年・登録陸協 福岡・出身校 東海大福岡",
         "revision": "retrieved 2026-11-17"
+      },
+      "birthDate": {
+        "value": "2004-01-08",
+        "sourceId": "hakone-102-kukan-entry",
+        "locator": "p.10 尾崎仁哉 4年 2004/1/8 経済",
+        "revision": "retrieved 2026-11-17"
       }
     },
     {
@@ -1236,6 +1301,12 @@
         "value": "北海道栄高（北海道）",
         "sourceId": "hochi-hirota",
         "locator": "選手名鑑: 学年3年・登録陸協 北海道・出身校 北海道栄",
+        "revision": "retrieved 2026-11-17"
+      },
+      "birthDate": {
+        "value": "2005-01-05",
+        "sourceId": "hakone-102-kukan-entry",
+        "locator": "p.10 廣田陸 3年 2005/1/5 経済",
         "revision": "retrieved 2026-11-17"
       }
     },
@@ -1248,6 +1319,12 @@
         "sourceId": "hochi-shibako",
         "locator": "選手名鑑: 学年4年(主将)・登録陸協 大分・出身校 大分東明",
         "revision": "retrieved 2026-11-17"
+      },
+      "birthDate": {
+        "value": "2003-12-17",
+        "sourceId": "hakone-102-kukan-entry",
+        "locator": "p.10 柴戸遼太 4年 2003/12/17 医療技術",
+        "revision": "retrieved 2026-11-17"
       }
     },
     {
@@ -1258,6 +1335,12 @@
         "value": "洛南高（京都府）",
         "sourceId": "hochi-okada",
         "locator": "選手名鑑: 学年2年・登録陸協 大阪・出身校 洛南",
+        "revision": "retrieved 2026-11-17"
+      },
+      "birthDate": {
+        "value": "2005-08-30",
+        "sourceId": "hakone-102-kukan-entry",
+        "locator": "p.5 岡田開成 2年 2005/8/30 法",
         "revision": "retrieved 2026-11-17"
       }
     },
@@ -1329,6 +1412,40 @@
         "value": "美方高（福井県）",
         "sourceId": "logisteed-hirabayashi",
         "locator": "出身校 福井県立美方高校",
+        "revision": "retrieved 2026-11-17"
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-11-4",
+      "reviewedAt": "2026-11-17",
+      "personalBests": [],
+      "birthDate": {
+        "value": "2003-10-17",
+        "sourceId": "hakone-102-kukan-entry",
+        "locator": "p.18 入濵輝大 4年 2003/10/17 経済",
+        "revision": "retrieved 2026-11-17"
+      },
+      "highSchool": {
+        "value": "瓊浦高（長崎県）",
+        "sourceId": "hakone-102-kukan-entry",
+        "locator": "p.18 入濵輝大 出身校 瓊浦",
+        "revision": "retrieved 2026-11-17"
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-11-1",
+      "reviewedAt": "2026-11-17",
+      "personalBests": [],
+      "birthDate": {
+        "value": "2005-09-02",
+        "sourceId": "hakone-102-kukan-entry",
+        "locator": "p.18 大濱逞真 2年 2005/9/2 経済",
+        "revision": "retrieved 2026-11-17"
+      },
+      "highSchool": {
+        "value": "仙台育英高（宮城県）",
+        "sourceId": "hakone-102-kukan-entry",
+        "locator": "p.18 大濱逞真 出身校 仙台育英",
         "revision": "retrieved 2026-11-17"
       }
     }

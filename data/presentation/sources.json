@@ -1903,5 +1903,35 @@
       "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
       "permissionReference": null
     }
+  },
+  {
+    "id": "hakone-102-kukan-entry",
+    "title": "第102回東京箱根間往復大学駅伝競走 チームエントリー・区間エントリー（公式）",
+    "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+    "collectedAt": "2026-11-17",
+    "locator": "各チーム選手行：氏名・学年・生年月日・年齢・登録陸協・国籍・学部・出身校・自己記録（5000m/10000m/半馬）",
+    "coverage": "本批选手的出生日期、出身校与自我记录值",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://www.hakone-ekiden.jp/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "gifu-half-2026-results",
+    "title": "高橋尚子杯ぎふ清流ハーフマラソン2026 男子登録の部 公式速報",
+    "url": "https://www.gifu-marathon.jp/sokuhou/rel00105.html",
+    "collectedAt": "2026-11-17",
+    "locator": "6位 No.126 山口翔輝 YAMAGUCHI, Shoki 学連・創価大 1:00:46；5位 ムチーニ 1:00:38；2026年4月26日 9:00；Gifu Half Marathon Course (Certified by WA/AIMS and JAAF)",
+    "coverage": "山口翔輝/ムチーニ 半馬 的正式成绩、日期与身份",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://www.gifu-marathon.jp/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
   }
 ]

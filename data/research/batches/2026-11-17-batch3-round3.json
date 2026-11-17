@@ -1,0 +1,2648 @@
+{
+  "schemaVersion": 2,
+  "batchId": "2026-11-17-batch3-round3",
+  "researcher": "DSH / 20-athlete batch import final round (this session)",
+  "reviewedAt": "2026-11-17",
+  "records": [
+    {
+      "athleteId": "athlete-aj24-01-8",
+      "athleteName": "上原 琉翔",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "2003-05-05",
+          "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+          "locator": "p.3 上原琉翔 4年 2003/5/5"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "上原 琉翔 生年月日 第102回箱根エントリー",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.3 上原琉翔 4年 2003/5/5",
+              "access": "read",
+              "finding": "p.3 上原琉翔 4年 2003/5/5",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "官方报名表给出出生日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "上原 琉翔 2003-05-05",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.3 上原琉翔 4年 2003/5/5",
+              "access": "read",
+              "finding": "p.3 上原琉翔 4年 2003/5/5",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "上原 琉翔 身份 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.3 上原琉翔 4年 2003/5/5",
+              "access": "read",
+              "finding": "p.3 上原琉翔 4年 2003/5/5",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "姓名/学校/学年匹配"
+        }
+      ],
+      "final": {
+        "value": "2003-05-05",
+        "sourceIds": [
+          "hakone-102-kukan-entry"
+        ],
+        "locator": "p.3 上原琉翔 4年 2003/5/5",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "报名表姓名、出身校、学年与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "hakone-102-kukan-entry",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "p.3 上原琉翔 4年 2003/5/5",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hakone-ekiden.jp",
+            "independenceNote": "箱根官方报名表"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查实业团"
+          },
+          {
+            "category": "official",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "箱根官方报名表已读"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-01-3",
+      "athleteName": "辻原 輝",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "2004-09-20",
+          "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+          "locator": "p.3 辻原輝 3年 2004/9/20"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "辻原 輝 生年月日 第102回箱根エントリー",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.3 辻原輝 3年 2004/9/20",
+              "access": "read",
+              "finding": "p.3 辻原輝 3年 2004/9/20",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "官方报名表给出出生日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "辻原 輝 2004-09-20",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.3 辻原輝 3年 2004/9/20",
+              "access": "read",
+              "finding": "p.3 辻原輝 3年 2004/9/20",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "辻原 輝 身份 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.3 辻原輝 3年 2004/9/20",
+              "access": "read",
+              "finding": "p.3 辻原輝 3年 2004/9/20",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "姓名/学校/学年匹配"
+        }
+      ],
+      "final": {
+        "value": "2004-09-20",
+        "sourceIds": [
+          "hakone-102-kukan-entry"
+        ],
+        "locator": "p.3 辻原輝 3年 2004/9/20",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "报名表姓名、出身校、学年与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "hakone-102-kukan-entry",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "p.3 辻原輝 3年 2004/9/20",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hakone-ekiden.jp",
+            "independenceNote": "箱根官方报名表"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查实业团"
+          },
+          {
+            "category": "official",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "箱根官方报名表已读"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-01-4",
+      "athleteName": "高山 豪起",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "2003-07-18",
+          "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+          "locator": "p.3 高山豪起 4年 2003/7/18"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "高山 豪起 生年月日 第102回箱根エントリー",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.3 高山豪起 4年 2003/7/18",
+              "access": "read",
+              "finding": "p.3 高山豪起 4年 2003/7/18",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "官方报名表给出出生日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "高山 豪起 2003-07-18",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.3 高山豪起 4年 2003/7/18",
+              "access": "read",
+              "finding": "p.3 高山豪起 4年 2003/7/18",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "高山 豪起 身份 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.3 高山豪起 4年 2003/7/18",
+              "access": "read",
+              "finding": "p.3 高山豪起 4年 2003/7/18",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "姓名/学校/学年匹配"
+        }
+      ],
+      "final": {
+        "value": "2003-07-18",
+        "sourceIds": [
+          "hakone-102-kukan-entry"
+        ],
+        "locator": "p.3 高山豪起 4年 2003/7/18",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "报名表姓名、出身校、学年与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "hakone-102-kukan-entry",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "p.3 高山豪起 4年 2003/7/18",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hakone-ekiden.jp",
+            "independenceNote": "箱根官方报名表"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查实业团"
+          },
+          {
+            "category": "official",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "箱根官方报名表已读"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-02-2",
+      "athleteName": "桑田 駿介",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "2005-05-17",
+          "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+          "locator": "p.2 桑田駿介 2年 2005/5/17"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "桑田 駿介 生年月日 第102回箱根エントリー",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.2 桑田駿介 2年 2005/5/17",
+              "access": "read",
+              "finding": "p.2 桑田駿介 2年 2005/5/17",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "官方报名表给出出生日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "桑田 駿介 2005-05-17",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.2 桑田駿介 2年 2005/5/17",
+              "access": "read",
+              "finding": "p.2 桑田駿介 2年 2005/5/17",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "桑田 駿介 身份 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.2 桑田駿介 2年 2005/5/17",
+              "access": "read",
+              "finding": "p.2 桑田駿介 2年 2005/5/17",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "姓名/学校/学年匹配"
+        }
+      ],
+      "final": {
+        "value": "2005-05-17",
+        "sourceIds": [
+          "hakone-102-kukan-entry"
+        ],
+        "locator": "p.2 桑田駿介 2年 2005/5/17",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "报名表姓名、出身校、学年与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "hakone-102-kukan-entry",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "p.2 桑田駿介 2年 2005/5/17",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hakone-ekiden.jp",
+            "independenceNote": "箱根官方报名表"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查实业团"
+          },
+          {
+            "category": "official",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "箱根官方报名表已读"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-05-1",
+      "athleteName": "間瀬田 純平",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "2004-02-17",
+          "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+          "locator": "p.4 間瀬田純平 4年 2004/2/17"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "間瀬田 純平 生年月日 第102回箱根エントリー",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.4 間瀬田純平 4年 2004/2/17",
+              "access": "read",
+              "finding": "p.4 間瀬田純平 4年 2004/2/17",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "官方报名表给出出生日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "間瀬田 純平 2004-02-17",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.4 間瀬田純平 4年 2004/2/17",
+              "access": "read",
+              "finding": "p.4 間瀬田純平 4年 2004/2/17",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "間瀬田 純平 身份 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.4 間瀬田純平 4年 2004/2/17",
+              "access": "read",
+              "finding": "p.4 間瀬田純平 4年 2004/2/17",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "姓名/学校/学年匹配"
+        }
+      ],
+      "final": {
+        "value": "2004-02-17",
+        "sourceIds": [
+          "hakone-102-kukan-entry"
+        ],
+        "locator": "p.4 間瀬田純平 4年 2004/2/17",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "报名表姓名、出身校、学年与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "hakone-102-kukan-entry",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "p.4 間瀬田純平 4年 2004/2/17",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hakone-ekiden.jp",
+            "independenceNote": "箱根官方报名表"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查实业团"
+          },
+          {
+            "category": "official",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "箱根官方报名表已读"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-12-2",
+      "athleteName": "岡田 開成",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "2005-08-30",
+          "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+          "locator": "p.5 岡田開成 2年 2005/8/30"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "岡田 開成 生年月日 第102回箱根エントリー",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.5 岡田開成 2年 2005/8/30",
+              "access": "read",
+              "finding": "p.5 岡田開成 2年 2005/8/30",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "官方报名表给出出生日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "岡田 開成 2005-08-30",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.5 岡田開成 2年 2005/8/30",
+              "access": "read",
+              "finding": "p.5 岡田開成 2年 2005/8/30",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "岡田 開成 身份 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.5 岡田開成 2年 2005/8/30",
+              "access": "read",
+              "finding": "p.5 岡田開成 2年 2005/8/30",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "姓名/学校/学年匹配"
+        }
+      ],
+      "final": {
+        "value": "2005-08-30",
+        "sourceIds": [
+          "hakone-102-kukan-entry"
+        ],
+        "locator": "p.5 岡田開成 2年 2005/8/30",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "报名表姓名、出身校、学年与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "hakone-102-kukan-entry",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "p.5 岡田開成 2年 2005/8/30",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hakone-ekiden.jp",
+            "independenceNote": "箱根官方报名表"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查实业团"
+          },
+          {
+            "category": "official",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "箱根官方报名表已读"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-04-4",
+      "athleteName": "山口 翔輝",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "2005-05-25",
+          "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+          "locator": "p.7 山口翔輝 2年 2005/5/25"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "山口 翔輝 生年月日 第102回箱根エントリー",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.7 山口翔輝 2年 2005/5/25",
+              "access": "read",
+              "finding": "p.7 山口翔輝 2年 2005/5/25",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "官方报名表给出出生日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "山口 翔輝 2005-05-25",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.7 山口翔輝 2年 2005/5/25",
+              "access": "read",
+              "finding": "p.7 山口翔輝 2年 2005/5/25",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "山口 翔輝 身份 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.7 山口翔輝 2年 2005/5/25",
+              "access": "read",
+              "finding": "p.7 山口翔輝 2年 2005/5/25",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "姓名/学校/学年匹配"
+        }
+      ],
+      "final": {
+        "value": "2005-05-25",
+        "sourceIds": [
+          "hakone-102-kukan-entry"
+        ],
+        "locator": "p.7 山口翔輝 2年 2005/5/25",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "报名表姓名、出身校、学年与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "hakone-102-kukan-entry",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "p.7 山口翔輝 2年 2005/5/25",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hakone-ekiden.jp",
+            "independenceNote": "箱根官方报名表"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查实业团"
+          },
+          {
+            "category": "official",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "箱根官方报名表已读"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj25-04-4",
+      "athleteName": "織橋 巧",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "2004-10-26",
+          "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+          "locator": "p.7 織橋巧 3年 2004/10/26"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "織橋 巧 生年月日 第102回箱根エントリー",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.7 織橋巧 3年 2004/10/26",
+              "access": "read",
+              "finding": "p.7 織橋巧 3年 2004/10/26",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "官方报名表给出出生日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "織橋 巧 2004-10-26",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.7 織橋巧 3年 2004/10/26",
+              "access": "read",
+              "finding": "p.7 織橋巧 3年 2004/10/26",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "織橋 巧 身份 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.7 織橋巧 3年 2004/10/26",
+              "access": "read",
+              "finding": "p.7 織橋巧 3年 2004/10/26",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "姓名/学校/学年匹配"
+        }
+      ],
+      "final": {
+        "value": "2004-10-26",
+        "sourceIds": [
+          "hakone-102-kukan-entry"
+        ],
+        "locator": "p.7 織橋巧 3年 2004/10/26",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "报名表姓名、出身校、学年与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "hakone-102-kukan-entry",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "p.7 織橋巧 3年 2004/10/26",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hakone-ekiden.jp",
+            "independenceNote": "箱根官方报名表"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查实业团"
+          },
+          {
+            "category": "official",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "箱根官方报名表已读"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-04-8",
+      "athleteName": "野沢 悠真",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "2004-01-20",
+          "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+          "locator": "p.7 野沢悠真 4年 2004/1/20"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "野沢 悠真 生年月日 第102回箱根エントリー",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.7 野沢悠真 4年 2004/1/20",
+              "access": "read",
+              "finding": "p.7 野沢悠真 4年 2004/1/20",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "官方报名表给出出生日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "野沢 悠真 2004-01-20",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.7 野沢悠真 4年 2004/1/20",
+              "access": "read",
+              "finding": "p.7 野沢悠真 4年 2004/1/20",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "野沢 悠真 身份 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.7 野沢悠真 4年 2004/1/20",
+              "access": "read",
+              "finding": "p.7 野沢悠真 4年 2004/1/20",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "姓名/学校/学年匹配"
+        }
+      ],
+      "final": {
+        "value": "2004-01-20",
+        "sourceIds": [
+          "hakone-102-kukan-entry"
+        ],
+        "locator": "p.7 野沢悠真 4年 2004/1/20",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "报名表姓名、出身校、学年与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "hakone-102-kukan-entry",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "p.7 野沢悠真 4年 2004/1/20",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hakone-ekiden.jp",
+            "independenceNote": "箱根官方报名表"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查实业团"
+          },
+          {
+            "category": "official",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "箱根官方报名表已读"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-08-3",
+      "athleteName": "尾崎 仁哉",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "2004-01-08",
+          "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+          "locator": "p.10 尾崎仁哉 4年 2004/1/8"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "尾崎 仁哉 生年月日 第102回箱根エントリー",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.10 尾崎仁哉 4年 2004/1/8",
+              "access": "read",
+              "finding": "p.10 尾崎仁哉 4年 2004/1/8",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "官方报名表给出出生日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "尾崎 仁哉 2004-01-08",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.10 尾崎仁哉 4年 2004/1/8",
+              "access": "read",
+              "finding": "p.10 尾崎仁哉 4年 2004/1/8",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "尾崎 仁哉 身份 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.10 尾崎仁哉 4年 2004/1/8",
+              "access": "read",
+              "finding": "p.10 尾崎仁哉 4年 2004/1/8",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "姓名/学校/学年匹配"
+        }
+      ],
+      "final": {
+        "value": "2004-01-08",
+        "sourceIds": [
+          "hakone-102-kukan-entry"
+        ],
+        "locator": "p.10 尾崎仁哉 4年 2004/1/8",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "报名表姓名、出身校、学年与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "hakone-102-kukan-entry",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "p.10 尾崎仁哉 4年 2004/1/8",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hakone-ekiden.jp",
+            "independenceNote": "箱根官方报名表"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查实业团"
+          },
+          {
+            "category": "official",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "箱根官方报名表已读"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-08-4",
+      "athleteName": "廣田 陸",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "2005-01-05",
+          "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+          "locator": "p.10 廣田陸 3年 2005/1/5"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "廣田 陸 生年月日 第102回箱根エントリー",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.10 廣田陸 3年 2005/1/5",
+              "access": "read",
+              "finding": "p.10 廣田陸 3年 2005/1/5",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "官方报名表给出出生日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "廣田 陸 2005-01-05",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.10 廣田陸 3年 2005/1/5",
+              "access": "read",
+              "finding": "p.10 廣田陸 3年 2005/1/5",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "廣田 陸 身份 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.10 廣田陸 3年 2005/1/5",
+              "access": "read",
+              "finding": "p.10 廣田陸 3年 2005/1/5",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "姓名/学校/学年匹配"
+        }
+      ],
+      "final": {
+        "value": "2005-01-05",
+        "sourceIds": [
+          "hakone-102-kukan-entry"
+        ],
+        "locator": "p.10 廣田陸 3年 2005/1/5",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "报名表姓名、出身校、学年与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "hakone-102-kukan-entry",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "p.10 廣田陸 3年 2005/1/5",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hakone-ekiden.jp",
+            "independenceNote": "箱根官方报名表"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查实业团"
+          },
+          {
+            "category": "official",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "箱根官方报名表已读"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-08-5",
+      "athleteName": "柴戸 遼太",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "2003-12-17",
+          "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+          "locator": "p.10 柴戸遼太 4年 2003/12/17"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "柴戸 遼太 生年月日 第102回箱根エントリー",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.10 柴戸遼太 4年 2003/12/17",
+              "access": "read",
+              "finding": "p.10 柴戸遼太 4年 2003/12/17",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "官方报名表给出出生日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "柴戸 遼太 2003-12-17",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.10 柴戸遼太 4年 2003/12/17",
+              "access": "read",
+              "finding": "p.10 柴戸遼太 4年 2003/12/17",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "柴戸 遼太 身份 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.10 柴戸遼太 4年 2003/12/17",
+              "access": "read",
+              "finding": "p.10 柴戸遼太 4年 2003/12/17",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "姓名/学校/学年匹配"
+        }
+      ],
+      "final": {
+        "value": "2003-12-17",
+        "sourceIds": [
+          "hakone-102-kukan-entry"
+        ],
+        "locator": "p.10 柴戸遼太 4年 2003/12/17",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "报名表姓名、出身校、学年与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "hakone-102-kukan-entry",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "p.10 柴戸遼太 4年 2003/12/17",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hakone-ekiden.jp",
+            "independenceNote": "箱根官方报名表"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查实业团"
+          },
+          {
+            "category": "official",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "箱根官方报名表已读"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-11-4",
+      "athleteName": "入濵 輝大",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "2003-10-17",
+          "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+          "locator": "p.18 入濵輝大 4年 2003/10/17"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "入濵 輝大 生年月日 第102回箱根エントリー",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.18 入濵輝大 4年 2003/10/17",
+              "access": "read",
+              "finding": "p.18 入濵輝大 4年 2003/10/17",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "官方报名表给出出生日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "入濵 輝大 2003-10-17",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.18 入濵輝大 4年 2003/10/17",
+              "access": "read",
+              "finding": "p.18 入濵輝大 4年 2003/10/17",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "入濵 輝大 身份 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.18 入濵輝大 4年 2003/10/17",
+              "access": "read",
+              "finding": "p.18 入濵輝大 4年 2003/10/17",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "姓名/学校/学年匹配"
+        }
+      ],
+      "final": {
+        "value": "2003-10-17",
+        "sourceIds": [
+          "hakone-102-kukan-entry"
+        ],
+        "locator": "p.18 入濵輝大 4年 2003/10/17",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "报名表姓名、出身校、学年与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "hakone-102-kukan-entry",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "p.18 入濵輝大 4年 2003/10/17",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hakone-ekiden.jp",
+            "independenceNote": "箱根官方报名表"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查实业团"
+          },
+          {
+            "category": "official",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "箱根官方报名表已读"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-11-1",
+      "athleteName": "大濱 逞真",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "2005-09-02",
+          "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+          "locator": "p.18 大濱逞真 2年 2005/9/2"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "大濱 逞真 生年月日 第102回箱根エントリー",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.18 大濱逞真 2年 2005/9/2",
+              "access": "read",
+              "finding": "p.18 大濱逞真 2年 2005/9/2",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "官方报名表给出出生日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "大濱 逞真 2005-09-02",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.18 大濱逞真 2年 2005/9/2",
+              "access": "read",
+              "finding": "p.18 大濱逞真 2年 2005/9/2",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "大濱 逞真 身份 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.18 大濱逞真 2年 2005/9/2",
+              "access": "read",
+              "finding": "p.18 大濱逞真 2年 2005/9/2",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "姓名/学校/学年匹配"
+        }
+      ],
+      "final": {
+        "value": "2005-09-02",
+        "sourceIds": [
+          "hakone-102-kukan-entry"
+        ],
+        "locator": "p.18 大濱逞真 2年 2005/9/2",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "报名表姓名、出身校、学年与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "hakone-102-kukan-entry",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "p.18 大濱逞真 2年 2005/9/2",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hakone-ekiden.jp",
+            "independenceNote": "箱根官方报名表"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查实业团"
+          },
+          {
+            "category": "official",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "箱根官方报名表已读"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-11-4",
+      "athleteName": "入濵 輝大",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "瓊浦高（長崎県）",
+          "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+          "locator": "p.18 入濵輝大 出身校 瓊浦"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "入濵 輝大 出身校 第102回箱根エントリー",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.18 入濵輝大 出身校 瓊浦",
+              "access": "read",
+              "finding": "p.18 入濵輝大 出身校 瓊浦",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "官方报名表给出出身校"
+        },
+        {
+          "stage": "reverse",
+          "query": "入濵 輝大 出身校 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.18 入濵輝大 出身校 瓊浦",
+              "access": "read",
+              "finding": "p.18 入濵輝大 出身校 瓊浦",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "同源复核"
+        },
+        {
+          "stage": "verification",
+          "query": "入濵 輝大 身份 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.18 入濵輝大 出身校 瓊浦",
+              "access": "read",
+              "finding": "p.18 入濵輝大 出身校 瓊浦",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "姓名/学校匹配"
+        }
+      ],
+      "final": {
+        "value": "瓊浦高（長崎県）",
+        "sourceIds": [
+          "hakone-102-kukan-entry"
+        ],
+        "locator": "p.18 入濵輝大 出身校 瓊浦",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "报名表姓名、大学与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "hakone-102-kukan-entry",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "p.18 入濵輝大 出身校 瓊浦",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hakone-ekiden.jp",
+            "independenceNote": "箱根官方报名表"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查实业团"
+          },
+          {
+            "category": "official",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "箱根官方报名表已读"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-11-1",
+      "athleteName": "大濱 逞真",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "仙台育英高（宮城県）",
+          "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+          "locator": "p.18 大濱逞真 出身校 仙台育英"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "大濱 逞真 出身校 第102回箱根エントリー",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.18 大濱逞真 出身校 仙台育英",
+              "access": "read",
+              "finding": "p.18 大濱逞真 出身校 仙台育英",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "官方报名表给出出身校"
+        },
+        {
+          "stage": "reverse",
+          "query": "大濱 逞真 出身校 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.18 大濱逞真 出身校 仙台育英",
+              "access": "read",
+              "finding": "p.18 大濱逞真 出身校 仙台育英",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "同源复核"
+        },
+        {
+          "stage": "verification",
+          "query": "大濱 逞真 身份 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "p.18 大濱逞真 出身校 仙台育英",
+              "access": "read",
+              "finding": "p.18 大濱逞真 出身校 仙台育英",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "姓名/学校匹配"
+        }
+      ],
+      "final": {
+        "value": "仙台育英高（宮城県）",
+        "sourceIds": [
+          "hakone-102-kukan-entry"
+        ],
+        "locator": "p.18 大濱逞真 出身校 仙台育英",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "报名表姓名、大学与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "hakone-102-kukan-entry",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "p.18 大濱逞真 出身校 仙台育英",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hakone-ekiden.jp",
+            "independenceNote": "箱根官方报名表"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查实业团"
+          },
+          {
+            "category": "official",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "箱根官方报名表已读"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-04-4",
+      "athleteName": "山口 翔輝",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "1:00:46; 2026-04-26; 高橋尚子杯ぎふ清流ハーフマラソン2026",
+          "sourceUrl": "https://www.gifu-marathon.jp/sokuhou/rel00105.html",
+          "locator": "男子登録の部 6位 No.126 山口翔輝 学連・創価大 1:00:46"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "山口 翔輝 ぎふ清流ハーフ 2026 公式",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.gifu-marathon.jp/sokuhou/rel00105.html",
+              "section": "男子登録の部 上位50位",
+              "access": "read",
+              "finding": "6位 No.126 山口翔輝 学連・創価大 1:00:46",
+              "category": "competition",
+              "documentType": "results"
+            }
+          ],
+          "result": "主办方官方速报确认成绩与身份"
+        },
+        {
+          "stage": "reverse",
+          "query": "山口 翔輝 1:00:46",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.gifu-marathon.jp/sokuhou/rel00105.html",
+              "section": "6位 No.126",
+              "access": "read",
+              "finding": "1:00:46",
+              "category": "competition",
+              "documentType": "results"
+            }
+          ],
+          "result": "精确值反查命中主办方原件"
+        },
+        {
+          "stage": "verification",
+          "query": "ぎふ清流ハーフ 2026 開催日・距離",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.gifu-marathon.jp/sokuhou/rel00105.html",
+              "section": "大会ヘッダ",
+              "access": "read",
+              "finding": "2026年4月26日 9:00；Gifu Half Marathon Course (Certified by WA/AIMS and JAAF)",
+              "category": "competition",
+              "documentType": "results"
+            }
+          ],
+          "result": "确认举办日2026-04-26与公認半馬距离（創価大歴代表の2025/6/29为误记）"
+        },
+        {
+          "stage": "discovery",
+          "query": "山口 翔輝 創価大歴代 半馬",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "section": "ハーフマラソン 歴代",
+              "access": "read",
+              "finding": "2位 山口翔輝 1:00:46 ぎふ清流ハーフマラソン2026（日期欄2025/6/29为误记）",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "大学歴代表同值（日期误记）"
+        }
+      ],
+      "final": {
+        "value": "1:00:46; 2026-04-26; 高橋尚子杯ぎふ清流ハーフマラソン2026",
+        "sourceIds": [
+          "gifu-half-2026-results",
+          "soka-ekiden-alltime"
+        ],
+        "locator": "男子登録の部 6位 No.126 山口翔輝 学連・創価大 1:00:46",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "主办方原件姓名（YAMAGUCHI, Shoki）、学連・創価大与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "主办方原件确认；大学歴代表同日同值（日期误记已纠正）"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "org",
+            "sourceId": "gifu-half-2026-results",
+            "role": "primary",
+            "supports": [
+              "value",
+              "achievedOn",
+              "meet",
+              "distance",
+              "affiliation",
+              "pb-update"
+            ],
+            "locator": "男子登録の部 6位 No.126 山口翔輝 学連・創価大 1:00:46",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "gifu-marathon.jp",
+            "independenceNote": "主办方官方速报"
+          },
+          {
+            "id": "uni",
+            "sourceId": "soka-ekiden-alltime",
+            "role": "cross-check",
+            "supports": [
+              "value",
+              "pb-update"
+            ],
+            "locator": "ハーフ 2位 山口翔輝 1:00:46",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "soka-ekiden.com",
+            "independenceNote": "創価大学駅伝部歴代表（主办方原件为准）"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "org",
+          "uni"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "checked",
+            "searchIndexes": [
+              3
+            ],
+            "reason": "創価大歴代表已读（同值）"
+          },
+          {
+            "category": "employer",
+            "status": "not-applicable",
+            "searchIndexes": [],
+            "reason": "在校生"
+          },
+          {
+            "category": "official",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "主办方原件已读"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [
+          "大学歴代表日期（2025/6/29）为主办方原件（2026-04-26）之误记，已按主办方纠正"
+        ],
+        "affiliation": {
+          "stage": "student",
+          "organization": "創価大学",
+          "evidenceIds": [
+            "org"
+          ],
+          "enrollment": {
+            "asOf": "2026-11-17",
+            "employerStartsOn": null
+          },
+          "reason": "主办方原件显示学連・創価大"
+        },
+        "performances": [
+          {
+            "id": "pb",
+            "value": "1:00:46; 2026-04-26; 高橋尚子杯ぎふ清流ハーフマラソン2026",
+            "timeMilliseconds": 3646000,
+            "precision": "second",
+            "achievedOn": "2026-04-26",
+            "evidenceIds": [
+              "org"
+            ],
+            "eligibility": "eligible",
+            "reason": "主办方正式成绩",
+            "event": {
+              "metadataId": null,
+              "name": "高橋尚子杯ぎふ清流ハーフマラソン2026（岐阜）",
+              "edition": null,
+              "startsOn": "2026-04-26",
+              "endsOn": "2026-04-26",
+              "competedOn": "2026-04-26",
+              "discipline": "half-marathon",
+              "distanceMetres": 21097.5,
+              "editionStatus": "pending",
+              "evidenceIds": [
+                "org"
+              ]
+            }
+          }
+        ],
+        "pbUpdate": {
+          "initialId": "pb",
+          "selectedId": "pb",
+          "checks": [
+            {
+              "searchIndex": 0,
+              "from": "2026-04-26",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "org"
+              ],
+              "outcome": "no-faster-found",
+              "note": "主办方原件至截止日无更快记载"
+            },
+            {
+              "searchIndex": 3,
+              "from": "2026-04-26",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "uni"
+              ],
+              "outcome": "no-faster-found",
+              "note": "大学歴代表同值（日期误记已由主办方纠正）"
+            }
+          ],
+          "foundFaster": false,
+          "decision": "主办方正式成绩，大学歴代表同日同值"
+        }
+      }
+    }
+  ]
+}

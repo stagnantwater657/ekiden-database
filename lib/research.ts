@@ -15,6 +15,8 @@ export interface ResearchVisit {
   finding: string;
   /** Optional v2 classification; legacy official coverage remains unchanged. */
   category?: typeof researchSourceCategories[number];
+  /** Nature of the accessed document, independent of file format or publisher. */
+  documentType?: "profile" | "results" | "ranking" | "announcement" | "navigation";
 }
 export interface ResearchSearch {
   stage: "discovery" | "reverse" | "verification";
@@ -131,7 +133,9 @@ export function validateResearchBatch(input: unknown, context: ResearchContext):
       for (const [k, visit] of visits.entries()) {
         const vpath = `${q}.sources[${k}]`;
         const classified = batch.schemaVersion === 2 && !!visit && typeof visit === "object" && "category" in visit;
-        const v = obj(visit, ["url", "section", "access", "finding", ...(classified ? ["category"] : [])], vpath);
+        const typed = batch.schemaVersion === 2 && !!visit && typeof visit === "object" && "documentType" in visit;
+        const v = obj(visit, ["url", "section", "access", "finding", ...(classified ? ["category"] : []), ...(typed ? ["documentType"] : [])], vpath);
+        if (typed) oneOf(v.documentType,["profile","results","ranking","announcement","navigation"],vpath);
         if (classified) oneOf(v.category, researchSourceCategories, `${vpath}.category`);
         const sourceUrl = url(v.url, `${vpath}.url`);
         visited.add(sourceUrl);

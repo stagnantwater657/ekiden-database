@@ -55,18 +55,41 @@ subjects是执行计划，不是授权源。严格退出还要与上述独立授
 | exact-value / alternate-value | 已知PB逐候选检查“姓名+完整值”“姓名+不同写法”；query必须真实包含注册姓名（忽略空格）及相应值。接受标准时间首段及日文分秒、引号格式；不是模糊相似名字匹配。每个已知候选都查，不允许用N/A忽略已知值。 |
 | event-year | 姓名+项目+相关年份。项目接受5000m/10000m及メートル、半马/ハーフ/half-marathon。年份是否正确及覆盖足够由审核者确认。 |
 | university-ranking / university-results | 分别检查大学历代表与历年结果。无PB总表不代表整个大学没有资料；从年度结果、旧年份/域名与正式附件继续查。 |
-| employer-profile / employer-results | 截止日期已毕业或所属未知者查当前所属档案与比赛结果；在校历史时点不要求未来雇主。无雇主等无法提供本路径发现证据的情况保留进度及人工待核验说明，不能借无关类别查询自动豁免。 |
-| organizer-results | 赛事主办方或正式成绩PDF；原件不可访问可记blocked并提供实际替代；PB的N/A还需该路径自身类别的发现依据，不能仅引用大学页面证明主办方路径不适用。 |
+| employer-profile / employer-results | 每项PB显式评估两个入口，不能靠省略表达N/A。毕业/所属未知者查实际所属档案与比赛结果；在校生可用下述有时点和身份依据的豁免，不要求不存在的雇主资料。 |
+| organizer-results | 检索主办方/田联最终成绩，HTML、计时平台与PDF均可。未执行仍not-started；真实受阻或官方档案未找到公开原件可按下述规则blocked，大学年度结果可作为替代证据，不能反向冒充主办方访问。 |
 | personal-profile / federation-results / database / media | 分别记录个人、田联、数据库、媒体路径。补充路径按线索添加，不为数量凑访问。R22有地方陆协榜，必须纳入实际计划，不可只查WA。 |
 
-PB默认评估前三类检索及大学两入口、主办方；毕业/所属未知再评估雇主两入口。无候选不要求精确值和不同格式反查，但仍评估适用来源及年份。传记字段评估本人/大学/雇主，允许一份完整官方简介足够、不需要无关比赛；不用PB更新流程。
+PB默认评估前三类检索及大学两入口、主办方和雇主两入口（在校生显式评估豁免）。无候选不要求精确值和不同格式反查，但仍评估适用来源及年份。传记字段评估本人/大学/雇主，允许一份完整官方简介足够、不需要无关比赛；不用PB更新流程。
 
 - searched：有实际执行查询。命中来源的类别路径须读到该类别的具体页面；搜索摘要不能冒充已读。真实无命中查询可以记录完成，不证明没有成绩。
-- blocked：有具体unavailable URL、实际错误（放在finding/reason）；对有发布者类别的路径，失败目标必须属于该类别，不得用个人官网404冒充主办方不可访问。关联**另一次已执行**替代检索。不可只写“访问失败”；替代同样全失败则仍不充分。旧页404可查允许访问的其他年份/正式新域名，不绕过限制。
-- not-applicable：具体原因及实际发现证据；不可用全失败查询作为豁免证明。PB的类别路径需有该类别已读发现资料，不能用雇主页面证明大学没有历代表。传记字段可由另一个类别的明确简介支持不必查赛事，程序显式保留人工相关性审查。已知值不能免除反查。没有PB表可基于实际导航解释ranking不适用，results仍查。核心身份/项目冲突不能用N/A放行。
+- blocked：有具体unavailable URL、实际错误（放在finding/reason），或确实读过的主办方/田联档案未找到公开原件（outcome=not-found、access=read）；对有发布者类别的路径，失败目标必须属于该类别，不得用个人官网404冒充主办方不可访问。关联**另一次已执行**替代检索。不可只写“访问失败”；替代同样全失败则仍不充分。旧页404可查允许访问的其他年份/正式新域名，不绕过限制。
+- not-applicable：具体原因及实际发现证据；不可用全失败查询作为豁免证明。PB的类别路径需有该类别已读发现资料，不能用雇主页面证明大学没有历代表；在校生雇主豁免使用下述身份特例，不要求访问不存在的实业团。传记字段可由另一个类别的明确简介支持不必查赛事，程序显式保留人工相关性审查。已知值不能免除反查。没有PB表可基于实际导航解释ranking不适用，results仍查。核心身份/项目冲突不能用N/A放行。
 - not-started：诚实保存未做步骤，必报INCOMPLETE。省略默认步骤同样告警，不因status=candidate就跳过。
 
 所有not-applicable及blocked均输出MANUAL CHECK REQUIRED，附路径和实际查询索引。同类别查询也可能完全无关（如大学食堂页面），另一路径的替代查询也不自动与本项目相关；程序不能判断这种语义，测试明确保留该边界。退出0只允许提交独立审核，不是豁免/替代已获独立认定。该方案不实现自然语言理解：理由、页面实际内容、查询是否完整仍须独立复核。伪写query/分类、隐藏候选、错误豁免不会因增加字段而自动变真。
+
+## 有依据的在校生豁免与受阻退出
+
+以下是可选的v2增量，不升级schema、不批量迁移日志。不填写新信息的旧日志仍可结构校验；严格完成度不会猜测缺失信息。API第四参数传入与日志校验相同的`ResearchContext`（包含注册Sources），CLI已统一传入；缺上下文不能授予证据豁免。必须先运行`validateResearchBatch`，完成度API不能替代事实校验。
+
+### 在校时点
+
+`audit.affiliation`可增加`enrollment: {asOf, employerStartsOn}`。asOf必须等于scope.asOf，stage必须为student；employerStartsOn为已公告的实际入队日期，或有证据判断截止日无适用雇主时的null。**null不是“没有查过/不知道”**，身份或入队状态未知应保留缺口，不填写这一证明。正式入队日早于或等于截止日不能豁免；未来公告的发布日期不是入队日。即使仍在校，只要已实际进入实业团，也不能使用本豁免。
+
+两项雇主N/A的searchIndexes须指向实际读过的身份资料：发布者为大学、实业团、田联或主办方，documentType为profile/announcement；对应已注册Source的verified evidence须同时支持identity和affiliation，并被affiliation.evidenceIds引用。同一次访问的URL、检查日、类别和文档类型必须匹配，不能拼接别日的简介与当日历史成绩榜。定位须具体支持**截止日仍在校、无当时适用雇主及公告生效日**。只写stage=student、引用旧PB榜或WA数值页不够。
+
+机器检查结构、关联和日期比较，不理解公告内容。所有N/A继续列入人工审查，审核者确认入队时间、在校身份、同名身份与判断理由；不要把“声明verified”误认为程序已联网核实。没有这类依据时仍可readyForReview=false保存进度。
+
+### 原件与替代证据
+
+1. 保留原路径实际query、checkedAt、访问URL和finding；reason说明失败/官方档案中未找到公开原件的具体情况。仅写404或blocked而无引用查询不通过。not-started绝不自动重分类。
+2. `alternativeSearchIndexes`引用另一项真实已执行查询，不能重复原查询。主办方未公开原件不是HTTP错误，不应伪造unavailable。
+3. organizer-results的searched需要读到最终成绩；blocked需要替代最终成绩和audit.limitations。已知PB的证据须为已注册Source、同日read、documentType=results，发布者为university/employer/competition/federation，有primary value且覆盖achievedOn/meet/distance；不要求PDF后缀，也不要求两份独立来源。未确认身份/距离仍交事实校验及独立复核，不用completion覆盖。
+4. 对真实not-found且无候选值，不要求捏造用时或取得日期。需实际结果资料与支持pb-update的证据、检查范围延伸至asOf；范围充分性人工审核，未找到不等于没有正式成绩。
+5. 毕业者employer-profile与employer-results分别评估。后者searched需实业团结果资料；blocked可用其他官方/大学结果替代，但必须由该结果自己的pbUpdate.check（outcome非blocked，through=asOf）支持后续更新。仅有旧大学PB或雇主简介不能充当比赛结果。无法完成更新则继续不完整，保留局限与后续行动。
+6. 能进入人工审核不代表PB已核实：已知更快候选、身份和日期冲突、授权缺失/哈希不符、readyForReview=false的门槛保持。授权文件与摘要仍必须由独立任务发起者提供。
+
+`searches[].sources[].documentType`仅v2可选，枚举profile/results/ranking/announcement/navigation，表示实际文档内容而非文件格式。大学历代表可证明历史成绩，但不能仅因是官方站就当现时身份或完整赛后更新。新标签只能根据实际阅读填写，旧日志不自动添加。
 
 ## 来源分类与独立性
 
@@ -88,3 +111,5 @@ v1冻结哈希、原v2 JSON与证据规则不改；旧v2不必补category或完�
 4. 将发现的更快成绩纳入比较，后来的慢成绩不是PB更新；同源转载不计独立证据。
 5. 完成并明确送审时才设readyForReview=true；分别运行research:validate与带独立授权文件/预期摘要的research:complete；后者未通过可交付进度，不得宣称研究完成。PR列所有生产事实到batchId/athleteId/field/scope、未覆盖项、未确认项及独立复核状态。
 6. 通过离线检查后由ChatGPT/维护者重新联网独立复核。此提案尚待审核，不授权数据导入、合并或部署。
+
+本轮定向修复及PR #19只读回归见[验收与DSH补齐指南](applicable-exits-review.md)。

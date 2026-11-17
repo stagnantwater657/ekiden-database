@@ -1933,5 +1933,65 @@
       "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
       "permissionReference": null
     }
+  },
+  {
+    "id": "kgrr-105th-kanto-2026",
+    "title": "関東学生陸上競技連盟 第105回関東学生陸上競技対校選手権大会 男子2部10000m決勝",
+    "url": "https://www.kgrr.org/event/event/2026/kan-currywithgyoza/rel086.html",
+    "collectedAt": "2026-11-17",
+    "locator": "9位 ORD.11 No.659 桑田駿介(3) 駒大 岡山 28:07.63 PB；2026年5月21日、カンセキスタジアムとちぎ",
+    "coverage": "桑田駿介 10000m PB 的正式成绩、日期与赛事",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://www.kgrr.org/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "komazawa-nyc-2026",
+    "title": "駒澤大学陸上競技部 試合結果 ニューヨークシティハーフマラソン（2026-03-15）",
+    "url": "http://komazawa-ekiden.com/results/3%e6%9c%8815%e6%97%a5%e6%97%a5%e3%83%8b%e3%83%a5%e3%83%bc%e3%83%a8%e3%83%bc%e3%82%af%e3%82%b7%e3%83%86%e3%82%a3%e3%83%8f%e3%83%bc%e3%83%95%e3%83%9e%e3%83%a9%e3%82%bd%e3%83%b3/",
+    "collectedAt": "2026-11-17",
+    "locator": "ハーフマラソン 10位 桑田駿介(2) 1時間00分13秒 ※PB",
+    "coverage": "桑田駿介 半馬 PB 的正式成绩、日期与赛事",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "http://komazawa-ekiden.com/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "komazawa-yogibo-2026",
+    "title": "駒澤大学陸上競技部 試合結果 Yogibo Athletics Challenge Cup 2026（2026-09-26）",
+    "url": "http://komazawa-ekiden.com/results/9%e6%9c%8826%e6%97%a5%e5%9c%9fyogibo-athletics-challenge-cup-2026/",
+    "collectedAt": "2026-11-17",
+    "locator": "GP男子5000m決勝 4位 桑田駿介(3) 13分29秒78 ※PB！",
+    "coverage": "桑田駿介 5000m PB 的正式成绩、日期与赛事",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "http://komazawa-ekiden.com/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "komazawa-active-ranking",
+    "title": "駒澤大学陸上競技部 現役選手ランキング",
+    "url": "https://komazawa-ekiden.com/record/record-active-player",
+    "collectedAt": "2026-11-17",
+    "locator": "10000m 1位 桑田駿介(3年生) 28分07秒63；5000m 1位 13分29秒78；半馬 1位 1時間00分13秒",
+    "coverage": "桑田駿介的当前 PB 值交叉",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "http://komazawa-ekiden.com/",
+      "reviewedAt": "2026-11-17",
+      "basis": "University ranking page reviewed. Only objective facts recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
   }
 ]

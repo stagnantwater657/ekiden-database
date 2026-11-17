@@ -1228,7 +1228,38 @@
     {
       "athleteId": "athlete-aj24-02-2",
       "reviewedAt": "2026-11-17",
-      "personalBests": [],
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 809780,
+          "precision": "centisecond",
+          "achievedOn": "2026-09-26",
+          "meet": "Yogibo Athletics Challenge Cup 2026 GP男子5000m決勝（新潟・デンカビッグスワン）",
+          "sourceId": "komazawa-yogibo-2026",
+          "locator": "GP男子5000m決勝 4位 桑田駿介(3) 13分29秒78 ※PB！",
+          "revision": "retrieved 2026-11-17"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1687630,
+          "precision": "centisecond",
+          "achievedOn": "2026-05-21",
+          "meet": "第105回関東学生陸上競技対校選手権大会 男子2部10000m決勝（カンセキスタジアムとちぎ）",
+          "sourceId": "kgrr-105th-kanto-2026",
+          "locator": "9位 ORD.11 No.659 桑田駿介(3) 駒大 28:07.63 PB",
+          "revision": "retrieved 2026-11-17"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3613000,
+          "precision": "second",
+          "achievedOn": "2026-03-15",
+          "meet": "ニューヨークシティハーフマラソン（ニューヨーク）",
+          "sourceId": "komazawa-nyc-2026",
+          "locator": "ハーフマラソン 10位 桑田駿介(2) 1時間00分13秒 ※PB",
+          "revision": "retrieved 2026-11-17"
+        }
+      ],
       "highSchool": {
         "value": "倉敷高（岡山県）",
         "sourceId": "hochi-kuwata",

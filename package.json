@@ -17,6 +17,7 @@
     "data:import": "node --experimental-strip-types scripts/data-import.ts",
     "data:revise": "node --experimental-strip-types scripts/data-revise.ts",
     "presentation:report": "node --experimental-strip-types scripts/presentation-report.ts",
+    "research:complete": "node --experimental-strip-types scripts/research-validate.ts --completion",
     "research:validate": "node --experimental-strip-types scripts/research-validate.ts"
   },
   "dependencies": {

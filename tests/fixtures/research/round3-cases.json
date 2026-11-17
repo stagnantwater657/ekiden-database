@@ -1,0 +1,11 @@
+[
+  {"id":"R15","name":"吉田 響","field":"5000m","mark":"13:39.94","date":"2024-07-17","meet":"ホクレン・ディスタンスチャレンジ深川大会","url":"https://soka-ekiden.com/play/?page_id=269","step":"university-ranking"},
+  {"id":"R16","name":"吉田 響","field":"10000m","mark":"28:12.01","date":"2024-05-09","meet":"関東学生陸上競技対校選手権大会","url":"https://soka-ekiden.com/play/?page_id=269","step":"exact-value"},
+  {"id":"R17","name":"吉田 響","field":"half-marathon","mark":"1:01:45","date":"2024-06-30","meet":"函館マラソン","url":"https://soka-ekiden.com/play/?page_id=269","step":"alternate-value"},
+  {"id":"R18","name":"太田 蒼生","field":"birthDate","mark":"2002-08-26","date":null,"meet":null,"url":"https://athletes.gmo.jp/news/6213/","step":"employer-profile"},
+  {"id":"R19","name":"太田 蒼生","field":"5000m","mark":"13:53.10","date":"2023-09-24","meet":"第10回絆記録挑戦会","url":"https://aogaku-tf.com/results-2023.html","step":"university-results"},
+  {"id":"R20","name":"太田 蒼生","field":"10000m","mark":"28:20.63","date":"2023-11-22","meet":"MARCH対抗戦2023","url":"https://aogaku-tf.com/results-2023.html","step":"event-year"},
+  {"id":"R21","name":"太田 蒼生","field":"half-marathon","mark":"1:02:30","date":"2024-04-21","meet":"上海ハーフマラソン","url":"https://aogaku-tf.com/results-2024.html","step":"organizer-results"},
+  {"id":"R22","name":"吉岡 大翔","field":"5000m","mark":"13:22.99","date":"2022-11-13","meet":"日体大長距離競技会","url":"https://nrk-dir.jp/nrk_record/nrk_hsrecordm","step":"federation-results"},
+  {"id":"R23","name":"吉岡 大翔","field":"10000m","mark":"28:08.02","date":"2025-11-29","meet":"第325回日本体育大学長距離競技会","url":"https://chuo-ldt.net/2025/11/29/251129-30result/","step":"exact-value"}
+]

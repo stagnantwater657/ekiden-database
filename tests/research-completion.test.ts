@@ -1,5 +1,10 @@
 import assert from "node:assert/strict";
 import test from "node:test";
+import { createHash } from "node:crypto";
+import { copyFileSync, mkdirSync, mkdtempSync, rmSync, symlinkSync, writeFileSync } from "node:fs";
+import { tmpdir } from "node:os";
+import { join, resolve } from "node:path";
+import { authorizedSubjects, readResearchAuthorization, type ResearchAuthorization } from "../lib/research-authorization.ts";
 import { execFileSync, spawnSync } from "node:child_process";
 import { auditResearchCompletion, validateCompletionClaim, type CompletionPlan, type CompletionStep } from "../lib/research-completion.ts";
 import { validateResearchBatch, researchSourceCategories, type ResearchBatch, type ResearchContext, type ResearchField } from "../lib/research.ts";
@@ -15,7 +20,7 @@ function scenario(example=cases[0]) {
   const r=batch.records[0], a=r.audit!;
   r.athleteName=example.name;context.athletes=[{...context.athletes[0],name:example.name}];
   r.field=example.field as ResearchField;r.status="candidate";r.final=null;r.unresolved=["SYNTHETIC: requires independent verification"];
-  const pb=r.field!=="birthDate";
+  const pb=["5000m","10000m","half-marathon"].includes(r.field);
   r.pbScope=pb ? "current" : null;
   r.candidates=[{...r.candidates[0],value:example.mark}];
   a.adoptedEvidenceIds=[];a.performances=[];
@@ -47,7 +52,7 @@ function scenario(example=cases[0]) {
 for (const example of cases) test(`${example.id}: ${example.step} omission detected; explicit research remains unresolved and reviewable`,()=>{
   const d=scenario(example);
   validateResearchBatch(d.batch,d.context);
-  assert.equal(validateCompletionClaim(d.plan,d.batch).complete,true);
+  assert.equal(validateCompletionClaim(d.plan,d.batch).stepsComplete,true);
   const step=d.step(example.step);step.status="not-started";step.searchIndexes=[];
   assert.ok(auditResearchCompletion(d.plan,d.batch).findings.some((f)=>f.detail.includes(example.step)));
   assert.throws(()=>validateCompletionClaim(d.plan,d.batch),/premature completion/);
@@ -58,7 +63,7 @@ test("candidate/conflict/not-found/verified all receive completion assessment an
     const d=scenario();d.r.status=status;
     if (status==="not-found") d.r.candidates=[];
     validateResearchBatch(d.batch,d.context);
-    assert.equal(auditResearchCompletion(d.plan,d.batch).complete,true);
+    assert.equal(auditResearchCompletion(d.plan,d.batch).stepsComplete,true);
     d.plan.subjects[0].nextActions=[];
     assert.ok(auditResearchCompletion(d.plan,d.batch).findings.some((f)=>f.code==="missing-next-action"));
   }
@@ -94,7 +99,7 @@ test("404/blocked needs actual target, reason and distinct executed alternative;
   const s=d.r.searches[step.searchIndexes[0]];s.outcome="inaccessible";s.sources[0].access="unavailable";s.sources[0].finding="SYNTHETIC HTTP 404";
   assert.ok(auditResearchCompletion(d.plan,d.batch).findings.some((f)=>f.code==="missing-alternative"));
   step.alternativeSearchIndexes=d.step("university-results").searchIndexes;
-  assert.equal(validateCompletionClaim(d.plan,d.batch).complete,true);
+  assert.equal(validateCompletionClaim(d.plan,d.batch).stepsComplete,true);
   step.alternativeSearchIndexes=step.searchIndexes;
   assert.throws(()=>auditResearchCompletion(d.plan,d.batch),/alternative cannot repeat/);
 });
@@ -103,7 +108,7 @@ test("university annual results can be read without a PB table; no fake blocked 
   const d=scenario(),step=d.step("university-ranking");
   step.status="not-applicable";step.reason="SYNTHETIC site navigation found annual results, no historical PB ranking";
   step.searchIndexes=d.step("university-results").searchIndexes;
-  assert.equal(validateCompletionClaim(d.plan,d.batch).complete,true);
+  assert.equal(validateCompletionClaim(d.plan,d.batch).stepsComplete,true);
   step.searchIndexes=[];
   assert.ok(auditResearchCompletion(d.plan,d.batch).findings.some((f)=>f.code==="unsupported-waiver"));
 });
@@ -163,13 +168,147 @@ test("CLI and tests share registered meets; missing context is configuration fai
 test("real two-field demonstration stays candidate; omitted work is surfaced, no production facts adopted",()=>{
   const batch=validateResearchBatch(demo,createResearchContext());
   const report=validateCompletionClaim(demoPlan,batch);
-  assert.equal(report.complete,false);assert.equal(report.findings.length,2);
+  assert.equal(report.stepsComplete,false);assert.equal(report.findings.length,2);
   assert.ok(report.findings.every((f)=>f.subject.includes("athlete-aj24-04-2")));
   assert.ok(batch.records.every((r)=>r.status==="candidate" && r.final===null));
   assert.ok(report.findings.some((f)=>f.detail.includes("employer-results")));
   const result=spawnSync(process.execPath,["--experimental-strip-types","scripts/research-validate.ts","--completion",batch.batchId],{encoding:"utf8"});
-  assert.equal(result.status,1);assert.match(result.stdout,/completion INCOMPLETE/);
+  assert.equal(result.status,1);assert.match(result.stdout,/steps INCOMPLETE/);
   const absent=spawnSync(process.execPath,["--experimental-strip-types","scripts/research-validate.ts","--completion","no-plan"],{encoding:"utf8"});
   assert.equal(absent.status,1);assert.match(absent.stderr,/unassessed/);
   assert.match(execFileSync(process.execPath,["--experimental-strip-types","scripts/research-validate.ts"],{encoding:"utf8"}),/NOT ASSESSED/);
+});
+
+
+// Authorization comes from an independently specified owner fixture, not a filtered plan.
+function ownerScope(batchId: string, athleteIds=["fixture-athlete"], fields: ResearchField[]=["5000m"]): ResearchAuthorization {
+  return {schemaVersion:1,batchId,authorizedBy:"SYNTHETIC task owner",reference:"https://synthetic-research-fixture.org/owner-task",authorizedAt:"2026-11-16",
+    assignments:[{athleteIds,fields,scope:{asOf:"2026-11-16",editionId:null,courseVersion:null,sectionNumber:null}}]};
+}
+
+test("steps, executor submission and exit eligibility are independent; honest progress remains valid",()=>{
+  const d=scenario(), auth=ownerScope(d.batch.batchId);
+  d.plan.readyForReview=false;
+  const saved=validateCompletionClaim(d.plan,d.batch,auth);
+  assert.deepEqual([saved.stepsComplete,saved.readyForReview,saved.authorizationComplete,saved.exitAllowed],[true,false,true,false]);
+  d.plan.readyForReview=true;
+  assert.equal(validateCompletionClaim(d.plan,d.batch,auth).exitAllowed,true);
+  const legacy=validateCompletionClaim(d.plan,d.batch);
+  assert.equal(legacy.stepsComplete,true);assert.equal(legacy.authorizationComplete,false);assert.equal(legacy.exitAllowed,false);
+  d.plan.readyForReview=false;d.step("university-ranking").status="not-started";d.step("university-ranking").searchIndexes=[];
+  assert.equal(validateCompletionClaim(d.plan,d.batch,auth).stepsComplete,false);
+});
+
+test("independent 5 athletes × 5 fields rejects only 15 submitted to BOTH plan and records",()=>{
+  const ids=Array.from({length:5},(_,i)=>`fixture-athlete-${i}`);
+  const fields:ResearchField[]=["birthDate","highSchool","5000m","10000m","half-marathon"];
+  const d=scenario();d.batch.records=[];d.plan.subjects=[];
+  const scope=ownerScope(d.batch.batchId,ids,fields);
+  d.context.athletes=ids.map((id)=>({...d.context.athletes[0],id}));
+  // First build all 25 fully structured records and corresponding steps, then omit two fields per athlete.
+  for (const id of ids) for (const field of fields) {
+    const example=field==="highSchool" ? {...cases[3],field,mark:"SYNTHETIC school"} : cases.find((c)=>c.field===field)!;
+    const item=scenario({...example,name:d.context.athletes[0].name});
+    item.r.athleteId=id;item.plan.subjects[0].athleteId=id;
+    d.batch.records.push(item.r);d.plan.subjects.push(item.plan.subjects[0]);
+  }
+  validateResearchBatch(d.batch,d.context);
+  assert.equal(authorizedSubjects(scope,d.batch.batchId).length,25);
+  assert.equal(validateCompletionClaim(d.plan,d.batch,scope).exitAllowed,true);
+  d.batch.records=d.batch.records.filter((r)=>!["birthDate","highSchool"].includes(r.field));
+  d.plan.subjects=d.plan.subjects.filter((r)=>!["birthDate","highSchool"].includes(r.field));
+  assert.equal(d.batch.records.length,15);assert.equal(d.plan.subjects.length,15);
+  validateResearchBatch(d.batch,d.context);
+  const report=auditResearchCompletion(d.plan,d.batch,scope);
+  assert.equal(report.stepsComplete,true);assert.equal(report.authorizationComplete,false);assert.equal(report.exitAllowed,false);
+  assert.equal(report.authorizationFindings.filter((f)=>f.code==="authorized-plan-missing").length,10);
+  assert.equal(report.authorizationFindings.filter((f)=>f.code==="authorized-record-missing").length,10);
+  assert.throws(()=>validateCompletionClaim(d.plan,d.batch,scope),/authorized-plan-missing/);
+});
+
+test("explicit partial-field authorizations pass; extra fields, changed cutoff and duplicate grants do not",()=>{
+  const d=scenario(cases[3]);
+  const auth=ownerScope(d.batch.batchId,["fixture-athlete"],["birthDate"]);
+  assert.equal(validateCompletionClaim(d.plan,d.batch,auth).exitAllowed,true);
+  const overrun=ownerScope(d.batch.batchId,["fixture-athlete"],["highSchool"]);
+  assert.ok(auditResearchCompletion(d.plan,d.batch,overrun).authorizationFindings.some((f)=>f.code==="outside-authorization"));
+  const changed=structuredClone(auth);changed.assignments[0].scope.asOf="2026-11-15";
+  assert.equal(auditResearchCompletion(d.plan,d.batch,changed).exitAllowed,false);
+  const partial=ownerScope(d.batch.batchId,["fixture-a"],["birthDate"]);
+  partial.assignments.push({...structuredClone(partial.assignments[0]),athleteIds:["fixture-b"],fields:["5000m"]});
+  assert.deepEqual(authorizedSubjects(partial,d.batch.batchId).map((v)=>[v.athleteId,v.field]),[["fixture-a","birthDate"],["fixture-b","5000m"]]);
+  auth.assignments.push(structuredClone(auth.assignments[0]));
+  assert.throws(()=>authorizedSubjects(auth,d.batch.batchId),/duplicate authorized subject/);
+  assert.throws(()=>authorizedSubjects(ownerScope("other-batch"),d.batch.batchId),/batchId mismatch/);
+  assert.throws(()=>authorizedSubjects(ownerScope(d.batch.batchId,[],[]),d.batch.batchId),/nonempty/);
+});
+
+test("owner-pinned authorization bytes cannot be silently reduced along with the results",()=>{
+  const dir=mkdtempSync(join(tmpdir(),"research-owner-scope-")),path=join(dir,"scope.json");
+  try {
+    const auth=ownerScope("synthetic",["fixture-1","fixture-2"],["birthDate","5000m"]);
+    const bytes=JSON.stringify(auth);const digest=createHash("sha256").update(bytes).digest("hex");
+    writeFileSync(path,bytes);
+    assert.deepEqual(readResearchAuthorization(path,digest),auth);
+    auth.assignments[0].fields=["5000m"];writeFileSync(path,JSON.stringify(auth));
+    assert.throws(()=>readResearchAuthorization(path,digest),/SHA-256 mismatch/);
+    assert.throws(()=>readResearchAuthorization(path,""),/task-owner SHA-256/);
+  } finally {rmSync(dir,{recursive:true,force:true});}
+});
+
+test("unrelated publisher cannot justify PB route N/A or a blocked target",()=>{
+  const d=scenario(), waiver=d.step("university-ranking");
+  waiver.status="not-applicable";waiver.searchIndexes=d.step("employer-profile").searchIndexes;
+  assert.ok(auditResearchCompletion(d.plan,d.batch).findings.some((f)=>f.code==="unrelated-waiver"));
+  const blocked=d.step("organizer-results");blocked.status="blocked";
+  const failed=d.r.searches[d.step("personal-profile").searchIndexes[0]];
+  failed.outcome="inaccessible";failed.sources[0].access="unavailable";
+  blocked.searchIndexes=d.step("personal-profile").searchIndexes;
+  blocked.alternativeSearchIndexes=d.step("university-results").searchIndexes;
+  assert.ok(auditResearchCompletion(d.plan,d.batch).findings.some((f)=>f.code==="unrelated-failure"));
+});
+
+test("same-category but unrelated text and cross-category alternatives explicitly require human relevance review",()=>{
+  const d=scenario(), waiver=d.step("university-ranking"), blocked=d.step("organizer-results");
+  waiver.status="not-applicable";
+  const search=d.r.searches[waiver.searchIndexes[0]];
+  search.query="SYNTHETIC university cafeteria menu";search.result="SYNTHETIC unrelated subject";
+  blocked.status="blocked";
+  const failure=d.r.searches[blocked.searchIndexes[0]];failure.outcome="inaccessible";failure.sources[0].access="unavailable";
+  blocked.alternativeSearchIndexes=d.step("university-results").searchIndexes;
+  d.r.searches[blocked.alternativeSearchIndexes[0]].query="SYNTHETIC university cafeteria menu, unrelated to the event";
+  const report=validateCompletionClaim(d.plan,d.batch,ownerScope(d.batch.batchId));
+  // Offline structure can pass; the audit MUST NOT certify this intentionally irrelevant prose.
+  assert.equal(report.exitAllowed,true);
+  assert.ok(report.manualChecks.some((f)=>f.code==="review-waiver-relevance"));
+  assert.ok(report.manualChecks.some((f)=>f.code==="review-blocked-relevance"));
+  assert.match(report.manualChecks.map((f)=>f.detail).join(" "),/independently/);
+});
+
+test("CLI denies complete-but-not-submitted, missing authorization and changed digest; ordinary validation saves progress",()=>{
+  const dir=mkdtempSync(join(tmpdir(),"research-cli-submission-"));
+  try {
+    // Isolated read-only CLI fixture uses real registry context, never changes repository logs/data.
+    mkdirSync(join(dir,"scripts"));mkdirSync(join(dir,"data/research/batches"),{recursive:true});mkdirSync(join(dir,"data/research/completion"));
+    copyFileSync("scripts/research-validate.ts",join(dir,"scripts/research-validate.ts"));
+    symlinkSync(resolve("lib"),join(dir,"lib"),"dir");
+    writeFileSync(join(dir,"data/research/legacy-v1.json"),"{}");
+    const batch=structuredClone(demo);batch.batchId="synthetic-cli-review";batch.researcher="SYNTHETIC CLI TEST, not new research";batch.records=[batch.records[1]];
+    const plan=structuredClone(demoPlan);plan.batchId=batch.batchId;plan.subjects=[plan.subjects[1]];plan.readyForReview=false;
+    const planPath=join(dir,`data/research/completion/${batch.batchId}.json`);
+    writeFileSync(join(dir,`data/research/batches/${batch.batchId}.json`),JSON.stringify(batch));
+    writeFileSync(planPath,JSON.stringify(plan));
+    const auth=ownerScope(batch.batchId,[batch.records[0].athleteId],["birthDate"]);auth.assignments[0].scope.asOf="2026-11-17";
+    const text=JSON.stringify(auth),digest=createHash("sha256").update(text).digest("hex"),ownerPath=join(dir,"owner-scope.json");writeFileSync(ownerPath,text);
+    const args=["--experimental-strip-types",join(dir,"scripts/research-validate.ts")];
+    const complete=[...args,"--completion",batch.batchId];
+    const scoped=[...complete,"--authorization",ownerPath,"--authorization-sha256",digest];
+    const run=(a:string[])=>spawnSync(process.execPath,a,{encoding:"utf8"});
+    const progress=run(scoped);assert.equal(progress.status,1);assert.match(progress.stdout,/steps COMPLETE; declaration NOT SUBMITTED/);assert.doesNotMatch(progress.stdout,/exit ALLOWED/);
+    assert.equal(run(args).status,0);
+    plan.readyForReview=true;writeFileSync(planPath,JSON.stringify(plan));
+    const ready=run(scoped);assert.equal(ready.status,0,ready.stderr);assert.match(ready.stdout,/exit ALLOWED/);assert.match(ready.stdout,/MANUAL CHECK REQUIRED/);assert.match(ready.stdout,/independent evidence review still required/);
+    const noScope=run(complete);assert.equal(noScope.status,1);assert.match(noScope.stdout,/authorization-missing/);
+    writeFileSync(ownerPath,text+" ");assert.equal(run(scoped).status,1);
+  } finally {rmSync(dir,{recursive:true,force:true});}
 });

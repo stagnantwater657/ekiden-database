@@ -24,8 +24,12 @@
 4. 填五类 coverage、毕业状态与当前所属；在校实业团填不适用及理由。对 PB 填候选 event（举办日、比赛日、项目/距离、届数）及 performances；已知目录用 metadataId 并保持确认届数；只有未匹配已登记赛事的未知届数可用 pending/null。
 5. 追查原候选之后至目标截止日的资料，pbUpdate.checks 引用实际查询和证据；大学/适用实业团都需后续检查。记录更快候选，解释最终采用或排除，受阻与未完成路径如实保留。
 6. 每个新/修改生产事实在 PR 清单对应 batchId、athleteId、field、scope。单一谱系、转载、主办方原件缺失和独立复核状态逐项报告。
-7. 用 schemaVersion=2 保存所有状态的新日志及 completion 范围清单，分别运行 research:validate、research:complete -- <batchId> 和完整校验。CLI 的 legacy/单源/coverage 提示不是批准；交独立审核，不自行合并/部署。
+7. 用 schemaVersion=2 保存所有状态的新日志及 completion 范围清单，分别运行 research:validate、research:complete（携带下述独立授权参数）和完整校验。CLI 的 legacy/单源/coverage 提示不是批准；交独立审核，不自行合并/部署。
 
 ## 检索完成度增量（待本轮独立评审）
 
-新增任务按[completion audit契约](completion-audit.md)列全部授权字段，未确认字段也保存v2日志及下一步。运行 `npm run research:complete -- <batchId>`；结构校验/CI通过不能代替退出检查或独立证据复核。大学无个人PB表时继续查历代表及年度结果；毕业后查当前所属。CLI和真实实体测试使用 `createResearchContext()`，不得以pending替代已知届次。旧日志无须追造历史，明确未评估。
+新增任务按[completion audit契约](completion-audit.md)列全部授权字段，未确认字段也保存v2日志及下一步。运行 `npm run research:complete -- <batchId> --authorization <owner-scope.json> --authorization-sha256 <owner-provided-sha256>`；结构校验/CI通过不能代替退出检查或独立证据复核。大学无个人PB表时继续查历代表及年度结果；毕业后查当前所属。CLI和真实实体测试使用 `createResearchContext()`，不得以pending替代已知届次。旧日志无须追造历史，明确未评估。
+
+## PR #22 独立审查后的退出要求
+
+任务发起者单独提供授权文件（明确选手×字段、scope、批准引用）及预期SHA-256；不得从执行者plan/records反向生成。退出命令为 `npm run research:complete -- <batchId> --authorization <owner-scope.json> --authorization-sha256 <owner-provided-sha256>`，PR同时列任务提供的摘要供对照。readyForReview=false始终表示未提交；普通validate可保存进度。历史无授权日志不追造批准，不通过严格退出。所有N/A及blocked的相关性仍须人工检查；详见[契约](completion-audit.md)。

@@ -1,5 +1,6 @@
-import type { ResearchBatch, ResearchRecord, ResearchScope, ResearchField, ResearchSearch } from "./research.ts";
+import type { ResearchBatch, ResearchScope, ResearchField, ResearchSearch } from "./research.ts";
 import { researchFields } from "./research.ts";
+import { authorizedSubjects, researchSubjectKey as key } from "./research-authorization.ts";
 import { researchChecks as c } from "./research-checks.ts";
 
 export const researchSteps = ["exact-value", "alternate-value", "event-year", "university-ranking", "university-results", "employer-profile", "employer-results", "organizer-results", "personal-profile", "federation-results", "database", "media"] as const;
@@ -26,8 +27,15 @@ export interface CompletionPlan {
   subjects: CompletionSubject[];
 }
 export interface CompletionFinding { subject: string; code: string; detail: string }
-export interface CompletionReport { complete: boolean; findings: CompletionFinding[] }
-const key = (r: Pick<ResearchRecord, "athleteId" | "field" | "scope">) => JSON.stringify([r.athleteId,r.field,r.scope.asOf,r.scope.editionId,r.scope.courseVersion,r.scope.sectionNumber]);
+export interface CompletionReport {
+  stepsComplete: boolean;
+  readyForReview: boolean;
+  authorizationComplete: boolean;
+  exitAllowed: boolean;
+  findings: CompletionFinding[];
+  authorizationFindings: CompletionFinding[];
+  manualChecks: CompletionFinding[];
+}
 const compact = (s: string) => s.normalize("NFKC").replace(/\s/g, "").toLowerCase();
 const routeCategory: Partial<Record<StepKind, string>> = {
   "university-ranking":"university", "university-results":"university",
@@ -45,7 +53,7 @@ function markForms(value: string): string[] {
 }
 
 /** Validate syntax/references and assess executed steps, not whether external facts are true. */
-export function auditResearchCompletion(input: unknown, batch: ResearchBatch): CompletionReport {
+export function auditResearchCompletion(input: unknown, batch: ResearchBatch, authorization?: unknown): CompletionReport {
   const p = "completion";
   const plan = c.obj(input,["batchId","readyForReview","scopeNote","subjects"],p);
   if (plan.batchId !== batch.batchId) c.fail(p,"batchId mismatch");
@@ -56,6 +64,7 @@ export function auditResearchCompletion(input: unknown, batch: ResearchBatch): C
   const records = new Map(batch.records.map((r)=>[key(r),r]));
   const seen = new Set<string>();
   const findings: CompletionFinding[] = [];
+  const manualChecks: CompletionFinding[] = [];
   for (const raw of rows) {
     const row = c.obj(raw,["athleteId","field","scope","steps","nextActions"],p);
     c.str(row.athleteId,p); c.oneOf(row.field,researchFields,p);
@@ -96,8 +105,22 @@ export function auditResearchCompletion(input: unknown, batch: ResearchBatch): C
           add("unread-route",`${kind}: label the actual publisher category and read the specific page`);
       }
       if (step.status==="blocked") {
+        const category=routeCategory[kind];
         if (!searches.some((s)=>s.sources.some((v)=>v.access==="unavailable"))) add("missing-failure",`${kind}: actual inaccessible target and cause required`);
+        else if (category && !searches.some((s)=>s.sources.some((v)=>v.access==="unavailable" && v.category===category)))
+          add("unrelated-failure",`${kind}: failed target must belong to this route's publisher category`);
         if (!alternatives.length || !alternatives.map((i)=>record.searches[i]).some(successfulAttempt)) add("missing-alternative",`${kind}: execute an alternative search`);
+        manualChecks.push({subject,code:"review-blocked-relevance",detail:`${kind}: independently check failure reason and relevance of alternative search indexes [${alternatives.join(", ")}]; categories do not verify content`});
+      }
+      if (step.status==="not-applicable") {
+        const category=routeCategory[kind];
+        if (!searches.length || !searches.some(successfulAttempt)) add("unsupported-waiver",`${kind}: actual discovery evidence is required`);
+        // A biography can be explicitly covered by another publisher; a PB route cannot use
+        // an unrelated publisher's read as proof that this route lacks a ranking/results page.
+        if (["5000m","10000m","half-marathon"].includes(record.field) && category &&
+            !searches.some((s)=>s.sources.some((v)=>v.category===category && v.access==="read")))
+          add("unrelated-waiver",`${kind}: PB route waiver requires read discovery evidence in its own category`);
+        manualChecks.push({subject,code:"review-waiver-relevance",detail:`${kind}: independently review applicability and query indexes [${refs.join(", ")}]; a reason or publisher label does not establish relevance`});
       }
       if (step.status==="not-started") add("unstarted-step",`${kind}: ${step.reason}`);
     }
@@ -139,12 +162,25 @@ export function auditResearchCompletion(input: unknown, batch: ResearchBatch): C
     if (record.status==="not-found" && ![...steps.values()].some((s)=>s.status==="searched" || s.status==="blocked")) add("unsearched-not-found","not-found needs an actually searched applicable scope");
   }
   for (const r of batch.records) if (!seen.has(key(r))) findings.push({subject:key(r),code:"unplanned-record",detail:"Every log record must be accounted for in declared scope"});
-  return {complete:findings.length===0,findings};
+  const authorizationFindings: CompletionFinding[]=[];
+  if (authorization===undefined) authorizationFindings.push({subject:batch.batchId,code:"authorization-missing",detail:"No independently supplied authorization; legacy progress is readable, scope is NOT ASSESSED"});
+  else {
+    const expected=new Set(authorizedSubjects(authorization,batch.batchId).map(key));
+    for (const id of expected) {
+      if (!seen.has(id)) authorizationFindings.push({subject:id,code:"authorized-plan-missing",detail:"Authorized field missing from completion plan"});
+      if (!records.has(id)) authorizationFindings.push({subject:id,code:"authorized-record-missing",detail:"Authorized field missing from research records"});
+    }
+    for (const id of new Set([...seen,...records.keys()])) if (!expected.has(id))
+      authorizationFindings.push({subject:id,code:"outside-authorization",detail:"Plan/record is outside the independently authorized scope"});
+  }
+  const stepsComplete=findings.length===0, readyForReview=plan.readyForReview as boolean;
+  const authorizationComplete=authorizationFindings.length===0;
+  return {stepsComplete,readyForReview,authorizationComplete,exitAllowed:stepsComplete && readyForReview && authorizationComplete,findings,authorizationFindings,manualChecks};
 }
 
-export function validateCompletionClaim(plan: unknown, batch: ResearchBatch): CompletionReport {
-  const report=auditResearchCompletion(plan,batch);
-  if ((plan as CompletionPlan).readyForReview && !report.complete)
-    c.fail("completion",`premature completion: ${report.findings.map((v)=>v.code+": "+v.detail).join("; ")}`);
+export function validateCompletionClaim(plan: unknown, batch: ResearchBatch, authorization?: unknown): CompletionReport {
+  const report=auditResearchCompletion(plan,batch,authorization);
+  if (report.readyForReview && (!report.stepsComplete || (authorization!==undefined && !report.authorizationComplete)))
+    c.fail("completion",`premature completion: ${[...report.findings,...report.authorizationFindings].map((v)=>v.code+": "+v.detail).join("; ")}`);
   return report;
 }

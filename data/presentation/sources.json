@@ -1828,5 +1828,80 @@
       "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
       "permissionReference": null
     }
+  },
+  {
+    "id": "logisteed-ishimaru",
+    "title": "ロジスティード 陸上部 選手紹介 石丸 惇那",
+    "url": "https://www.logisteed.com/jp/profile/running/member/post_29/",
+    "collectedAt": "2026-11-17",
+    "locator": "生年月日 2003年08月10日／出身校 出水中央高校/創価大学／PB 5000m 13分42秒12・10000m 28分21秒48・半馬 1時間02分31秒",
+    "coverage": "石丸惇那的出生日期、出身校与当前 PB",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://www.logisteed.com/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "logisteed-shimada",
+    "title": "ロジスティード 陸上部 選手紹介 島田 晃希",
+    "url": "https://www.logisteed.com/jp/profile/running/member/post_30/",
+    "collectedAt": "2026-11-17",
+    "locator": "生年月日 2004年01月25日／出身校 高田高校/帝京大学／PB 5000m 13分47秒78・10000m 28分29秒53・半馬 1時間00分56秒",
+    "coverage": "島田晃希的出生日期、出身校与当前 PB",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://www.logisteed.com/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "logisteed-ogata",
+    "title": "ロジスティード 陸上部 選手紹介 緒方 澪那斗",
+    "url": "https://www.logisteed.com/jp/profile/running/member/post_31/",
+    "collectedAt": "2026-11-17",
+    "locator": "生年月日 2004年02月07日／出身校 市立船橋高校/東洋大学／PB 5000m 13分46秒19・10000m 28分27秒50・半馬 1時間01分42秒",
+    "coverage": "緒方澪那斗的出生日期、出身校与当前 PB",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://www.logisteed.com/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "logisteed-hirabayashi",
+    "title": "ロジスティード 陸上部 選手紹介 平林 清澄",
+    "url": "https://www.logisteed.com/jp/profile/running/member/post_27/",
+    "collectedAt": "2026-11-17",
+    "locator": "生年月日 2002年12月04日／出身校 福井県立美方高校/國學院大學／PB 10000m 27分37秒13・半馬 1時間01分23秒・マラソン 2時間06分14秒",
+    "coverage": "平林清澄的出生日期、出身校与当前 PB",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://www.logisteed.com/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "kokugakuin-top10",
+    "title": "國學院大學 陸上競技部 競技部10傑（5000m/10000m/半馬）",
+    "url": "https://www.kokugakuin.com/top10/426/",
+    "collectedAt": "2026-11-17",
+    "locator": "5000m 4位 辻原輝 13'35\"30 ホクレンDC深川 令和7年6月11日; 10000m 6位 上原琉翔 28'16\"76 関東インカレ 令和6年5月9日; 10位 辻原輝 28'24\"68 関東インカレ 令和8年5月21日; 半馬 1位 上原琉翔 60'30\" 日本学生ハーフ 令和7年2月2日; 2位 辻原輝 60'33\" ベルリンハーフ 令和8年3月29日; 8位 平林清澄 61'23\" 上海ハーフ 令和6年4月21日",
+    "coverage": "辻原/上原/平林的 PB 成绩、日期与赛事",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://www.kokugakuin.com/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
   }
 ]

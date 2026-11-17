@@ -951,7 +951,38 @@
     {
       "athleteId": "athlete-aj24-01-3",
       "reviewedAt": "2026-11-17",
-      "personalBests": [],
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 815300,
+          "precision": "centisecond",
+          "achievedOn": "2025-06-11",
+          "meet": "ホクレン・ディスタンスチャレンジ2025深川大会（深川市陸上競技場）",
+          "sourceId": "kokugakuin-top10",
+          "locator": "5000m 4位 辻原輝 13'35\"30 ホクレンDC深川 令和7年6月11日",
+          "revision": "retrieved 2026-11-17"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1704680,
+          "precision": "centisecond",
+          "achievedOn": "2026-05-21",
+          "meet": "関東学生陸上競技対校選手権大会 男子10000m（カンセキスタジアムとちぎ）",
+          "sourceId": "kokugakuin-top10",
+          "locator": "10000m 10位 辻原輝 28'24\"68 関東インカレ 令和8年5月21日",
+          "revision": "retrieved 2026-11-17"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3633000,
+          "precision": "second",
+          "achievedOn": "2026-03-29",
+          "meet": "ベルリンハーフマラソン（ベルリン）",
+          "sourceId": "kokugakuin-top10",
+          "locator": "半馬 2位 辻原輝 60'33\" ベルリンハーフ 令和8年3月29日",
+          "revision": "retrieved 2026-11-17"
+        }
+      ],
       "highSchool": {
         "value": "藤沢翔陵高（神奈川県）",
         "sourceId": "hochi-tsujihara",
@@ -962,7 +993,38 @@
     {
       "athleteId": "athlete-aj24-01-8",
       "reviewedAt": "2026-11-17",
-      "personalBests": [],
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 825580,
+          "precision": "centisecond",
+          "achievedOn": "2024-04-13",
+          "meet": "日本体育大学長距離競技会（日体大健志台）",
+          "sourceId": "kokugakuin-top10",
+          "locator": "5000m 9位 上原琉翔 13'45\"58 日体大長距離 令和6年4月13日",
+          "revision": "retrieved 2026-11-17"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1696760,
+          "precision": "centisecond",
+          "achievedOn": "2024-05-09",
+          "meet": "関東学生陸上競技対校選手権大会 男子10000m（国立競技場）",
+          "sourceId": "kokugakuin-top10",
+          "locator": "10000m 6位 上原琉翔 28'16\"76 関東インカレ 令和6年5月9日",
+          "revision": "retrieved 2026-11-17"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3630000,
+          "precision": "second",
+          "achievedOn": "2025-02-02",
+          "meet": "第77回香川丸亀国際ハーフマラソン 兼 日本学生ハーフマラソン（丸亀）",
+          "sourceId": "kokugakuin-top10",
+          "locator": "半馬 1位 上原琉翔 60'30\" 日本学生ハーフ 令和7年2月2日",
+          "revision": "retrieved 2026-11-17"
+        }
+      ],
       "highSchool": {
         "value": "北山高（沖縄県）",
         "sourceId": "hochi-uehara",
@@ -1001,6 +1063,12 @@
         "sourceId": "hochi-ishimaru",
         "locator": "選手名鑑: 学年4年・出身校 出水中央",
         "revision": "retrieved 2026-11-17"
+      },
+      "birthDate": {
+        "value": "2003-08-10",
+        "sourceId": "logisteed-ishimaru",
+        "locator": "生年月日 2003年08月10日",
+        "revision": "retrieved 2026-11-17"
       }
     },
     {
@@ -1026,6 +1094,16 @@
           "meet": "ホクレン・ディスタンスチャレンジ2026北見大会（北見市東陵公園陸上競技場）",
           "sourceId": "soka-ekiden-alltime",
           "locator": "5000m 9位 織橋巧 13:42.97 2026/7/11 ホクレンDC北見 北見市東稜公園陸上競技場",
+          "revision": "retrieved 2026-11-17"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3676000,
+          "precision": "second",
+          "achievedOn": "2025-02-02",
+          "meet": "第77回香川丸亀国際ハーフマラソン 兼 日本学生ハーフマラソン（丸亀）",
+          "sourceId": "soka-ekiden-alltime",
+          "locator": "ハーフ 3位 織橋巧 1:01:16 2025/2/2 学生ハーフ・丸亀",
           "revision": "retrieved 2026-11-17"
         }
       ],
@@ -1058,6 +1136,16 @@
           "meet": "ぎふ清流ハーフマラソン2026（岐阜メモリアルセンター周辺）",
           "sourceId": "soka-ekiden-alltime",
           "locator": "ハーフ 1位 ムチーニ 1:00:38 2026/4/26 ぎふ清流ハーフマラソン2026 岐阜メモリアルセンター周辺",
+          "revision": "retrieved 2026-11-17"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1654320,
+          "precision": "centisecond",
+          "achievedOn": "2025-11-22",
+          "meet": "2025八王子ロングディスタンス（上柚木公園陸上競技場）",
+          "sourceId": "soka-ekiden-alltime",
+          "locator": "10000m 1位 ムチーニ 27:34.32 2025/11/22 八王子LD",
           "revision": "retrieved 2026-11-17"
         }
       ],
@@ -1121,6 +1209,12 @@
         "sourceId": "hochi-shimada",
         "locator": "選手名鑑: 学年4年・登録陸協 三重・出身校 高田（三重）",
         "revision": "retrieved 2026-11-17"
+      },
+      "birthDate": {
+        "value": "2004-01-25",
+        "sourceId": "logisteed-shimada",
+        "locator": "生年月日 2004年01月25日",
+        "revision": "retrieved 2026-11-17"
       }
     },
     {
@@ -1176,6 +1270,12 @@
         "sourceId": "hochi-ogata",
         "locator": "選手名鑑: 学年4年・登録陸協 千葉・出身校 市船橋",
         "revision": "retrieved 2026-11-17"
+      },
+      "birthDate": {
+        "value": "2004-02-07",
+        "sourceId": "logisteed-ogata",
+        "locator": "生年月日 2004年02月07日",
+        "revision": "retrieved 2026-11-17"
       }
     },
     {
@@ -1193,6 +1293,44 @@
           "revision": "retrieved 2026-11-17"
         }
       ]
+    },
+    {
+      "athleteId": "athlete-aj24-01-7",
+      "reviewedAt": "2026-11-17",
+      "personalBests": [
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1657130,
+          "precision": "centisecond",
+          "achievedOn": "2025-11-22",
+          "meet": "2025八王子ロングディスタンス（上柚木公園陸上競技場）",
+          "sourceId": "getsuriku-nonaka-hachioji-10000-2025",
+          "locator": "記事本文「27分37秒13で自己新を出した平林」",
+          "revision": "retrieved 2026-11-17"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3683000,
+          "precision": "second",
+          "achievedOn": "2024-04-21",
+          "meet": "上海ハーフマラソン ハーフマラソン決勝（上海）",
+          "sourceId": "kokugakuin-top10",
+          "locator": "半馬 8位 平林清澄 61'23\" 上海ハーフ 令和6年4月21日",
+          "revision": "retrieved 2026-11-17"
+        }
+      ],
+      "birthDate": {
+        "value": "2002-12-04",
+        "sourceId": "logisteed-hirabayashi",
+        "locator": "生年月日 2002年12月04日",
+        "revision": "retrieved 2026-11-17"
+      },
+      "highSchool": {
+        "value": "美方高（福井県）",
+        "sourceId": "logisteed-hirabayashi",
+        "locator": "出身校 福井県立美方高校",
+        "revision": "retrieved 2026-11-17"
+      }
     }
   ]
 }

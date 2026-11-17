@@ -1,0 +1,1678 @@
+{
+  "batchId": "2026-11-17-batch2-round3-repair",
+  "readyForReview": false,
+  "scopeNote": "按独立授权范围（五位选手×五个字段，asOf 2026-11-17）逐字段记录。9项修复已核验入库；16项复核结论亦入记录。organizer-results 对多数 PB 尚未取得主办方原件，故 readyForReview=false，等待授权文件与独立复核。",
+  "subjects": [
+    {
+      "athleteId": "athlete-aj25-04-2",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "exact-value",
+          "status": "searched",
+          "searchIndexes": [
+            1
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "姓名+完整成绩反查已执行"
+        },
+        {
+          "kind": "alternate-value",
+          "status": "searched",
+          "searchIndexes": [
+            2
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "日文分秒写法反查已执行"
+        },
+        {
+          "kind": "event-year",
+          "status": "searched",
+          "searchIndexes": [
+            3
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "姓名+项目+年份查询已执行"
+        },
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "大学历代表/记录页已读"
+        },
+        {
+          "kind": "university-results",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "大学记录页已读并支持该成绩"
+        },
+        {
+          "kind": "organizer-results",
+          "status": "not-started",
+          "searchIndexes": [],
+          "alternativeSearchIndexes": [],
+          "reason": "未取得主办方原始成绩单"
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "在校生，无需实业团档案"
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "在校生，无实业团比赛结果"
+        }
+      ],
+      "nextActions": [
+        "独立复核者重开一手来源核对身份、日期与最新PB"
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-04-2",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "exact-value",
+          "status": "searched",
+          "searchIndexes": [
+            1
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "姓名+完整成绩反查已执行"
+        },
+        {
+          "kind": "alternate-value",
+          "status": "searched",
+          "searchIndexes": [
+            2
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "日文分秒写法反查已执行"
+        },
+        {
+          "kind": "event-year",
+          "status": "searched",
+          "searchIndexes": [
+            3
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "姓名+项目+年份查询已执行"
+        },
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "大学历代表/记录页已读"
+        },
+        {
+          "kind": "university-results",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "大学记录页已读并支持该成绩"
+        },
+        {
+          "kind": "organizer-results",
+          "status": "not-started",
+          "searchIndexes": [],
+          "alternativeSearchIndexes": [],
+          "reason": "未取得主办方原始成绩单"
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "在校生，无需实业团档案"
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "在校生，无实业团比赛结果"
+        }
+      ],
+      "nextActions": [
+        "独立复核者重开一手来源核对身份、日期与最新PB"
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-04-2",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "exact-value",
+          "status": "searched",
+          "searchIndexes": [
+            1
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "姓名+完整成绩反查已执行"
+        },
+        {
+          "kind": "alternate-value",
+          "status": "searched",
+          "searchIndexes": [
+            2
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "日文分秒写法反查已执行"
+        },
+        {
+          "kind": "event-year",
+          "status": "searched",
+          "searchIndexes": [
+            3
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "姓名+项目+年份查询已执行"
+        },
+        {
+          "kind": "university-ranking",
+          "status": "blocked",
+          "searchIndexes": [
+            4
+          ],
+          "alternativeSearchIndexes": [
+            0
+          ],
+          "reason": "大学历代表页面404/空，以WA档案替代"
+        },
+        {
+          "kind": "university-results",
+          "status": "blocked",
+          "searchIndexes": [
+            4
+          ],
+          "alternativeSearchIndexes": [
+            0
+          ],
+          "reason": "大学记录页面404/空，以WA档案替代"
+        },
+        {
+          "kind": "organizer-results",
+          "status": "not-started",
+          "searchIndexes": [],
+          "alternativeSearchIndexes": [],
+          "reason": "未取得主办方原始成绩单"
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "在校生，无需实业团档案"
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "在校生，无实业团比赛结果"
+        }
+      ],
+      "nextActions": [
+        "独立复核者重开一手来源核对身份、日期与最新PB"
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-05-5",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "exact-value",
+          "status": "searched",
+          "searchIndexes": [
+            1
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "姓名+完整成绩反查已执行"
+        },
+        {
+          "kind": "alternate-value",
+          "status": "searched",
+          "searchIndexes": [
+            2
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "日文分秒写法反查已执行"
+        },
+        {
+          "kind": "event-year",
+          "status": "searched",
+          "searchIndexes": [
+            3
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "姓名+项目+年份查询已执行"
+        },
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "大学历代表/记录页已读"
+        },
+        {
+          "kind": "university-results",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "大学记录页已读并支持该成绩"
+        },
+        {
+          "kind": "organizer-results",
+          "status": "not-started",
+          "searchIndexes": [],
+          "alternativeSearchIndexes": [],
+          "reason": "未取得主办方原始成绩单"
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "在校生，无需实业团档案"
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "在校生，无实业团比赛结果"
+        }
+      ],
+      "nextActions": [
+        "独立复核者重开一手来源核对身份、日期与最新PB"
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-05-5",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "exact-value",
+          "status": "searched",
+          "searchIndexes": [
+            1
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "姓名+完整成绩反查已执行"
+        },
+        {
+          "kind": "alternate-value",
+          "status": "searched",
+          "searchIndexes": [
+            2
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "日文分秒写法反查已执行"
+        },
+        {
+          "kind": "event-year",
+          "status": "searched",
+          "searchIndexes": [
+            3
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "姓名+项目+年份查询已执行"
+        },
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "大学历代表/记录页已读"
+        },
+        {
+          "kind": "university-results",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "大学记录页已读并支持该成绩"
+        },
+        {
+          "kind": "organizer-results",
+          "status": "not-started",
+          "searchIndexes": [],
+          "alternativeSearchIndexes": [],
+          "reason": "未取得主办方原始成绩单"
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "在校生，无需实业团档案"
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "在校生，无实业团比赛结果"
+        }
+      ],
+      "nextActions": [
+        "独立复核者重开一手来源核对身份、日期与最新PB"
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-13-1",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "exact-value",
+          "status": "searched",
+          "searchIndexes": [
+            1
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "姓名+完整成绩反查已执行"
+        },
+        {
+          "kind": "alternate-value",
+          "status": "searched",
+          "searchIndexes": [
+            2
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "日文分秒写法反查已执行"
+        },
+        {
+          "kind": "event-year",
+          "status": "searched",
+          "searchIndexes": [
+            3
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "姓名+项目+年份查询已执行"
+        },
+        {
+          "kind": "university-ranking",
+          "status": "blocked",
+          "searchIndexes": [
+            4
+          ],
+          "alternativeSearchIndexes": [
+            0
+          ],
+          "reason": "大学历代表页面404/空，以WA档案替代"
+        },
+        {
+          "kind": "university-results",
+          "status": "blocked",
+          "searchIndexes": [
+            4
+          ],
+          "alternativeSearchIndexes": [
+            0
+          ],
+          "reason": "大学记录页面404/空，以WA档案替代"
+        },
+        {
+          "kind": "organizer-results",
+          "status": "not-started",
+          "searchIndexes": [],
+          "alternativeSearchIndexes": [],
+          "reason": "未取得主办方原始成绩单"
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "在校生，无需实业团档案"
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "在校生，无实业团比赛结果"
+        }
+      ],
+      "nextActions": [
+        "独立复核者重开一手来源核对身份、日期与最新PB"
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-13-1",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "exact-value",
+          "status": "searched",
+          "searchIndexes": [
+            1
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "姓名+完整成绩反查已执行"
+        },
+        {
+          "kind": "alternate-value",
+          "status": "searched",
+          "searchIndexes": [
+            2
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "日文分秒写法反查已执行"
+        },
+        {
+          "kind": "event-year",
+          "status": "searched",
+          "searchIndexes": [
+            3
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "姓名+项目+年份查询已执行"
+        },
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "大学历代表/记录页已读"
+        },
+        {
+          "kind": "university-results",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "大学记录页已读并支持该成绩"
+        },
+        {
+          "kind": "organizer-results",
+          "status": "not-started",
+          "searchIndexes": [],
+          "alternativeSearchIndexes": [],
+          "reason": "未取得主办方原始成绩单"
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "在校生，无需实业团档案"
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "在校生，无实业团比赛结果"
+        }
+      ],
+      "nextActions": [
+        "独立复核者重开一手来源核对身份、日期与最新PB"
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-13-1",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "exact-value",
+          "status": "searched",
+          "searchIndexes": [
+            1
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "姓名+完整成绩反查已执行"
+        },
+        {
+          "kind": "alternate-value",
+          "status": "searched",
+          "searchIndexes": [
+            2
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "日文分秒写法反查已执行"
+        },
+        {
+          "kind": "event-year",
+          "status": "searched",
+          "searchIndexes": [
+            3
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "姓名+项目+年份查询已执行"
+        },
+        {
+          "kind": "university-ranking",
+          "status": "blocked",
+          "searchIndexes": [
+            4
+          ],
+          "alternativeSearchIndexes": [
+            0
+          ],
+          "reason": "大学历代表页面404/空，以WA档案替代"
+        },
+        {
+          "kind": "university-results",
+          "status": "blocked",
+          "searchIndexes": [
+            4
+          ],
+          "alternativeSearchIndexes": [
+            0
+          ],
+          "reason": "大学记录页面404/空，以WA档案替代"
+        },
+        {
+          "kind": "organizer-results",
+          "status": "not-started",
+          "searchIndexes": [],
+          "alternativeSearchIndexes": [],
+          "reason": "未取得主办方原始成绩单"
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "在校生，无需实业团档案"
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "在校生，无实业团比赛结果"
+        }
+      ],
+      "nextActions": [
+        "独立复核者重开一手来源核对身份、日期与最新PB"
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-04-2",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "exact-value",
+          "status": "searched",
+          "searchIndexes": [
+            1
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "姓名+完整成绩反查已执行"
+        },
+        {
+          "kind": "alternate-value",
+          "status": "searched",
+          "searchIndexes": [
+            2
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "日文分秒写法反查已执行"
+        },
+        {
+          "kind": "event-year",
+          "status": "searched",
+          "searchIndexes": [
+            3
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "姓名+项目+年份查询已执行"
+        },
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "大学历代表/记录页已读"
+        },
+        {
+          "kind": "university-results",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "大学记录页已读并支持该成绩"
+        },
+        {
+          "kind": "organizer-results",
+          "status": "not-started",
+          "searchIndexes": [],
+          "alternativeSearchIndexes": [],
+          "reason": "未取得主办方原始成绩单"
+        },
+        {
+          "kind": "employer-profile",
+          "status": "blocked",
+          "searchIndexes": [
+            5
+          ],
+          "alternativeSearchIndexes": [
+            0
+          ],
+          "reason": "实业团页面不可访问，以本人/大学档案替代"
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-started",
+          "searchIndexes": [],
+          "alternativeSearchIndexes": [],
+          "reason": "未取得实业团历年比赛结果"
+        }
+      ],
+      "nextActions": [
+        "独立复核者重开一手来源核对身份、日期与最新PB"
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-04-2",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "exact-value",
+          "status": "searched",
+          "searchIndexes": [
+            1
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "姓名+完整成绩反查已执行"
+        },
+        {
+          "kind": "alternate-value",
+          "status": "searched",
+          "searchIndexes": [
+            2
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "日文分秒写法反查已执行"
+        },
+        {
+          "kind": "event-year",
+          "status": "searched",
+          "searchIndexes": [
+            3
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "姓名+项目+年份查询已执行"
+        },
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "大学历代表/记录页已读"
+        },
+        {
+          "kind": "university-results",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "大学记录页已读并支持该成绩"
+        },
+        {
+          "kind": "organizer-results",
+          "status": "not-started",
+          "searchIndexes": [],
+          "alternativeSearchIndexes": [],
+          "reason": "未取得主办方原始成绩单"
+        },
+        {
+          "kind": "employer-profile",
+          "status": "blocked",
+          "searchIndexes": [
+            5
+          ],
+          "alternativeSearchIndexes": [
+            0
+          ],
+          "reason": "实业团页面不可访问，以本人/大学档案替代"
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-started",
+          "searchIndexes": [],
+          "alternativeSearchIndexes": [],
+          "reason": "未取得实业团历年比赛结果"
+        }
+      ],
+      "nextActions": [
+        "独立复核者重开一手来源核对身份、日期与最新PB"
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-04-2",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "exact-value",
+          "status": "searched",
+          "searchIndexes": [
+            1
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "姓名+完整成绩反查已执行"
+        },
+        {
+          "kind": "alternate-value",
+          "status": "searched",
+          "searchIndexes": [
+            2
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "日文分秒写法反查已执行"
+        },
+        {
+          "kind": "event-year",
+          "status": "searched",
+          "searchIndexes": [
+            3
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "姓名+项目+年份查询已执行"
+        },
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "大学历代表/记录页已读"
+        },
+        {
+          "kind": "university-results",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "大学记录页已读并支持该成绩"
+        },
+        {
+          "kind": "organizer-results",
+          "status": "searched",
+          "searchIndexes": [
+            6
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "主办方/计时成绩已读"
+        },
+        {
+          "kind": "employer-profile",
+          "status": "blocked",
+          "searchIndexes": [
+            5
+          ],
+          "alternativeSearchIndexes": [
+            0
+          ],
+          "reason": "实业团页面不可访问，以本人/大学档案替代"
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-started",
+          "searchIndexes": [],
+          "alternativeSearchIndexes": [],
+          "reason": "未取得实业团历年比赛结果"
+        }
+      ],
+      "nextActions": [
+        "独立复核者重开一手来源核对身份、日期与最新PB"
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-03-7",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "exact-value",
+          "status": "searched",
+          "searchIndexes": [
+            1
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "姓名+完整成绩反查已执行"
+        },
+        {
+          "kind": "alternate-value",
+          "status": "searched",
+          "searchIndexes": [
+            2
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "日文分秒写法反查已执行"
+        },
+        {
+          "kind": "event-year",
+          "status": "searched",
+          "searchIndexes": [
+            3
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "姓名+项目+年份查询已执行"
+        },
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "大学历代表/记录页已读"
+        },
+        {
+          "kind": "university-results",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "大学记录页已读并支持该成绩"
+        },
+        {
+          "kind": "organizer-results",
+          "status": "not-started",
+          "searchIndexes": [],
+          "alternativeSearchIndexes": [],
+          "reason": "未取得主办方原始成绩单"
+        },
+        {
+          "kind": "employer-profile",
+          "status": "searched",
+          "searchIndexes": [
+            4
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "实业团/本人档案已读"
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-started",
+          "searchIndexes": [],
+          "alternativeSearchIndexes": [],
+          "reason": "未取得实业团历年比赛结果"
+        }
+      ],
+      "nextActions": [
+        "独立复核者重开一手来源核对身份、日期与最新PB"
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-03-7",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "exact-value",
+          "status": "searched",
+          "searchIndexes": [
+            1
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "姓名+完整成绩反查已执行"
+        },
+        {
+          "kind": "alternate-value",
+          "status": "searched",
+          "searchIndexes": [
+            2
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "日文分秒写法反查已执行"
+        },
+        {
+          "kind": "event-year",
+          "status": "searched",
+          "searchIndexes": [
+            3
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "姓名+项目+年份查询已执行"
+        },
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "大学历代表/记录页已读"
+        },
+        {
+          "kind": "university-results",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "大学记录页已读并支持该成绩"
+        },
+        {
+          "kind": "organizer-results",
+          "status": "not-started",
+          "searchIndexes": [],
+          "alternativeSearchIndexes": [],
+          "reason": "未取得主办方原始成绩单"
+        },
+        {
+          "kind": "employer-profile",
+          "status": "searched",
+          "searchIndexes": [
+            4
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "实业团/本人档案已读"
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-started",
+          "searchIndexes": [],
+          "alternativeSearchIndexes": [],
+          "reason": "未取得实业团历年比赛结果"
+        }
+      ],
+      "nextActions": [
+        "独立复核者重开一手来源核对身份、日期与最新PB"
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-03-7",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "exact-value",
+          "status": "searched",
+          "searchIndexes": [
+            1
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "姓名+完整成绩反查已执行"
+        },
+        {
+          "kind": "alternate-value",
+          "status": "searched",
+          "searchIndexes": [
+            2
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "日文分秒写法反查已执行"
+        },
+        {
+          "kind": "event-year",
+          "status": "searched",
+          "searchIndexes": [
+            3
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "姓名+项目+年份查询已执行"
+        },
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "大学历代表/记录页已读"
+        },
+        {
+          "kind": "university-results",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "大学记录页已读并支持该成绩"
+        },
+        {
+          "kind": "organizer-results",
+          "status": "not-started",
+          "searchIndexes": [],
+          "alternativeSearchIndexes": [],
+          "reason": "未取得主办方原始成绩单"
+        },
+        {
+          "kind": "employer-profile",
+          "status": "searched",
+          "searchIndexes": [
+            4
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "实业团/本人档案已读"
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-started",
+          "searchIndexes": [],
+          "alternativeSearchIndexes": [],
+          "reason": "未取得实业团历年比赛结果"
+        }
+      ],
+      "nextActions": [
+        "独立复核者重开一手来源核对身份、日期与最新PB"
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-04-2",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "personal-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "无个人档案页，以官方档案为准"
+        },
+        {
+          "kind": "university-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "传记字段无需赛事结果"
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "在校生，无需实业团档案"
+        }
+      ],
+      "nextActions": [
+        "独立复核者重开一手档案核对"
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-04-2",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "personal-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "无个人档案页，以官方档案为准"
+        },
+        {
+          "kind": "university-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "传记字段无需赛事结果"
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "在校生，无需实业团档案"
+        }
+      ],
+      "nextActions": [
+        "独立复核者重开一手档案核对"
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-05-5",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "personal-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "无个人档案页，以官方档案为准"
+        },
+        {
+          "kind": "university-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "传记字段无需赛事结果"
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "在校生，无需实业团档案"
+        }
+      ],
+      "nextActions": [
+        "独立复核者重开一手档案核对"
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-05-5",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "personal-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "无个人档案页，以官方档案为准"
+        },
+        {
+          "kind": "university-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "传记字段无需赛事结果"
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "在校生，无需实业团档案"
+        }
+      ],
+      "nextActions": [
+        "独立复核者重开一手档案核对"
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-13-1",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "personal-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "无个人档案页，以官方档案为准"
+        },
+        {
+          "kind": "university-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "传记字段无需赛事结果"
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "在校生，无需实业团档案"
+        }
+      ],
+      "nextActions": [
+        "独立复核者重开一手档案核对"
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-13-1",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "personal-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "无个人档案页，以官方档案为准"
+        },
+        {
+          "kind": "university-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "传记字段无需赛事结果"
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "在校生，无需实业团档案"
+        }
+      ],
+      "nextActions": [
+        "独立复核者重开一手档案核对"
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-04-2",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "personal-profile",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "本人官网已读"
+        },
+        {
+          "kind": "university-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "传记字段无需赛事结果"
+        },
+        {
+          "kind": "employer-profile",
+          "status": "blocked",
+          "searchIndexes": [
+            3
+          ],
+          "alternativeSearchIndexes": [
+            0
+          ],
+          "reason": "实业团页面不可访问，以本人/官方档案替代"
+        }
+      ],
+      "nextActions": [
+        "独立复核者重开一手档案核对"
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-04-2",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "personal-profile",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "本人官网已读"
+        },
+        {
+          "kind": "university-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "传记字段无需赛事结果"
+        },
+        {
+          "kind": "employer-profile",
+          "status": "blocked",
+          "searchIndexes": [
+            3
+          ],
+          "alternativeSearchIndexes": [
+            0
+          ],
+          "reason": "实业团页面不可访问，以本人/官方档案替代"
+        }
+      ],
+      "nextActions": [
+        "独立复核者重开一手档案核对"
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-03-7",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "personal-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "无个人档案页，以官方档案为准"
+        },
+        {
+          "kind": "university-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "传记字段无需赛事结果"
+        },
+        {
+          "kind": "employer-profile",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "实业团档案已读"
+        }
+      ],
+      "nextActions": [
+        "独立复核者重开一手档案核对"
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-03-7",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "personal-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "无个人档案页，以官方档案为准"
+        },
+        {
+          "kind": "university-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "传记字段无需赛事结果"
+        },
+        {
+          "kind": "employer-profile",
+          "status": "searched",
+          "searchIndexes": [
+            3
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "实业团档案已读"
+        }
+      ],
+      "nextActions": [
+        "独立复核者重开一手档案核对"
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-05-5",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            2
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "早大历代表已读（无半马栏）"
+        },
+        {
+          "kind": "university-results",
+          "status": "searched",
+          "searchIndexes": [
+            2
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "早大记录页已读"
+        },
+        {
+          "kind": "organizer-results",
+          "status": "not-started",
+          "searchIndexes": [],
+          "alternativeSearchIndexes": [],
+          "reason": "未取得主办方半马成绩单"
+        },
+        {
+          "kind": "event-year",
+          "status": "searched",
+          "searchIndexes": [
+            1
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "姓名+半马+年份查询已执行"
+        }
+      ],
+      "nextActions": [
+        "独立复核者确认 not-found 检索范围是否足够"
+      ]
+    }
+  ]
+}

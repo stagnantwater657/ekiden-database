@@ -1393,5 +1393,110 @@
       "basis": "University track-team ranking page reviewed. Only objective facts recorded; no page content republished. No permission claimed.",
       "permissionReference": null
     }
+  },
+  {
+    "id": "soka-ekiden-alltime",
+    "title": "創価大学駅伝部 歴代ベスト記録",
+    "url": "https://soka-ekiden.com/play/?page_id=269",
+    "collectedAt": "2026-11-17",
+    "locator": "5000m: 吉田響 13:39.94 2024/7/17 ホクレンDC深川；小池莉希 13:28.80 2026/6/12 日本選手権；10000m: 吉田響 28:12.01 2024/5/9 関東インカレ；小池莉希 27:52.43 2026/5/21；半马: 吉田響 1:01:45 2024/6/30 函館マラソン",
+    "coverage": "創価大选手的历代记录（值、日期、赛事、场地）",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://soka-ekiden.com/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "aogaku-2023-results",
+    "title": "青山学院大学陸上競技部 2023年 試合結果",
+    "url": "https://aogaku-tf.com/results-2023.html",
+    "collectedAt": "2026-11-17",
+    "locator": "第10回絆記録挑戦会 09.24: 5000m 3組 20 太田蒼生 3年 13:53.10 PB；MARCH対抗戦2023 11.22: 10000m 4組 5 太田蒼生 3年 28:20.63 PB",
+    "coverage": "太田蒼生的 5000m/10000m 赛事、日期、组别与成绩",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://aogaku-tf.com/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "aogaku-2024-results",
+    "title": "青山学院大学陸上競技部 2024年 試合結果",
+    "url": "https://aogaku-tf.com/results-2024.html",
+    "collectedAt": "2026-11-17",
+    "locator": "上海ハーフマラソン 04.21: ハーフマラソン決勝 男子 8 太田蒼生 4年 1:02:30 初レース",
+    "coverage": "太田蒼生 半马 的赛事、日期、名次与成绩",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://aogaku-tf.com/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "gmo-ota-2025-join",
+    "title": "GMOインターネットグループ 2025年度 加入選手プロフィール 太田蒼生",
+    "url": "https://athletes.gmo.jp/news/6213/",
+    "collectedAt": "2026-11-17",
+    "locator": "【加入選手プロフィール】名前 太田蒼生／出身地 福岡県糟屋郡／生年月日 2002年8月26日／主な実績 第98-101回箱根駅伝",
+    "coverage": "太田蒼生的出生日期与身份",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://athletes.gmo.jp/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "nagano-hs-records",
+    "title": "長野県陸上競技協会 長野県高校記録（男子）",
+    "url": "https://nrk-dir.jp/nrk_record/nrk_hsrecordm",
+    "collectedAt": "2026-11-17",
+    "locator": "5000m 13:22.99 吉岡大翔 佐久長聖 2022/11/13 健志台・日体大長距離",
+    "coverage": "吉岡大翔 5000m 的成绩、日期、场地与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://nrk-dir.jp/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "juntendo-325th-nittaidai",
+    "title": "順天堂大学駅伝 第325回日本体育大学長距離競技会 結果",
+    "url": "http://juntendo-longdistance.com/result/%e7%ac%ac325%e5%9b%9e%e6%97%a5%e6%9c%ac%e4%bd%93%e8%82%b2%e5%a4%a7%e5%ad%a6%e9%95%b7%e8%b7%9d%e9%9b%a2%e7%ab%b6%e6%8a%80%e4%bc%9a%ef%bc%88%e6%97%a5%e6%9c%ac%e4%bd%93%e8%82%b2%e5%a4%a7%e5%ad%a6/",
+    "collectedAt": "2026-11-17",
+    "locator": "男子10000m14組目 4 吉岡大翔 3 28'08\"02 PB 順大歴代3位（2025-11-29、日体大健志台）",
+    "coverage": "吉岡大翔 10000m 的赛事、日期、组别与成绩",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "http://juntendo-longdistance.com/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "runnet-hakodate-2024",
+    "title": "RUNNET 2024函館マラソン 個人記録 ナンバー164",
+    "url": "https://runnet.jp/record/smp/raceresultshow.do?raceId=345214&numberCard=164",
+    "collectedAt": "2026-11-17",
+    "locator": "氏名 吉田響／種目 ハーフ 男子招待・実業団学連登録／距離21.0975km／グロス1:01:45／ネット1:01:44／種目別1位",
+    "coverage": "吉田響 半马 的赛事、距离、成绩与名次",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://runnet.jp/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "permissionReference": null
+    }
   }
 ]

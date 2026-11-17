@@ -727,7 +727,7 @@
           "timeMilliseconds": 808800,
           "precision": "centisecond",
           "achievedOn": "2026-06-12",
-          "meet": "第110回日本陸上競技選手権大会 男子5000m（名古屋・瑞穂公園陸上競技場）",
+          "meet": "第110回日本陸上競技選手権大会 男子5000m（名古屋・パロマ瑞穂スタジアム）",
           "sourceId": "wa-riki-koike",
           "locator": "Profile → Personal Bests → 5000 Metres; competition Japanese Championships; date 12 JUN 2026",
           "revision": "World Athletics profile retrieved 2026-11-17"
@@ -737,7 +737,7 @@
           "timeMilliseconds": 1672430,
           "precision": "centisecond",
           "achievedOn": "2026-05-21",
-          "meet": "第105回関東学生対校選手権大会 男子10000m 2部（宇都宮・関石スタジアム）",
+          "meet": "第105回関東学生対校選手権大会 男子10000m 2部（宇都宮・カンセキスタジアムとちぎ）",
           "sourceId": "wa-riki-koike",
           "locator": "Profile → Personal Bests → 10,000 Metres; competition The 105th Kanto Inter-University Track & Field Championships - 2nd Tier; date 21 MAY 2026",
           "revision": "World Athletics profile retrieved 2026-11-17"
@@ -809,6 +809,26 @@
       "reviewedAt": "2026-11-17",
       "personalBests": [
         {
+          "event": "5000m",
+          "timeMilliseconds": 802990,
+          "precision": "centisecond",
+          "achievedOn": "2022-11-13",
+          "meet": "日本体育大学長距離競技会（日体大健志台）",
+          "sourceId": "nagano-hs-records",
+          "locator": "5000m 13:22.99 吉岡大翔 佐久長聖 2022/11/13 健志台・日体大長距離",
+          "revision": "retrieved 2026-11-17"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1688020,
+          "precision": "centisecond",
+          "achievedOn": "2025-11-29",
+          "meet": "第325回日本体育大学長距離競技会兼第19回NITTAIDAI Challenge Games（日体大健志台）",
+          "sourceId": "juntendo-325th-nittaidai",
+          "locator": "男子10000m14組目 4 吉岡大翔 3 28'08\"02 PB 順大歴代3位",
+          "revision": "retrieved 2026-11-17"
+        },
+        {
           "event": "half-marathon",
           "timeMilliseconds": 3745000,
           "precision": "second",
@@ -835,7 +855,38 @@
     {
       "athleteId": "athlete-aj24-04-2",
       "reviewedAt": "2026-11-17",
-      "personalBests": [],
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 819940,
+          "precision": "centisecond",
+          "achievedOn": "2024-07-17",
+          "meet": "ホクレン・ディスタンスチャレンジ2024深川大会（深川市陸上競技場）",
+          "sourceId": "soka-ekiden-alltime",
+          "locator": "5000m 7位 吉田響 13:39.94 2024/7/17 ホクレンDC深川",
+          "revision": "retrieved 2026-11-17"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1692010,
+          "precision": "centisecond",
+          "achievedOn": "2024-05-09",
+          "meet": "関東学生陸上競技対校選手権大会（国立競技場）",
+          "sourceId": "soka-ekiden-alltime",
+          "locator": "10000m 7位 吉田響 28:12.01 2024/5/9 関東インカレ 国立競技場",
+          "revision": "retrieved 2026-11-17"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3705000,
+          "precision": "second",
+          "achievedOn": "2024-06-30",
+          "meet": "2024函館マラソン（ハーフ・函館）",
+          "sourceId": "runnet-hakodate-2024",
+          "locator": "ナンバー164 吉田響 距離21.0975km グロス1:01:45 種目別1位",
+          "revision": "retrieved 2026-11-17"
+        }
+      ],
       "birthDate": {
         "value": "2002-08-20",
         "sourceId": "hibiki-yoshida-official",
@@ -852,11 +903,48 @@
     {
       "athleteId": "athlete-aj24-03-7",
       "reviewedAt": "2026-11-17",
-      "personalBests": [],
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 833100,
+          "precision": "centisecond",
+          "achievedOn": "2023-09-24",
+          "meet": "第10回絆記録挑戦会 男子5000m 3組（町田GIONスタジアム）",
+          "sourceId": "aogaku-2023-results",
+          "locator": "5000m 3組 20 太田蒼生 3年 13:53.10 PB",
+          "revision": "retrieved 2026-11-17"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1700630,
+          "precision": "centisecond",
+          "achievedOn": "2023-11-22",
+          "meet": "MARCH対抗戦2023 男子10000m 4組",
+          "sourceId": "aogaku-2023-results",
+          "locator": "10000m 4組 5 太田蒼生 3年 28:20.63 PB",
+          "revision": "retrieved 2026-11-17"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3750000,
+          "precision": "second",
+          "achievedOn": "2024-04-21",
+          "meet": "上海ハーフマラソン ハーフマラソン決勝（上海）",
+          "sourceId": "aogaku-2024-results",
+          "locator": "ハーフマラソン決勝 男子 8 太田蒼生 4年 1:02:30",
+          "revision": "retrieved 2026-11-17"
+        }
+      ],
       "highSchool": {
         "value": "大牟田高（福岡県）",
         "sourceId": "yomiuri-ota-2024",
         "locator": "プロフィル: 登録陸協 福岡・出身校 大牟田",
+        "revision": "retrieved 2026-11-17"
+      },
+      "birthDate": {
+        "value": "2002-08-26",
+        "sourceId": "gmo-ota-2025-join",
+        "locator": "【加入選手プロフィール】生年月日 2002年8月26日",
         "revision": "retrieved 2026-11-17"
       }
     }

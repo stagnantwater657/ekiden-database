@@ -1,0 +1,3846 @@
+{
+  "schemaVersion": 2,
+  "batchId": "2026-11-17-batch3-initial",
+  "researcher": "DSH / 20-athlete batch import round 1 (this session)",
+  "reviewedAt": "2026-11-17",
+  "records": [
+    {
+      "athleteId": "athlete-aj24-01-3",
+      "athleteName": "辻原 輝",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "藤沢翔陵高（神奈川県）",
+          "sourceUrl": "https://hochi.news/hakone/member/?school=kokugakuin&player=38",
+          "locator": "選手名鑑: 出身校 藤沢翔陵"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "辻原 輝 出身校",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=kokugakuin&player=38",
+              "section": "選手名鑑: 出身校 藤沢翔陵",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "名鑑给出出身校"
+        },
+        {
+          "stage": "reverse",
+          "query": "辻原 輝 出身校 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=kokugakuin&player=38",
+              "section": "選手名鑑: 出身校 藤沢翔陵",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "同源复核"
+        },
+        {
+          "stage": "verification",
+          "query": "辻原 輝 名鑑 交叉",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=kokugakuin&player=38",
+              "section": "選手名鑑: 出身校 藤沢翔陵",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "确认"
+        }
+      ],
+      "final": {
+        "value": "藤沢翔陵高（神奈川県）",
+        "sourceIds": [
+          "hochi-tsujihara"
+        ],
+        "locator": "選手名鑑: 出身校 藤沢翔陵",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "名鑑姓名、大学与学年与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "hochi-tsujihara",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "選手名鑑: 出身校 藤沢翔陵",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hochi.news",
+            "independenceNote": "報知名鑑（团队提交的选手资料）"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查实业团"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无赛事页"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "報知名鑑已读"
+          }
+        ],
+        "limitations": [
+          "单一来源（報知名鑑）"
+        ],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-01-8",
+      "athleteName": "上原 琉翔",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "北山高（沖縄県）",
+          "sourceUrl": "https://hochi.news/hakone/member/?school=kokugakuin&player=34",
+          "locator": "選手名鑑: 出身校 北山"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "上原 琉翔 出身校",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=kokugakuin&player=34",
+              "section": "選手名鑑: 出身校 北山",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "名鑑给出出身校"
+        },
+        {
+          "stage": "reverse",
+          "query": "上原 琉翔 出身校 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=kokugakuin&player=34",
+              "section": "選手名鑑: 出身校 北山",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "同源复核"
+        },
+        {
+          "stage": "verification",
+          "query": "上原 琉翔 名鑑 交叉",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=kokugakuin&player=34",
+              "section": "選手名鑑: 出身校 北山",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "确认"
+        }
+      ],
+      "final": {
+        "value": "北山高（沖縄県）",
+        "sourceIds": [
+          "hochi-uehara"
+        ],
+        "locator": "選手名鑑: 出身校 北山",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "名鑑姓名、大学与学年与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "hochi-uehara",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "選手名鑑: 出身校 北山",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hochi.news",
+            "independenceNote": "報知名鑑（团队提交的选手资料）"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查实业团"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无赛事页"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "報知名鑑已读"
+          }
+        ],
+        "limitations": [
+          "单一来源（報知名鑑）"
+        ],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-01-4",
+      "athleteName": "高山 豪起",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "高川学園高（山口県）",
+          "sourceUrl": "https://hochi.news/hakone/member/?school=kokugakuin&player=36",
+          "locator": "選手名鑑: 出身校 高川学園"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "高山 豪起 出身校",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=kokugakuin&player=36",
+              "section": "選手名鑑: 出身校 高川学園",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "名鑑给出出身校"
+        },
+        {
+          "stage": "reverse",
+          "query": "高山 豪起 出身校 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=kokugakuin&player=36",
+              "section": "選手名鑑: 出身校 高川学園",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "同源复核"
+        },
+        {
+          "stage": "verification",
+          "query": "高山 豪起 名鑑 交叉",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=kokugakuin&player=36",
+              "section": "選手名鑑: 出身校 高川学園",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "确认"
+        }
+      ],
+      "final": {
+        "value": "高川学園高（山口県）",
+        "sourceIds": [
+          "hochi-takayama"
+        ],
+        "locator": "選手名鑑: 出身校 高川学園",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "名鑑姓名、大学与学年与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "hochi-takayama",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "選手名鑑: 出身校 高川学園",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hochi.news",
+            "independenceNote": "報知名鑑（团队提交的选手资料）"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查实业团"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无赛事页"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "報知名鑑已读"
+          }
+        ],
+        "limitations": [
+          "单一来源（報知名鑑）"
+        ],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-04-3",
+      "athleteName": "石丸 惇那",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "出水中央高（鹿児島県）",
+          "sourceUrl": "https://hochi.news/hakone/member/?school=soka&player=97",
+          "locator": "選手名鑑: 出身校 出水中央"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "石丸 惇那 出身校",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=soka&player=97",
+              "section": "選手名鑑: 出身校 出水中央",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "名鑑给出出身校"
+        },
+        {
+          "stage": "reverse",
+          "query": "石丸 惇那 出身校 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=soka&player=97",
+              "section": "選手名鑑: 出身校 出水中央",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "同源复核"
+        },
+        {
+          "stage": "verification",
+          "query": "石丸 惇那 名鑑 交叉",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=soka&player=97",
+              "section": "選手名鑑: 出身校 出水中央",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "确认"
+        }
+      ],
+      "final": {
+        "value": "出水中央高（鹿児島県）",
+        "sourceIds": [
+          "hochi-ishimaru"
+        ],
+        "locator": "選手名鑑: 出身校 出水中央",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "名鑑姓名、大学与学年与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "hochi-ishimaru",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "選手名鑑: 出身校 出水中央",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hochi.news",
+            "independenceNote": "報知名鑑（团队提交的选手资料）"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查实业团"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无赛事页"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "報知名鑑已读"
+          }
+        ],
+        "limitations": [
+          "单一来源（報知名鑑）"
+        ],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-04-4",
+      "athleteName": "山口 翔輝",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "大牟田高（福岡県）",
+          "sourceUrl": "https://hochi.news/hakone/member/?school=soka&player=111",
+          "locator": "選手名鑑: 出身校 大牟田"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "山口 翔輝 出身校",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=soka&player=111",
+              "section": "選手名鑑: 出身校 大牟田",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "名鑑给出出身校"
+        },
+        {
+          "stage": "reverse",
+          "query": "山口 翔輝 出身校 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=soka&player=111",
+              "section": "選手名鑑: 出身校 大牟田",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "同源复核"
+        },
+        {
+          "stage": "verification",
+          "query": "山口 翔輝 名鑑 交叉",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=soka&player=111",
+              "section": "選手名鑑: 出身校 大牟田",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "确认"
+        }
+      ],
+      "final": {
+        "value": "大牟田高（福岡県）",
+        "sourceIds": [
+          "hochi-yamaguchi-shoki"
+        ],
+        "locator": "選手名鑑: 出身校 大牟田",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "名鑑姓名、大学与学年与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "hochi-yamaguchi-shoki",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "選手名鑑: 出身校 大牟田",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hochi.news",
+            "independenceNote": "報知名鑑（团队提交的选手资料）"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查实业团"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无赛事页"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "報知名鑑已读"
+          }
+        ],
+        "limitations": [
+          "单一来源（報知名鑑）"
+        ],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj25-04-4",
+      "athleteName": "織橋 巧",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "中京高（岐阜県）",
+          "sourceUrl": "https://hochi.news/hakone/member/?school=soka&player=101",
+          "locator": "選手名鑑: 出身校 中京"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "織橋 巧 出身校",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=soka&player=101",
+              "section": "選手名鑑: 出身校 中京",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "名鑑给出出身校"
+        },
+        {
+          "stage": "reverse",
+          "query": "織橋 巧 出身校 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=soka&player=101",
+              "section": "選手名鑑: 出身校 中京",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "同源复核"
+        },
+        {
+          "stage": "verification",
+          "query": "織橋 巧 名鑑 交叉",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=soka&player=101",
+              "section": "選手名鑑: 出身校 中京",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "确认"
+        }
+      ],
+      "final": {
+        "value": "中京高（岐阜県）",
+        "sourceIds": [
+          "hochi-orihashi"
+        ],
+        "locator": "選手名鑑: 出身校 中京",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "名鑑姓名、大学与学年与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "hochi-orihashi",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "選手名鑑: 出身校 中京",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hochi.news",
+            "independenceNote": "報知名鑑（团队提交的选手资料）"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查实业团"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无赛事页"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "報知名鑑已读"
+          }
+        ],
+        "limitations": [
+          "单一来源（報知名鑑）"
+        ],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-04-5",
+      "athleteName": "スティーブン ムチーニ",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "ミクユニ（ケニア）",
+          "sourceUrl": "https://hochi.news/hakone/member/?school=soka&player=105",
+          "locator": "選手名鑑: 出身校 ミクユニ(ケニア)"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "スティーブン ムチーニ 出身校",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=soka&player=105",
+              "section": "選手名鑑: 出身校 ミクユニ(ケニア)",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "名鑑给出出身校"
+        },
+        {
+          "stage": "reverse",
+          "query": "スティーブン ムチーニ 出身校 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=soka&player=105",
+              "section": "選手名鑑: 出身校 ミクユニ(ケニア)",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "同源复核"
+        },
+        {
+          "stage": "verification",
+          "query": "スティーブン ムチーニ 名鑑 交叉",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=soka&player=105",
+              "section": "選手名鑑: 出身校 ミクユニ(ケニア)",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "确认"
+        }
+      ],
+      "final": {
+        "value": "ミクユニ（ケニア）",
+        "sourceIds": [
+          "hochi-muthini"
+        ],
+        "locator": "選手名鑑: 出身校 ミクユニ(ケニア)",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "名鑑姓名、大学与学年与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "hochi-muthini",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "選手名鑑: 出身校 ミクユニ(ケニア)",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hochi.news",
+            "independenceNote": "報知名鑑（团队提交的选手资料）"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查实业团"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无赛事页"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "報知名鑑已读"
+          }
+        ],
+        "limitations": [
+          "单一来源（報知名鑑）"
+        ],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-04-8",
+      "athleteName": "野沢 悠真",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "利府高（宮城県）",
+          "sourceUrl": "https://hochi.news/hakone/member/?school=soka&player=100",
+          "locator": "選手名鑑: 出身校 利府"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "野沢 悠真 出身校",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=soka&player=100",
+              "section": "選手名鑑: 出身校 利府",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "名鑑给出出身校"
+        },
+        {
+          "stage": "reverse",
+          "query": "野沢 悠真 出身校 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=soka&player=100",
+              "section": "選手名鑑: 出身校 利府",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "同源复核"
+        },
+        {
+          "stage": "verification",
+          "query": "野沢 悠真 名鑑 交叉",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=soka&player=100",
+              "section": "選手名鑑: 出身校 利府",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "确认"
+        }
+      ],
+      "final": {
+        "value": "利府高（宮城県）",
+        "sourceIds": [
+          "hochi-nozawa"
+        ],
+        "locator": "選手名鑑: 出身校 利府",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "名鑑姓名、大学与学年与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "hochi-nozawa",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "選手名鑑: 出身校 利府",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hochi.news",
+            "independenceNote": "報知名鑑（团队提交的选手资料）"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查实业团"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无赛事页"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "報知名鑑已读"
+          }
+        ],
+        "limitations": [
+          "单一来源（報知名鑑）"
+        ],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-02-2",
+      "athleteName": "桑田 駿介",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "倉敷高（岡山県）",
+          "sourceUrl": "https://hochi.news/hakone/member/?school=komazawa&player=27",
+          "locator": "選手名鑑: 出身校 倉敷"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "桑田 駿介 出身校",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=komazawa&player=27",
+              "section": "選手名鑑: 出身校 倉敷",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "名鑑给出出身校"
+        },
+        {
+          "stage": "reverse",
+          "query": "桑田 駿介 出身校 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=komazawa&player=27",
+              "section": "選手名鑑: 出身校 倉敷",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "同源复核"
+        },
+        {
+          "stage": "verification",
+          "query": "桑田 駿介 名鑑 交叉",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=komazawa&player=27",
+              "section": "選手名鑑: 出身校 倉敷",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "确认"
+        }
+      ],
+      "final": {
+        "value": "倉敷高（岡山県）",
+        "sourceIds": [
+          "hochi-kuwata"
+        ],
+        "locator": "選手名鑑: 出身校 倉敷",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "名鑑姓名、大学与学年与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "hochi-kuwata",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "選手名鑑: 出身校 倉敷",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hochi.news",
+            "independenceNote": "報知名鑑（团队提交的选手资料）"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查实业团"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无赛事页"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "報知名鑑已读"
+          }
+        ],
+        "limitations": [
+          "单一来源（報知名鑑）"
+        ],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-05-1",
+      "athleteName": "間瀬田 純平",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "鳥栖工高（佐賀県）",
+          "sourceUrl": "https://hochi.news/hakone/member/?school=waseda&player=50",
+          "locator": "選手名鑑: 出身校 鳥栖工"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "間瀬田 純平 出身校",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=waseda&player=50",
+              "section": "選手名鑑: 出身校 鳥栖工",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "名鑑给出出身校"
+        },
+        {
+          "stage": "reverse",
+          "query": "間瀬田 純平 出身校 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=waseda&player=50",
+              "section": "選手名鑑: 出身校 鳥栖工",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "同源复核"
+        },
+        {
+          "stage": "verification",
+          "query": "間瀬田 純平 名鑑 交叉",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=waseda&player=50",
+              "section": "選手名鑑: 出身校 鳥栖工",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "确认"
+        }
+      ],
+      "final": {
+        "value": "鳥栖工高（佐賀県）",
+        "sourceIds": [
+          "hochi-maseda"
+        ],
+        "locator": "選手名鑑: 出身校 鳥栖工",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "名鑑姓名、大学与学年与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "hochi-maseda",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "選手名鑑: 出身校 鳥栖工",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hochi.news",
+            "independenceNote": "報知名鑑（团队提交的选手资料）"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查实业团"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无赛事页"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "報知名鑑已读"
+          }
+        ],
+        "limitations": [
+          "单一来源（報知名鑑）"
+        ],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-08-1",
+      "athleteName": "島田 晃希",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "高田高（三重県）",
+          "sourceUrl": "https://hochi.news/hakone/member/?school=teikyo&player=147",
+          "locator": "選手名鑑: 出身校 高田（三重）"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "島田 晃希 出身校",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=teikyo&player=147",
+              "section": "選手名鑑: 出身校 高田（三重）",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "名鑑给出出身校"
+        },
+        {
+          "stage": "reverse",
+          "query": "島田 晃希 出身校 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=teikyo&player=147",
+              "section": "選手名鑑: 出身校 高田（三重）",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "同源复核"
+        },
+        {
+          "stage": "verification",
+          "query": "島田 晃希 名鑑 交叉",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=teikyo&player=147",
+              "section": "選手名鑑: 出身校 高田（三重）",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "确认"
+        }
+      ],
+      "final": {
+        "value": "高田高（三重県）",
+        "sourceIds": [
+          "hochi-shimada"
+        ],
+        "locator": "選手名鑑: 出身校 高田（三重）",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "名鑑姓名、大学与学年与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "hochi-shimada",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "選手名鑑: 出身校 高田（三重）",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hochi.news",
+            "independenceNote": "報知名鑑（团队提交的选手资料）"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查实业团"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无赛事页"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "報知名鑑已读"
+          }
+        ],
+        "limitations": [
+          "单一来源（報知名鑑）"
+        ],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-08-3",
+      "athleteName": "尾崎 仁哉",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "東海大福岡高（福岡県）",
+          "sourceUrl": "https://hochi.news/hakone/member/?school=teikyo&player=145",
+          "locator": "選手名鑑: 出身校 東海大福岡"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "尾崎 仁哉 出身校",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=teikyo&player=145",
+              "section": "選手名鑑: 出身校 東海大福岡",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "名鑑给出出身校"
+        },
+        {
+          "stage": "reverse",
+          "query": "尾崎 仁哉 出身校 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=teikyo&player=145",
+              "section": "選手名鑑: 出身校 東海大福岡",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "同源复核"
+        },
+        {
+          "stage": "verification",
+          "query": "尾崎 仁哉 名鑑 交叉",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=teikyo&player=145",
+              "section": "選手名鑑: 出身校 東海大福岡",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "确认"
+        }
+      ],
+      "final": {
+        "value": "東海大福岡高（福岡県）",
+        "sourceIds": [
+          "hochi-ozaki"
+        ],
+        "locator": "選手名鑑: 出身校 東海大福岡",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "名鑑姓名、大学与学年与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "hochi-ozaki",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "選手名鑑: 出身校 東海大福岡",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hochi.news",
+            "independenceNote": "報知名鑑（团队提交的选手资料）"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查实业团"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无赛事页"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "報知名鑑已读"
+          }
+        ],
+        "limitations": [
+          "单一来源（報知名鑑）"
+        ],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-08-4",
+      "athleteName": "廣田 陸",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "北海道栄高（北海道）",
+          "sourceUrl": "https://hochi.news/hakone/member/?school=teikyo&player=156",
+          "locator": "選手名鑑: 出身校 北海道栄"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "廣田 陸 出身校",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=teikyo&player=156",
+              "section": "選手名鑑: 出身校 北海道栄",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "名鑑给出出身校"
+        },
+        {
+          "stage": "reverse",
+          "query": "廣田 陸 出身校 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=teikyo&player=156",
+              "section": "選手名鑑: 出身校 北海道栄",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "同源复核"
+        },
+        {
+          "stage": "verification",
+          "query": "廣田 陸 名鑑 交叉",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=teikyo&player=156",
+              "section": "選手名鑑: 出身校 北海道栄",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "确认"
+        }
+      ],
+      "final": {
+        "value": "北海道栄高（北海道）",
+        "sourceIds": [
+          "hochi-hirota"
+        ],
+        "locator": "選手名鑑: 出身校 北海道栄",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "名鑑姓名、大学与学年与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "hochi-hirota",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "選手名鑑: 出身校 北海道栄",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hochi.news",
+            "independenceNote": "報知名鑑（团队提交的选手资料）"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查实业团"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无赛事页"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "報知名鑑已读"
+          }
+        ],
+        "limitations": [
+          "单一来源（報知名鑑）"
+        ],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-08-5",
+      "athleteName": "柴戸 遼太",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "大分東明高（大分県）",
+          "sourceUrl": "https://hochi.news/hakone/member/?school=teikyo&player=146",
+          "locator": "選手名鑑: 出身校 大分東明"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "柴戸 遼太 出身校",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=teikyo&player=146",
+              "section": "選手名鑑: 出身校 大分東明",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "名鑑给出出身校"
+        },
+        {
+          "stage": "reverse",
+          "query": "柴戸 遼太 出身校 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=teikyo&player=146",
+              "section": "選手名鑑: 出身校 大分東明",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "同源复核"
+        },
+        {
+          "stage": "verification",
+          "query": "柴戸 遼太 名鑑 交叉",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=teikyo&player=146",
+              "section": "選手名鑑: 出身校 大分東明",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "确认"
+        }
+      ],
+      "final": {
+        "value": "大分東明高（大分県）",
+        "sourceIds": [
+          "hochi-shibako"
+        ],
+        "locator": "選手名鑑: 出身校 大分東明",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "名鑑姓名、大学与学年与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "hochi-shibako",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "選手名鑑: 出身校 大分東明",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hochi.news",
+            "independenceNote": "報知名鑑（团队提交的选手资料）"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查实业团"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无赛事页"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "報知名鑑已读"
+          }
+        ],
+        "limitations": [
+          "单一来源（報知名鑑）"
+        ],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-12-2",
+      "athleteName": "岡田 開成",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "洛南高（京都府）",
+          "sourceUrl": "https://hochi.news/hakone/member/?school=chuo&player=74",
+          "locator": "選手名鑑: 出身校 洛南"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "岡田 開成 出身校",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=chuo&player=74",
+              "section": "選手名鑑: 出身校 洛南",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "名鑑给出出身校"
+        },
+        {
+          "stage": "reverse",
+          "query": "岡田 開成 出身校 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=chuo&player=74",
+              "section": "選手名鑑: 出身校 洛南",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "同源复核"
+        },
+        {
+          "stage": "verification",
+          "query": "岡田 開成 名鑑 交叉",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=chuo&player=74",
+              "section": "選手名鑑: 出身校 洛南",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "确认"
+        }
+      ],
+      "final": {
+        "value": "洛南高（京都府）",
+        "sourceIds": [
+          "hochi-okada"
+        ],
+        "locator": "選手名鑑: 出身校 洛南",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "名鑑姓名、大学与学年与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "hochi-okada",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "選手名鑑: 出身校 洛南",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hochi.news",
+            "independenceNote": "報知名鑑（团队提交的选手资料）"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查实业团"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无赛事页"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "報知名鑑已读"
+          }
+        ],
+        "limitations": [
+          "单一来源（報知名鑑）"
+        ],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-13-7",
+      "athleteName": "緒方 澪那斗",
+      "field": "highSchool",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "市船橋高（千葉県）",
+          "sourceUrl": "https://hochi.news/hakone/member/?school=toyo&player=130",
+          "locator": "選手名鑑: 出身校 市船橋"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "緒方 澪那斗 出身校",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=toyo&player=130",
+              "section": "選手名鑑: 出身校 市船橋",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "名鑑给出出身校"
+        },
+        {
+          "stage": "reverse",
+          "query": "緒方 澪那斗 出身校 確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=toyo&player=130",
+              "section": "選手名鑑: 出身校 市船橋",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "同源复核"
+        },
+        {
+          "stage": "verification",
+          "query": "緒方 澪那斗 名鑑 交叉",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hochi.news/hakone/member/?school=toyo&player=130",
+              "section": "選手名鑑: 出身校 市船橋",
+              "access": "read",
+              "finding": "出身校欄",
+              "category": "media",
+              "documentType": "profile"
+            }
+          ],
+          "result": "确认"
+        }
+      ],
+      "final": {
+        "value": "市船橋高（千葉県）",
+        "sourceIds": [
+          "hochi-ogata"
+        ],
+        "locator": "選手名鑑: 出身校 市船橋",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "名鑑姓名、大学与学年与登记选手一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "固定资料"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "src",
+            "sourceId": "hochi-ogata",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "選手名鑑: 出身校 市船橋",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "hochi.news",
+            "independenceNote": "報知名鑑（团队提交的选手资料）"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "src"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查大学名册"
+          },
+          {
+            "category": "employer",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查实业团"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "无赛事页"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "報知名鑑已读"
+          }
+        ],
+        "limitations": [
+          "单一来源（報知名鑑）"
+        ],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-04-3",
+      "athleteName": "石丸 惇那",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "13:42.12; 2025-09-24; 第16回絆記録挑戦会",
+          "sourceUrl": "https://soka-ekiden.com/play/?page_id=269",
+          "locator": "5000m 8位 石丸惇那 13:42.12 2025/9/24 絆記録挑戦会"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "石丸 惇那 創価大歴代 5000m",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "section": "5000m 8位 石丸惇那 13:42.12 2025/9/24 絆記録挑戦会",
+              "access": "read",
+              "finding": "5000m 8位 石丸惇那 13:42.12 2025/9/24 絆記録挑戦会",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "大学歴代表给出成绩、日期与赛事"
+        },
+        {
+          "stage": "reverse",
+          "query": "石丸 惇那 13:42.12",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "section": "5000m 8位 石丸惇那 13:42.12 2025/9/24 絆記録挑戦会",
+              "access": "read",
+              "finding": "5000m 8位 石丸惇那 13:42.12 2025/9/24 絆記録挑戦会",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "reverse",
+          "query": "石丸 惇那 13分42秒12",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "section": "5000m 8位 石丸惇那 13:42.12 2025/9/24 絆記録挑戦会",
+              "access": "read",
+              "finding": "5000m 8位 石丸惇那 13:42.12 2025/9/24 絆記録挑戦会",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "日文分秒写法反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "石丸 惇那 5000m 更新確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "section": "5000m 8位 石丸惇那 13:42.12 2025/9/24 絆記録挑戦会",
+              "access": "read",
+              "finding": "5000m 8位 石丸惇那 13:42.12 2025/9/24 絆記録挑戦会",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "歴代表当前仍列该成绩"
+        }
+      ],
+      "final": {
+        "value": "13:42.12; 2025-09-24; 第16回絆記録挑戦会",
+        "sourceIds": [
+          "soka-ekiden-alltime"
+        ],
+        "locator": "5000m 8位 石丸惇那 13:42.12 2025/9/24 絆記録挑戦会",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "歴代表姓名与登记选手（石丸 惇那）一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "歴代表当前仍列该成绩；未发现更快记载"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "uni",
+            "sourceId": "soka-ekiden-alltime",
+            "role": "primary",
+            "supports": [
+              "value",
+              "achievedOn",
+              "meet",
+              "distance",
+              "affiliation",
+              "pb-update"
+            ],
+            "locator": "5000m 8位 石丸惇那 13:42.12 2025/9/24 絆記録挑戦会",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "soka-ekiden.com",
+            "independenceNote": "創価大学駅伝部官方歴代表"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "uni"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "創価大歴代表已读"
+          },
+          {
+            "category": "employer",
+            "status": "not-applicable",
+            "searchIndexes": [],
+            "reason": "在校生"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "主办方原件未取得"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [
+          "主办方原始成绩单未取得；以大学歴代表为准"
+        ],
+        "affiliation": {
+          "stage": "student",
+          "organization": "創価大学",
+          "evidenceIds": [
+            "uni"
+          ],
+          "enrollment": {
+            "asOf": "2026-11-17",
+            "employerStartsOn": null
+          },
+          "reason": "歴代表与名鑑显示在校"
+        },
+        "performances": [
+          {
+            "id": "pb",
+            "value": "13:42.12; 2025-09-24; 第16回絆記録挑戦会",
+            "timeMilliseconds": 822120,
+            "precision": "centisecond",
+            "achievedOn": "2025-09-24",
+            "evidenceIds": [
+              "uni"
+            ],
+            "eligibility": "eligible",
+            "reason": "大学歴代表的正式比赛成绩",
+            "event": {
+              "metadataId": null,
+              "name": "第16回絆記録挑戦会 男子5000m（町田市立陸上競技場）",
+              "edition": null,
+              "startsOn": "2025-09-24",
+              "endsOn": "2025-09-24",
+              "competedOn": "2025-09-24",
+              "discipline": "5000m",
+              "distanceMetres": 5000,
+              "editionStatus": "pending",
+              "evidenceIds": [
+                "uni"
+              ]
+            }
+          }
+        ],
+        "pbUpdate": {
+          "initialId": "pb",
+          "selectedId": "pb",
+          "checks": [
+            {
+              "searchIndex": 0,
+              "from": "2025-09-24",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "uni"
+              ],
+              "outcome": "no-faster-found",
+              "note": "歴代表当前仍列该成绩（大学类别后续检查）"
+            },
+            {
+              "searchIndex": 3,
+              "from": "2025-09-24",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "uni"
+              ],
+              "outcome": "no-faster-found",
+              "note": "歴代表当前仍列该成绩"
+            }
+          ],
+          "foundFaster": false,
+          "decision": "大学歴代表未显示更快成绩，采用该正式比赛成绩"
+        }
+      }
+    },
+    {
+      "athleteId": "athlete-aj25-04-4",
+      "athleteName": "織橋 巧",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "13:42.97; 2026-07-11; ホクレンDC北見大会",
+          "sourceUrl": "https://soka-ekiden.com/play/?page_id=269",
+          "locator": "5000m 9位 織橋巧 13:42.97 2026/7/11 ホクレンDC北見"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "織橋 巧 創価大歴代 5000m",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "section": "5000m 9位 織橋巧 13:42.97 2026/7/11 ホクレンDC北見",
+              "access": "read",
+              "finding": "5000m 9位 織橋巧 13:42.97 2026/7/11 ホクレンDC北見",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "大学歴代表给出成绩、日期与赛事"
+        },
+        {
+          "stage": "reverse",
+          "query": "織橋 巧 13:42.97",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "section": "5000m 9位 織橋巧 13:42.97 2026/7/11 ホクレンDC北見",
+              "access": "read",
+              "finding": "5000m 9位 織橋巧 13:42.97 2026/7/11 ホクレンDC北見",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "reverse",
+          "query": "織橋 巧 13分42秒97",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "section": "5000m 9位 織橋巧 13:42.97 2026/7/11 ホクレンDC北見",
+              "access": "read",
+              "finding": "5000m 9位 織橋巧 13:42.97 2026/7/11 ホクレンDC北見",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "日文分秒写法反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "織橋 巧 5000m 更新確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "section": "5000m 9位 織橋巧 13:42.97 2026/7/11 ホクレンDC北見",
+              "access": "read",
+              "finding": "5000m 9位 織橋巧 13:42.97 2026/7/11 ホクレンDC北見",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "歴代表当前仍列该成绩"
+        }
+      ],
+      "final": {
+        "value": "13:42.97; 2026-07-11; ホクレンDC北見大会",
+        "sourceIds": [
+          "soka-ekiden-alltime"
+        ],
+        "locator": "5000m 9位 織橋巧 13:42.97 2026/7/11 ホクレンDC北見",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "歴代表姓名与登记选手（織橋 巧）一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "歴代表当前仍列该成绩；未发现更快记载"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "uni",
+            "sourceId": "soka-ekiden-alltime",
+            "role": "primary",
+            "supports": [
+              "value",
+              "achievedOn",
+              "meet",
+              "distance",
+              "affiliation",
+              "pb-update"
+            ],
+            "locator": "5000m 9位 織橋巧 13:42.97 2026/7/11 ホクレンDC北見",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "soka-ekiden.com",
+            "independenceNote": "創価大学駅伝部官方歴代表"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "uni"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "創価大歴代表已读"
+          },
+          {
+            "category": "employer",
+            "status": "not-applicable",
+            "searchIndexes": [],
+            "reason": "在校生"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "主办方原件未取得"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [
+          "主办方原始成绩单未取得；以大学歴代表为准"
+        ],
+        "affiliation": {
+          "stage": "student",
+          "organization": "創価大学",
+          "evidenceIds": [
+            "uni"
+          ],
+          "enrollment": {
+            "asOf": "2026-11-17",
+            "employerStartsOn": null
+          },
+          "reason": "歴代表与名鑑显示在校"
+        },
+        "performances": [
+          {
+            "id": "pb",
+            "value": "13:42.97; 2026-07-11; ホクレンDC北見大会",
+            "timeMilliseconds": 822970,
+            "precision": "centisecond",
+            "achievedOn": "2026-07-11",
+            "evidenceIds": [
+              "uni"
+            ],
+            "eligibility": "eligible",
+            "reason": "大学歴代表的正式比赛成绩",
+            "event": {
+              "metadataId": null,
+              "name": "ホクレン・ディスタンスチャレンジ2026北見大会（北見市東陵公園陸上競技場）",
+              "edition": null,
+              "startsOn": "2026-07-11",
+              "endsOn": "2026-07-11",
+              "competedOn": "2026-07-11",
+              "discipline": "5000m",
+              "distanceMetres": 5000,
+              "editionStatus": "pending",
+              "evidenceIds": [
+                "uni"
+              ]
+            }
+          }
+        ],
+        "pbUpdate": {
+          "initialId": "pb",
+          "selectedId": "pb",
+          "checks": [
+            {
+              "searchIndex": 0,
+              "from": "2026-07-11",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "uni"
+              ],
+              "outcome": "no-faster-found",
+              "note": "歴代表当前仍列该成绩（大学类别后续检查）"
+            },
+            {
+              "searchIndex": 3,
+              "from": "2026-07-11",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "uni"
+              ],
+              "outcome": "no-faster-found",
+              "note": "歴代表当前仍列该成绩"
+            }
+          ],
+          "foundFaster": false,
+          "decision": "大学歴代表未显示更快成绩，采用该正式比赛成绩"
+        }
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-04-5",
+      "athleteName": "スティーブン ムチーニ",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "13:26.70; 2025-07-19; ホクレンDC網走大会",
+          "sourceUrl": "https://soka-ekiden.com/play/?page_id=269",
+          "locator": "5000m 1位 ムチーニ 13:26.70 2025/7/19 ホクレンDC網走"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "スティーブン ムチーニ 創価大歴代 5000m",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "section": "5000m 1位 ムチーニ 13:26.70 2025/7/19 ホクレンDC網走",
+              "access": "read",
+              "finding": "5000m 1位 ムチーニ 13:26.70 2025/7/19 ホクレンDC網走",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "大学歴代表给出成绩、日期与赛事"
+        },
+        {
+          "stage": "reverse",
+          "query": "スティーブン ムチーニ 13:26.70",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "section": "5000m 1位 ムチーニ 13:26.70 2025/7/19 ホクレンDC網走",
+              "access": "read",
+              "finding": "5000m 1位 ムチーニ 13:26.70 2025/7/19 ホクレンDC網走",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "reverse",
+          "query": "スティーブン ムチーニ 13分26秒70",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "section": "5000m 1位 ムチーニ 13:26.70 2025/7/19 ホクレンDC網走",
+              "access": "read",
+              "finding": "5000m 1位 ムチーニ 13:26.70 2025/7/19 ホクレンDC網走",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "日文分秒写法反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "スティーブン ムチーニ 5000m 更新確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "section": "5000m 1位 ムチーニ 13:26.70 2025/7/19 ホクレンDC網走",
+              "access": "read",
+              "finding": "5000m 1位 ムチーニ 13:26.70 2025/7/19 ホクレンDC網走",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "歴代表当前仍列该成绩"
+        }
+      ],
+      "final": {
+        "value": "13:26.70; 2025-07-19; ホクレンDC網走大会",
+        "sourceIds": [
+          "soka-ekiden-alltime"
+        ],
+        "locator": "5000m 1位 ムチーニ 13:26.70 2025/7/19 ホクレンDC網走",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "歴代表姓名与登记选手（スティーブン ムチーニ）一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "歴代表当前仍列该成绩；未发现更快记载"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "uni",
+            "sourceId": "soka-ekiden-alltime",
+            "role": "primary",
+            "supports": [
+              "value",
+              "achievedOn",
+              "meet",
+              "distance",
+              "affiliation",
+              "pb-update"
+            ],
+            "locator": "5000m 1位 ムチーニ 13:26.70 2025/7/19 ホクレンDC網走",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "soka-ekiden.com",
+            "independenceNote": "創価大学駅伝部官方歴代表"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "uni"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "創価大歴代表已读"
+          },
+          {
+            "category": "employer",
+            "status": "not-applicable",
+            "searchIndexes": [],
+            "reason": "在校生"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "主办方原件未取得"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [
+          "主办方原始成绩单未取得；以大学歴代表为准"
+        ],
+        "affiliation": {
+          "stage": "student",
+          "organization": "創価大学",
+          "evidenceIds": [
+            "uni"
+          ],
+          "enrollment": {
+            "asOf": "2026-11-17",
+            "employerStartsOn": null
+          },
+          "reason": "歴代表与名鑑显示在校"
+        },
+        "performances": [
+          {
+            "id": "pb",
+            "value": "13:26.70; 2025-07-19; ホクレンDC網走大会",
+            "timeMilliseconds": 806700,
+            "precision": "centisecond",
+            "achievedOn": "2025-07-19",
+            "evidenceIds": [
+              "uni"
+            ],
+            "eligibility": "eligible",
+            "reason": "大学歴代表的正式比赛成绩",
+            "event": {
+              "metadataId": null,
+              "name": "ホクレン・ディスタンスチャレンジ2025網走大会（網走市営陸上競技場）",
+              "edition": null,
+              "startsOn": "2025-07-19",
+              "endsOn": "2025-07-19",
+              "competedOn": "2025-07-19",
+              "discipline": "5000m",
+              "distanceMetres": 5000,
+              "editionStatus": "pending",
+              "evidenceIds": [
+                "uni"
+              ]
+            }
+          }
+        ],
+        "pbUpdate": {
+          "initialId": "pb",
+          "selectedId": "pb",
+          "checks": [
+            {
+              "searchIndex": 0,
+              "from": "2025-07-19",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "uni"
+              ],
+              "outcome": "no-faster-found",
+              "note": "歴代表当前仍列该成绩（大学类别后续检查）"
+            },
+            {
+              "searchIndex": 3,
+              "from": "2025-07-19",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "uni"
+              ],
+              "outcome": "no-faster-found",
+              "note": "歴代表当前仍列该成绩"
+            }
+          ],
+          "foundFaster": false,
+          "decision": "大学歴代表未显示更快成绩，采用该正式比赛成绩"
+        }
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-04-5",
+      "athleteName": "スティーブン ムチーニ",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "1:00:38; 2026-04-26; ぎふ清流ハーフマラソン2026",
+          "sourceUrl": "https://soka-ekiden.com/play/?page_id=269",
+          "locator": "ハーフ 1位 ムチーニ 1:00:38 2026/4/26 ぎふ清流ハーフマラソン2026"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "スティーブン ムチーニ 創価大歴代 half-marathon",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "section": "ハーフ 1位 ムチーニ 1:00:38 2026/4/26 ぎふ清流ハーフマラソン2026",
+              "access": "read",
+              "finding": "ハーフ 1位 ムチーニ 1:00:38 2026/4/26 ぎふ清流ハーフマラソン2026",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "大学歴代表给出成绩、日期与赛事"
+        },
+        {
+          "stage": "reverse",
+          "query": "スティーブン ムチーニ 1:00:38",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "section": "ハーフ 1位 ムチーニ 1:00:38 2026/4/26 ぎふ清流ハーフマラソン2026",
+              "access": "read",
+              "finding": "ハーフ 1位 ムチーニ 1:00:38 2026/4/26 ぎふ清流ハーフマラソン2026",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "reverse",
+          "query": "スティーブン ムチーニ 1時間00分38秒",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "section": "ハーフ 1位 ムチーニ 1:00:38 2026/4/26 ぎふ清流ハーフマラソン2026",
+              "access": "read",
+              "finding": "ハーフ 1位 ムチーニ 1:00:38 2026/4/26 ぎふ清流ハーフマラソン2026",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "日文分秒写法反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "スティーブン ムチーニ half-marathon 更新確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "section": "ハーフ 1位 ムチーニ 1:00:38 2026/4/26 ぎふ清流ハーフマラソン2026",
+              "access": "read",
+              "finding": "ハーフ 1位 ムチーニ 1:00:38 2026/4/26 ぎふ清流ハーフマラソン2026",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "歴代表当前仍列该成绩"
+        }
+      ],
+      "final": {
+        "value": "1:00:38; 2026-04-26; ぎふ清流ハーフマラソン2026",
+        "sourceIds": [
+          "soka-ekiden-alltime"
+        ],
+        "locator": "ハーフ 1位 ムチーニ 1:00:38 2026/4/26 ぎふ清流ハーフマラソン2026",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "歴代表姓名与登记选手（スティーブン ムチーニ）一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "歴代表当前仍列该成绩；未发现更快记载"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "uni",
+            "sourceId": "soka-ekiden-alltime",
+            "role": "primary",
+            "supports": [
+              "value",
+              "achievedOn",
+              "meet",
+              "distance",
+              "affiliation",
+              "pb-update"
+            ],
+            "locator": "ハーフ 1位 ムチーニ 1:00:38 2026/4/26 ぎふ清流ハーフマラソン2026",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "soka-ekiden.com",
+            "independenceNote": "創価大学駅伝部官方歴代表"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "uni"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "創価大歴代表已读"
+          },
+          {
+            "category": "employer",
+            "status": "not-applicable",
+            "searchIndexes": [],
+            "reason": "在校生"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "主办方原件未取得"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [
+          "主办方原始成绩单未取得；以大学歴代表为准"
+        ],
+        "affiliation": {
+          "stage": "student",
+          "organization": "創価大学",
+          "evidenceIds": [
+            "uni"
+          ],
+          "enrollment": {
+            "asOf": "2026-11-17",
+            "employerStartsOn": null
+          },
+          "reason": "歴代表与名鑑显示在校"
+        },
+        "performances": [
+          {
+            "id": "pb",
+            "value": "1:00:38; 2026-04-26; ぎふ清流ハーフマラソン2026",
+            "timeMilliseconds": 3638000,
+            "precision": "second",
+            "achievedOn": "2026-04-26",
+            "evidenceIds": [
+              "uni"
+            ],
+            "eligibility": "eligible",
+            "reason": "大学歴代表的正式比赛成绩",
+            "event": {
+              "metadataId": null,
+              "name": "ぎふ清流ハーフマラソン2026（岐阜メモリアルセンター周辺）",
+              "edition": null,
+              "startsOn": "2026-04-26",
+              "endsOn": "2026-04-26",
+              "competedOn": "2026-04-26",
+              "discipline": "half-marathon",
+              "distanceMetres": 21097.5,
+              "editionStatus": "pending",
+              "evidenceIds": [
+                "uni"
+              ]
+            }
+          }
+        ],
+        "pbUpdate": {
+          "initialId": "pb",
+          "selectedId": "pb",
+          "checks": [
+            {
+              "searchIndex": 0,
+              "from": "2026-04-26",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "uni"
+              ],
+              "outcome": "no-faster-found",
+              "note": "歴代表当前仍列该成绩（大学类别后续检查）"
+            },
+            {
+              "searchIndex": 3,
+              "from": "2026-04-26",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "uni"
+              ],
+              "outcome": "no-faster-found",
+              "note": "歴代表当前仍列该成绩"
+            }
+          ],
+          "foundFaster": false,
+          "decision": "大学歴代表未显示更快成绩，采用该正式比赛成绩"
+        }
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-04-8",
+      "athleteName": "野沢 悠真",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "1:01:46; 2024-01-28; 大阪ハーフマラソン",
+          "sourceUrl": "https://soka-ekiden.com/play/?page_id=269",
+          "locator": "ハーフ 7位 野沢悠真 1:01:46 2024/1/28 大阪ハーフマラソン"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "野沢 悠真 創価大歴代 half-marathon",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "section": "ハーフ 7位 野沢悠真 1:01:46 2024/1/28 大阪ハーフマラソン",
+              "access": "read",
+              "finding": "ハーフ 7位 野沢悠真 1:01:46 2024/1/28 大阪ハーフマラソン",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "大学歴代表给出成绩、日期与赛事"
+        },
+        {
+          "stage": "reverse",
+          "query": "野沢 悠真 1:01:46",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "section": "ハーフ 7位 野沢悠真 1:01:46 2024/1/28 大阪ハーフマラソン",
+              "access": "read",
+              "finding": "ハーフ 7位 野沢悠真 1:01:46 2024/1/28 大阪ハーフマラソン",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "reverse",
+          "query": "野沢 悠真 1時間01時間46秒",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "section": "ハーフ 7位 野沢悠真 1:01:46 2024/1/28 大阪ハーフマラソン",
+              "access": "read",
+              "finding": "ハーフ 7位 野沢悠真 1:01:46 2024/1/28 大阪ハーフマラソン",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "日文分秒写法反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "野沢 悠真 half-marathon 更新確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "section": "ハーフ 7位 野沢悠真 1:01:46 2024/1/28 大阪ハーフマラソン",
+              "access": "read",
+              "finding": "ハーフ 7位 野沢悠真 1:01:46 2024/1/28 大阪ハーフマラソン",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "歴代表当前仍列该成绩"
+        }
+      ],
+      "final": {
+        "value": "1:01:46; 2024-01-28; 大阪ハーフマラソン",
+        "sourceIds": [
+          "soka-ekiden-alltime"
+        ],
+        "locator": "ハーフ 7位 野沢悠真 1:01:46 2024/1/28 大阪ハーフマラソン",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "歴代表姓名与登记选手（野沢 悠真）一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "歴代表当前仍列该成绩；未发现更快记载"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "uni",
+            "sourceId": "soka-ekiden-alltime",
+            "role": "primary",
+            "supports": [
+              "value",
+              "achievedOn",
+              "meet",
+              "distance",
+              "affiliation",
+              "pb-update"
+            ],
+            "locator": "ハーフ 7位 野沢悠真 1:01:46 2024/1/28 大阪ハーフマラソン",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "soka-ekiden.com",
+            "independenceNote": "創価大学駅伝部官方歴代表"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "uni"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "創価大歴代表已读"
+          },
+          {
+            "category": "employer",
+            "status": "not-applicable",
+            "searchIndexes": [],
+            "reason": "在校生"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "主办方原件未取得"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [
+          "主办方原始成绩单未取得；以大学歴代表为准"
+        ],
+        "affiliation": {
+          "stage": "student",
+          "organization": "創価大学",
+          "evidenceIds": [
+            "uni"
+          ],
+          "enrollment": {
+            "asOf": "2026-11-17",
+            "employerStartsOn": null
+          },
+          "reason": "歴代表与名鑑显示在校"
+        },
+        "performances": [
+          {
+            "id": "pb",
+            "value": "1:01:46; 2024-01-28; 大阪ハーフマラソン",
+            "timeMilliseconds": 3706000,
+            "precision": "second",
+            "achievedOn": "2024-01-28",
+            "evidenceIds": [
+              "uni"
+            ],
+            "eligibility": "eligible",
+            "reason": "大学歴代表的正式比赛成绩",
+            "event": {
+              "metadataId": null,
+              "name": "大阪ハーフマラソン（大阪城公園～ヤンマースタジアム長居）",
+              "edition": null,
+              "startsOn": "2024-01-28",
+              "endsOn": "2024-01-28",
+              "competedOn": "2024-01-28",
+              "discipline": "half-marathon",
+              "distanceMetres": 21097.5,
+              "editionStatus": "pending",
+              "evidenceIds": [
+                "uni"
+              ]
+            }
+          }
+        ],
+        "pbUpdate": {
+          "initialId": "pb",
+          "selectedId": "pb",
+          "checks": [
+            {
+              "searchIndex": 0,
+              "from": "2024-01-28",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "uni"
+              ],
+              "outcome": "no-faster-found",
+              "note": "歴代表当前仍列该成绩（大学类别后续检查）"
+            },
+            {
+              "searchIndex": 3,
+              "from": "2024-01-28",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "uni"
+              ],
+              "outcome": "no-faster-found",
+              "note": "歴代表当前仍列该成绩"
+            }
+          ],
+          "foundFaster": false,
+          "decision": "大学歴代表未显示更快成绩，采用该正式比赛成绩"
+        }
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-04-7",
+      "athleteName": "吉田 凌",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "verified",
+      "candidates": [
+        {
+          "value": "1:01:58; 2024-02-04; 香川丸亀国際ハーフマラソン",
+          "sourceUrl": "https://soka-ekiden.com/play/?page_id=269",
+          "locator": "ハーフ 8位 吉田凌 1:01:58 2024/2/4 香川丸亀国際ハーフマラソン"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "吉田 凌 創価大歴代 half-marathon",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "section": "ハーフ 8位 吉田凌 1:01:58 2024/2/4 香川丸亀国際ハーフマラソン",
+              "access": "read",
+              "finding": "ハーフ 8位 吉田凌 1:01:58 2024/2/4 香川丸亀国際ハーフマラソン",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "大学歴代表给出成绩、日期与赛事"
+        },
+        {
+          "stage": "reverse",
+          "query": "吉田 凌 1:01:58",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "section": "ハーフ 8位 吉田凌 1:01:58 2024/2/4 香川丸亀国際ハーフマラソン",
+              "access": "read",
+              "finding": "ハーフ 8位 吉田凌 1:01:58 2024/2/4 香川丸亀国際ハーフマラソン",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "精确值反查命中"
+        },
+        {
+          "stage": "reverse",
+          "query": "吉田 凌 1時間01時間58秒",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "section": "ハーフ 8位 吉田凌 1:01:58 2024/2/4 香川丸亀国際ハーフマラソン",
+              "access": "read",
+              "finding": "ハーフ 8位 吉田凌 1:01:58 2024/2/4 香川丸亀国際ハーフマラソン",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "日文分秒写法反查命中"
+        },
+        {
+          "stage": "verification",
+          "query": "吉田 凌 half-marathon 更新確認",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "section": "ハーフ 8位 吉田凌 1:01:58 2024/2/4 香川丸亀国際ハーフマラソン",
+              "access": "read",
+              "finding": "ハーフ 8位 吉田凌 1:01:58 2024/2/4 香川丸亀国際ハーフマラソン",
+              "category": "university",
+              "documentType": "results"
+            }
+          ],
+          "result": "歴代表当前仍列该成绩"
+        }
+      ],
+      "final": {
+        "value": "1:01:58; 2024-02-04; 香川丸亀国際ハーフマラソン",
+        "sourceIds": [
+          "soka-ekiden-alltime"
+        ],
+        "locator": "ハーフ 8位 吉田凌 1:01:58 2024/2/4 香川丸亀国際ハーフマラソン",
+        "revision": "retrieved 2026-11-17"
+      },
+      "identityEvidence": "歴代表姓名与登记选手（吉田 凌）一致。",
+      "updateCheck": {
+        "checked": true,
+        "asOf": "2026-11-17",
+        "summary": "歴代表当前仍列该成绩；未发现更快记载"
+      },
+      "unresolved": [],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [
+          {
+            "id": "uni",
+            "sourceId": "soka-ekiden-alltime",
+            "role": "primary",
+            "supports": [
+              "value",
+              "achievedOn",
+              "meet",
+              "distance",
+              "affiliation",
+              "pb-update"
+            ],
+            "locator": "ハーフ 8位 吉田凌 1:01:58 2024/2/4 香川丸亀国際ハーフマラソン",
+            "revision": "retrieved 2026-11-17",
+            "status": "verified",
+            "checkedAt": "2026-11-17",
+            "originKey": "soka-ekiden.com",
+            "independenceNote": "創価大学駅伝部官方歴代表"
+          }
+        ],
+        "adoptedEvidenceIds": [
+          "uni"
+        ],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "checked",
+            "searchIndexes": [
+              0
+            ],
+            "reason": "創価大歴代表已读"
+          },
+          {
+            "category": "employer",
+            "status": "not-applicable",
+            "searchIndexes": [],
+            "reason": "在校生"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "主办方原件未取得"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查数据库"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "未查媒体"
+          }
+        ],
+        "limitations": [
+          "主办方原始成绩单未取得；以大学歴代表为准"
+        ],
+        "affiliation": {
+          "stage": "student",
+          "organization": "創価大学",
+          "evidenceIds": [
+            "uni"
+          ],
+          "enrollment": {
+            "asOf": "2026-11-17",
+            "employerStartsOn": null
+          },
+          "reason": "歴代表与名鑑显示在校"
+        },
+        "performances": [
+          {
+            "id": "pb",
+            "value": "1:01:58; 2024-02-04; 香川丸亀国際ハーフマラソン",
+            "timeMilliseconds": 3718000,
+            "precision": "second",
+            "achievedOn": "2024-02-04",
+            "evidenceIds": [
+              "uni"
+            ],
+            "eligibility": "eligible",
+            "reason": "大学歴代表的正式比赛成绩",
+            "event": {
+              "metadataId": null,
+              "name": "香川丸亀国際ハーフマラソン（香川県立丸亀競技場周辺）",
+              "edition": null,
+              "startsOn": "2024-02-04",
+              "endsOn": "2024-02-04",
+              "competedOn": "2024-02-04",
+              "discipline": "half-marathon",
+              "distanceMetres": 21097.5,
+              "editionStatus": "pending",
+              "evidenceIds": [
+                "uni"
+              ]
+            }
+          }
+        ],
+        "pbUpdate": {
+          "initialId": "pb",
+          "selectedId": "pb",
+          "checks": [
+            {
+              "searchIndex": 0,
+              "from": "2024-02-04",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "uni"
+              ],
+              "outcome": "no-faster-found",
+              "note": "歴代表当前仍列该成绩（大学类别后续检查）"
+            },
+            {
+              "searchIndex": 3,
+              "from": "2024-02-04",
+              "through": "2026-11-17",
+              "evidenceIds": [
+                "uni"
+              ],
+              "outcome": "no-faster-found",
+              "note": "歴代表当前仍列该成绩"
+            }
+          ],
+          "foundFaster": false,
+          "decision": "大学歴代表未显示更快成绩，采用该正式比赛成绩"
+        }
+      }
+    }
+  ]
+}

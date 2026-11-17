@@ -1588,5 +1588,245 @@
       "basis": "Corporate team race report reviewed. Only objective facts recorded; no page content republished. No permission claimed.",
       "permissionReference": null
     }
+  },
+  {
+    "id": "hochi-tsujihara",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 辻原 輝",
+    "url": "https://hochi.news/hakone/member/?school=kokugakuin&player=38",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年3年・登録陸協 神奈川・出身校 藤沢翔陵",
+    "coverage": "辻原 輝的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-uehara",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 上原 琉翔",
+    "url": "https://hochi.news/hakone/member/?school=kokugakuin&player=34",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年4年(主将)・出身校 北山",
+    "coverage": "上原 琉翔的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-takayama",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 高山 豪起",
+    "url": "https://hochi.news/hakone/member/?school=kokugakuin&player=36",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年4年・登録陸協 山口・出身校 高川学園",
+    "coverage": "高山 豪起的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-ishimaru",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 石丸 惇那",
+    "url": "https://hochi.news/hakone/member/?school=soka&player=97",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年4年・出身校 出水中央",
+    "coverage": "石丸 惇那的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-yamaguchi-shoki",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 山口 翔輝",
+    "url": "https://hochi.news/hakone/member/?school=soka&player=111",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年2年・出身校 大牟田",
+    "coverage": "山口 翔輝的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-orihashi",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 織橋 巧",
+    "url": "https://hochi.news/hakone/member/?school=soka&player=101",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年3年・出身校 中京",
+    "coverage": "織橋 巧的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-muthini",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 スティーブン ムチーニ",
+    "url": "https://hochi.news/hakone/member/?school=soka&player=105",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年3年・出身校 ミクユニ(ケニア)",
+    "coverage": "スティーブン ムチーニ的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-nozawa",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 野沢 悠真",
+    "url": "https://hochi.news/hakone/member/?school=soka&player=100",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年4年・出身校 利府",
+    "coverage": "野沢 悠真的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-kuwata",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 桑田 駿介",
+    "url": "https://hochi.news/hakone/member/?school=komazawa&player=27",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年2年・登録陸協 岡山・出身校 倉敷",
+    "coverage": "桑田 駿介的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-maseda",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 間瀬田 純平",
+    "url": "https://hochi.news/hakone/member/?school=waseda&player=50",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年4年・登録陸協 佐賀・出身校 鳥栖工",
+    "coverage": "間瀬田 純平的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-shimada",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 島田 晃希",
+    "url": "https://hochi.news/hakone/member/?school=teikyo&player=147",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年4年・登録陸協 三重・出身校 高田（三重）",
+    "coverage": "島田 晃希的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-ozaki",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 尾崎 仁哉",
+    "url": "https://hochi.news/hakone/member/?school=teikyo&player=145",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年4年・登録陸協 福岡・出身校 東海大福岡",
+    "coverage": "尾崎 仁哉的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-hirota",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 廣田 陸",
+    "url": "https://hochi.news/hakone/member/?school=teikyo&player=156",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年3年・登録陸協 北海道・出身校 北海道栄",
+    "coverage": "廣田 陸的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-shibako",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 柴戸 遼太",
+    "url": "https://hochi.news/hakone/member/?school=teikyo&player=146",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年4年(主将)・登録陸協 大分・出身校 大分東明",
+    "coverage": "柴戸 遼太的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-okada",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 岡田 開成",
+    "url": "https://hochi.news/hakone/member/?school=chuo&player=74",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年2年・登録陸協 大阪・出身校 洛南",
+    "coverage": "岡田 開成的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-ogata",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 緒方 澪那斗",
+    "url": "https://hochi.news/hakone/member/?school=toyo&player=130",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年4年・登録陸協 千葉・出身校 市船橋",
+    "coverage": "緒方 澪那斗的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
   }
 ]

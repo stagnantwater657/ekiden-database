@@ -27,3 +27,9 @@
 - [NTV：斎藤八王子报道](https://www.ntv.co.jp/hakone/articles/3758pibz71nad1ci0fln.html)：PR #19 的 `ntv-saito-hachioji-10000-2024`，赛事/自己新线索；注意文章日期和实际比赛日期区别。
 
 入口失效时记录 HTTP/工具错误、日期、尝试路径及独立替代来源；不把失败当不存在，不用另一个域名规避明确限制。新发现的具体栏目、重定向和局限，经复核后更新本目录；目录中列出链接不表示可无限自动抓取或可转载内容。
+
+## 第3轮新增检索入口与分类纠正（2026-11-17）
+
+[创价历代榜](https://soka-ekiden.com/play/?page_id=269)、[2024深川结果](https://soka-ekiden.com/play/?p=17642)、[青学2023](https://aogaku-tf.com/results-2023.html)/[2024](https://aogaku-tf.com/results-2024.html)年度结果、[GMO太田入队公告](https://athletes.gmo.jp/news/6213/)、[长野高校男子纪录](https://nrk-dir.jp/nrk_record/nrk_hsrecordm)已做有限读取。来源定位、政策访问失败与未完成项见[本轮报告](round3-completion-review.md)。学校表只证明表内范围，不自动证明毕业后当前PB。
+
+**纠正分类**：本目录旧条目中的 chuo-ldt.net 是“中央大学陸上部 長距離ブロック非公式応援HP”，不是中央大学官方发布者。可当数据库/比赛线索，不能因域名或报道对象归university；应向真正主办方或大学正式材料追溯。本轮不修改既有生产Source或PR #19数据。

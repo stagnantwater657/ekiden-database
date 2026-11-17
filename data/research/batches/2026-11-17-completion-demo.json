@@ -1,0 +1,337 @@
+{
+  "schemaVersion": 2,
+  "batchId": "2026-11-17-completion-demo",
+  "researcher": "Codex / 本轮有限网页检索示范；非独立复核",
+  "reviewedAt": "2026-11-17",
+  "records": [
+    {
+      "athleteId": "athlete-aj24-04-2",
+      "athleteName": "吉田 響",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": "current",
+      "status": "candidate",
+      "candidates": [
+        {
+          "value": "13:39.94; 2024-07-17; ホクレン・ディスタンスチャレンジ深川大会",
+          "sourceUrl": "https://soka-ekiden.com/play/?page_id=269",
+          "locator": "5000M / 吉田響 row; 在学中范围"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "打开用户提供的创价大学历代榜，查找吉田響5000M行",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "category": "university",
+              "section": "5000M 吉田響行",
+              "access": "read",
+              "finding": "数值、日期、深川大会同页可见；榜单限在学期间"
+            }
+          ],
+          "result": "读到候选的赛事及日期，不作为2026当前 PB 的充分证明"
+        },
+        {
+          "stage": "reverse",
+          "query": "吉田響 \"13:39.94\"",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?page_id=269",
+              "category": "university",
+              "section": "搜索结果摘要",
+              "access": "search-snippet",
+              "finding": "摘要命中学校历代榜"
+            }
+          ],
+          "result": "精确成绩反查命中官方历代榜"
+        },
+        {
+          "stage": "reverse",
+          "query": "吉田響 \"13分39秒94\"",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?p=17642",
+              "category": "university",
+              "section": "搜索结果摘要",
+              "access": "search-snippet",
+              "finding": "命中深川比赛报告"
+            }
+          ],
+          "result": "另一成绩格式可找到学校赛事报告"
+        },
+        {
+          "stage": "reverse",
+          "query": "吉田響 5000m 2024",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://sunbelx.com/news/detail/429",
+              "category": "employer",
+              "section": "搜索结果摘要",
+              "access": "search-snippet",
+              "finding": "发现毕业后所属公告列有成绩及比赛日"
+            }
+          ],
+          "result": "发现实业团公告入口；未据摘要核验"
+        },
+        {
+          "stage": "verification",
+          "query": "打开创价大学2024深川比赛报告，核对男子5000m B组",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://soka-ekiden.com/play/?p=17642",
+              "category": "university",
+              "section": "日時与男子B表 吉田響行",
+              "access": "read",
+              "finding": "2024-07-17 / 创价4年 / 13分39秒94 / 自己新"
+            }
+          ],
+          "result": "大学年度结果补足日期和比赛定位"
+        },
+        {
+          "stage": "verification",
+          "query": "打开吉田響个人官网プロフィール，检查毕业后所属",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://hibiki-yoshida.jp/about",
+              "category": "athlete",
+              "section": "Profile 所属及出身校",
+              "access": "read",
+              "finding": "サンベルクス / 創価大学"
+            }
+          ],
+          "result": "个人档案提供毕业后检索方向"
+        },
+        {
+          "stage": "verification",
+          "query": "打开サンベルクス所属契约公告，核对吉田響及5000m项",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://sunbelx.com/news/detail/429",
+              "category": "employer",
+              "section": "2025-04-01 公告 競技実績5000m",
+              "access": "read",
+              "finding": "公告与学校给出的用时、比赛日及深川站相符"
+            }
+          ],
+          "result": "此为2025公告，不能等同检查全部2026后续比赛"
+        }
+      ],
+      "final": null,
+      "identityEvidence": "复用已公开稳定 ID；网页姓名与历史大学相符，仅记录候选，不产生新的身份决定",
+      "updateCheck": {
+        "checked": false,
+        "asOf": null,
+        "summary": "未执行全面最新 PB 检索"
+      },
+      "unresolved": [
+        "尚未登记生产 Source，待独立复核；本任务不修改生产资料",
+        "尚未完成主办方原件与毕业后年度结果检查；没有采用当前 PB"
+      ],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [],
+        "adoptedEvidenceIds": [],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "checked",
+            "searchIndexes": [
+              4
+            ],
+            "reason": "只读具体页面；未声称全站或完整后续时间段覆盖"
+          },
+          {
+            "category": "employer",
+            "status": "checked",
+            "searchIndexes": [
+              6
+            ],
+            "reason": "只读具体页面；未声称全站或完整后续时间段覆盖"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "本次小范围演示未检查此类别；未声明研究完成"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "本次小范围演示未检查此类别；未声明研究完成"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "本次小范围演示未检查此类别；未声明研究完成"
+          }
+        ],
+        "limitations": [
+          "仅作检索审计演示，未登记生产 Source，未经独立复核；不宣称当前 PB"
+        ],
+        "affiliation": {
+          "stage": "graduated",
+          "organization": "サンベルクス",
+          "evidenceIds": [],
+          "reason": "个人官网与2025-04-01所属公告对应创价大学毕业选手；未采用为生产事实"
+        },
+        "performances": [],
+        "pbUpdate": {
+          "initialId": null,
+          "selectedId": null,
+          "checks": [],
+          "foundFaster": null,
+          "decision": "未完成截至日期的后续成绩核查，不采用当前 PB"
+        }
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-03-7",
+      "athleteName": "太田 蒼生",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "pbScope": null,
+      "status": "candidate",
+      "candidates": [
+        {
+          "value": "2002-08-26",
+          "sourceUrl": "https://athletes.gmo.jp/news/6213/",
+          "locator": "2025-04-01 加入選手プロフィール / 生年月日"
+        }
+      ],
+      "searches": [
+        {
+          "stage": "discovery",
+          "query": "打开用户提供的GMO新成员公告，读取太田蒼生简介",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://athletes.gmo.jp/news/6213/",
+              "category": "employer",
+              "section": "加入選手プロフィール",
+              "access": "read",
+              "finding": "姓名及生日2002-08-26同页；有箱根各届履历"
+            }
+          ],
+          "result": "并非只有Wikipedia提供日期"
+        },
+        {
+          "stage": "reverse",
+          "query": "太田蒼生 生年月日 GMO 2002年8月26日",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.gmo.jp/news/article/9218/",
+              "category": "employer",
+              "section": "搜索结果摘要",
+              "access": "search-snippet",
+              "finding": "所属内定公告说明当时青山学院大学4年；同一GMO发布体系"
+            }
+          ],
+          "result": "找到同发布者另一公告，不当独立来源计数"
+        },
+        {
+          "stage": "verification",
+          "query": "核对GMO 2025-04-01公告的生日、入队日与箱根履历",
+          "checkedAt": "2026-11-17",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://athletes.gmo.jp/news/6213/",
+              "category": "employer",
+              "section": "生年月日及2022–2025箱根履历",
+              "access": "read",
+              "finding": "日期与用户候选相符；未在生产资料中采用"
+            }
+          ],
+          "result": "单一明确一手来源足以送独立复核，不强制两个网站"
+        }
+      ],
+      "final": null,
+      "identityEvidence": "复用已公开稳定 ID；网页姓名与历史大学相符，仅记录候选，不产生新的身份决定",
+      "updateCheck": {
+        "checked": false,
+        "asOf": null,
+        "summary": "出生日期不是 PB"
+      },
+      "unresolved": [
+        "尚未登记生产 Source，待独立复核；本任务不修改生产资料"
+      ],
+      "reviewedAt": "2026-11-17",
+      "audit": {
+        "evidence": [],
+        "adoptedEvidenceIds": [],
+        "coverage": [
+          {
+            "category": "university",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "本次小范围演示未检查此类别；未声明研究完成"
+          },
+          {
+            "category": "employer",
+            "status": "checked",
+            "searchIndexes": [
+              0,
+              2
+            ],
+            "reason": "实际读取雇主新成员公告"
+          },
+          {
+            "category": "official",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "本次小范围演示未检查此类别；未声明研究完成"
+          },
+          {
+            "category": "database",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "本次小范围演示未检查此类别；未声明研究完成"
+          },
+          {
+            "category": "media",
+            "status": "not-checked",
+            "searchIndexes": [],
+            "reason": "本次小范围演示未检查此类别；未声明研究完成"
+          }
+        ],
+        "limitations": [
+          "只有GMO发布体系；搜索到的另一公告不是独立第二来源；未登记生产 Source，待独立复核"
+        ],
+        "affiliation": null,
+        "performances": [],
+        "pbUpdate": null
+      }
+    }
+  ]
+}

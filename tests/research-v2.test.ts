@@ -10,8 +10,7 @@ import { researchAuditSummary, validateResearchMeets } from "../lib/research-aud
 import fixture from "./fixtures/research/v2.json" with { type: "json" };
 import old from "./fixtures/research/valid.json" with { type: "json" };
 import meets from "../data/research/meets.json" with { type: "json" };
-import { database } from "../data/index.ts";
-import { presentationSources } from "../data/presentation/index.ts";
+import { createResearchContext } from "../lib/research-context.ts";
 
 const fresh = () => structuredClone(fixture) as unknown as {batch: ResearchBatch; context: ResearchContext};
 const accept = (data: ReturnType<typeof fresh>) => validateResearchBatch(data.batch, data.context);
@@ -238,7 +237,7 @@ test("biography permits one-source evidence and does not require PB or employer 
 
 test("legacy snapshot compatibility rejects new/edited v1 logs while v2 needs no allowlist", () => {
   const dir=mkdtempSync(join(tmpdir(),"research-v2-"));
-  const context={athletes:database.athletes,editions:database.editions,sources:[...database.sources,...presentationSources],uncertainAthleteIds:[]};
+  const context=createResearchContext();
   try {
     const filename=`${old.batchId}.json`, text=JSON.stringify(old);
     writeFileSync(join(dir,filename),text);

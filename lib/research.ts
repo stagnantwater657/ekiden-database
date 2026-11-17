@@ -2,6 +2,8 @@ import { researchChecks } from "./research-checks.ts";
 import { validateResearchAudit, type ResearchAudit, type ResearchMeet } from "./research-audit.ts";
 import type { Athlete, Edition, Source } from "./model.ts";
 
+export const researchSourceCategories = ["athlete", "university", "employer", "competition", "federation", "database", "media"] as const;
+
 export const researchStatuses = ["verified", "verified-absent", "candidate", "not-found", "conflict"] as const;
 export const researchFields = ["birthDate", "highSchool", "affiliation", "5000m", "10000m", "half-marathon", "race-result", "section-record", "award", "statistic"] as const;
 export type ResearchStatus = typeof researchStatuses[number];
@@ -11,6 +13,8 @@ export interface ResearchVisit {
   section: string;
   access: "read" | "search-snippet" | "unavailable";
   finding: string;
+  /** Optional v2 classification; legacy official coverage remains unchanged. */
+  category?: typeof researchSourceCategories[number];
 }
 export interface ResearchSearch {
   stage: "discovery" | "reverse" | "verification";
@@ -56,7 +60,7 @@ export interface ResearchContext {
   editions: readonly Pick<Edition, "id">[];
   sources: readonly Source[];
   uncertainAthleteIds: readonly string[];
-  meets?: readonly ResearchMeet[];
+  meets: readonly ResearchMeet[];
 }
 
 // No network, repository mutation, or assertion that a researcher really read a page.
@@ -66,6 +70,7 @@ export function validateResearchBatch(input: unknown, context: ResearchContext):
   if (batch.schemaVersion !== 1 && batch.schemaVersion !== 2) fail("schemaVersion", "unsupported version");
   if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(str(batch.batchId, "batchId"))) fail("batchId", "invalid ID");
   str(batch.researcher, "researcher");
+  if (batch.schemaVersion === 2 && !Array.isArray(context.meets)) fail("context.meets", "v2 requires explicit meet context; use createResearchContext()");
   const batchDate = date(batch.reviewedAt, "reviewedAt");
   const records = arr(batch.records, "records");
   if (!records.length) fail("records", "empty batch; do not fabricate completed research");
@@ -125,7 +130,9 @@ export function validateResearchBatch(input: unknown, context: ResearchContext):
       if (s.outcome !== "not-found" && !visits.length) fail(q, "source references required for this outcome");
       for (const [k, visit] of visits.entries()) {
         const vpath = `${q}.sources[${k}]`;
-        const v = obj(visit, ["url", "section", "access", "finding"], vpath);
+        const classified = batch.schemaVersion === 2 && !!visit && typeof visit === "object" && "category" in visit;
+        const v = obj(visit, ["url", "section", "access", "finding", ...(classified ? ["category"] : [])], vpath);
+        if (classified) oneOf(v.category, researchSourceCategories, `${vpath}.category`);
         const sourceUrl = url(v.url, `${vpath}.url`);
         visited.add(sourceUrl);
         str(v.section, `${vpath}.section`);

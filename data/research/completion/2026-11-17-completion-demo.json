@@ -1,0 +1,144 @@
+{
+  "batchId": "2026-11-17-completion-demo",
+  "readyForReview": false,
+  "scopeNote": "仅演示吉田響5000m及太田蒼生生日两字段；不是PR19全批完成报告，未执行步骤如实保留",
+  "subjects": [
+    {
+      "athleteId": "athlete-aj24-04-2",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "本轮实际执行，见关联查询"
+        },
+        {
+          "kind": "exact-value",
+          "status": "searched",
+          "searchIndexes": [
+            1
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "本轮实际执行，见关联查询"
+        },
+        {
+          "kind": "alternate-value",
+          "status": "searched",
+          "searchIndexes": [
+            2
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "本轮实际执行，见关联查询"
+        },
+        {
+          "kind": "event-year",
+          "status": "searched",
+          "searchIndexes": [
+            3
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "本轮实际执行，见关联查询"
+        },
+        {
+          "kind": "university-results",
+          "status": "searched",
+          "searchIndexes": [
+            4
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "本轮实际执行，见关联查询"
+        },
+        {
+          "kind": "personal-profile",
+          "status": "searched",
+          "searchIndexes": [
+            5
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "本轮实际执行，见关联查询"
+        },
+        {
+          "kind": "employer-profile",
+          "status": "searched",
+          "searchIndexes": [
+            6
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "本轮实际执行，见关联查询"
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-started",
+          "searchIndexes": [],
+          "alternativeSearchIndexes": [],
+          "reason": "只读入队公告，尚未检查毕业后历年结果"
+        },
+        {
+          "kind": "organizer-results",
+          "status": "not-started",
+          "searchIndexes": [],
+          "alternativeSearchIndexes": [],
+          "reason": "尚未取得2024深川主办方计时原件"
+        }
+      ],
+      "nextActions": [
+        "读取允许访问的Hokuren深川2024官方结果与历年后续资料",
+        "核对2025–2026サンベルクス比赛结果，确认截至日期 PB；无法访问时记录具体失败与实际替代查询"
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-03-7",
+      "field": "birthDate",
+      "scope": {
+        "asOf": "2026-11-17",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "employer-profile",
+          "status": "searched",
+          "searchIndexes": [
+            0,
+            2
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "一手生日公告及履历"
+        },
+        {
+          "kind": "personal-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0,
+            2
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "该生日由雇主一手公告明确列出，无需为凑来源增加私人档案"
+        },
+        {
+          "kind": "university-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            1
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "研究字段是生日；雇主公告检索明确连接青学时期身份，不需赛事结果证明生日"
+        }
+      ],
+      "nextActions": [
+        "独立重新打开GMO公告核对身份及日期，再由另一个资料PR登记Source；本分支不采用生产事实"
+      ]
+    }
+  ]
+}

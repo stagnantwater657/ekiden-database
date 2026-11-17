@@ -1243,5 +1243,155 @@
       "basis": "Only objective facts (values, dates, places, editions) are recorded; no page content, image or layout is republished and no permission is claimed.",
       "permissionReference": null
     }
+  },
+  {
+    "id": "wa-riki-koike",
+    "title": "World Athletics 選手プロフィール 小池 莉希（Riki KOIKE）",
+    "url": "https://worldathletics.org/athletes/japan/riki-koike-15004091",
+    "collectedAt": "2026-11-17",
+    "locator": "Profile: date of birth 26 NOV 2004; Personal Bests: 5000m 13:28.80 (12 JUN 2026, Japanese Championships), 10000m 27:52.43 (21 MAY 2026, 105th Kanto IC), Half 1:02:21 (02 FEB 2025, Marugame)",
+    "coverage": "小池莉希的出生日期与三项 PB 的日期/赛事",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://worldathletics.org/terms-of-use",
+      "reviewedAt": "2026-11-17",
+      "basis": "Public athlete database. Only objective facts are recorded; no page content republished and no permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "wa-shumpei-yamaguchi",
+    "title": "World Athletics 選手プロフィール 山口 竣平（Shumpei YAMAGUCHI）",
+    "url": "https://worldathletics.org/athletes/japan/shumpei-yamaguchi-14995762",
+    "collectedAt": "2026-11-17",
+    "locator": "Profile: date of birth 15 JAN 2006; Personal Bests: 5000m 13:17.19 (04 JUL 2026, HOKUREN Chitose), 10000m 27:59.47 (24 APR 2026, All Japan University Track & Field Challenge)",
+    "coverage": "山口竣平的出生日期与 5000m/10000m PB",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://worldathletics.org/terms-of-use",
+      "reviewedAt": "2026-11-17",
+      "basis": "Public athlete database. Only objective facts are recorded; no page content republished and no permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "wa-hiroto-yoshioka",
+    "title": "World Athletics 選手プロフィール 吉岡 大翔（Hiroto YOSHIOKA）",
+    "url": "https://worldathletics.org/athletes/japan/hiroto-yoshioka-14954030",
+    "collectedAt": "2026-11-17",
+    "locator": "Profile: date of birth 18 MAY 2004; Personal Bests: 5000m 13:22.99 (13 NOV 2022), 10000m 28:12.22 (24 APR 2026, All Japan University Track & Field Challenge), Half 1:02:25 (04 FEB 2024, Marugame)",
+    "coverage": "吉岡大翔的出生日期与三项 PB 的日期/赛事",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://worldathletics.org/terms-of-use",
+      "reviewedAt": "2026-11-17",
+      "basis": "Public athlete database. Only objective facts are recorded; no page content republished and no permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-koike",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 小池 莉希",
+    "url": "https://hochi.news/hakone/member/?school=soka&player=102",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年3年・登録陸協 学連・出身校 佐久長聖・10000m公認 28:26.33・半马 1:02:21",
+    "coverage": "小池莉希的出身高中与记录交叉",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-yamaguchi-shumpei",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 山口 竣平",
+    "url": "https://hochi.news/hakone/member/?school=waseda&player=59",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年2年・登録陸協 長野・出身校 佐久長聖・10000m公認 29:11.26",
+    "coverage": "山口竣平的出身高中与所属",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hochi-yoshioka",
+    "title": "スポーツ報知 箱根駅伝 選手名鑑 吉岡 大翔",
+    "url": "https://hochi.news/hakone/member/?school=juntendo&player=184",
+    "collectedAt": "2026-11-17",
+    "locator": "選手名鑑: 学年3年・登録陸協 長野・出身校 佐久長聖・10000m公認 28:08.02・半马 1:02:25",
+    "coverage": "吉岡大翔的出身高中与记录交叉",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hochi.news/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Tournament guide page reviewed. Only objective facts recorded; no article text or image republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "hibiki-yoshida-official",
+    "title": "プロランナー吉田響 オフィシャルサイト プロフィール",
+    "url": "https://hibiki-yoshida.jp/about",
+    "collectedAt": "2026-11-17",
+    "locator": "【生年月日】2002年8月20日／【所 属】サンベルクス／【出身校】創価大学／自己ベスト 5000m 13分39秒94(2024)、10000m 28分12秒01(2024)、ハーフ 1時間01分45秒(2024)；高校は東海大付属静岡翔洋高",
+    "coverage": "吉田響的出生日期、出身高中与 PB 值",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://hibiki-yoshida.jp/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Athlete's official site reviewed. Only objective facts recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "yomiuri-yoshida-2024",
+    "title": "読売新聞 箱根駅伝2024 選手プロフィル 吉田 響",
+    "url": "https://www.yomiuri.co.jp/hakone-ekiden/2024/teams/8/00164747231",
+    "collectedAt": "2026-11-17",
+    "locator": "プロフィル: 登録陸協 学連・出身校 東海大静岡翔洋・5000m公認 13分59秒44・10000m公認 28分59秒50・半马 1時間03分18秒",
+    "coverage": "吉田響的出身高中与当时记录",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://www.yomiuri.co.jp/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Profile page reviewed. Only objective facts recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "yomiuri-ota-2024",
+    "title": "読売新聞 箱根駅伝2024 選手プロフィル 太田 蒼生",
+    "url": "https://www.yomiuri.co.jp/hakone-ekiden/2024/teams/3/00100740315",
+    "collectedAt": "2026-11-17",
+    "locator": "プロフィル: 学年3年・登録陸協 福岡・出身校 大牟田・5000m公認 13分53秒10・10000m公認 28分20秒63",
+    "coverage": "太田蒼生的出身高中与当时记录",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://www.yomiuri.co.jp/",
+      "reviewedAt": "2026-11-17",
+      "basis": "Profile page reviewed. Only objective facts recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "waseda-record-ranking",
+    "title": "早稲田大学競走部 男子歴代ランキング",
+    "url": "https://waseda-ac.jp/record/detail/2",
+    "collectedAt": "2026-11-17",
+    "locator": "5000m 2位 13:17.19 山口竣平 2026；10000m 9位 27:59.47 山口竣平 2026",
+    "coverage": "山口竣平的大学历代排名与 PB 交叉",
+    "revision": "retrieved 2026-11-17",
+    "usage": {
+      "policyUrl": "https://waseda-ac.jp/",
+      "reviewedAt": "2026-11-17",
+      "basis": "University track-team ranking page reviewed. Only objective facts recorded; no page content republished. No permission claimed.",
+      "permissionReference": null
+    }
   }
 ]

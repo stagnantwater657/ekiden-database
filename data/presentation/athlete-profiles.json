@@ -717,6 +717,158 @@
         "locator": "プロフィル: 登録陸協 千葉・出身校 富里",
         "revision": "retrieved 2026-11-16"
       }
+    },
+    {
+      "athleteId": "athlete-aj25-04-2",
+      "reviewedAt": "2026-11-17",
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 808800,
+          "precision": "centisecond",
+          "achievedOn": "2026-06-12",
+          "meet": "第110回日本陸上競技選手権大会 男子5000m（名古屋・瑞穂公園陸上競技場）",
+          "sourceId": "wa-riki-koike",
+          "locator": "Profile → Personal Bests → 5000 Metres; competition Japanese Championships; date 12 JUN 2026",
+          "revision": "World Athletics profile retrieved 2026-11-17"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1672430,
+          "precision": "centisecond",
+          "achievedOn": "2026-05-21",
+          "meet": "第105回関東学生対校選手権大会 男子10000m 2部（宇都宮・関石スタジアム）",
+          "sourceId": "wa-riki-koike",
+          "locator": "Profile → Personal Bests → 10,000 Metres; competition The 105th Kanto Inter-University Track & Field Championships - 2nd Tier; date 21 MAY 2026",
+          "revision": "World Athletics profile retrieved 2026-11-17"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3741000,
+          "precision": "second",
+          "achievedOn": "2025-02-02",
+          "meet": "第77回香川丸亀国際ハーフマラソン（丸亀）",
+          "sourceId": "wa-riki-koike",
+          "locator": "Profile → Personal Bests → Half Marathon; venue Marugame; date 02 FEB 2025",
+          "revision": "World Athletics profile retrieved 2026-11-17"
+        }
+      ],
+      "birthDate": {
+        "value": "2004-11-26",
+        "sourceId": "wa-riki-koike",
+        "locator": "Profile → basic data: date of birth 26 NOV 2004",
+        "revision": "World Athletics profile retrieved 2026-11-17"
+      },
+      "highSchool": {
+        "value": "佐久長聖高（長野県）",
+        "sourceId": "hochi-koike",
+        "locator": "選手名鑑: 出身校 佐久長聖",
+        "revision": "retrieved 2026-11-17"
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-05-5",
+      "reviewedAt": "2026-11-17",
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 797190,
+          "precision": "centisecond",
+          "achievedOn": "2026-07-04",
+          "meet": "ホクレン・ディスタンスチャレンジ2026千歳大会（青葉公園陸上競技場）",
+          "sourceId": "wa-shumpei-yamaguchi",
+          "locator": "Profile → Personal Bests → 5000 Metres; competition HOKUREN Distance Challenge in Chitose; date 04 JUL 2026",
+          "revision": "World Athletics profile retrieved 2026-11-17"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1679470,
+          "precision": "centisecond",
+          "achievedOn": "2026-04-24",
+          "meet": "全日本大学対校陸上競技選手権大会（平塚・レモンガススタジアム）",
+          "sourceId": "wa-shumpei-yamaguchi",
+          "locator": "Profile → Personal Bests → 10,000 Metres; competition All Japan University Track & Field Challenge; date 24 APR 2026",
+          "revision": "World Athletics profile retrieved 2026-11-17"
+        }
+      ],
+      "birthDate": {
+        "value": "2006-01-15",
+        "sourceId": "wa-shumpei-yamaguchi",
+        "locator": "Profile → basic data: date of birth 15 JAN 2006",
+        "revision": "World Athletics profile retrieved 2026-11-17"
+      },
+      "highSchool": {
+        "value": "佐久長聖高（長野県）",
+        "sourceId": "hochi-yamaguchi-shumpei",
+        "locator": "選手名鑑: 出身校 佐久長聖",
+        "revision": "retrieved 2026-11-17"
+      }
+    },
+    {
+      "athleteId": "athlete-aj25-13-1",
+      "reviewedAt": "2026-11-17",
+      "personalBests": [
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1692220,
+          "precision": "centisecond",
+          "achievedOn": "2026-04-24",
+          "meet": "全日本大学対校陸上競技選手権大会（平塚・レモンガススタジアム）",
+          "sourceId": "wa-hiroto-yoshioka",
+          "locator": "Profile → Personal Bests → 10,000 Metres; competition All Japan University Track & Field Challenge; date 24 APR 2026",
+          "revision": "World Athletics profile retrieved 2026-11-17"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3745000,
+          "precision": "second",
+          "achievedOn": "2024-02-04",
+          "meet": "香川丸亀国際ハーフマラソン（丸亀）",
+          "sourceId": "wa-hiroto-yoshioka",
+          "locator": "Profile → Personal Bests → Half Marathon; venue Marugame; date 04 FEB 2024",
+          "revision": "World Athletics profile retrieved 2026-11-17"
+        }
+      ],
+      "birthDate": {
+        "value": "2004-05-18",
+        "sourceId": "wa-hiroto-yoshioka",
+        "locator": "Profile → basic data: date of birth 18 MAY 2004",
+        "revision": "World Athletics profile retrieved 2026-11-17"
+      },
+      "highSchool": {
+        "value": "佐久長聖高（長野県）",
+        "sourceId": "hochi-yoshioka",
+        "locator": "選手名鑑: 出身校 佐久長聖",
+        "revision": "retrieved 2026-11-17"
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-04-2",
+      "reviewedAt": "2026-11-17",
+      "personalBests": [],
+      "birthDate": {
+        "value": "2002-08-20",
+        "sourceId": "hibiki-yoshida-official",
+        "locator": "プロフィール: 生年月日 2002年8月20日",
+        "revision": "retrieved 2026-11-17"
+      },
+      "highSchool": {
+        "value": "東海大付属静岡翔洋高（静岡県）",
+        "sourceId": "hibiki-yoshida-official",
+        "locator": "プロフィール: 東海大付属静岡翔洋高等学校",
+        "revision": "retrieved 2026-11-17"
+      }
+    },
+    {
+      "athleteId": "athlete-aj24-03-7",
+      "reviewedAt": "2026-11-17",
+      "personalBests": [],
+      "highSchool": {
+        "value": "大牟田高（福岡県）",
+        "sourceId": "yomiuri-ota-2024",
+        "locator": "プロフィル: 登録陸協 福岡・出身校 大牟田",
+        "revision": "retrieved 2026-11-17"
+      }
     }
   ]
 }

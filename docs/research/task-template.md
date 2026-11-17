@@ -33,3 +33,7 @@
 ## PR #22 独立审查后的退出要求
 
 任务发起者单独提供授权文件（明确选手×字段、scope、批准引用）及预期SHA-256；不得从执行者plan/records反向生成。退出命令为 `npm run research:complete -- <batchId> --authorization <owner-scope.json> --authorization-sha256 <owner-provided-sha256>`，PR同时列任务提供的摘要供对照。readyForReview=false始终表示未提交；普通validate可保存进度。历史无授权日志不追造批准，不通过严格退出。所有N/A及blocked的相关性仍须人工检查；详见[契约](completion-audit.md)。
+
+## 在校豁免、主办方受阻与毕业更新
+
+续查先读[完成度退出规则](completion-audit.md#有依据的在校生豁免与受阻退出)与[PR #19第三轮补齐指南](applicable-exits-review.md#dsh补齐第三轮清单)。在校身份须以asOf及实际入队日为准；雇主简介不等于比赛结果；未找到主办方原件不等于未执行查询，也不要求必须取得PDF。只填写实际检索与证据，既有not-started不批量改blocked。无授权文件及任务方固定摘要继续不能严格退出，不自行生成授权或设置送审。

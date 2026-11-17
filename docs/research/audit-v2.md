@@ -71,3 +71,7 @@ v1 原验证器继续工作，但 CLI 标为 legacy，不能冒充已满足 v2�
 ## 检索完成度增量（待本轮独立评审）
 
 新增任务按[completion audit契约](completion-audit.md)列全部授权字段，未确认字段也保存v2日志及下一步。运行 `npm run research:complete -- <batchId>`；结构校验/CI通过不能代替退出检查或独立证据复核。大学无个人PB表时继续查历代表及年度结果；毕业后查当前所属。CLI和真实实体测试使用 `createResearchContext()`，不得以pending替代已知届次。旧日志无须追造历史，明确未评估。
+
+## Completion定向增量（不重写v2日志）
+
+`affiliation.enrollment?: {asOf,employerStartsOn}`与访问的`documentType?`仅为可选增量，结构及取值见[完成度契约](completion-audit.md#有依据的在校生豁免与受阻退出)。在校生实业团N/A需额外身份/时点证明；旧日志未提供时继续可读，不自动授予豁免。v1原始字节及既有v2事实校验保持。completion明确区分简介、历史榜、最终结果，不依据文件后缀要求PDF。

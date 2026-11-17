@@ -69,6 +69,8 @@ export interface ResearchAudit {
     organization: string | null;
     evidenceIds: string[];
     reason: string;
+    /** Optional dated enrollment assessment, supported by affiliation evidence; never inferred from a PB year. */
+    enrollment?: { asOf: string; employerStartsOn: string | null };
   } | null;
   performances: PerformanceCandidate[];
   pbUpdate: {
@@ -189,7 +191,13 @@ export function validateResearchAudit(input: unknown, record: ResearchRecord, co
     if (a.pbUpdate !== null || a.affiliation !== null || c.arr(a.performances, path).length) fail("biography does not require PB-specific checks");
     return;
   }
-  const affiliation = c.obj(a.affiliation, ["stage", "organization", "evidenceIds", "reason"], path);
+  const hasEnrollment=!!a.affiliation && typeof a.affiliation==="object" && "enrollment" in a.affiliation;
+  const affiliation = c.obj(a.affiliation, ["stage", "organization", "evidenceIds", "reason", ...(hasEnrollment ? ["enrollment"] : [])], path);
+  if (hasEnrollment) {
+    const enrollment=c.obj(affiliation.enrollment,["asOf","employerStartsOn"],path);
+    if (affiliation.stage!=="student" || c.date(enrollment.asOf,path)!==record.scope.asOf) fail("enrollment assessment must describe student status at scope.asOf");
+    if (enrollment.employerStartsOn!==null) c.date(enrollment.employerStartsOn,path);
+  }
   c.oneOf(affiliation.stage, ["student", "graduated", "unknown"], path);
   c.str(affiliation.reason, path);
   const affiliationEvidence = refs(affiliation.evidenceIds, confirmed);

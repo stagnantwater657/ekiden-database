@@ -1,4 +1,5 @@
-import type { ResearchBatch, ResearchScope, ResearchField, ResearchSearch } from "./research.ts";
+import type { ResearchBatch, ResearchContext, ResearchScope, ResearchField, ResearchSearch } from "./research.ts";
+import { resultEvidence, studentEmployerWaiver } from "./research-completion-evidence.ts";
 import { researchFields } from "./research.ts";
 import { authorizedSubjects, researchSubjectKey as key } from "./research-authorization.ts";
 import { researchChecks as c } from "./research-checks.ts";
@@ -53,7 +54,7 @@ function markForms(value: string): string[] {
 }
 
 /** Validate syntax/references and assess executed steps, not whether external facts are true. */
-export function auditResearchCompletion(input: unknown, batch: ResearchBatch, authorization?: unknown): CompletionReport {
+export function auditResearchCompletion(input: unknown, batch: ResearchBatch, authorization?: unknown, context?: ResearchContext): CompletionReport {
   const p = "completion";
   const plan = c.obj(input,["batchId","readyForReview","scopeNote","subjects"],p);
   if (plan.batchId !== batch.batchId) c.fail(p,"batchId mismatch");
@@ -98,26 +99,42 @@ export function auditResearchCompletion(input: unknown, batch: ResearchBatch, au
       if (!record) continue;
       const searches=refs.map((i)=>record.searches[i]);
       const successfulAttempt=(s:ResearchSearch) => s.outcome!=="inaccessible" && (s.outcome==="not-found" || s.sources.some((v)=>v.access!=="unavailable"));
+      const employer=kind==="employer-profile" || kind==="employer-results";
+      const pb=["5000m","10000m","half-marathon"].includes(record.field);
       if (step.status==="searched") {
         if (!searches.length || !searches.every(successfulAttempt)) add("unexecuted-step",`${kind}: needs actual searches, not failed access`);
         const category=routeCategory[kind];
-        if (category && searches.some((s)=>s.outcome!=="not-found" && !s.sources.some((v)=>v.category===category && v.access==="read")))
+        if (kind==="organizer-results" && !resultEvidence(record,refs,context))
+          add("missing-result-evidence",`${kind}: read final result evidence, or document unsuccessful search and alternatives as blocked`);
+        if (kind==="employer-results" && pb && !resultEvidence(record,refs,context,true))
+          add("missing-employer-update",`${kind}: actual result documents and update evidence through asOf required; a profile is not results`);
+        if (category && searches.some((s)=>s.outcome!=="not-found" && !s.sources.some((v)=>(v.category===category || (kind==="organizer-results" && v.category==="federation")) && v.access==="read")))
           add("unread-route",`${kind}: label the actual publisher category and read the specific page`);
       }
       if (step.status==="blocked") {
         const category=routeCategory[kind];
-        if (!searches.some((s)=>s.sources.some((v)=>v.access==="unavailable"))) add("missing-failure",`${kind}: actual inaccessible target and cause required`);
-        else if (category && !searches.some((s)=>s.sources.some((v)=>v.access==="unavailable" && v.category===category)))
+        const readTarget=(s:ResearchSearch)=>s.sources.some((v)=>v.access==="read" && (v.category===category || (kind==="organizer-results" && v.category==="federation")));
+        const failed=searches.some((s)=>s.sources.some((v)=>v.access==="unavailable"));
+        // A searched archive that exposes no public result is not an invented HTTP failure.
+        const noPublicResult=kind==="organizer-results" && searches.some((s)=>s.outcome==="not-found" && readTarget(s));
+        if (!failed && !noPublicResult) add("missing-failure",`${kind}: actual inaccessible target or searched official archive with no public result required`);
+        else if (category && !noPublicResult && !searches.some((s)=>s.sources.some((v)=>v.access==="unavailable" && (v.category===category || (kind==="organizer-results" && v.category==="federation")))))
           add("unrelated-failure",`${kind}: failed target must belong to this route's publisher category`);
         if (!alternatives.length || !alternatives.map((i)=>record.searches[i]).some(successfulAttempt)) add("missing-alternative",`${kind}: execute an alternative search`);
-        manualChecks.push({subject,code:"review-blocked-relevance",detail:`${kind}: independently check failure reason and relevance of alternative search indexes [${alternatives.join(", ")}]; categories do not verify content`});
+        if (["organizer-results","employer-results"].includes(kind)) {
+          if (!record.audit?.limitations.length) add("missing-limitation",`${kind}: retain inaccessible/missing original and search coverage limitations`);
+          if (!resultEvidence(record,alternatives,context,kind==="employer-results")) add("missing-alternative-evidence",`${kind}: alternative must link read primary results${kind==="employer-results" ? " and updates through asOf" : " with value/date/meet/distance"}`);
+        }
+        manualChecks.push({subject,code:"review-blocked-relevance",detail:`${kind}: independently check failure/no-public-result reason and alternative search indexes [${alternatives.join(", ")}]; do not equate completed search with verified PB`});
       }
       if (step.status==="not-applicable") {
         const category=routeCategory[kind];
         if (!searches.length || !searches.some(successfulAttempt)) add("unsupported-waiver",`${kind}: actual discovery evidence is required`);
         // A biography can be explicitly covered by another publisher; a PB route cannot use
         // an unrelated publisher's read as proof that this route lacks a ranking/results page.
-        if (["5000m","10000m","half-marathon"].includes(record.field) && category &&
+        if (pb && employer) {
+          if (!studentEmployerWaiver(record,refs,context)) add("unconfirmed-student-waiver",`${kind}: dated student enrollment and read identity/affiliation evidence required; graduates/current employees cannot waive`);
+        } else if (pb && category &&
             !searches.some((s)=>s.sources.some((v)=>v.category===category && v.access==="read")))
           add("unrelated-waiver",`${kind}: PB route waiver requires read discovery evidence in its own category`);
         manualChecks.push({subject,code:"review-waiver-relevance",detail:`${kind}: independently review applicability and query indexes [${refs.join(", ")}]; a reason or publisher label does not establish relevance`});
@@ -129,7 +146,7 @@ export function auditResearchCompletion(input: unknown, batch: ResearchBatch, au
     if (!["verified","verified-absent"].includes(record.status) && !actions.length) add("missing-next-action","Unresolved conclusion needs a concrete next action");
     const pb=["5000m","10000m","half-marathon"].includes(record.field);
     const required: StepKind[]=pb ? ["university-ranking","university-results","organizer-results"] : ["personal-profile","university-results","employer-profile"];
-    if (pb && record.audit?.affiliation?.stage!=="student") required.push("employer-profile","employer-results");
+    if (pb) required.push("employer-profile","employer-results");
     if (pb) required.push("event-year");
     if (pb && record.candidates.length) required.push("exact-value","alternate-value");
     for (const kind of required) {
@@ -178,8 +195,8 @@ export function auditResearchCompletion(input: unknown, batch: ResearchBatch, au
   return {stepsComplete,readyForReview,authorizationComplete,exitAllowed:stepsComplete && readyForReview && authorizationComplete,findings,authorizationFindings,manualChecks};
 }
 
-export function validateCompletionClaim(plan: unknown, batch: ResearchBatch, authorization?: unknown): CompletionReport {
-  const report=auditResearchCompletion(plan,batch,authorization);
+export function validateCompletionClaim(plan: unknown, batch: ResearchBatch, authorization?: unknown, context?: ResearchContext): CompletionReport {
+  const report=auditResearchCompletion(plan,batch,authorization,context);
   if (report.readyForReview && (!report.stepsComplete || (authorization!==undefined && !report.authorizationComplete)))
     c.fail("completion",`premature completion: ${[...report.findings,...report.authorizationFindings].map((v)=>v.code+": "+v.detail).join("; ")}`);
   return report;

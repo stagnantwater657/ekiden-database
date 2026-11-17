@@ -66,4 +66,8 @@ v1 原验证器继续工作，但 CLI 标为 legacy，不能冒充已满足 v2�
 
 [完整 v2 fixture](../../tests/fixtures/research/v2.json) 包括独立的假选手、假赛事、假 Source 上下文和日志，全部标记 SYNTHETIC；供理解结构和离线单元测试，**不得复制为实际研究记录**。R9–R14 的真实事实在[回归文档](regression-cases.md)，离线测试使用不同数值，验证错误状态而不是匹配答案。
 
-运行 `npm run research:validate`、`npm run data:validate`、`npm test`、typecheck、lint、build、test:e2e。CLI 只扫描真实 batches，不把测试 fixture 当完成研究。没有新的真实 v2 数据批次是本轮职责边界内的预期，下一批 DSH 执行须等待独立评审。
+运行 `npm run research:validate`、`npm run data:validate`、`npm test`、typecheck、lint、build、test:e2e。CLI 只扫描真实 batches，不把测试 fixture 当完成研究。PR #21 的初版不含真实v2批次；本次检索完成度增量加入两项有限真实候选演示，详情见 round3-completion-review.md。它们不是生产事实批准，下一批 DSH 执行须等待独立评审。
+
+## 检索完成度增量（待本轮独立评审）
+
+新增任务按[completion audit契约](completion-audit.md)列全部授权字段，未确认字段也保存v2日志及下一步。运行 `npm run research:complete -- <batchId>`；结构校验/CI通过不能代替退出检查或独立证据复核。大学无个人PB表时继续查历代表及年度结果；毕业后查当前所属。CLI和真实实体测试使用 `createResearchContext()`，不得以pending替代已知届次。旧日志无须追造历史，明确未评估。

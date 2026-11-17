@@ -205,7 +205,7 @@ export function validateResearchAudit(input: unknown, record: ResearchRecord, co
     if (affiliation.stage === "student" && coverage.get("employer")!.status !== "not-applicable") fail("student employer coverage must explain not-applicable");
   }
   const performances = new Map<string, PerformanceCandidate>();
-  const meets = validateResearchMeets(context.meets ?? []);
+  const meets = validateResearchMeets(context.meets);
   for (const raw of c.arr(a.performances, path)) {
     const perf = c.obj(raw, ["id", "value", "timeMilliseconds", "precision", "achievedOn", "evidenceIds", "eligibility", "reason", "event"], path);
     const id = c.str(perf.id, path);
@@ -296,5 +296,6 @@ export function researchAuditSummary(record: ResearchRecord): string {
   const groups = new Set(adopted.flatMap((e) => e.originKey === null ? [] : [e.originKey]));
   const unknown = adopted.some((e) => e.originKey === null);
   const coverage = record.audit.coverage.map((v) => `${v.category}=${v.status}`).join(", ");
-  return `${new Set(adopted.map((e) => e.sourceId)).size} adopted sources; ${groups.size} declared origin groups${groups.size === 1 ? " (single-origin evidence)" : ""}${unknown ? "; independence unknown" : ""}; ${record.audit.limitations.length} limitations (${record.audit.limitations.join("; ")}); coverage: ${coverage}; independent review required`;
+  const publishers=[...new Set(record.searches.flatMap((s)=>s.sources.map((v)=>v.category ?? "unclassified")))].sort().join(", ");
+  return `publishers: ${publishers}; ${new Set(adopted.map((e) => e.sourceId)).size} adopted sources; ${groups.size} declared origin groups${groups.size === 1 ? " (single-origin evidence)" : ""}${unknown ? "; independence unknown" : ""}; ${record.audit.limitations.length} limitations (${record.audit.limitations.join("; ")}); coverage: ${coverage}; independent review required`;
 }

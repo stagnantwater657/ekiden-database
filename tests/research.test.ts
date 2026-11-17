@@ -6,17 +6,13 @@ import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { database } from "../data/index.ts";
 import { presentationSources } from "../data/presentation/index.ts";
+import { createResearchContext } from "../lib/research-context.ts";
 import { validateResearchBatch, type ResearchBatch, type ResearchContext } from "../lib/research.ts";
 import { validateResearchDirectory } from "../lib/research-files.ts";
 import valid from "./fixtures/research/valid.json" with { type: "json" };
 import invalidCases from "./fixtures/research/invalid-cases.json" with { type: "json" };
 
-const context: ResearchContext = {
-  athletes: database.athletes,
-  editions: database.editions,
-  sources: [...database.sources, ...presentationSources],
-  uncertainAthleteIds: database.identities.filter((i) => i.status === "needs-review").map((i) => i.athleteId),
-};
+const context = createResearchContext();
 const fixture = () => structuredClone(valid) as ResearchBatch;
 const directory = fileURLToPath(new URL("../data/research/batches/", import.meta.url));
 const archiveUrl = valid.records[0].candidates[0].sourceUrl;

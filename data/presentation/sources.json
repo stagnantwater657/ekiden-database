@@ -1993,5 +1993,425 @@
       "basis": "University ranking page reviewed. Only objective facts recorded; no page content republished. No permission claimed.",
       "permissionReference": null
     }
+  },
+  {
+    "id": "hakone-101-qualifier-list",
+    "title": "箱根駅伝公式 第101回予選会エントリー一覧PDF",
+    "url": "https://www.hakone-ekiden.jp/_assets/2024/9c64f4ad8e3dd9527612df1a65d69a088bbd5883.pdf",
+    "collectedAt": "2026-11-18",
+    "locator": "選手行：氏名・学年・登録陸協・出身校・資格記録（2024-10-07時点）",
+    "coverage": "第101回予選会（2024-10-19開催）エントリー一覧；出身校与資格記録",
+    "revision": "As retrieved 2026-11-18",
+    "usage": {
+      "policyUrl": "https://www.hakone-ekiden.jp/contact/",
+      "reviewedAt": "2026-11-18",
+      "basis": "Same publisher policy review as hakone-102-kukan-entry; independently expressed objective facts only.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "aogaku-2026-rankings",
+    "title": "青山学院大学陸上競技部 記録とランキング",
+    "url": "https://aogaku-tf.com/rankings.html",
+    "collectedAt": "2026-11-18",
+    "locator": "チーム内大学自己ベストランキング 各項目行（氏名・記録・大会名・日付）",
+    "coverage": "青学現役選手のチーム内自己ベスト（1500m〜ハーフ・マラソン、日付付き）",
+    "revision": "As retrieved 2026-11-18",
+    "usage": {
+      "policyUrl": "https://aogaku-tf.com/",
+      "reviewedAt": "2026-11-18",
+      "basis": "Team official site; no explicit republication terms found on the retrieved page. Only independently expressed objective results are compiled; no text/images/layout republished.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "getsuriku-hk25-meikan-teikyo",
+    "title": "月陸Online 箱根駅伝2025名鑑（帝京大）",
+    "url": "https://www.rikujyokyogi.co.jp/archives/152734",
+    "collectedAt": "2026-11-18",
+    "locator": "帝京大 選手行：生年月日・出身校・自己最高記録（樹立年）",
+    "coverage": "帝京大 箱根2025 エントリー選手の名鑑情報",
+    "revision": "Published 2024-11; retrieved 2026-11-18",
+    "usage": {
+      "policyUrl": "https://www.rikujyokyogi.co.jp/サイトポリシー",
+      "reviewedAt": "2026-11-18",
+      "basis": "Site policy prohibits unauthorized republication; only independently structured bounded objective facts recorded.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "getsuriku-hk25-meikan-toyo",
+    "title": "月陸Online 箱根駅伝2025名鑑（東洋大）",
+    "url": "https://www.rikujyokyogi.co.jp/archives/152729",
+    "collectedAt": "2026-11-18",
+    "locator": "東洋大 選手行：生年月日・出身校・自己最高記録（樹立年）",
+    "coverage": "東洋大 箱根2025 エントリー選手の名鑑情報",
+    "revision": "Published 2024-11; retrieved 2026-11-18",
+    "usage": {
+      "policyUrl": "https://www.rikujyokyogi.co.jp/サイトポリシー",
+      "reviewedAt": "2026-11-18",
+      "basis": "Same policy basis as getsuriku-hk25-meikan-teikyo.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "getsuriku-hk25-meikan-daito",
+    "title": "月陸Online 箱根駅伝2025名鑑（大東文化大）",
+    "url": "https://www.rikujyokyogi.co.jp/archives/152735",
+    "collectedAt": "2026-11-18",
+    "locator": "大東文化大 選手行：生年月日・出身校・自己最高記録（樹立年）",
+    "coverage": "大東文化大 箱根2025 エントリー選手の名鑑情報",
+    "revision": "Published 2024-11; retrieved 2026-11-18",
+    "usage": {
+      "policyUrl": "https://www.rikujyokyogi.co.jp/サイトポリシー",
+      "reviewedAt": "2026-11-18",
+      "basis": "Same policy basis as getsuriku-hk25-meikan-teikyo.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "izumo-37-runner-01",
+    "title": "出雲全日本大学選抜駅伝 選手紹介",
+    "url": "https://www.izumo-ekiden.jp/37/runner/order/01.html",
+    "collectedAt": "2026-11-18",
+    "locator": "页面具体行（见引用定位）",
+    "coverage": "选手个人资料字段",
+    "revision": "As retrieved 2026-11-18",
+    "usage": {
+      "policyUrl": "https://izumo-ekiden.jp/about/index.html",
+      "reviewedAt": "2026-11-18",
+      "basis": "Official site footer prohibits unauthorized use of site content. Only independently expressed objective roster facts are compiled; no text/images/layout republished; no permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "izumo-37-runner-18",
+    "title": "出雲全日本大学選抜駅伝 選手紹介",
+    "url": "https://www.izumo-ekiden.jp/37/runner/order/18.html",
+    "collectedAt": "2026-11-18",
+    "locator": "页面具体行（见引用定位）",
+    "coverage": "选手个人资料字段",
+    "revision": "As retrieved 2026-11-18",
+    "usage": {
+      "policyUrl": "https://izumo-ekiden.jp/about/index.html",
+      "reviewedAt": "2026-11-18",
+      "basis": "Official site footer prohibits unauthorized use of site content. Only independently expressed objective roster facts are compiled; no text/images/layout republished; no permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "izumo-38-runner-17",
+    "title": "出雲全日本大学選抜駅伝 選手紹介",
+    "url": "https://www.izumo-ekiden.jp/runner/team/17.html",
+    "collectedAt": "2026-11-18",
+    "locator": "页面具体行（见引用定位）",
+    "coverage": "选手个人资料字段",
+    "revision": "As retrieved 2026-11-18",
+    "usage": {
+      "policyUrl": "https://izumo-ekiden.jp/about/index.html",
+      "reviewedAt": "2026-11-18",
+      "basis": "Official site footer prohibits unauthorized use of site content. Only independently expressed objective roster facts are compiled; no text/images/layout republished; no permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "izumo-38-runner-18",
+    "title": "出雲全日本大学選抜駅伝 選手紹介",
+    "url": "https://www.izumo-ekiden.jp/runner/team/18.html",
+    "collectedAt": "2026-11-18",
+    "locator": "页面具体行（见引用定位）",
+    "coverage": "选手个人资料字段",
+    "revision": "As retrieved 2026-11-18",
+    "usage": {
+      "policyUrl": "https://izumo-ekiden.jp/about/index.html",
+      "reviewedAt": "2026-11-18",
+      "basis": "Official site footer prohibits unauthorized use of site content. Only independently expressed objective roster facts are compiled; no text/images/layout republished; no permission claimed.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "weblio-ito-daishi",
+    "title": "Wikipedia 選手ページ",
+    "url": "https://www.weblio.jp/content/%E4%BC%8A%E8%97%A4%E5%A4%A7%E5%BF%97",
+    "collectedAt": "2026-11-18",
+    "locator": "页面具体行（见引用定位）",
+    "coverage": "选手个人资料字段",
+    "revision": "As retrieved 2026-11-18",
+    "usage": {
+      "policyUrl": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+      "reviewedAt": "2026-11-18",
+      "basis": "Content licensed CC BY-SA 4.0 with attribution; only independently expressed objective biographical facts are compiled, not copied prose.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "yomiuri-hk25-waseda-ito",
+    "title": "読売新聞 箱根駅伝2025 プロフィル",
+    "url": "https://www.yomiuri.co.jp/hakone-ekiden/2025/teams/7/00088126530",
+    "collectedAt": "2026-11-18",
+    "locator": "页面具体行（见引用定位）",
+    "coverage": "选手个人资料字段",
+    "revision": "As retrieved 2026-11-18",
+    "usage": {
+      "policyUrl": "https://info.yomiuri.co.jp/policy/",
+      "reviewedAt": "2026-11-18",
+      "basis": "Newspaper content is copyrighted; only independently expressed objective facts are compiled, no article text/images reproduced.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "asahi-kasei-yamamoto",
+    "title": "实业团选手页",
+    "url": "https://www.asahi-kasei.com/jp/sports-event/track-field/member/yamamoto",
+    "collectedAt": "2026-11-18",
+    "locator": "页面具体行（见引用定位）",
+    "coverage": "选手个人资料字段",
+    "revision": "As retrieved 2026-11-18",
+    "usage": {
+      "policyUrl": "https://www.asahi-kasei.com/site-policy/",
+      "reviewedAt": "2026-11-18",
+      "basis": "Employer official profile page; only independently expressed objective facts compiled.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "wiki-yamamoto-ayumu",
+    "title": "Wikipedia 選手ページ",
+    "url": "https://ja.wikipedia.org/wiki/%E5%B1%B1%E6%9C%AC%E6%AD%A9%E5%A4%A2",
+    "collectedAt": "2026-11-18",
+    "locator": "页面具体行（见引用定位）",
+    "coverage": "选手个人资料字段",
+    "revision": "As retrieved 2026-11-18",
+    "usage": {
+      "policyUrl": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+      "reviewedAt": "2026-11-18",
+      "basis": "Content licensed CC BY-SA 4.0 with attribution; only independently expressed objective biographical facts are compiled, not copied prose.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "wiki-nomura-akimu",
+    "title": "Wikipedia 選手ページ",
+    "url": "https://ja.wikipedia.org/wiki/%E9%87%8E%E6%9D%91%E6%98%AD%E5%A4%A2",
+    "collectedAt": "2026-11-18",
+    "locator": "页面具体行（见引用定位）",
+    "coverage": "选手个人资料字段",
+    "revision": "As retrieved 2026-11-18",
+    "usage": {
+      "policyUrl": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+      "reviewedAt": "2026-11-18",
+      "basis": "Content licensed CC BY-SA 4.0 with attribution; only independently expressed objective biographical facts are compiled, not copied prose.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "wiki-ishizuka-yoji",
+    "title": "Wikipedia 選手ページ",
+    "url": "https://ja.wikipedia.org/wiki/%E7%9F%B3%E5%A1%9A%E9%99%BD%E5%A3%AB",
+    "collectedAt": "2026-11-18",
+    "locator": "页面具体行（见引用定位）",
+    "coverage": "选手个人资料字段",
+    "revision": "As retrieved 2026-11-18",
+    "usage": {
+      "policyUrl": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+      "reviewedAt": "2026-11-18",
+      "basis": "Content licensed CC BY-SA 4.0 with attribution; only independently expressed objective biographical facts are compiled, not copied prose.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "wiki-ifuku-yota",
+    "title": "Wikipedia 選手ページ",
+    "url": "https://ja.wikipedia.org/wiki/%E4%BC%8A%E7%A6%8F%E9%99%BD%E5%A4%AA",
+    "collectedAt": "2026-11-18",
+    "locator": "页面具体行（见引用定位）",
+    "coverage": "选手个人资料字段",
+    "revision": "As retrieved 2026-11-18",
+    "usage": {
+      "policyUrl": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+      "reviewedAt": "2026-11-18",
+      "basis": "Content licensed CC BY-SA 4.0 with attribution; only independently expressed objective biographical facts are compiled, not copied prose.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "wiki-wakabayashi-hiroki",
+    "title": "Wikipedia 選手ページ",
+    "url": "https://ja.wikipedia.org/wiki/%E8%8B%A5%E6%9E%97%E5%AE%8F%E6%A8%B9",
+    "collectedAt": "2026-11-18",
+    "locator": "页面具体行（见引用定位）",
+    "coverage": "选手个人资料字段",
+    "revision": "As retrieved 2026-11-18",
+    "usage": {
+      "policyUrl": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+      "reviewedAt": "2026-11-18",
+      "basis": "Content licensed CC BY-SA 4.0 with attribution; only independently expressed objective biographical facts are compiled, not copied prose.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "wiki-tsurukawa-masaya",
+    "title": "Wikipedia 選手ページ",
+    "url": "https://ja.wikipedia.org/wiki/%E9%B6%B4%E5%B7%9D%E6%AD%A3%E4%B9%9F",
+    "collectedAt": "2026-11-18",
+    "locator": "页面具体行（见引用定位）",
+    "coverage": "选手个人资料字段",
+    "revision": "As retrieved 2026-11-18",
+    "usage": {
+      "policyUrl": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+      "reviewedAt": "2026-11-18",
+      "basis": "Content licensed CC BY-SA 4.0 with attribution; only independently expressed objective biographical facts are compiled, not copied prose.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "batch100-src-hs-athlete-aj24-06-8",
+    "title": "选手资料页面（group 提供）",
+    "url": "https://www.yomiuri.co.jp/hakone-ekiden/2025/teams/3/00200191404/",
+    "collectedAt": "2026-11-18",
+    "locator": "页面选手行",
+    "coverage": "选手出身校",
+    "revision": "As retrieved 2026-11-18",
+    "usage": {
+      "policyUrl": "https://www.yomiuri.co.jp/",
+      "reviewedAt": "2026-11-18",
+      "basis": "Only independently expressed objective facts compiled.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "batch100-src-hs-athlete-aj24-06-5",
+    "title": "选手资料页面（group 提供）",
+    "url": "https://sat-ekiden.info/search/runner_detail?runner_id=js2021_03",
+    "collectedAt": "2026-11-18",
+    "locator": "页面选手行",
+    "coverage": "选手出身校",
+    "revision": "As retrieved 2026-11-18",
+    "usage": {
+      "policyUrl": "https://sat-ekiden.info/",
+      "reviewedAt": "2026-11-18",
+      "basis": "Only independently expressed objective facts compiled.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "batch100-src-hs-athlete-aj25-18-1",
+    "title": "选手资料页面（group 提供）",
+    "url": "https://4years.asahi.com/article/16128758",
+    "collectedAt": "2026-11-18",
+    "locator": "页面选手行",
+    "coverage": "选手出身校",
+    "revision": "As retrieved 2026-11-18",
+    "usage": {
+      "policyUrl": "https://4years.asahi.com/",
+      "reviewedAt": "2026-11-18",
+      "basis": "Only independently expressed objective facts compiled.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "batch100-src-hs-athlete-aj24-12-4",
+    "title": "选手资料页面（group 提供）",
+    "url": "https://www.yomiuri.co.jp/hakone-ekiden/2025/teams/16/00089389239/",
+    "collectedAt": "2026-11-18",
+    "locator": "页面选手行",
+    "coverage": "选手出身校",
+    "revision": "As retrieved 2026-11-18",
+    "usage": {
+      "policyUrl": "https://www.yomiuri.co.jp/",
+      "reviewedAt": "2026-11-18",
+      "basis": "Only independently expressed objective facts compiled.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "batch100-src-60",
+    "title": "选手资料页面（group 提供）",
+    "url": "https://sat-ekiden.info/search/runner_detail?runner_id=js2021_04",
+    "collectedAt": "2026-11-18",
+    "locator": "页面选手行",
+    "coverage": "选手个人资料字段",
+    "revision": "As retrieved 2026-11-18",
+    "usage": {
+      "policyUrl": "https://sat-ekiden.info/",
+      "reviewedAt": "2026-11-18",
+      "basis": "Only independently expressed objective facts compiled; no content republished.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "batch100-src-64",
+    "title": "选手资料页面（group 提供）",
+    "url": "http://waseda-ac.org/dbf/profile.cgi?page=10&hor=1&key3=1&key=1&label3=11&label=10&max=10&tpl=view2&view=rvs25&width=100%",
+    "collectedAt": "2026-11-18",
+    "locator": "页面选手行",
+    "coverage": "选手个人资料字段",
+    "revision": "As retrieved 2026-11-18",
+    "usage": {
+      "policyUrl": "http://waseda-ac.org/",
+      "reviewedAt": "2026-11-18",
+      "basis": "Only independently expressed objective facts compiled; no content republished.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "batch100-src-65",
+    "title": "选手资料页面（group 提供）",
+    "url": "https://athletes.gmo.jp/athletes/%e9%b6%b4%e5%b7%9d-%e6%ad%a3%e4%b9%9f/",
+    "collectedAt": "2026-11-18",
+    "locator": "页面选手行",
+    "coverage": "选手个人资料字段",
+    "revision": "As retrieved 2026-11-18",
+    "usage": {
+      "policyUrl": "https://athletes.gmo.jp/",
+      "reviewedAt": "2026-11-18",
+      "basis": "Only independently expressed objective facts compiled; no content republished.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "batch100-src-hs-athlete-aj24-17-3",
+    "title": "选手资料页面（group 提供）",
+    "url": "https://www.izumo-ekiden.jp/runner/team/16.html",
+    "collectedAt": "2026-11-18",
+    "locator": "页面选手行",
+    "coverage": "选手出身校",
+    "revision": "As retrieved 2026-11-18",
+    "usage": {
+      "policyUrl": "https://www.izumo-ekiden.jp/",
+      "reviewedAt": "2026-11-18",
+      "basis": "Only independently expressed objective facts compiled.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "batch100-src-hs-athlete-aj25-24-4",
+    "title": "选手资料页面（group 提供）",
+    "url": "https://www.izumo-ekiden.jp/runner/team/19.html",
+    "collectedAt": "2026-11-18",
+    "locator": "页面选手行",
+    "coverage": "选手出身校",
+    "revision": "As retrieved 2026-11-18",
+    "usage": {
+      "policyUrl": "https://www.izumo-ekiden.jp/",
+      "reviewedAt": "2026-11-18",
+      "basis": "Only independently expressed objective facts compiled.",
+      "permissionReference": null
+    }
+  },
+  {
+    "id": "batch100-src-hs-athlete-aj25-25-1",
+    "title": "选手资料页面（group 提供）",
+    "url": "https://www.izumo-ekiden.jp/37/runner/order/20.html",
+    "collectedAt": "2026-11-18",
+    "locator": "页面选手行",
+    "coverage": "选手出身校",
+    "revision": "As retrieved 2026-11-18",
+    "usage": {
+      "policyUrl": "https://www.izumo-ekiden.jp/",
+      "reviewedAt": "2026-11-18",
+      "basis": "Only independently expressed objective facts compiled.",
+      "permissionReference": null
+    }
   }
 ]

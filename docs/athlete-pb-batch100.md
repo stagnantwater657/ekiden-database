@@ -66,7 +66,7 @@
 - `typecheck` ✅ ｜ `lint` ✅
 - `build`：本地因沙箱禁止 Next 构建 worker spawn 失败（环境性），CI 将执行
 - `test:e2e`：本地沙箱无法启动浏览器，CI 将执行
-- `research:complete`：5 组均报告 INCOMPLETE / NOT SUBMITTED / authorization NOT ASSESSED（独立授权文件未随任务提供，按契约如实未送审）
+- `research:complete`：本批未生成 completion 送审清单（独立授权文件未随任务提供；字段状态全部如实记录在 batch 日志中）
 
 ## 七、后续建议（100 → 1000 人的真实瓶颈）
 

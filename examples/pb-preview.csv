@@ -1,0 +1,6 @@
+athleteId,name,university,event,time,date,meet,sourceUrl
+athlete-aj24-02-2,桑田駿介,駒澤大,10000m,28:00.00,2026-05-21,SYNTHETIC 演示比赛 非真实成绩,https://example.org/result
+athlete-aj24-02-2,桑田駿介,駒澤大,10000m,29:00.00,2026-05-22,SYNTHETIC 演示比赛 非真实成绩,https://example.org/result
+athlete-aj24-02-2,桑田駿介,駒澤大,half-marathon,1:00:00,,SYNTHETIC 缺日期演示,
+athlete-aj24-02-2,桑田駿介,駒澤大,10000m,28:00.00,2026-05-21,SYNTHETIC 演示比赛 非真实成绩,https://example.org/result
+synthetic-unknown,演示选手,演示大学,5000m,invalid,2026-05-21,SYNTHETIC 无效输入,

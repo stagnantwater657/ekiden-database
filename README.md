@@ -12,6 +12,7 @@ npm run dev
 - [AI 协作与资料研究入口](AGENTS.md) · [研究手册](docs/research/athlete-research-playbook.md) · `npm run research:validate`
 - [管理员初始化、部署权限与回滚说明](docs/DEPLOYMENT.md)
 - [历史赛事数据模型、验证及导入步骤](docs/historical-data-import.md)
+- [CSV 成绩 → PB 比较与人工审核（只读）](docs/pb-csv-preview.md) · `npm run pb:preview`
 - [2025官方来源与数据核查说明](docs/data-sources.md)
 - [项目计划](docs/PROJECT_PLAN.md)
 - [原始 SSH 连通性测试](docs/SSH_TEST.md)（部署专用账户启用固定命令后，此旧测试会按设计被拒绝）

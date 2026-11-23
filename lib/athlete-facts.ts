@@ -148,7 +148,7 @@ export function personalBestStatus(
   return "missing";
 }
 
-export function formatPersonalBest(pb: PersonalBest): string {
+export function formatPersonalBest(pb: Pick<PersonalBest, "timeMilliseconds" | "precision">): string {
   const totalSeconds = Math.floor(pb.timeMilliseconds / 1000);
   const hours = Math.floor(totalSeconds / 3600);
   const minutes = Math.floor((totalSeconds % 3600) / 60);

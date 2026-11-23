@@ -18,7 +18,8 @@
     "data:revise": "node --experimental-strip-types scripts/data-revise.ts",
     "presentation:report": "node --experimental-strip-types scripts/presentation-report.ts",
     "research:complete": "node --experimental-strip-types scripts/research-validate.ts --completion",
-    "research:validate": "node --experimental-strip-types scripts/research-validate.ts"
+    "research:validate": "node --experimental-strip-types scripts/research-validate.ts",
+    "pb:preview": "node --experimental-strip-types scripts/pb-csv-preview.ts"
   },
   "dependencies": {
     "next": "16.4.5",

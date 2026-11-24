@@ -1,3 +1,4 @@
+import { parsePerformanceTime } from "./performance-time.ts";
 import type { ResearchContext, ResearchRecord } from "./research.ts";
 import { researchChecks as c } from "./research-checks.ts";
 
@@ -86,17 +87,13 @@ export interface ResearchAudit {
 /** Only the explicit leading mark is parsed; dates/meet text after a semicolon are untouched. */
 function validatePerformanceMark(value: string, milliseconds: number, precision: unknown, path: string): void {
   const mark = value.split(";", 1)[0].trim();
-  const parts = /^(\d+):([0-5]\d)(?::([0-5]\d))?(?:\.(\d{2}))?$/.exec(mark);
-  if (!parts) c.fail(path, "performance value must start with a normalized M:SS or H:MM:SS mark, optionally .cc and semicolon context");
-  const [, first, second, third, hundredths] = parts!;
-  if ((hundredths === undefined ? "second" : "centisecond") !== precision)
-    c.fail(path, "performance value precision mismatch");
-  const seconds = third === undefined
-    ? Number(first) * 60 + Number(second)
-    : Number(first) * 3600 + Number(second) * 60 + Number(third);
-  const parsed = seconds * 1000 + (hundredths === undefined ? 0 : Number(hundredths) * 10);
-  if (!Number.isSafeInteger(parsed) || parsed !== milliseconds)
-    c.fail(path, "performance value and timeMilliseconds mismatch");
+  let parsed;
+  try { parsed = parsePerformanceTime(mark); }
+  catch (error) {
+    if (error instanceof RangeError) return c.fail(path, "performance value and timeMilliseconds mismatch");
+    return c.fail(path, "performance value must start with a normalized M:SS or H:MM:SS mark, optionally .cc and semicolon context"); }
+  if (parsed.precision !== precision) c.fail(path, "performance value precision mismatch");
+  if (parsed.timeMilliseconds !== milliseconds) c.fail(path, "performance value and timeMilliseconds mismatch");
 }
 
 /** Validate known metadata independently of a candidate. No year-to-edition arithmetic. */

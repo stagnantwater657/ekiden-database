@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
   "batchId": "2026-11-18-batch100-group3",
-  "researcher": "DSH batch100 executor",
-  "reviewedAt": "2026-11-18",
+  "researcher": "DSH (original research); Codex (2026-11-25 targeted highSchool corrections only)",
+  "reviewedAt": "2026-11-25",
   "records": [
     {
       "athleteId": "athlete-aj25-05-4",
@@ -799,7 +799,12 @@
         {
           "value": "理佐野日大高",
           "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
-          "locator": "第102回区間エントリー 日本大学 山口聡太行 出身校（原文 文理佐野日大）"
+          "locator": "第102回区間エントリー 日本大学 山口聡太行 出身校（原文 文理佐野日大）；已否定的旧跨列解析（非官方高中值），见 2026-11-25 纠错记录"
+        },
+        {
+          "value": "佐野日大",
+          "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+          "locator": "第102回区間エントリー PDF p.14 / 日本大 / 補欠 15 / 山口 聡太 / 出身校列「佐野日大」（隣接する学部列「文理」を除外）"
         }
       ],
       "searches": [
@@ -853,15 +858,32 @@
             }
           ],
           "result": "身份核对通过"
+        },
+        {
+          "stage": "verification",
+          "query": "定点读取官方 PDF：山口 聡太 所在大学、行号及学部/出身校分列（非新联网搜索）",
+          "checkedAt": "2026-11-25",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "第102回区間エントリー PDF p.14 / 日本大 / 補欠 15 / 山口 聡太 / 出身校列「佐野日大」（隣接する学部列「文理」を除外）",
+              "access": "read",
+              "finding": "2026-11-25 Codex 纠错：旧值「理佐野日大高」混入学部列；官方出身校列为「佐野日大」。按列原文简称记录，不推测后缀。",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "通过网页工具读取官方 PDF 全文及分栏表头、对应行；姓名与大学对应。命令行下载返回 HTTP 403，未绕过；截图工具未返回可查看图像，未声称完成截图目视复核。"
         }
       ],
       "final": {
-        "value": "理佐野日大高",
+        "value": "佐野日大",
         "sourceIds": [
           "hakone-102-kukan-entry"
         ],
-        "locator": "第102回区間エントリー 日本大学 山口聡太行 出身校（原文 文理佐野日大）",
-        "revision": "As retrieved 2026-11-18"
+        "locator": "第102回区間エントリー PDF p.14 / 日本大 / 補欠 15 / 山口 聡太 / 出身校列「佐野日大」（隣接する学部列「文理」を除外）",
+        "revision": "Official 102kukanentry.pdf as read 2026-11-25; high-school column correction (not an organizer revision)"
       },
       "identityEvidence": "姓名与所属与数据库注册一致（日本大），按稳定 athleteId 记录；",
       "updateCheck": {
@@ -870,7 +892,7 @@
         "summary": "出生日期/出身高中为永久属性，不做 PB 更新检查"
       },
       "unresolved": [],
-      "reviewedAt": "2026-11-18",
+      "reviewedAt": "2026-11-25",
       "audit": {
         "evidence": [
           {
@@ -882,15 +904,30 @@
               "identity"
             ],
             "locator": "第102回区間エントリー 日本大学 山口聡太行 出身校（原文 文理佐野日大）",
-            "revision": "As retrieved 2026-11-18",
-            "status": "verified",
+            "revision": "As retrieved 2026-11-18; superseded: cross-column reading rejected 2026-11-25",
+            "status": "unverified",
             "checkedAt": "2026-11-18",
+            "originKey": "hakone-ekiden-jp-official",
+            "independenceNote": "单一来源，未取得独立第二来源"
+          },
+          {
+            "id": "school-column-review",
+            "sourceId": "hakone-102-kukan-entry",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "第102回区間エントリー PDF p.14 / 日本大 / 補欠 15 / 山口 聡太 / 出身校列「佐野日大」（隣接する学部列「文理」を除外）",
+            "revision": "Official 102kukanentry.pdf as read 2026-11-25; high-school column correction (not an organizer revision)",
+            "status": "verified",
+            "checkedAt": "2026-11-25",
             "originKey": "hakone-ekiden-jp-official",
             "independenceNote": "单一来源，未取得独立第二来源"
           }
         ],
         "adoptedEvidenceIds": [
-          "ev1"
+          "school-column-review"
         ],
         "coverage": [
           {
@@ -911,9 +948,10 @@
             "searchIndexes": [
               0,
               1,
-              2
+              2,
+              3
             ],
-            "reason": "批量来源读取"
+            "reason": "原批次历史读取 + 2026-11-25 Codex 定点分列纠错；旧解析已否定"
           },
           {
             "category": "database",
@@ -929,7 +967,8 @@
           }
         ],
         "limitations": [
-          "单一来源；独立复核需重新打开一手页面核对"
+          "单一来源；独立复核需重新打开一手页面核对",
+          "2026-11-25 Codex 纠错：旧值「理佐野日大高」混入学部列；官方出身校列为「佐野日大」。按列原文简称记录，不推测后缀。"
         ],
         "affiliation": null,
         "performances": [],
@@ -1424,7 +1463,12 @@
         {
           "value": "ｽﾎﾟｰﾂ健康科八千代松陰高",
           "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
-          "locator": "第102回区間エントリー 順天堂大学 山本悠行 出身校（原文 ｽﾎﾟｰﾂ健康科八千代松陰）"
+          "locator": "第102回区間エントリー 順天堂大学 山本悠行 出身校（原文 ｽﾎﾟｰﾂ健康科八千代松陰）；已否定的旧跨列解析（非官方高中值），见 2026-11-25 纠错记录"
+        },
+        {
+          "value": "八千代松陰",
+          "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+          "locator": "第102回区間エントリー PDF p.12 / 順天堂大 / 補欠 16 / 山本 悠 / 出身校列「八千代松陰」（隣接する学部列「ｽﾎﾟｰﾂ健康科」を除外）"
         }
       ],
       "searches": [
@@ -1478,15 +1522,32 @@
             }
           ],
           "result": "身份核对通过"
+        },
+        {
+          "stage": "verification",
+          "query": "定点读取官方 PDF：山本 悠 所在大学、行号及学部/出身校分列（非新联网搜索）",
+          "checkedAt": "2026-11-25",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "第102回区間エントリー PDF p.12 / 順天堂大 / 補欠 16 / 山本 悠 / 出身校列「八千代松陰」（隣接する学部列「ｽﾎﾟｰﾂ健康科」を除外）",
+              "access": "read",
+              "finding": "2026-11-25 Codex 纠错：旧值「ｽﾎﾟｰﾂ健康科八千代松陰高」混入学部列；官方出身校列为「八千代松陰」。按列原文简称记录，不推测后缀。",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "通过网页工具读取官方 PDF 全文及分栏表头、对应行；姓名与大学对应。命令行下载返回 HTTP 403，未绕过；截图工具未返回可查看图像，未声称完成截图目视复核。"
         }
       ],
       "final": {
-        "value": "ｽﾎﾟｰﾂ健康科八千代松陰高",
+        "value": "八千代松陰",
         "sourceIds": [
           "hakone-102-kukan-entry"
         ],
-        "locator": "第102回区間エントリー 順天堂大学 山本悠行 出身校（原文 ｽﾎﾟｰﾂ健康科八千代松陰）",
-        "revision": "As retrieved 2026-11-18"
+        "locator": "第102回区間エントリー PDF p.12 / 順天堂大 / 補欠 16 / 山本 悠 / 出身校列「八千代松陰」（隣接する学部列「ｽﾎﾟｰﾂ健康科」を除外）",
+        "revision": "Official 102kukanentry.pdf as read 2026-11-25; high-school column correction (not an organizer revision)"
       },
       "identityEvidence": "姓名与所属与数据库注册一致（順天堂大），按稳定 athleteId 记录；",
       "updateCheck": {
@@ -1495,7 +1556,7 @@
         "summary": "出生日期/出身高中为永久属性，不做 PB 更新检查"
       },
       "unresolved": [],
-      "reviewedAt": "2026-11-18",
+      "reviewedAt": "2026-11-25",
       "audit": {
         "evidence": [
           {
@@ -1507,15 +1568,30 @@
               "identity"
             ],
             "locator": "第102回区間エントリー 順天堂大学 山本悠行 出身校（原文 ｽﾎﾟｰﾂ健康科八千代松陰）",
-            "revision": "As retrieved 2026-11-18",
-            "status": "verified",
+            "revision": "As retrieved 2026-11-18; superseded: cross-column reading rejected 2026-11-25",
+            "status": "unverified",
             "checkedAt": "2026-11-18",
+            "originKey": "hakone-ekiden-jp-official",
+            "independenceNote": "单一来源，未取得独立第二来源"
+          },
+          {
+            "id": "school-column-review",
+            "sourceId": "hakone-102-kukan-entry",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "第102回区間エントリー PDF p.12 / 順天堂大 / 補欠 16 / 山本 悠 / 出身校列「八千代松陰」（隣接する学部列「ｽﾎﾟｰﾂ健康科」を除外）",
+            "revision": "Official 102kukanentry.pdf as read 2026-11-25; high-school column correction (not an organizer revision)",
+            "status": "verified",
+            "checkedAt": "2026-11-25",
             "originKey": "hakone-ekiden-jp-official",
             "independenceNote": "单一来源，未取得独立第二来源"
           }
         ],
         "adoptedEvidenceIds": [
-          "ev1"
+          "school-column-review"
         ],
         "coverage": [
           {
@@ -1536,9 +1612,10 @@
             "searchIndexes": [
               0,
               1,
-              2
+              2,
+              3
             ],
-            "reason": "批量来源读取"
+            "reason": "原批次历史读取 + 2026-11-25 Codex 定点分列纠错；旧解析已否定"
           },
           {
             "category": "database",
@@ -1554,7 +1631,8 @@
           }
         ],
         "limitations": [
-          "单一来源；独立复核需重新打开一手页面核对"
+          "单一来源；独立复核需重新打开一手页面核对",
+          "2026-11-25 Codex 纠错：旧值「ｽﾎﾟｰﾂ健康科八千代松陰高」混入学部列；官方出身校列为「八千代松陰」。按列原文简称记录，不推测后缀。"
         ],
         "affiliation": null,
         "performances": [],
@@ -3299,7 +3377,12 @@
         {
           "value": "ｽﾎﾟｰﾂ健康科春日部東高",
           "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
-          "locator": "第102回区間エントリー 順天堂大学 小林侑世行 出身校（原文 ｽﾎﾟｰﾂ健康科春日部東）"
+          "locator": "第102回区間エントリー 順天堂大学 小林侑世行 出身校（原文 ｽﾎﾟｰﾂ健康科春日部東）；已否定的旧跨列解析（非官方高中值），见 2026-11-25 纠错记录"
+        },
+        {
+          "value": "春日部東",
+          "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+          "locator": "第102回区間エントリー PDF p.12 / 順天堂大 / 区間 5 / 小林 侑世 / 出身校列「春日部東」（隣接する学部列「ｽﾎﾟｰﾂ健康科」を除外）"
         }
       ],
       "searches": [
@@ -3353,15 +3436,32 @@
             }
           ],
           "result": "身份核对通过"
+        },
+        {
+          "stage": "verification",
+          "query": "定点读取官方 PDF：小林 侑世 所在大学、行号及学部/出身校分列（非新联网搜索）",
+          "checkedAt": "2026-11-25",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "第102回区間エントリー PDF p.12 / 順天堂大 / 区間 5 / 小林 侑世 / 出身校列「春日部東」（隣接する学部列「ｽﾎﾟｰﾂ健康科」を除外）",
+              "access": "read",
+              "finding": "2026-11-25 Codex 纠错：旧值「ｽﾎﾟｰﾂ健康科春日部東高」混入学部列；官方出身校列为「春日部東」。按列原文简称记录，不推测后缀。",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "通过网页工具读取官方 PDF 全文及分栏表头、对应行；姓名与大学对应。命令行下载返回 HTTP 403，未绕过；截图工具未返回可查看图像，未声称完成截图目视复核。"
         }
       ],
       "final": {
-        "value": "ｽﾎﾟｰﾂ健康科春日部東高",
+        "value": "春日部東",
         "sourceIds": [
           "hakone-102-kukan-entry"
         ],
-        "locator": "第102回区間エントリー 順天堂大学 小林侑世行 出身校（原文 ｽﾎﾟｰﾂ健康科春日部東）",
-        "revision": "As retrieved 2026-11-18"
+        "locator": "第102回区間エントリー PDF p.12 / 順天堂大 / 区間 5 / 小林 侑世 / 出身校列「春日部東」（隣接する学部列「ｽﾎﾟｰﾂ健康科」を除外）",
+        "revision": "Official 102kukanentry.pdf as read 2026-11-25; high-school column correction (not an organizer revision)"
       },
       "identityEvidence": "姓名与所属与数据库注册一致（順天堂大），按稳定 athleteId 记录；",
       "updateCheck": {
@@ -3370,7 +3470,7 @@
         "summary": "出生日期/出身高中为永久属性，不做 PB 更新检查"
       },
       "unresolved": [],
-      "reviewedAt": "2026-11-18",
+      "reviewedAt": "2026-11-25",
       "audit": {
         "evidence": [
           {
@@ -3382,15 +3482,30 @@
               "identity"
             ],
             "locator": "第102回区間エントリー 順天堂大学 小林侑世行 出身校（原文 ｽﾎﾟｰﾂ健康科春日部東）",
-            "revision": "As retrieved 2026-11-18",
-            "status": "verified",
+            "revision": "As retrieved 2026-11-18; superseded: cross-column reading rejected 2026-11-25",
+            "status": "unverified",
             "checkedAt": "2026-11-18",
+            "originKey": "hakone-ekiden-jp-official",
+            "independenceNote": "单一来源，未取得独立第二来源"
+          },
+          {
+            "id": "school-column-review",
+            "sourceId": "hakone-102-kukan-entry",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "第102回区間エントリー PDF p.12 / 順天堂大 / 区間 5 / 小林 侑世 / 出身校列「春日部東」（隣接する学部列「ｽﾎﾟｰﾂ健康科」を除外）",
+            "revision": "Official 102kukanentry.pdf as read 2026-11-25; high-school column correction (not an organizer revision)",
+            "status": "verified",
+            "checkedAt": "2026-11-25",
             "originKey": "hakone-ekiden-jp-official",
             "independenceNote": "单一来源，未取得独立第二来源"
           }
         ],
         "adoptedEvidenceIds": [
-          "ev1"
+          "school-column-review"
         ],
         "coverage": [
           {
@@ -3411,9 +3526,10 @@
             "searchIndexes": [
               0,
               1,
-              2
+              2,
+              3
             ],
-            "reason": "批量来源读取"
+            "reason": "原批次历史读取 + 2026-11-25 Codex 定点分列纠错；旧解析已否定"
           },
           {
             "category": "database",
@@ -3429,7 +3545,8 @@
           }
         ],
         "limitations": [
-          "单一来源；独立复核需重新打开一手页面核对"
+          "单一来源；独立复核需重新打开一手页面核对",
+          "2026-11-25 Codex 纠错：旧值「ｽﾎﾟｰﾂ健康科春日部東高」混入学部列；官方出身校列为「春日部東」。按列原文简称记录，不推测后缀。"
         ],
         "affiliation": null,
         "performances": [],
@@ -5174,7 +5291,12 @@
         {
           "value": "医療技術洛南高",
           "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
-          "locator": "第102回区間エントリー 帝京大学 浅川侑大行 出身校（原文 医療技術洛南）"
+          "locator": "第102回区間エントリー 帝京大学 浅川侑大行 出身校（原文 医療技術洛南）；已否定的旧跨列解析（非官方高中值），见 2026-11-25 纠错记录"
+        },
+        {
+          "value": "洛南",
+          "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+          "locator": "第102回区間エントリー PDF p.10 / 帝京大 / 区間 5 / 浅川 侑大 / 出身校列「洛南」（隣接する学部列「医療技術」を除外）"
         }
       ],
       "searches": [
@@ -5228,15 +5350,32 @@
             }
           ],
           "result": "身份核对通过"
+        },
+        {
+          "stage": "verification",
+          "query": "定点读取官方 PDF：浅川 侑大 所在大学、行号及学部/出身校分列（非新联网搜索）",
+          "checkedAt": "2026-11-25",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "第102回区間エントリー PDF p.10 / 帝京大 / 区間 5 / 浅川 侑大 / 出身校列「洛南」（隣接する学部列「医療技術」を除外）",
+              "access": "read",
+              "finding": "2026-11-25 Codex 纠错：旧值「医療技術洛南高」混入学部列；官方出身校列为「洛南」。按列原文简称记录，不推测后缀。",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "通过网页工具读取官方 PDF 全文及分栏表头、对应行；姓名与大学对应。命令行下载返回 HTTP 403，未绕过；截图工具未返回可查看图像，未声称完成截图目视复核。"
         }
       ],
       "final": {
-        "value": "医療技術洛南高",
+        "value": "洛南",
         "sourceIds": [
           "hakone-102-kukan-entry"
         ],
-        "locator": "第102回区間エントリー 帝京大学 浅川侑大行 出身校（原文 医療技術洛南）",
-        "revision": "As retrieved 2026-11-18"
+        "locator": "第102回区間エントリー PDF p.10 / 帝京大 / 区間 5 / 浅川 侑大 / 出身校列「洛南」（隣接する学部列「医療技術」を除外）",
+        "revision": "Official 102kukanentry.pdf as read 2026-11-25; high-school column correction (not an organizer revision)"
       },
       "identityEvidence": "姓名与所属与数据库注册一致（帝京大），按稳定 athleteId 记录；",
       "updateCheck": {
@@ -5245,7 +5384,7 @@
         "summary": "出生日期/出身高中为永久属性，不做 PB 更新检查"
       },
       "unresolved": [],
-      "reviewedAt": "2026-11-18",
+      "reviewedAt": "2026-11-25",
       "audit": {
         "evidence": [
           {
@@ -5257,15 +5396,30 @@
               "identity"
             ],
             "locator": "第102回区間エントリー 帝京大学 浅川侑大行 出身校（原文 医療技術洛南）",
-            "revision": "As retrieved 2026-11-18",
-            "status": "verified",
+            "revision": "As retrieved 2026-11-18; superseded: cross-column reading rejected 2026-11-25",
+            "status": "unverified",
             "checkedAt": "2026-11-18",
+            "originKey": "hakone-ekiden-jp-official",
+            "independenceNote": "单一来源，未取得独立第二来源"
+          },
+          {
+            "id": "school-column-review",
+            "sourceId": "hakone-102-kukan-entry",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "第102回区間エントリー PDF p.10 / 帝京大 / 区間 5 / 浅川 侑大 / 出身校列「洛南」（隣接する学部列「医療技術」を除外）",
+            "revision": "Official 102kukanentry.pdf as read 2026-11-25; high-school column correction (not an organizer revision)",
+            "status": "verified",
+            "checkedAt": "2026-11-25",
             "originKey": "hakone-ekiden-jp-official",
             "independenceNote": "单一来源，未取得独立第二来源"
           }
         ],
         "adoptedEvidenceIds": [
-          "ev1"
+          "school-column-review"
         ],
         "coverage": [
           {
@@ -5286,9 +5440,10 @@
             "searchIndexes": [
               0,
               1,
-              2
+              2,
+              3
             ],
-            "reason": "批量来源读取"
+            "reason": "原批次历史读取 + 2026-11-25 Codex 定点分列纠错；旧解析已否定"
           },
           {
             "category": "database",
@@ -5304,7 +5459,8 @@
           }
         ],
         "limitations": [
-          "单一来源；独立复核需重新打开一手页面核对"
+          "单一来源；独立复核需重新打开一手页面核对",
+          "2026-11-25 Codex 纠错：旧值「医療技術洛南高」混入学部列；官方出身校列为「洛南」。按列原文简称记录，不推测后缀。"
         ],
         "affiliation": null,
         "performances": [],
@@ -5799,7 +5955,12 @@
         {
           "value": "医療技術市立船橋高",
           "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
-          "locator": "第102回区間エントリー 帝京大学 鎗田大輝行 出身校（原文 医療技術市立船橋）"
+          "locator": "第102回区間エントリー 帝京大学 鎗田大輝行 出身校（原文 医療技術市立船橋）；已否定的旧跨列解析（非官方高中值），见 2026-11-25 纠错记录"
+        },
+        {
+          "value": "市立船橋",
+          "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+          "locator": "第102回区間エントリー PDF p.10 / 帝京大 / 区間 10 / 鎗田 大輝 / 出身校列「市立船橋」（隣接する学部列「医療技術」を除外）"
         }
       ],
       "searches": [
@@ -5853,15 +6014,32 @@
             }
           ],
           "result": "身份核对通过"
+        },
+        {
+          "stage": "verification",
+          "query": "定点读取官方 PDF：鎗田 大輝 所在大学、行号及学部/出身校分列（非新联网搜索）",
+          "checkedAt": "2026-11-25",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "第102回区間エントリー PDF p.10 / 帝京大 / 区間 10 / 鎗田 大輝 / 出身校列「市立船橋」（隣接する学部列「医療技術」を除外）",
+              "access": "read",
+              "finding": "2026-11-25 Codex 纠错：旧值「医療技術市立船橋高」混入学部列；官方出身校列为「市立船橋」。按列原文简称记录，不推测后缀。",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "通过网页工具读取官方 PDF 全文及分栏表头、对应行；姓名与大学对应。命令行下载返回 HTTP 403，未绕过；截图工具未返回可查看图像，未声称完成截图目视复核。"
         }
       ],
       "final": {
-        "value": "医療技術市立船橋高",
+        "value": "市立船橋",
         "sourceIds": [
           "hakone-102-kukan-entry"
         ],
-        "locator": "第102回区間エントリー 帝京大学 鎗田大輝行 出身校（原文 医療技術市立船橋）",
-        "revision": "As retrieved 2026-11-18"
+        "locator": "第102回区間エントリー PDF p.10 / 帝京大 / 区間 10 / 鎗田 大輝 / 出身校列「市立船橋」（隣接する学部列「医療技術」を除外）",
+        "revision": "Official 102kukanentry.pdf as read 2026-11-25; high-school column correction (not an organizer revision)"
       },
       "identityEvidence": "姓名与所属与数据库注册一致（帝京大），按稳定 athleteId 记录；",
       "updateCheck": {
@@ -5870,7 +6048,7 @@
         "summary": "出生日期/出身高中为永久属性，不做 PB 更新检查"
       },
       "unresolved": [],
-      "reviewedAt": "2026-11-18",
+      "reviewedAt": "2026-11-25",
       "audit": {
         "evidence": [
           {
@@ -5882,15 +6060,30 @@
               "identity"
             ],
             "locator": "第102回区間エントリー 帝京大学 鎗田大輝行 出身校（原文 医療技術市立船橋）",
-            "revision": "As retrieved 2026-11-18",
-            "status": "verified",
+            "revision": "As retrieved 2026-11-18; superseded: cross-column reading rejected 2026-11-25",
+            "status": "unverified",
             "checkedAt": "2026-11-18",
+            "originKey": "hakone-ekiden-jp-official",
+            "independenceNote": "单一来源，未取得独立第二来源"
+          },
+          {
+            "id": "school-column-review",
+            "sourceId": "hakone-102-kukan-entry",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "第102回区間エントリー PDF p.10 / 帝京大 / 区間 10 / 鎗田 大輝 / 出身校列「市立船橋」（隣接する学部列「医療技術」を除外）",
+            "revision": "Official 102kukanentry.pdf as read 2026-11-25; high-school column correction (not an organizer revision)",
+            "status": "verified",
+            "checkedAt": "2026-11-25",
             "originKey": "hakone-ekiden-jp-official",
             "independenceNote": "单一来源，未取得独立第二来源"
           }
         ],
         "adoptedEvidenceIds": [
-          "ev1"
+          "school-column-review"
         ],
         "coverage": [
           {
@@ -5911,9 +6104,10 @@
             "searchIndexes": [
               0,
               1,
-              2
+              2,
+              3
             ],
-            "reason": "批量来源读取"
+            "reason": "原批次历史读取 + 2026-11-25 Codex 定点分列纠错；旧解析已否定"
           },
           {
             "category": "database",
@@ -5929,7 +6123,8 @@
           }
         ],
         "limitations": [
-          "单一来源；独立复核需重新打开一手页面核对"
+          "单一来源；独立复核需重新打开一手页面核对",
+          "2026-11-25 Codex 纠错：旧值「医療技術市立船橋高」混入学部列；官方出身校列为「市立船橋」。按列原文简称记录，不推测后缀。"
         ],
         "affiliation": null,
         "performances": [],
@@ -6424,7 +6619,12 @@
         {
           "value": "医療技術鳥栖工業",
           "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
-          "locator": "第102回区間エントリー 帝京大学 谷口颯太行 出身校（原文 医療技術鳥栖工業）"
+          "locator": "第102回区間エントリー 帝京大学 谷口颯太行 出身校（原文 医療技術鳥栖工業）；已否定的旧跨列解析（非官方高中值），见 2026-11-25 纠错记录"
+        },
+        {
+          "value": "鳥栖工業",
+          "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+          "locator": "第102回区間エントリー PDF p.10 / 帝京大 / 区間 4 / 谷口 颯太 / 出身校列「鳥栖工業」（隣接する学部列「医療技術」を除外）"
         }
       ],
       "searches": [
@@ -6478,15 +6678,32 @@
             }
           ],
           "result": "身份核对通过"
+        },
+        {
+          "stage": "verification",
+          "query": "定点读取官方 PDF：谷口 颯太 所在大学、行号及学部/出身校分列（非新联网搜索）",
+          "checkedAt": "2026-11-25",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "第102回区間エントリー PDF p.10 / 帝京大 / 区間 4 / 谷口 颯太 / 出身校列「鳥栖工業」（隣接する学部列「医療技術」を除外）",
+              "access": "read",
+              "finding": "2026-11-25 Codex 纠错：旧值「医療技術鳥栖工業」混入学部列；官方出身校列为「鳥栖工業」。按列原文简称记录，不推测后缀。",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "通过网页工具读取官方 PDF 全文及分栏表头、对应行；姓名与大学对应。命令行下载返回 HTTP 403，未绕过；截图工具未返回可查看图像，未声称完成截图目视复核。"
         }
       ],
       "final": {
-        "value": "医療技術鳥栖工業",
+        "value": "鳥栖工業",
         "sourceIds": [
           "hakone-102-kukan-entry"
         ],
-        "locator": "第102回区間エントリー 帝京大学 谷口颯太行 出身校（原文 医療技術鳥栖工業）",
-        "revision": "As retrieved 2026-11-18"
+        "locator": "第102回区間エントリー PDF p.10 / 帝京大 / 区間 4 / 谷口 颯太 / 出身校列「鳥栖工業」（隣接する学部列「医療技術」を除外）",
+        "revision": "Official 102kukanentry.pdf as read 2026-11-25; high-school column correction (not an organizer revision)"
       },
       "identityEvidence": "姓名与所属与数据库注册一致（帝京大），按稳定 athleteId 记录；",
       "updateCheck": {
@@ -6495,7 +6712,7 @@
         "summary": "出生日期/出身高中为永久属性，不做 PB 更新检查"
       },
       "unresolved": [],
-      "reviewedAt": "2026-11-18",
+      "reviewedAt": "2026-11-25",
       "audit": {
         "evidence": [
           {
@@ -6507,15 +6724,30 @@
               "identity"
             ],
             "locator": "第102回区間エントリー 帝京大学 谷口颯太行 出身校（原文 医療技術鳥栖工業）",
-            "revision": "As retrieved 2026-11-18",
-            "status": "verified",
+            "revision": "As retrieved 2026-11-18; superseded: cross-column reading rejected 2026-11-25",
+            "status": "unverified",
             "checkedAt": "2026-11-18",
+            "originKey": "hakone-ekiden-jp-official",
+            "independenceNote": "单一来源，未取得独立第二来源"
+          },
+          {
+            "id": "school-column-review",
+            "sourceId": "hakone-102-kukan-entry",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "第102回区間エントリー PDF p.10 / 帝京大 / 区間 4 / 谷口 颯太 / 出身校列「鳥栖工業」（隣接する学部列「医療技術」を除外）",
+            "revision": "Official 102kukanentry.pdf as read 2026-11-25; high-school column correction (not an organizer revision)",
+            "status": "verified",
+            "checkedAt": "2026-11-25",
             "originKey": "hakone-ekiden-jp-official",
             "independenceNote": "单一来源，未取得独立第二来源"
           }
         ],
         "adoptedEvidenceIds": [
-          "ev1"
+          "school-column-review"
         ],
         "coverage": [
           {
@@ -6536,9 +6768,10 @@
             "searchIndexes": [
               0,
               1,
-              2
+              2,
+              3
             ],
-            "reason": "批量来源读取"
+            "reason": "原批次历史读取 + 2026-11-25 Codex 定点分列纠错；旧解析已否定"
           },
           {
             "category": "database",
@@ -6554,7 +6787,8 @@
           }
         ],
         "limitations": [
-          "单一来源；独立复核需重新打开一手页面核对"
+          "单一来源；独立复核需重新打开一手页面核对",
+          "2026-11-25 Codex 纠错：旧值「医療技術鳥栖工業」混入学部列；官方出身校列为「鳥栖工業」。按列原文简称记录，不推测后缀。"
         ],
         "affiliation": null,
         "performances": [],

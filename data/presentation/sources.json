@@ -1910,12 +1910,12 @@
     "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
     "collectedAt": "2026-11-17",
     "locator": "各チーム選手行：氏名・学年・生年月日・年齢・登録陸協・国籍・学部・出身校・自己記録（5000m/10000m/半馬）",
-    "coverage": "本批选手的出生日期、出身校与自我记录值",
-    "revision": "retrieved 2026-11-17",
+    "coverage": "本批选手的出生日期、出身校与自我记录值；2026-11-25仅复核18项出身校，详见 docs/research/pr25-high-school-corrections.md；其余字段未重新核验",
+    "revision": "retrieved 2026-11-17; 2026-11-25: 18 highSchool column readings corrected, organizer revision not asserted",
     "usage": {
-      "policyUrl": "https://www.hakone-ekiden.jp/",
-      "reviewedAt": "2026-11-17",
-      "basis": "Only objective facts (values, dates, events, affiliations) are recorded; no page content, image or layout is republished and no permission is claimed.",
+      "policyUrl": "https://www.hakone-ekiden.jp/contact/",
+      "reviewedAt": "2026-11-25",
+      "basis": "Contact page reserves rights in text/images and requires permission for trademark/name/logo use. This correction records only independently structured school facts from the public roster; no PDF, page layout or images are republished. No permission is claimed. Bounded reading through web PDF text; direct download returned 403 and was not bypassed.",
       "permissionReference": null
     }
   },

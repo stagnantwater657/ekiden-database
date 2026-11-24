@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
   "batchId": "2026-11-18-batch100-group5",
-  "researcher": "DSH batch100 executor",
-  "reviewedAt": "2026-11-18",
+  "researcher": "DSH (original research); Codex (2026-11-25 targeted highSchool corrections only)",
+  "reviewedAt": "2026-11-25",
   "records": [
     {
       "athleteId": "athlete-aj25-24-4",
@@ -3725,7 +3725,12 @@
         {
           "value": "体育仙台育英高",
           "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
-          "locator": "第102回区間エントリー 日本体育大学 二村昇太朗行 出身校（原文 体育仙台育英）"
+          "locator": "第102回区間エントリー 日本体育大学 二村昇太朗行 出身校（原文 体育仙台育英）；已否定的旧跨列解析（非官方高中值），见 2026-11-25 纠错记录"
+        },
+        {
+          "value": "仙台育英",
+          "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+          "locator": "第102回区間エントリー PDF p.19 / 日本体育大 / 補欠 12 / 二村 昇太朗 / 出身校列「仙台育英」（隣接する学部列「体育」を除外）"
         }
       ],
       "searches": [
@@ -3779,15 +3784,32 @@
             }
           ],
           "result": "身份核对通过"
+        },
+        {
+          "stage": "verification",
+          "query": "定点读取官方 PDF：二村 昇太朗 所在大学、行号及学部/出身校分列（非新联网搜索）",
+          "checkedAt": "2026-11-25",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "第102回区間エントリー PDF p.19 / 日本体育大 / 補欠 12 / 二村 昇太朗 / 出身校列「仙台育英」（隣接する学部列「体育」を除外）",
+              "access": "read",
+              "finding": "2026-11-25 Codex 纠错：旧值「体育仙台育英高」混入学部列；官方出身校列为「仙台育英」。按列原文简称记录，不推测后缀。",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "通过网页工具读取官方 PDF 全文及分栏表头、对应行；姓名与大学对应。命令行下载返回 HTTP 403，未绕过；截图工具未返回可查看图像，未声称完成截图目视复核。"
         }
       ],
       "final": {
-        "value": "体育仙台育英高",
+        "value": "仙台育英",
         "sourceIds": [
           "hakone-102-kukan-entry"
         ],
-        "locator": "第102回区間エントリー 日本体育大学 二村昇太朗行 出身校（原文 体育仙台育英）",
-        "revision": "As retrieved 2026-11-18"
+        "locator": "第102回区間エントリー PDF p.19 / 日本体育大 / 補欠 12 / 二村 昇太朗 / 出身校列「仙台育英」（隣接する学部列「体育」を除外）",
+        "revision": "Official 102kukanentry.pdf as read 2026-11-25; high-school column correction (not an organizer revision)"
       },
       "identityEvidence": "姓名与所属与数据库注册一致（日本体育大），按稳定 athleteId 记录；",
       "updateCheck": {
@@ -3796,7 +3818,7 @@
         "summary": "出生日期/出身高中为永久属性，不做 PB 更新检查"
       },
       "unresolved": [],
-      "reviewedAt": "2026-11-18",
+      "reviewedAt": "2026-11-25",
       "audit": {
         "evidence": [
           {
@@ -3808,15 +3830,30 @@
               "identity"
             ],
             "locator": "第102回区間エントリー 日本体育大学 二村昇太朗行 出身校（原文 体育仙台育英）",
-            "revision": "As retrieved 2026-11-18",
-            "status": "verified",
+            "revision": "As retrieved 2026-11-18; superseded: cross-column reading rejected 2026-11-25",
+            "status": "unverified",
             "checkedAt": "2026-11-18",
+            "originKey": "hakone-ekiden-jp-official",
+            "independenceNote": "单一来源，未取得独立第二来源"
+          },
+          {
+            "id": "school-column-review",
+            "sourceId": "hakone-102-kukan-entry",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "第102回区間エントリー PDF p.19 / 日本体育大 / 補欠 12 / 二村 昇太朗 / 出身校列「仙台育英」（隣接する学部列「体育」を除外）",
+            "revision": "Official 102kukanentry.pdf as read 2026-11-25; high-school column correction (not an organizer revision)",
+            "status": "verified",
+            "checkedAt": "2026-11-25",
             "originKey": "hakone-ekiden-jp-official",
             "independenceNote": "单一来源，未取得独立第二来源"
           }
         ],
         "adoptedEvidenceIds": [
-          "ev1"
+          "school-column-review"
         ],
         "coverage": [
           {
@@ -3837,9 +3874,10 @@
             "searchIndexes": [
               0,
               1,
-              2
+              2,
+              3
             ],
-            "reason": "批量来源读取"
+            "reason": "原批次历史读取 + 2026-11-25 Codex 定点分列纠错；旧解析已否定"
           },
           {
             "category": "database",
@@ -3855,7 +3893,8 @@
           }
         ],
         "limitations": [
-          "单一来源；独立复核需重新打开一手页面核对"
+          "单一来源；独立复核需重新打开一手页面核对",
+          "2026-11-25 Codex 纠错：旧值「体育仙台育英高」混入学部列；官方出身校列为「仙台育英」。按列原文简称记录，不推测后缀。"
         ],
         "affiliation": null,
         "performances": [],
@@ -4350,7 +4389,12 @@
         {
           "value": "ｺﾐｭﾆﾃｨ福祉大牟田高",
           "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
-          "locator": "第102回区間エントリー 立教大学 馬場賢人行 出身校（原文 ｺﾐｭﾆﾃｨ福祉大牟田）"
+          "locator": "第102回区間エントリー 立教大学 馬場賢人行 出身校（原文 ｺﾐｭﾆﾃｨ福祉大牟田）；已否定的旧跨列解析（非官方高中值），见 2026-11-25 纠错记录"
+        },
+        {
+          "value": "大牟田",
+          "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+          "locator": "第102回区間エントリー PDF p.20 / 立教大 / 区間 2 / 馬場 賢人 / 出身校列「大牟田」（隣接する学部列「ｺﾐｭﾆﾃｨ福祉」を除外）"
         }
       ],
       "searches": [
@@ -4404,15 +4448,32 @@
             }
           ],
           "result": "身份核对通过"
+        },
+        {
+          "stage": "verification",
+          "query": "定点读取官方 PDF：馬場 賢人 所在大学、行号及学部/出身校分列（非新联网搜索）",
+          "checkedAt": "2026-11-25",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "第102回区間エントリー PDF p.20 / 立教大 / 区間 2 / 馬場 賢人 / 出身校列「大牟田」（隣接する学部列「ｺﾐｭﾆﾃｨ福祉」を除外）",
+              "access": "read",
+              "finding": "2026-11-25 Codex 纠错：旧值「ｺﾐｭﾆﾃｨ福祉大牟田高」混入学部列；官方出身校列为「大牟田」。按列原文简称记录，不推测后缀。",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "通过网页工具读取官方 PDF 全文及分栏表头、对应行；姓名与大学对应。命令行下载返回 HTTP 403，未绕过；截图工具未返回可查看图像，未声称完成截图目视复核。"
         }
       ],
       "final": {
-        "value": "ｺﾐｭﾆﾃｨ福祉大牟田高",
+        "value": "大牟田",
         "sourceIds": [
           "hakone-102-kukan-entry"
         ],
-        "locator": "第102回区間エントリー 立教大学 馬場賢人行 出身校（原文 ｺﾐｭﾆﾃｨ福祉大牟田）",
-        "revision": "As retrieved 2026-11-18"
+        "locator": "第102回区間エントリー PDF p.20 / 立教大 / 区間 2 / 馬場 賢人 / 出身校列「大牟田」（隣接する学部列「ｺﾐｭﾆﾃｨ福祉」を除外）",
+        "revision": "Official 102kukanentry.pdf as read 2026-11-25; high-school column correction (not an organizer revision)"
       },
       "identityEvidence": "姓名与所属与数据库注册一致（立教大），按稳定 athleteId 记录；",
       "updateCheck": {
@@ -4421,7 +4482,7 @@
         "summary": "出生日期/出身高中为永久属性，不做 PB 更新检查"
       },
       "unresolved": [],
-      "reviewedAt": "2026-11-18",
+      "reviewedAt": "2026-11-25",
       "audit": {
         "evidence": [
           {
@@ -4433,15 +4494,30 @@
               "identity"
             ],
             "locator": "第102回区間エントリー 立教大学 馬場賢人行 出身校（原文 ｺﾐｭﾆﾃｨ福祉大牟田）",
-            "revision": "As retrieved 2026-11-18",
-            "status": "verified",
+            "revision": "As retrieved 2026-11-18; superseded: cross-column reading rejected 2026-11-25",
+            "status": "unverified",
             "checkedAt": "2026-11-18",
+            "originKey": "hakone-ekiden-jp-official",
+            "independenceNote": "单一来源，未取得独立第二来源"
+          },
+          {
+            "id": "school-column-review",
+            "sourceId": "hakone-102-kukan-entry",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "第102回区間エントリー PDF p.20 / 立教大 / 区間 2 / 馬場 賢人 / 出身校列「大牟田」（隣接する学部列「ｺﾐｭﾆﾃｨ福祉」を除外）",
+            "revision": "Official 102kukanentry.pdf as read 2026-11-25; high-school column correction (not an organizer revision)",
+            "status": "verified",
+            "checkedAt": "2026-11-25",
             "originKey": "hakone-ekiden-jp-official",
             "independenceNote": "单一来源，未取得独立第二来源"
           }
         ],
         "adoptedEvidenceIds": [
-          "ev1"
+          "school-column-review"
         ],
         "coverage": [
           {
@@ -4462,9 +4538,10 @@
             "searchIndexes": [
               0,
               1,
-              2
+              2,
+              3
             ],
-            "reason": "批量来源读取"
+            "reason": "原批次历史读取 + 2026-11-25 Codex 定点分列纠错；旧解析已否定"
           },
           {
             "category": "database",
@@ -4480,7 +4557,8 @@
           }
         ],
         "limitations": [
-          "单一来源；独立复核需重新打开一手页面核对"
+          "单一来源；独立复核需重新打开一手页面核对",
+          "2026-11-25 Codex 纠错：旧值「ｺﾐｭﾆﾃｨ福祉大牟田高」混入学部列；官方出身校列为「大牟田」。按列原文简称记录，不推测后缀。"
         ],
         "affiliation": null,
         "performances": [],
@@ -5600,7 +5678,12 @@
         {
           "value": "体育東海大静岡翔洋高",
           "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
-          "locator": "第102回区間エントリー 東海大学 兵藤ジュダ行 出身校（原文 体育東海大静岡翔洋）"
+          "locator": "第102回区間エントリー 東海大学 兵藤ジュダ行 出身校（原文 体育東海大静岡翔洋）；已否定的旧跨列解析（非官方高中值），见 2026-11-25 纠错记录"
+        },
+        {
+          "value": "東海大静岡翔洋",
+          "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+          "locator": "第102回区間エントリー PDF p.15 / 東海大 / 区間 1 / 兵藤 ジュダ / 出身校列「東海大静岡翔洋」（隣接する学部列「体育」を除外）"
         }
       ],
       "searches": [
@@ -5654,15 +5737,32 @@
             }
           ],
           "result": "身份核对通过"
+        },
+        {
+          "stage": "verification",
+          "query": "定点读取官方 PDF：兵藤 ジュダ 所在大学、行号及学部/出身校分列（非新联网搜索）",
+          "checkedAt": "2026-11-25",
+          "outcome": "found",
+          "sources": [
+            {
+              "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+              "section": "第102回区間エントリー PDF p.15 / 東海大 / 区間 1 / 兵藤 ジュダ / 出身校列「東海大静岡翔洋」（隣接する学部列「体育」を除外）",
+              "access": "read",
+              "finding": "2026-11-25 Codex 纠错：旧值「体育東海大静岡翔洋高」混入学部列；官方出身校列为「東海大静岡翔洋」。按列原文简称记录，不推测后缀。",
+              "category": "competition",
+              "documentType": "profile"
+            }
+          ],
+          "result": "通过网页工具读取官方 PDF 全文及分栏表头、对应行；姓名与大学对应。命令行下载返回 HTTP 403，未绕过；截图工具未返回可查看图像，未声称完成截图目视复核。"
         }
       ],
       "final": {
-        "value": "体育東海大静岡翔洋高",
+        "value": "東海大静岡翔洋",
         "sourceIds": [
           "hakone-102-kukan-entry"
         ],
-        "locator": "第102回区間エントリー 東海大学 兵藤ジュダ行 出身校（原文 体育東海大静岡翔洋）",
-        "revision": "As retrieved 2026-11-18"
+        "locator": "第102回区間エントリー PDF p.15 / 東海大 / 区間 1 / 兵藤 ジュダ / 出身校列「東海大静岡翔洋」（隣接する学部列「体育」を除外）",
+        "revision": "Official 102kukanentry.pdf as read 2026-11-25; high-school column correction (not an organizer revision)"
       },
       "identityEvidence": "姓名与所属与数据库注册一致（東海大），按稳定 athleteId 记录；",
       "updateCheck": {
@@ -5671,7 +5771,7 @@
         "summary": "出生日期/出身高中为永久属性，不做 PB 更新检查"
       },
       "unresolved": [],
-      "reviewedAt": "2026-11-18",
+      "reviewedAt": "2026-11-25",
       "audit": {
         "evidence": [
           {
@@ -5683,15 +5783,30 @@
               "identity"
             ],
             "locator": "第102回区間エントリー 東海大学 兵藤ジュダ行 出身校（原文 体育東海大静岡翔洋）",
-            "revision": "As retrieved 2026-11-18",
-            "status": "verified",
+            "revision": "As retrieved 2026-11-18; superseded: cross-column reading rejected 2026-11-25",
+            "status": "unverified",
             "checkedAt": "2026-11-18",
+            "originKey": "hakone-ekiden-jp-official",
+            "independenceNote": "单一来源，未取得独立第二来源"
+          },
+          {
+            "id": "school-column-review",
+            "sourceId": "hakone-102-kukan-entry",
+            "role": "primary",
+            "supports": [
+              "value",
+              "identity"
+            ],
+            "locator": "第102回区間エントリー PDF p.15 / 東海大 / 区間 1 / 兵藤 ジュダ / 出身校列「東海大静岡翔洋」（隣接する学部列「体育」を除外）",
+            "revision": "Official 102kukanentry.pdf as read 2026-11-25; high-school column correction (not an organizer revision)",
+            "status": "verified",
+            "checkedAt": "2026-11-25",
             "originKey": "hakone-ekiden-jp-official",
             "independenceNote": "单一来源，未取得独立第二来源"
           }
         ],
         "adoptedEvidenceIds": [
-          "ev1"
+          "school-column-review"
         ],
         "coverage": [
           {
@@ -5712,9 +5827,10 @@
             "searchIndexes": [
               0,
               1,
-              2
+              2,
+              3
             ],
-            "reason": "批量来源读取"
+            "reason": "原批次历史读取 + 2026-11-25 Codex 定点分列纠错；旧解析已否定"
           },
           {
             "category": "database",
@@ -5730,7 +5846,8 @@
           }
         ],
         "limitations": [
-          "单一来源；独立复核需重新打开一手页面核对"
+          "单一来源；独立复核需重新打开一手页面核对",
+          "2026-11-25 Codex 纠错：旧值「体育東海大静岡翔洋高」混入学部列；官方出身校列为「東海大静岡翔洋」。按列原文简称记录，不推测后缀。"
         ],
         "affiliation": null,
         "performances": [],

@@ -1,0 +1,1749 @@
+{
+  "batchId": "2026-11-25-pb-pilot15",
+  "readyForReview": false,
+  "scopeNote": "15 athletes × 3 PB fields = 45 explicitly tracked subjects from the frozen baseline. Bounded pilot; unresolved steps and missing independent authorization artifact are not a completion pass. No owner signature/hash fabricated.",
+  "subjects": [
+    {
+      "athleteId": "athlete-aj25-03-3",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        }
+      ],
+      "nextActions": [
+        "发现比旧候选13:37.77更快的13:36.18线索（第20回絆、2026-09-26）；仅搜索摘要，未读到正式结果。实业团简介及年度结果均403，不能确认当前PB。",
+        "Use the precise unresolved source/meet lead; do not publish a slower known candidate or infer missing dates."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-03-3",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        }
+      ],
+      "nextActions": [
+        "大学2025年度结果支持2025-11-22 MARCH 27:49.90，但毕业后实业团简介及结果403；替代检索仍不足以确认截至2026-11-25最新性。",
+        "Use the precise unresolved source/meet lead; do not publish a slower known candidate or infer missing dates."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-03-3",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        }
+      ],
+      "nextActions": [
+        "大学结果支持2025-02-02第47回神奈川マラソン；实业团403，毕业后更新检查不足。",
+        "Use the precise unresolved source/meet lead; do not publish a slower known candidate or infer missing dates."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-03-6",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "官方个人页确认13:34.20；大学在校榜13:36.46较慢，不能取代高中PB。精确值反查仅找到2023-11-25第310回日体大线索，未取得完整一手结果。",
+        "Use the precise unresolved source/meet lead; do not publish a slower known candidate or infer missing dates."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-03-6",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "Independent reviewer: open result row and current-PB source; verify date, identity, discipline and latestness. Completion checklist is partial, not a strict completion pass."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-03-6",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "Independent reviewer: open result row and current-PB source; verify date, identity, discipline and latestness. Completion checklist is partial, not a strict completion pass."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-03-8",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "Independent reviewer: open result row and current-PB source; verify date, identity, discipline and latestness. Completion checklist is partial, not a strict completion pass."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-03-8",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "Independent reviewer: open result row and current-PB source; verify date, identity, discipline and latestness. Completion checklist is partial, not a strict completion pass."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-03-8",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "Independent reviewer: open result row and current-PB source; verify date, identity, discipline and latestness. Completion checklist is partial, not a strict completion pass."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-01-6",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        }
+      ],
+      "nextActions": [
+        "Independent reviewer: open result row and current-PB source; verify date, identity, discipline and latestness. Completion checklist is partial, not a strict completion pass."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-01-6",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        }
+      ],
+      "nextActions": [
+        "Independent reviewer: open result row and current-PB source; verify date, identity, discipline and latestness. Completion checklist is partial, not a strict completion pass."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-01-6",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        }
+      ],
+      "nextActions": [
+        "Independent reviewer: open result row and current-PB source; verify date, identity, discipline and latestness. Completion checklist is partial, not a strict completion pass."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-01-5",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "Independent reviewer: open result row and current-PB source; verify date, identity, discipline and latestness. Completion checklist is partial, not a strict completion pass."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-01-5",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "Independent reviewer: open result row and current-PB source; verify date, identity, discipline and latestness. Completion checklist is partial, not a strict completion pass."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-01-5",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "Independent reviewer: open result row and current-PB source; verify date, identity, discipline and latestness. Completion checklist is partial, not a strict completion pass."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-01-1",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "Independent reviewer: open result row and current-PB source; verify date, identity, discipline and latestness. Completion checklist is partial, not a strict completion pass."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-01-1",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "Independent reviewer: open result row and current-PB source; verify date, identity, discipline and latestness. Completion checklist is partial, not a strict completion pass."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-01-1",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "Independent reviewer: open result row and current-PB source; verify date, identity, discipline and latestness. Completion checklist is partial, not a strict completion pass."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-02-4",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "Independent reviewer: open result row and current-PB source; verify date, identity, discipline and latestness. Completion checklist is partial, not a strict completion pass."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-02-4",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "Independent reviewer: open result row and current-PB source; verify date, identity, discipline and latestness. Completion checklist is partial, not a strict completion pass."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-02-4",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "Independent reviewer: open result row and current-PB source; verify date, identity, discipline and latestness. Completion checklist is partial, not a strict completion pass."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-02-1",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "Independent reviewer: open result row and current-PB source; verify date, identity, discipline and latestness. Completion checklist is partial, not a strict completion pass."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-02-1",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "Independent reviewer: open result row and current-PB source; verify date, identity, discipline and latestness. Completion checklist is partial, not a strict completion pass."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-02-1",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "Independent reviewer: open result row and current-PB source; verify date, identity, discipline and latestness. Completion checklist is partial, not a strict completion pass."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-02-6",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "Independent reviewer: open result row and current-PB source; verify date, identity, discipline and latestness. Completion checklist is partial, not a strict completion pass."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-02-6",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "Independent reviewer: open result row and current-PB source; verify date, identity, discipline and latestness. Completion checklist is partial, not a strict completion pass."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-02-6",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "Independent reviewer: open result row and current-PB source; verify date, identity, discipline and latestness. Completion checklist is partial, not a strict completion pass."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-06-6",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        }
+      ],
+      "nextActions": [
+        "Independent reviewer: open result row and current-PB source; verify date, identity, discipline and latestness. Completion checklist is partial, not a strict completion pass."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-06-6",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        }
+      ],
+      "nextActions": [
+        "Independent reviewer: open result row and current-PB source; verify date, identity, discipline and latestness. Completion checklist is partial, not a strict completion pass."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj24-06-6",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        }
+      ],
+      "nextActions": [
+        "数据库线索仅给2023年和1:04:59；大学现役名册无毕业生，实业团个人页未列半马。未确认比赛日与赛事，不推断无成绩。",
+        "Use the precise unresolved source/meet lead; do not publish a slower known candidate or infer missing dates."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-06-2",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "官方简介确认数值；反查指向2025-06-01第321回日体大20組13着，但目前仅数据库结果线索，未取得原件。",
+        "Use the precise unresolved source/meet lead; do not publish a slower known candidate or infer missing dates."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-06-2",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "官方简介确认数值；日体大2025-11-15结果搜索摘要命中，但打开正文只显示空表，不能声称已读到原件。",
+        "Use the precise unresolved source/meet lead; do not publish a slower known candidate or infer missing dates."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-06-2",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "官方简介确认数值；精确值反查未取得对应日期与比赛的正式结果。",
+        "Use the precise unresolved source/meet lead; do not publish a slower known candidate or infer missing dates."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-06-7",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "官方简介确认数值；精确值及不同写法反查未取得对应日期、赛事的一手结果。",
+        "Use the precise unresolved source/meet lead; do not publish a slower known candidate or infer missing dates."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-06-7",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "日体大2025-11-15原件URL已找到，摘要命中6組9着；打开仅空表，保留候选与可继续读取的原件地址。",
+        "Use the precise unresolved source/meet lead; do not publish a slower known candidate or infer missing dates."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-06-7",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "Independent reviewer: open result row and current-PB source; verify date, identity, discipline and latestness. Completion checklist is partial, not a strict completion pass."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-05-4",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "Independent reviewer: open result row and current-PB source; verify date, identity, discipline and latestness. Completion checklist is partial, not a strict completion pass."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-05-4",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "Independent reviewer: open result row and current-PB source; verify date, identity, discipline and latestness. Completion checklist is partial, not a strict completion pass."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-05-4",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "Independent reviewer: open result row and current-PB source; verify date, identity, discipline and latestness. Completion checklist is partial, not a strict completion pass."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-05-3",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "官方个人页确认；反查出现2022年高中阶段成绩线索，未取得带确切日期与赛事的原件。",
+        "Use the precise unresolved source/meet lead; do not publish a slower known candidate or infer missing dates."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-05-3",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "比旧候选30:10.69更快；早稻田结果将赛期写为2026-04-25～26。日体大摘要指向4月25日但正文为空，精确比赛日尚须独立核实。",
+        "Use the precise unresolved source/meet lead; do not publish a slower known candidate or infer missing dates."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-05-3",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "Independent reviewer: open result row and current-PB source; verify date, identity, discipline and latestness. Completion checklist is partial, not a strict completion pass."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-05-2",
+      "field": "5000m",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "Independent reviewer: open result row and current-PB source; verify date, identity, discipline and latestness. Completion checklist is partial, not a strict completion pass."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-05-2",
+      "field": "10000m",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "顺天堂官方PDF有八千代松陰鈴木琉胤2年10000m 30:40.21、3月22日，但所读PDF未标年份/大会名；不能仅凭学年或上传日期补年份。",
+        "Use the precise unresolved source/meet lead; do not publish a slower known candidate or infer missing dates."
+      ]
+    },
+    {
+      "athleteId": "athlete-aj25-05-2",
+      "field": "half-marathon",
+      "scope": {
+        "asOf": "2026-11-25",
+        "editionId": null,
+        "courseVersion": null,
+        "sectionNumber": null
+      },
+      "steps": [
+        {
+          "kind": "university-ranking",
+          "status": "searched",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Read listed university source. Semantic scope (profile vs all-time ranking) requires human review."
+        },
+        {
+          "kind": "employer-profile",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Current dated enrollment assessment references the official university member/year evidence."
+        },
+        {
+          "kind": "employer-results",
+          "status": "not-applicable",
+          "searchIndexes": [
+            0
+          ],
+          "alternativeSearchIndexes": [],
+          "reason": "Still a student at cutoff; no current employer. See affiliation evidence."
+        }
+      ],
+      "nextActions": [
+        "已查官方个人页、历代榜、近期比赛及项目反查，未发现正式半马候选；不等于本人从未参加半马。",
+        "Use the precise unresolved source/meet lead; do not publish a slower known candidate or infer missing dates."
+      ]
+    }
+  ]
+}

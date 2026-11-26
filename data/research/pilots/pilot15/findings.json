@@ -1,0 +1,1669 @@
+{
+  "batchId": "2026-11-25-pb-pilot15",
+  "asOf": "2026-11-25",
+  "independentReview": "pending",
+  "records": [
+    {
+      "athleteId": "athlete-aj25-03-3",
+      "name": "宇田川 瞬矢",
+      "university": "青山学院大",
+      "event": "5000m",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "13:37.77",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "青山学院大学 宇田川 瞬矢 行 公認最高記録 5000m 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group1"
+      },
+      "afterStatus": "candidate",
+      "selected": null,
+      "candidates": [
+        {
+          "value": "13:36.18",
+          "sourceUrl": "https://search.yahoo.co.jp/realtime/search?ei=UTF-8&md=h&p=%E9%BB%92%E7%94%B0%E6%9C%9D%E6%97%A5+gmo&rkf=1",
+          "locator": "宇田川 瞬矢 5000m; 发现比旧候选13:37.77更快的13:36.18线索（第20回絆、2026-09-26）；仅搜索摘要，未读到正式结果。实业团简介及年度结果均403，不能确认当前PB。"
+        }
+      ],
+      "reason": "发现比旧候选13:37.77更快的13:36.18线索（第20回絆、2026-09-26）；仅搜索摘要，未读到正式结果。实业团简介及年度结果均403，不能确认当前PB。",
+      "newlyVerified": false,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj25-03-3",
+      "name": "宇田川 瞬矢",
+      "university": "青山学院大",
+      "event": "10000m",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "27:49.90",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "青山学院大学 宇田川 瞬矢 行 公認最高記録 10000m 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group1"
+      },
+      "afterStatus": "candidate",
+      "selected": null,
+      "candidates": [
+        {
+          "value": "27:49.90",
+          "sourceUrl": "https://aogaku-tf.com/results-2025.html",
+          "locator": "宇田川 瞬矢 10000m; 大学2025年度结果支持2025-11-22 MARCH 27:49.90，但毕业后实业团简介及结果403；替代检索仍不足以确认截至2026-11-25最新性。"
+        }
+      ],
+      "reason": "大学2025年度结果支持2025-11-22 MARCH 27:49.90，但毕业后实业团简介及结果403；替代检索仍不足以确认截至2026-11-25最新性。",
+      "newlyVerified": false,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj25-03-3",
+      "name": "宇田川 瞬矢",
+      "university": "青山学院大",
+      "event": "half-marathon",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "1:02:20",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "青山学院大学 宇田川 瞬矢 行 公認最高記録 half-marathon 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group1"
+      },
+      "afterStatus": "candidate",
+      "selected": null,
+      "candidates": [
+        {
+          "value": "1:02:20",
+          "sourceUrl": "https://aogaku-tf.com/results-2024.html",
+          "locator": "宇田川 瞬矢 half-marathon; 大学结果支持2025-02-02第47回神奈川マラソン；实业团403，毕业后更新检查不足。"
+        }
+      ],
+      "reason": "大学结果支持2025-02-02第47回神奈川マラソン；实业团403，毕业后更新检查不足。",
+      "newlyVerified": false,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj25-03-6",
+      "name": "飯田 翔大",
+      "university": "青山学院大",
+      "event": "5000m",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "13:34.20",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "青山学院大学 飯田 翔大 行 公認最高記録 5000m 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group1"
+      },
+      "afterStatus": "candidate",
+      "selected": null,
+      "candidates": [
+        {
+          "value": "13:34.20",
+          "sourceUrl": "https://aogaku-tf.com/member-364baada-911e-8198-a545-d9c5635d5008.html",
+          "locator": "飯田 翔大 5000m; 官方个人页确认13:34.20；大学在校榜13:36.46较慢，不能取代高中PB。精确值反查仅找到2023-11-25第310回日体大线索，未取得完整一手结果。"
+        }
+      ],
+      "reason": "官方个人页确认13:34.20；大学在校榜13:36.46较慢，不能取代高中PB。精确值反查仅找到2023-11-25第310回日体大线索，未取得完整一手结果。",
+      "newlyVerified": false,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj25-03-6",
+      "name": "飯田 翔大",
+      "university": "青山学院大",
+      "event": "10000m",
+      "before": {
+        "status": "existing-verified",
+        "published": {
+          "event": "10000m",
+          "timeMilliseconds": 1671510,
+          "precision": "centisecond",
+          "achievedOn": "2025-11-22",
+          "meet": "Colantotte presents MARCH対抗戦2025",
+          "sourceId": "aogaku-2026-rankings",
+          "locator": "10000mランキング 2位",
+          "revision": "As retrieved 2026-11-18"
+        },
+        "candidates": [
+          {
+            "value": "27:51.51; 2025-11-22; Colantotte presents MARCH対抗戦2025",
+            "sourceUrl": "https://aogaku-tf.com/rankings.html",
+            "locator": "10000mランキング 2位"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group1"
+      },
+      "afterStatus": "verified",
+      "selected": {
+        "time": "27:51.51",
+        "achievedOn": "2025-11-22",
+        "meet": "Colantotte presents MARCH対抗戦2025",
+        "url": "https://aogaku-tf.com/rankings.html",
+        "locator": "10000mランキング 2位",
+        "edition": null,
+        "startsOn": "2025-11-22",
+        "endsOn": "2025-11-22"
+      },
+      "candidates": [
+        {
+          "value": "27:51.51; 2025-11-22; Colantotte presents MARCH対抗戦2025",
+          "sourceUrl": "https://aogaku-tf.com/rankings.html",
+          "locator": "10000mランキング 2位"
+        }
+      ],
+      "reason": "Complete official fact and bounded currentness check; independent review pending.",
+      "newlyVerified": false,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj25-03-6",
+      "name": "飯田 翔大",
+      "university": "青山学院大",
+      "event": "half-marathon",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "1:03:18",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "青山学院大学 飯田 翔大 行 公認最高記録 half-marathon 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group1"
+      },
+      "afterStatus": "verified",
+      "selected": {
+        "time": "1:03:18",
+        "achievedOn": "2025-02-23",
+        "meet": "第72回公認鹿島祐徳ロードレース大会",
+        "url": "https://aogaku-tf.com/results-2024.html",
+        "locator": "2024年度→2025年2月23日→ハーフマラソン男子決勝、飯田翔大1年、1位 PB",
+        "edition": 72,
+        "startsOn": "2025-02-23",
+        "endsOn": "2025-02-23"
+      },
+      "candidates": [
+        {
+          "value": "1:03:18; 2025-02-23; 第72回公認鹿島祐徳ロードレース大会",
+          "sourceUrl": "https://aogaku-tf.com/results-2024.html",
+          "locator": "2024年度→2025年2月23日→ハーフマラソン男子決勝、飯田翔大1年、1位 PB"
+        }
+      ],
+      "reason": "Complete official fact and bounded currentness check; independent review pending.",
+      "newlyVerified": true,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj25-03-8",
+      "name": "小河原 陽琉",
+      "university": "青山学院大",
+      "event": "5000m",
+      "before": {
+        "status": "existing-verified",
+        "published": {
+          "event": "5000m",
+          "timeMilliseconds": 811990,
+          "precision": "centisecond",
+          "achievedOn": "2026-05-24",
+          "meet": "第105回関東学生陸上競技対校選手権大会",
+          "sourceId": "aogaku-2026-rankings",
+          "locator": "チーム内大学自己ベストランキング 5000m 1位",
+          "revision": "As retrieved 2026-11-18"
+        },
+        "candidates": [
+          {
+            "value": "13:31.99; 2026-05-24; 第105回関東学生陸上競技対校選手権大会",
+            "sourceUrl": "https://aogaku-tf.com/rankings.html",
+            "locator": "チーム内大学自己ベストランキング 5000m 1位"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group1"
+      },
+      "afterStatus": "verified",
+      "selected": {
+        "time": "13:31.99",
+        "achievedOn": "2026-05-24",
+        "meet": "第105回関東学生陸上競技対校選手権大会",
+        "url": "https://aogaku-tf.com/rankings.html",
+        "locator": "チーム内大学自己ベストランキング 5000m 1位",
+        "edition": 105,
+        "startsOn": "2026-05-24",
+        "endsOn": "2026-05-24"
+      },
+      "candidates": [
+        {
+          "value": "13:31.99; 2026-05-24; 第105回関東学生陸上競技対校選手権大会",
+          "sourceUrl": "https://aogaku-tf.com/rankings.html",
+          "locator": "チーム内大学自己ベストランキング 5000m 1位"
+        }
+      ],
+      "reason": "Complete official fact and bounded currentness check; independent review pending.",
+      "newlyVerified": false,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj25-03-8",
+      "name": "小河原 陽琉",
+      "university": "青山学院大",
+      "event": "10000m",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "28:37.01",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "青山学院大学 小河原 陽琉 行 公認最高記録 10000m 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group1"
+      },
+      "afterStatus": "verified",
+      "selected": {
+        "time": "27:57.76",
+        "achievedOn": "2026-11-22",
+        "meet": "Colantotte presents MARCH対抗戦2026",
+        "url": "https://aogaku-tf.com/results.html",
+        "locator": "11月22日→男子10000m 4組、小河原陽琉3年、27:57.76 PB",
+        "edition": null,
+        "startsOn": "2026-11-22",
+        "endsOn": "2026-11-22"
+      },
+      "candidates": [
+        {
+          "value": "27:57.76; 2026-11-22; Colantotte presents MARCH対抗戦2026",
+          "sourceUrl": "https://aogaku-tf.com/results.html",
+          "locator": "11月22日→男子10000m 4組、小河原陽琉3年、27:57.76 PB"
+        }
+      ],
+      "reason": "Complete official fact and bounded currentness check; independent review pending.",
+      "newlyVerified": true,
+      "fasterThanBaseline": true
+    },
+    {
+      "athleteId": "athlete-aj25-03-8",
+      "name": "小河原 陽琉",
+      "university": "青山学院大",
+      "event": "half-marathon",
+      "before": {
+        "status": "existing-verified",
+        "published": {
+          "event": "half-marathon",
+          "timeMilliseconds": 3690000,
+          "precision": "second",
+          "achievedOn": "2026-03-29",
+          "meet": "GENERALI BERLIN HALF MARATHON",
+          "sourceId": "aogaku-2026-rankings",
+          "locator": "ハーフマラソンランキング 2位",
+          "revision": "As retrieved 2026-11-18"
+        },
+        "candidates": [
+          {
+            "value": "1:01:30; 2026-03-29; GENERALI BERLIN HALF MARATHON",
+            "sourceUrl": "https://aogaku-tf.com/rankings.html",
+            "locator": "ハーフマラソンランキング 2位"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group1"
+      },
+      "afterStatus": "verified",
+      "selected": {
+        "time": "1:01:30",
+        "achievedOn": "2026-03-29",
+        "meet": "GENERALI BERLIN HALF MARATHON",
+        "url": "https://aogaku-tf.com/rankings.html",
+        "locator": "ハーフマラソンランキング 2位",
+        "edition": null,
+        "startsOn": "2026-03-29",
+        "endsOn": "2026-03-29"
+      },
+      "candidates": [
+        {
+          "value": "1:01:30; 2026-03-29; GENERALI BERLIN HALF MARATHON",
+          "sourceUrl": "https://aogaku-tf.com/rankings.html",
+          "locator": "ハーフマラソンランキング 2位"
+        }
+      ],
+      "reason": "Complete official fact and bounded currentness check; independent review pending.",
+      "newlyVerified": false,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj24-01-6",
+      "name": "山本 歩夢",
+      "university": "國學院大",
+      "event": "5000m",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "13:34.85",
+            "sourceUrl": "https://www.asahi-kasei.com/jp/sports-event/track-field/member/yamamoto",
+            "locator": "自己記録「5000m 13分34秒85」"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group2"
+      },
+      "afterStatus": "verified",
+      "selected": {
+        "time": "13:34.85",
+        "achievedOn": "2023-07-08",
+        "meet": "ホクレン・ディスタンスチャレンジ2023 網走大会",
+        "url": "https://www.kokugakuin.com/top10/426/",
+        "locator": "5000m 3位 山本歩夢、令和5年7月8日",
+        "edition": null,
+        "startsOn": "2023-07-08",
+        "endsOn": "2023-07-08"
+      },
+      "candidates": [
+        {
+          "value": "13:34.85; 2023-07-08; ホクレン・ディスタンスチャレンジ2023 網走大会",
+          "sourceUrl": "https://www.kokugakuin.com/top10/426/",
+          "locator": "5000m 3位 山本歩夢、令和5年7月8日"
+        }
+      ],
+      "reason": "Complete official fact and bounded currentness check; independent review pending.",
+      "newlyVerified": true,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj24-01-6",
+      "name": "山本 歩夢",
+      "university": "國學院大",
+      "event": "10000m",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "27:51.44; 2025-11-29; 第325回日本体育大学長距離競技会兼第19回NITTAIDAI Challenge Games",
+            "sourceUrl": "https://www.asahi-kasei.com/jp/sports-event/track-field/member/yamamoto",
+            "locator": "主な戦績「2025年11月29日 第325回日体大長距離競技会兼第19回NITTAIDAI Challenge Games 10000m 9位 27分51秒44」"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group2"
+      },
+      "afterStatus": "verified",
+      "selected": {
+        "time": "27:51.44",
+        "achievedOn": "2025-11-29",
+        "meet": "第325回日本体育大学長距離競技会兼第19回NITTAIDAI Challenge Games",
+        "url": "https://www.asahi-kasei.com/jp/sports-event/track-field/member/yamamoto",
+        "locator": "主な戦績 2025年11月29日、10000m 9位",
+        "edition": 325,
+        "startsOn": "2025-11-29",
+        "endsOn": "2025-11-29"
+      },
+      "candidates": [
+        {
+          "value": "27:51.44; 2025-11-29; 第325回日本体育大学長距離競技会兼第19回NITTAIDAI Challenge Games",
+          "sourceUrl": "https://www.asahi-kasei.com/jp/sports-event/track-field/member/yamamoto",
+          "locator": "主な戦績 2025年11月29日、10000m 9位"
+        }
+      ],
+      "reason": "Complete official fact and bounded currentness check; independent review pending.",
+      "newlyVerified": true,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj24-01-6",
+      "name": "山本 歩夢",
+      "university": "國學院大",
+      "event": "half-marathon",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "1:00:43",
+            "sourceUrl": "https://www.asahi-kasei.com/jp/sports-event/track-field/member/yamamoto",
+            "locator": "自己記録「ハーフマラソン 1時間00分43秒」"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group2"
+      },
+      "afterStatus": "verified",
+      "selected": {
+        "time": "1:00:43",
+        "achievedOn": "2022-02-13",
+        "meet": "第50回全日本実業団ハーフマラソン大会",
+        "url": "https://yaaf.jp/records/R03/20220213.pdf",
+        "locator": "男子結果 p.1、No.524 山本歩夢 國學院大、8位（記録列、ネットタイムではない）",
+        "edition": 50,
+        "startsOn": "2022-02-13",
+        "endsOn": "2022-02-13"
+      },
+      "candidates": [
+        {
+          "value": "1:00:43; 2022-02-13; 第50回全日本実業団ハーフマラソン大会",
+          "sourceUrl": "https://yaaf.jp/records/R03/20220213.pdf",
+          "locator": "男子結果 p.1、No.524 山本歩夢 國學院大、8位（記録列、ネットタイムではない）"
+        }
+      ],
+      "reason": "Complete official fact and bounded currentness check; independent review pending.",
+      "newlyVerified": true,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj25-01-5",
+      "name": "飯國 新太",
+      "university": "國學院大",
+      "event": "5000m",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "13:54.89",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "國學院大學 飯國 新太 行 公認最高記録 5000m 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group3"
+      },
+      "afterStatus": "verified",
+      "selected": {
+        "time": "13:51.98",
+        "achievedOn": "2026-04-12",
+        "meet": "第327回日本体育大学長距離競技会",
+        "url": "https://www.kokugakuin.com/result/4009/",
+        "locator": "NGC男子5000m 1組、飯國新太3年、自己ベスト",
+        "edition": 327,
+        "startsOn": "2026-04-12",
+        "endsOn": "2026-04-12"
+      },
+      "candidates": [
+        {
+          "value": "13:51.98; 2026-04-12; 第327回日本体育大学長距離競技会",
+          "sourceUrl": "https://www.kokugakuin.com/result/4009/",
+          "locator": "NGC男子5000m 1組、飯國新太3年、自己ベスト"
+        }
+      ],
+      "reason": "Complete official fact and bounded currentness check; independent review pending.",
+      "newlyVerified": true,
+      "fasterThanBaseline": true
+    },
+    {
+      "athleteId": "athlete-aj25-01-5",
+      "name": "飯國 新太",
+      "university": "國學院大",
+      "event": "10000m",
+      "before": {
+        "status": "existing-verified",
+        "published": {
+          "event": "10000m",
+          "timeMilliseconds": 1703350,
+          "precision": "centisecond",
+          "achievedOn": "2026-04-25",
+          "meet": "日本体育大学長距離競技会",
+          "sourceId": "kokugakuin-top10",
+          "locator": "10000m 9位 飯國新太 令和8年4月25日",
+          "revision": "As retrieved 2026-11-18"
+        },
+        "candidates": [
+          {
+            "value": "28:23.35; 2026-04-25; 日本体育大学長距離競技会",
+            "sourceUrl": "https://www.kokugakuin.com/top10/426/",
+            "locator": "10000m 9位 飯國新太 令和8年4月25日"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group3"
+      },
+      "afterStatus": "verified",
+      "selected": {
+        "time": "28:23.35",
+        "achievedOn": "2026-04-25",
+        "meet": "日本体育大学長距離競技会",
+        "url": "https://www.kokugakuin.com/top10/426/",
+        "locator": "10000m 9位 飯國新太 令和8年4月25日",
+        "edition": null,
+        "startsOn": "2026-04-25",
+        "endsOn": "2026-04-25"
+      },
+      "candidates": [
+        {
+          "value": "28:23.35; 2026-04-25; 日本体育大学長距離競技会",
+          "sourceUrl": "https://www.kokugakuin.com/top10/426/",
+          "locator": "10000m 9位 飯國新太 令和8年4月25日"
+        }
+      ],
+      "reason": "Complete official fact and bounded currentness check; independent review pending.",
+      "newlyVerified": false,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj25-01-5",
+      "name": "飯國 新太",
+      "university": "國學院大",
+      "event": "half-marathon",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "1:01:51",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "國學院大學 飯國 新太 行 公認最高記録 half-marathon 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group3"
+      },
+      "afterStatus": "verified",
+      "selected": {
+        "time": "1:01:51",
+        "achievedOn": "2025-02-02",
+        "meet": "第28回日本学生ハーフマラソン選手権大会",
+        "url": "https://gold.jaic.org/kagawa/2024/2025marugamehalf/rel003.html",
+        "locator": "男子日本学生選手権決勝、No.583 飯國新太 國學院大、44位。2025/02/06 22:47:31更新",
+        "edition": 28,
+        "startsOn": "2025-02-02",
+        "endsOn": "2025-02-02"
+      },
+      "candidates": [
+        {
+          "value": "1:01:51; 2025-02-02; 第28回日本学生ハーフマラソン選手権大会",
+          "sourceUrl": "https://gold.jaic.org/kagawa/2024/2025marugamehalf/rel003.html",
+          "locator": "男子日本学生選手権決勝、No.583 飯國新太 國學院大、44位。2025/02/06 22:47:31更新"
+        }
+      ],
+      "reason": "Complete official fact and bounded currentness check; independent review pending.",
+      "newlyVerified": true,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj25-01-1",
+      "name": "尾熊 迅斗",
+      "university": "國學院大",
+      "event": "5000m",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "13:57.11",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "國學院大學 尾熊 迅斗 行 公認最高記録 5000m 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group3"
+      },
+      "afterStatus": "verified",
+      "selected": {
+        "time": "13:57.11",
+        "achievedOn": "2025-06-01",
+        "meet": "道南ディスタンス2025",
+        "url": "https://www.kokugakuin.com/result/3194/",
+        "locator": "男子5000m 尾熊迅斗2年、自己ベスト",
+        "edition": null,
+        "startsOn": "2025-06-01",
+        "endsOn": "2025-06-01"
+      },
+      "candidates": [
+        {
+          "value": "13:57.11; 2025-06-01; 道南ディスタンス2025",
+          "sourceUrl": "https://www.kokugakuin.com/result/3194/",
+          "locator": "男子5000m 尾熊迅斗2年、自己ベスト"
+        }
+      ],
+      "reason": "Complete official fact and bounded currentness check; independent review pending.",
+      "newlyVerified": true,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj25-01-1",
+      "name": "尾熊 迅斗",
+      "university": "國學院大",
+      "event": "10000m",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "28:35.45",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "國學院大學 尾熊 迅斗 行 公認最高記録 10000m 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group3"
+      },
+      "afterStatus": "verified",
+      "selected": {
+        "time": "28:35.45",
+        "achievedOn": "2025-11-15",
+        "meet": "第324回日本体育大学長距離競技会",
+        "url": "https://www.kokugakuin.com/result/3567/",
+        "locator": "男子10000m 7組、尾熊迅斗2年、自己ベスト",
+        "edition": 324,
+        "startsOn": "2025-11-15",
+        "endsOn": "2025-11-15"
+      },
+      "candidates": [
+        {
+          "value": "28:35.45; 2025-11-15; 第324回日本体育大学長距離競技会",
+          "sourceUrl": "https://www.kokugakuin.com/result/3567/",
+          "locator": "男子10000m 7組、尾熊迅斗2年、自己ベスト"
+        }
+      ],
+      "reason": "Complete official fact and bounded currentness check; independent review pending.",
+      "newlyVerified": true,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj25-01-1",
+      "name": "尾熊 迅斗",
+      "university": "國學院大",
+      "event": "half-marathon",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "1:01:46",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "國學院大學 尾熊 迅斗 行 公認最高記録 half-marathon 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group3"
+      },
+      "afterStatus": "verified",
+      "selected": {
+        "time": "1:01:46",
+        "achievedOn": "2025-02-02",
+        "meet": "第28回日本学生ハーフマラソン選手権大会",
+        "url": "https://gold.jaic.org/kagawa/2024/2025marugamehalf/rel003.html",
+        "locator": "男子日本学生選手権決勝、No.587 尾熊迅斗 國學院大、37位。2025/02/06 22:47:31更新",
+        "edition": 28,
+        "startsOn": "2025-02-02",
+        "endsOn": "2025-02-02"
+      },
+      "candidates": [
+        {
+          "value": "1:01:46; 2025-02-02; 第28回日本学生ハーフマラソン選手権大会",
+          "sourceUrl": "https://gold.jaic.org/kagawa/2024/2025marugamehalf/rel003.html",
+          "locator": "男子日本学生選手権決勝、No.587 尾熊迅斗 國學院大、37位。2025/02/06 22:47:31更新"
+        }
+      ],
+      "reason": "Complete official fact and bounded currentness check; independent review pending.",
+      "newlyVerified": true,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj24-02-4",
+      "name": "谷中 晴",
+      "university": "駒澤大",
+      "event": "5000m",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "13:49.71",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "駒澤大学 谷中 晴 行 公認最高記録 5000m 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group1"
+      },
+      "afterStatus": "verified",
+      "selected": {
+        "time": "13:49.71",
+        "achievedOn": "2024-10-14",
+        "meet": "第4回出雲市陸協記録会",
+        "url": "https://komazawa-ekiden.com/results/10-14%E6%9C%88%E7%AC%AC4%E5%9B%9E%E5%87%BA%E9%9B%B2%E5%B8%82%E9%99%B8%E5%8D%94%E8%A8%98%E9%8C%B2%E4%BC%9A/",
+        "locator": "男子5000m 2組1着、谷中晴1年、PB",
+        "edition": 4,
+        "startsOn": "2024-10-14",
+        "endsOn": "2024-10-14"
+      },
+      "candidates": [
+        {
+          "value": "13:49.71; 2024-10-14; 第4回出雲市陸協記録会",
+          "sourceUrl": "https://komazawa-ekiden.com/results/10-14%E6%9C%88%E7%AC%AC4%E5%9B%9E%E5%87%BA%E9%9B%B2%E5%B8%82%E9%99%B8%E5%8D%94%E8%A8%98%E9%8C%B2%E4%BC%9A/",
+          "locator": "男子5000m 2組1着、谷中晴1年、PB"
+        }
+      ],
+      "reason": "Complete official fact and bounded currentness check; independent review pending.",
+      "newlyVerified": true,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj24-02-4",
+      "name": "谷中 晴",
+      "university": "駒澤大",
+      "event": "10000m",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "31:53.55",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "駒澤大学 谷中 晴 行 公認最高記録 10000m 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group1"
+      },
+      "afterStatus": "verified",
+      "selected": {
+        "time": "28:34.14",
+        "achievedOn": "2026-06-21",
+        "meet": "あおもりディスタンスチャレンジ2026",
+        "url": "https://komazawa-ekiden.com/results/6%E6%9C%8821%E6%97%A5%E6%97%A5%E9%9D%92%E6%A3%AE%E3%83%87%E3%82%A3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B82026/",
+        "locator": "男子10000m 2着、谷中晴3年、PB。大会日は6月21日（記事公開6月22日と区別）",
+        "edition": null,
+        "startsOn": "2026-06-21",
+        "endsOn": "2026-06-21"
+      },
+      "candidates": [
+        {
+          "value": "28:34.14; 2026-06-21; あおもりディスタンスチャレンジ2026",
+          "sourceUrl": "https://komazawa-ekiden.com/results/6%E6%9C%8821%E6%97%A5%E6%97%A5%E9%9D%92%E6%A3%AE%E3%83%87%E3%82%A3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B82026/",
+          "locator": "男子10000m 2着、谷中晴3年、PB。大会日は6月21日（記事公開6月22日と区別）"
+        }
+      ],
+      "reason": "Complete official fact and bounded currentness check; independent review pending.",
+      "newlyVerified": true,
+      "fasterThanBaseline": true
+    },
+    {
+      "athleteId": "athlete-aj24-02-4",
+      "name": "谷中 晴",
+      "university": "駒澤大",
+      "event": "half-marathon",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "1:00:57",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "駒澤大学 谷中 晴 行 公認最高記録 half-marathon 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group1"
+      },
+      "afterStatus": "verified",
+      "selected": {
+        "time": "1:00:57",
+        "achievedOn": "2025-02-02",
+        "meet": "第28回日本学生ハーフマラソン選手権大会",
+        "url": "https://komazawa-ekiden.com/results/2%E6%9C%882%E6%97%A5%E6%97%A5%E7%AC%AC28%E5%9B%9E%E6%97%A5%E6%9C%AC%E5%AD%A6%E7%94%9F%E3%83%8F%E3%83%BC%E3%83%95%E3%83%9E%E3%83%A9%E3%82%BD%E3%83%B3%E9%81%B8%E6%89%8B%E6%A8%A9%E5%A4%A7%E4%BC%9A/",
+        "locator": "ハーフマラソン12位、谷中晴1年、PB",
+        "edition": 28,
+        "startsOn": "2025-02-02",
+        "endsOn": "2025-02-02"
+      },
+      "candidates": [
+        {
+          "value": "1:00:57; 2025-02-02; 第28回日本学生ハーフマラソン選手権大会",
+          "sourceUrl": "https://komazawa-ekiden.com/results/2%E6%9C%882%E6%97%A5%E6%97%A5%E7%AC%AC28%E5%9B%9E%E6%97%A5%E6%9C%AC%E5%AD%A6%E7%94%9F%E3%83%8F%E3%83%BC%E3%83%95%E3%83%9E%E3%83%A9%E3%82%BD%E3%83%B3%E9%81%B8%E6%89%8B%E6%A8%A9%E5%A4%A7%E4%BC%9A/",
+          "locator": "ハーフマラソン12位、谷中晴1年、PB"
+        }
+      ],
+      "reason": "Complete official fact and bounded currentness check; independent review pending.",
+      "newlyVerified": true,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj25-02-1",
+      "name": "小山 翔也",
+      "university": "駒澤大",
+      "event": "5000m",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "13:41.99",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "駒澤大学 小山 翔也 行 公認最高記録 5000m 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group3"
+      },
+      "afterStatus": "verified",
+      "selected": {
+        "time": "13:41.99",
+        "achievedOn": "2025-06-01",
+        "meet": "第321回日本体育大学長距離競技会",
+        "url": "https://komazawa-ekiden.com/results/5%E6%9C%8831%E6%97%A5%E5%9C%9F%E7%AC%AC321%E5%9B%9E%E6%97%A5%E6%9C%AC%E4%BD%93%E8%82%B2%E5%A4%A7%E5%AD%A6%E9%95%B7%E8%B7%9D%E9%9B%A2%E7%AB%B6%E6%8A%80%E4%BC%9A/",
+        "locator": "6月1日 男子5000m20組4着、小山翔也3年、PB",
+        "edition": 321,
+        "startsOn": "2025-05-31",
+        "endsOn": "2025-06-01"
+      },
+      "candidates": [
+        {
+          "value": "13:41.99; 2025-06-01; 第321回日本体育大学長距離競技会",
+          "sourceUrl": "https://komazawa-ekiden.com/results/5%E6%9C%8831%E6%97%A5%E5%9C%9F%E7%AC%AC321%E5%9B%9E%E6%97%A5%E6%9C%AC%E4%BD%93%E8%82%B2%E5%A4%A7%E5%AD%A6%E9%95%B7%E8%B7%9D%E9%9B%A2%E7%AB%B6%E6%8A%80%E4%BC%9A/",
+          "locator": "6月1日 男子5000m20組4着、小山翔也3年、PB"
+        }
+      ],
+      "reason": "Complete official fact and bounded currentness check; independent review pending.",
+      "newlyVerified": true,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj25-02-1",
+      "name": "小山 翔也",
+      "university": "駒澤大",
+      "event": "10000m",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "29:24.72",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "駒澤大学 小山 翔也 行 公認最高記録 10000m 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group3"
+      },
+      "afterStatus": "verified",
+      "selected": {
+        "time": "29:24.72",
+        "achievedOn": "2025-06-22",
+        "meet": "2025年度あおもりディスタンスチャレンジ記録会",
+        "url": "https://komazawa-ekiden.com/results/6%E6%9C%8822%E6%97%A5%E6%97%A52025%E5%B9%B4%E5%BA%A6-%E3%81%82%E3%81%8A%E3%82%82%E3%82%8A%E3%83%87%E3%82%A3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B8%E8%A8%98/",
+        "locator": "男子10000m3組20着、小山翔也3年、初10000m",
+        "edition": null,
+        "startsOn": "2025-06-22",
+        "endsOn": "2025-06-22"
+      },
+      "candidates": [
+        {
+          "value": "29:24.72; 2025-06-22; 2025年度あおもりディスタンスチャレンジ記録会",
+          "sourceUrl": "https://komazawa-ekiden.com/results/6%E6%9C%8822%E6%97%A5%E6%97%A52025%E5%B9%B4%E5%BA%A6-%E3%81%82%E3%81%8A%E3%82%82%E3%82%8A%E3%83%87%E3%82%A3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B8%E8%A8%98/",
+          "locator": "男子10000m3組20着、小山翔也3年、初10000m"
+        }
+      ],
+      "reason": "Complete official fact and bounded currentness check; independent review pending.",
+      "newlyVerified": true,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj25-02-1",
+      "name": "小山 翔也",
+      "university": "駒澤大",
+      "event": "half-marathon",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "1:02:38",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "駒澤大学 小山 翔也 行 公認最高記録 half-marathon 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group3"
+      },
+      "afterStatus": "verified",
+      "selected": {
+        "time": "1:02:38",
+        "achievedOn": "2024-11-17",
+        "meet": "第37回2024上尾シティハーフマラソン",
+        "url": "https://komazawa-ekiden.com/results/11%E6%9C%8817%E6%97%A5%E6%97%A5%E7%AC%AC37%E5%9B%9E2024%E4%B8%8A%E5%B0%BE%E3%82%B7%E3%83%86%E3%82%A3%E3%83%8F%E3%83%BC%E3%83%95%E3%83%9E%E3%83%A9%E3%82%BD%E3%83%B3/",
+        "locator": "男子ハーフマラソン学生の部9位、小山翔也2年、PB",
+        "edition": 37,
+        "startsOn": "2024-11-17",
+        "endsOn": "2024-11-17"
+      },
+      "candidates": [
+        {
+          "value": "1:02:38; 2024-11-17; 第37回2024上尾シティハーフマラソン",
+          "sourceUrl": "https://komazawa-ekiden.com/results/11%E6%9C%8817%E6%97%A5%E6%97%A5%E7%AC%AC37%E5%9B%9E2024%E4%B8%8A%E5%B0%BE%E3%82%B7%E3%83%86%E3%82%A3%E3%83%8F%E3%83%BC%E3%83%95%E3%83%9E%E3%83%A9%E3%82%BD%E3%83%B3/",
+          "locator": "男子ハーフマラソン学生の部9位、小山翔也2年、PB"
+        }
+      ],
+      "reason": "Complete official fact and bounded currentness check; independent review pending.",
+      "newlyVerified": true,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj24-02-6",
+      "name": "安原 海晴",
+      "university": "駒澤大",
+      "event": "5000m",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "13:52.85",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "駒澤大学 安原 海晴 行 公認最高記録 5000m 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group4"
+      },
+      "afterStatus": "verified",
+      "selected": {
+        "time": "13:52.85",
+        "achievedOn": "2025-09-27",
+        "meet": "TOKAI DISTANCE CHALLENGE 第240回東海大学長距離競技会",
+        "url": "https://komazawa-ekiden.com/results/9%E6%9C%8827%E6%97%A5%E5%9C%9F%E3%83%BB28%E6%97%A5%E6%97%A5tokai-distance-challenge-%E7%AC%AC240%E5%9B%9E%E6%9D%B1%E6%B5%B7%E5%A4%A7%E5%AD%A6%E9%95%B7%E8%B7%9D%E9%9B%A2%E7%AB%B6%E6%8A%80%E4%BC%9A/",
+        "locator": "9月27日 男子5000m19組1着、安原海晴3年、PB",
+        "edition": 240,
+        "startsOn": "2025-09-27",
+        "endsOn": "2025-09-28"
+      },
+      "candidates": [
+        {
+          "value": "13:52.85; 2025-09-27; TOKAI DISTANCE CHALLENGE 第240回東海大学長距離競技会",
+          "sourceUrl": "https://komazawa-ekiden.com/results/9%E6%9C%8827%E6%97%A5%E5%9C%9F%E3%83%BB28%E6%97%A5%E6%97%A5tokai-distance-challenge-%E7%AC%AC240%E5%9B%9E%E6%9D%B1%E6%B5%B7%E5%A4%A7%E5%AD%A6%E9%95%B7%E8%B7%9D%E9%9B%A2%E7%AB%B6%E6%8A%80%E4%BC%9A/",
+          "locator": "9月27日 男子5000m19組1着、安原海晴3年、PB"
+        }
+      ],
+      "reason": "Complete official fact and bounded currentness check; independent review pending.",
+      "newlyVerified": true,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj24-02-6",
+      "name": "安原 海晴",
+      "university": "駒澤大",
+      "event": "10000m",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "28:45.66",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "駒澤大学 安原 海晴 行 公認最高記録 10000m 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group4"
+      },
+      "afterStatus": "verified",
+      "selected": {
+        "time": "28:42.95",
+        "achievedOn": "2026-07-12",
+        "meet": "関東学生網走夏季記録挑戦競技会",
+        "url": "https://komazawa-ekiden.com/results/7%E6%9C%8812%E6%97%A5%E6%97%A5%E9%96%A2%E6%9D%B1%E5%AD%A6%E7%94%9F%E7%B6%B2%E8%B5%B0%E5%A4%8F%E5%AD%A3%E8%A8%98%E9%8C%B2%E6%8C%91%E6%88%A6%E7%AB%B6%E6%8A%80%E4%BC%9A/",
+        "locator": "男子10000m4組1着、安原海晴4年、PB",
+        "edition": null,
+        "startsOn": "2026-07-12",
+        "endsOn": "2026-07-12"
+      },
+      "candidates": [
+        {
+          "value": "28:42.95; 2026-07-12; 関東学生網走夏季記録挑戦競技会",
+          "sourceUrl": "https://komazawa-ekiden.com/results/7%E6%9C%8812%E6%97%A5%E6%97%A5%E9%96%A2%E6%9D%B1%E5%AD%A6%E7%94%9F%E7%B6%B2%E8%B5%B0%E5%A4%8F%E5%AD%A3%E8%A8%98%E9%8C%B2%E6%8C%91%E6%88%A6%E7%AB%B6%E6%8A%80%E4%BC%9A/",
+          "locator": "男子10000m4組1着、安原海晴4年、PB"
+        }
+      ],
+      "reason": "Complete official fact and bounded currentness check; independent review pending.",
+      "newlyVerified": true,
+      "fasterThanBaseline": true
+    },
+    {
+      "athleteId": "athlete-aj24-02-6",
+      "name": "安原 海晴",
+      "university": "駒澤大",
+      "event": "half-marathon",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "1:02:08",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "駒澤大学 安原 海晴 行 公認最高記録 half-marathon 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group4"
+      },
+      "afterStatus": "verified",
+      "selected": {
+        "time": "1:01:45",
+        "achievedOn": "2026-02-01",
+        "meet": "第29回日本学生ハーフマラソン選手権大会",
+        "url": "https://komazawa-ekiden.com/results/2%E6%9C%881%E6%97%A5%E6%97%A5%E7%AC%AC29%E5%9B%9E%E6%97%A5%E6%9C%AC%E5%AD%A6%E7%94%9F%E3%83%8F%E3%83%BC%E3%83%95%E3%83%9E%E3%83%A9%E3%82%BD%E3%83%B3%E9%81%B8%E6%89%8B%E6%A8%A9%E5%A4%A7%E4%BC%9A/",
+        "locator": "ハーフマラソン29位、安原海晴3年、PB",
+        "edition": 29,
+        "startsOn": "2026-02-01",
+        "endsOn": "2026-02-01"
+      },
+      "candidates": [
+        {
+          "value": "1:01:45; 2026-02-01; 第29回日本学生ハーフマラソン選手権大会",
+          "sourceUrl": "https://komazawa-ekiden.com/results/2%E6%9C%881%E6%97%A5%E6%97%A5%E7%AC%AC29%E5%9B%9E%E6%97%A5%E6%9C%AC%E5%AD%A6%E7%94%9F%E3%83%8F%E3%83%BC%E3%83%95%E3%83%9E%E3%83%A9%E3%82%BD%E3%83%B3%E9%81%B8%E6%89%8B%E6%A8%A9%E5%A4%A7%E4%BC%9A/",
+          "locator": "ハーフマラソン29位、安原海晴3年、PB"
+        }
+      ],
+      "reason": "Complete official fact and bounded currentness check; independent review pending.",
+      "newlyVerified": true,
+      "fasterThanBaseline": true
+    },
+    {
+      "athleteId": "athlete-aj24-06-6",
+      "name": "桜井 優我",
+      "university": "城西大",
+      "event": "5000m",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "14:02.49",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "城西大学 桜井 優我 行 公認最高記録 5000m 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group1"
+      },
+      "afterStatus": "verified",
+      "selected": {
+        "time": "13:58.87",
+        "achievedOn": "2026-09-19",
+        "meet": "第2回中国実業団長距離記録会",
+        "url": "https://www.kraftia.co.jp/marathon/member/male/yuga_sakurai.html",
+        "locator": "2026年シーズン結果 9月19日5000m、17位/4組1位、自己新記録",
+        "edition": 2,
+        "startsOn": "2026-09-19",
+        "endsOn": "2026-09-19"
+      },
+      "candidates": [
+        {
+          "value": "13:58.87; 2026-09-19; 第2回中国実業団長距離記録会",
+          "sourceUrl": "https://www.kraftia.co.jp/marathon/member/male/yuga_sakurai.html",
+          "locator": "2026年シーズン結果 9月19日5000m、17位/4組1位、自己新記録"
+        }
+      ],
+      "reason": "Complete official fact and bounded currentness check; independent review pending.",
+      "newlyVerified": true,
+      "fasterThanBaseline": true
+    },
+    {
+      "athleteId": "athlete-aj24-06-6",
+      "name": "桜井 優我",
+      "university": "城西大",
+      "event": "10000m",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "28:37.83",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "城西大学 桜井 優我 行 公認最高記録 10000m 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group1"
+      },
+      "afterStatus": "verified",
+      "selected": {
+        "time": "28:18.15",
+        "achievedOn": "2026-11-21",
+        "meet": "27th NITTAIDAI Challenge Games",
+        "url": "https://www.kraftia.co.jp/marathon/result/2026/1121_004752.html",
+        "locator": "男子10000m56位 桜井優我 クラフティア、自己新記録/2組3位",
+        "edition": 27,
+        "startsOn": "2026-11-21",
+        "endsOn": "2026-11-21"
+      },
+      "candidates": [
+        {
+          "value": "28:18.15; 2026-11-21; 27th NITTAIDAI Challenge Games",
+          "sourceUrl": "https://www.kraftia.co.jp/marathon/result/2026/1121_004752.html",
+          "locator": "男子10000m56位 桜井優我 クラフティア、自己新記録/2組3位"
+        }
+      ],
+      "reason": "Complete official fact and bounded currentness check; independent review pending.",
+      "newlyVerified": true,
+      "fasterThanBaseline": true
+    },
+    {
+      "athleteId": "athlete-aj24-06-6",
+      "name": "桜井 優我",
+      "university": "城西大",
+      "event": "half-marathon",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "1:04:59",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "城西大学 桜井 優我 行 公認最高記録 half-marathon 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group1"
+      },
+      "afterStatus": "candidate",
+      "selected": null,
+      "candidates": [
+        {
+          "value": "1:04:59",
+          "sourceUrl": "https://gakusei-ekiden.jp/p/10946/",
+          "locator": "桜井 優我 half-marathon; 数据库线索仅给2023年和1:04:59；大学现役名册无毕业生，实业团个人页未列半马。未确认比赛日与赛事，不推断无成绩。"
+        }
+      ],
+      "reason": "数据库线索仅给2023年和1:04:59；大学现役名册无毕业生，实业团个人页未列半马。未确认比赛日与赛事，不推断无成绩。",
+      "newlyVerified": false,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj25-06-2",
+      "name": "小林 竜輝",
+      "university": "城西大",
+      "event": "5000m",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "13:52.39",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "城西大学 小林 竜輝 行 公認最高記録 5000m 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group1"
+      },
+      "afterStatus": "candidate",
+      "selected": null,
+      "candidates": [
+        {
+          "value": "13:52.39",
+          "sourceUrl": "https://www.josai.ac.jp/tjp/club/dansiekiden/member/",
+          "locator": "小林 竜輝 5000m; 官方简介确认数值；反查指向2025-06-01第321回日体大20組13着，但目前仅数据库结果线索，未取得原件。"
+        }
+      ],
+      "reason": "官方简介确认数值；反查指向2025-06-01第321回日体大20組13着，但目前仅数据库结果线索，未取得原件。",
+      "newlyVerified": false,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj25-06-2",
+      "name": "小林 竜輝",
+      "university": "城西大",
+      "event": "10000m",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "28:53.24",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "城西大学 小林 竜輝 行 公認最高記録 10000m 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group1"
+      },
+      "afterStatus": "candidate",
+      "selected": null,
+      "candidates": [
+        {
+          "value": "28:53.24",
+          "sourceUrl": "https://www.josai.ac.jp/tjp/club/dansiekiden/member/",
+          "locator": "小林 竜輝 10000m; 官方简介确认数值；日体大2025-11-15结果搜索摘要命中，但打开正文只显示空表，不能声称已读到原件。"
+        }
+      ],
+      "reason": "官方简介确认数值；日体大2025-11-15结果搜索摘要命中，但打开正文只显示空表，不能声称已读到原件。",
+      "newlyVerified": false,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj25-06-2",
+      "name": "小林 竜輝",
+      "university": "城西大",
+      "event": "half-marathon",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "1:03:04",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "城西大学 小林 竜輝 行 公認最高記録 half-marathon 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group1"
+      },
+      "afterStatus": "candidate",
+      "selected": null,
+      "candidates": [
+        {
+          "value": "1:03:04",
+          "sourceUrl": "https://www.josai.ac.jp/tjp/club/dansiekiden/member/",
+          "locator": "小林 竜輝 half-marathon; 官方简介确认数值；精确值反查未取得对应日期与比赛的正式结果。"
+        }
+      ],
+      "reason": "官方简介确认数值；精确值反查未取得对应日期与比赛的正式结果。",
+      "newlyVerified": false,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj25-06-7",
+      "name": "中島 巨翔",
+      "university": "城西大",
+      "event": "5000m",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "14:05.72",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "城西大学 中島 巨翔 行 公認最高記録 5000m 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group3"
+      },
+      "afterStatus": "candidate",
+      "selected": null,
+      "candidates": [
+        {
+          "value": "14:05.72",
+          "sourceUrl": "https://www.josai.ac.jp/tjp/club/dansiekiden/member/",
+          "locator": "中島 巨翔 5000m; 官方简介确认数值；精确值及不同写法反查未取得对应日期、赛事的一手结果。"
+        }
+      ],
+      "reason": "官方简介确认数值；精确值及不同写法反查未取得对应日期、赛事的一手结果。",
+      "newlyVerified": false,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj25-06-7",
+      "name": "中島 巨翔",
+      "university": "城西大",
+      "event": "10000m",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "28:40.21",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "城西大学 中島 巨翔 行 公認最高記録 10000m 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group3"
+      },
+      "afterStatus": "candidate",
+      "selected": null,
+      "candidates": [
+        {
+          "value": "28:40.21",
+          "sourceUrl": "https://www.josai.ac.jp/tjp/club/dansiekiden/member/",
+          "locator": "中島 巨翔 10000m; 日体大2025-11-15原件URL已找到，摘要命中6組9着；打开仅空表，保留候选与可继续读取的原件地址。"
+        }
+      ],
+      "reason": "日体大2025-11-15原件URL已找到，摘要命中6組9着；打开仅空表，保留候选与可继续读取的原件地址。",
+      "newlyVerified": false,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj25-06-7",
+      "name": "中島 巨翔",
+      "university": "城西大",
+      "event": "half-marathon",
+      "before": {
+        "status": "existing-verified",
+        "published": {
+          "event": "half-marathon",
+          "timeMilliseconds": 3684000,
+          "precision": "second",
+          "achievedOn": "2026-02-01",
+          "meet": "日本学生ハーフマラソン（丸亀）",
+          "sourceId": "josai-all-time-records",
+          "locator": "ハーフマラソン 2位 中島巨翔",
+          "revision": "As retrieved 2026-11-18"
+        },
+        "candidates": [
+          {
+            "value": "1:01:24; 2026-02-01; 日本学生ハーフマラソン（丸亀）",
+            "sourceUrl": "https://www.josai.ac.jp/tjp/club/dansiekiden/",
+            "locator": "ハーフマラソン 2位 中島巨翔"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group3"
+      },
+      "afterStatus": "verified",
+      "selected": {
+        "time": "1:01:24",
+        "achievedOn": "2026-02-01",
+        "meet": "日本学生ハーフマラソン（丸亀）",
+        "url": "https://www.josai.ac.jp/tjp/club/dansiekiden/",
+        "locator": "ハーフマラソン 2位 中島巨翔",
+        "edition": 29,
+        "startsOn": "2026-02-01",
+        "endsOn": "2026-02-01"
+      },
+      "candidates": [
+        {
+          "value": "1:01:24; 2026-02-01; 日本学生ハーフマラソン（丸亀）",
+          "sourceUrl": "https://www.josai.ac.jp/tjp/club/dansiekiden/",
+          "locator": "ハーフマラソン 2位 中島巨翔"
+        }
+      ],
+      "reason": "Complete official fact and bounded currentness check; independent review pending.",
+      "newlyVerified": false,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj25-05-4",
+      "name": "吉倉 ナヤブ直希",
+      "university": "早稲田大",
+      "event": "5000m",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "14:16.01",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "早稲田大学 吉倉 ナヤブ直希 行 公認最高記録 5000m 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group3"
+      },
+      "afterStatus": "verified",
+      "selected": {
+        "time": "13:37.61",
+        "achievedOn": "2026-07-04",
+        "meet": "ホクレン・ディスタンスチャレンジ2026 千歳大会",
+        "url": "https://waseda-ac.jp/news/detail/926",
+        "locator": "男子5000m B組21レーン、吉倉ナヤブ直希3年、13着 PB",
+        "edition": null,
+        "startsOn": "2026-07-04",
+        "endsOn": "2026-07-04"
+      },
+      "candidates": [
+        {
+          "value": "13:37.61; 2026-07-04; ホクレン・ディスタンスチャレンジ2026 千歳大会",
+          "sourceUrl": "https://waseda-ac.jp/news/detail/926",
+          "locator": "男子5000m B組21レーン、吉倉ナヤブ直希3年、13着 PB"
+        }
+      ],
+      "reason": "Complete official fact and bounded currentness check; independent review pending.",
+      "newlyVerified": true,
+      "fasterThanBaseline": true
+    },
+    {
+      "athleteId": "athlete-aj25-05-4",
+      "name": "吉倉 ナヤブ直希",
+      "university": "早稲田大",
+      "event": "10000m",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "28:46.86",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "早稲田大学 吉倉 ナヤブ直希 行 公認最高記録 10000m 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group3"
+      },
+      "afterStatus": "verified",
+      "selected": {
+        "time": "28:13.07",
+        "achievedOn": "2026-04-24",
+        "meet": "天皇賜盃第95回日本学生陸上競技対校選手権大会（10000m）",
+        "url": "https://waseda-ac.jp/competition/detail/816",
+        "locator": "男子10000m 4レーン、吉倉ナヤブ直希3年、3位 PB",
+        "edition": 95,
+        "startsOn": "2026-04-24",
+        "endsOn": "2026-04-24"
+      },
+      "candidates": [
+        {
+          "value": "28:13.07; 2026-04-24; 天皇賜盃第95回日本学生陸上競技対校選手権大会（10000m）",
+          "sourceUrl": "https://waseda-ac.jp/competition/detail/816",
+          "locator": "男子10000m 4レーン、吉倉ナヤブ直希3年、3位 PB"
+        }
+      ],
+      "reason": "Complete official fact and bounded currentness check; independent review pending.",
+      "newlyVerified": true,
+      "fasterThanBaseline": true
+    },
+    {
+      "athleteId": "athlete-aj25-05-4",
+      "name": "吉倉 ナヤブ直希",
+      "university": "早稲田大",
+      "event": "half-marathon",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "1:02:26",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "早稲田大学 吉倉 ナヤブ直希 行 公認最高記録 half-marathon 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group3"
+      },
+      "afterStatus": "verified",
+      "selected": {
+        "time": "1:02:26",
+        "achievedOn": "2025-11-16",
+        "meet": "第38回2025上尾シティハーフマラソン",
+        "url": "https://waseda-ac.jp/competition/detail/740",
+        "locator": "ハーフマラソン大学生男子、吉倉ナヤブ直希2年、22位 PB",
+        "edition": 38,
+        "startsOn": "2025-11-16",
+        "endsOn": "2025-11-16"
+      },
+      "candidates": [
+        {
+          "value": "1:02:26; 2025-11-16; 第38回2025上尾シティハーフマラソン",
+          "sourceUrl": "https://waseda-ac.jp/competition/detail/740",
+          "locator": "ハーフマラソン大学生男子、吉倉ナヤブ直希2年、22位 PB"
+        }
+      ],
+      "reason": "Complete official fact and bounded currentness check; independent review pending.",
+      "newlyVerified": true,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj25-05-3",
+      "name": "堀野 正太",
+      "university": "早稲田大",
+      "event": "5000m",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "14:08.70",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "早稲田大学 堀野 正太 行 公認最高記録 5000m 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group3"
+      },
+      "afterStatus": "candidate",
+      "selected": null,
+      "candidates": [
+        {
+          "value": "14:08.70",
+          "sourceUrl": "https://waseda-ac.jp/team/member/detail/357",
+          "locator": "堀野 正太 5000m; 官方个人页确认；反查出现2022年高中阶段成绩线索，未取得带确切日期与赛事的原件。"
+        }
+      ],
+      "reason": "官方个人页确认；反查出现2022年高中阶段成绩线索，未取得带确切日期与赛事的原件。",
+      "newlyVerified": false,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj25-05-3",
+      "name": "堀野 正太",
+      "university": "早稲田大",
+      "event": "10000m",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "30:10.69",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "早稲田大学 堀野 正太 行 公認最高記録 10000m 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group3"
+      },
+      "afterStatus": "candidate",
+      "selected": null,
+      "candidates": [
+        {
+          "value": "29:15.33",
+          "sourceUrl": "https://waseda-ac.jp/team/member/detail/357",
+          "locator": "堀野 正太 10000m; 比旧候选30:10.69更快；早稻田结果将赛期写为2026-04-25～26。日体大摘要指向4月25日但正文为空，精确比赛日尚须独立核实。"
+        }
+      ],
+      "reason": "比旧候选30:10.69更快；早稻田结果将赛期写为2026-04-25～26。日体大摘要指向4月25日但正文为空，精确比赛日尚须独立核实。",
+      "newlyVerified": false,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj25-05-3",
+      "name": "堀野 正太",
+      "university": "早稲田大",
+      "event": "half-marathon",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "1:02:28",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "早稲田大学 堀野 正太 行 公認最高記録 half-marathon 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group3"
+      },
+      "afterStatus": "verified",
+      "selected": {
+        "time": "1:02:28",
+        "achievedOn": "2025-11-16",
+        "meet": "第38回2025上尾シティハーフマラソン",
+        "url": "https://waseda-ac.jp/competition/detail/740",
+        "locator": "ハーフマラソン大学生男子、堀野正太1年、27位 PB（同秒の小平敦之とは別人）",
+        "edition": 38,
+        "startsOn": "2025-11-16",
+        "endsOn": "2025-11-16"
+      },
+      "candidates": [
+        {
+          "value": "1:02:28; 2025-11-16; 第38回2025上尾シティハーフマラソン",
+          "sourceUrl": "https://waseda-ac.jp/competition/detail/740",
+          "locator": "ハーフマラソン大学生男子、堀野正太1年、27位 PB（同秒の小平敦之とは別人）"
+        }
+      ],
+      "reason": "Complete official fact and bounded currentness check; independent review pending.",
+      "newlyVerified": true,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj25-05-2",
+      "name": "鈴木 琉胤",
+      "university": "早稲田大",
+      "event": "5000m",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "13:25.59",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "早稲田大学 鈴木 琉胤 行 公認最高記録 5000m 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group2"
+      },
+      "afterStatus": "verified",
+      "selected": {
+        "time": "13:20.64",
+        "achievedOn": "2026-04-11",
+        "meet": "第34回金栗記念選抜陸上中長距離大会",
+        "url": "https://waseda-ac.jp/competition/detail/800",
+        "locator": "男子5000m4組10レーン、鈴木琉胤2年、6着/全体7位 PB",
+        "edition": 34,
+        "startsOn": "2026-04-11",
+        "endsOn": "2026-04-11"
+      },
+      "candidates": [
+        {
+          "value": "13:20.64; 2026-04-11; 第34回金栗記念選抜陸上中長距離大会",
+          "sourceUrl": "https://waseda-ac.jp/competition/detail/800",
+          "locator": "男子5000m4組10レーン、鈴木琉胤2年、6着/全体7位 PB"
+        }
+      ],
+      "reason": "Complete official fact and bounded currentness check; independent review pending.",
+      "newlyVerified": true,
+      "fasterThanBaseline": true
+    },
+    {
+      "athleteId": "athlete-aj25-05-2",
+      "name": "鈴木 琉胤",
+      "university": "早稲田大",
+      "event": "10000m",
+      "before": {
+        "status": "candidate",
+        "published": null,
+        "candidates": [
+          {
+            "value": "30:40.21",
+            "sourceUrl": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf",
+            "locator": "早稲田大学 鈴木 琉胤 行 公認最高記録 10000m 列"
+          }
+        ],
+        "batchId": "2026-11-18-batch100-group2"
+      },
+      "afterStatus": "candidate",
+      "selected": null,
+      "candidates": [
+        {
+          "value": "30:40.21",
+          "sourceUrl": "https://www.iiwanet.jp/j_trackfield/wp-content/uploads/48021f76f5a21d32227a4b5ab1ded7f5-2.pdf",
+          "locator": "鈴木 琉胤 10000m; 顺天堂官方PDF有八千代松陰鈴木琉胤2年10000m 30:40.21、3月22日，但所读PDF未标年份/大会名；不能仅凭学年或上传日期补年份。"
+        }
+      ],
+      "reason": "顺天堂官方PDF有八千代松陰鈴木琉胤2年10000m 30:40.21、3月22日，但所读PDF未标年份/大会名；不能仅凭学年或上传日期补年份。",
+      "newlyVerified": false,
+      "fasterThanBaseline": false
+    },
+    {
+      "athleteId": "athlete-aj25-05-2",
+      "name": "鈴木 琉胤",
+      "university": "早稲田大",
+      "event": "half-marathon",
+      "before": {
+        "status": "missing",
+        "published": null,
+        "candidates": [],
+        "batchId": "2026-11-18-batch100-group2"
+      },
+      "afterStatus": "not-found",
+      "selected": null,
+      "candidates": [],
+      "reason": "已查官方个人页、历代榜、近期比赛及项目反查，未发现正式半马候选；不等于本人从未参加半马。",
+      "newlyVerified": false,
+      "fasterThanBaseline": false
+    }
+  ]
+}

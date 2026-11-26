@@ -1516,7 +1516,7 @@
     },
     {
       "athleteId": "athlete-aj25-03-8",
-      "reviewedAt": "2026-11-18",
+      "reviewedAt": "2026-11-25",
       "personalBests": [
         {
           "event": "5000m",
@@ -1537,6 +1537,16 @@
           "sourceId": "aogaku-2026-rankings",
           "locator": "ハーフマラソンランキング 2位",
           "revision": "As retrieved 2026-11-18"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1677760,
+          "precision": "centisecond",
+          "achievedOn": "2026-11-22",
+          "meet": "Colantotte presents MARCH対抗戦2026",
+          "sourceId": "pilot15-source-163",
+          "locator": "11月22日→男子10000m 4組、小河原陽琉3年、27:57.76 PB",
+          "revision": "Public result read 2026-11-25; currentness evidence in 2026-11-25-pb-pilot15"
         }
       ],
       "birthDate": {
@@ -1678,8 +1688,29 @@
     },
     {
       "athleteId": "athlete-aj24-06-6",
-      "reviewedAt": "2026-11-18",
-      "personalBests": [],
+      "reviewedAt": "2026-11-25",
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 838870,
+          "precision": "centisecond",
+          "achievedOn": "2026-09-19",
+          "meet": "第2回中国実業団長距離記録会",
+          "sourceId": "pilot15-source-181",
+          "locator": "2026年シーズン結果 9月19日5000m、17位/4組1位、自己新記録",
+          "revision": "Public result read 2026-11-25; currentness evidence in 2026-11-25-pb-pilot15"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1698150,
+          "precision": "centisecond",
+          "achievedOn": "2026-11-21",
+          "meet": "27th NITTAIDAI Challenge Games",
+          "sourceId": "pilot15-source-182",
+          "locator": "男子10000m56位 桜井優我 クラフティア、自己新記録/2組3位",
+          "revision": "Public result read 2026-11-25; currentness evidence in 2026-11-25-pb-pilot15"
+        }
+      ],
       "birthDate": {
         "value": "2004-02-02",
         "sourceId": "hakone-102-kukan-entry",
@@ -1784,8 +1815,39 @@
     },
     {
       "athleteId": "athlete-aj24-02-4",
-      "reviewedAt": "2026-11-18",
-      "personalBests": [],
+      "reviewedAt": "2026-11-25",
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 829710,
+          "precision": "centisecond",
+          "achievedOn": "2024-10-14",
+          "meet": "第4回出雲市陸協記録会",
+          "sourceId": "pilot15-source-171",
+          "locator": "男子5000m 2組1着、谷中晴1年、PB",
+          "revision": "Public result read 2026-11-25; currentness evidence in 2026-11-25-pb-pilot15"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1714140,
+          "precision": "centisecond",
+          "achievedOn": "2026-06-21",
+          "meet": "あおもりディスタンスチャレンジ2026",
+          "sourceId": "pilot15-source-172",
+          "locator": "男子10000m 2着、谷中晴3年、PB。大会日は6月21日（記事公開6月22日と区別）",
+          "revision": "Public result read 2026-11-25; currentness evidence in 2026-11-25-pb-pilot15"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3657000,
+          "precision": "second",
+          "achievedOn": "2025-02-02",
+          "meet": "第28回日本学生ハーフマラソン選手権大会",
+          "sourceId": "pilot15-source-173",
+          "locator": "ハーフマラソン12位、谷中晴1年、PB",
+          "revision": "Public result read 2026-11-25; currentness evidence in 2026-11-25-pb-pilot15"
+        }
+      ],
       "birthDate": {
         "value": "2005-04-23",
         "sourceId": "hakone-102-kukan-entry",
@@ -1835,7 +1897,7 @@
     },
     {
       "athleteId": "athlete-aj25-03-6",
-      "reviewedAt": "2026-11-18",
+      "reviewedAt": "2026-11-25",
       "personalBests": [
         {
           "event": "10000m",
@@ -1846,6 +1908,16 @@
           "sourceId": "aogaku-2026-rankings",
           "locator": "10000mランキング 2位",
           "revision": "As retrieved 2026-11-18"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3798000,
+          "precision": "second",
+          "achievedOn": "2025-02-23",
+          "meet": "第72回公認鹿島祐徳ロードレース大会",
+          "sourceId": "aogaku-2024-results",
+          "locator": "2024年度→2025年2月23日→ハーフマラソン男子決勝、飯田翔大1年、1位 PB",
+          "revision": "Public result read 2026-11-25; currentness evidence in 2026-11-25-pb-pilot15"
         }
       ],
       "birthDate": {
@@ -1863,8 +1935,19 @@
     },
     {
       "athleteId": "athlete-aj25-05-2",
-      "reviewedAt": "2026-11-18",
-      "personalBests": [],
+      "reviewedAt": "2026-11-25",
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 800640,
+          "precision": "centisecond",
+          "achievedOn": "2026-04-11",
+          "meet": "第34回金栗記念選抜陸上中長距離大会",
+          "sourceId": "pilot15-source-190",
+          "locator": "男子5000m4組10レーン、鈴木琉胤2年、6着/全体7位 PB",
+          "revision": "Public result read 2026-11-25; currentness evidence in 2026-11-25-pb-pilot15"
+        }
+      ],
       "birthDate": {
         "value": "2006-04-19",
         "sourceId": "hakone-102-kukan-entry",
@@ -1914,8 +1997,39 @@
     },
     {
       "athleteId": "athlete-aj24-01-6",
-      "reviewedAt": "2026-11-18",
-      "personalBests": [],
+      "reviewedAt": "2026-11-25",
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 814850,
+          "precision": "centisecond",
+          "achievedOn": "2023-07-08",
+          "meet": "ホクレン・ディスタンスチャレンジ2023 網走大会",
+          "sourceId": "kokugakuin-top10",
+          "locator": "5000m 3位 山本歩夢、令和5年7月8日",
+          "revision": "Public result read 2026-11-25; currentness evidence in 2026-11-25-pb-pilot15"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1671440,
+          "precision": "centisecond",
+          "achievedOn": "2025-11-29",
+          "meet": "第325回日本体育大学長距離競技会兼第19回NITTAIDAI Challenge Games",
+          "sourceId": "asahi-kasei-yamamoto",
+          "locator": "主な戦績 2025年11月29日、10000m 9位",
+          "revision": "Public result read 2026-11-25; currentness evidence in 2026-11-25-pb-pilot15"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3643000,
+          "precision": "second",
+          "achievedOn": "2022-02-13",
+          "meet": "第50回全日本実業団ハーフマラソン大会",
+          "sourceId": "pilot15-source-164",
+          "locator": "男子結果 p.1、No.524 山本歩夢 國學院大、8位（記録列、ネットタイムではない）",
+          "revision": "Public result read 2026-11-25; currentness evidence in 2026-11-25-pb-pilot15"
+        }
+      ],
       "birthDate": {
         "value": "2002-06-24",
         "sourceId": "asahi-kasei-yamamoto",
@@ -2161,8 +2275,39 @@
     },
     {
       "athleteId": "athlete-aj25-05-4",
-      "reviewedAt": "2026-11-18",
-      "personalBests": [],
+      "reviewedAt": "2026-11-25",
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 817610,
+          "precision": "centisecond",
+          "achievedOn": "2026-07-04",
+          "meet": "ホクレン・ディスタンスチャレンジ2026 千歳大会",
+          "sourceId": "pilot15-source-185",
+          "locator": "男子5000m B組21レーン、吉倉ナヤブ直希3年、13着 PB",
+          "revision": "Public result read 2026-11-25; currentness evidence in 2026-11-25-pb-pilot15"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1693070,
+          "precision": "centisecond",
+          "achievedOn": "2026-04-24",
+          "meet": "天皇賜盃第95回日本学生陸上競技対校選手権大会（10000m）",
+          "sourceId": "pilot15-source-186",
+          "locator": "男子10000m 4レーン、吉倉ナヤブ直希3年、3位 PB",
+          "revision": "Public result read 2026-11-25; currentness evidence in 2026-11-25-pb-pilot15"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3746000,
+          "precision": "second",
+          "achievedOn": "2025-11-16",
+          "meet": "第38回2025上尾シティハーフマラソン",
+          "sourceId": "pilot15-source-187",
+          "locator": "ハーフマラソン大学生男子、吉倉ナヤブ直希2年、22位 PB",
+          "revision": "Public result read 2026-11-25; currentness evidence in 2026-11-25-pb-pilot15"
+        }
+      ],
       "birthDate": {
         "value": "2005-05-18",
         "sourceId": "hakone-102-kukan-entry",
@@ -2212,8 +2357,39 @@
     },
     {
       "athleteId": "athlete-aj25-02-1",
-      "reviewedAt": "2026-11-18",
-      "personalBests": [],
+      "reviewedAt": "2026-11-25",
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 821990,
+          "precision": "centisecond",
+          "achievedOn": "2025-06-01",
+          "meet": "第321回日本体育大学長距離競技会",
+          "sourceId": "pilot15-source-175",
+          "locator": "6月1日 男子5000m20組4着、小山翔也3年、PB",
+          "revision": "Public result read 2026-11-25; currentness evidence in 2026-11-25-pb-pilot15"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1764720,
+          "precision": "centisecond",
+          "achievedOn": "2025-06-22",
+          "meet": "2025年度あおもりディスタンスチャレンジ記録会",
+          "sourceId": "pilot15-source-176",
+          "locator": "男子10000m3組20着、小山翔也3年、初10000m",
+          "revision": "Public result read 2026-11-25; currentness evidence in 2026-11-25-pb-pilot15"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3758000,
+          "precision": "second",
+          "achievedOn": "2024-11-17",
+          "meet": "第37回2024上尾シティハーフマラソン",
+          "sourceId": "pilot15-source-177",
+          "locator": "男子ハーフマラソン学生の部9位、小山翔也2年、PB",
+          "revision": "Public result read 2026-11-25; currentness evidence in 2026-11-25-pb-pilot15"
+        }
+      ],
       "birthDate": {
         "value": "2004-04-18",
         "sourceId": "hakone-102-kukan-entry",
@@ -2427,7 +2603,7 @@
     },
     {
       "athleteId": "athlete-aj25-01-5",
-      "reviewedAt": "2026-11-18",
+      "reviewedAt": "2026-11-25",
       "personalBests": [
         {
           "event": "10000m",
@@ -2438,6 +2614,26 @@
           "sourceId": "kokugakuin-top10",
           "locator": "10000m 9位 飯國新太 令和8年4月25日",
           "revision": "As retrieved 2026-11-18"
+        },
+        {
+          "event": "5000m",
+          "timeMilliseconds": 831980,
+          "precision": "centisecond",
+          "achievedOn": "2026-04-12",
+          "meet": "第327回日本体育大学長距離競技会",
+          "sourceId": "pilot15-source-166",
+          "locator": "NGC男子5000m 1組、飯國新太3年、自己ベスト",
+          "revision": "Public result read 2026-11-25; currentness evidence in 2026-11-25-pb-pilot15"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3711000,
+          "precision": "second",
+          "achievedOn": "2025-02-02",
+          "meet": "第28回日本学生ハーフマラソン選手権大会",
+          "sourceId": "pilot15-source-167",
+          "locator": "男子日本学生選手権決勝、No.583 飯國新太 國學院大、44位。2025/02/06 22:47:31更新",
+          "revision": "Public result read 2026-11-25; currentness evidence in 2026-11-25-pb-pilot15"
         }
       ],
       "birthDate": {
@@ -2455,8 +2651,39 @@
     },
     {
       "athleteId": "athlete-aj25-01-1",
-      "reviewedAt": "2026-11-18",
-      "personalBests": [],
+      "reviewedAt": "2026-11-25",
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 837110,
+          "precision": "centisecond",
+          "achievedOn": "2025-06-01",
+          "meet": "道南ディスタンス2025",
+          "sourceId": "pilot15-source-168",
+          "locator": "男子5000m 尾熊迅斗2年、自己ベスト",
+          "revision": "Public result read 2026-11-25; currentness evidence in 2026-11-25-pb-pilot15"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1715450,
+          "precision": "centisecond",
+          "achievedOn": "2025-11-15",
+          "meet": "第324回日本体育大学長距離競技会",
+          "sourceId": "pilot15-source-169",
+          "locator": "男子10000m 7組、尾熊迅斗2年、自己ベスト",
+          "revision": "Public result read 2026-11-25; currentness evidence in 2026-11-25-pb-pilot15"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3706000,
+          "precision": "second",
+          "achievedOn": "2025-02-02",
+          "meet": "第28回日本学生ハーフマラソン選手権大会",
+          "sourceId": "pilot15-source-167",
+          "locator": "男子日本学生選手権決勝、No.587 尾熊迅斗 國學院大、37位。2025/02/06 22:47:31更新",
+          "revision": "Public result read 2026-11-25; currentness evidence in 2026-11-25-pb-pilot15"
+        }
+      ],
       "birthDate": {
         "value": "2006-02-12",
         "sourceId": "hakone-102-kukan-entry",
@@ -2472,8 +2699,19 @@
     },
     {
       "athleteId": "athlete-aj25-05-3",
-      "reviewedAt": "2026-11-18",
-      "personalBests": [],
+      "reviewedAt": "2026-11-25",
+      "personalBests": [
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3748000,
+          "precision": "second",
+          "achievedOn": "2025-11-16",
+          "meet": "第38回2025上尾シティハーフマラソン",
+          "sourceId": "pilot15-source-187",
+          "locator": "ハーフマラソン大学生男子、堀野正太1年、27位 PB（同秒の小平敦之とは別人）",
+          "revision": "Public result read 2026-11-25; currentness evidence in 2026-11-25-pb-pilot15"
+        }
+      ],
       "birthDate": {
         "value": "2006-06-06",
         "sourceId": "hakone-102-kukan-entry",
@@ -2658,8 +2896,39 @@
     },
     {
       "athleteId": "athlete-aj24-02-6",
-      "reviewedAt": "2026-11-18",
-      "personalBests": [],
+      "reviewedAt": "2026-11-25",
+      "personalBests": [
+        {
+          "event": "5000m",
+          "timeMilliseconds": 832850,
+          "precision": "centisecond",
+          "achievedOn": "2025-09-27",
+          "meet": "TOKAI DISTANCE CHALLENGE 第240回東海大学長距離競技会",
+          "sourceId": "pilot15-source-178",
+          "locator": "9月27日 男子5000m19組1着、安原海晴3年、PB",
+          "revision": "Public result read 2026-11-25; currentness evidence in 2026-11-25-pb-pilot15"
+        },
+        {
+          "event": "10000m",
+          "timeMilliseconds": 1722950,
+          "precision": "centisecond",
+          "achievedOn": "2026-07-12",
+          "meet": "関東学生網走夏季記録挑戦競技会",
+          "sourceId": "pilot15-source-179",
+          "locator": "男子10000m4組1着、安原海晴4年、PB",
+          "revision": "Public result read 2026-11-25; currentness evidence in 2026-11-25-pb-pilot15"
+        },
+        {
+          "event": "half-marathon",
+          "timeMilliseconds": 3705000,
+          "precision": "second",
+          "achievedOn": "2026-02-01",
+          "meet": "第29回日本学生ハーフマラソン選手権大会",
+          "sourceId": "pilot15-source-180",
+          "locator": "ハーフマラソン29位、安原海晴3年、PB",
+          "revision": "Public result read 2026-11-25; currentness evidence in 2026-11-25-pb-pilot15"
+        }
+      ],
       "birthDate": {
         "value": "2004-06-02",
         "sourceId": "hakone-102-kukan-entry",

@@ -1,0 +1,3710 @@
+{
+  "note": "Actual browser/search requests retained from grouped research onward (first home-page discovery calls were not captured). Search results and empty/error opens are leads, not verified page reads. Reference IDs resolve via documents; no page text is reproduced. Use structured batch locators for adopted evidence.",
+  "operations": [
+    {
+      "sequence": 1,
+      "checkedAt": "2026-11-25",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn13view1",
+            "id": 17
+          },
+          {
+            "ref_id": "turn13view1",
+            "id": 11
+          },
+          {
+            "ref_id": "turn13view1",
+            "id": 5
+          },
+          {
+            "ref_id": "turn13view2",
+            "id": 20
+          },
+          {
+            "ref_id": "turn13view3",
+            "id": 11
+          },
+          {
+            "ref_id": "turn13view3",
+            "id": 16
+          },
+          {
+            "ref_id": "turn13view0",
+            "id": 3
+          },
+          {
+            "ref_id": "turn13view4",
+            "id": 12
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "turn13view0",
+            "lineno": 49
+          },
+          {
+            "ref_id": "turn13view3",
+            "lineno": 166
+          }
+        ],
+        "response_length": "long"
+      },
+      "documents": [
+        {
+          "reference": "turn14view0",
+          "title": "記録 ｜ 青山学院大学陸上競技部",
+          "url": "https://aogaku-tf.com/rankings.html"
+        },
+        {
+          "reference": "turn14view1",
+          "title": "男子駅伝部 | TEAM JOSAI!",
+          "url": "https://www.josai.ac.jp/tjp/club/dansiekiden/"
+        },
+        {
+          "reference": "turn14view2",
+          "title": "陸上競技部10傑 ｜ 國學院大學 陸上競技部",
+          "url": "https://www.kokugakuin.com/top10/426/"
+        },
+        {
+          "reference": "turn14view3",
+          "title": "メンバー紹介 ｜ 國學院大學 陸上競技部",
+          "url": "https://www.kokugakuin.com/member/"
+        },
+        {
+          "reference": "turn14view4",
+          "title": "試合結果 ｜ 國學院大學 陸上競技部",
+          "url": "https://www.kokugakuin.com/result/"
+        },
+        {
+          "reference": "turn14view5",
+          "title": "komazawa-ekiden.com",
+          "url": "https://komazawa-ekiden.com/record/record-active-player"
+        },
+        {
+          "reference": "turn14view6",
+          "title": "このサイトについて | TEAM JOSAI!",
+          "url": "https://www.josai.ac.jp/tjp/site/"
+        },
+        {
+          "reference": "turn14view7",
+          "title": "部長・監督・部員 | TEAM JOSAI!",
+          "url": "https://www.josai.ac.jp/tjp/club/dansiekiden/member/"
+        },
+        {
+          "reference": "turn14view8",
+          "title": "競技結果 ｜ 青山学院大学陸上競技部",
+          "url": "https://aogaku-tf.com/results.html"
+        },
+        {
+          "reference": "turn14view9",
+          "title": "部員紹介 | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/team/member"
+        }
+      ],
+      "toolError": false
+    },
+    {
+      "sequence": 2,
+      "checkedAt": "2026-11-25",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn14view5",
+            "lineno": 37
+          },
+          {
+            "ref_id": "turn14view2",
+            "lineno": 25
+          },
+          {
+            "ref_id": "turn14view6",
+            "lineno": 30
+          }
+        ],
+        "find": [
+          {
+            "ref_id": "turn14view3",
+            "pattern": "飯國"
+          },
+          {
+            "ref_id": "turn14view3",
+            "pattern": "尾熊"
+          },
+          {
+            "ref_id": "turn14view7",
+            "pattern": "桜井"
+          },
+          {
+            "ref_id": "turn14view7",
+            "pattern": "小林"
+          },
+          {
+            "ref_id": "turn14view7",
+            "pattern": "中島"
+          },
+          {
+            "ref_id": "turn14view9",
+            "pattern": "吉倉"
+          },
+          {
+            "ref_id": "turn14view9",
+            "pattern": "堀野"
+          },
+          {
+            "ref_id": "turn14view9",
+            "pattern": "鈴木"
+          }
+        ],
+        "response_length": "long"
+      },
+      "documents": [
+        {
+          "reference": "turn15view0",
+          "title": "komazawa-ekiden.com",
+          "url": "https://komazawa-ekiden.com/record/record-active-player"
+        },
+        {
+          "reference": "turn15view1",
+          "title": "陸上競技部10傑 ｜ 國學院大學 陸上競技部",
+          "url": "https://www.kokugakuin.com/top10/426/"
+        },
+        {
+          "reference": "turn15view2",
+          "title": "このサイトについて | TEAM JOSAI!",
+          "url": "https://www.josai.ac.jp/tjp/site/"
+        },
+        {
+          "reference": "turn15view3",
+          "title": "メンバー紹介 ｜ 國學院大學 陸上競技部",
+          "url": "https://www.kokugakuin.com/member/"
+        },
+        {
+          "reference": "turn15view4",
+          "title": "メンバー紹介 ｜ 國學院大學 陸上競技部",
+          "url": "https://www.kokugakuin.com/member/"
+        },
+        {
+          "reference": "turn15view5",
+          "title": "部長・監督・部員 | TEAM JOSAI!",
+          "url": "https://www.josai.ac.jp/tjp/club/dansiekiden/member/"
+        },
+        {
+          "reference": "turn15view6",
+          "title": "部長・監督・部員 | TEAM JOSAI!",
+          "url": "https://www.josai.ac.jp/tjp/club/dansiekiden/member/"
+        },
+        {
+          "reference": "turn15view7",
+          "title": "部長・監督・部員 | TEAM JOSAI!",
+          "url": "https://www.josai.ac.jp/tjp/club/dansiekiden/member/"
+        },
+        {
+          "reference": "turn15view8",
+          "title": "部員紹介 | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/team/member"
+        },
+        {
+          "reference": "turn15view9",
+          "title": "部員紹介 | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/team/member"
+        },
+        {
+          "reference": "turn15view10",
+          "title": "部員紹介 | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/team/member"
+        }
+      ],
+      "toolError": false
+    },
+    {
+      "sequence": 3,
+      "checkedAt": "2026-11-25",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn14view5",
+            "lineno": 39
+          },
+          {
+            "ref_id": "turn14view2",
+            "lineno": 40
+          },
+          {
+            "ref_id": "turn14view9",
+            "lineno": 65
+          },
+          {
+            "ref_id": "turn14view4",
+            "lineno": 25
+          }
+        ],
+        "find": [
+          {
+            "ref_id": "turn14view8",
+            "pattern": "2026.11.22"
+          },
+          {
+            "ref_id": "turn14view8",
+            "pattern": "小河原"
+          },
+          {
+            "ref_id": "turn14view8",
+            "pattern": "飯田"
+          }
+        ],
+        "system2_search_query": [
+          {
+            "q": "宇田川瞬矢 2026 所属 PB"
+          },
+          {
+            "q": "桜井優我 2026 所属 陸上"
+          },
+          {
+            "q": "山本歩夢 2026 実業団 プロフィール"
+          }
+        ],
+        "response_length": "long"
+      },
+      "documents": [
+        {
+          "reference": "turn16search0",
+          "title": "選手・監督コーチ詳細 | 東京箱根間往復大学駅伝競走公式サイト",
+          "url": "https://www.hakone-ekiden.jp/record/person.php?rid=7599"
+        },
+        {
+          "reference": "turn16search1",
+          "title": "山本　歩夢-タレント紹介｜テアトルアカデミープロダクション",
+          "url": "https://ta-production.jp/talent/detail/?code=2100002423"
+        },
+        {
+          "reference": "turn16search2",
+          "title": "山本　歩夢 | 旭化成株式会社",
+          "url": "https://www.asahi-kasei.com/jp/sports-event/track-field/member/yamamoto"
+        },
+        {
+          "reference": "turn16search3",
+          "title": "桜井優我 | RUN CLIP",
+          "url": "https://runclip.jp/athletes/q140512604"
+        },
+        {
+          "reference": "turn16search4",
+          "title": "宇田川 瞬矢 (コモディイイダ) 5000m 13:56.42 | 陸上長距離・駅伝DB",
+          "url": "https://ekiden-db.jp/athletes/udagawa-shunya-3b8a38"
+        },
+        {
+          "reference": "turn16search5",
+          "title": "宇田川 瞬矢(青山学院大)|学生長距離・駅伝データベース(関東中心)",
+          "url": "https://gakusei-ekiden.jp/p/10033/"
+        },
+        {
+          "reference": "turn16search6",
+          "title": "桜井 優我 (城西大学) 5000m 14:28.05 | 陸上長距離・駅伝DB",
+          "url": "https://ekiden-db.jp/athletes/sakurai-yuuga-ea1435"
+        },
+        {
+          "reference": "turn16search7",
+          "title": "桜井優我 — Wikipedia保存版 | フリー百科事典",
+          "url": "https://www.wikipedia-is-dead.com/wiki/%E6%A1%9C%E4%BA%95%E5%84%AA%E6%88%91"
+        },
+        {
+          "reference": "turn16search8",
+          "title": "桜井 優我(城西大)|学生長距離・駅伝データベース(関東中心)",
+          "url": "https://gakusei-ekiden.jp/p/10946/"
+        },
+        {
+          "reference": "turn16search9",
+          "title": "桜井 優我 陸上競技選手データ | 陸上競技モバイル",
+          "url": "https://rikujou.jp/athlete_detail/933173/"
+        },
+        {
+          "reference": "turn16search10",
+          "title": "宇田川 瞬矢 陸上競技選手データ | 陸上競技モバイル",
+          "url": "https://rikujou.jp/athlete_detail/902487/"
+        },
+        {
+          "reference": "turn16search11",
+          "title": "コモディイイダに青学大・宇田川瞬矢が内定 箱根駅伝3度優勝 駿河台大・長田拓巳も入社 | 月陸Online｜月刊陸上競技",
+          "url": "https://www.rikujyokyogi.co.jp/archives/198475"
+        },
+        {
+          "reference": "turn16search12",
+          "title": "〖動画〗「大翔さんが泣くのを見ちゃって…」山本歩夢と中西大翔が語る箱根駅伝の後悔と“トラック最強”旭化成「ニューイヤーで襷をつなぎたい」《國學院大OB対談》 | NumberPREMIER - ナンバープレミア",
+          "url": "https://number.bunshun.jp/premier/movies/19675"
+        },
+        {
+          "reference": "turn16search13",
+          "title": "山本 歩夢（自由ケ丘高等学校）陸上・駅伝の記録｜アオハルノート",
+          "url": "https://aoharunote.com/athlete/61707"
+        },
+        {
+          "reference": "turn16search14",
+          "title": "山本歩夢の公式インスタ @aymy321・YouTube｜本物の公式アカウント（2026年10月確認）",
+          "url": "https://handledex.com/ja/person/yamamoto-ayumu/"
+        },
+        {
+          "reference": "turn16search15",
+          "title": "桜井 優我（福岡第一高等学校）陸上・駅伝の記録｜アオハルノート",
+          "url": "https://aoharunote.com/athlete/88677"
+        },
+        {
+          "reference": "turn16search16",
+          "title": "競技結果｜ 一般財団法人福井陸上競技協会 福井県の陸上競技大会日程、開催要項、タイムテーブル、申込み、速報、記録検索",
+          "url": "https://www.fukui-jaaf.com/040_record/result.php?ca=trk&cl=%E7%94%B7%E5%AD%90&ev=%EF%BC%91%EF%BC%95%EF%BC%90%EF%BC%90%EF%BD%8D&id=1006"
+        },
+        {
+          "reference": "turn16search17",
+          "title": "パンクラス・オフィシャルサイト | PANCRASE　山本歩夢",
+          "url": "https://www.pancrase.co.jp/data/prfl2/yamamotoayumu.html"
+        },
+        {
+          "reference": "turn16search18",
+          "title": "青学・宇田川瞬矢の進路はどこ？箱根駅伝後の進路候補5つ - 暮らしに役立つ豆知識",
+          "url": "https://kurashi-knowledge.hatenablog.com/entry/2026/01/03/231519"
+        },
+        {
+          "reference": "turn16search19",
+          "title": "矢板SC / 山本　歩夢 / 詳細ページ",
+          "url": "https://gc-model.com/01/kanto/team/player/show/2026/1878"
+        },
+        {
+          "reference": "turn16search20",
+          "title": "「宇田川瞬矢」の検索結果 - Yahoo!検索",
+          "url": "https://search.yahoo.co.jp/search?ei=UTF-8&eykbid=A7ld7mgAADfAyCYGVAHbiytnV6FGtEQCXLeD0SCFpWz1NriHOsZQueYgzZl8Xv2oDw2wvcmDsSlAAiWseNw-NgzS7mbxbMhZNlkiAqEAtOoEMNvhN1FcFh4gCHuL76P9sMACB8LBORW35owDWCb6Urw&eyp=A7ld7mgAAJ3MnsKMsLf9WU4LCivLBOVmRRE5V7LU0FF00UfeECIUS3Eykyh1yTZQFjejo_WMl8FHfMLb44a8EzVfv3mur6NYoWnUidxm7pvuKwuUNEwi3WvglKFmOr384ZI79c_Tjjl9&fr=mashup_krank&p=%E5%AE%87%E7%94%B0%E5%B7%9D%E7%9E%AC%E7%9F%A2&rkf=1&x=nl"
+        },
+        {
+          "reference": "turn16search21",
+          "title": "山本歩夢 | kirakira俳優ちゃんネット｜若手俳優まとめ｜舞台・ミュージカル感想",
+          "url": "https://kira-hai.net/yamamoto-ayumu"
+        },
+        {
+          "reference": "turn16view0",
+          "title": "komazawa-ekiden.com",
+          "url": "https://komazawa-ekiden.com/record/record-active-player"
+        },
+        {
+          "reference": "turn16view1",
+          "title": "陸上競技部10傑 ｜ 國學院大學 陸上競技部",
+          "url": "https://www.kokugakuin.com/top10/426/"
+        },
+        {
+          "reference": "turn16view2",
+          "title": "部員紹介 | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/team/member"
+        },
+        {
+          "reference": "turn16view3",
+          "title": "試合結果 ｜ 國學院大學 陸上競技部",
+          "url": "https://www.kokugakuin.com/result/"
+        },
+        {
+          "reference": "turn16view4",
+          "title": "競技結果 ｜ 青山学院大学陸上競技部",
+          "url": "https://aogaku-tf.com/results.html"
+        },
+        {
+          "reference": "turn16view5",
+          "title": "競技結果 ｜ 青山学院大学陸上競技部",
+          "url": "https://aogaku-tf.com/results.html"
+        },
+        {
+          "reference": "turn16view6",
+          "title": "競技結果 ｜ 青山学院大学陸上競技部",
+          "url": "https://aogaku-tf.com/results.html"
+        }
+      ],
+      "toolError": false
+    },
+    {
+      "sequence": 4,
+      "checkedAt": "2026-11-25",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn16search2"
+          },
+          {
+            "ref_id": "turn14view8",
+            "lineno": 696
+          },
+          {
+            "ref_id": "turn14view2",
+            "lineno": 49
+          },
+          {
+            "ref_id": "turn14view5",
+            "lineno": 59
+          }
+        ],
+        "click": [
+          {
+            "ref_id": "turn14view9",
+            "id": 50
+          },
+          {
+            "ref_id": "turn13view2",
+            "id": 12
+          },
+          {
+            "ref_id": "turn14view4",
+            "id": 17
+          },
+          {
+            "ref_id": "turn14view4",
+            "id": 19
+          }
+        ],
+        "system2_search_query": [
+          {
+            "q": "site.comodi-iida.co.jp 宇田川 瞬矢"
+          },
+          {
+            "q": "site:comodi-iida.co.jp 宇田川 瞬矢 2026"
+          },
+          {
+            "q": "site:kyudenko.co.jp 桜井 優我"
+          },
+          {
+            "q": "site:craftia.co.jp 桜井 優我"
+          }
+        ],
+        "response_length": "long"
+      },
+      "documents": [
+        {
+          "reference": "turn17search0",
+          "title": "コモディイイダ 駅伝部 | 2026年の主なレース結果",
+          "url": "https://www.comodi-iida.co.jp/club/result/r2026.html"
+        },
+        {
+          "reference": "turn17search1",
+          "title": "コモディイイダ 駅伝部 | 選手紹介",
+          "url": "https://www.comodi-iida.co.jp/club/profile/athlete.html"
+        },
+        {
+          "reference": "turn17search2",
+          "title": "株式会社コモディイイダ ｜いつでもどこでもイイダがいいね！",
+          "url": "https://www.comodi-iida.co.jp/"
+        },
+        {
+          "reference": "turn17search3",
+          "title": "「コモディイイダ」の検索結果 - Yahoo!検索",
+          "url": "https://search.yahoo.co.jp/search?ei=UTF-8&eykbid=A90-P2oAAGaMlb16gUGNcx6KPXCLvRIWT_S5CwI6lv6CZCi4zLfV6Cc7Mc93W1p6nPJiNEclSNuKVROBjvq87xCQ-NDjjg5aAZ6TX2vlHGzfVIQlFb23qUOmWoalJ25gWcTkv49sB54cfhe5G1Ll2s6s5Q&fr=mashup_krank&p=%E3%82%B3%E3%83%A2%E3%83%87%E3%82%A3%E3%82%A4%E3%82%A4%E3%83%80&rkf=1&x=nl"
+        },
+        {
+          "reference": "turn17search4",
+          "title": "「コモディイイダ」のX（旧Twitter）検索結果 - Yahoo!リアルタイム検索",
+          "url": "https://search.yahoo.co.jp/realtime/search?btid=MjAzNzA5MzA2OTgwODcwOTkzOQ%3D%3D&ifr=tp_bz&p=%E3%82%B3%E3%83%A2%E3%83%87%E3%82%A3%E3%82%A4%E3%82%A4%E3%83%80&rkf=1"
+        },
+        {
+          "reference": "turn17search5",
+          "title": "「コモディイイダ 駅伝」のX（旧Twitter）検索結果 - Yahoo!リアルタイム検索",
+          "url": "https://search.yahoo.co.jp/realtime/search?ei=UTF-8&md=h&p=%E3%82%B3%E3%83%A2%E3%83%87%E3%82%A3%E3%82%A4%E3%82%A4%E3%83%80+%E9%A7%85%E4%BC%9D&rkf=1"
+        },
+        {
+          "reference": "turn17search6",
+          "title": "コモディイイダ | 取材のご依頼・撮影申込み",
+          "url": "https://www.comodi-iida.co.jp/info/media/"
+        },
+        {
+          "reference": "turn17search7",
+          "title": "コモディイイダ最新情報　#広告　#キャンペーン　#陸上 (@comodi_official) | teapawt",
+          "url": "https://nitter.cf/comodi_official?cursor=DAAHCgABHXwA-8S__-sLAAIAAAATMjExMjcwMTI3MzM0MjYzNjI2MwgAAwAAAAIAAA"
+        },
+        {
+          "reference": "turn17search8",
+          "title": "東京都の店舗 | コモディイイダ",
+          "url": "https://www.comodi-iida.co.jp/store/tokyo/"
+        },
+        {
+          "reference": "turn17search9",
+          "title": "株式会社コモディイイダ会社情報｜キャリア教育支援協議会",
+          "url": "https://shinronavi.com/corp/index/34917"
+        },
+        {
+          "reference": "turn17search10",
+          "title": "コモディイイダ、ニューイヤー駅伝への希望🏃‍➡️｜野猿（やえん）",
+          "url": "https://note.com/yaen2940/n/nffe271b885d2"
+        },
+        {
+          "reference": "turn17search11",
+          "title": "株式会社コモディイイダ | 会社情報",
+          "url": "https://comodi-iida.co.jp/corp/index.html"
+        },
+        {
+          "reference": "turn17search12",
+          "title": "株式会社コモディイイダの会社概要・求人情報・公式サイト情報〖2026年時点〗| SalesNow DB",
+          "url": "https://salesnow.jp/db/companies/jcbespgmptd1s8k0"
+        },
+        {
+          "reference": "turn17search13",
+          "title": "コモディイイダ | 会社情報 / 会社概要",
+          "url": "https://comodi-iida.co.jp/corp/profile.html"
+        },
+        {
+          "reference": "turn17view0",
+          "title": "山本　歩夢 | 旭化成株式会社",
+          "url": "https://www.asahi-kasei.com/jp/sports-event/track-field/member/yamamoto"
+        },
+        {
+          "reference": "turn17view1",
+          "title": "競技結果 ｜ 青山学院大学陸上競技部",
+          "url": "https://aogaku-tf.com/results.html"
+        },
+        {
+          "reference": "turn17view2",
+          "title": "陸上競技部10傑 ｜ 國學院大學 陸上競技部",
+          "url": "https://www.kokugakuin.com/top10/426/"
+        },
+        {
+          "reference": "turn17view3",
+          "title": "komazawa-ekiden.com",
+          "url": "https://komazawa-ekiden.com/record/record-active-player"
+        },
+        {
+          "reference": "turn17view4",
+          "title": "部員紹介 | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/team/member/block/3"
+        },
+        {
+          "reference": "turn17view5",
+          "title": "2026年 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/result_year/2026%E5%B9%B4/"
+        },
+        {
+          "reference": "turn17view6",
+          "title": "第39回 2026 上尾シティハーフマラソン 結果 ｜ 國學院大學 陸上競技部",
+          "url": "https://www.kokugakuin.com/result/4383/"
+        },
+        {
+          "reference": "turn17view7",
+          "title": "第333回日本体育大学長距離競技会 結果 ｜ 國學院大學 陸上競技部",
+          "url": "https://www.kokugakuin.com/result/4361/"
+        }
+      ],
+      "toolError": false
+    },
+    {
+      "sequence": 5,
+      "checkedAt": "2026-11-25",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn17search0"
+          },
+          {
+            "ref_id": "turn17search1"
+          },
+          {
+            "ref_id": "turn17view4",
+            "lineno": 60
+          },
+          {
+            "ref_id": "turn17view5",
+            "lineno": 37
+          }
+        ],
+        "find": [
+          {
+            "ref_id": "turn17view6",
+            "pattern": "尾熊"
+          },
+          {
+            "ref_id": "turn17view6",
+            "pattern": "飯國"
+          },
+          {
+            "ref_id": "turn17view7",
+            "pattern": "尾熊"
+          },
+          {
+            "ref_id": "turn17view7",
+            "pattern": "飯國"
+          },
+          {
+            "ref_id": "turn14view8",
+            "pattern": "27:57.76"
+          },
+          {
+            "ref_id": "turn14view2",
+            "pattern": "1:00"
+          }
+        ],
+        "response_length": "long"
+      },
+      "documents": [
+        {
+          "reference": "turn18view0"
+        },
+        {
+          "reference": "turn18view1"
+        },
+        {
+          "reference": "turn18view2",
+          "title": "部員紹介 | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/team/member/block/3"
+        },
+        {
+          "reference": "turn18view3",
+          "title": "2026年 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/result_year/2026%E5%B9%B4/"
+        },
+        {
+          "reference": "turn18view4",
+          "title": "第39回 2026 上尾シティハーフマラソン 結果 ｜ 國學院大學 陸上競技部",
+          "url": "https://www.kokugakuin.com/result/4383/"
+        },
+        {
+          "reference": "turn18view5",
+          "title": "第39回 2026 上尾シティハーフマラソン 結果 ｜ 國學院大學 陸上競技部",
+          "url": "https://www.kokugakuin.com/result/4383/"
+        },
+        {
+          "reference": "turn18view6",
+          "title": "第333回日本体育大学長距離競技会 結果 ｜ 國學院大學 陸上競技部",
+          "url": "https://www.kokugakuin.com/result/4361/"
+        },
+        {
+          "reference": "turn18view7",
+          "title": "第333回日本体育大学長距離競技会 結果 ｜ 國學院大學 陸上競技部",
+          "url": "https://www.kokugakuin.com/result/4361/"
+        },
+        {
+          "reference": "turn18view8",
+          "title": "競技結果 ｜ 青山学院大学陸上競技部",
+          "url": "https://aogaku-tf.com/results.html"
+        },
+        {
+          "reference": "turn18view9",
+          "title": "陸上競技部10傑 ｜ 國學院大學 陸上競技部",
+          "url": "https://www.kokugakuin.com/top10/426/"
+        }
+      ],
+      "toolError": false
+    },
+    {
+      "sequence": 6,
+      "checkedAt": "2026-11-25",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn17view4",
+            "id": 62
+          },
+          {
+            "ref_id": "turn17view4",
+            "id": 70
+          },
+          {
+            "ref_id": "turn17view4",
+            "id": 75
+          },
+          {
+            "ref_id": "turn13view2",
+            "id": 8
+          },
+          {
+            "ref_id": "turn13view2",
+            "id": 9
+          },
+          {
+            "ref_id": "turn17view5",
+            "id": 28
+          },
+          {
+            "ref_id": "turn17view5",
+            "id": 30
+          },
+          {
+            "ref_id": "turn17view5",
+            "id": 27
+          },
+          {
+            "ref_id": "turn18view2",
+            "id": 90
+          }
+        ],
+        "system2_search_query": [
+          {
+            "q": "桜井優我 クラフティア 選手紹介"
+          },
+          {
+            "q": "飯田翔大 \"13:34.20\""
+          },
+          {
+            "q": "飯國新太 \"13分51秒98\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "documents": [
+        {
+          "reference": "turn19search0",
+          "title": "桜井　優我 | 選手・スタッフ紹介 | 株式会社 クラフティア",
+          "url": "https://www.kraftia.co.jp/marathon/member/male/yuga_sakurai.html"
+        },
+        {
+          "reference": "turn19search1",
+          "title": "男子選手データ | 駅伝データバンク",
+          "url": "https://www.ekidendb-nic.com/mendata2026/"
+        },
+        {
+          "reference": "turn19search2",
+          "title": "飯田 翔大(青山学院大)|学生長距離・駅伝データベース(関東中心)",
+          "url": "https://gakusei-ekiden.jp/p/10055/"
+        },
+        {
+          "reference": "turn19search3",
+          "title": "2026年第38回出雲全日本大学選抜駅伝",
+          "url": "https://hakonesaijo.sakura.ne.jp/2026-izumo-entry-kanto-1.htm"
+        },
+        {
+          "reference": "turn19search4",
+          "title": "第38回出雲駅伝　区間エントリー〖確定版〗 | 文化放送",
+          "url": "https://joqr.net/news/article/182639/"
+        },
+        {
+          "reference": "turn19search36",
+          "title": "所",
+          "url": "https://www.iuau.jp/ev2024/24kosen/bangumihensei-r.pdf"
+        },
+        {
+          "reference": "turn19search5",
+          "title": "記録 5000m｜大学駅伝記録室",
+          "url": "https://ekiden-kiroku.keni-sports.com/records/"
+        },
+        {
+          "reference": "turn19search6",
+          "title": "飯田翔大 | 現在 青山学院大学（青学大） | 大学 青山学院大学（青学大） | 高校 出水中央高校 | 記録・大会成績 | 襷の系譜",
+          "url": "https://tasukikeifu.com/ja/players/kaito-iida"
+        },
+        {
+          "reference": "turn19search7",
+          "title": "大学駅伝まったり検索　～大会・選手情報検索サイト～",
+          "url": "https://sat-ekiden.info/search/runner_detail?runner_id=ag2024_02"
+        },
+        {
+          "reference": "turn19search8",
+          "title": "新入生の実績（2024.2.6）｜绿色",
+          "url": "https://note.com/xiamichaomei/n/n217f67e21407"
+        },
+        {
+          "reference": "turn19search9",
+          "title": "第５８回（２０２６年）全日本大学駅伝　区間エントリー発表＆感想 | 大学駅伝まったり応援",
+          "url": "https://blog.sat-ekiden.info/2026/10/30/24224/"
+        },
+        {
+          "reference": "turn19search10",
+          "title": "青山学院大学 | Ekiden-Metrics",
+          "url": "https://ekidenmetrics.com/universities/1"
+        },
+        {
+          "reference": "turn19search11",
+          "title": "選手一覧｜大学駅伝記録室",
+          "url": "https://ekiden-kiroku.keni-sports.com/runners/?u=%E9%9D%92%E5%B1%B1%E5%AD%A6%E9%99%A2"
+        },
+        {
+          "reference": "turn19search12",
+          "title": "選手一覧｜大学駅伝記録室",
+          "url": "https://ekiden-kiroku.keni-sports.com/runners/?dir=-1&f=track&sort=road&u=%E9%9D%92%E5%B1%B1%E5%AD%A6%E9%99%A2"
+        },
+        {
+          "reference": "turn19search13",
+          "title": "選手・スタッフ紹介 | 株式会社 クラフティア",
+          "url": "https://www.kraftia.co.jp/marathon/member/"
+        },
+        {
+          "reference": "turn19search37",
+          "title": "<table id=\"e1\">",
+          "url": "https://nrkk.net/wp-content/uploads/2024/06/84b1df6ca1b63fd5b9d7a5013a13f5cc.pdf"
+        },
+        {
+          "reference": "turn19search14",
+          "title": "大会成績 | 株式会社 クラフティア",
+          "url": "https://www.kraftia.co.jp/marathon/result/"
+        },
+        {
+          "reference": "turn19search15",
+          "title": "出雲駅伝2026(第38回)〖出場校エントリーメンバー！区間や日程の紹介も〗 | 箱根駅伝-もっとフリーダムに語ろう!!!-",
+          "url": "https://hakonankit-fd.com/article/post-27252.html"
+        },
+        {
+          "reference": "turn19search16",
+          "title": "長距離（男子） | 選手・スタッフ紹介 | 株式会社 クラフティア",
+          "url": "https://www.kraftia.co.jp/marathon/member/male/index.html"
+        },
+        {
+          "reference": "turn19search17",
+          "title": "〖前半戦終了ver〗2026年度関東大学長距離5,000m上位10名平均ランキング | 箱根駅伝-もっとフリーダムに語ろう!!!-",
+          "url": "https://hakonankit-fd.com/article/post-26948.html"
+        },
+        {
+          "reference": "turn19search18",
+          "title": "國學院大學駅伝メンバー2026最新！主力の記録と箱根駅伝2027候補を徹底解説",
+          "url": "https://old.unac.org/geinou/kokugakuindaigakuekidenmenbaa-53521/"
+        },
+        {
+          "reference": "turn19search19",
+          "title": "クラフティアに箱根駅伝区間賞の桜井優我、東洋大の西村真周＆網本佳悟、女子3000m障害・小松夕夏ら7人が加入 | 月陸Online｜月刊陸上競技",
+          "url": "https://www.rikujyokyogi.co.jp/archives/203841"
+        },
+        {
+          "reference": "turn19search20",
+          "title": "全日本大学駅伝2026区間オーダー予想⑤〖國學院大・順天堂大〗 | 箱根駅伝-もっとフリーダムに語ろう!!!-",
+          "url": "https://hakonankit-fd.com/article/post-27628.html/amp?amp=1"
+        },
+        {
+          "reference": "turn19search21",
+          "title": "〖結果〗第327回日本体育大学長距離競技会兼20th NITTAIDAI Challenge Games(2026年4月11-12日) | 箱根駅伝-もっとフリーダムに語ろう!!!-",
+          "url": "https://hakonankit-fd.com/article/post-26287.html?amp=1"
+        },
+        {
+          "reference": "turn19view0",
+          "title": "部員紹介 | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/team/member/detail/278"
+        },
+        {
+          "reference": "turn19view1",
+          "title": "部員紹介 | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/team/member/detail/347"
+        },
+        {
+          "reference": "turn19view2",
+          "title": "部員紹介 | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/team/member/detail/357"
+        },
+        {
+          "reference": "turn19view3",
+          "title": "四年生 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/team/team-4th"
+        },
+        {
+          "reference": "turn19view4",
+          "title": "三年生 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/team/team-3th"
+        },
+        {
+          "reference": "turn19view5",
+          "title": "11月22日(日)第39回2026上尾シティハーフマラソン | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/results/11%E6%9C%8822%E6%97%A5%E6%97%A5%E7%AC%AC38%E5%9B%9E2026%E4%B8%8A%E5%B0%BE%E3%82%B7%E3%83%86%E3%82%A3%E3%83%8F%E3%83%BC%E3%83%95%E3%83%9E%E3%83%A9%E3%82%BD%E3%83%B3/"
+        },
+        {
+          "reference": "turn19view6",
+          "title": "11月8日(日)第333回日本体育大学長距離競技会 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/results/11%E6%9C%888%E6%97%A5%E6%97%A5%E7%AC%AC333%E5%9B%9E%E6%97%A5%E6%9C%AC%E4%BD%93%E8%82%B2%E5%A4%A7%E5%AD%A6%E9%95%B7%E8%B7%9D%E9%9B%A2%E7%AB%B6%E6%8A%80%E4%BC%9A/"
+        },
+        {
+          "reference": "turn19view7",
+          "title": "11月22日(日)2026年 第1回国士舘大学学内長距離競技会 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/results/11%E6%9C%8822%E6%97%A5%E6%97%A52026%E5%B9%B4-%E7%AC%AC1%E5%9B%9E%E5%9B%BD%E5%A3%AB%E8%88%98%E5%A4%A7%E5%AD%A6%E5%AD%A6%E5%86%85%E9%95%B7%E8%B7%9D%E9%9B%A2%E7%AB%B6%E6%8A%80%E4%BC%9A/"
+        },
+        {
+          "reference": "turn19view8",
+          "title": "プライバシーポリシー | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/privacypolicy"
+        }
+      ],
+      "toolError": false
+    },
+    {
+      "sequence": 7,
+      "checkedAt": "2026-11-25",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn19search0"
+          },
+          {
+            "ref_id": "turn19search14"
+          }
+        ],
+        "find": [
+          {
+            "ref_id": "turn19view1",
+            "pattern": "自己最高"
+          },
+          {
+            "ref_id": "turn19view2",
+            "pattern": "自己最高"
+          },
+          {
+            "ref_id": "turn19view3",
+            "pattern": "小山"
+          },
+          {
+            "ref_id": "turn19view3",
+            "pattern": "安原"
+          },
+          {
+            "ref_id": "turn19view4",
+            "pattern": "谷中"
+          },
+          {
+            "ref_id": "turn19view5",
+            "pattern": "小山"
+          },
+          {
+            "ref_id": "turn19view5",
+            "pattern": "安原"
+          },
+          {
+            "ref_id": "turn19view6",
+            "pattern": "谷中"
+          },
+          {
+            "ref_id": "turn19view7",
+            "pattern": "谷中"
+          }
+        ],
+        "response_length": "long"
+      },
+      "documents": [
+        {
+          "reference": "turn20view0",
+          "title": "桜井　優我 | 選手・スタッフ紹介 | 株式会社 クラフティア",
+          "url": "https://www.kraftia.co.jp/marathon/member/male/yuga_sakurai.html"
+        },
+        {
+          "reference": "turn20view1",
+          "title": "大会成績 | 株式会社 クラフティア",
+          "url": "https://www.kraftia.co.jp/marathon/result/"
+        },
+        {
+          "reference": "turn20view2",
+          "title": "部員紹介 | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/team/member/detail/347"
+        },
+        {
+          "reference": "turn20view3",
+          "title": "部員紹介 | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/team/member/detail/357"
+        },
+        {
+          "reference": "turn20view4",
+          "title": "四年生 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/team/team-4th"
+        },
+        {
+          "reference": "turn20view5",
+          "title": "四年生 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/team/team-4th"
+        },
+        {
+          "reference": "turn20view6",
+          "title": "三年生 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/team/team-3th"
+        },
+        {
+          "reference": "turn20view7",
+          "title": "11月22日(日)第39回2026上尾シティハーフマラソン | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/results/11%E6%9C%8822%E6%97%A5%E6%97%A5%E7%AC%AC38%E5%9B%9E2026%E4%B8%8A%E5%B0%BE%E3%82%B7%E3%83%86%E3%82%A3%E3%83%8F%E3%83%BC%E3%83%95%E3%83%9E%E3%83%A9%E3%82%BD%E3%83%B3/"
+        },
+        {
+          "reference": "turn20view8",
+          "title": "11月22日(日)第39回2026上尾シティハーフマラソン | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/results/11%E6%9C%8822%E6%97%A5%E6%97%A5%E7%AC%AC38%E5%9B%9E2026%E4%B8%8A%E5%B0%BE%E3%82%B7%E3%83%86%E3%82%A3%E3%83%8F%E3%83%BC%E3%83%95%E3%83%9E%E3%83%A9%E3%82%BD%E3%83%B3/"
+        },
+        {
+          "reference": "turn20view9",
+          "title": "11月8日(日)第333回日本体育大学長距離競技会 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/results/11%E6%9C%888%E6%97%A5%E6%97%A5%E7%AC%AC333%E5%9B%9E%E6%97%A5%E6%9C%AC%E4%BD%93%E8%82%B2%E5%A4%A7%E5%AD%A6%E9%95%B7%E8%B7%9D%E9%9B%A2%E7%AB%B6%E6%8A%80%E4%BC%9A/"
+        },
+        {
+          "reference": "turn20view10",
+          "title": "11月22日(日)2026年 第1回国士舘大学学内長距離競技会 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/results/11%E6%9C%8822%E6%97%A5%E6%97%A52026%E5%B9%B4-%E7%AC%AC1%E5%9B%9E%E5%9B%BD%E5%A3%AB%E8%88%98%E5%A4%A7%E5%AD%A6%E5%AD%A6%E5%86%85%E9%95%B7%E8%B7%9D%E9%9B%A2%E7%AB%B6%E6%8A%80%E4%BC%9A/"
+        }
+      ],
+      "toolError": false
+    },
+    {
+      "sequence": 8,
+      "checkedAt": "2026-11-25",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn19view1",
+            "lineno": 83
+          },
+          {
+            "ref_id": "turn19view2",
+            "lineno": 82
+          },
+          {
+            "ref_id": "turn19view8",
+            "lineno": 55
+          }
+        ],
+        "system2_search_query": [
+          {
+            "q": "site:komazawa-ekiden.com \"谷中\" \"28分34秒14\""
+          },
+          {
+            "q": "site:komazawa-ekiden.com \"小山\" \"13分41秒99\""
+          },
+          {
+            "q": "site:komazawa-ekiden.com \"安原\" \"28分42秒95\""
+          },
+          {
+            "q": "site:kokugakuin.com \"飯國\" \"13’51\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "documents": [
+        {
+          "reference": "turn21search0",
+          "title": "第327回日本体育大学長距離競技会 結果 ｜ 國學院大學 陸上競技部",
+          "url": "https://www.kokugakuin.com/result/4009/"
+        },
+        {
+          "reference": "turn21search1",
+          "title": "四年生 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/team/team-4th"
+        },
+        {
+          "reference": "turn21search2",
+          "title": "四年生 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/team/team-4th/"
+        },
+        {
+          "reference": "turn21search3",
+          "title": "現役選手ランキング | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/record/record-active-player"
+        },
+        {
+          "reference": "turn21search4",
+          "title": "7月12日(日)関東学生網走夏季記録挑戦競技会 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/results/7%E6%9C%8812%E6%97%A5%E6%97%A5%E9%96%A2%E6%9D%B1%E5%AD%A6%E7%94%9F%E7%B6%B2%E8%B5%B0%E5%A4%8F%E5%AD%A3%E8%A8%98%E9%8C%B2%E6%8C%91%E6%88%A6%E7%AB%B6%E6%8A%80%E4%BC%9A/"
+        },
+        {
+          "reference": "turn21search5",
+          "title": "6月21日(日)あおもりディスタンスチャレンジ2026 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/results/6%E6%9C%8821%E6%97%A5%E6%97%A5%E9%9D%92%E6%A3%AE%E3%83%87%E3%82%A3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B82026/"
+        },
+        {
+          "reference": "turn21search6",
+          "title": "5月31日(土)・6月1日(日)第321回日本体育大学長距離競技会 兼 第15回NITTAIDAI Challenge Games | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/results/5%E6%9C%8831%E6%97%A5%E5%9C%9F%E7%AC%AC321%E5%9B%9E%E6%97%A5%E6%9C%AC%E4%BD%93%E8%82%B2%E5%A4%A7%E5%AD%A6%E9%95%B7%E8%B7%9D%E9%9B%A2%E7%AB%B6%E6%8A%80%E4%BC%9A/"
+        },
+        {
+          "reference": "turn21search7",
+          "title": "三年生 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/team/team-3th/"
+        },
+        {
+          "reference": "turn21view0",
+          "title": "部員紹介 | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/team/member/detail/347"
+        },
+        {
+          "reference": "turn21view1",
+          "title": "部員紹介 | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/team/member/detail/357"
+        },
+        {
+          "reference": "turn21view2",
+          "title": "プライバシーポリシー | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/privacypolicy"
+        }
+      ],
+      "toolError": false
+    },
+    {
+      "sequence": 9,
+      "checkedAt": "2026-11-25",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn21search0"
+          },
+          {
+            "ref_id": "turn21search4"
+          },
+          {
+            "ref_id": "turn21search5"
+          },
+          {
+            "ref_id": "turn21search6"
+          }
+        ],
+        "system2_search_query": [
+          {
+            "q": "site:waseda-ac.jp \"吉倉\" \"13分37秒61\""
+          },
+          {
+            "q": "site:waseda-ac.jp \"吉倉\" \"28:13.07\""
+          },
+          {
+            "q": "site:waseda-ac.jp \"鈴木\" \"13:20.64\""
+          },
+          {
+            "q": "site:waseda-ac.jp \"堀野\" \"29:15.33\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "documents": [
+        {
+          "reference": "turn22search0",
+          "title": "天皇賜盃第95回日本学生陸上競技対校選手権大会(10000m) | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/competition/detail/816"
+        },
+        {
+          "reference": "turn22search1",
+          "title": "部員紹介 | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/team/member/detail/278"
+        },
+        {
+          "reference": "turn22search2",
+          "title": "ホクレン・ディスタンスチャレンジ2026 千歳大会 他 | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/news/detail/926"
+        },
+        {
+          "reference": "turn22search3",
+          "title": "日本グランプリシリーズ第1戦 熊本大会 第３４回金栗記念選抜陸上中長距離大会2026 | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/competition/detail/800"
+        },
+        {
+          "reference": "turn22search4",
+          "title": "令和8年328回日本体育大学長距離競技会 兼 21st NITTAIDAI Challenge Games | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/competition/detail/819"
+        },
+        {
+          "reference": "turn22search5",
+          "title": "男子歴代ランキング | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/record/detail/2"
+        },
+        {
+          "reference": "turn22search6",
+          "title": "第57回東京六大学対校陸上競技大会 他 | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/news/detail/204"
+        },
+        {
+          "reference": "turn22view0",
+          "title": "第327回日本体育大学長距離競技会 結果 ｜ 國學院大學 陸上競技部",
+          "url": "https://www.kokugakuin.com/result/4009/"
+        },
+        {
+          "reference": "turn22view1",
+          "title": "7月12日(日)関東学生網走夏季記録挑戦競技会 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/results/7%E6%9C%8812%E6%97%A5%E6%97%A5%E9%96%A2%E6%9D%B1%E5%AD%A6%E7%94%9F%E7%B6%B2%E8%B5%B0%E5%A4%8F%E5%AD%A3%E8%A8%98%E9%8C%B2%E6%8C%91%E6%88%A6%E7%AB%B6%E6%8A%80%E4%BC%9A/"
+        },
+        {
+          "reference": "turn22view2",
+          "title": "6月21日(日)あおもりディスタンスチャレンジ2026 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/results/6%E6%9C%8821%E6%97%A5%E6%97%A5%E9%9D%92%E6%A3%AE%E3%83%87%E3%82%A3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B82026/"
+        },
+        {
+          "reference": "turn22view3",
+          "title": "5月31日(土)・6月1日(日)第321回日本体育大学長距離競技会 兼 第15回NITTAIDAI Challenge Games | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/results/5%E6%9C%8831%E6%97%A5%E5%9C%9F%E7%AC%AC321%E5%9B%9E%E6%97%A5%E6%9C%AC%E4%BD%93%E8%82%B2%E5%A4%A7%E5%AD%A6%E9%95%B7%E8%B7%9D%E9%9B%A2%E7%AB%B6%E6%8A%80%E4%BC%9A/"
+        }
+      ],
+      "toolError": false
+    },
+    {
+      "sequence": 10,
+      "checkedAt": "2026-11-25",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn22search0"
+          },
+          {
+            "ref_id": "turn22search2"
+          },
+          {
+            "ref_id": "turn22search3"
+          },
+          {
+            "ref_id": "turn22search4"
+          },
+          {
+            "ref_id": "turn22view0",
+            "lineno": 35
+          }
+        ],
+        "system2_search_query": [
+          {
+            "q": "site:komazawa-ekiden.com \"谷中\" \"13分49秒71\""
+          },
+          {
+            "q": "site:komazawa-ekiden.com \"小山\" \"29分24秒72\""
+          },
+          {
+            "q": "site:komazawa-ekiden.com \"安原\" \"13分52秒85\""
+          },
+          {
+            "q": "site:komazawa-ekiden.com \"谷中\" \"1時間00分57秒\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "documents": [
+        {
+          "reference": "turn23search0",
+          "title": "四年生 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/team/team-4th"
+        },
+        {
+          "reference": "turn23search1",
+          "title": "四年生 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/team/team-4th/"
+        },
+        {
+          "reference": "turn23search2",
+          "title": "9月27日(土)・28日(日)TOKAI DISTANCE CHALLENGE 第240回東海大学長距離競技会 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/results/9%E6%9C%8827%E6%97%A5%E5%9C%9F%E3%83%BB28%E6%97%A5%E6%97%A5tokai-distance-challenge-%E7%AC%AC240%E5%9B%9E%E6%9D%B1%E6%B5%B7%E5%A4%A7%E5%AD%A6%E9%95%B7%E8%B7%9D%E9%9B%A2%E7%AB%B6%E6%8A%80%E4%BC%9A/"
+        },
+        {
+          "reference": "turn23search3",
+          "title": "10/14(月)第4回出雲市陸協記録会 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/results/10-14%E6%9C%88%E7%AC%AC4%E5%9B%9E%E5%87%BA%E9%9B%B2%E5%B8%82%E9%99%B8%E5%8D%94%E8%A8%98%E9%8C%B2%E4%BC%9A/"
+        },
+        {
+          "reference": "turn23search4",
+          "title": "三年生 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/team/team-3th/"
+        },
+        {
+          "reference": "turn23search5",
+          "title": "6月22日(日)2025年度 あおもりディスタンスチャレンジ記録会 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/results/6%E6%9C%8822%E6%97%A5%E6%97%A52025%E5%B9%B4%E5%BA%A6-%E3%81%82%E3%81%8A%E3%82%82%E3%82%8A%E3%83%87%E3%82%A3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B8%E8%A8%98/"
+        },
+        {
+          "reference": "turn23search6",
+          "title": "2月2日(日)第28回日本学生ハーフマラソン選手権大会 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/results/2%E6%9C%882%E6%97%A5%E6%97%A5%E7%AC%AC28%E5%9B%9E%E6%97%A5%E6%9C%AC%E5%AD%A6%E7%94%9F%E3%83%8F%E3%83%BC%E3%83%95%E3%83%9E%E3%83%A9%E3%82%BD%E3%83%B3%E9%81%B8%E6%89%8B%E6%A8%A9%E5%A4%A7%E4%BC%9A/"
+        },
+        {
+          "reference": "turn23search7",
+          "title": "現役選手ランキング | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/record/record-active-player"
+        },
+        {
+          "reference": "turn23search8",
+          "title": "三年生 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/team/team-3th"
+        },
+        {
+          "reference": "turn23view0",
+          "title": "天皇賜盃第95回日本学生陸上競技対校選手権大会(10000m) | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/competition/detail/816"
+        },
+        {
+          "reference": "turn23view1",
+          "title": "ホクレン・ディスタンスチャレンジ2026 千歳大会 他 | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/news/detail/926"
+        },
+        {
+          "reference": "turn23view2",
+          "title": "日本グランプリシリーズ第1戦 熊本大会 第３４回金栗記念選抜陸上中長距離大会2026 | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/competition/detail/800"
+        },
+        {
+          "reference": "turn23view3",
+          "title": "令和8年328回日本体育大学長距離競技会 兼 21st NITTAIDAI Challenge Games | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/competition/detail/819"
+        },
+        {
+          "reference": "turn23view4",
+          "title": "第327回日本体育大学長距離競技会 結果 ｜ 國學院大學 陸上競技部",
+          "url": "https://www.kokugakuin.com/result/4009/"
+        }
+      ],
+      "toolError": false
+    },
+    {
+      "sequence": 11,
+      "checkedAt": "2026-11-25",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn23search2"
+          },
+          {
+            "ref_id": "turn23search3"
+          },
+          {
+            "ref_id": "turn23search5"
+          },
+          {
+            "ref_id": "turn23search6"
+          }
+        ],
+        "system2_search_query": [
+          {
+            "q": "site:komazawa-ekiden.com \"小山\" \"1時間02分38秒\""
+          },
+          {
+            "q": "site:komazawa-ekiden.com \"安原\" \"1時間01分45秒\""
+          },
+          {
+            "q": "site:kokugakuin.com \"尾熊\" \"13’57\""
+          },
+          {
+            "q": "site:kokugakuin.com \"尾熊\" \"28’35\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "documents": [
+        {
+          "reference": "turn24search0",
+          "title": "第324回日本体育大学長距離競技会 結果 ｜ 國學院大學 陸上競技部",
+          "url": "https://www.kokugakuin.com/result/3567/"
+        },
+        {
+          "reference": "turn24search1",
+          "title": "道南ディスタンス2025 結果 ｜ 國學院大學 陸上競技部",
+          "url": "https://www.kokugakuin.com/result/3194/"
+        },
+        {
+          "reference": "turn24search2",
+          "title": "四年生 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/team/team-4th"
+        },
+        {
+          "reference": "turn24search3",
+          "title": "第328回日本体育大学長距離競技会 結果 ｜ 國學院大學 陸上競技部",
+          "url": "https://www.kokugakuin.com/result/4045/"
+        },
+        {
+          "reference": "turn24search4",
+          "title": "現役選手ランキング | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/record/record-active-player"
+        },
+        {
+          "reference": "turn24search5",
+          "title": "道南ディスタンス2026 結果 ｜ 國學院大學 陸上競技部",
+          "url": "https://www.kokugakuin.com/result/4123/"
+        },
+        {
+          "reference": "turn24search6",
+          "title": "2月1日(日)第29回日本学生ハーフマラソン選手権大会 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/results/2%E6%9C%881%E6%97%A5%E6%97%A5%E7%AC%AC29%E5%9B%9E%E6%97%A5%E6%9C%AC%E5%AD%A6%E7%94%9F%E3%83%8F%E3%83%BC%E3%83%95%E3%83%9E%E3%83%A9%E3%82%BD%E3%83%B3%E9%81%B8%E6%89%8B%E6%A8%A9%E5%A4%A7%E4%BC%9A/"
+        },
+        {
+          "reference": "turn24search7",
+          "title": "四年生 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/team/team-4th/"
+        },
+        {
+          "reference": "turn24search8",
+          "title": "11月17日(日)第37回2024上尾シティハーフマラソン | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/results/11%E6%9C%8817%E6%97%A5%E6%97%A5%E7%AC%AC37%E5%9B%9E2024%E4%B8%8A%E5%B0%BE%E3%82%B7%E3%83%86%E3%82%A3%E3%83%8F%E3%83%BC%E3%83%95%E3%83%9E%E3%83%A9%E3%82%BD%E3%83%B3/"
+        },
+        {
+          "reference": "turn24search9",
+          "title": "箱根駅伝ランキング | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/record/record-hakone-ekiden"
+        },
+        {
+          "reference": "turn24view0",
+          "title": "9月27日(土)・28日(日)TOKAI DISTANCE CHALLENGE 第240回東海大学長距離競技会 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/results/9%E6%9C%8827%E6%97%A5%E5%9C%9F%E3%83%BB28%E6%97%A5%E6%97%A5tokai-distance-challenge-%E7%AC%AC240%E5%9B%9E%E6%9D%B1%E6%B5%B7%E5%A4%A7%E5%AD%A6%E9%95%B7%E8%B7%9D%E9%9B%A2%E7%AB%B6%E6%8A%80%E4%BC%9A/"
+        },
+        {
+          "reference": "turn24view1",
+          "title": "10/14(月)第4回出雲市陸協記録会 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/results/10-14%E6%9C%88%E7%AC%AC4%E5%9B%9E%E5%87%BA%E9%9B%B2%E5%B8%82%E9%99%B8%E5%8D%94%E8%A8%98%E9%8C%B2%E4%BC%9A/"
+        },
+        {
+          "reference": "turn24view2",
+          "title": "6月22日(日)2025年度 あおもりディスタンスチャレンジ記録会 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/results/6%E6%9C%8822%E6%97%A5%E6%97%A52025%E5%B9%B4%E5%BA%A6-%E3%81%82%E3%81%8A%E3%82%82%E3%82%8A%E3%83%87%E3%82%A3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B8%E8%A8%98/"
+        },
+        {
+          "reference": "turn24view3",
+          "title": "2月2日(日)第28回日本学生ハーフマラソン選手権大会 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/results/2%E6%9C%882%E6%97%A5%E6%97%A5%E7%AC%AC28%E5%9B%9E%E6%97%A5%E6%9C%AC%E5%AD%A6%E7%94%9F%E3%83%8F%E3%83%BC%E3%83%95%E3%83%9E%E3%83%A9%E3%82%BD%E3%83%B3%E9%81%B8%E6%89%8B%E6%A8%A9%E5%A4%A7%E4%BC%9A/"
+        }
+      ],
+      "toolError": false
+    },
+    {
+      "sequence": 12,
+      "checkedAt": "2026-11-25",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn24search0"
+          },
+          {
+            "ref_id": "turn24search1"
+          },
+          {
+            "ref_id": "turn24search6"
+          },
+          {
+            "ref_id": "turn24search8"
+          }
+        ],
+        "system2_search_query": [
+          {
+            "q": "site:kokugakuin.com \"飯國\" \"1:01:51\""
+          },
+          {
+            "q": "site:kokugakuin.com \"尾熊\" \"1:01:46\""
+          },
+          {
+            "q": "site:waseda-ac.jp \"吉倉\" \"1時間02分26\""
+          },
+          {
+            "q": "site:waseda-ac.jp \"堀野\" \"1時間02分28\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "documents": [
+        {
+          "reference": "turn25search0",
+          "title": "部員紹介 | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/team/member/detail/278"
+        },
+        {
+          "reference": "turn25search1",
+          "title": "部員紹介 | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/team/member/detail/357"
+        },
+        {
+          "reference": "turn25search2",
+          "title": "男子歴代ランキング | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/record/detail/2"
+        },
+        {
+          "reference": "turn25view0",
+          "title": "第324回日本体育大学長距離競技会 結果 ｜ 國學院大學 陸上競技部",
+          "url": "https://www.kokugakuin.com/result/3567/"
+        },
+        {
+          "reference": "turn25view1",
+          "title": "道南ディスタンス2025 結果 ｜ 國學院大學 陸上競技部",
+          "url": "https://www.kokugakuin.com/result/3194/"
+        },
+        {
+          "reference": "turn25view2",
+          "title": "2月1日(日)第29回日本学生ハーフマラソン選手権大会 | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/results/2%E6%9C%881%E6%97%A5%E6%97%A5%E7%AC%AC29%E5%9B%9E%E6%97%A5%E6%9C%AC%E5%AD%A6%E7%94%9F%E3%83%8F%E3%83%BC%E3%83%95%E3%83%9E%E3%83%A9%E3%82%BD%E3%83%B3%E9%81%B8%E6%89%8B%E6%A8%A9%E5%A4%A7%E4%BC%9A/"
+        },
+        {
+          "reference": "turn25view3",
+          "title": "11月17日(日)第37回2024上尾シティハーフマラソン | 駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/results/11%E6%9C%8817%E6%97%A5%E6%97%A5%E7%AC%AC37%E5%9B%9E2024%E4%B8%8A%E5%B0%BE%E3%82%B7%E3%83%86%E3%82%A3%E3%83%8F%E3%83%BC%E3%83%95%E3%83%9E%E3%83%A9%E3%82%BD%E3%83%B3/"
+        }
+      ],
+      "toolError": false
+    },
+    {
+      "sequence": 13,
+      "checkedAt": "2026-11-25",
+      "request": {
+        "system2_search_query": [
+          {
+            "q": "\"飯國\" \"1\" \"01\" \"51\" ハーフ 國學院"
+          },
+          {
+            "q": "\"尾熊\" \"1\" \"01\" \"46\" ハーフ"
+          },
+          {
+            "q": "site:waseda-ac.jp \"吉倉\" \"62分26\""
+          },
+          {
+            "q": "site:waseda-ac.jp \"堀野\" \"62分28\""
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "https://www.kokugakuin.com/top10/426/",
+            "lineno": 65
+          },
+          {
+            "ref_id": "https://www.kokugakuin.com/result/4009/",
+            "lineno": 30
+          }
+        ],
+        "response_length": "long"
+      },
+      "documents": [
+        {
+          "reference": "turn26search0",
+          "title": "メンバー紹介 ｜ 國學院大學 陸上競技部",
+          "url": "https://www.kokugakuin.com/member/"
+        },
+        {
+          "reference": "turn26search1",
+          "title": "尾熊 迅斗（國學院）｜大学駅伝記録室",
+          "url": "https://ekiden-kiroku.keni-sports.com/runners/kg2024_03/"
+        },
+        {
+          "reference": "turn26search2",
+          "title": "國學院大學｜出場校一覧｜第102回｜箱根駅伝 番組公式サイト｜日本テレビ",
+          "url": "https://www.ntv.co.jp/hakone/backnumber/102/team/kokugakuin.html"
+        },
+        {
+          "reference": "turn26search3",
+          "title": "記録 ハーフ｜大学駅伝記録室",
+          "url": "https://ekiden-kiroku.keni-sports.com/records/half/"
+        },
+        {
+          "reference": "turn26search23",
+          "title": "ã‡¨ã…³ã…‹ã…ªã…¼ä¸•è¦§.xlsx",
+          "url": "https://www.iuau.jp/sp1/ev2025/29mhalf/29mhalf_entry_number.pdf"
+        },
+        {
+          "reference": "turn26search4",
+          "title": "尾熊迅斗（國學院） | Ekiden-Metrics",
+          "url": "https://ekidenmetrics.com/athletes/810"
+        },
+        {
+          "reference": "turn26search5",
+          "title": "飯國新太 | 現在 國學院大學（國學院大） | 大学 國學院大學（國學院大） | 高校 國學院久我山高校 | 記録・大会成績 | 襷の系譜",
+          "url": "https://tasukikeifu.com/ja/players/arata-iiguni"
+        },
+        {
+          "reference": "turn26search6",
+          "title": "第38回出雲全日本大学選抜駅伝競走 予想と結果|学生長距離・駅伝データベース(関東中心)",
+          "url": "https://gakusei-ekiden.jp/ekiden/2026_izumo/"
+        },
+        {
+          "reference": "turn26search7",
+          "title": "國學院｜大学駅伝記録室",
+          "url": "https://ekiden-kiroku.keni-sports.com/teams/kg/"
+        },
+        {
+          "reference": "turn26search8",
+          "title": "陸上・駅伝 - 第102回箱根駅伝チームエントリー・シード10校編　「6強」から抜け出すチームは | 4years. #学生スポーツ",
+          "url": "https://4years.asahi.com/article/16181633"
+        },
+        {
+          "reference": "turn26search9",
+          "title": "比較|学生長距離・駅伝データベース(関東中心)",
+          "url": "https://gakusei-ekiden.jp/compare/"
+        },
+        {
+          "reference": "turn26view0",
+          "title": "陸上競技部10傑 ｜ 國學院大學 陸上競技部",
+          "url": "https://www.kokugakuin.com/top10/426/"
+        },
+        {
+          "reference": "turn26view1",
+          "title": "第327回日本体育大学長距離競技会 結果 ｜ 國學院大學 陸上競技部",
+          "url": "https://www.kokugakuin.com/result/4009/"
+        }
+      ],
+      "toolError": false
+    },
+    {
+      "sequence": 14,
+      "checkedAt": "2026-11-25",
+      "request": {
+        "system2_search_query": [
+          {
+            "q": "site:kokugakuin.com \"飯國\" \"51\" \"ハーフ\" 結果"
+          },
+          {
+            "q": "site:kokugakuin.com \"尾熊\" \"46\" \"ハーフ\" 結果"
+          },
+          {
+            "q": "site:waseda-ac.jp \"吉倉\" \"1:02:26\""
+          },
+          {
+            "q": "site:waseda-ac.jp \"堀野\" \"1:02:28\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "documents": [
+        {
+          "reference": "turn27search0",
+          "title": "第38回2025上尾シティハーフマラソン | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/competition/detail/740"
+        },
+        {
+          "reference": "turn27search1",
+          "title": "メンバー紹介 ｜ 國學院大學 陸上競技部",
+          "url": "https://www.kokugakuin.com/member/"
+        }
+      ],
+      "toolError": false
+    },
+    {
+      "sequence": 15,
+      "checkedAt": "2026-11-25",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn27search0"
+          }
+        ],
+        "system2_search_query": [
+          {
+            "q": "site:kokugakuin.com \"2025\" \"飯國\" \"ハーフマラソン\" \"結果\""
+          },
+          {
+            "q": "site:kokugakuin.com \"尾熊\" \"61\" \"2025\""
+          },
+          {
+            "q": "site:josai.ac.jp \"小林\" \"13\" \"52\" 結果"
+          },
+          {
+            "q": "site:josai.ac.jp \"中島\" \"28\" \"40\" 結果"
+          }
+        ],
+        "response_length": "long"
+      },
+      "documents": [
+        {
+          "reference": "turn28search0",
+          "title": "部長・監督・部員 | TEAM JOSAI!",
+          "url": "https://www.josai.ac.jp/tjp/club/dansiekiden/member/"
+        },
+        {
+          "reference": "turn28search1",
+          "title": "〖男子駅伝部〗全日本大学駅伝で9位－惜しくもシード権獲得はなりませんでした | TEAM JOSAI!",
+          "url": "https://www.josai.ac.jp/tjp/news/20251101_01/"
+        },
+        {
+          "reference": "turn28search23",
+          "title": "# 第１回　城西大学英語スピーチコンテスト",
+          "url": "https://www.josai.ac.jp/media/speechcontest_1_result2.pdf"
+        },
+        {
+          "reference": "turn28search2",
+          "title": "男子駅伝部 | TEAM JOSAI!",
+          "url": "https://www.josai.ac.jp/tjp/club/dansiekiden/"
+        },
+        {
+          "reference": "turn28search3",
+          "title": "〖男子駅伝部〗第102回箱根駅伝は総合7位！初の4年連続シード権を獲得しました―往路は5位 キムタイ選手が2区で驚異的な区間新記録を達成しました | TEAM JOSAI!",
+          "url": "https://www.josai.ac.jp/tjp/news/%E3%80%90%E7%94%B7%E5%AD%90%E9%A7%85%E4%BC%9D%E9%83%A8%E3%80%91%E7%AC%AC102%E5%9B%9E%E7%AE%B1%E6%A0%B9%E9%A7%85%E4%BC%9D%E3%81%AF%E7%B7%8F%E5%90%887%E4%BD%8D%EF%BC%81%E5%88%9D%E3%81%AE4%E5%B9%B4/"
+        },
+        {
+          "reference": "turn28search4",
+          "title": "〖男子駅伝部〗第37回出雲駅伝は6位で3年連続の入賞を果たしました。ヴィクター・キムタイ選手が3年連続の区間賞―今季スローガンは「結～まだ見ぬ景色の開拓～」 | 大学からのお知らせ | 城西大学",
+          "url": "https://www.josai.ac.jp/news/20251014_01/"
+        },
+        {
+          "reference": "turn28search5",
+          "title": "〖男子駅伝部〗第101回箱根駅伝は総合6位―初の3年連続のシード権を獲得！9区・桜井優我選手が区間賞に輝きました | 大学からのお知らせ | 城西大学",
+          "url": "https://www.josai.ac.jp/news/20250103/"
+        },
+        {
+          "reference": "turn28search24",
+          "title": "城西　Vol.28　2019.4",
+          "url": "https://www.josai.ac.jp/archive/albums/abm.php?f=abm00035139.pdf&n=JU_vol28_ALL_2nd%2B%281%29.pdf"
+        },
+        {
+          "reference": "turn28search25",
+          "title": "（例えば、国益、企業",
+          "url": "https://libir.josai.ac.jp/il/user_contents/02/G0000284repository/pdf/JOS-KJ00000107815.pdf"
+        },
+        {
+          "reference": "turn28search26",
+          "title": "## 陸上",
+          "url": "https://libir.josai.ac.jp/il/user_contents/02/G0000284repository/pdf/JOS-jspo-33.pdf"
+        },
+        {
+          "reference": "turn28search6",
+          "title": "研究者詳細 - 武藤　香絵",
+          "url": "https://researcher.josai.ac.jp/html/100000097_ronbn_1_ja.html"
+        },
+        {
+          "reference": "turn28search27",
+          "title": "14　歌子の母くには川越藩主夫人（側室",
+          "url": "https://libir.josai.ac.jp/il/user_contents/02/G0000284repository/pdf/JOS-KJ00000589234.pdf"
+        },
+        {
+          "reference": "turn28search28",
+          "title": "untitled",
+          "url": "https://libir.josai.ac.jp/il/user_contents/02/G0000284repository/pdf/JOS-18801536-1303.pdf"
+        },
+        {
+          "reference": "turn28search7",
+          "title": "大学からのお知らせ | 城西大学",
+          "url": "https://www.josai.ac.jp/news/"
+        },
+        {
+          "reference": "turn28view0",
+          "title": "第38回2025上尾シティハーフマラソン | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/competition/detail/740"
+        }
+      ],
+      "toolError": false
+    },
+    {
+      "sequence": 16,
+      "checkedAt": "2026-11-25",
+      "request": {
+        "system2_search_query": [
+          {
+            "q": "\"飯國 新太\" \"61:51\""
+          },
+          {
+            "q": "\"尾熊 迅斗\" \"61:46\""
+          },
+          {
+            "q": "\"小林竜輝\" \"13:52.39\""
+          },
+          {
+            "q": "\"中島巨翔\" \"28:40.21\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "documents": [
+        {
+          "reference": "turn29search0",
+          "title": "2026年第38回出雲全日本大選抜駅伝",
+          "url": "https://hakonesaijo.sakura.ne.jp/2026-izumo-entry-kanto-2.htm"
+        },
+        {
+          "reference": "turn29search1",
+          "title": "第38回出雲駅伝　区間エントリー〖確定版〗 | 文化放送",
+          "url": "https://joqr.co.jp/news/article/182639/"
+        },
+        {
+          "reference": "turn29search2",
+          "title": "〖2026年度版〗城西大学駅伝部〈部員名簿リスト〉*5000m/10000m/ハーフ自己ベスト記載 | 駅伝ナビ",
+          "url": "https://kasokusuru-ht.com/%E3%80%902026%E5%B9%B4%E5%BA%A6%E7%89%88%E3%80%91%E5%9F%8E%E8%A5%BF%E5%A4%A7%E5%AD%A6%E9%A7%85%E4%BC%9D%E9%83%A8%E3%80%88%E9%83%A8%E5%93%A1%E5%90%8D%E7%B0%BF%E3%83%AA%E3%82%B9%E3%83%88%E3%80%895000m/"
+        },
+        {
+          "reference": "turn29search34",
+          "title": "<tr><th>組</th><th>氏名</th>",
+          "url": "https://www.kgrr.org/files/competition/141/40/58zennichi_lastentry.pdf"
+        },
+        {
+          "reference": "turn29search35",
+          "title": "第102回東京箱根間往復大学駅伝競走　区間エントリー",
+          "url": "https://www.hakone-ekiden.jp/_assets/2025/102kukanentry.pdf"
+        },
+        {
+          "reference": "turn29search36",
+          "title": "第102回東京箱根間往復大学駅伝競走チームエントリー",
+          "url": "https://www.hakone-ekiden.jp/_assets/2025/e93c7b920b5509a1e7e0303f246b2fc389cb7f2e.pdf"
+        },
+        {
+          "reference": "turn29search3",
+          "title": "第38回出雲駅伝　区間エントリー〖確定版〗 | 文化放送",
+          "url": "https://joqr.net/news/article/182639/"
+        },
+        {
+          "reference": "turn29search4",
+          "title": "城西大学 | Ekiden-Metrics",
+          "url": "https://ekidenmetrics.com/universities/11"
+        },
+        {
+          "reference": "turn29search5",
+          "title": "城西大学｜出場校一覧｜第102回｜箱根駅伝 番組公式サイト｜日本テレビ",
+          "url": "https://www.ntv.co.jp/hakone/backnumber/102/team/josai.html"
+        },
+        {
+          "reference": "turn29search38",
+          "title": "第102回東京箱根間往復大学駅伝競走　区間エントリー",
+          "url": "https://www.xn--8wv97xz6xo7h.online/wp-content/uploads/2025/12/102kukanentry-1.pdf"
+        },
+        {
+          "reference": "turn29search6",
+          "title": "選手一覧｜大学駅伝記録室",
+          "url": "https://ekiden-kiroku.keni-sports.com/runners/?u=%E5%9F%8E%E8%A5%BF"
+        },
+        {
+          "reference": "turn29search7",
+          "title": "9区｜出場校一覧・区間別｜第102回｜箱根駅伝 番組公式サイト｜日本テレビ",
+          "url": "https://www.ntv.co.jp/hakone/backnumber/102/team_kukan/9.html"
+        },
+        {
+          "reference": "turn29search39",
+          "title": "記者発表資料",
+          "url": "https://www.hiroshima-ekiden.com/data/31press_release.pdf"
+        },
+        {
+          "reference": "turn29search8",
+          "title": "選手一覧｜大学駅伝記録室",
+          "url": "https://ekiden-kiroku.keni-sports.com/runners/"
+        },
+        {
+          "reference": "turn29search9",
+          "title": "2026年第38回出雲全日本大学選抜駅伝",
+          "url": "https://hakonesaijo.sakura.ne.jp/2026-izumo-entry-kanto-1.htm"
+        },
+        {
+          "reference": "turn29search10",
+          "title": "第３８回（２０２６年）出雲駅伝　区間エントリー発表 | 大学駅伝まったり応援",
+          "url": "https://blog.sat-ekiden.info/2026/10/09/21181/"
+        },
+        {
+          "reference": "turn29search11",
+          "title": "選手一覧｜大学駅伝記録室",
+          "url": "https://ekiden-kiroku.keni-sports.com/runners/?f=road&sort=road&u=%E5%9F%8E%E8%A5%BF"
+        },
+        {
+          "reference": "turn29search41",
+          "title": "第102回東京箱根間往復大学駅伝競走　区間エントリー",
+          "url": "https://www.hakone-ekiden.jp/_assets/2025/06db8116d88fbf972706d82f5a3cc314b5df9904.pdf"
+        },
+        {
+          "reference": "turn29search12",
+          "title": "第102回箱根駅伝・大学別エントリー(10000m持ちタイム順）",
+          "url": "https://hakonesaijo.sakura.ne.jp/102hako-entry.htm"
+        },
+        {
+          "reference": "turn29search13",
+          "title": "〖箱根駅伝2026〗各大学区間エントリーまとめ | 駅伝ナビ",
+          "url": "https://kasokusuru-ht.com/%E3%80%90%E7%AE%B1%E6%A0%B9%E9%A7%85%E4%BC%9D2026%E3%80%91%E5%90%84%E5%A4%A7%E5%AD%A6%E3%82%A8%E3%83%B3%E3%83%88%E3%83%AA%E3%83%BC%E3%81%BE%E3%81%A8%E3%82%81/"
+        },
+        {
+          "reference": "turn29search14",
+          "title": "第３８回（２０２６年）出雲駅伝　エントリー発表 | 大学駅伝まったり応援",
+          "url": "https://blog.sat-ekiden.info/2026/09/20/23966/"
+        },
+        {
+          "reference": "turn29search15",
+          "title": "第３８回出雲駅伝（２０２６年）戦力分析＆区間配置予想　～城西大学～ | 大学駅伝まったり応援",
+          "url": "https://blog.sat-ekiden.info/2026/09/24/24006/"
+        },
+        {
+          "reference": "turn29search16",
+          "title": "小林 竜輝（城西）｜大学駅伝記録室",
+          "url": "https://ekiden-kiroku.keni-sports.com/runners/js2024_02/"
+        },
+        {
+          "reference": "turn29search17",
+          "title": "〖出雲駅伝2025〗結果・エントリー雑感・各大学5000m/10000mまとめtenn | 駅伝ナビ",
+          "url": "https://kasokusuru-ht.com/2690-2/"
+        },
+        {
+          "reference": "turn29search18",
+          "title": "國學院大學陸上競技部(国学院大学)part75",
+          "url": "https://mao.5ch.io/test/read.cgi/sposaloon/1767438309/522-n"
+        },
+        {
+          "reference": "turn29search19",
+          "title": "國學院大學陸上競技部(国学院大学)part75",
+          "url": "https://mao.5ch.io/test/read.cgi/sposaloon/1767438309/373-n"
+        },
+        {
+          "reference": "turn29search20",
+          "title": "國學院大學陸上競技部(国学院大学)part75",
+          "url": "https://mao.5ch.io/test/read.cgi/sposaloon/1767438309/774-n"
+        },
+        {
+          "reference": "turn29search21",
+          "title": "國學院大學陸上競技部(国学院大学)part65",
+          "url": "https://mao.5ch.io/test/read.cgi/sposaloon/1738374227"
+        },
+        {
+          "reference": "turn29search22",
+          "title": "箱根駅伝展望　16.城西大学｜一般文系大学院修士の趣味垢",
+          "url": "https://note.com/taqoochin2000/n/ncdbd61df2f4b"
+        },
+        {
+          "reference": "turn29search23",
+          "title": "中央大学長距離ブロックを応援するスレPart387",
+          "url": "https://mao.5ch.io/test/read.cgi/sposaloon/1737206575"
+        },
+        {
+          "reference": "turn29search24",
+          "title": "男子 EKIDEN (駅伝) 総合成績",
+          "url": "https://www.jaaf.info/hp/kiro23/cyuukou23/44/rel001.html"
+        },
+        {
+          "reference": "turn29search25",
+          "title": "創価大学駅伝部27",
+          "url": "https://mao.5ch.io/test/read.cgi/sposaloon/1762932885"
+        },
+        {
+          "reference": "turn29search26",
+          "title": "高校長距離選手の進路597",
+          "url": "https://mao.5ch.io/test/read.cgi/sposaloon/1769169218/147-n"
+        },
+        {
+          "reference": "turn29search27",
+          "title": "高校長距離選手の進路606",
+          "url": "https://mao.5ch.io/test/read.cgi/sposaloon/1790990574/"
+        },
+        {
+          "reference": "turn29search28",
+          "title": "早稲田大学競走部 vol.539",
+          "url": "https://mao.5ch.io/test/read.cgi/sposaloon/1734950591"
+        },
+        {
+          "reference": "turn29search29",
+          "title": "國學院大學陸上競技部(国学院大学)part75",
+          "url": "https://mao.5ch.io/test/read.cgi/sposaloon/1767438309/373-"
+        },
+        {
+          "reference": "turn29search30",
+          "title": "第102回箱根駅伝結果 | みやゆー　大学長距離分析",
+          "url": "https://ameblo.jp/myuu0803/entry-12952201589.html"
+        },
+        {
+          "reference": "turn29search31",
+          "title": "創価大学駅伝部30",
+          "url": "https://mao.5ch.io/test/read.cgi/sposaloon/1771157232/171-n"
+        },
+        {
+          "reference": "turn29search32",
+          "title": "創価大学駅伝部30",
+          "url": "https://mao.5ch.io/test/read.cgi/sposaloon/1771157232/171-"
+        }
+      ],
+      "toolError": false
+    },
+    {
+      "sequence": 17,
+      "checkedAt": "2026-11-25",
+      "request": {
+        "system2_search_query": [
+          {
+            "q": "\"飯國\" \"ハーフ\" \"2025.11.16\" 國學院"
+          },
+          {
+            "q": "\"尾熊\" \"丸亀\" \"2025\" 結果 國學院"
+          },
+          {
+            "q": "\"中島\" \"巨翔\" \"28分40秒21\" 日体"
+          },
+          {
+            "q": "\"小林\" \"竜輝\" \"13分52秒39\""
+          }
+        ],
+        "click": [
+          {
+            "ref_id": "turn28view0",
+            "id": 9
+          }
+        ],
+        "response_length": "long"
+      },
+      "documents": [
+        {
+          "reference": "turn30search0",
+          "title": "〖出雲駅伝〗最終区間エントリー発表　当日変更で国学院大・野中恒亨は４区／一覧 - 陸上ライブ速報 : 日刊スポーツ",
+          "url": "https://www.nikkansports.com/sports/athletics/news/202609190000391.html"
+        },
+        {
+          "reference": "turn30search1",
+          "title": "陸上・駅伝 - 第102回箱根駅伝チームエントリー・シード10校編　「6強」から抜け出すチームは | 4years. #学生スポーツ",
+          "url": "https://4years.asahi.com/article/16181633"
+        },
+        {
+          "reference": "turn30search2",
+          "title": "第38回出雲駅伝　区間エントリー〖確定版〗 | 文化放送",
+          "url": "https://joqr.net/news/article/182639/"
+        },
+        {
+          "reference": "turn30search3",
+          "title": "〖全エントリー〗全日本大学駅伝2026関東地区予選会 | 箱根駅伝-もっとフリーダムに語ろう!!!-",
+          "url": "https://hakonankit-fd.com/article/post-26369.html"
+        },
+        {
+          "reference": "turn30search4",
+          "title": "出雲駅伝2026(第38回)〖出場校エントリーメンバー！区間や日程の紹介も〗 | 箱根駅伝-もっとフリーダムに語ろう!!!-",
+          "url": "https://hakonankit-fd.com/article/post-27252.html?amp=1"
+        },
+        {
+          "reference": "turn30search5",
+          "title": "尾熊迅斗（國學院） | Ekiden-Metrics",
+          "url": "https://ekidenmetrics.com/athletes/810"
+        },
+        {
+          "reference": "turn30search6",
+          "title": "〖組オーダー発表！〗全日本大学駅伝2026関東地区予選会 | 箱根駅伝-もっとフリーダムに語ろう!!!-",
+          "url": "https://hakonankit-fd.com/article/post-26423.html"
+        },
+        {
+          "reference": "turn30search7",
+          "title": "〖結果〗第314回日本体育大学長距離競技会兼第9回NITTAIDAI Challenge Games(2024年6月1日2日) | 箱根駅伝-もっとフリーダムに語ろう!!!-",
+          "url": "https://hakonankit-fd.com/article/post-23068.html"
+        },
+        {
+          "reference": "turn30search8",
+          "title": "出雲駅伝2025〖城西大&東京国際大〗戦力分析&区間エントリー予想 | 箱根駅伝-もっとフリーダムに語ろう!!!-",
+          "url": "https://hakonankit-fd.com/article/post-25298.html"
+        },
+        {
+          "reference": "turn30search9",
+          "title": "〖結果〗第314回日本体育大学長距離競技会兼第9回NITTAIDAI Challenge Games(2024年6月1日2日) | 箱根駅伝-もっとフリーダムに語ろう!!!-",
+          "url": "https://hakonankit-fd.com/article/post-23068.html/amp"
+        },
+        {
+          "reference": "turn30search10",
+          "title": "〖城西大学〗第102回箱根駅伝2026へ～新入生情報や戦力分析＆持ちタイムなど！ | 箱根駅伝-もっとフリーダムに語ろう!!!-",
+          "url": "https://hakonankit-fd.com/article/post-25145.html/amp"
+        },
+        {
+          "reference": "turn30search11",
+          "title": "香川丸亀国際ハーフマラソン2025年 速報結果 - 陸上記録集",
+          "url": "https://info-ch.net/250131004-rikujou-results/"
+        },
+        {
+          "reference": "turn30search12",
+          "title": "2025出雲駅伝　区間エントリーと順位予想 : enjoy sports life",
+          "url": "https://blog.livedoor.jp/noritakeramuki/archives/37561107.html"
+        },
+        {
+          "reference": "turn30search47",
+          "title": "茨城",
+          "url": "https://ibariku.com/event/result/18/20190321all.pdf"
+        },
+        {
+          "reference": "turn30search13",
+          "title": "第78回香川丸亀国際ハーフマラソンの結果|学生長距離データベース(関東中心)",
+          "url": "https://gakusei-ekiden.jp/m/blog_marugame-half-2026/"
+        },
+        {
+          "reference": "turn30search14",
+          "title": "[4][5]箱根駅伝2026(第102回)〖城西大／東京国際大〗戦力分析＆区間オーダー予想も！ | 箱根駅伝-もっとフリーダムに語ろう!!!-",
+          "url": "https://hakonankit-fd.com/article/post-25650.html/amp"
+        },
+        {
+          "reference": "turn30search15",
+          "title": "出雲駅伝2026〖城西大学〗戦力分析&区間エントリー予想 | 箱根駅伝-もっとフリーダムに語ろう!!!-",
+          "url": "https://hakonankit-fd.com/article/post-27371.html/amp"
+        },
+        {
+          "reference": "turn30search16",
+          "title": "男子日本学生選手権 ハーフマラソン 決勝",
+          "url": "https://gold.jaic.org/kagawa/2025/2026marugame-half/rel003.html"
+        },
+        {
+          "reference": "turn30search17",
+          "title": "[組オーダー予想③]全日本大学駅伝2026関東地区予選会 | 箱根駅伝-もっとフリーダムに語ろう!!!-",
+          "url": "https://hakonankit-fd.com/article/post-26411.html"
+        },
+        {
+          "reference": "turn30search18",
+          "title": "中島巨翔の読み方は「なかしま まさと」！城西大学主将で箱根9区6位｜藤蔭高校・家族・経歴を解説 - 陸人ノート",
+          "url": "https://rikujinote.com/2026/09/13/%E4%B8%AD%E5%B3%B6%E5%B7%A8%E7%BF%94%E3%81%AE%E8%AA%AD%E3%81%BF%E6%96%B9%E3%81%AF%E3%80%8C%E3%81%AA%E3%81%8B%E3%81%97%E3%81%BE-%E3%81%BE%E3%81%95%E3%81%A8%E3%80%8D%EF%BC%81%E5%9F%8E%E8%A5%BF%E5%A4%A7/"
+        },
+        {
+          "reference": "turn30search19",
+          "title": "〖結果〗第21回関東私学七大学対校陸上競技選手権大会(2025年4月5日) | 箱根駅伝-もっとフリーダムに語ろう!!!-",
+          "url": "https://hakonankit-fd.com/article/post-24581.html"
+        },
+        {
+          "reference": "turn30search20",
+          "title": "男子 ハーフマラソン 決勝",
+          "url": "https://gold.jaic.org/kagawa/2025/2026marugame-half/rel00105.html"
+        },
+        {
+          "reference": "turn30search21",
+          "title": "男子駅伝部 | TEAM JOSAI!",
+          "url": "https://www.josai.ac.jp/tjp/club/dansiekiden/"
+        },
+        {
+          "reference": "turn30search22",
+          "title": "〖結果・長距離種目4/5〗関東インカレ陸上2026・5000m | 箱根駅伝-もっとフリーダムに語ろう!!!-",
+          "url": "https://hakonankit-fd.com/article/post-26608.html?amp=1"
+        },
+        {
+          "reference": "turn30search23",
+          "title": "男子 ハーフマラソン 決勝",
+          "url": "https://gold.jaic.org/kagawa/2025/2026marugame-half/rel001.html"
+        },
+        {
+          "reference": "turn30search24",
+          "title": "男子日本学生選手権 ハーフマラソン 決勝",
+          "url": "https://gold.jaic.org/kagawa/2025/2026marugame-half/rel00304.html"
+        },
+        {
+          "reference": "turn30search25",
+          "title": "〖結果・第28回日本学生ハーフ兼〗第77回 香川丸亀国際ハーフマラソン(2025年2月2日) | 箱根駅伝-もっとフリーダムに語ろう!!!-",
+          "url": "https://hakonankit-fd.com/article/post-24312.html"
+        },
+        {
+          "reference": "turn30search26",
+          "title": "〖出雲駅伝〗最終区間エントリー一覧　青学大２区に折田壮太、国学院大４区に辻原輝ら当日変更 - 陸上ライブ速報 : 日刊スポーツ",
+          "url": "https://www.nikkansports.com/sports/athletics/news/202510080000099.html?Page=3"
+        },
+        {
+          "reference": "turn30search27",
+          "title": "男子 ハーフマラソン 決勝",
+          "url": "https://gold.jaic.org/kagawa/2025/2026marugame-half/rel00104.html"
+        },
+        {
+          "reference": "turn30search28",
+          "title": "帝京大学駅伝競走部応援スレ82",
+          "url": "https://mao.5ch.io/test/read.cgi/sposaloon/1738465588"
+        },
+        {
+          "reference": "turn30search29",
+          "title": "國學院大學陸上競技部(国学院大学)part65",
+          "url": "https://mao.5ch.io/test/read.cgi/sposaloon/1738374227"
+        },
+        {
+          "reference": "turn30search30",
+          "title": "尾熊迅斗(國學院)は中学から陸上を始めた？高校時代の成績と箱根の活躍も注目 | スポナビア｜​注目選手の素顔",
+          "url": "https://www.info-topics.com/ogumahayato-rikujyou/"
+        },
+        {
+          "reference": "turn30search31",
+          "title": "〖エキスポ駅伝〗区間エントリー一覧　３区にトヨタ太田智樹、GMO吉田祐也、駒大・山川拓馬ら - 陸上ライブ速報 : 日刊スポーツ",
+          "url": "https://www.nikkansports.com/sports/athletics/news/202502180000519.html"
+        },
+        {
+          "reference": "turn30view0",
+          "title": "競技会情報 | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/competition/result"
+        }
+      ],
+      "toolError": false
+    },
+    {
+      "sequence": 18,
+      "checkedAt": "2026-11-25",
+      "request": {
+        "system2_search_query": [
+          {
+            "q": "site:gold.jaic.org \"2025\" \"飯國\" \"1:01:51\""
+          },
+          {
+            "q": "\"小林\" \"13:52.39\" \"2025\" 日体"
+          },
+          {
+            "q": "\"中島\" \"28:40.21\" \"2025\" 日体"
+          },
+          {
+            "q": "site:asahi-kasei.com \"山本\" \"2026\" 陸上 結果"
+          }
+        ],
+        "click": [
+          {
+            "ref_id": "turn30view0",
+            "id": 44
+          },
+          {
+            "ref_id": "turn30view0",
+            "id": 50
+          }
+        ],
+        "response_length": "long"
+      },
+      "documents": [
+        {
+          "reference": "turn31search0",
+          "title": "第321回日本体育大学長距離競技会兼第15回NITTAIDAI Challenge Games(6/1)の結果|学生長距離・駅伝データベース(関東中心)",
+          "url": "https://gakusei-ekiden.jp/m/nssupdf20250531_20250601/"
+        },
+        {
+          "reference": "turn31search1",
+          "title": "大2 男子 5000m 2025年 ランキング | 陸上長距離・駅伝DB",
+          "url": "https://ekiden-db.jp/rankings/TRK_5000/2025?gender=M&grade=univ2"
+        },
+        {
+          "reference": "turn31search2",
+          "title": "大学 10000m 2025年 ランキング | 陸上長距離・駅伝DB",
+          "url": "https://ekiden-db.jp/rankings/TRK_10000/2025?grade=univ"
+        },
+        {
+          "reference": "turn31search3",
+          "title": "神奈川県 大2 5000m 2025年 ランキング | 陸上長距離・駅伝DB",
+          "url": "https://ekiden-db.jp/rankings/TRK_5000/2025?grade=univ2&prefecture=14"
+        },
+        {
+          "reference": "turn31search4",
+          "title": "324回 日体大記録会　2025年11月15〜16日　結果・速報（リザルト）",
+          "url": "https://blog.neet-shikakugets.com/nittaidai-ld-2025-1115"
+        },
+        {
+          "reference": "turn31search5",
+          "title": "城西大学 | Ekiden-Metrics",
+          "url": "https://ekidenmetrics.com/universities/11"
+        },
+        {
+          "reference": "turn31search6",
+          "title": "男子 ハーフマラソン 決勝",
+          "url": "https://gold.jaic.org/kagawa/2024/2025marugamehalf/rel00105.html"
+        },
+        {
+          "reference": "turn31search7",
+          "title": "男子日本学生選手権 ハーフマラソン 決勝",
+          "url": "https://gold.jaic.org/kagawa/2024/2025marugamehalf/rel00305.html"
+        },
+        {
+          "reference": "turn31search8",
+          "title": "小林 竜輝（城西）｜大学駅伝記録室",
+          "url": "https://ekiden-kiroku.keni-sports.com/runners/js2024_02/"
+        },
+        {
+          "reference": "turn31search9",
+          "title": "男子日本学生選手権 ハーフマラソン 決勝",
+          "url": "https://gold.jaic.org/kagawa/2024/2025marugamehalf/rel003.html"
+        },
+        {
+          "reference": "turn31search10"
+        },
+        {
+          "reference": "turn31search11",
+          "title": "中島 巨翔（城西）｜大学駅伝記録室",
+          "url": "https://ekiden-kiroku.keni-sports.com/runners/js2023_02/"
+        },
+        {
+          "reference": "turn31search12",
+          "title": "箱根駅伝展望　16.城西大学｜一般文系大学院修士の趣味垢",
+          "url": "https://note.com/taqoochin2000/n/ncdbd61df2f4b"
+        },
+        {
+          "reference": "turn31search13",
+          "title": "男子 ハーフマラソン 決勝",
+          "url": "https://gold.jaic.org/kagawa/2025/2026marugame-half/rel001.html"
+        },
+        {
+          "reference": "turn31search14",
+          "title": "男子 ハーフマラソン 決勝",
+          "url": "https://gold.jaic.org/jaic/member/kagawa/2025/2026marugame-half/rel001.html"
+        },
+        {
+          "reference": "turn31search15",
+          "title": "第63回九州実業団毎日駅伝競走大会 兼 第71回全日本実業団対抗駅伝競走大会予選 | 旭化成株式会社",
+          "url": "https://www.asahi-kasei.com/jp/sports-event/track-field/schedule/2026/1103"
+        },
+        {
+          "reference": "turn31search16",
+          "title": "2025年第57回全日本大学駅伝大学別エントリーリスト（暫定・関東勢のみ）",
+          "url": "https://hakonesaijo.sakura.ne.jp/2025-zen-entry.htm"
+        },
+        {
+          "reference": "turn31search17",
+          "title": "小林高校駅伝部",
+          "url": "https://medaka.5ch.io/test/read.cgi/athletics/1768235927/33-n"
+        },
+        {
+          "reference": "turn31search18",
+          "title": "小林高校駅伝部",
+          "url": "https://medaka.5ch.io/test/read.cgi/athletics/1768235927/33-"
+        },
+        {
+          "reference": "turn31search19",
+          "title": "男子 ハーフマラソン 決勝",
+          "url": "https://gold.jaic.org/kagawa/2025/2026marugame-half/rel00103.html"
+        },
+        {
+          "reference": "turn31search20",
+          "title": "2025年第57回全日本大学駅伝区間別エントリー",
+          "url": "https://hakonesaijo.sakura.ne.jp/2025-zen-ku-order-3.htm"
+        },
+        {
+          "reference": "turn31search21",
+          "title": "旭化成 陸上部 | 旭化成株式会社",
+          "url": "https://www.asahi-kasei.com/jp/sports-event/track-field"
+        },
+        {
+          "reference": "turn31search22",
+          "title": "ニューイヤー駅伝 in ぐんま（第70回全日本実業団対抗駅伝競走大会） | 旭化成株式会社",
+          "url": "https://www.asahi-kasei.com/jp/sports-event/track-field/schedule/2026/0101"
+        },
+        {
+          "reference": "turn31search23",
+          "title": "西脇工業陸上競技部Part136",
+          "url": "https://medaka.5ch.io/test/read.cgi/athletics/1763277917"
+        },
+        {
+          "reference": "turn31search24",
+          "title": "専修大学陸上部応援スレpart20",
+          "url": "https://mao.5ch.io/test/read.cgi/sposaloon/1760925333"
+        },
+        {
+          "reference": "turn31view0",
+          "title": "第39回2026上尾シティハーフマラソン | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/competition/detail/1077"
+        },
+        {
+          "reference": "turn31view1",
+          "title": "第333回日本体育大学長距離競技会 兼 第26回NITTAIDAI Challenge Games | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/competition/detail/1073"
+        }
+      ],
+      "toolError": false
+    },
+    {
+      "sequence": 19,
+      "checkedAt": "2026-11-25",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn31search9"
+          },
+          {
+            "ref_id": "turn31search0"
+          },
+          {
+            "ref_id": "turn31search21"
+          },
+          {
+            "ref_id": "https://aogaku-tf.com/results-2025.html"
+          }
+        ],
+        "system2_search_query": [
+          {
+            "q": "\"堀野\" \"29:15.33\" \"2026\" 4月25"
+          },
+          {
+            "q": "\"鈴木琉胤\" \"30:40.21\""
+          },
+          {
+            "q": "\"堀野\" \"14:08.70\" 結果"
+          },
+          {
+            "q": "\"小林\" \"28:53.24\" 日体"
+          }
+        ],
+        "response_length": "long"
+      },
+      "documents": [
+        {
+          "reference": "turn32search0",
+          "title": "結果一覧（2026/04/25）",
+          "url": "https://nittai-honbu.pecori.jp/nittai-result/328042526/shtml/result/track/20260425_2-8-6-0-7-3-3-0-5_ResultTrackA.html"
+        },
+        {
+          "reference": "turn32search1",
+          "title": "第38回出雲駅伝　区間エントリー〖確定版〗 | 文化放送",
+          "url": "https://joqr.co.jp/news/article/182639/"
+        },
+        {
+          "reference": "turn32search2",
+          "title": "2026年第38回出雲全日本大学選抜駅伝",
+          "url": "https://hakonesaijo.sakura.ne.jp/2026-izumo-entry-kanto-1.htm"
+        },
+        {
+          "reference": "turn32search3",
+          "title": "2026年第58回全日本大学駅伝",
+          "url": "https://hakonesaijo.sakura.ne.jp/2026-zen-entry-2.htm"
+        },
+        {
+          "reference": "turn32search4",
+          "title": "2026年第58回全日本大学駅伝",
+          "url": "https://hakonesaijo.sakura.ne.jp/2026-zen-order-1.htm"
+        },
+        {
+          "reference": "turn32search5",
+          "title": "早稲田大学 長距離の記録|学生長距離・駅伝データベース(関東中心)",
+          "url": "https://gakusei-ekiden.jp/u/waseda/"
+        },
+        {
+          "reference": "turn32search6",
+          "title": "男子10000m 本戦 4組 結果 | 第328回日本体育大学長距離競技会 兼 第21回 NITTAIDAI Challenge Games | 陸上長距離・駅伝DB",
+          "url": "https://ekiden-db.jp/meets/2026-kanagawa-univ-kiroku-328-20260425/m-open-trk-10000-nittaidai-ld-2026-04-25-trk-10000-m-h4"
+        },
+        {
+          "reference": "turn32search7",
+          "title": "328回 日体大記録会　2026年4月25〜26日　結果・速報（リザルト）",
+          "url": "https://blog.neet-shikakugets.com/nittaidai-ld-2026-0425"
+        },
+        {
+          "reference": "turn32search8",
+          "title": "選手一覧｜大学駅伝記録室",
+          "url": "https://ekiden-kiroku.keni-sports.com/runners/?u=%E6%97%A9%E7%A8%B2%E7%94%B0"
+        },
+        {
+          "reference": "turn32search9",
+          "title": "早稲田大学｜出場校一覧｜第102回｜箱根駅伝 番組公式サイト｜日本テレビ",
+          "url": "https://www.ntv.co.jp/hakone/backnumber/102/team/waseda.html"
+        },
+        {
+          "reference": "turn32search10",
+          "title": "堀野 正太 (早稲田大学) ロード5km 13:56.00 | 陸上長距離・駅伝DB",
+          "url": "https://ekiden-db.jp/athletes/horino-shota-a19cb6"
+        },
+        {
+          "reference": "turn32search11",
+          "title": "第38回出雲駅伝　区間エントリー〖確定版〗 | 文化放送",
+          "url": "https://joqr.net/news/article/182639/"
+        },
+        {
+          "reference": "turn32search12",
+          "title": "4区｜出場校一覧・区間別｜第102回｜箱根駅伝 番組公式サイト｜日本テレビ",
+          "url": "https://www.ntv.co.jp/hakone/backnumber/102/team_kukan/4.html"
+        },
+        {
+          "reference": "turn32search13",
+          "title": "2026年第38回出雲全日本大選抜駅伝",
+          "url": "https://hakonesaijo.sakura.ne.jp/2026-izumo-entry-kanto-2.htm"
+        },
+        {
+          "reference": "turn32search42",
+          "title": "第102回東京箱根間往復大学駅伝競走チームエントリー",
+          "url": "https://www.hakone-ekiden.jp/_assets/2025/e93c7b920b5509a1e7e0303f246b2fc389cb7f2e.pdf"
+        },
+        {
+          "reference": "turn32search14",
+          "title": "令和8年328回日本体育大学長距離競技会 兼 21st NITTAIDAI Challenge Games | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/competition/detail/819"
+        },
+        {
+          "reference": "turn32search15",
+          "title": "2年の選手｜大学駅伝記録室",
+          "url": "https://ekiden-kiroku.keni-sports.com/runners/grade/2/"
+        },
+        {
+          "reference": "turn32search16",
+          "title": "第５８回（２０２６年）全日本大学駅伝　戦力分析＆区間配置予想　～早稲田大学～ | 大学駅伝まったり応援",
+          "url": "https://blog.sat-ekiden.info/2026/10/14/24123/"
+        },
+        {
+          "reference": "turn32search17",
+          "title": "箱根駅伝2026を走った210人の、この1年｜大学駅伝記録室",
+          "url": "https://ekiden-kiroku.keni-sports.com/races/hakone-2026-zaigaku/"
+        },
+        {
+          "reference": "turn32search43",
+          "title": "3月22日 12:10 ﾀｲﾑﾚｰｽ",
+          "url": "https://www.iiwanet.jp/j_trackfield/wp-content/uploads/48021f76f5a21d32227a4b5ab1ded7f5-2.pdf"
+        },
+        {
+          "reference": "turn32search18",
+          "title": "中央大学長距離ブロックを応援するスレPart438",
+          "url": "https://mao.5ch.io/test/read.cgi/sposaloon/1794041727/638"
+        },
+        {
+          "reference": "turn32search19",
+          "title": "第３８回（２０２６年）出雲駅伝　区間エントリー発表 | 大学駅伝まったり応援",
+          "url": "https://blog.sat-ekiden.info/2026/10/09/21181/"
+        },
+        {
+          "reference": "turn32search20",
+          "title": "2025年第37回出雲全日本大学選抜駅伝　5000mランキング",
+          "url": "https://hakonesaijo.sakura.ne.jp/2025-izumo-entry2.htm"
+        },
+        {
+          "reference": "turn32view0",
+          "title": "男子日本学生選手権 ハーフマラソン 決勝",
+          "url": "https://gold.jaic.org/kagawa/2024/2025marugamehalf/rel003.html"
+        },
+        {
+          "reference": "turn32view1",
+          "title": "第321回日本体育大学長距離競技会兼第15回NITTAIDAI Challenge Games(6/1)の結果|学生長距離・駅伝データベース(関東中心)",
+          "url": "https://gakusei-ekiden.jp/m/nssupdf20250531_20250601/"
+        },
+        {
+          "reference": "turn32view2",
+          "title": "旭化成 陸上部 | 旭化成株式会社",
+          "url": "https://www.asahi-kasei.com/jp/sports-event/track-field"
+        },
+        {
+          "reference": "turn32view3",
+          "title": "競技結果 ｜ 青山学院大学陸上競技部",
+          "url": "https://aogaku-tf.com/results-2025.html"
+        }
+      ],
+      "toolError": false
+    },
+    {
+      "sequence": 20,
+      "checkedAt": "2026-11-25",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn32search0"
+          },
+          {
+            "ref_id": "turn32search43"
+          },
+          {
+            "ref_id": "turn32view0",
+            "lineno": 0
+          },
+          {
+            "ref_id": "turn32view2",
+            "lineno": 125
+          }
+        ],
+        "find": [
+          {
+            "ref_id": "turn32view3",
+            "pattern": "宇田川"
+          },
+          {
+            "ref_id": "turn32view3",
+            "pattern": "27:49.90"
+          },
+          {
+            "ref_id": "turn32view3",
+            "pattern": "1:03:18"
+          },
+          {
+            "ref_id": "turn32view1",
+            "pattern": "pdf"
+          }
+        ],
+        "response_length": "long"
+      },
+      "documents": [
+        {
+          "reference": "turn33view0",
+          "title": "nittai-honbu.pecori.jp",
+          "url": "https://nittai-honbu.pecori.jp/nittai-result/328042526/shtml/result/track/20260425_2-8-6-0-7-3-3-0-5_ResultTrackA.html"
+        },
+        {
+          "reference": "turn33view1"
+        },
+        {
+          "reference": "turn33view2",
+          "title": "男子日本学生選手権 ハーフマラソン 決勝",
+          "url": "https://gold.jaic.org/kagawa/2024/2025marugamehalf/rel003.html"
+        },
+        {
+          "reference": "turn33view3",
+          "title": "旭化成 陸上部 | 旭化成株式会社",
+          "url": "https://www.asahi-kasei.com/jp/sports-event/track-field"
+        },
+        {
+          "reference": "turn33view4",
+          "title": "競技結果 ｜ 青山学院大学陸上競技部",
+          "url": "https://aogaku-tf.com/results-2025.html"
+        },
+        {
+          "reference": "turn33view5",
+          "title": "競技結果 ｜ 青山学院大学陸上競技部",
+          "url": "https://aogaku-tf.com/results-2025.html"
+        },
+        {
+          "reference": "turn33view6",
+          "title": "競技結果 ｜ 青山学院大学陸上競技部",
+          "url": "https://aogaku-tf.com/results-2025.html"
+        },
+        {
+          "reference": "turn33view7",
+          "title": "第321回日本体育大学長距離競技会兼第15回NITTAIDAI Challenge Games(6/1)の結果|学生長距離・駅伝データベース(関東中心)",
+          "url": "https://gakusei-ekiden.jp/m/nssupdf20250531_20250601/"
+        }
+      ],
+      "toolError": false
+    },
+    {
+      "sequence": 21,
+      "checkedAt": "2026-11-25",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn33view0",
+            "lineno": 0
+          },
+          {
+            "ref_id": "turn32view0",
+            "lineno": 0,
+            "num_lines": 22
+          },
+          {
+            "ref_id": "turn32view2",
+            "lineno": 125,
+            "num_lines": 120
+          }
+        ],
+        "system2_search_query": [
+          {
+            "q": "site:nittai-honbu.pecori.jp \"13:52.39\" \"2025\""
+          },
+          {
+            "q": "site:nittai-honbu.pecori.jp \"28:40.21\""
+          },
+          {
+            "q": "site:nittai-honbu.pecori.jp \"小林\" \"28:53.24\""
+          },
+          {
+            "q": "site:josai.ac.jp \"中島\" \"14分05秒72\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "documents": [],
+      "toolError": false
+    },
+    {
+      "sequence": 22,
+      "checkedAt": "2026-11-25",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn33view0",
+            "lineno": 0
+          },
+          {
+            "ref_id": "turn32view0",
+            "lineno": 2
+          },
+          {
+            "ref_id": "turn32view2",
+            "lineno": 210
+          }
+        ],
+        "system2_search_query": [
+          {
+            "q": "site:nittai-honbu.pecori.jp \"13:52.39\" \"2025\""
+          },
+          {
+            "q": "site:nittai-honbu.pecori.jp \"28:40.21\""
+          },
+          {
+            "q": "site:nittai-honbu.pecori.jp \"小林\" \"28:53.24\""
+          },
+          {
+            "q": "site:josai.ac.jp \"中島\" \"14分05秒72\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "documents": [
+        {
+          "reference": "turn34search0",
+          "title": "部長・監督・部員 | TEAM JOSAI!",
+          "url": "https://www.josai.ac.jp/tjp/club/dansiekiden/member/"
+        },
+        {
+          "reference": "turn34search1",
+          "title": "結果一覧（2025/11/15）",
+          "url": "https://nittai-honbu.pecori.jp/nittai-result/11151116/shtml/result/track/20251115_2-3-6-0-7-3-3-0-5_ResultTrackA.html"
+        },
+        {
+          "reference": "turn34view0",
+          "title": "nittai-honbu.pecori.jp",
+          "url": "https://nittai-honbu.pecori.jp/nittai-result/328042526/shtml/result/track/20260425_2-8-6-0-7-3-3-0-5_ResultTrackA.html"
+        },
+        {
+          "reference": "turn34view1",
+          "title": "男子日本学生選手権 ハーフマラソン 決勝",
+          "url": "https://gold.jaic.org/kagawa/2024/2025marugamehalf/rel003.html"
+        },
+        {
+          "reference": "turn34view2",
+          "title": "旭化成 陸上部 | 旭化成株式会社",
+          "url": "https://www.asahi-kasei.com/jp/sports-event/track-field"
+        }
+      ],
+      "toolError": false
+    },
+    {
+      "sequence": 23,
+      "checkedAt": "2026-11-25",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn34search1"
+          },
+          {
+            "ref_id": "turn32view2",
+            "lineno": 145
+          }
+        ],
+        "find": [
+          {
+            "ref_id": "turn33view1",
+            "pattern": "10000m"
+          },
+          {
+            "ref_id": "turn33view1",
+            "pattern": "2024"
+          }
+        ],
+        "system2_search_query": [
+          {
+            "q": "site:aogaku-tf.com \"1:03:18\" \"鹿島\""
+          },
+          {
+            "q": "\"飯田\" \"13:34.20\" \"2023\" 記録会"
+          },
+          {
+            "q": "site:asahi-kasei.com \"山本歩夢\" \"2026\" \"5000\""
+          },
+          {
+            "q": "site:asahi-kasei.com \"山本歩夢\" \"2026\" \"10000\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "documents": [
+        {
+          "reference": "turn35search0",
+          "title": "記録 5000m｜大学駅伝記録室",
+          "url": "https://ekiden-kiroku.keni-sports.com/records/"
+        },
+        {
+          "reference": "turn35search1",
+          "title": "大学駅伝まったり検索　～大会・選手情報検索サイト～",
+          "url": "https://sat-ekiden.info/search/runner_detail?runner_id=ag2024_02"
+        },
+        {
+          "reference": "turn35search2",
+          "title": "青山学院大学 長距離の記録|学生長距離・駅伝データベース(関東中心)",
+          "url": "https://gakusei-ekiden.jp/u/aoyama/"
+        },
+        {
+          "reference": "turn35search3",
+          "title": "男 ５０００ｍ 決勝",
+          "url": "https://gold.jaic.org/okinawa/ksokuho/26minakyu/rel017.html"
+        },
+        {
+          "reference": "turn35search4",
+          "title": "・第３１０回日本体育大学長距離競技会　男子5000mの結果 – 高校駅伝ファン",
+          "url": "https://ekidenfan.japan42195.com/2023/11/25/%E3%83%BB%E7%AC%AC%EF%BC%93%EF%BC%91%EF%BC%90%E5%9B%9E%E6%97%A5%E6%9C%AC%E4%BD%93%E8%82%B2%E5%A4%A7%E5%AD%A6%E9%95%B7%E8%B7%9D%E9%9B%A2%E7%AB%B6%E6%8A%80%E4%BC%9A%E3%80%80%E7%94%B7%E5%AD%905000m/"
+        },
+        {
+          "reference": "turn35search14",
+          "title": "誰もが夢見た頂点へ。そして、か",
+          "url": "https://www.jaaf.or.jp/files/upload/202507/05_jchprogram.pdf"
+        },
+        {
+          "reference": "turn35search5",
+          "title": "競技結果 ｜ 青山学院大学陸上競技部",
+          "url": "https://aogaku-tf.com/results-2024.html"
+        },
+        {
+          "reference": "turn35search6",
+          "title": "飯田翔大 | 現在 青山学院大学（青学大） | 大学 青山学院大学（青学大） | 高校 出水中央高校 | 記録・大会成績 | 襷の系譜",
+          "url": "https://tasukikeifu.com/ja/players/kaito-iida"
+        },
+        {
+          "reference": "turn35search15",
+          "title": "予選 1組 | --- | ---  2組",
+          "url": "https://www.kgrr.org/files/competition/119/40/104ic_programorganization.pdf"
+        },
+        {
+          "reference": "turn35search7",
+          "title": "高校長距離選手の進路569",
+          "url": "https://mao.5ch.io/test/read.cgi/sposaloon/1738960729"
+        },
+        {
+          "reference": "turn35search8",
+          "title": "〖2026年度〗青山学院大学 陸上競技部（長距離）選手一覧・持ちタイムデータ-駅伝データバンク",
+          "url": "https://ekidennekoinu.blogspot.com/2026/03/2026_60.html"
+        },
+        {
+          "reference": "turn35search9",
+          "title": "飯田翔大(陸上)の進路は青学？ 出身中学や自己ベストは？｜Promising選手名鑑",
+          "url": "https://sports-brothers.com/31719.html"
+        },
+        {
+          "reference": "turn35search10",
+          "title": "青山学院大学│2024選手一覧 箱根駅伝 出雲駅伝 全日本大学駅伝の選手まとめ - 駅伝・陸上情報局",
+          "url": "https://rikujyo.matsusakaaaano.com/ded-aoyamagakuin2024-mber/"
+        },
+        {
+          "reference": "turn35search11",
+          "title": "青山学院大学陸上競技部応援スレ193",
+          "url": "https://mao.5ch.io/test/read.cgi/sposaloon/1705930769"
+        },
+        {
+          "reference": "turn35search12",
+          "title": "創価大学駅伝部26",
+          "url": "https://mao.5ch.io/test/read.cgi/sposaloon/1760769424"
+        },
+        {
+          "reference": "turn35search13",
+          "title": "第37回ゴールデンゲームズinのべおか | 旭化成株式会社",
+          "url": "https://www.asahi-kasei.com/jp/sports-event/track-field/schedule/2026/0504"
+        },
+        {
+          "reference": "turn35search16",
+          "title": "# 男子中学共通　１５００ｍ",
+          "url": "https://toyonakarikukyou.sakura.ne.jp/img/2024/250329-30_Toyonaka3-2Result.pdf"
+        },
+        {
+          "reference": "turn35view0",
+          "title": "nittai-honbu.pecori.jp",
+          "url": "https://nittai-honbu.pecori.jp/nittai-result/11151116/shtml/result/track/20251115_2-3-6-0-7-3-3-0-5_ResultTrackA.html"
+        },
+        {
+          "reference": "turn35view1",
+          "title": "旭化成 陸上部 | 旭化成株式会社",
+          "url": "https://www.asahi-kasei.com/jp/sports-event/track-field"
+        },
+        {
+          "reference": "turn35view2"
+        },
+        {
+          "reference": "turn35view3"
+        }
+      ],
+      "toolError": false
+    },
+    {
+      "sequence": 24,
+      "checkedAt": "2026-11-25",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn35search5"
+          },
+          {
+            "ref_id": "turn35search13"
+          }
+        ],
+        "click": [
+          {
+            "ref_id": "turn35view1",
+            "id": 10
+          }
+        ],
+        "system2_search_query": [
+          {
+            "q": "site:waseda-ac.jp \"堀野\" \"4月25日\" \"29:15\""
+          },
+          {
+            "q": "site:nssu-athletic.com \"321\" \"結果\""
+          },
+          {
+            "q": "site:iiwanet.jp/j_trackfield \"48021f76f5a21d32227a4b5ab1ded7f5\""
+          },
+          {
+            "q": "\"堀野正太\" \"14分08秒70\" 記録"
+          }
+        ],
+        "response_length": "long"
+      },
+      "documents": [
+        {
+          "reference": "turn36search0",
+          "title": "部員紹介 | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/team/member/detail/357"
+        },
+        {
+          "reference": "turn36search1",
+          "title": "陸上・駅伝 - 駒澤大に落合晃、早大に鈴木琉胤ら　期待のルーキー2025・3大駅伝主な有力校編 | 4years. #学生スポーツ",
+          "url": "https://4years.asahi.com/article/15696088"
+        },
+        {
+          "reference": "turn36search2",
+          "title": "出雲駅伝2025(第37回)〖出場校エントリーメンバー！区間や日程の紹介も〗 | 箱根駅伝-もっとフリーダムに語ろう!!!-",
+          "url": "https://hakonankit-fd.com/article/post-25201.html"
+        },
+        {
+          "reference": "turn36search3",
+          "title": "〖大学駅伝〗15年ぶりの箱根駅伝優勝を狙う早稲田大の強力ルーキー　佐々木哲は三大駅伝で飛躍を誓う - ライブドアニュース",
+          "url": "https://news.livedoor.com/article/detail/28758213/"
+        },
+        {
+          "reference": "turn36search4",
+          "title": "〖大学駅伝〗15年ぶりの箱根駅伝優勝を狙う早稲田大の強力ルーキー　佐々木哲は三大駅伝で飛躍を誓う (2ページ目) | web Sportiva (スポルティーバ)",
+          "url": "https://sportiva.shueisha.co.jp/clm/othersports/rikujo/2025/05/15/15/?page=2"
+        },
+        {
+          "reference": "turn36search5",
+          "title": "第57回全日本大学駅伝　エントリー発表と雑感（関東地区大学シード校編） : enjoy sports life",
+          "url": "https://blog.livedoor.jp/noritakeramuki/archives/37647836.html"
+        },
+        {
+          "reference": "turn36search6",
+          "title": "[14][15]箱根駅伝2026(第102回)〖早稲田大／創価大〗戦力分析＆区間オーダー予想も！ | 箱根駅伝-もっとフリーダムに語ろう!!!-",
+          "url": "https://hakonankit-fd.com/article/post-25674.html"
+        },
+        {
+          "reference": "turn36search7",
+          "title": "箱根駅伝2026(第102回)〖16人エントリー・出場校一覧〗 | 箱根駅伝-もっとフリーダムに語ろう!!!-",
+          "url": "https://hakonankit-fd.com/article/post-25626.html/amp"
+        },
+        {
+          "reference": "turn36search8",
+          "title": "全日本大学駅伝2026区間オーダー予想⑥〖早稲田大・中央大〗 | 箱根駅伝-もっとフリーダムに語ろう!!!-",
+          "url": "https://hakonankit-fd.com/article/post-27634.html/amp"
+        },
+        {
+          "reference": "turn36search9",
+          "title": "2025年箱根駅伝展望：中央大と早稲田大に高校トップ長距離ランナーが進学 - 5000m13分台記録保持者の進路分析（4／4） - 駅伝 - Number Web - ナンバー",
+          "url": "https://number.bunshun.jp/articles/-/864821?page=4"
+        },
+        {
+          "reference": "turn36search10",
+          "title": "主な大会・記録会のエントリー情報／結果(12/04　甲佐10マイル、世界クロカンU20選考、東海大長距離、東京陸協LDC) : 学生長距離観測所(主なコンテンツは休止中)",
+          "url": "https://gakusei-ld-kansoku.blog.jp/archives/32266836.html"
+        },
+        {
+          "reference": "turn36search11",
+          "title": "〖出雲駅伝2026〗早稲田大学のエントリーメンバー決定！伝統校の布陣・注目選手と過酷な区間予想をガチ分析！ | まりもの気まぐれ日記",
+          "url": "https://sokutrend.com/izumowaseda/"
+        },
+        {
+          "reference": "turn36view0",
+          "title": "競技結果 ｜ 青山学院大学陸上競技部",
+          "url": "https://aogaku-tf.com/results-2024.html"
+        },
+        {
+          "reference": "turn36view1",
+          "title": "第37回ゴールデンゲームズinのべおか | 旭化成株式会社",
+          "url": "https://www.asahi-kasei.com/jp/sports-event/track-field/schedule/2026/0504"
+        },
+        {
+          "reference": "turn36view2",
+          "title": "試合予定・結果 | 旭化成株式会社",
+          "url": "https://www.asahi-kasei.com/jp/sports-event/track-field/schedule"
+        }
+      ],
+      "toolError": false
+    },
+    {
+      "sequence": 25,
+      "checkedAt": "2026-11-25",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn32view3",
+            "id": 35
+          },
+          {
+            "ref_id": "turn32view3",
+            "id": 54
+          }
+        ],
+        "find": [
+          {
+            "ref_id": "turn36view2",
+            "pattern": "2026年"
+          },
+          {
+            "ref_id": "turn36view2",
+            "pattern": "山本"
+          },
+          {
+            "ref_id": "turn36view0",
+            "pattern": "13:37.77"
+          }
+        ],
+        "system2_search_query": [
+          {
+            "q": "\"鈴木琉胤\" \"ハーフマラソン\" 記録 2026"
+          },
+          {
+            "q": "\"桜井優我\" \"1:04:59\" ハーフ"
+          },
+          {
+            "q": "\"中島巨翔\" \"14:05.72\" 日付"
+          },
+          {
+            "q": "\"小林竜輝\" \"1:03:04\" ハーフ"
+          }
+        ],
+        "response_length": "long"
+      },
+      "documents": [
+        {
+          "reference": "turn37search0",
+          "title": "4区｜出場校一覧・区間別｜第102回｜箱根駅伝 番組公式サイト｜日本テレビ",
+          "url": "https://www.ntv.co.jp/hakone/backnumber/102/team_kukan/4.html"
+        },
+        {
+          "reference": "turn37search1",
+          "title": "桜井 優我(城西大)|学生長距離・駅伝データベース(関東中心)",
+          "url": "https://gakusei-ekiden.jp/p/10946/"
+        },
+        {
+          "reference": "turn37search2",
+          "title": "男子歴代ランキング | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/record/detail/2"
+        },
+        {
+          "reference": "turn37search3",
+          "title": "城西大学｜出場校一覧｜第102回｜箱根駅伝 番組公式サイト｜日本テレビ",
+          "url": "https://www.ntv.co.jp/hakone/backnumber/102/team/josai.html"
+        },
+        {
+          "reference": "turn37view0",
+          "title": "飯田　翔大 ｜ 青山学院大学陸上競技部",
+          "url": "https://aogaku-tf.com/member-364baada-911e-8198-a545-d9c5635d5008.html"
+        },
+        {
+          "reference": "turn37view1",
+          "title": "小河原　陽琉 ｜ 青山学院大学陸上競技部",
+          "url": "https://aogaku-tf.com/member-364baada-911e-81b8-b42b-ec37ea9eb48b.html"
+        },
+        {
+          "reference": "turn37view2",
+          "title": "試合予定・結果 | 旭化成株式会社",
+          "url": "https://www.asahi-kasei.com/jp/sports-event/track-field/schedule"
+        },
+        {
+          "reference": "turn37view3",
+          "title": "試合予定・結果 | 旭化成株式会社",
+          "url": "https://www.asahi-kasei.com/jp/sports-event/track-field/schedule"
+        },
+        {
+          "reference": "turn37view4",
+          "title": "競技結果 ｜ 青山学院大学陸上競技部",
+          "url": "https://aogaku-tf.com/results-2024.html"
+        }
+      ],
+      "toolError": false
+    },
+    {
+      "sequence": 26,
+      "checkedAt": "2026-11-25",
+      "request": {
+        "find": [
+          {
+            "ref_id": "turn37view0",
+            "pattern": "ベスト"
+          },
+          {
+            "ref_id": "turn37view1",
+            "pattern": "ベスト"
+          },
+          {
+            "ref_id": "turn36view2",
+            "pattern": "2026"
+          },
+          {
+            "ref_id": "turn36view0",
+            "pattern": "第13回"
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "turn36view0",
+            "lineno": 1028
+          },
+          {
+            "ref_id": "turn36view0",
+            "lineno": 560
+          }
+        ],
+        "system2_search_query": [
+          {
+            "q": "\"宇田川 瞬矢\" \"2026\" \"自己ベスト\" コモディ"
+          },
+          {
+            "q": "\"宇田川\" \"2026\" \"27\" コモディ 記録"
+          },
+          {
+            "q": "\"堀野\" \"29:15.33\" \"4/25\""
+          },
+          {
+            "q": "\"鈴木琉胤\" \"30:40.21\" \"2024\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "documents": [
+        {
+          "reference": "turn38search0",
+          "title": "宇田川 瞬矢 (コモディイイダ) 5000m 13:56.42 | 陸上長距離・駅伝DB",
+          "url": "https://ekiden-db.jp/athletes/udagawa-shunya-3b8a38"
+        },
+        {
+          "reference": "turn38search1",
+          "title": "宇田川 瞬矢 陸上競技選手データ | 陸上競技モバイル",
+          "url": "https://rikujou.jp/athlete_detail/902487/"
+        },
+        {
+          "reference": "turn38search2",
+          "title": "328回 日体大記録会　2026年4月25〜26日　結果・速報（リザルト）",
+          "url": "https://blog.neet-shikakugets.com/nittaidai-ld-2026-0425"
+        },
+        {
+          "reference": "turn38search3",
+          "title": "〖2026年〗第67回東日本実業団駅伝 エントリーリスト全30チーム｜登録選手・自己ベスト | 駅伝ナビ",
+          "url": "https://kasokusuru-ht.com/east-japan-corporate-ekiden-2026-entry/"
+        },
+        {
+          "reference": "turn38search4",
+          "title": "早稲田大学 長距離の記録|学生長距離・駅伝データベース(関東中心)",
+          "url": "https://gakusei-ekiden.jp/u/waseda/"
+        },
+        {
+          "reference": "turn38search5",
+          "title": "箱根区間ランク4区",
+          "url": "https://hakonesaijo.sakura.ne.jp/hakokura-4.htm"
+        },
+        {
+          "reference": "turn38search6",
+          "title": "宇田川 瞬矢(青山学院大)|学生長距離・駅伝データベース(関東中心)",
+          "url": "https://gakusei-ekiden.jp/p/10033/"
+        },
+        {
+          "reference": "turn38search7",
+          "title": "〖2026年度版〗早稲田大学駅伝部〈部員名簿リスト〉*5000m/10000m/ハーフ自己ベスト記載 | 駅伝ナビ",
+          "url": "https://kasokusuru-ht.com/%E3%80%902026%E5%B9%B4%E5%BA%A6%E7%89%88%E3%80%91%E6%97%A9%E7%A8%B2%E7%94%B0%E5%A4%A7%E5%AD%A6%E9%A7%85%E4%BC%9D%E9%83%A8%E3%80%88%E9%83%A8%E5%93%A1%E5%90%8D%E7%B0%BF%E3%83%AA%E3%82%B9%E3%83%88-2/"
+        },
+        {
+          "reference": "turn38search8",
+          "title": "コモディイイダ 駅伝部 | 2026年の主なレース結果",
+          "url": "https://www.comodi-iida.co.jp/club/result/r2026.html"
+        },
+        {
+          "reference": "turn38search9",
+          "title": "第328回日体大長距離記録会2026 結果・リザルト | TrackNote 大会情報",
+          "url": "https://events.track-note.com/meet/2026-nssu-long-distance-328/"
+        },
+        {
+          "reference": "turn38search10",
+          "title": "大学別区間ランク早大",
+          "url": "https://hakonesaijo.sakura.ne.jp/hakodai-kurnk-waseda.htm"
+        },
+        {
+          "reference": "turn38search11",
+          "title": "第５８回（２０２６年）全日本大学駅伝　戦力分析＆区間配置予想　～早稲田大学～ | 大学駅伝まったり応援",
+          "url": "https://blog.sat-ekiden.info/2026/10/14/24123/"
+        },
+        {
+          "reference": "turn38search12",
+          "title": "コモディイイダ 駅伝部 | 選手紹介",
+          "url": "https://www.comodi-iida.co.jp/club/profile/athlete.html"
+        },
+        {
+          "reference": "turn38search13",
+          "title": "「宇田川瞬矢」の検索結果 - Yahoo!検索",
+          "url": "https://search.yahoo.co.jp/search?ei=UTF-8&eykbid=A6Eqm2kAAMLpkd74hb_pskKhhGo6PyOWyeip7VxQOPem_86ZTizX5s4SGBn0Xd2MstT6Xlx9KrdZIjlUOa06MZ--am6A5d7QP-n-qGrM5er1T5Q_9IzBeiFUYnDv3d36zwWJKTAIqIw10vYkf25G_wM&eyp=A6Eqm2kAAHG_-JttF02M2-jySdNXOj2gasxHgQorMcPA0FSalA3HURgz13vb-bgraqtyhlGGTelrfqykGcA8NZNdPJ1zP-wZVgF5jYS5gKrpvCYGENWgi-pz3zZB6DzZc-5mkVKLhFSx&fr=mashup_krank&p=%E5%AE%87%E7%94%B0%E5%B7%9D%E7%9E%AC%E7%9F%A2&rkf=1&x=nl"
+        },
+        {
+          "reference": "turn38search14",
+          "title": "東日本実業団駅伝2026 結果速報・全区間記録 | 駅伝ナビ",
+          "url": "https://kasokusuru-ht.com/%E6%9D%B1%E6%97%A5%E6%9C%AC%E5%AE%9F%E6%A5%AD%E5%9B%A3%E9%A7%85%E4%BC%9D2026-%E7%B5%90%E6%9E%9C%E9%80%9F%E5%A0%B1%E3%83%BB%E5%85%A8%E5%8C%BA%E9%96%93%E8%A8%98%E9%8C%B2/"
+        },
+        {
+          "reference": "turn38search15",
+          "title": "〖全日本大学駅伝2026〗日程・出場校・優勝予想 | りみとBlog",
+          "url": "https://rimito2024.com/all-japan-university-ekiden-2026-schedule-participating-schools-and-winner-predictions/"
+        },
+        {
+          "reference": "turn38search16",
+          "title": "〖出雲駅伝2026〗日程・出場校・優勝予想 | りみとBlog",
+          "url": "https://rimito2024.com/2026-izumo-ekiden-schedule-participating-schools-and-winner-predictions/"
+        },
+        {
+          "reference": "turn38search17",
+          "title": "陸上・駅伝 - 箱根駅伝3連覇の青山学院大、黒田朝日を5区に起用できた理由は「他の選手の急成長」 | 4years. #学生スポーツ",
+          "url": "https://4years.asahi.com/article/16264273"
+        },
+        {
+          "reference": "turn38search18",
+          "title": "〖2026年度版〗コモディイイダ駅伝部〈部員名簿リスト〉*5000m/10000m/ハーフ自己ベスト記載 | 駅伝ナビ",
+          "url": "https://kasokusuru-ht.com/%E3%80%902026%E5%B9%B4%E5%BA%A6%E7%89%88%E3%80%91%E3%82%B3%E3%83%A2%E3%83%87%E3%82%A3%E3%82%A4%E3%82%A4%E3%83%80%E9%A7%85%E4%BC%9D%E9%83%A8%E3%80%88%E9%83%A8%E5%93%A1%E5%90%8D%E7%B0%BF%E3%83%AA/"
+        },
+        {
+          "reference": "turn38view0",
+          "title": "競技結果 ｜ 青山学院大学陸上競技部",
+          "url": "https://aogaku-tf.com/results-2024.html"
+        },
+        {
+          "reference": "turn38view1",
+          "title": "競技結果 ｜ 青山学院大学陸上競技部",
+          "url": "https://aogaku-tf.com/results-2024.html"
+        },
+        {
+          "reference": "turn38view2",
+          "title": "飯田　翔大 ｜ 青山学院大学陸上競技部",
+          "url": "https://aogaku-tf.com/member-364baada-911e-8198-a545-d9c5635d5008.html"
+        },
+        {
+          "reference": "turn38view3",
+          "title": "小河原　陽琉 ｜ 青山学院大学陸上競技部",
+          "url": "https://aogaku-tf.com/member-364baada-911e-81b8-b42b-ec37ea9eb48b.html"
+        },
+        {
+          "reference": "turn38view4",
+          "title": "試合予定・結果 | 旭化成株式会社",
+          "url": "https://www.asahi-kasei.com/jp/sports-event/track-field/schedule"
+        },
+        {
+          "reference": "turn38view5",
+          "title": "競技結果 ｜ 青山学院大学陸上競技部",
+          "url": "https://aogaku-tf.com/results-2024.html"
+        }
+      ],
+      "toolError": false
+    },
+    {
+      "sequence": 27,
+      "checkedAt": "2026-11-25",
+      "request": {
+        "system2_search_query": [
+          {
+            "q": "\"山本歩夢\" \"1:00:43\""
+          },
+          {
+            "q": "\"山本\" \"60分43秒\" \"2022\""
+          },
+          {
+            "q": "\"山本歩夢\" \"2026\" \"27:\""
+          },
+          {
+            "q": "\"山本歩夢\" \"2026\" \"13:\""
+          }
+        ],
+        "click": [
+          {
+            "ref_id": "turn36view2",
+            "id": 25
+          },
+          {
+            "ref_id": "turn36view2",
+            "id": 26
+          },
+          {
+            "ref_id": "turn36view2",
+            "id": 20
+          },
+          {
+            "ref_id": "turn36view2",
+            "id": 24
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "turn37view0",
+            "lineno": 60
+          },
+          {
+            "ref_id": "turn37view1",
+            "lineno": 60
+          }
+        ],
+        "response_length": "long"
+      },
+      "documents": [
+        {
+          "reference": "turn39search0",
+          "title": "山本 歩夢(國學院大)|学生長距離・駅伝データベース(関東中心)",
+          "url": "https://gakusei-ekiden.jp/p/11410/"
+        },
+        {
+          "reference": "turn39search42",
+          "title": "第99回東京箱根間往復大学駅伝競走　区間エントリー",
+          "url": "https://www.hakone-ekiden.jp/_assets/2022/41b6ddd0c2142013ce5a582ffd7f9c6d075c5a42.pdf"
+        },
+        {
+          "reference": "turn39search1",
+          "title": "國學院大學陸上競技部　試合結果",
+          "url": "https://dev.kokugakuin.com/shiai.php?page=3"
+        },
+        {
+          "reference": "turn39search2",
+          "title": "國學院大學｜出場校一覧｜第99回｜箱根駅伝 番組公式サイト｜日本テレビ",
+          "url": "https://www.ntv.co.jp/hakone/backnumber/99/team/kokugakuin.html"
+        },
+        {
+          "reference": "turn39search3",
+          "title": "國學院大學｜出場校一覧｜第100回｜箱根駅伝 番組公式サイト｜日本テレビ",
+          "url": "https://www.ntv.co.jp/hakone/backnumber/100/team/kokugakuin.html"
+        },
+        {
+          "reference": "turn39search4",
+          "title": "第100回箱根駅伝・区間別オーダー",
+          "url": "https://hakonesaijo.sakura.ne.jp/100hako-order-kubetu.htm"
+        },
+        {
+          "reference": "turn39search5",
+          "title": "第100回箱根駅伝・大学別エントリー(10000m持ちタイム順）",
+          "url": "https://hakonesaijo.sakura.ne.jp/100hako-entry.htm"
+        },
+        {
+          "reference": "turn39search43",
+          "title": "第101回東京箱根間往復大学駅伝競走チームエントリー",
+          "url": "https://www.kgrr.org/files/upload/202412/teamentry.pdf"
+        },
+        {
+          "reference": "turn39search6",
+          "title": "第99回箱根駅伝エントリー・10000m持ちタイムランキング",
+          "url": "https://hakonesaijo.sakura.ne.jp/99hako-10000rank.htm"
+        },
+        {
+          "reference": "turn39search7",
+          "title": "國學院大學｜出場校一覧｜第101回｜箱根駅伝 番組公式サイト｜日本テレビ",
+          "url": "https://www.ntv.co.jp/hakone/backnumber/101/team/kokugakuin.html"
+        },
+        {
+          "reference": "turn39search8",
+          "title": "3区｜出場校一覧・区間別｜第101回｜箱根駅伝 番組公式サイト｜日本テレビ",
+          "url": "https://www.ntv.co.jp/hakone/backnumber/101/team_kukan/3.html"
+        },
+        {
+          "reference": "turn39search44",
+          "title": "第100回東京箱根間往復大学駅伝競走チームエントリー",
+          "url": "https://www.kgrr.org/files/competition/23/40/teamentrylist.pdf"
+        },
+        {
+          "reference": "turn39search9",
+          "title": "第101回箱根駅伝・区間別オーダー",
+          "url": "https://hakonesaijo.sakura.ne.jp/101hako-order-kubetu.htm"
+        },
+        {
+          "reference": "turn39search10",
+          "title": "3区｜出場校一覧・区間別｜第99回｜箱根駅伝 番組公式サイト｜日本テレビ",
+          "url": "https://www.ntv.co.jp/hakone/backnumber/99/team_kukan/3.html"
+        },
+        {
+          "reference": "turn39search45",
+          "title": "第37回ゴールデンゲームズｉｎのべおか",
+          "url": "https://goldengames.jp/result/2026result.pdf"
+        },
+        {
+          "reference": "turn39search46",
+          "title": "# 第50回全日本実業団ハーフマラソン大会",
+          "url": "https://yaaf.jp/records/R03/20220213.pdf"
+        },
+        {
+          "reference": "turn39search11",
+          "title": "男子ハーフマラソン日本歴代記録ベスト",
+          "url": "https://genkimanman.com/rekidaikiroku/jpmenhahu.html"
+        },
+        {
+          "reference": "turn39search12",
+          "title": "矢板SC / 山本　歩夢 / 詳細ページ",
+          "url": "https://gc-model.com/01/kanto/team/player/show/2026/1878"
+        },
+        {
+          "reference": "turn39search13",
+          "title": "WiZ CHU(神戸) - イープラス",
+          "url": "https://eplus.jp/sf/detail/4624560001-P0030001"
+        },
+        {
+          "reference": "turn39search14",
+          "title": "「どうしても青学を意識します」國學院大2大エースが初海外レース後に明かした“絶対王者への想い”「ぶち倒したい相手です（笑）」 - 駅伝 - Number Web - ナンバー",
+          "url": "https://number.bunshun.jp/articles/-/853181"
+        },
+        {
+          "reference": "turn39search15",
+          "title": "Yamamoto Ayumu | Jpop Wiki | Fandom",
+          "url": "https://jpop.fandom.com/wiki/Yamamoto_Ayumu"
+        },
+        {
+          "reference": "turn39search16",
+          "title": "WiZ CHUのチケット情報 - イープラス",
+          "url": "https://eplus.jp/sf/detail/4624560001"
+        },
+        {
+          "reference": "turn39search17",
+          "title": "2021年度シーズン振り返り・新チームの紹介　～國學院大學～ : 学生長距離観測所(主なコンテンツは休止中)",
+          "url": "https://gakusei-ld-kansoku.blog.jp/archives/30123474.html"
+        },
+        {
+          "reference": "turn39search18",
+          "title": "K-PLACE埼玉格闘技道場の7殴り8蹴り",
+          "url": "https://blog.livedoor.jp/nananaguri/"
+        },
+        {
+          "reference": "turn39search19",
+          "title": "パンクラス・オフィシャルサイト | PANCRASE -世界標準-　PANCRASE 369",
+          "url": "https://pancrase.co.jp/tour/2026/pancrase369/index.html"
+        },
+        {
+          "reference": "turn39search20",
+          "title": "あむったれ @miso_0130_ - Twitter Profile | Instalker",
+          "url": "https://instalker.org/miso_0130_"
+        },
+        {
+          "reference": "turn39search21",
+          "title": "“名門”旭化成 2年ぶり49回目の優勝 2区ルーキー塩出翔太が逆転、3区山本歩夢、5区亀田仁一路が区間新〖九州実業団毎日駅伝〗 - E START ニュース",
+          "url": "https://home.jword.jp/news/category/%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84/detail/454367?g=tbs&generic="
+        },
+        {
+          "reference": "turn39search22",
+          "title": "〖結果〗2022(第50回)実業団ハーフマラソン(2月13日)大学生も！ | 箱根駅伝-もっとフリーダムに語ろう!!!-",
+          "url": "https://hakonankit-fd.com/article/post-18810.html?amp=1"
+        },
+        {
+          "reference": "turn39search23",
+          "title": "〖大学駅伝〗山本歩夢（国学院大１年）が全日本実業団ハーフで日本人学生歴代２位の好走、5000ｍでユニバー代表を狙う | BBMスポーツ | ベースボール･マガジン社",
+          "url": "https://www.bbm-japan.com/article/detail/30358"
+        },
+        {
+          "reference": "turn39view0",
+          "title": "飯田　翔大 ｜ 青山学院大学陸上競技部",
+          "url": "https://aogaku-tf.com/member-364baada-911e-8198-a545-d9c5635d5008.html"
+        },
+        {
+          "reference": "turn39view1",
+          "title": "小河原　陽琉 ｜ 青山学院大学陸上競技部",
+          "url": "https://aogaku-tf.com/member-364baada-911e-81b8-b42b-ec37ea9eb48b.html"
+        },
+        {
+          "reference": "turn39view2",
+          "title": "第4回諫早ナイター陸上記録会 | 旭化成株式会社",
+          "url": "https://www.asahi-kasei.com/jp/sports-event/track-field/schedule/2026/1010"
+        },
+        {
+          "reference": "turn39view3",
+          "title": "東京レガシーハーフマラソン2026 | 旭化成株式会社",
+          "url": "https://www.asahi-kasei.com/jp/sports-event/track-field/schedule/2026/1018"
+        },
+        {
+          "reference": "turn39view4",
+          "title": "第329回日本体育大学長距離競技会 兼 第22回NITTAIDAI Challenge games | 旭化成株式会社",
+          "url": "https://www.asahi-kasei.com/jp/sports-event/track-field/schedule/2026/0531"
+        },
+        {
+          "reference": "turn39view5",
+          "title": "Gold Coast Half Marathon 2026 | 旭化成株式会社",
+          "url": "https://www.asahi-kasei.com/jp/sports-event/track-field/schedule/2026/0704-2"
+        }
+      ],
+      "toolError": false
+    },
+    {
+      "sequence": 28,
+      "checkedAt": "2026-11-25",
+      "request": {
+        "find": [
+          {
+            "ref_id": "turn39view2",
+            "pattern": "山本"
+          },
+          {
+            "ref_id": "turn39view3",
+            "pattern": "山本"
+          },
+          {
+            "ref_id": "turn39view4",
+            "pattern": "山本"
+          },
+          {
+            "ref_id": "turn39view5",
+            "pattern": "山本"
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "turn39search46"
+          },
+          {
+            "ref_id": "https://www.asahi-kasei.com/jp/sports-event/track-field/member/yamamoto"
+          }
+        ],
+        "response_length": "long"
+      },
+      "documents": [
+        {
+          "reference": "turn40view0",
+          "title": "# 第50回全日本実業団ハーフマラソン大会",
+          "url": "https://yaaf.jp/records/R03/20220213.pdf"
+        },
+        {
+          "reference": "turn40view1",
+          "title": "山本　歩夢 | 旭化成株式会社",
+          "url": "https://www.asahi-kasei.com/jp/sports-event/track-field/member/yamamoto"
+        },
+        {
+          "reference": "turn40view2",
+          "title": "第4回諫早ナイター陸上記録会 | 旭化成株式会社",
+          "url": "https://www.asahi-kasei.com/jp/sports-event/track-field/schedule/2026/1010"
+        },
+        {
+          "reference": "turn40view3",
+          "title": "東京レガシーハーフマラソン2026 | 旭化成株式会社",
+          "url": "https://www.asahi-kasei.com/jp/sports-event/track-field/schedule/2026/1018"
+        },
+        {
+          "reference": "turn40view4",
+          "title": "第329回日本体育大学長距離競技会 兼 第22回NITTAIDAI Challenge games | 旭化成株式会社",
+          "url": "https://www.asahi-kasei.com/jp/sports-event/track-field/schedule/2026/0531"
+        },
+        {
+          "reference": "turn40view5",
+          "title": "Gold Coast Half Marathon 2026 | 旭化成株式会社",
+          "url": "https://www.asahi-kasei.com/jp/sports-event/track-field/schedule/2026/0704-2"
+        }
+      ],
+      "toolError": false
+    },
+    {
+      "sequence": 29,
+      "checkedAt": "2026-11-25",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.asahi-kasei.com/site-policy/"
+          },
+          {
+            "ref_id": "https://www.kraftia.co.jp/marathon/member/male/yuga_sakurai.html"
+          },
+          {
+            "ref_id": "https://www.kraftia.co.jp/marathon/result/"
+          },
+          {
+            "ref_id": "https://www.kokugakuin.com/"
+          },
+          {
+            "ref_id": "https://komazawa-ekiden.com/"
+          }
+        ],
+        "response_length": "long"
+      },
+      "documents": [
+        {
+          "reference": "turn41view0"
+        },
+        {
+          "reference": "turn41view1",
+          "title": "桜井　優我 | 選手・スタッフ紹介 | 株式会社 クラフティア",
+          "url": "https://www.kraftia.co.jp/marathon/member/male/yuga_sakurai.html"
+        },
+        {
+          "reference": "turn41view2",
+          "title": "大会成績 | 株式会社 クラフティア",
+          "url": "https://www.kraftia.co.jp/marathon/result/"
+        },
+        {
+          "reference": "turn41view3",
+          "title": "國學院大學 陸上競技部",
+          "url": "https://www.kokugakuin.com/"
+        },
+        {
+          "reference": "turn41view4",
+          "title": "駒澤大学陸上競技部",
+          "url": "https://komazawa-ekiden.com/"
+        }
+      ],
+      "toolError": false
+    },
+    {
+      "sequence": 30,
+      "checkedAt": "2026-11-25",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn41view1",
+            "lineno": 186
+          },
+          {
+            "ref_id": "turn41view2",
+            "lineno": 160
+          }
+        ],
+        "system2_search_query": [
+          {
+            "q": "site:asahi-kasei.com \"サイト利用条件\""
+          },
+          {
+            "q": "\"宇田川\" \"13:36.18\""
+          },
+          {
+            "q": "site:waseda-ac.jp \"堀野\" \"2026.04.25\" 記録"
+          },
+          {
+            "q": "site:kokugakuin.com \"山本\" \"27\" \"51\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "documents": [
+        {
+          "reference": "turn42search0",
+          "title": "「黒田朝日 gmo」のX（旧Twitter）検索結果 - Yahoo!リアルタイム検索",
+          "url": "https://search.yahoo.co.jp/realtime/search?ei=UTF-8&md=h&p=%E9%BB%92%E7%94%B0%E6%9C%9D%E6%97%A5+gmo&rkf=1"
+        },
+        {
+          "reference": "turn42search19",
+          "title": "日本選手権男子100m",
+          "url": "https://www.jaaf.or.jp/files/upload/202507/02_day1nchstart.pdf.pdf"
+        },
+        {
+          "reference": "turn42search1",
+          "title": "「宇田川瞬矢」のX（旧Twitter）検索結果 - Yahoo!リアルタイム検索",
+          "url": "https://search.yahoo.co.jp/realtime/search?ei=UTF-8&md=h&p=%E5%AE%87%E7%94%B0%E5%B7%9D%E7%9E%AC%E7%9F%A2&rkf=1"
+        },
+        {
+          "reference": "turn42search2",
+          "title": "「松田 佐藤」のX（旧Twitter）検索結果 - Yahoo!リアルタイム検索",
+          "url": "https://search.yahoo.co.jp/realtime/search?ei=UTF-8&md=h&p=%E6%9D%BE%E7%94%B0+%E4%BD%90%E8%97%A4&rkf=1"
+        },
+        {
+          "reference": "turn42search3",
+          "title": "「宇田川瞬矢」のX（旧Twitter）検索結果 - Yahoo!リアルタイム検索",
+          "url": "https://search.yahoo.co.jp/realtime/search?btid=MjAwNjg4MDYzNDU2MDcyMTE3NA%3D%3D&ifr=tp_bz&p=%E5%AE%87%E7%94%B0%E5%B7%9D%E7%9E%AC%E7%9F%A2&rkf=1"
+        },
+        {
+          "reference": "turn42search4",
+          "title": "「宇田川瞬矢」のX（旧Twitter）検索結果 - Yahoo!リアルタイム検索",
+          "url": "https://search.yahoo.co.jp/realtime/search?ei=UTF-8&p=%E5%AE%87%E7%94%B0%E5%B7%9D%E7%9E%AC%E7%9F%A2&rkf=1"
+        },
+        {
+          "reference": "turn42search5",
+          "title": "「マラソン 佐藤」のX（旧Twitter）検索結果 - Yahoo!リアルタイム検索",
+          "url": "https://search.yahoo.co.jp/realtime/search?ei=UTF-8&ifr=tl_unit&p=%E3%83%9E%E3%83%A9%E3%82%BD%E3%83%B3+%E4%BD%90%E8%97%A4&rkf=1"
+        },
+        {
+          "reference": "turn42search6",
+          "title": "「黒田朝日 gmo」のX（旧Twitter）検索結果 - Yahoo!リアルタイム検索",
+          "url": "https://search.yahoo.co.jp/realtime/search?ei=UTF-8&p=%E9%BB%92%E7%94%B0%E6%9C%9D%E6%97%A5+gmo&rkf=1"
+        },
+        {
+          "reference": "turn42search7",
+          "title": "「宇田川瞬矢」のX（旧Twitter）検索結果 - Yahoo!リアルタイム検索",
+          "url": "https://search.yahoo.co.jp/realtime/search?btid=MjAwNjg4MDYzNDU2MDcyMTE3NA%3D%3D&fr=rts_bzmod_ytop_pc&p=%E5%AE%87%E7%94%B0%E5%B7%9D%E7%9E%AC%E7%9F%A2&rkf=1"
+        },
+        {
+          "reference": "turn42search8",
+          "title": "「宇田川瞬矢」の検索結果 - Yahoo!検索",
+          "url": "https://search.yahoo.co.jp/search?ei=UTF-8&eykbid=A6Eqm2kAAMLpkd74hb_pskKhhGo6PyOWyeip7VxQOPem_86ZTizX5s4SGBn0Xd2MstT6Xlx9KrdZIjlUOa06MZ--am6A5d7QP-n-qGrM5er1T5Q_9IzBeiFUYnDv3d36zwWJKTAIqIw10vYkf25G_wM&eyp=A6Eqm2kAAHG_-JttF02M2-jySdNXOj2gasxHgQorMcPA0FSalA3HURgz13vb-bgraqtyhlGGTelrfqykGcA8NZNdPJ1zP-wZVgF5jYS5gKrpvCYGENWgi-pz3zZB6DzZc-5mkVKLhFSx&fr=mashup_krank&p=%E5%AE%87%E7%94%B0%E5%B7%9D%E7%9E%AC%E7%9F%A2&rkf=1&x=nl"
+        },
+        {
+          "reference": "turn42search9",
+          "title": "令和8年328回日本体育大学長距離競技会 兼 21st NITTAIDAI Challenge Games | 早稲田大学競走部",
+          "url": "https://waseda-ac.jp/competition/detail/819"
+        },
+        {
+          "reference": "turn42search10",
+          "title": "よくあるご質問 | 旭化成株式会社",
+          "url": "https://www.asahi-kasei.com/jp/contact-us/faq"
+        },
+        {
+          "reference": "turn42search20",
+          "title": "日本選手権 男子5000m（ターゲットナンバー設定なし）",
+          "url": "https://www.jaaf.or.jp/files/competition/document/1952-4.pdf"
+        },
+        {
+          "reference": "turn42view0",
+          "title": "桜井　優我 | 選手・スタッフ紹介 | 株式会社 クラフティア",
+          "url": "https://www.kraftia.co.jp/marathon/member/male/yuga_sakurai.html"
+        },
+        {
+          "reference": "turn42view1",
+          "title": "大会成績 | 株式会社 クラフティア",
+          "url": "https://www.kraftia.co.jp/marathon/result/"
+        }
+      ],
+      "toolError": false
+    },
+    {
+      "sequence": 31,
+      "checkedAt": "2026-11-25",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn42search10"
+          }
+        ],
+        "response_length": "short"
+      },
+      "documents": [
+        {
+          "reference": "turn43view0",
+          "title": "よくあるご質問 | 旭化成株式会社",
+          "url": "https://www.asahi-kasei.com/jp/contact-us/faq"
+        }
+      ],
+      "toolError": false
+    },
+    {
+      "sequence": 32,
+      "checkedAt": "2026-11-25",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn43view0",
+            "id": 20
+          },
+          {
+            "ref_id": "turn41view2",
+            "id": 52
+          }
+        ],
+        "response_length": "short"
+      },
+      "documents": [
+        {
+          "reference": "turn44view0",
+          "title": "ご利用条件 | 旭化成株式会社",
+          "url": "https://www.asahi-kasei.com/jp/legal"
+        },
+        {
+          "reference": "turn44view1",
+          "title": "27th NITTAIDAI Challenge Games | 大会成績 | 株式会社 クラフティア",
+          "url": "https://www.kraftia.co.jp/marathon/result/2026/1121_004752.html"
+        }
+      ],
+      "toolError": false
+    }
+  ]
+}

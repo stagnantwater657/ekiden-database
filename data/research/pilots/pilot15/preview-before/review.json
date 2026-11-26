@@ -1,0 +1,1469 @@
+{
+  "schemaVersion": 1,
+  "mode": "dry-run",
+  "asOf": "2026-11-25",
+  "limitations": [
+    "Comparison only against the local published PB snapshot; never proof of current/latest PB or verified evidence.",
+    "All rows require human review of identity, affiliation at meet, official distance, timing, indoor/outdoor, event identity and source/version.",
+    "Name-only matches and unregistered kanji variants are suggestions, never automatic identity merges.",
+    "Same meet means equal ISO date and whitespace-normalized meet label, not independently verified event identity.",
+    "Sources are not fetched. Registered source IDs do not certify this row. No production data or research logs are written."
+  ],
+  "summary": {
+    "inputRecords": 26,
+    "matched": 18,
+    "faster": 0,
+    "newCandidates": 18,
+    "sameTime": 0,
+    "slower": 0,
+    "duplicates": 0,
+    "identityConflicts": 0,
+    "invalid": 0,
+    "needsEvidence": 8,
+    "multipleResults": 0
+  },
+  "rows": [
+    {
+      "row": 1,
+      "line": 2,
+      "input": {
+        "athleteId": "athlete-aj25-03-6",
+        "name": "飯田 翔大",
+        "university": "青山学院大",
+        "event": "half-marathon",
+        "time": "1:03:18",
+        "date": "2025-02-23",
+        "meet": "第72回公認鹿島祐徳ロードレース大会",
+        "sourceUrl": "https://aogaku-tf.com/results-2024.html"
+      },
+      "matchedAthleteId": null,
+      "identity": {
+        "status": "needs-review",
+        "candidateIds": [
+          "athlete-aj25-03-6"
+        ],
+        "reasons": [
+          "university-association-only-after-performance-cutoff"
+        ],
+        "universityIds": [
+          "aoyama-gakuin"
+        ]
+      },
+      "existingPb": null,
+      "performance": {
+        "event": "half-marathon",
+        "timeMilliseconds": 3798000,
+        "precision": "second",
+        "time": "1:03:18",
+        "achievedOn": "2025-02-23",
+        "meet": "第72回公認鹿島祐徳ロードレース大会"
+      },
+      "comparison": null,
+      "sameMeet": null,
+      "statuses": [
+        "needs-evidence"
+      ],
+      "source": {
+        "inputUrl": "https://aogaku-tf.com/results-2024.html",
+        "canonicalUrl": "https://aogaku-tf.com/results-2024.html",
+        "registeredSourceIds": [
+          "aogaku-2024-results"
+        ]
+      },
+      "errors": [],
+      "evidenceGaps": [
+        "university-association-only-after-performance-cutoff"
+      ],
+      "duplicateOf": {
+        "inputRows": [],
+        "existingPb": false
+      },
+      "relatedRows": [],
+      "needsManualReview": true
+    },
+    {
+      "row": 2,
+      "line": 3,
+      "input": {
+        "athleteId": "athlete-aj25-03-8",
+        "name": "小河原 陽琉",
+        "university": "青山学院大",
+        "event": "10000m",
+        "time": "27:57.76",
+        "date": "2026-11-22",
+        "meet": "Colantotte presents MARCH対抗戦2026",
+        "sourceUrl": "https://aogaku-tf.com/results.html"
+      },
+      "matchedAthleteId": "athlete-aj25-03-8",
+      "identity": {
+        "status": "matched",
+        "candidateIds": [
+          "athlete-aj25-03-8"
+        ],
+        "reasons": [],
+        "universityIds": [
+          "aoyama-gakuin"
+        ]
+      },
+      "existingPb": null,
+      "performance": {
+        "event": "10000m",
+        "timeMilliseconds": 1677760,
+        "precision": "centisecond",
+        "time": "27:57.76",
+        "achievedOn": "2026-11-22",
+        "meet": "Colantotte presents MARCH対抗戦2026"
+      },
+      "comparison": "new-candidate",
+      "sameMeet": null,
+      "statuses": [
+        "new-candidate"
+      ],
+      "source": {
+        "inputUrl": "https://aogaku-tf.com/results.html",
+        "canonicalUrl": "https://aogaku-tf.com/results.html",
+        "registeredSourceIds": [
+          "pilot15-source-163"
+        ]
+      },
+      "errors": [],
+      "evidenceGaps": [],
+      "duplicateOf": {
+        "inputRows": [],
+        "existingPb": false
+      },
+      "relatedRows": [],
+      "needsManualReview": true
+    },
+    {
+      "row": 3,
+      "line": 4,
+      "input": {
+        "athleteId": "athlete-aj24-01-6",
+        "name": "山本 歩夢",
+        "university": "國學院大",
+        "event": "5000m",
+        "time": "13:34.85",
+        "date": "2023-07-08",
+        "meet": "ホクレン・ディスタンスチャレンジ2023 網走大会",
+        "sourceUrl": "https://www.kokugakuin.com/top10/426/"
+      },
+      "matchedAthleteId": null,
+      "identity": {
+        "status": "needs-review",
+        "candidateIds": [
+          "athlete-aj24-01-6"
+        ],
+        "reasons": [
+          "university-association-only-after-performance-cutoff"
+        ],
+        "universityIds": [
+          "kokugakuin"
+        ]
+      },
+      "existingPb": null,
+      "performance": {
+        "event": "5000m",
+        "timeMilliseconds": 814850,
+        "precision": "centisecond",
+        "time": "13:34.85",
+        "achievedOn": "2023-07-08",
+        "meet": "ホクレン・ディスタンスチャレンジ2023 網走大会"
+      },
+      "comparison": null,
+      "sameMeet": null,
+      "statuses": [
+        "needs-evidence"
+      ],
+      "source": {
+        "inputUrl": "https://www.kokugakuin.com/top10/426/",
+        "canonicalUrl": "https://www.kokugakuin.com/top10/426/",
+        "registeredSourceIds": [
+          "koku-10000-top10",
+          "kokugakuin-top10"
+        ]
+      },
+      "errors": [],
+      "evidenceGaps": [
+        "university-association-only-after-performance-cutoff"
+      ],
+      "duplicateOf": {
+        "inputRows": [],
+        "existingPb": false
+      },
+      "relatedRows": [],
+      "needsManualReview": true
+    },
+    {
+      "row": 4,
+      "line": 5,
+      "input": {
+        "athleteId": "athlete-aj24-01-6",
+        "name": "山本 歩夢",
+        "university": "國學院大",
+        "event": "10000m",
+        "time": "27:51.44",
+        "date": "2025-11-29",
+        "meet": "第325回日本体育大学長距離競技会兼第19回NITTAIDAI Challenge Games",
+        "sourceUrl": "https://www.asahi-kasei.com/jp/sports-event/track-field/member/yamamoto"
+      },
+      "matchedAthleteId": "athlete-aj24-01-6",
+      "identity": {
+        "status": "matched",
+        "candidateIds": [
+          "athlete-aj24-01-6"
+        ],
+        "reasons": [],
+        "universityIds": [
+          "kokugakuin"
+        ]
+      },
+      "existingPb": null,
+      "performance": {
+        "event": "10000m",
+        "timeMilliseconds": 1671440,
+        "precision": "centisecond",
+        "time": "27:51.44",
+        "achievedOn": "2025-11-29",
+        "meet": "第325回日本体育大学長距離競技会兼第19回NITTAIDAI Challenge Games"
+      },
+      "comparison": "new-candidate",
+      "sameMeet": null,
+      "statuses": [
+        "new-candidate"
+      ],
+      "source": {
+        "inputUrl": "https://www.asahi-kasei.com/jp/sports-event/track-field/member/yamamoto",
+        "canonicalUrl": "https://www.asahi-kasei.com/jp/sports-event/track-field/member/yamamoto",
+        "registeredSourceIds": [
+          "asahi-kasei-yamamoto"
+        ]
+      },
+      "errors": [],
+      "evidenceGaps": [],
+      "duplicateOf": {
+        "inputRows": [],
+        "existingPb": false
+      },
+      "relatedRows": [],
+      "needsManualReview": true
+    },
+    {
+      "row": 5,
+      "line": 6,
+      "input": {
+        "athleteId": "athlete-aj24-01-6",
+        "name": "山本 歩夢",
+        "university": "國學院大",
+        "event": "half-marathon",
+        "time": "1:00:43",
+        "date": "2022-02-13",
+        "meet": "第50回全日本実業団ハーフマラソン大会",
+        "sourceUrl": "https://yaaf.jp/records/R03/20220213.pdf"
+      },
+      "matchedAthleteId": null,
+      "identity": {
+        "status": "needs-review",
+        "candidateIds": [
+          "athlete-aj24-01-6"
+        ],
+        "reasons": [
+          "university-association-only-after-performance-cutoff"
+        ],
+        "universityIds": [
+          "kokugakuin"
+        ]
+      },
+      "existingPb": null,
+      "performance": {
+        "event": "half-marathon",
+        "timeMilliseconds": 3643000,
+        "precision": "second",
+        "time": "1:00:43",
+        "achievedOn": "2022-02-13",
+        "meet": "第50回全日本実業団ハーフマラソン大会"
+      },
+      "comparison": null,
+      "sameMeet": null,
+      "statuses": [
+        "needs-evidence"
+      ],
+      "source": {
+        "inputUrl": "https://yaaf.jp/records/R03/20220213.pdf",
+        "canonicalUrl": "https://yaaf.jp/records/R03/20220213.pdf",
+        "registeredSourceIds": [
+          "pilot15-source-164"
+        ]
+      },
+      "errors": [],
+      "evidenceGaps": [
+        "university-association-only-after-performance-cutoff"
+      ],
+      "duplicateOf": {
+        "inputRows": [],
+        "existingPb": false
+      },
+      "relatedRows": [],
+      "needsManualReview": true
+    },
+    {
+      "row": 6,
+      "line": 7,
+      "input": {
+        "athleteId": "athlete-aj25-01-5",
+        "name": "飯國 新太",
+        "university": "國學院大",
+        "event": "5000m",
+        "time": "13:51.98",
+        "date": "2026-04-12",
+        "meet": "第327回日本体育大学長距離競技会",
+        "sourceUrl": "https://www.kokugakuin.com/result/4009/"
+      },
+      "matchedAthleteId": "athlete-aj25-01-5",
+      "identity": {
+        "status": "matched",
+        "candidateIds": [
+          "athlete-aj25-01-5"
+        ],
+        "reasons": [],
+        "universityIds": [
+          "kokugakuin"
+        ]
+      },
+      "existingPb": null,
+      "performance": {
+        "event": "5000m",
+        "timeMilliseconds": 831980,
+        "precision": "centisecond",
+        "time": "13:51.98",
+        "achievedOn": "2026-04-12",
+        "meet": "第327回日本体育大学長距離競技会"
+      },
+      "comparison": "new-candidate",
+      "sameMeet": null,
+      "statuses": [
+        "new-candidate"
+      ],
+      "source": {
+        "inputUrl": "https://www.kokugakuin.com/result/4009/",
+        "canonicalUrl": "https://www.kokugakuin.com/result/4009/",
+        "registeredSourceIds": [
+          "pilot15-source-166"
+        ]
+      },
+      "errors": [],
+      "evidenceGaps": [],
+      "duplicateOf": {
+        "inputRows": [],
+        "existingPb": false
+      },
+      "relatedRows": [],
+      "needsManualReview": true
+    },
+    {
+      "row": 7,
+      "line": 8,
+      "input": {
+        "athleteId": "athlete-aj25-01-5",
+        "name": "飯國 新太",
+        "university": "國學院大",
+        "event": "half-marathon",
+        "time": "1:01:51",
+        "date": "2025-02-02",
+        "meet": "第28回日本学生ハーフマラソン選手権大会",
+        "sourceUrl": "https://gold.jaic.org/kagawa/2024/2025marugamehalf/rel003.html"
+      },
+      "matchedAthleteId": null,
+      "identity": {
+        "status": "needs-review",
+        "candidateIds": [
+          "athlete-aj25-01-5"
+        ],
+        "reasons": [
+          "university-association-only-after-performance-cutoff"
+        ],
+        "universityIds": [
+          "kokugakuin"
+        ]
+      },
+      "existingPb": null,
+      "performance": {
+        "event": "half-marathon",
+        "timeMilliseconds": 3711000,
+        "precision": "second",
+        "time": "1:01:51",
+        "achievedOn": "2025-02-02",
+        "meet": "第28回日本学生ハーフマラソン選手権大会"
+      },
+      "comparison": null,
+      "sameMeet": null,
+      "statuses": [
+        "needs-evidence"
+      ],
+      "source": {
+        "inputUrl": "https://gold.jaic.org/kagawa/2024/2025marugamehalf/rel003.html",
+        "canonicalUrl": "https://gold.jaic.org/kagawa/2024/2025marugamehalf/rel003.html",
+        "registeredSourceIds": [
+          "pilot15-source-167"
+        ]
+      },
+      "errors": [],
+      "evidenceGaps": [
+        "university-association-only-after-performance-cutoff"
+      ],
+      "duplicateOf": {
+        "inputRows": [],
+        "existingPb": false
+      },
+      "relatedRows": [],
+      "needsManualReview": true
+    },
+    {
+      "row": 8,
+      "line": 9,
+      "input": {
+        "athleteId": "athlete-aj25-01-1",
+        "name": "尾熊 迅斗",
+        "university": "國學院大",
+        "event": "5000m",
+        "time": "13:57.11",
+        "date": "2025-06-01",
+        "meet": "道南ディスタンス2025",
+        "sourceUrl": "https://www.kokugakuin.com/result/3194/"
+      },
+      "matchedAthleteId": null,
+      "identity": {
+        "status": "needs-review",
+        "candidateIds": [
+          "athlete-aj25-01-1"
+        ],
+        "reasons": [
+          "university-association-only-after-performance-cutoff"
+        ],
+        "universityIds": [
+          "kokugakuin"
+        ]
+      },
+      "existingPb": null,
+      "performance": {
+        "event": "5000m",
+        "timeMilliseconds": 837110,
+        "precision": "centisecond",
+        "time": "13:57.11",
+        "achievedOn": "2025-06-01",
+        "meet": "道南ディスタンス2025"
+      },
+      "comparison": null,
+      "sameMeet": null,
+      "statuses": [
+        "needs-evidence"
+      ],
+      "source": {
+        "inputUrl": "https://www.kokugakuin.com/result/3194/",
+        "canonicalUrl": "https://www.kokugakuin.com/result/3194/",
+        "registeredSourceIds": [
+          "pilot15-source-168"
+        ]
+      },
+      "errors": [],
+      "evidenceGaps": [
+        "university-association-only-after-performance-cutoff"
+      ],
+      "duplicateOf": {
+        "inputRows": [],
+        "existingPb": false
+      },
+      "relatedRows": [],
+      "needsManualReview": true
+    },
+    {
+      "row": 9,
+      "line": 10,
+      "input": {
+        "athleteId": "athlete-aj25-01-1",
+        "name": "尾熊 迅斗",
+        "university": "國學院大",
+        "event": "10000m",
+        "time": "28:35.45",
+        "date": "2025-11-15",
+        "meet": "第324回日本体育大学長距離競技会",
+        "sourceUrl": "https://www.kokugakuin.com/result/3567/"
+      },
+      "matchedAthleteId": "athlete-aj25-01-1",
+      "identity": {
+        "status": "matched",
+        "candidateIds": [
+          "athlete-aj25-01-1"
+        ],
+        "reasons": [],
+        "universityIds": [
+          "kokugakuin"
+        ]
+      },
+      "existingPb": null,
+      "performance": {
+        "event": "10000m",
+        "timeMilliseconds": 1715450,
+        "precision": "centisecond",
+        "time": "28:35.45",
+        "achievedOn": "2025-11-15",
+        "meet": "第324回日本体育大学長距離競技会"
+      },
+      "comparison": "new-candidate",
+      "sameMeet": null,
+      "statuses": [
+        "new-candidate"
+      ],
+      "source": {
+        "inputUrl": "https://www.kokugakuin.com/result/3567/",
+        "canonicalUrl": "https://www.kokugakuin.com/result/3567/",
+        "registeredSourceIds": [
+          "pilot15-source-169"
+        ]
+      },
+      "errors": [],
+      "evidenceGaps": [],
+      "duplicateOf": {
+        "inputRows": [],
+        "existingPb": false
+      },
+      "relatedRows": [],
+      "needsManualReview": true
+    },
+    {
+      "row": 10,
+      "line": 11,
+      "input": {
+        "athleteId": "athlete-aj25-01-1",
+        "name": "尾熊 迅斗",
+        "university": "國學院大",
+        "event": "half-marathon",
+        "time": "1:01:46",
+        "date": "2025-02-02",
+        "meet": "第28回日本学生ハーフマラソン選手権大会",
+        "sourceUrl": "https://gold.jaic.org/kagawa/2024/2025marugamehalf/rel003.html"
+      },
+      "matchedAthleteId": null,
+      "identity": {
+        "status": "needs-review",
+        "candidateIds": [
+          "athlete-aj25-01-1"
+        ],
+        "reasons": [
+          "university-association-only-after-performance-cutoff"
+        ],
+        "universityIds": [
+          "kokugakuin"
+        ]
+      },
+      "existingPb": null,
+      "performance": {
+        "event": "half-marathon",
+        "timeMilliseconds": 3706000,
+        "precision": "second",
+        "time": "1:01:46",
+        "achievedOn": "2025-02-02",
+        "meet": "第28回日本学生ハーフマラソン選手権大会"
+      },
+      "comparison": null,
+      "sameMeet": null,
+      "statuses": [
+        "needs-evidence"
+      ],
+      "source": {
+        "inputUrl": "https://gold.jaic.org/kagawa/2024/2025marugamehalf/rel003.html",
+        "canonicalUrl": "https://gold.jaic.org/kagawa/2024/2025marugamehalf/rel003.html",
+        "registeredSourceIds": [
+          "pilot15-source-167"
+        ]
+      },
+      "errors": [],
+      "evidenceGaps": [
+        "university-association-only-after-performance-cutoff"
+      ],
+      "duplicateOf": {
+        "inputRows": [],
+        "existingPb": false
+      },
+      "relatedRows": [],
+      "needsManualReview": true
+    },
+    {
+      "row": 11,
+      "line": 12,
+      "input": {
+        "athleteId": "athlete-aj24-02-4",
+        "name": "谷中 晴",
+        "university": "駒澤大",
+        "event": "5000m",
+        "time": "13:49.71",
+        "date": "2024-10-14",
+        "meet": "第4回出雲市陸協記録会",
+        "sourceUrl": "https://komazawa-ekiden.com/results/10-14%E6%9C%88%E7%AC%AC4%E5%9B%9E%E5%87%BA%E9%9B%B2%E5%B8%82%E9%99%B8%E5%8D%94%E8%A8%98%E9%8C%B2%E4%BC%9A/"
+      },
+      "matchedAthleteId": null,
+      "identity": {
+        "status": "needs-review",
+        "candidateIds": [
+          "athlete-aj24-02-4"
+        ],
+        "reasons": [
+          "university-association-only-after-performance-cutoff"
+        ],
+        "universityIds": [
+          "komazawa"
+        ]
+      },
+      "existingPb": null,
+      "performance": {
+        "event": "5000m",
+        "timeMilliseconds": 829710,
+        "precision": "centisecond",
+        "time": "13:49.71",
+        "achievedOn": "2024-10-14",
+        "meet": "第4回出雲市陸協記録会"
+      },
+      "comparison": null,
+      "sameMeet": null,
+      "statuses": [
+        "needs-evidence"
+      ],
+      "source": {
+        "inputUrl": "https://komazawa-ekiden.com/results/10-14%E6%9C%88%E7%AC%AC4%E5%9B%9E%E5%87%BA%E9%9B%B2%E5%B8%82%E9%99%B8%E5%8D%94%E8%A8%98%E9%8C%B2%E4%BC%9A/",
+        "canonicalUrl": "https://komazawa-ekiden.com/results/10-14%E6%9C%88%E7%AC%AC4%E5%9B%9E%E5%87%BA%E9%9B%B2%E5%B8%82%E9%99%B8%E5%8D%94%E8%A8%98%E9%8C%B2%E4%BC%9A/",
+        "registeredSourceIds": [
+          "pilot15-source-171"
+        ]
+      },
+      "errors": [],
+      "evidenceGaps": [
+        "university-association-only-after-performance-cutoff"
+      ],
+      "duplicateOf": {
+        "inputRows": [],
+        "existingPb": false
+      },
+      "relatedRows": [],
+      "needsManualReview": true
+    },
+    {
+      "row": 12,
+      "line": 13,
+      "input": {
+        "athleteId": "athlete-aj24-02-4",
+        "name": "谷中 晴",
+        "university": "駒澤大",
+        "event": "10000m",
+        "time": "28:34.14",
+        "date": "2026-06-21",
+        "meet": "あおもりディスタンスチャレンジ2026",
+        "sourceUrl": "https://komazawa-ekiden.com/results/6%E6%9C%8821%E6%97%A5%E6%97%A5%E9%9D%92%E6%A3%AE%E3%83%87%E3%82%A3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B82026/"
+      },
+      "matchedAthleteId": "athlete-aj24-02-4",
+      "identity": {
+        "status": "matched",
+        "candidateIds": [
+          "athlete-aj24-02-4"
+        ],
+        "reasons": [],
+        "universityIds": [
+          "komazawa"
+        ]
+      },
+      "existingPb": null,
+      "performance": {
+        "event": "10000m",
+        "timeMilliseconds": 1714140,
+        "precision": "centisecond",
+        "time": "28:34.14",
+        "achievedOn": "2026-06-21",
+        "meet": "あおもりディスタンスチャレンジ2026"
+      },
+      "comparison": "new-candidate",
+      "sameMeet": null,
+      "statuses": [
+        "new-candidate"
+      ],
+      "source": {
+        "inputUrl": "https://komazawa-ekiden.com/results/6%E6%9C%8821%E6%97%A5%E6%97%A5%E9%9D%92%E6%A3%AE%E3%83%87%E3%82%A3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B82026/",
+        "canonicalUrl": "https://komazawa-ekiden.com/results/6%E6%9C%8821%E6%97%A5%E6%97%A5%E9%9D%92%E6%A3%AE%E3%83%87%E3%82%A3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B82026/",
+        "registeredSourceIds": [
+          "pilot15-source-172"
+        ]
+      },
+      "errors": [],
+      "evidenceGaps": [],
+      "duplicateOf": {
+        "inputRows": [],
+        "existingPb": false
+      },
+      "relatedRows": [],
+      "needsManualReview": true
+    },
+    {
+      "row": 13,
+      "line": 14,
+      "input": {
+        "athleteId": "athlete-aj24-02-4",
+        "name": "谷中 晴",
+        "university": "駒澤大",
+        "event": "half-marathon",
+        "time": "1:00:57",
+        "date": "2025-02-02",
+        "meet": "第28回日本学生ハーフマラソン選手権大会",
+        "sourceUrl": "https://komazawa-ekiden.com/results/2%E6%9C%882%E6%97%A5%E6%97%A5%E7%AC%AC28%E5%9B%9E%E6%97%A5%E6%9C%AC%E5%AD%A6%E7%94%9F%E3%83%8F%E3%83%BC%E3%83%95%E3%83%9E%E3%83%A9%E3%82%BD%E3%83%B3%E9%81%B8%E6%89%8B%E6%A8%A9%E5%A4%A7%E4%BC%9A/"
+      },
+      "matchedAthleteId": "athlete-aj24-02-4",
+      "identity": {
+        "status": "matched",
+        "candidateIds": [
+          "athlete-aj24-02-4"
+        ],
+        "reasons": [],
+        "universityIds": [
+          "komazawa"
+        ]
+      },
+      "existingPb": null,
+      "performance": {
+        "event": "half-marathon",
+        "timeMilliseconds": 3657000,
+        "precision": "second",
+        "time": "1:00:57",
+        "achievedOn": "2025-02-02",
+        "meet": "第28回日本学生ハーフマラソン選手権大会"
+      },
+      "comparison": "new-candidate",
+      "sameMeet": null,
+      "statuses": [
+        "new-candidate"
+      ],
+      "source": {
+        "inputUrl": "https://komazawa-ekiden.com/results/2%E6%9C%882%E6%97%A5%E6%97%A5%E7%AC%AC28%E5%9B%9E%E6%97%A5%E6%9C%AC%E5%AD%A6%E7%94%9F%E3%83%8F%E3%83%BC%E3%83%95%E3%83%9E%E3%83%A9%E3%82%BD%E3%83%B3%E9%81%B8%E6%89%8B%E6%A8%A9%E5%A4%A7%E4%BC%9A/",
+        "canonicalUrl": "https://komazawa-ekiden.com/results/2%E6%9C%882%E6%97%A5%E6%97%A5%E7%AC%AC28%E5%9B%9E%E6%97%A5%E6%9C%AC%E5%AD%A6%E7%94%9F%E3%83%8F%E3%83%BC%E3%83%95%E3%83%9E%E3%83%A9%E3%82%BD%E3%83%B3%E9%81%B8%E6%89%8B%E6%A8%A9%E5%A4%A7%E4%BC%9A/",
+        "registeredSourceIds": [
+          "pilot15-source-173"
+        ]
+      },
+      "errors": [],
+      "evidenceGaps": [],
+      "duplicateOf": {
+        "inputRows": [],
+        "existingPb": false
+      },
+      "relatedRows": [],
+      "needsManualReview": true
+    },
+    {
+      "row": 14,
+      "line": 15,
+      "input": {
+        "athleteId": "athlete-aj25-02-1",
+        "name": "小山 翔也",
+        "university": "駒澤大",
+        "event": "5000m",
+        "time": "13:41.99",
+        "date": "2025-06-01",
+        "meet": "第321回日本体育大学長距離競技会",
+        "sourceUrl": "https://komazawa-ekiden.com/results/5%E6%9C%8831%E6%97%A5%E5%9C%9F%E7%AC%AC321%E5%9B%9E%E6%97%A5%E6%9C%AC%E4%BD%93%E8%82%B2%E5%A4%A7%E5%AD%A6%E9%95%B7%E8%B7%9D%E9%9B%A2%E7%AB%B6%E6%8A%80%E4%BC%9A/"
+      },
+      "matchedAthleteId": "athlete-aj25-02-1",
+      "identity": {
+        "status": "matched",
+        "candidateIds": [
+          "athlete-aj25-02-1"
+        ],
+        "reasons": [],
+        "universityIds": [
+          "komazawa"
+        ]
+      },
+      "existingPb": null,
+      "performance": {
+        "event": "5000m",
+        "timeMilliseconds": 821990,
+        "precision": "centisecond",
+        "time": "13:41.99",
+        "achievedOn": "2025-06-01",
+        "meet": "第321回日本体育大学長距離競技会"
+      },
+      "comparison": "new-candidate",
+      "sameMeet": null,
+      "statuses": [
+        "new-candidate"
+      ],
+      "source": {
+        "inputUrl": "https://komazawa-ekiden.com/results/5%E6%9C%8831%E6%97%A5%E5%9C%9F%E7%AC%AC321%E5%9B%9E%E6%97%A5%E6%9C%AC%E4%BD%93%E8%82%B2%E5%A4%A7%E5%AD%A6%E9%95%B7%E8%B7%9D%E9%9B%A2%E7%AB%B6%E6%8A%80%E4%BC%9A/",
+        "canonicalUrl": "https://komazawa-ekiden.com/results/5%E6%9C%8831%E6%97%A5%E5%9C%9F%E7%AC%AC321%E5%9B%9E%E6%97%A5%E6%9C%AC%E4%BD%93%E8%82%B2%E5%A4%A7%E5%AD%A6%E9%95%B7%E8%B7%9D%E9%9B%A2%E7%AB%B6%E6%8A%80%E4%BC%9A/",
+        "registeredSourceIds": [
+          "pilot15-source-175"
+        ]
+      },
+      "errors": [],
+      "evidenceGaps": [],
+      "duplicateOf": {
+        "inputRows": [],
+        "existingPb": false
+      },
+      "relatedRows": [],
+      "needsManualReview": true
+    },
+    {
+      "row": 15,
+      "line": 16,
+      "input": {
+        "athleteId": "athlete-aj25-02-1",
+        "name": "小山 翔也",
+        "university": "駒澤大",
+        "event": "10000m",
+        "time": "29:24.72",
+        "date": "2025-06-22",
+        "meet": "2025年度あおもりディスタンスチャレンジ記録会",
+        "sourceUrl": "https://komazawa-ekiden.com/results/6%E6%9C%8822%E6%97%A5%E6%97%A52025%E5%B9%B4%E5%BA%A6-%E3%81%82%E3%81%8A%E3%82%82%E3%82%8A%E3%83%87%E3%82%A3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B8%E8%A8%98/"
+      },
+      "matchedAthleteId": "athlete-aj25-02-1",
+      "identity": {
+        "status": "matched",
+        "candidateIds": [
+          "athlete-aj25-02-1"
+        ],
+        "reasons": [],
+        "universityIds": [
+          "komazawa"
+        ]
+      },
+      "existingPb": null,
+      "performance": {
+        "event": "10000m",
+        "timeMilliseconds": 1764720,
+        "precision": "centisecond",
+        "time": "29:24.72",
+        "achievedOn": "2025-06-22",
+        "meet": "2025年度あおもりディスタンスチャレンジ記録会"
+      },
+      "comparison": "new-candidate",
+      "sameMeet": null,
+      "statuses": [
+        "new-candidate"
+      ],
+      "source": {
+        "inputUrl": "https://komazawa-ekiden.com/results/6%E6%9C%8822%E6%97%A5%E6%97%A52025%E5%B9%B4%E5%BA%A6-%E3%81%82%E3%81%8A%E3%82%82%E3%82%8A%E3%83%87%E3%82%A3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B8%E8%A8%98/",
+        "canonicalUrl": "https://komazawa-ekiden.com/results/6%E6%9C%8822%E6%97%A5%E6%97%A52025%E5%B9%B4%E5%BA%A6-%E3%81%82%E3%81%8A%E3%82%82%E3%82%8A%E3%83%87%E3%82%A3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B8%E8%A8%98/",
+        "registeredSourceIds": [
+          "pilot15-source-176"
+        ]
+      },
+      "errors": [],
+      "evidenceGaps": [],
+      "duplicateOf": {
+        "inputRows": [],
+        "existingPb": false
+      },
+      "relatedRows": [],
+      "needsManualReview": true
+    },
+    {
+      "row": 16,
+      "line": 17,
+      "input": {
+        "athleteId": "athlete-aj25-02-1",
+        "name": "小山 翔也",
+        "university": "駒澤大",
+        "event": "half-marathon",
+        "time": "1:02:38",
+        "date": "2024-11-17",
+        "meet": "第37回2024上尾シティハーフマラソン",
+        "sourceUrl": "https://komazawa-ekiden.com/results/11%E6%9C%8817%E6%97%A5%E6%97%A5%E7%AC%AC37%E5%9B%9E2024%E4%B8%8A%E5%B0%BE%E3%82%B7%E3%83%86%E3%82%A3%E3%83%8F%E3%83%BC%E3%83%95%E3%83%9E%E3%83%A9%E3%82%BD%E3%83%B3/"
+      },
+      "matchedAthleteId": null,
+      "identity": {
+        "status": "needs-review",
+        "candidateIds": [
+          "athlete-aj25-02-1"
+        ],
+        "reasons": [
+          "university-association-only-after-performance-cutoff"
+        ],
+        "universityIds": [
+          "komazawa"
+        ]
+      },
+      "existingPb": null,
+      "performance": {
+        "event": "half-marathon",
+        "timeMilliseconds": 3758000,
+        "precision": "second",
+        "time": "1:02:38",
+        "achievedOn": "2024-11-17",
+        "meet": "第37回2024上尾シティハーフマラソン"
+      },
+      "comparison": null,
+      "sameMeet": null,
+      "statuses": [
+        "needs-evidence"
+      ],
+      "source": {
+        "inputUrl": "https://komazawa-ekiden.com/results/11%E6%9C%8817%E6%97%A5%E6%97%A5%E7%AC%AC37%E5%9B%9E2024%E4%B8%8A%E5%B0%BE%E3%82%B7%E3%83%86%E3%82%A3%E3%83%8F%E3%83%BC%E3%83%95%E3%83%9E%E3%83%A9%E3%82%BD%E3%83%B3/",
+        "canonicalUrl": "https://komazawa-ekiden.com/results/11%E6%9C%8817%E6%97%A5%E6%97%A5%E7%AC%AC37%E5%9B%9E2024%E4%B8%8A%E5%B0%BE%E3%82%B7%E3%83%86%E3%82%A3%E3%83%8F%E3%83%BC%E3%83%95%E3%83%9E%E3%83%A9%E3%82%BD%E3%83%B3/",
+        "registeredSourceIds": [
+          "pilot15-source-177"
+        ]
+      },
+      "errors": [],
+      "evidenceGaps": [
+        "university-association-only-after-performance-cutoff"
+      ],
+      "duplicateOf": {
+        "inputRows": [],
+        "existingPb": false
+      },
+      "relatedRows": [],
+      "needsManualReview": true
+    },
+    {
+      "row": 17,
+      "line": 18,
+      "input": {
+        "athleteId": "athlete-aj24-02-6",
+        "name": "安原 海晴",
+        "university": "駒澤大",
+        "event": "5000m",
+        "time": "13:52.85",
+        "date": "2025-09-27",
+        "meet": "TOKAI DISTANCE CHALLENGE 第240回東海大学長距離競技会",
+        "sourceUrl": "https://komazawa-ekiden.com/results/9%E6%9C%8827%E6%97%A5%E5%9C%9F%E3%83%BB28%E6%97%A5%E6%97%A5tokai-distance-challenge-%E7%AC%AC240%E5%9B%9E%E6%9D%B1%E6%B5%B7%E5%A4%A7%E5%AD%A6%E9%95%B7%E8%B7%9D%E9%9B%A2%E7%AB%B6%E6%8A%80%E4%BC%9A/"
+      },
+      "matchedAthleteId": "athlete-aj24-02-6",
+      "identity": {
+        "status": "matched",
+        "candidateIds": [
+          "athlete-aj24-02-6"
+        ],
+        "reasons": [],
+        "universityIds": [
+          "komazawa"
+        ]
+      },
+      "existingPb": null,
+      "performance": {
+        "event": "5000m",
+        "timeMilliseconds": 832850,
+        "precision": "centisecond",
+        "time": "13:52.85",
+        "achievedOn": "2025-09-27",
+        "meet": "TOKAI DISTANCE CHALLENGE 第240回東海大学長距離競技会"
+      },
+      "comparison": "new-candidate",
+      "sameMeet": null,
+      "statuses": [
+        "new-candidate"
+      ],
+      "source": {
+        "inputUrl": "https://komazawa-ekiden.com/results/9%E6%9C%8827%E6%97%A5%E5%9C%9F%E3%83%BB28%E6%97%A5%E6%97%A5tokai-distance-challenge-%E7%AC%AC240%E5%9B%9E%E6%9D%B1%E6%B5%B7%E5%A4%A7%E5%AD%A6%E9%95%B7%E8%B7%9D%E9%9B%A2%E7%AB%B6%E6%8A%80%E4%BC%9A/",
+        "canonicalUrl": "https://komazawa-ekiden.com/results/9%E6%9C%8827%E6%97%A5%E5%9C%9F%E3%83%BB28%E6%97%A5%E6%97%A5tokai-distance-challenge-%E7%AC%AC240%E5%9B%9E%E6%9D%B1%E6%B5%B7%E5%A4%A7%E5%AD%A6%E9%95%B7%E8%B7%9D%E9%9B%A2%E7%AB%B6%E6%8A%80%E4%BC%9A/",
+        "registeredSourceIds": [
+          "pilot15-source-178"
+        ]
+      },
+      "errors": [],
+      "evidenceGaps": [],
+      "duplicateOf": {
+        "inputRows": [],
+        "existingPb": false
+      },
+      "relatedRows": [],
+      "needsManualReview": true
+    },
+    {
+      "row": 18,
+      "line": 19,
+      "input": {
+        "athleteId": "athlete-aj24-02-6",
+        "name": "安原 海晴",
+        "university": "駒澤大",
+        "event": "10000m",
+        "time": "28:42.95",
+        "date": "2026-07-12",
+        "meet": "関東学生網走夏季記録挑戦競技会",
+        "sourceUrl": "https://komazawa-ekiden.com/results/7%E6%9C%8812%E6%97%A5%E6%97%A5%E9%96%A2%E6%9D%B1%E5%AD%A6%E7%94%9F%E7%B6%B2%E8%B5%B0%E5%A4%8F%E5%AD%A3%E8%A8%98%E9%8C%B2%E6%8C%91%E6%88%A6%E7%AB%B6%E6%8A%80%E4%BC%9A/"
+      },
+      "matchedAthleteId": "athlete-aj24-02-6",
+      "identity": {
+        "status": "matched",
+        "candidateIds": [
+          "athlete-aj24-02-6"
+        ],
+        "reasons": [],
+        "universityIds": [
+          "komazawa"
+        ]
+      },
+      "existingPb": null,
+      "performance": {
+        "event": "10000m",
+        "timeMilliseconds": 1722950,
+        "precision": "centisecond",
+        "time": "28:42.95",
+        "achievedOn": "2026-07-12",
+        "meet": "関東学生網走夏季記録挑戦競技会"
+      },
+      "comparison": "new-candidate",
+      "sameMeet": null,
+      "statuses": [
+        "new-candidate"
+      ],
+      "source": {
+        "inputUrl": "https://komazawa-ekiden.com/results/7%E6%9C%8812%E6%97%A5%E6%97%A5%E9%96%A2%E6%9D%B1%E5%AD%A6%E7%94%9F%E7%B6%B2%E8%B5%B0%E5%A4%8F%E5%AD%A3%E8%A8%98%E9%8C%B2%E6%8C%91%E6%88%A6%E7%AB%B6%E6%8A%80%E4%BC%9A/",
+        "canonicalUrl": "https://komazawa-ekiden.com/results/7%E6%9C%8812%E6%97%A5%E6%97%A5%E9%96%A2%E6%9D%B1%E5%AD%A6%E7%94%9F%E7%B6%B2%E8%B5%B0%E5%A4%8F%E5%AD%A3%E8%A8%98%E9%8C%B2%E6%8C%91%E6%88%A6%E7%AB%B6%E6%8A%80%E4%BC%9A/",
+        "registeredSourceIds": [
+          "pilot15-source-179"
+        ]
+      },
+      "errors": [],
+      "evidenceGaps": [],
+      "duplicateOf": {
+        "inputRows": [],
+        "existingPb": false
+      },
+      "relatedRows": [],
+      "needsManualReview": true
+    },
+    {
+      "row": 19,
+      "line": 20,
+      "input": {
+        "athleteId": "athlete-aj24-02-6",
+        "name": "安原 海晴",
+        "university": "駒澤大",
+        "event": "half-marathon",
+        "time": "1:01:45",
+        "date": "2026-02-01",
+        "meet": "第29回日本学生ハーフマラソン選手権大会",
+        "sourceUrl": "https://komazawa-ekiden.com/results/2%E6%9C%881%E6%97%A5%E6%97%A5%E7%AC%AC29%E5%9B%9E%E6%97%A5%E6%9C%AC%E5%AD%A6%E7%94%9F%E3%83%8F%E3%83%BC%E3%83%95%E3%83%9E%E3%83%A9%E3%82%BD%E3%83%B3%E9%81%B8%E6%89%8B%E6%A8%A9%E5%A4%A7%E4%BC%9A/"
+      },
+      "matchedAthleteId": "athlete-aj24-02-6",
+      "identity": {
+        "status": "matched",
+        "candidateIds": [
+          "athlete-aj24-02-6"
+        ],
+        "reasons": [],
+        "universityIds": [
+          "komazawa"
+        ]
+      },
+      "existingPb": null,
+      "performance": {
+        "event": "half-marathon",
+        "timeMilliseconds": 3705000,
+        "precision": "second",
+        "time": "1:01:45",
+        "achievedOn": "2026-02-01",
+        "meet": "第29回日本学生ハーフマラソン選手権大会"
+      },
+      "comparison": "new-candidate",
+      "sameMeet": null,
+      "statuses": [
+        "new-candidate"
+      ],
+      "source": {
+        "inputUrl": "https://komazawa-ekiden.com/results/2%E6%9C%881%E6%97%A5%E6%97%A5%E7%AC%AC29%E5%9B%9E%E6%97%A5%E6%9C%AC%E5%AD%A6%E7%94%9F%E3%83%8F%E3%83%BC%E3%83%95%E3%83%9E%E3%83%A9%E3%82%BD%E3%83%B3%E9%81%B8%E6%89%8B%E6%A8%A9%E5%A4%A7%E4%BC%9A/",
+        "canonicalUrl": "https://komazawa-ekiden.com/results/2%E6%9C%881%E6%97%A5%E6%97%A5%E7%AC%AC29%E5%9B%9E%E6%97%A5%E6%9C%AC%E5%AD%A6%E7%94%9F%E3%83%8F%E3%83%BC%E3%83%95%E3%83%9E%E3%83%A9%E3%82%BD%E3%83%B3%E9%81%B8%E6%89%8B%E6%A8%A9%E5%A4%A7%E4%BC%9A/",
+        "registeredSourceIds": [
+          "pilot15-source-180"
+        ]
+      },
+      "errors": [],
+      "evidenceGaps": [],
+      "duplicateOf": {
+        "inputRows": [],
+        "existingPb": false
+      },
+      "relatedRows": [],
+      "needsManualReview": true
+    },
+    {
+      "row": 20,
+      "line": 21,
+      "input": {
+        "athleteId": "athlete-aj24-06-6",
+        "name": "桜井 優我",
+        "university": "城西大",
+        "event": "5000m",
+        "time": "13:58.87",
+        "date": "2026-09-19",
+        "meet": "第2回中国実業団長距離記録会",
+        "sourceUrl": "https://www.kraftia.co.jp/marathon/member/male/yuga_sakurai.html"
+      },
+      "matchedAthleteId": "athlete-aj24-06-6",
+      "identity": {
+        "status": "matched",
+        "candidateIds": [
+          "athlete-aj24-06-6"
+        ],
+        "reasons": [],
+        "universityIds": [
+          "josai"
+        ]
+      },
+      "existingPb": null,
+      "performance": {
+        "event": "5000m",
+        "timeMilliseconds": 838870,
+        "precision": "centisecond",
+        "time": "13:58.87",
+        "achievedOn": "2026-09-19",
+        "meet": "第2回中国実業団長距離記録会"
+      },
+      "comparison": "new-candidate",
+      "sameMeet": null,
+      "statuses": [
+        "new-candidate"
+      ],
+      "source": {
+        "inputUrl": "https://www.kraftia.co.jp/marathon/member/male/yuga_sakurai.html",
+        "canonicalUrl": "https://www.kraftia.co.jp/marathon/member/male/yuga_sakurai.html",
+        "registeredSourceIds": [
+          "pilot15-source-181"
+        ]
+      },
+      "errors": [],
+      "evidenceGaps": [],
+      "duplicateOf": {
+        "inputRows": [],
+        "existingPb": false
+      },
+      "relatedRows": [],
+      "needsManualReview": true
+    },
+    {
+      "row": 21,
+      "line": 22,
+      "input": {
+        "athleteId": "athlete-aj24-06-6",
+        "name": "桜井 優我",
+        "university": "城西大",
+        "event": "10000m",
+        "time": "28:18.15",
+        "date": "2026-11-21",
+        "meet": "27th NITTAIDAI Challenge Games",
+        "sourceUrl": "https://www.kraftia.co.jp/marathon/result/2026/1121_004752.html"
+      },
+      "matchedAthleteId": "athlete-aj24-06-6",
+      "identity": {
+        "status": "matched",
+        "candidateIds": [
+          "athlete-aj24-06-6"
+        ],
+        "reasons": [],
+        "universityIds": [
+          "josai"
+        ]
+      },
+      "existingPb": null,
+      "performance": {
+        "event": "10000m",
+        "timeMilliseconds": 1698150,
+        "precision": "centisecond",
+        "time": "28:18.15",
+        "achievedOn": "2026-11-21",
+        "meet": "27th NITTAIDAI Challenge Games"
+      },
+      "comparison": "new-candidate",
+      "sameMeet": null,
+      "statuses": [
+        "new-candidate"
+      ],
+      "source": {
+        "inputUrl": "https://www.kraftia.co.jp/marathon/result/2026/1121_004752.html",
+        "canonicalUrl": "https://www.kraftia.co.jp/marathon/result/2026/1121_004752.html",
+        "registeredSourceIds": [
+          "pilot15-source-182"
+        ]
+      },
+      "errors": [],
+      "evidenceGaps": [],
+      "duplicateOf": {
+        "inputRows": [],
+        "existingPb": false
+      },
+      "relatedRows": [],
+      "needsManualReview": true
+    },
+    {
+      "row": 22,
+      "line": 23,
+      "input": {
+        "athleteId": "athlete-aj25-05-4",
+        "name": "吉倉 ナヤブ直希",
+        "university": "早稲田大",
+        "event": "5000m",
+        "time": "13:37.61",
+        "date": "2026-07-04",
+        "meet": "ホクレン・ディスタンスチャレンジ2026 千歳大会",
+        "sourceUrl": "https://waseda-ac.jp/news/detail/926"
+      },
+      "matchedAthleteId": "athlete-aj25-05-4",
+      "identity": {
+        "status": "matched",
+        "candidateIds": [
+          "athlete-aj25-05-4"
+        ],
+        "reasons": [],
+        "universityIds": [
+          "waseda"
+        ]
+      },
+      "existingPb": null,
+      "performance": {
+        "event": "5000m",
+        "timeMilliseconds": 817610,
+        "precision": "centisecond",
+        "time": "13:37.61",
+        "achievedOn": "2026-07-04",
+        "meet": "ホクレン・ディスタンスチャレンジ2026 千歳大会"
+      },
+      "comparison": "new-candidate",
+      "sameMeet": null,
+      "statuses": [
+        "new-candidate"
+      ],
+      "source": {
+        "inputUrl": "https://waseda-ac.jp/news/detail/926",
+        "canonicalUrl": "https://waseda-ac.jp/news/detail/926",
+        "registeredSourceIds": [
+          "pilot15-source-185"
+        ]
+      },
+      "errors": [],
+      "evidenceGaps": [],
+      "duplicateOf": {
+        "inputRows": [],
+        "existingPb": false
+      },
+      "relatedRows": [],
+      "needsManualReview": true
+    },
+    {
+      "row": 23,
+      "line": 24,
+      "input": {
+        "athleteId": "athlete-aj25-05-4",
+        "name": "吉倉 ナヤブ直希",
+        "university": "早稲田大",
+        "event": "10000m",
+        "time": "28:13.07",
+        "date": "2026-04-24",
+        "meet": "天皇賜盃第95回日本学生陸上競技対校選手権大会（10000m）",
+        "sourceUrl": "https://waseda-ac.jp/competition/detail/816"
+      },
+      "matchedAthleteId": "athlete-aj25-05-4",
+      "identity": {
+        "status": "matched",
+        "candidateIds": [
+          "athlete-aj25-05-4"
+        ],
+        "reasons": [],
+        "universityIds": [
+          "waseda"
+        ]
+      },
+      "existingPb": null,
+      "performance": {
+        "event": "10000m",
+        "timeMilliseconds": 1693070,
+        "precision": "centisecond",
+        "time": "28:13.07",
+        "achievedOn": "2026-04-24",
+        "meet": "天皇賜盃第95回日本学生陸上競技対校選手権大会（10000m）"
+      },
+      "comparison": "new-candidate",
+      "sameMeet": null,
+      "statuses": [
+        "new-candidate"
+      ],
+      "source": {
+        "inputUrl": "https://waseda-ac.jp/competition/detail/816",
+        "canonicalUrl": "https://waseda-ac.jp/competition/detail/816",
+        "registeredSourceIds": [
+          "pilot15-source-186"
+        ]
+      },
+      "errors": [],
+      "evidenceGaps": [],
+      "duplicateOf": {
+        "inputRows": [],
+        "existingPb": false
+      },
+      "relatedRows": [],
+      "needsManualReview": true
+    },
+    {
+      "row": 24,
+      "line": 25,
+      "input": {
+        "athleteId": "athlete-aj25-05-4",
+        "name": "吉倉 ナヤブ直希",
+        "university": "早稲田大",
+        "event": "half-marathon",
+        "time": "1:02:26",
+        "date": "2025-11-16",
+        "meet": "第38回2025上尾シティハーフマラソン",
+        "sourceUrl": "https://waseda-ac.jp/competition/detail/740"
+      },
+      "matchedAthleteId": "athlete-aj25-05-4",
+      "identity": {
+        "status": "matched",
+        "candidateIds": [
+          "athlete-aj25-05-4"
+        ],
+        "reasons": [],
+        "universityIds": [
+          "waseda"
+        ]
+      },
+      "existingPb": null,
+      "performance": {
+        "event": "half-marathon",
+        "timeMilliseconds": 3746000,
+        "precision": "second",
+        "time": "1:02:26",
+        "achievedOn": "2025-11-16",
+        "meet": "第38回2025上尾シティハーフマラソン"
+      },
+      "comparison": "new-candidate",
+      "sameMeet": null,
+      "statuses": [
+        "new-candidate"
+      ],
+      "source": {
+        "inputUrl": "https://waseda-ac.jp/competition/detail/740",
+        "canonicalUrl": "https://waseda-ac.jp/competition/detail/740",
+        "registeredSourceIds": [
+          "pilot15-source-187"
+        ]
+      },
+      "errors": [],
+      "evidenceGaps": [],
+      "duplicateOf": {
+        "inputRows": [],
+        "existingPb": false
+      },
+      "relatedRows": [],
+      "needsManualReview": true
+    },
+    {
+      "row": 25,
+      "line": 26,
+      "input": {
+        "athleteId": "athlete-aj25-05-3",
+        "name": "堀野 正太",
+        "university": "早稲田大",
+        "event": "half-marathon",
+        "time": "1:02:28",
+        "date": "2025-11-16",
+        "meet": "第38回2025上尾シティハーフマラソン",
+        "sourceUrl": "https://waseda-ac.jp/competition/detail/740"
+      },
+      "matchedAthleteId": "athlete-aj25-05-3",
+      "identity": {
+        "status": "matched",
+        "candidateIds": [
+          "athlete-aj25-05-3"
+        ],
+        "reasons": [],
+        "universityIds": [
+          "waseda"
+        ]
+      },
+      "existingPb": null,
+      "performance": {
+        "event": "half-marathon",
+        "timeMilliseconds": 3748000,
+        "precision": "second",
+        "time": "1:02:28",
+        "achievedOn": "2025-11-16",
+        "meet": "第38回2025上尾シティハーフマラソン"
+      },
+      "comparison": "new-candidate",
+      "sameMeet": null,
+      "statuses": [
+        "new-candidate"
+      ],
+      "source": {
+        "inputUrl": "https://waseda-ac.jp/competition/detail/740",
+        "canonicalUrl": "https://waseda-ac.jp/competition/detail/740",
+        "registeredSourceIds": [
+          "pilot15-source-187"
+        ]
+      },
+      "errors": [],
+      "evidenceGaps": [],
+      "duplicateOf": {
+        "inputRows": [],
+        "existingPb": false
+      },
+      "relatedRows": [],
+      "needsManualReview": true
+    },
+    {
+      "row": 26,
+      "line": 27,
+      "input": {
+        "athleteId": "athlete-aj25-05-2",
+        "name": "鈴木 琉胤",
+        "university": "早稲田大",
+        "event": "5000m",
+        "time": "13:20.64",
+        "date": "2026-04-11",
+        "meet": "第34回金栗記念選抜陸上中長距離大会",
+        "sourceUrl": "https://waseda-ac.jp/competition/detail/800"
+      },
+      "matchedAthleteId": "athlete-aj25-05-2",
+      "identity": {
+        "status": "matched",
+        "candidateIds": [
+          "athlete-aj25-05-2"
+        ],
+        "reasons": [],
+        "universityIds": [
+          "waseda"
+        ]
+      },
+      "existingPb": null,
+      "performance": {
+        "event": "5000m",
+        "timeMilliseconds": 800640,
+        "precision": "centisecond",
+        "time": "13:20.64",
+        "achievedOn": "2026-04-11",
+        "meet": "第34回金栗記念選抜陸上中長距離大会"
+      },
+      "comparison": "new-candidate",
+      "sameMeet": null,
+      "statuses": [
+        "new-candidate"
+      ],
+      "source": {
+        "inputUrl": "https://waseda-ac.jp/competition/detail/800",
+        "canonicalUrl": "https://waseda-ac.jp/competition/detail/800",
+        "registeredSourceIds": [
+          "pilot15-source-190"
+        ]
+      },
+      "errors": [],
+      "evidenceGaps": [],
+      "duplicateOf": {
+        "inputRows": [],
+        "existingPb": false
+      },
+      "relatedRows": [],
+      "needsManualReview": true
+    }
+  ],
+  "inputFile": {
+    "path": "/workspace/ekiden-pilot15/data/research/pilots/pilot15/verified-input.csv",
+    "sha256": "f579ebc53b7bd9b6b8503e44cf7b0c89550c278ef9b56be24d99adfa63bb169f"
+  },
+  "baselineSha256": "d2ba99b5077a1957a76d698b5249efd4268c583248bee4734b2cce0b20ce0540"
+}
